@@ -4,12 +4,22 @@ const path = require("path");
 const express = require("express");
 const cors = require("cors");
 const compression = require("compression");
+const rateLimit = require("express-rate-limit");
 const db = require("./db");
 const bibleData = require("./data/bible");
 const books = require("./data/books");
 
 const app = express();
 const PORT = parseInt(process.env.PORT, 10) || 3001;
+
+// Rate limit all requests: 200 requests per minute per IP
+const limiter = rateLimit({
+  windowMs: 60 * 1000,
+  max: 200,
+  standardHeaders: true,
+  legacyHeaders: false,
+});
+app.use(limiter);
 
 app.use(cors());
 app.use(compression());
