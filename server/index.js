@@ -8,6 +8,7 @@ const rateLimit = require("express-rate-limit");
 const db = require("./db");
 const bibleData = require("./data/bible");
 const books = require("./data/books");
+const { getDefinition } = require("./data/definitions");
 
 const app = express();
 const PORT = parseInt(process.env.PORT, 10) || 3001;
@@ -81,7 +82,7 @@ app.get("/api/verses/:book/:chapter", async (req, res) => {
 
   if (useDb) {
     const rows = await db.getVerses(book, chapter);
-    if (rows) return res.json({ book: bookInfo, verses: rows });
+    if (rows && rows.length > 0) return res.json({ book: bookInfo, verses: rows });
   }
 
   // Fallback to embedded data
@@ -98,12 +99,22 @@ app.get("/api/search", async (req, res) => {
 
   if (useDb) {
     const rows = await db.searchVerses(q);
-    if (rows) return res.json({ query: q, results: rows });
+    if (rows && rows.length > 0) return res.json({ query: q, results: rows });
   }
 
   // Fallback to embedded data
   const results = bibleData.searchVerses(q);
   res.json({ query: q, results });
+});
+
+// GET /api/define/:word
+app.get("/api/define/:word", (req, res) => {
+  const word = req.params.word;
+  const result = getDefinition(word);
+  if (result) {
+    return res.json(result);
+  }
+  res.status(404).json({ word: word.toLowerCase().replace(/[^a-z]/g, ""), definition: null });
 });
 
 // SPA fallback — serve index.html for non-API routes in production

@@ -5,6 +5,7 @@ import BibleViewer from './components/BibleViewer'
 import BookSelector from './components/BookSelector'
 import SearchResults from './components/SearchResults'
 import ThemeToggle from './components/ThemeToggle'
+import WordDefinition from './components/WordDefinition'
 
 function App() {
   const [books, setBooks] = useState([])
@@ -17,6 +18,8 @@ function App() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [showBookSelector, setShowBookSelector] = useState(false)
+  const [selectedWord, setSelectedWord] = useState(null)
+  const [wordPosition, setWordPosition] = useState(null)
   const initialLoad = useRef(true)
 
   // Apply theme to body
@@ -94,6 +97,16 @@ function App() {
     setSearchQuery('')
   }, [])
 
+  const handleWordClick = useCallback((word, position) => {
+    setSelectedWord(word)
+    setWordPosition(position)
+  }, [])
+
+  const handleCloseDefinition = useCallback(() => {
+    setSelectedWord(null)
+    setWordPosition(null)
+  }, [])
+
   const currentBookData = books.find(b => b.id === currentBook)
 
   const handleChapterChange = useCallback((delta) => {
@@ -146,6 +159,7 @@ function App() {
             loading={loading}
             error={error}
             onChapterChange={handleChapterChange}
+            onWordClick={handleWordClick}
           />
         )}
       </main>
@@ -157,6 +171,14 @@ function App() {
           currentChapter={currentChapter}
           onSelect={handleNavigate}
           onClose={() => setShowBookSelector(false)}
+        />
+      )}
+
+      {selectedWord && (
+        <WordDefinition
+          word={selectedWord}
+          position={wordPosition}
+          onClose={handleCloseDefinition}
         />
       )}
     </div>

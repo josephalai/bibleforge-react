@@ -42,7 +42,9 @@ describe('BibleViewer', () => {
   it('renders verses with chapter title', () => {
     render(<BibleViewer loading={false} verses={sampleVerses} bookName="Genesis" chapter={1} totalChapters={50} onChapterChange={() => {}} />)
     expect(screen.getByText('Genesis 1')).toBeInTheDocument()
-    expect(screen.getByText(/In the beginning God created/)).toBeInTheDocument()
+    // Words are individually wrapped for click-to-define, so check individual words
+    expect(screen.getByText('beginning')).toBeInTheDocument()
+    expect(screen.getAllByText('the').length).toBeGreaterThan(0)
   })
 
   it('disables prev button on first chapter', () => {

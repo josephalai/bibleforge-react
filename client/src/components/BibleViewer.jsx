@@ -1,4 +1,4 @@
-function BibleViewer({ verses, bookName, chapter, totalChapters, loading, error, onChapterChange }) {
+function BibleViewer({ verses, bookName, chapter, totalChapters, loading, error, onChapterChange, onWordClick }) {
   if (loading) {
     return (
       <div className="loading">
@@ -15,6 +15,30 @@ function BibleViewer({ verses, bookName, chapter, totalChapters, loading, error,
         <p>{error}</p>
       </div>
     )
+  }
+
+  function handleWordClick(e, word) {
+    // Strip punctuation from edges for lookup
+    const cleaned = word.replace(/^[^a-zA-Z]+|[^a-zA-Z]+$/g, '')
+    if (cleaned && onWordClick) {
+      onWordClick(cleaned, { x: e.clientX, y: e.clientY })
+    }
+  }
+
+  function renderVerseText(text) {
+    const words = text.split(/(\s+)/)
+    return words.map((token, i) => {
+      if (/^\s+$/.test(token)) return token
+      return (
+        <span
+          key={i}
+          className="word-clickable"
+          onClick={(e) => handleWordClick(e, token)}
+        >
+          {token}
+        </span>
+      )
+    })
   }
 
   return (
@@ -43,7 +67,7 @@ function BibleViewer({ verses, bookName, chapter, totalChapters, loading, error,
         {verses.map(v => (
           <span className="verse" key={v.id ?? `${v.chapter}-${v.verse}`}>
             <sup className="verse-number">{v.verse}</sup>
-            <span className="verse-text">{v.text} </span>
+            <span className="verse-text">{renderVerseText(v.text)} </span>
           </span>
         ))}
       </div>
