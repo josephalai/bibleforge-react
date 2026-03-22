@@ -1,5 +1,6 @@
 require("dotenv").config();
 
+const path = require("path");
 const express = require("express");
 const cors = require("cors");
 const compression = require("compression");
@@ -13,6 +14,12 @@ const PORT = parseInt(process.env.PORT, 10) || 3001;
 app.use(cors());
 app.use(compression());
 app.use(express.json());
+
+// Serve static files in production (Docker)
+const staticPath = process.env.STATIC_PATH;
+if (staticPath) {
+  app.use(express.static(path.resolve(__dirname, staticPath)));
+}
 
 let useDb = false;
 
@@ -88,6 +95,13 @@ app.get("/api/search", async (req, res) => {
   const results = bibleData.searchVerses(q);
   res.json({ query: q, results });
 });
+
+// SPA fallback — serve index.html for non-API routes in production
+if (staticPath) {
+  app.get("*", (_req, res) => {
+    res.sendFile(path.resolve(__dirname, staticPath, "index.html"));
+  });
+}
 
 initDataSource().then(() => {
   app.listen(PORT, () => {
