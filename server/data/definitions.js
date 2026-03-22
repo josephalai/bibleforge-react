@@ -710,42 +710,171 @@ const definitions = {
   answer: "To respond; to reply; to provide a solution.",
 };
 
+const { getLexiconEntry } = require("./lexicon");
+const { getStrongsForWord } = require("./word-map");
+
+/**
+ * Flatten nested long-definition arrays into a single array of strings.
+ */
+function flattenLong(arr) {
+  const result = [];
+  for (const item of arr) {
+    if (Array.isArray(item)) {
+      result.push(...flattenLong(item));
+    } else if (typeof item === "string") {
+      result.push(item);
+    }
+  }
+  return result;
+}
+
+/**
+ * Extract a root Strong's number from the derivation string.
+ * e.g. "from H6150 (in the sense of sterility)" -> "H6150"
+ */
+function extractRootStrongs(deriv) {
+  if (!deriv) return null;
+  const match = deriv.match(/[HG]\d+/);
+  return match ? match[0] : null;
+}
+
+/**
+ * Build a structured concordance entry from a lexicon entry.
+ */
+function buildConcordanceEntry(entry) {
+  const data = entry.data || {};
+  const def = data.def || {};
+  const pronun = data.pronun || {};
+
+  const result = {
+    originalWord: entry.base_word,
+    pronunciation: pronun.dic || pronun.sbl || "",
+    transliteration: pronun.sbl || "",
+    shortDefinition: def.short || "",
+    detailedDefinition: def.long ? flattenLong(def.long) : [],
+    strongsNumber: entry.strongs,
+    usage: entry.usage || "",
+    partOfSpeech: entry.pos || "",
+    language: entry.strongs.startsWith("H") ? "Hebrew" : "Greek",
+  };
+
+  // Build root form if derivation references another Strong's number
+  const rootKey = extractRootStrongs(data.deriv);
+  if (rootKey) {
+    const rootEntry = getLexiconEntry(rootKey);
+    if (rootEntry) {
+      const rootPronun = rootEntry.data?.pronun || {};
+      result.rootForm = {
+        originalWord: rootEntry.base_word,
+        pronunciation: rootPronun.dic || rootPronun.sbl || "",
+        strongsNumber: rootKey,
+      };
+    }
+  }
+
+  return result;
+}
+
 function getDefinition(word) {
   const key = word.toLowerCase().replace(/[^a-z]/g, "");
   if (!key) return null;
+
+  // First try Strong's concordance data
+  const strongsList = getStrongsForWord(key);
+  if (strongsList && strongsList.length > 0) {
+    const primaryEntry = getLexiconEntry(strongsList[0]);
+    if (primaryEntry) {
+      const concordance = buildConcordanceEntry(primaryEntry);
+      // Also include plain-text definition if we have one
+      const plainDef = definitions[key] || null;
+      return {
+        word: key,
+        definition: plainDef || concordance.shortDefinition,
+        concordance,
+      };
+    }
+  }
+
+  // Fall back to plain English definitions
   const def = definitions[key];
   if (def) {
     return { word: key, definition: def };
   }
-  // Try to match -eth/-est/-th verb endings to base form
-  if (key.endsWith("eth") && key.length > 4) {
-    const base = key.slice(0, -3);
-    if (definitions[base]) return { word: key, definition: definitions[base] + " (archaic third-person singular form)" };
+
+  // Try suffix matching on both Strong's and plain definitions
+  const suffixes = [
+    { suffix: "eth", minLen: 5, note: " (archaic third-person singular form)" },
+    { suffix: "est", minLen: 5, note: " (archaic second-person singular form)" },
+    { suffix: "th", minLen: 4, note: " (archaic verb form)" },
+    { suffix: "ed", minLen: 4, note: " (past tense)" },
+    { suffix: "ing", minLen: 5, note: " (present participle)" },
+    { suffix: "s", minLen: 3, note: "" },
+  ];
+
+  for (const { suffix, minLen, note } of suffixes) {
+    if (key.endsWith(suffix) && key.length >= minLen) {
+      const base = key.slice(0, -suffix.length);
+      // Check Strong's for base form
+      const baseStrongs = getStrongsForWord(base);
+      if (baseStrongs && baseStrongs.length > 0) {
+        const entry = getLexiconEntry(baseStrongs[0]);
+        if (entry) {
+          const concordance = buildConcordanceEntry(entry);
+          const plainDef = definitions[base] || null;
+          return {
+            word: key,
+            definition: (plainDef || concordance.shortDefinition) + note,
+            concordance,
+          };
+        }
+      }
+      // Check plain definitions for base form
+      if (definitions[base]) {
+        return { word: key, definition: definitions[base] + note };
+      }
+      // For -ed, also try removing just the 'd' (e.g. "loved" -> "love")
+      if (suffix === "ed") {
+        const base2 = key.slice(0, -1);
+        const base2Strongs = getStrongsForWord(base2);
+        if (base2Strongs && base2Strongs.length > 0) {
+          const entry = getLexiconEntry(base2Strongs[0]);
+          if (entry) {
+            const concordance = buildConcordanceEntry(entry);
+            const plainDef = definitions[base2] || null;
+            return {
+              word: key,
+              definition: (plainDef || concordance.shortDefinition) + note,
+              concordance,
+            };
+          }
+        }
+        if (definitions[base2]) {
+          return { word: key, definition: definitions[base2] + note };
+        }
+      }
+      // For -ing, also try base + 'e' (e.g. "loving" -> "love")
+      if (suffix === "ing") {
+        const base2 = base + "e";
+        const base2Strongs = getStrongsForWord(base2);
+        if (base2Strongs && base2Strongs.length > 0) {
+          const entry = getLexiconEntry(base2Strongs[0]);
+          if (entry) {
+            const concordance = buildConcordanceEntry(entry);
+            const plainDef = definitions[base2] || null;
+            return {
+              word: key,
+              definition: (plainDef || concordance.shortDefinition) + note,
+              concordance,
+            };
+          }
+        }
+        if (definitions[base2]) {
+          return { word: key, definition: definitions[base2] + note };
+        }
+      }
+    }
   }
-  if (key.endsWith("est") && key.length > 4) {
-    const base = key.slice(0, -3);
-    if (definitions[base]) return { word: key, definition: definitions[base] + " (archaic second-person singular form)" };
-  }
-  if (key.endsWith("th") && key.length > 3) {
-    const base = key.slice(0, -2);
-    if (definitions[base]) return { word: key, definition: definitions[base] + " (archaic verb form)" };
-  }
-  if (key.endsWith("ed") && key.length > 3) {
-    const base = key.slice(0, -2);
-    if (definitions[base]) return { word: key, definition: definitions[base] + " (past tense)" };
-    const base2 = key.slice(0, -1);
-    if (definitions[base2]) return { word: key, definition: definitions[base2] + " (past tense)" };
-  }
-  if (key.endsWith("ing") && key.length > 4) {
-    const base = key.slice(0, -3);
-    if (definitions[base]) return { word: key, definition: definitions[base] + " (present participle)" };
-    const base2 = key.slice(0, -3) + "e";
-    if (definitions[base2]) return { word: key, definition: definitions[base2] + " (present participle)" };
-  }
-  if (key.endsWith("s") && key.length > 2) {
-    const base = key.slice(0, -1);
-    if (definitions[base]) return { word: key, definition: definitions[base] };
-  }
+
   return null;
 }
 

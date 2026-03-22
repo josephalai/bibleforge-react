@@ -128,4 +128,47 @@ describe("definitions data", () => {
     assert.ok(result);
     assert.equal(result.word, "god");
   });
+
+  it("should return concordance data with Strong's number for 'plains'", () => {
+    const result = getDefinition("plains");
+    assert.ok(result);
+    assert.ok(result.concordance, "Should have concordance data");
+    assert.equal(result.concordance.strongsNumber, "H6160");
+    assert.equal(result.concordance.language, "Hebrew");
+    assert.ok(result.concordance.originalWord.length > 0);
+    assert.ok(result.concordance.pronunciation.length > 0);
+    assert.ok(result.concordance.shortDefinition.length > 0);
+    assert.ok(result.concordance.detailedDefinition.length > 0);
+  });
+
+  it("should include root form in concordance when available", () => {
+    const result = getDefinition("plains");
+    assert.ok(result.concordance.rootForm, "Should have root form");
+    assert.equal(result.concordance.rootForm.strongsNumber, "H6150");
+    assert.ok(result.concordance.rootForm.originalWord.length > 0);
+    assert.ok(result.concordance.rootForm.pronunciation.length > 0);
+  });
+
+  it("should return concordance for Greek NT words", () => {
+    const result = getDefinition("love");
+    assert.ok(result);
+    assert.ok(result.concordance, "Should have concordance data");
+    assert.equal(result.concordance.strongsNumber, "G25");
+    assert.equal(result.concordance.language, "Greek");
+  });
+
+  it("should return concordance for words with direct Strong's mapping", () => {
+    const result = getDefinition("blesseth");
+    assert.ok(result);
+    assert.ok(result.concordance, "blesseth should have concordance data");
+    assert.equal(result.concordance.strongsNumber, "H1288");
+  });
+
+  it("should still return plain definition for words without Strong's mapping", () => {
+    const result = getDefinition("hallelujah");
+    assert.ok(result);
+    assert.ok(result.definition.length > 0);
+    // 'hallelujah' has no Strong's mapping in the word map
+    assert.equal(result.concordance, undefined);
+  });
 });
