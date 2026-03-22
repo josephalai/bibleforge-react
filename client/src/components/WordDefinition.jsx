@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 
 function WordDefinition({ word, position, onClose }) {
-  const [definition, setDefinition] = useState(null)
+  const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
   const popupRef = useRef(null)
 
@@ -10,12 +10,12 @@ function WordDefinition({ word, position, onClose }) {
     setLoading(true)
     fetch(`/api/define/${encodeURIComponent(word)}`)
       .then(res => res.json())
-      .then(data => {
-        setDefinition(data.definition)
+      .then(result => {
+        setData(result)
         setLoading(false)
       })
       .catch(() => {
-        setDefinition(null)
+        setData(null)
         setLoading(false)
       })
   }, [word])
@@ -42,15 +42,17 @@ function WordDefinition({ word, position, onClose }) {
   const style = {}
   if (position) {
     style.position = 'fixed'
-    style.left = Math.min(position.x, window.innerWidth - 320)
+    style.left = Math.min(position.x, window.innerWidth - 340)
     style.top = position.y + 24
-    // If near bottom, show above
-    if (position.y + 200 > window.innerHeight) {
-      style.top = position.y - 120
+    if (position.y + 300 > window.innerHeight) {
+      style.top = Math.max(10, position.y - 320)
     }
   }
 
   if (!word) return null
+
+  const concordance = data?.concordance
+  const definition = data?.definition
 
   return (
     <div className="word-definition-popup" ref={popupRef} style={style}>
@@ -61,6 +63,38 @@ function WordDefinition({ word, position, onClose }) {
       <div className="word-definition-body">
         {loading ? (
           <span className="word-definition-loading">Looking up…</span>
+        ) : concordance ? (
+          <div className="concordance-content">
+            <div className="concordance-original">
+              <span className="concordance-original-word">{concordance.originalWord}</span>
+              <span className="concordance-separator">|</span>
+              <span className="concordance-pronunciation">{concordance.pronunciation}</span>
+              <span className="concordance-separator">|</span>
+            </div>
+            <p className="concordance-short-def">{concordance.shortDefinition}</p>
+            {concordance.detailedDefinition && concordance.detailedDefinition.length > 0 && (
+              <div className="concordance-section">
+                <div className="concordance-section-title">Detailed Definition</div>
+                <p className="concordance-detailed-def">
+                  {concordance.detailedDefinition.join(', ')}
+                </p>
+              </div>
+            )}
+            {concordance.rootForm && (
+              <div className="concordance-section">
+                <div className="concordance-section-title">Root Form</div>
+                <div className="concordance-original">
+                  <span className="concordance-original-word">{concordance.rootForm.originalWord}</span>
+                  <span className="concordance-separator">|</span>
+                  <span className="concordance-pronunciation">{concordance.rootForm.pronunciation}</span>
+                  <span className="concordance-separator">|</span>
+                </div>
+              </div>
+            )}
+            <div className="concordance-strongs">
+              Strong&apos;s #: {concordance.strongsNumber}
+            </div>
+          </div>
         ) : definition ? (
           <p className="word-definition-text">{definition}</p>
         ) : (
