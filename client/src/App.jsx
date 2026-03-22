@@ -179,6 +179,7 @@ function App() {
           word={selectedWord}
           position={wordPosition}
           onClose={handleCloseDefinition}
+          testament={currentBookData?.testament}
         />
       )}
     </div>

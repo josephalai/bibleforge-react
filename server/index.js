@@ -107,10 +107,11 @@ app.get("/api/search", async (req, res) => {
   res.json({ query: q, results });
 });
 
-// GET /api/define/:word
+// GET /api/define/:word?testament=OT|NT
 app.get("/api/define/:word", (req, res) => {
   const word = req.params.word;
-  const result = getDefinition(word);
+  const testament = req.query.testament === "NT" ? "NT" : req.query.testament === "OT" ? "OT" : undefined;
+  const result = getDefinition(word, testament);
   if (result) {
     return res.json(result);
   }

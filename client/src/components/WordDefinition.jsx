@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 
-function WordDefinition({ word, position, onClose }) {
+function WordDefinition({ word, position, onClose, testament }) {
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
   const popupRef = useRef(null)
@@ -8,7 +8,8 @@ function WordDefinition({ word, position, onClose }) {
   useEffect(() => {
     if (!word) return
     setLoading(true)
-    fetch(`/api/define/${encodeURIComponent(word)}`)
+    const params = testament ? `?testament=${testament}` : ''
+    fetch(`/api/define/${encodeURIComponent(word)}${params}`)
       .then(res => res.json())
       .then(result => {
         setData(result)
@@ -18,7 +19,7 @@ function WordDefinition({ word, position, onClose }) {
         setData(null)
         setLoading(false)
       })
-  }, [word])
+  }, [word, testament])
 
   // Close on outside click
   useEffect(() => {

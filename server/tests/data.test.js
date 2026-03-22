@@ -171,4 +171,63 @@ describe("definitions data", () => {
     // 'hallelujah' has no Strong's mapping in the word map
     assert.equal(result.concordance, undefined);
   });
+
+  it("should return Greek concordance for 'god' when testament is NT", () => {
+    const result = getDefinition("god", "NT");
+    assert.ok(result);
+    assert.ok(result.concordance, "Should have concordance data");
+    assert.ok(
+      result.concordance.strongsNumber.startsWith("G"),
+      `Expected Greek (G-prefix) but got ${result.concordance.strongsNumber}`
+    );
+    assert.equal(result.concordance.language, "Greek");
+  });
+
+  it("should return Hebrew concordance for 'god' when testament is OT", () => {
+    const result = getDefinition("god", "OT");
+    assert.ok(result);
+    assert.ok(result.concordance, "Should have concordance data");
+    assert.ok(
+      result.concordance.strongsNumber.startsWith("H"),
+      `Expected Hebrew (H-prefix) but got ${result.concordance.strongsNumber}`
+    );
+    assert.equal(result.concordance.language, "Hebrew");
+  });
+
+  it("should return Greek for NT words like 'spirit' and 'heaven'", () => {
+    const spirit = getDefinition("spirit", "NT");
+    assert.ok(spirit?.concordance);
+    assert.equal(spirit.concordance.language, "Greek");
+
+    const heaven = getDefinition("heaven", "NT");
+    assert.ok(heaven?.concordance);
+    assert.equal(heaven.concordance.language, "Greek");
+  });
+
+  it("should return Hebrew for OT words like 'spirit' and 'heaven'", () => {
+    const spirit = getDefinition("spirit", "OT");
+    assert.ok(spirit?.concordance);
+    assert.equal(spirit.concordance.language, "Hebrew");
+
+    const heaven = getDefinition("heaven", "OT");
+    assert.ok(heaven?.concordance);
+    assert.equal(heaven.concordance.language, "Hebrew");
+  });
+
+  it("should fall back to first entry when no testament provided", () => {
+    const result = getDefinition("god");
+    assert.ok(result);
+    assert.ok(result.concordance, "Should have concordance data");
+    // Without testament, picks the first entry in word-map
+    assert.ok(result.concordance.strongsNumber);
+  });
+
+  it("should fall back to available language if preferred not found", () => {
+    // 'plains' only has Hebrew Strong's entries (H6160)
+    const result = getDefinition("plains", "NT");
+    assert.ok(result);
+    assert.ok(result.concordance, "Should have concordance data");
+    // No Greek entry exists, so falls back to Hebrew
+    assert.equal(result.concordance.strongsNumber, "H6160");
+  });
 });

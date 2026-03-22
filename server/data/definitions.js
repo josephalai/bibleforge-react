@@ -775,14 +775,29 @@ function buildConcordanceEntry(entry) {
   return result;
 }
 
-function getDefinition(word) {
+/**
+ * Pick the best Strong's number from the list based on testament context.
+ * OT books should prefer Hebrew (H-prefixed), NT books should prefer Greek (G-prefixed).
+ * Falls back to the first entry if no matching-language entry exists.
+ */
+function pickStrongsForTestament(strongsList, testament) {
+  if (!strongsList || strongsList.length === 0) return null;
+  if (!testament) return strongsList[0];
+
+  const prefix = testament === "NT" ? "G" : "H";
+  const match = strongsList.find((s) => s.startsWith(prefix));
+  return match || strongsList[0];
+}
+
+function getDefinition(word, testament) {
   const key = word.toLowerCase().replace(/[^a-z]/g, "");
   if (!key) return null;
 
   // First try Strong's concordance data
   const strongsList = getStrongsForWord(key);
   if (strongsList && strongsList.length > 0) {
-    const primaryEntry = getLexiconEntry(strongsList[0]);
+    const strongsKey = pickStrongsForTestament(strongsList, testament);
+    const primaryEntry = getLexiconEntry(strongsKey);
     if (primaryEntry) {
       const concordance = buildConcordanceEntry(primaryEntry);
       // Also include plain-text definition if we have one
@@ -817,7 +832,8 @@ function getDefinition(word) {
       // Check Strong's for base form
       const baseStrongs = getStrongsForWord(base);
       if (baseStrongs && baseStrongs.length > 0) {
-        const entry = getLexiconEntry(baseStrongs[0]);
+        const strongsKey = pickStrongsForTestament(baseStrongs, testament);
+        const entry = getLexiconEntry(strongsKey);
         if (entry) {
           const concordance = buildConcordanceEntry(entry);
           const plainDef = definitions[base] || null;
@@ -837,7 +853,8 @@ function getDefinition(word) {
         const base2 = key.slice(0, -1);
         const base2Strongs = getStrongsForWord(base2);
         if (base2Strongs && base2Strongs.length > 0) {
-          const entry = getLexiconEntry(base2Strongs[0]);
+          const strongsKey = pickStrongsForTestament(base2Strongs, testament);
+          const entry = getLexiconEntry(strongsKey);
           if (entry) {
             const concordance = buildConcordanceEntry(entry);
             const plainDef = definitions[base2] || null;
@@ -857,7 +874,8 @@ function getDefinition(word) {
         const base2 = base + "e";
         const base2Strongs = getStrongsForWord(base2);
         if (base2Strongs && base2Strongs.length > 0) {
-          const entry = getLexiconEntry(base2Strongs[0]);
+          const strongsKey = pickStrongsForTestament(base2Strongs, testament);
+          const entry = getLexiconEntry(strongsKey);
           if (entry) {
             const concordance = buildConcordanceEntry(entry);
             const plainDef = definitions[base2] || null;
