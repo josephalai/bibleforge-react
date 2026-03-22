@@ -2,6 +2,7 @@ const { describe, it } = require("node:test");
 const assert = require("node:assert/strict");
 const books = require("../data/books");
 const bible = require("../data/bible");
+const { getDefinition } = require("../data/definitions");
 
 describe("books data", () => {
   it("should have 66 books (plus null at index 0)", () => {
@@ -56,13 +57,16 @@ describe("bible verse data", () => {
     assert.ok(verses[0].text.includes("In the beginning was the Word"));
   });
 
-  it("should return placeholder for unavailable chapters", () => {
-    const verses = bible.getVerses(2, 1); // Exodus 1 (not embedded)
+  it("should return verses for Exodus 1 (full Bible embedded)", () => {
+    const verses = bible.getVerses(2, 1);
+    assert.ok(verses.length > 1);
+    assert.ok(verses[0].text.includes("children of Israel"));
+  });
+
+  it("should return placeholder for invalid chapter", () => {
+    const verses = bible.getVerses(1, 99); // Genesis only has 50 chapters
     assert.ok(verses.length > 0);
-    assert.ok(
-      verses[0].text.includes("Full Bible text") ||
-        verses[0].text.includes("Docker")
-    );
+    assert.ok(verses[0].text.includes("Chapter not found"));
   });
 
   it("should search verses by keyword", () => {
@@ -79,5 +83,49 @@ describe("bible verse data", () => {
   it("should return empty array for unmatched search", () => {
     const results = bible.searchVerses("xyznonexistent");
     assert.equal(results.length, 0);
+  });
+});
+
+describe("definitions data", () => {
+  it("should return definition for common biblical words", () => {
+    const result = getDefinition("God");
+    assert.ok(result);
+    assert.equal(result.word, "god");
+    assert.ok(result.definition.length > 0);
+  });
+
+  it("should return definition for archaic words", () => {
+    const result = getDefinition("thee");
+    assert.ok(result);
+    assert.ok(result.definition.includes("You"));
+  });
+
+  it("should return definition for theological terms", () => {
+    const result = getDefinition("salvation");
+    assert.ok(result);
+    assert.ok(result.definition.includes("Deliverance"));
+  });
+
+  it("should handle suffix matching for -eth verbs", () => {
+    const result = getDefinition("blesseth");
+    assert.ok(result);
+    assert.equal(result.word, "blesseth");
+  });
+
+  it("should handle plural words via -s matching", () => {
+    const result = getDefinition("prophets");
+    assert.ok(result);
+    assert.equal(result.word, "prophets");
+  });
+
+  it("should return null for unknown words", () => {
+    const result = getDefinition("xyznonexistent");
+    assert.equal(result, null);
+  });
+
+  it("should strip punctuation from input", () => {
+    const result = getDefinition("God,");
+    assert.ok(result);
+    assert.equal(result.word, "god");
   });
 });
