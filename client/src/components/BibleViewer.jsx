@@ -21,7 +21,16 @@ function BibleViewer({ verses, bookName, chapter, totalChapters, loading, error,
     // Strip punctuation from edges for lookup
     const cleaned = word.replace(/^[^a-zA-Z]+|[^a-zA-Z]+$/g, '')
     if (cleaned && onWordClick) {
-      onWordClick(cleaned, { x: e.clientX, y: e.clientY })
+      const rect = e.currentTarget.getBoundingClientRect()
+      onWordClick(cleaned, {
+        x: rect.left + rect.width / 2,
+        y: rect.top,
+        bottom: rect.bottom,
+        left: rect.left,
+        right: rect.right,
+        width: rect.width,
+        height: rect.height,
+      })
     }
   }
 
