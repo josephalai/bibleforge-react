@@ -695,3 +695,113 @@ body.theme-dark {
   font-weight: 600;
   color: var(--accent);
 }
+
+/* ── Popup toggle bar ── */
+.popup-toggles {
+  display: flex;
+  gap: 12px;
+  padding: 5px 14px 6px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-secondary);
+}
+
+.popup-toggle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  user-select: none;
+}
+
+.popup-toggle input[type="checkbox"] {
+  width: 11px;
+  height: 11px;
+  cursor: pointer;
+  accent-color: var(--accent);
+  margin: 0;
+}
+
+.popup-toggle span {
+  letter-spacing: 0.02em;
+}
+
+.popup-toggle:hover span {
+  color: var(--text-primary);
+}
+
+/* ── Divider between concordance and metaphysical ── */
+.popup-section-divider {
+  height: 1px;
+  background: var(--border);
+  margin: 12px 0;
+}
+
+/* ── Metaphysical / MIB section ── */
+.mib-content {
+  font-size: 0.91rem;
+  line-height: 1.55;
+}
+
+.mib-section-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  opacity: 0.8;
+  margin-bottom: 6px;
+}
+
+.mib-header {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.mib-word {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.mib-pronunciation {
+  font-style: italic;
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+}
+
+.mib-etymology {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.mib-definition {
+  margin: 0 0 8px 0;
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.mib-metaphysical {
+  margin: 0 0 8px 0;
+  color: var(--text-primary);
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+
+.mib-refs {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 6px;
+  letter-spacing: 0.01em;
+}
+
+.mib-none {
+  margin-top: 8px;
+}

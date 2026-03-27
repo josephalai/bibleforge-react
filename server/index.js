@@ -9,6 +9,7 @@ const db = require("./db");
 const bibleData = require("./data/bible");
 const books = require("./data/books");
 const { getDefinition } = require("./data/definitions");
+const { getMIBEntry } = require("./data/mib");
 
 const app = express();
 const PORT = parseInt(process.env.PORT, 10) || 3001;
@@ -105,6 +106,17 @@ app.get("/api/search", async (req, res) => {
   // Fallback to embedded data
   const results = bibleData.searchVerses(q);
   res.json({ query: q, results });
+});
+
+// GET /api/metaphysical/:word?strongs=H216,G5457
+app.get("/api/metaphysical/:word", (req, res) => {
+  const word = req.params.word;
+  const strongs = req.query.strongs
+    ? req.query.strongs.split(",").map(s => s.trim()).filter(Boolean)
+    : [];
+  const entry = getMIBEntry(word, strongs);
+  if (entry) return res.json(entry);
+  res.status(404).json({ word, metaphysical: null });
 });
 
 // GET /api/define/:word?testament=OT|NT
