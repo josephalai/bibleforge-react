@@ -302,9 +302,11 @@ def is_entry_header(line: str, prev_line_blank: bool) -> bool:
     if wc > 10:
         return False
 
-    # Reject word-suffix continuations (e.g. "earth— ly speaking")
+    # Reject word-suffix continuations (e.g. "connect— ed to something")
+    # but NOT when the pre-dash text is a single clean headword like "earth"
+    # because the suffix may be an OCR artifact in the definition text.
     m = _SUFFIX_RE.match(after)
-    if m and m.group(1) in _SUFFIX_SET:
+    if m and m.group(1) in _SUFFIX_SET and wc > 1:
         return False
 
     # For longer pre-dash text without a comma, reject sentence patterns
@@ -447,6 +449,24 @@ def main():
     entries = parse_all(text)
     entries.sort(key=lambda e: e.get('word', '').lower())
     print(f"      ✓ {len(entries):,} entries parsed")
+
+    # Post-processing: clean up definitions that start with OCR suffix artifacts.
+    # e.g. "earth— ly speaking, the earth represents..." → trim the broken prefix.
+    suffix_cleaned = 0
+    for entry in entries:
+        defn = entry.get('definition', '')
+        if defn:
+            m = re.match(r'^([a-z]{1,5})\s+speaking\b[,;:]?\s*(.*)', defn)
+            if m:
+                rest = m.group(2)
+                if rest and rest[0].islower():
+                    # Capitalize the first letter of the real definition
+                    entry['definition'] = rest[0].upper() + rest[1:]
+                elif rest:
+                    entry['definition'] = rest
+                suffix_cleaned += 1
+    if suffix_cleaned:
+        print(f"      ✓ Cleaned {suffix_cleaned} OCR suffix artifacts in definitions")
 
     print("\n[3/4] Writing JSON...")
     with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
