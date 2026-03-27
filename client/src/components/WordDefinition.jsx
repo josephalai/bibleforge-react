@@ -123,19 +123,24 @@ function WordDefinition({ word, position, onClose, testament }) {
             {toggles.concordance && (
               concordance ? (
                 <div className="concordance-content">
+                  <div className="concordance-strongs">
+                    Strong&apos;s #{concordance.strongsNumber}
+                    <span className="concordance-lang">{concordance.language}</span>
+                  </div>
                   <div className="concordance-original">
                     <span className="concordance-original-word">{concordance.originalWord}</span>
                     <span className="concordance-separator">|</span>
                     <span className="concordance-pronunciation">{concordance.pronunciation}</span>
-                    <span className="concordance-separator">|</span>
                   </div>
                   <p className="concordance-short-def">{concordance.shortDefinition}</p>
                   {concordance.detailedDefinition && concordance.detailedDefinition.length > 0 && (
                     <div className="concordance-section">
-                      <div className="concordance-section-title">Also translated as</div>
-                      <p className="concordance-detailed-def">
-                        {concordance.detailedDefinition.slice(0, 5).join(', ')}
-                      </p>
+                      <div className="concordance-section-title">Detailed Definition</div>
+                      <ul className="concordance-detailed-list">
+                        {concordance.detailedDefinition.map((item, i) => (
+                          <li key={i}>{item}</li>
+                        ))}
+                      </ul>
                     </div>
                   )}
                   {concordance.rootForm && (
@@ -145,13 +150,9 @@ function WordDefinition({ word, position, onClose, testament }) {
                         <span className="concordance-original-word">{concordance.rootForm.originalWord}</span>
                         <span className="concordance-separator">|</span>
                         <span className="concordance-pronunciation">{concordance.rootForm.pronunciation}</span>
-                        <span className="concordance-separator">|</span>
                       </div>
                     </div>
                   )}
-                  <div className="concordance-strongs">
-                    Strong&apos;s #: {concordance.strongsNumber}
-                  </div>
                 </div>
               ) : definition ? (
                 <p className="word-definition-text">{definition}</p>
