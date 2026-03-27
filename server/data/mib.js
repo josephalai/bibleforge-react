@@ -4,7 +4,7 @@
  */
 
 const path = require('path');
-const mib = require(path.join(__dirname, '../../custom-resources/metaphysical-bible-dictionary.json'));
+const mib = require(path.join(__dirname, 'metaphysical-bible-dictionary.json'));
 
 function normalize(word) {
   return word.replace(/[^a-z0-9\s-]/gi, '').trim().toLowerCase();
