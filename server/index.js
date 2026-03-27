@@ -14,6 +14,7 @@ const { getGematria } = require("./data/gematria");
 
 const cookieParser = require("cookie-parser");
 const authRoutes = require("./routes/auth");
+const versesRoutes = require("./routes/verses");
 
 const app = express();
 const PORT = parseInt(process.env.PORT, 10) || 3001;
@@ -52,6 +53,9 @@ async function initDataSource() {
 
 // Auth routes
 app.use("/api/auth", authRoutes);
+
+// Stars & Notes routes
+app.use("/api", versesRoutes);
 
 // GET /api/health
 app.get("/api/health", async (_req, res) => {

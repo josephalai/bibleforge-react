@@ -7,6 +7,7 @@ import SearchResults from './components/SearchResults'
 import ThemeToggle from './components/ThemeToggle'
 import WordDefinition from './components/WordDefinition'
 import AuthModal from './components/AuthModal'
+import NotebookPanel from './components/NotebookPanel'
 import { useAuth } from './contexts/AuthContext'
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
   const [selectedWord, setSelectedWord] = useState(null)
   const [wordPosition, setWordPosition] = useState(null)
   const [showAuthModal, setShowAuthModal] = useState(false)
+  const [stars, setStars] = useState([])
+  const [notes, setNotes] = useState([])
+  const [showNotebook, setShowNotebook] = useState(false)
   const initialLoad = useRef(true)
 
   // Apply theme to body
@@ -49,6 +53,42 @@ function App() {
         setLoading(false)
       })
   }, [])
+
+  const getAuthHeaders = useCallback(() => {
+    const token = localStorage.getItem('bf-token')
+    return token ? { Authorization: `Bearer ${token}` } : {}
+  }, [])
+
+  const fetchStarsAndNotes = useCallback((bookId, chapter) => {
+    if (!user) {
+      setStars([])
+      setNotes([])
+      return
+    }
+    const headers = getAuthHeaders()
+    const opts = { headers, credentials: 'include' }
+
+    fetch(`/api/stars?book=${bookId}&chapter=${chapter}`, opts)
+      .then(res => {
+        if (!res.ok) throw new Error('skip')
+        return res.json()
+      })
+      .then(data => setStars(data))
+      .catch(() => setStars([]))
+
+    fetch(`/api/notes?book=${bookId}&chapter=${chapter}`, opts)
+      .then(res => {
+        if (!res.ok) throw new Error('skip')
+        return res.json()
+      })
+      .then(data => setNotes(data))
+      .catch(() => setNotes([]))
+  }, [user, getAuthHeaders])
+
+  // Fetch stars/notes when chapter or user changes
+  useEffect(() => {
+    fetchStarsAndNotes(currentBook, currentChapter)
+  }, [currentBook, currentChapter, user, fetchStarsAndNotes])
 
   // Fetch books on mount, then load initial chapter
   useEffect(() => {
@@ -111,6 +151,56 @@ function App() {
     setWordPosition(null)
   }, [])
 
+  const handleToggleStar = useCallback(async (verseNum, currentlyStarred) => {
+    if (!user) return
+    const headers = { 'Content-Type': 'application/json', ...getAuthHeaders() }
+    const body = JSON.stringify({ book: currentBook, chapter: currentChapter, verse: verseNum })
+    try {
+      const res = await fetch('/api/stars', {
+        method: currentlyStarred ? 'DELETE' : 'POST',
+        headers,
+        credentials: 'include',
+        body,
+      })
+      if (res.ok) {
+        if (currentlyStarred) {
+          setStars(prev => prev.filter(s => s.verse !== verseNum))
+        } else {
+          setStars(prev => [...prev, { verse: verseNum, book: currentBook, chapter: currentChapter }])
+        }
+      }
+    } catch {
+      // silently fail
+    }
+  }, [user, currentBook, currentChapter, getAuthHeaders])
+
+  const handleEditNote = useCallback(async (verseNum, content) => {
+    if (!user) return
+    const headers = { 'Content-Type': 'application/json', ...getAuthHeaders() }
+    try {
+      const res = await fetch('/api/notes', {
+        method: 'POST',
+        headers,
+        credentials: 'include',
+        body: JSON.stringify({ book: currentBook, chapter: currentChapter, verse: verseNum, content }),
+      })
+      if (res.ok) {
+        const saved = await res.json()
+        setNotes(prev => {
+          const existing = prev.findIndex(n => n.verse === verseNum)
+          if (existing >= 0) {
+            const updated = [...prev]
+            updated[existing] = saved
+            return updated
+          }
+          return [...prev, saved]
+        })
+      }
+    } catch {
+      // silently fail
+    }
+  }, [user, currentBook, currentChapter, getAuthHeaders])
+
   const currentBookData = books.find(b => b.id === currentBook)
 
   const handleChapterChange = useCallback((delta) => {
@@ -142,6 +232,14 @@ function App() {
           </button>
           {authLoading ? null : user ? (
             <div className="user-controls">
+              <button
+                className="notebook-toggle-btn"
+                onClick={() => setShowNotebook(v => !v)}
+                aria-label="Toggle notebook"
+                title="Notebook"
+              >
+                📓
+              </button>
               <span className="user-display-name">{user.displayName || user.email}</span>
               <button className="sign-out-btn" onClick={logout}>Sign Out</button>
             </div>
@@ -172,6 +270,12 @@ function App() {
             error={error}
             onChapterChange={handleChapterChange}
             onWordClick={handleWordClick}
+            stars={stars}
+            notes={notes}
+            onToggleStar={handleToggleStar}
+            onEditNote={handleEditNote}
+            onShowAuthModal={() => setShowAuthModal(true)}
+            user={user}
           />
         )}
       </main>
@@ -197,6 +301,17 @@ function App() {
 
       {showAuthModal && (
         <AuthModal onClose={() => setShowAuthModal(false)} />
+      )}
+
+      {showNotebook && user && (
+        <NotebookPanel
+          books={books}
+          currentBook={currentBook}
+          currentChapter={currentChapter}
+          user={user}
+          onClose={() => setShowNotebook(false)}
+          onNavigate={handleNavigate}
+        />
       )}
     </div>
   )
