@@ -1,0 +1,1418 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "23 of 37",
+  "_entry_range": "ids 2200–2299",
+  "entries": [
+    {
+      "id": 2200,
+      "word": "Machpelah",
+      "etym": "Heb .",
+      "mibDef": "double (cave); equally divided; double; twofold; manifold;",
+      "mibMeta": "Subconscious body substance (a field, in which there was a cave). Abraham and the others who were buried in this cave represent higher awakening thought activities in us. When these thoughts have done their work in the conscious realm of our mind, for the time being they give way to other succeeding",
+      "candidates": [
+        {
+          "s": "H4375",
+          "def": "Makpelah, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2201,
+      "word": "Madai",
+      "etym": "Heb.",
+      "mibDef": "Media; Medes; sufficiency; measurability; indefinite capacity; middle",
+      "mibMeta": "The phase of being in man that MADMENAH lies between the outer or conscious thinking mind and the superconscious mind, or Spirit ( middle portion); the psychic realm.",
+      "candidates": []
+    },
+    {
+      "id": 2202,
+      "word": "Madmannah",
+      "etym": "Heb.",
+      "mibDef": "dunghill; manure heap.",
+      "mibMeta": "A thought center deep within the subconscious mind that receives from the conscious mind, preparatory to casting it entirely from the consciousness and the body, that which the individual has denied and has thus released from his thoughts as being no longer of value to him (dunghill, manure heap; Pa",
+      "candidates": []
+    },
+    {
+      "id": 2203,
+      "word": "Madmen",
+      "etym": "Heb.",
+      "mibDef": "dunghill; manure heap.",
+      "mibMeta": "The very low opinion (dunghill) that the carnal mind in man (Moab) entertains concerning man's true, higher, religious or spiritual, consciousness (Israel). This opinion must be cast out by the word of Truth (sword). \"Thou also, O Madmen, shalt be brought to silence; the sword shall pursue thee.\"",
+      "candidates": []
+    },
+    {
+      "id": 2204,
+      "word": "Madmenah",
+      "etym": "Heb.",
+      "mibDef": "dunghill; manure heap.",
+      "mibMeta": "The significance is virtually the same as that of Madmen, except that Madmenah, a town of Benjamin, refers to the attitude that our active faith in God (Benjamin) has toward the lesser thoughts and activities of the personal, or outer, carnal man. When man allows the thoughts of the intellect guided",
+      "candidates": [
+        {
+          "s": "H4088",
+          "def": "Madmenah, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2205,
+      "word": "Madon",
+      "etym": "Heb .",
+      "mibDef": "contention; quarrel; strife; from Dan; place of judgment; extension;",
+      "mibMeta": "The established belief of the outer man that he must contend for his rights; that he will receive justice only by striving for it in a personal way (contention, strife, quarrel, from Dan, place of judgment). Madon's being conquered by Joshua bespeaks the introduction of a higher idea of justice into",
+      "candidates": []
+    },
+    {
+      "id": 2206,
+      "word": "Magadan (A. V.",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "elevation; tower; fortress; castle;",
+      "mibMeta": "Exalting and magnifying strength in consciousness (a village of Naphtali, and meaning elevation, tower, castle, fortress, greatness).",
+      "candidates": []
+    },
+    {
+      "id": 2207,
+      "word": "Magbish",
+      "etym": "Heb.",
+      "mibDef": "gathering; kneading together; agglutination; stiffening; amassing; a",
+      "mibMeta": "That in man's higher consciousness which attracts, gathers together, unifies, conserves (gathering, kneading together, amassing, a height). This quality leads to one's being reestablished in substance and Truth after having been entangled in sense confusion (captured by the Babylonians). Magdalene, ",
+      "candidates": []
+    },
+    {
+      "id": 2208,
+      "word": "Magdiel",
+      "etym": "Heb .",
+      "mibDef": "excellence of God; most precious fruits of God; praise of God; God",
+      "mibMeta": "Esau and Edom signify the outer physical consciousness and organism of man. Magdiel indicates the truth about the outer and seemingly material phase of man's being. This truth is that even man's apparently physical body is the precious fruit of God. It has its origin in Spirit, and is innately spiri",
+      "candidates": []
+    },
+    {
+      "id": 2209,
+      "word": "magnify the Lord",
+      "etym": "",
+      "mibDef": "The mind possesses magnifying power, which it exercises habitually, either",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1431",
+          "def": "to be (causatively make) large (in various senses, as in body, mind, estate or honor, also in pride)"
+        },
+        {
+          "s": "G3170",
+          "def": "to make (or declare) great, i.e., increase or (figuratively) extol"
+        },
+        {
+          "s": "H7679",
+          "def": "to grow, i.e., (causatively) to enlarge, (figuratively) laud"
+        },
+        {
+          "s": "G1392",
+          "def": "to render (or esteem) glorious (in a wide application)"
+        }
+      ]
+    },
+    {
+      "id": 2210,
+      "word": "Magog",
+      "etym": "Heb.",
+      "mibDef": "region of Gog; from the upper, i. e., north; elasticity; extreme",
+      "mibMeta": "See GOG.",
+      "candidates": []
+    },
+    {
+      "id": 2211,
+      "word": "Magor-missabib",
+      "etym": "Heb.",
+      "mibDef": "/ear all round; fear everywhere; terror is about;",
+      "mibMeta": "\"For thus saith Jehovah, Behold, I will make thee a terror to thyself, and to all thy friends; and they shall fall by the sword of their enemies, and thine eyes shall behold it\" (Jer. 20:4). Pashhur, whom Jeremiah renamed Magor-missabib, signifies that in man which perceives the goodness of God, and",
+      "candidates": []
+    },
+    {
+      "id": 2212,
+      "word": "Magpiash",
+      "etym": "Heb .",
+      "mibDef": "collector of a star cluster; driven together in a cluster; plague of",
+      "mibMeta": "Stars signify truths that are as yet very dimly apprehended. Magpiash ( collector of a star cluster, driven together in a cluster, moth-killer), a priest or chief of the Israelitish people, who joined Nehemiah in sealing the covenant, pertains to an innate Truth ideal in consciousness that grasps an",
+      "candidates": []
+    },
+    {
+      "id": 2213,
+      "word": "Mahalaleel (A. V.",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "mighty rising; glory of brightness;",
+      "mibMeta": "Man expressing his innate tendency to praise God, to hold to the light, to the good. To exalt God in consciousness is very uplifting to the individual.",
+      "candidates": [
+        {
+          "s": "H4111",
+          "def": "Mahalalel, the name of an antediluvian patriarch and of an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2214,
+      "word": "Mahalalel (A. V.",
+      "etym": "Heb.",
+      "mibDef": "mighty rising; glory of brightness; mighty",
+      "mibMeta": "Like Mahalaleel, Mahalalel signifies that in man which praises and blesses and glorifies God, the good. It is the higher Judah attitude, the attitude of praise and prayer in expression.",
+      "candidates": []
+    },
+    {
+      "id": 2215,
+      "word": "Mahalath",
+      "etym": "Heb .",
+      "mibDef": "beautifully adorned; mild; smooth, pleasing to the touch;",
+      "mibMeta": "A peaceful, harmonious, light, rhythmically active, and tuneful attitude of the soul, expressing on the carnal or human plane of the soul consciousness, and also on a higher and more enlightened plane.",
+      "candidates": [
+        {
+          "s": "H4258",
+          "def": "Machalath, the name of an Ishmaelitess and of an Israelitess"
+        },
+        {
+          "s": "H4257",
+          "def": "'Machalath', probably the title (initial word) of a popular song"
+        }
+      ]
+    },
+    {
+      "id": 2216,
+      "word": "Mahanaim",
+      "etym": "Heb.",
+      "mibDef": "two camps; two hosts; encampments; armies; hosts.",
+      "mibMeta": "Mahanaim, in individual consciousness, pertains to spiritual ideas and the mental realm of man —two hosts. This significance is brought out very clearly in the naming of the place by Jacob: \"And Jacob went on his way, and the angels of God met him. And Jacob said when he saw them. This is God's host",
+      "candidates": [
+        {
+          "s": "H4266",
+          "def": "Machanajim, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2217,
+      "word": "Mahaneh-dan",
+      "etym": "Heb .",
+      "mibDef": "encampment of Dan; camp of judgment; host of",
+      "mibMeta": "The judgment faculty (Dan) in temporary session ( camp of judgment, inclined unto judgment) in Kiriath-jearim of Judah, or illumination and praise, preparatory to a further establishment of the power of discernment and discrimination (judgment) throughout the consciousness.",
+      "candidates": []
+    },
+    {
+      "id": 2218,
+      "word": "Maharai",
+      "etym": "Heb.",
+      "mibDef": "hasty; quick; swift; prompt; apt; skilled; impetuous; hurried;",
+      "mibMeta": "A quickness of thought and action, based on spiritual intelligence and ability (quick, swift, prompt, apt, skilled) but with a very human tendency, as yet, to rush headlong, without due deliberation (impetuous, hasty, rash).",
+      "candidates": [
+        {
+          "s": "H4121",
+          "def": "Maharai, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2219,
+      "word": "Mahath",
+      "etym": "Heb .",
+      "mibDef": "taking; grasping; fire pan; censer; breaking in pieces; extinguishing;",
+      "mibMeta": "Like Ahimoth, breaking up and disorganizing seeming error in consciousness (breaking in pieces, destruction, dissolution); also mentally laying hold of higher ideals (taking, grasping). Fire pan, censer, definitions of Mahath, suggest transmutation too.",
+      "candidates": [
+        {
+          "s": "H4287",
+          "def": "Machath, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2220,
+      "word": "Mahavite",
+      "etym": "fr. Heb.",
+      "mibDef": "live messenger; marrowy; preservation of life; living",
+      "mibMeta": "A messenger is one who brings tidings; in consciousness a messenger is an enlightening thought. Marrowy suggests one's most secret and innermost thoughts and tendencies, which can be discerned and brought to light only by Spirit through the spoken word (see Heb. 4: 12). Marrowy also refers to the in",
+      "candidates": []
+    },
+    {
+      "id": 2221,
+      "word": "Mahazioth",
+      "etym": "Heb.",
+      "mibDef": "visions; oracles; prophecies; revelations; divine",
+      "mibMeta": "Clear seeing, keenness of perception, of comprehension; spiritual inspiration, expressing as harmony, order, rhythm, music, in individual consciousness.",
+      "candidates": []
+    },
+    {
+      "id": 2222,
+      "word": "Maher-shalal-hash-baz",
+      "etym": "Heb.",
+      "mibDef": "hastening spoiler will hush and tear",
+      "mibMeta": "The rapidity with which the law of cause and effect works. The two phases of the law are virtually one, certain causes being followed almost immediately by their corresponding effects, or results. Mahlah (in A. V., I Chronicles 7:18 Mahalah), mSh’-lah (Heb.)- polished, smoothness; sweet; pleasing; c",
+      "candidates": []
+    },
+    {
+      "id": 2223,
+      "word": "Mahli (A. V.",
+      "etym": "Heb.",
+      "mibDef": "smooth; pleasing; caressing; sweet; mild; worn; weak;",
+      "mibMeta": "A negative, drooping, pining, sickly thought in consciousness, which is the result of the bitter, excited state of mind that Merari, father of Mahli, signifies. (Merari was a son of Levi, and Levi was the son of Jacob that represents the love faculty in man. That which Merari and Mahli signify is th",
+      "candidates": [
+        {
+          "s": "H4249",
+          "def": "Machli, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2224,
+      "word": "Mahlon",
+      "etym": "Heb.",
+      "mibDef": "mild; weakness; disease; sickness; sickly; wasting; pining.",
+      "mibMeta": "See CHILION.",
+      "candidates": [
+        {
+          "s": "H4248",
+          "def": "Machlon, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2225,
+      "word": "Mahol",
+      "etym": "Heb.",
+      "mibDef": "circling; whirling; dancing; twisting; wresting; writhing; shaking;",
+      "mibMeta": "The play of the intellect in man, guided by the senses, by outer seeming, in thinking out problems ( dancing , twisting, wresting). The intellect of man, unless inspired and directed by Spirit, works in a circle (circling, whirling), never really getting anywhere but always coming back to the point ",
+      "candidates": []
+    },
+    {
+      "id": 2226,
+      "word": "Makaz",
+      "etym": "Heb .",
+      "mibDef": "end; termination; extremity; objective; aim; ambition; hope.",
+      "mibMeta": "The significance of Makaz is given under Ben-deker, since the two names are so closely related in the text. (See BEN— DEKER.)",
+      "candidates": []
+    },
+    {
+      "id": 2227,
+      "word": "Makheloth",
+      "etym": "Heb.",
+      "mibDef": "convocations; assemblies; meetings.",
+      "mibMeta": "An assembling of one's truest, highest thoughts (Israelites) in the great wilderness of one's undisciplined consciousness, that a certain centralization or poise may be gained.",
+      "candidates": []
+    },
+    {
+      "id": 2228,
+      "word": "Makkedah",
+      "etym": "Heb.",
+      "mibDef": "pointing; marking; selecting, i. c., for excellence; place of",
+      "mibMeta": "The consciousness perceiving through discrimination, judgment, the true spiritual quality of man's inner life, strength, and substance (marking, selecting, i. c., for excellence, place of herdsmen, place of shepherds). Thus the subconscious life and strength, or seemingly animal forces, are lifted u",
+      "candidates": [
+        {
+          "s": "H4719",
+          "def": "Makkedah, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2229,
+      "word": "Maktesh",
+      "etym": "Heb .",
+      "mibDef": "pounding; mashing; crushing; grinding; mortar; depression; tooth",
+      "mibMeta": "\"Wail, ye inhabitants of Maktesh [OThe mortar, \" margin]; for all the people of Canaan / \"the merchant people, \" margin] are undone; all they that were laden with silver are cut off.\" Webster tells us that a mortar is a strong bowllike vessel in which substances are pounded or rubbed with a pestle; ",
+      "candidates": []
+    },
+    {
+      "id": 2230,
+      "word": "Malachi",
+      "etym": "Web.",
+      "mibDef": "one sent of Jehovah; messenger of Jehovah; angel of Jehovah; angel",
+      "mibMeta": "The voice of conscience in man calls his attention to his shortcomings and encourages him to do right. Conscience is symbolized by Malachi (\"my messenger,\" margin of Mai. 1 : 1 ). All real lasting wealth and happiness are based on unity with God. Malachi will tell you this, or you can prove it for y",
+      "candidates": []
+    },
+    {
+      "id": 2231,
+      "word": "Malcam (A. V.",
+      "etym": "Heb .",
+      "mibDef": "their king; their ruler; their counseling.",
+      "mibMeta": "Setting up the outer reasoning or thinking consciousness as king, thus giving it dominion in one's life. Especially does Malcam as referring to the idol Molech signify the worship of the intellect, or reason, directed entirely by the senses, by the prejudices, seemings, customs, and desires of the o",
+      "candidates": []
+    },
+    {
+      "id": 2232,
+      "word": "Malchi-shua",
+      "etym": "Heb.",
+      "mibDef": "king of help; king of opulence; king of deliverance; king's",
+      "mibMeta": "Help through the will, or one's trusting in will power to deliver and prosper one and to pull one through seeming error experiences. The death of Saul and his three sons, Jonathan (human love), Abinadab (physical will or body control), and Malchi-shua (the will as king of health or physical vitality",
+      "candidates": []
+    },
+    {
+      "id": 2233,
+      "word": "Malchiel",
+      "etym": "Heb.",
+      "mibDef": "rule of God; judgment of God; counsel of God; God is king; God's",
+      "mibMeta": "Man's acknowledgment of the supremacy of divine power and rulership; in other words, one's exalting God in consciousness and giving Him dominion, bowing to and obeying Truth. This in turn elevates the individual, and enables him through his I AM, or indwelling Christ, to obtain dominion over himself",
+      "candidates": []
+    },
+    {
+      "id": 2234,
+      "word": "Malchielites",
+      "etym": "fr. Heb.",
+      "mibDef": "o/ or belonging to Malchiel.",
+      "mibMeta": "Thoughts springing from and belonging to that in consciousness which Malchiel represents. (See MALCHIEL.) Malchijah (in A. V., I Chron. 6:40; Ezra 10:31; Neh. 3:14, 31; 8:4; 11:12; Jer. 38:1, Malchiah, and in Jer. 21:1, Melchiah), mal-chi-iah (Heb.) rule of Jehovah; counsel of J ah; Jehovah is king;",
+      "candidates": []
+    },
+    {
+      "id": 2235,
+      "word": "Malchiram",
+      "etym": "Heb.",
+      "mibDef": "Melech is exalted; my king is exalted; high counselor; king of",
+      "mibMeta": "Exalting the will in consciousness (my king is exalted, king of the heights), giving it a very high place, even attributing to it understanding and judgment (high counselor).",
+      "candidates": [
+        {
+          "s": "H4443",
+          "def": "Malkiram, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2236,
+      "word": "Malchus",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "ruler; counselor; judge; king.",
+      "mibMeta": "The high priest represents the executive power of divine law. Here, the high priest symbolizes the executive power, or ruling thought, in the phase of man's consciousness that is established in old formal religious ideas and activities. It does not accept the Christ life and Truth, but attempts to d",
+      "candidates": []
+    },
+    {
+      "id": 2237,
+      "word": "malefactors",
+      "etym": "",
+      "mibDef": "belief in good and evil, past and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2557",
+          "def": "a wrong-doer, i.e., criminal"
+        }
+      ]
+    },
+    {
+      "id": 2238,
+      "word": "Mallothi",
+      "etym": "Heb .",
+      "mibDef": "fullness; abundant; complete; perfection; splendid; consecration;",
+      "mibMeta": "The spiritual significance of circumcision is the purification of the individual from the law of sin and death. This is accomplished by the activity in consciousness of the Jehovah, or Christ word, the word of Truth, believed, affirmed, and accepted in its entirety. The accomplishment of this perfec",
+      "candidates": []
+    },
+    {
+      "id": 2239,
+      "word": "Malluch",
+      "etym": "Heb.",
+      "mibDef": "ruler; counselor; judge; king.",
+      "mibMeta": "The different men named Malluch signify thoughts belonging to our natural religious tendencies, and our highest religious and spiritual understanding (Levites, priests, and other Israelites), as ruling in consciousness and acting as counselors to us.",
+      "candidates": []
+    },
+    {
+      "id": 2240,
+      "word": "mammon",
+      "etym": "Gk. fr. Heb .",
+      "mibDef": "treasure; wealth; riches; prop; stay; support. The latter are",
+      "mibMeta": "The material or worldly thought and belief regarding riches; money, possessions,",
+      "candidates": [
+        {
+          "s": "G3126",
+          "def": "mammonas, i.e., avarice (deified)"
+        }
+      ]
+    },
+    {
+      "id": 2241,
+      "word": "mammon",
+      "etym": "",
+      "mibDef": "Treasure; wealth; the material or worldly thought and belief regarding riches,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3126",
+          "def": "mammonas, i.e., avarice (deified)"
+        }
+      ]
+    },
+    {
+      "id": 2242,
+      "word": "Mamre",
+      "etym": "Heb .",
+      "mibDef": "fully assimilated; well-fed; abundantly supplied; fatness; firmness;",
+      "mibMeta": "Mamre means firmness, vigor, strength; Hebron (a community, alliance, company, friendship) refers to the front brain, the seat of conscious thought. The lesson here is that faith in God (suggested by Abram) brings about the right relation among all the associated faculties, and withal an enduring fi",
+      "candidates": [
+        {
+          "s": "H4471",
+          "def": "Mamre, an Amorite"
+        }
+      ]
+    },
+    {
+      "id": 2243,
+      "word": "man",
+      "etym": "",
+      "mibDef": "the creator and source of all power-in remembrance (He is exalted,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "G444",
+          "def": "man-faced, i.e., a human being"
+        },
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G5100",
+          "def": "some or any person or object"
+        },
+        {
+          "s": "G3762",
+          "def": "not even one (man, woman or thing), i.e., none, nobody, nothing"
+        }
+      ]
+    },
+    {
+      "id": 2244,
+      "word": "man",
+      "etym": "",
+      "mibDef": "spirit, soul, and body— ere he really becomes",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "G444",
+          "def": "man-faced, i.e., a human being"
+        },
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G5100",
+          "def": "some or any person or object"
+        },
+        {
+          "s": "G3762",
+          "def": "not even one (man, woman or thing), i.e., none, nobody, nothing"
+        }
+      ]
+    },
+    {
+      "id": 2245,
+      "word": "man",
+      "etym": "",
+      "mibDef": "An idea in Divine Mind; the epitome of being. The apex of God's creation, created in His",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "G444",
+          "def": "man-faced, i.e., a human being"
+        },
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G5100",
+          "def": "some or any person or object"
+        },
+        {
+          "s": "G3762",
+          "def": "not even one (man, woman or thing), i.e., none, nobody, nothing"
+        }
+      ]
+    },
+    {
+      "id": 2246,
+      "word": "man",
+      "etym": "",
+      "mibDef": "Man is not limited in life. He has existed with the Father always. At the very",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "G444",
+          "def": "man-faced, i.e., a human being"
+        },
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G5100",
+          "def": "some or any person or object"
+        },
+        {
+          "s": "G3762",
+          "def": "not even one (man, woman or thing), i.e., none, nobody, nothing"
+        }
+      ]
+    },
+    {
+      "id": 2247,
+      "word": "man",
+      "etym": "",
+      "mibDef": "Man is a duality in seeming only. He is a unit when he knows himself. His",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "G444",
+          "def": "man-faced, i.e., a human being"
+        },
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G5100",
+          "def": "some or any person or object"
+        },
+        {
+          "s": "G3762",
+          "def": "not even one (man, woman or thing), i.e., none, nobody, nothing"
+        }
+      ]
+    },
+    {
+      "id": 2248,
+      "word": "man",
+      "etym": "",
+      "mibDef": "The result that follows man's failure to recognize his divinity. By his error he falls",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "G444",
+          "def": "man-faced, i.e., a human being"
+        },
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G5100",
+          "def": "some or any person or object"
+        },
+        {
+          "s": "G3762",
+          "def": "not even one (man, woman or thing), i.e., none, nobody, nothing"
+        }
+      ]
+    },
+    {
+      "id": 2249,
+      "word": "man",
+      "etym": "",
+      "mibDef": "John the Baptist represents the illumined intellectual man who",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "G444",
+          "def": "man-faced, i.e., a human being"
+        },
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G5100",
+          "def": "some or any person or object"
+        },
+        {
+          "s": "G3762",
+          "def": "not even one (man, woman or thing), i.e., none, nobody, nothing"
+        }
+      ]
+    },
+    {
+      "id": 2250,
+      "word": "man",
+      "etym": "",
+      "mibDef": "An error concept or expression of man, a misunderstanding of his true nature that",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "G444",
+          "def": "man-faced, i.e., a human being"
+        },
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G5100",
+          "def": "some or any person or object"
+        },
+        {
+          "s": "G3762",
+          "def": "not even one (man, woman or thing), i.e., none, nobody, nothing"
+        }
+      ]
+    },
+    {
+      "id": 2251,
+      "word": "man",
+      "etym": "",
+      "mibDef": "(Eph. 4:24; Col. 3:10). The \"new man\" is born of a divine idea through the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "G444",
+          "def": "man-faced, i.e., a human being"
+        },
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G5100",
+          "def": "some or any person or object"
+        },
+        {
+          "s": "G3762",
+          "def": "not even one (man, woman or thing), i.e., none, nobody, nothing"
+        }
+      ]
+    },
+    {
+      "id": 2252,
+      "word": "man",
+      "etym": "",
+      "mibDef": "The earth man, who lives through his senses. He gathers his information and makes",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "G444",
+          "def": "man-faced, i.e., a human being"
+        },
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G5100",
+          "def": "some or any person or object"
+        },
+        {
+          "s": "G3762",
+          "def": "not even one (man, woman or thing), i.e., none, nobody, nothing"
+        }
+      ]
+    },
+    {
+      "id": 2253,
+      "word": "man",
+      "etym": "",
+      "mibDef": "The sum total of the attributes or perfect idea of Being, identified and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "G444",
+          "def": "man-faced, i.e., a human being"
+        },
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G5100",
+          "def": "some or any person or object"
+        },
+        {
+          "s": "G3762",
+          "def": "not even one (man, woman or thing), i.e., none, nobody, nothing"
+        }
+      ]
+    },
+    {
+      "id": 2254,
+      "word": "man",
+      "etym": "",
+      "mibDef": "The ungodly man is unlike God; he seeks to accumulate material riches, to gain",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "G444",
+          "def": "man-faced, i.e., a human being"
+        },
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G5100",
+          "def": "some or any person or object"
+        },
+        {
+          "s": "G3762",
+          "def": "not even one (man, woman or thing), i.e., none, nobody, nothing"
+        }
+      ]
+    },
+    {
+      "id": 2255,
+      "word": "man and the Christ",
+      "etym": "",
+      "mibDef": "Jehovah ( brother of Jehovah, Jehovah's friend) .",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "G444",
+          "def": "man-faced, i.e., a human being"
+        },
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G5100",
+          "def": "some or any person or object"
+        },
+        {
+          "s": "G3762",
+          "def": "not even one (man, woman or thing), i.e., none, nobody, nothing"
+        }
+      ]
+    },
+    {
+      "id": 2256,
+      "word": "man can and will become illumined by Spirit",
+      "etym": "",
+      "mibDef": "divine understanding.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "G444",
+          "def": "man-faced, i.e., a human being"
+        },
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G5100",
+          "def": "some or any person or object"
+        },
+        {
+          "s": "G3762",
+          "def": "not even one (man, woman or thing), i.e., none, nobody, nothing"
+        }
+      ]
+    },
+    {
+      "id": 2257,
+      "word": "man idea",
+      "etym": "",
+      "mibDef": "Before there could be a man there must have been an idea of man. God, the Father,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "G444",
+          "def": "man-faced, i.e., a human being"
+        },
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G5100",
+          "def": "some or any person or object"
+        },
+        {
+          "s": "G3762",
+          "def": "not even one (man, woman or thing), i.e., none, nobody, nothing"
+        }
+      ]
+    },
+    {
+      "id": 2258,
+      "word": "Man is also threefold",
+      "etym": "",
+      "mibDef": "spirit, soul, and body; spirit relating to I AM, soul to consciousness (I am",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "G444",
+          "def": "man-faced, i.e., a human being"
+        },
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G5100",
+          "def": "some or any person or object"
+        },
+        {
+          "s": "G3762",
+          "def": "not even one (man, woman or thing), i.e., none, nobody, nothing"
+        }
+      ]
+    },
+    {
+      "id": 2259,
+      "word": "Man makes his world through the activity of ideas in his consciousness",
+      "etym": "",
+      "mibDef": "ideas of wisdom, power,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "G444",
+          "def": "man-faced, i.e., a human being"
+        },
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G5100",
+          "def": "some or any person or object"
+        },
+        {
+          "s": "G3762",
+          "def": "not even one (man, woman or thing), i.e., none, nobody, nothing"
+        }
+      ]
+    },
+    {
+      "id": 2260,
+      "word": "man of sin",
+      "etym": "",
+      "mibDef": "The \"man of sin\" is the carnal mind in each individual, and it always opposes and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "G444",
+          "def": "man-faced, i.e., a human being"
+        },
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G5100",
+          "def": "some or any person or object"
+        },
+        {
+          "s": "G3762",
+          "def": "not even one (man, woman or thing), i.e., none, nobody, nothing"
+        }
+      ]
+    },
+    {
+      "id": 2261,
+      "word": "Manaen",
+      "etym": "Gk. fr. Heb .",
+      "mibDef": "consoler; comforter.",
+      "mibMeta": "The five prophets and teachers in the church at Antioch, mentioned in Acts 13:1, represent those who interpret Spirit to the outer consciousness. Manaen (comforter, consoler) refers especially to the activity of the Holy Spirit in individual consciousness in its role of comforter, giving consolation",
+      "candidates": []
+    },
+    {
+      "id": 2262,
+      "word": "Manahath",
+      "etym": "Heb.",
+      "mibDef": "resting; quieting; restoring; bequeathing; giving; forsaking;",
+      "mibMeta": "A peaceful, restful thought and place in consciousness. A stillness and ceasing from outer activity, wherein both soul and body are renewed in strength and good, wherein something of error is forsaken and a degree of Truth is realized.",
+      "candidates": []
+    },
+    {
+      "id": 2263,
+      "word": "Manahathites (A. V.",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Manahath.",
+      "mibMeta": "Thoughts springing from and belonging to that in consciousness which Manahath signifies. (See MANAHATH.)",
+      "candidates": []
+    },
+    {
+      "id": 2264,
+      "word": "Manasseh",
+      "etym": "Heb.",
+      "mibDef": "who makes to",
+      "mibMeta": "The meaning of \"Manasseh\" is who makes to forget. The meaning of \"Ephraim\" is doubly fruitful. Manasseh represents understanding, and Ephraim stands for will. The understanding here denotes denial, the negative activity of mind. The will is the positive or affirmative quality, the affirmative attitu",
+      "candidates": [
+        {
+          "s": "H4519",
+          "def": "Menashsheh, a grandson of Jacob, also the tribe descended from him, and its territory"
+        }
+      ]
+    },
+    {
+      "id": 2265,
+      "word": "Manoah",
+      "etym": "Heb.",
+      "mibDef": "resting; quieting; restoring; giving; leaving; forsaking.",
+      "mibMeta": "The significance of Manoah is given in Isaiah 40:31: \"They that wait for Jehovah shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; they shall walk, and not faint.\" In the Authorized Version the first clause reads, \"They that wait upon the Lord sh",
+      "candidates": [
+        {
+          "s": "H4495",
+          "def": "Manoach, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2266,
+      "word": "mansions",
+      "etym": "",
+      "mibDef": "(John 14:2). Degrees of realization of the Truth of Being. The \"place\" that",
+      "mibMeta": "Degrees of realization of the Truth of Being; the \"place\" prepared by Jesus is a definite state of realization of Truth into which may come all who faithfully take up the same denials and affirmations that He took up. Those familiar with the power of man to establish in consciousness certain mental ",
+      "candidates": []
+    },
+    {
+      "id": 2267,
+      "word": "Maoch",
+      "etym": "Heb.",
+      "mibDef": "pressed; oppressed; squeezed; emasculated; poor; breastband.",
+      "mibMeta": "The breast is the seat of the affectional nature. Maoch (pressed, oppressed, emasculated, poor, breastband ) signifies in individual consciousness either a lack of natural affection or a being bound and limited by human, personal, sense loves and emotions. Either condition would cause one to be poor",
+      "candidates": []
+    },
+    {
+      "id": 2268,
+      "word": "Maon",
+      "etym": "Heb .",
+      "mibDef": "habitation; dwelling; place of abode; refuge; sanctuary; temple; the place",
+      "mibMeta": "A consciousness of abidingness, of stability, of continuity, of oneness with God, within the very center of one's being.",
+      "candidates": [
+        {
+          "s": "H4584",
+          "def": "Maon, the name of an Israelite and of a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2269,
+      "word": "Maonites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Maon.",
+      "mibMeta": "Carnal thoughts that believe in the reality and abidingness of error. (See MEUNIM, meaning dwellings, homes, habitations.) mark on Cain— The mark set on Cain to keep him from being slain was the consciousness of his divine origin. No matter how deep in transgressions the body may be, it still bears ",
+      "candidates": []
+    },
+    {
+      "id": 2270,
+      "word": "Mara",
+      "etym": "Heb .",
+      "mibDef": "bitter; acrid; galling; grief; misfortune; calamity.",
+      "mibMeta": "The bitterness and distress that the partially awakened soul experiences when reaping the error result of some false step; this soul, not knowing enough of Truth to link cause with effect, lays the inharmony to God. Naomi apparently blamed God for her losses and sorrows. Many professing Christians o",
+      "candidates": []
+    },
+    {
+      "id": 2271,
+      "word": "Marah",
+      "etym": "Heb .",
+      "mibDef": "bitterness; grief; misfortune; calamity.",
+      "mibMeta": "The bitterness, the trouble, the sickness, and misery that those who pollute the waters of life with impure, rebellious, darkened, error thoughts and beliefs bring on themselves. It was at Marah, after the sweetening of the waters so that the Israelites could drink, that Jehovah revealed this truth ",
+      "candidates": []
+    },
+    {
+      "id": 2272,
+      "word": "Marana tha",
+      "etym": "Gk. fr. Chald.",
+      "mibDef": "our Lord is coming; our Lord will come; our Lord",
+      "mibMeta": "A recognition of the Christ presence, and its ultimate manifestation. Jesus Christ is here. The Christ also lives in us and will come into perfect expression and manifestation in our life, even as it did in Jesus. We shall be like Him and shall see Him as He is.",
+      "candidates": []
+    },
+    {
+      "id": 2273,
+      "word": "Mareshah",
+      "etym": "Heb.",
+      "mibDef": "head; highest; chief; summit; top of a hill; summit of a mountain;",
+      "mibMeta": "Mareshah refers to Spirit, Divine Mind , first principle, the beginning or source of all that really is. Since Mareshah is the name of men and of a city, it bespeaks that in the individual consciousness which recognizes Spirit as one's true source and sustenance.",
+      "candidates": [
+        {
+          "s": "H4762",
+          "def": "Mareshah, the name of two Israelites and of a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2274,
+      "word": "Mark",
+      "etym": "Gk. fr. Lat.",
+      "mibDef": "brilliant; shining; polite.",
+      "mibMeta": "John means grace and mercy of the Lord, \"love working by faith.\" Mark means brilliant, shining, polite. John Mark had two natures: one, a polite and brilliant exterior that was affected by the people of the mixed state at Pamphylia; the other, a deep spiritual nature, which was called out and develo",
+      "candidates": [
+        {
+          "s": "G5480",
+          "def": "a scratch or etching, i.e., stamp (as a badge of servitude), or scupltured figure (statue)"
+        },
+        {
+          "s": "H8104",
+          "def": "properly, to hedge about (as with thorns), i.e., guard; generally, to protect, attend to, etc"
+        },
+        {
+          "s": "H7760",
+          "def": "to put (used in a great variety of applications, literal, figurative, inferentially, and elliptically)"
+        },
+        {
+          "s": "G4648",
+          "def": "to take aim at (spy), i.e., (figuratively) regard"
+        },
+        {
+          "s": "H226",
+          "def": "a signal (literally or figuratively), as a flag, beacon, monument, omen, prodigy, evidence, etc"
+        }
+      ]
+    },
+    {
+      "id": 2275,
+      "word": "Mark 7:2: The disciples of Christ",
+      "etym": "",
+      "mibDef": "that is, the thoughts that have been established in the Christ",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5480",
+          "def": "a scratch or etching, i.e., stamp (as a badge of servitude), or scupltured figure (statue)"
+        },
+        {
+          "s": "H8104",
+          "def": "properly, to hedge about (as with thorns), i.e., guard; generally, to protect, attend to, etc"
+        },
+        {
+          "s": "H7760",
+          "def": "to put (used in a great variety of applications, literal, figurative, inferentially, and elliptically)"
+        },
+        {
+          "s": "G4648",
+          "def": "to take aim at (spy), i.e., (figuratively) regard"
+        },
+        {
+          "s": "H226",
+          "def": "a signal (literally or figuratively), as a flag, beacon, monument, omen, prodigy, evidence, etc"
+        }
+      ]
+    },
+    {
+      "id": 2276,
+      "word": "Maroth",
+      "etym": "Heb .",
+      "mibDef": "acridness; bitterness; bitter herbs; bitter waters; unhappiness;",
+      "mibMeta": "\"The inhabitant of Maroth waiteth anxiously for good, because evil is come down from Jehovah unto the gate of Jerusalem.\" The margin causes this text to read, \"The inhabitress of Maroth is in travail for good.\" Maroth ( bitterness , unhappiness, sorrows, griefs) signifies the soul's working out its ",
+      "candidates": [
+        {
+          "s": "H4796",
+          "def": "Maroth, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2277,
+      "word": "marriage",
+      "etym": "",
+      "mibDef": "Spiritually, marriage represents the union of two dominant states of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1062",
+          "def": "nuptials"
+        },
+        {
+          "s": "G1547",
+          "def": "to marry off a daughter"
+        }
+      ]
+    },
+    {
+      "id": 2278,
+      "word": "Marsena",
+      "etym": "Heb. fr. Pers .",
+      "mibDef": "dignified man; man of nobility; worth while; worthy;",
+      "mibMeta": "One of the seven creative principles, or dominant ruling thoughts, that are developed in the natural man (seven is the number of the natural man). (See CARSHENA.) This foundation thought, which in its true essence is spiritual and of great value (dignified man, worthy, honorable) to the individual, ",
+      "candidates": []
+    },
+    {
+      "id": 2279,
+      "word": "Martha",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "mistress, i. e., of a family; wife; lady; governess; domestic;",
+      "mibMeta": "In Luke 10:38-42 Martha and Mary represent the outer and the inner phases, respectively, of the soul's activity in welcoming the inner spiritual teacher. The soul, established in love, is always quick to discern the presence of true thoughts, and it welcomes the spiritual man, or teacher, who brings",
+      "candidates": [
+        {
+          "s": "G3136",
+          "def": "Martha, a Christian woman"
+        }
+      ]
+    },
+    {
+      "id": 2280,
+      "word": "Mary",
+      "etym": "fr. Heb .",
+      "mibDef": "contradiction; rebellious outcry; bitter complaint; bitterness; myrrh;",
+      "mibMeta": "The feminine, the soul, the affectional and emotional phase of man's being, both when seemingly bound and limited by sensate thought, and in its freed, exalted state. Mary, the mother of Jesus, represents the soul that magnifies the Lord \"daily in the temple\" and through its devotions prepares itsel",
+      "candidates": [
+        {
+          "s": "G3137",
+          "def": "Maria or Mariam (i.e., Mirjam), the name of six Christian females"
+        }
+      ]
+    },
+    {
+      "id": 2281,
+      "word": "Maschil",
+      "etym": "Heb.",
+      "mibDef": "teaching circumspection; instructing in wisdom; inducing",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4905",
+          "def": "instructive, i.e., a didactic poem"
+        }
+      ]
+    },
+    {
+      "id": 2282,
+      "word": "Masrekah",
+      "etym": "Heb.",
+      "mibDef": "vineyard of noble (purple) vines; place of noble vines, i. e.,",
+      "mibMeta": "Currents of vital thoughts, of thoughts of power (place of red streams, vineyard of noble (purple) vines, place of noble vines, i. e., bearing purple grapes; a vineyard symbolizing life, streams representing currents of thoughts, and purple bespeaking power), that are active in the outer physical or",
+      "candidates": [
+        {
+          "s": "H4957",
+          "def": "Masrekah, a place in Idumaea"
+        }
+      ]
+    },
+    {
+      "id": 2283,
+      "word": "Massa",
+      "etym": "Heb",
+      "mibDef": "burden bearer; porter; a lifting up, i. e., of the voice, of the soul; song;",
+      "mibMeta": "Ishmael, father of Massa, represents the fruit of the thoughts of the natural man at work in the flesh. Massa, seventh son of Ishmael (seven is the number of fulfillment in the natural man), ushers in a new element of thought regarding that in man which has hitherto been deemed by him to be wholly m",
+      "candidates": []
+    },
+    {
+      "id": 2284,
+      "word": "Massah",
+      "etym": "Heb .",
+      "mibDef": "causing to flow; melting clown;",
+      "mibMeta": "The tried of faith, the temptation, that so often overtakes the would-be overcomer at the beginning of his awakening to the deeper truths of Spirit, at the beginning of his attempt to trust God fully for health, for supply, for all things. This temptation is to doubt God's guiding, protecting, resto",
+      "candidates": []
+    },
+    {
+      "id": 2285,
+      "word": "material thought and belief",
+      "etym": "",
+      "mibDef": "an unpoised, unbalanced state of mind. (See ASHIMA.)",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2286,
+      "word": "materiality",
+      "etym": "",
+      "mibDef": "The concept that the material universe is real, that the three-dimension world really",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2287,
+      "word": "Matred",
+      "etym": "Heb .",
+      "mibDef": "following continually; pursuing; thrusting forward; propelling;",
+      "mibMeta": "Matred and Mehetabel, women of Edom, pertain to activities in the soul's progress toward spiritual perfection. Even the phase of the soul that pertains to Edom, or the outer physical man, has its impulses that are uplifting and are ever moving toward the more perfect understanding and expression of ",
+      "candidates": []
+    },
+    {
+      "id": 2288,
+      "word": "Matrites (A. V.",
+      "etym": "fr. Heb.",
+      "mibDef": "rain of Jehovah, Jah is the objective; Jehovah is the",
+      "mibMeta": "Matrites ( rain of Jehovah) pertains to showers of blessings, the result of working in harmony with divine law. Matrites also denotes a group of thoughts in the active faith consciousness in man (Benjamin) that is awake to the fact that Jehovah, the indwelling Christ or Father, is ever watching over",
+      "candidates": []
+    },
+    {
+      "id": 2289,
+      "word": "Mattan",
+      "etym": "Heb.",
+      "mibDef": "strength; firmness; adult; a gift; present; death of them.",
+      "mibMeta": "Mattan bespeaks the fullness of strength and stability (strength, firmness, adult) as being of and from Spirit (a gift, present). The Mattan who was a priest of Baal signifies a ruling thought belonging to man's formal concepts of religion. It leads the truer thoughts of the consciousness (Israelite",
+      "candidates": [
+        {
+          "s": "H4977",
+          "def": "Mattan, the name of a priest of Baal, and of an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2290,
+      "word": "Mattanah",
+      "etym": "Heb.",
+      "mibDef": "gift; present; donation; gratuity.",
+      "mibMeta": "A consciousness of the divine favor and blessing, of one's possibilities through Spirit, of eternal life through Christ the Son, which is God's gift of gifts to man. Mattaniah, mat-ta-niO-ah (Heb.)-- gift of Jehovah; donation ofJah; present of Jehovah. a The former name of Zedekiah, king of Judah (I",
+      "candidates": [
+        {
+          "s": "H4980",
+          "def": "Mattanah, a place in the Desert"
+        }
+      ]
+    },
+    {
+      "id": 2291,
+      "word": "Mattatha",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "gift of Jehovah; donation ofJah; present of Jehovah.",
+      "mibMeta": "Virtually the same as Mattaniah: the higher religious thoughts of man awakening to a realization of his divine possibilities of obtaining fullness of life and of all good, through Jehovah, I AM.",
+      "candidates": []
+    },
+    {
+      "id": 2292,
+      "word": "Mattathias",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "gift of Jehovah; donation of Jehovah; present of",
+      "mibMeta": "See MATTATHA and MATTANIAH.",
+      "candidates": []
+    },
+    {
+      "id": 2293,
+      "word": "Mattattah (A.V.",
+      "etym": "Heb.",
+      "mibDef": "gift of Jehovah, gratuity ofJah; given wholly",
+      "mibMeta": "A thought in the higher consciousness of man (an Israelite) that perceives the",
+      "candidates": []
+    },
+    {
+      "id": 2294,
+      "word": "Mattenai",
+      "etym": "Heb.",
+      "mibDef": "liberality; generosity; gift of Jehovah; gift ofJah.",
+      "mibMeta": "The significance is almost the same as that of MATTATTAH, which see. In Mattenai there is also a thought of divine forgiveness— an erasing of error from consciousness (liberality, generosity)— which increases the individual's belief in the attainment of the good that he has perceived.",
+      "candidates": []
+    },
+    {
+      "id": 2295,
+      "word": "matter",
+      "etym": "",
+      "mibDef": "That state of man where material ideas and standards are the established rule of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1697",
+          "def": "a word; by implication, a matter (as spoken of) or thing; adverbially, a cause"
+        },
+        {
+          "s": "H4592",
+          "def": "a little or few (often adverbial or comparative)"
+        },
+        {
+          "s": "H2941",
+          "def": "properly, a taste, i.e., a judicial sentence"
+        },
+        {
+          "s": "H6600",
+          "def": "a word, answer, letter or decree"
+        },
+        {
+          "s": "H4406",
+          "def": "a word, command, discourse, or subject"
+        }
+      ]
+    },
+    {
+      "id": 2296,
+      "word": "Matthan",
+      "etym": "Heb .",
+      "mibDef": "reaching out the hand; giving; presenting; a gift; a present; a",
+      "mibMeta": "The activity of the law of giving and receiving in the consciousness and life of the spiritually unfolding individual. The symbol of Matthan is the open hand, both in giving and receiving, imparting and appropriating.",
+      "candidates": [
+        {
+          "s": "G3157",
+          "def": "Matthan (i.e., Mattan), an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2297,
+      "word": "Matthat",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "gift ; present ; gratuity; gift (of God); (God's) gift.",
+      "mibMeta": "God's gift to man is encompassed in the word \"grace.\" We understand the grace of God to include all to which man is heir through his divine inheritance, his spiritual sonship. This includes all things, unlimited attainment of spirituality and good. Thus these names meaning gift, God's gift, signify ",
+      "candidates": []
+    },
+    {
+      "id": 2298,
+      "word": "Matthew",
+      "etym": "Heb.",
+      "mibDef": "gift of Jehovah; gratuity ofJah; given wholly unto Jehovah.",
+      "mibMeta": "Matthew is the disciple of Jesus Christ who represents the will faculty in man. In the body this faculty is located in the forehead. In the regeneration, man controls, directs, teaches, and disciplines the faculties of his mind. To do this he must in a measure withdraw from the mercenary occupations",
+      "candidates": [
+        {
+          "s": "G3156",
+          "def": "Matthaeus (i.e., Matthitjah), an Israelite and a Christian"
+        }
+      ]
+    },
+    {
+      "id": 2299,
+      "word": "Matthias",
+      "etym": "Gk. fr. Heb",
+      "mibDef": "gift of Jehovah; gratuity ofJah; given wholly unto",
+      "mibMeta": "Judas Iscariot, the disciple of Jesus whom Matthias was chosen to replace, represents the acquisitive or life faculty in individual consciousness. Matthias signifies the lifting up of this faculty (given wholly unto Jehovah) that it may aid the individual in laying hold of his higher, spiritual atta",
+      "candidates": []
+    }
+  ]
+}

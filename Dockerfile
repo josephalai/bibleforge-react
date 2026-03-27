@@ -1,0 +1,31 @@
+# Stage 1: Build the React client
+FROM node:20-alpine AS client-build
+WORKDIR /app/client
+COPY client/package.json client/package-lock.json ./
+RUN npm ci --ignore-scripts
+COPY client/ ./
+RUN npm run build
+
+# Stage 2: Production server
+FROM node:20-alpine AS production
+WORKDIR /app
+
+# Copy server files
+COPY server/package.json server/package-lock.json ./
+RUN npm ci --omit=dev --ignore-scripts
+COPY server/ ./
+
+# Copy data files into server/data
+COPY custom-resources/metaphysical-bible-dictionary.json ./data/
+COPY custom-resources/gematria.json ./data/
+
+# Copy built client files
+COPY --from=client-build /app/client/dist ./public
+
+# Port is set at runtime via APP_PORT in .env / docker-compose
+# Set environment variables
+ENV NODE_ENV=production
+ENV STATIC_PATH=./public
+
+# Start the server
+CMD ["node", "index.js"]

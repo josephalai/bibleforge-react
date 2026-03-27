@@ -1,0 +1,1206 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "31 of 37",
+  "_entry_range": "ids 3000–3099",
+  "entries": [
+    {
+      "id": 3000,
+      "word": "Satan",
+      "etym": "Heb.",
+      "mibDef": "Her in wait; an adversary; an enemy; hater; accuser; opposer;",
+      "mibMeta": "The deceiving phase of mind in man that has fixed ideas in opposition to Truth (adversary, lier in went, accuser, opposer, hater, an enemy). Satan assumes various forms in man's consciousness, among which may be mentioned egotism, a puffing up of the personality; and the opposite of this, self-depre",
+      "candidates": [
+        {
+          "s": "G4567",
+          "def": "the accuser, i.e., the devil"
+        },
+        {
+          "s": "H7854",
+          "def": "an opponent; especially (with the article prefixed) Satan, the arch-enemy of good"
+        },
+        {
+          "s": "G4566",
+          "def": "Satan, i.e., the devil"
+        }
+      ]
+    },
+    {
+      "id": 3001,
+      "word": "Satan",
+      "etym": "",
+      "mibDef": "The Adversary, the great universal negative whose power is derived from the unlawful",
+      "mibMeta": "The action of the will in attaining that which it desires. Saul, the first king of Israel, represents the will functioning in the limitations of personality. The will should be anointed or inspired by judgment, but in its development it often asserts its own initiative and is thereby defeated in its",
+      "candidates": [
+        {
+          "s": "G4567",
+          "def": "the accuser, i.e., the devil"
+        },
+        {
+          "s": "H7854",
+          "def": "an opponent; especially (with the article prefixed) Satan, the arch-enemy of good"
+        },
+        {
+          "s": "G4566",
+          "def": "Satan, i.e., the devil"
+        }
+      ]
+    },
+    {
+      "id": 3002,
+      "word": "Sceva",
+      "etym": "",
+      "mibDef": "covered; obscured; secret; the left side; left-handed; vessel; utensil;",
+      "mibMeta": "A fixed state of mind that prevails in the physical consciousness. The \"seven sons\" are the seven centers of thought and action in the body. The word of Truth cast out evil spirits and healed the sick at Ephesus, and this work was imitated by strolling Jewish exorcists. They used the same formulas t",
+      "candidates": []
+    },
+    {
+      "id": 3003,
+      "word": "science",
+      "etym": "",
+      "mibDef": "Science is the systematic and orderly arrangement of knowledge. Spiritual",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1108",
+          "def": "knowing (the act), i.e., (by implication) knowledge"
+        }
+      ]
+    },
+    {
+      "id": 3004,
+      "word": "Scythian",
+      "etym": "Gk.",
+      "mibDef": "of or belonging to Scythia; cut off; rough; barbarous; immoderate;",
+      "mibMeta": "Thoughts of a very low, ignorant, uncultivated, and seemingly warring character (rough, barbarous, rude, ignorant, fierce-looking, degraded). When the \"old man\" has been put off, however, and the \"new man\" fully put on, there will be no more Scythians in consciousness, because all one's thoughts wil",
+      "candidates": []
+    },
+    {
+      "id": 3005,
+      "word": "Seba",
+      "etym": "Heb",
+      "mibDef": "radical moisture; vital fluid; condensation; sap; sucking up saturation;",
+      "mibMeta": "Intemperate desire expressing in the body consciousness. The Seba thought and state of thought are not poised, moderate, or well balanced about anything; they go to the extreme, especially in indulgence of the appetites and desires of the flesh when the \"mind of the flesh\" is in the ascendancy in th",
+      "candidates": [
+        {
+          "s": "H5434",
+          "def": "Seba, a son of Cush, and the country settled by him"
+        }
+      ]
+    },
+    {
+      "id": 3006,
+      "word": "Sebam (A. V.",
+      "etym": "Heb .",
+      "mibDef": "cool; fragrant; aromatic; spicy; odorous; sweet;",
+      "mibMeta": "See SIBMAH.",
+      "candidates": []
+    },
+    {
+      "id": 3007,
+      "word": "Secacah",
+      "etym": "Heb.",
+      "mibDef": "interwoven; interlaced; entwined; hedge; thicket; inclosure; cover;",
+      "mibMeta": "A consciousness of security, of protection, that is built up in the soul by the unifying and interweaving action of high spiritual aspiration coupled with abundant praise of God— the good, perfect, true, and all-powerful source of all that really is (intem’oven, entwined, protection,",
+      "candidates": []
+    },
+    {
+      "id": 3008,
+      "word": "secret and hidden",
+      "etym": "",
+      "mibDef": "come all the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5643",
+          "def": "a cover (in a good or a bad, a literal or a figurative sense)"
+        },
+        {
+          "s": "H4565",
+          "def": "properly, a concealer, i.e., a covert"
+        },
+        {
+          "s": "H5475",
+          "def": "a session, i.e., company of persons (in close deliberation); by implication, intimacy, consultation, a secret"
+        },
+        {
+          "s": "H7328",
+          "def": "to attenuate, i.e., (figuratively) hide; a mystery"
+        },
+        {
+          "s": "G2927",
+          "def": "concealed, i.e., private"
+        }
+      ]
+    },
+    {
+      "id": 3009,
+      "word": "sects",
+      "etym": "",
+      "mibDef": "In the spiritual interpretation of fundamental principles that underly the Scriptures, there",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3010,
+      "word": "Secu (A. V.",
+      "etym": "Heb.",
+      "mibDef": "cutting; separating; discerning; viewing; looking; watching;",
+      "mibMeta": "A consciousness of spiritual discernment, of judgment or separating and cutting off of error; a watchful attitude of mind (cutting, separating, discerning, looking, watching, watch place; a place at Ramah). Ramah was the home of Samuel, and signifies a very exalted state of mind. Naioth (habitations",
+      "candidates": []
+    },
+    {
+      "id": 3011,
+      "word": "Secundus",
+      "etym": "Lat.",
+      "mibDef": "second; following; the next; secondary; inferior; favorable;",
+      "mibMeta": "A secondary attitude of thought (second) that is necessary to promote the acceptance and growth of Truth in the whole being of man. It is an attitude of thought that approves of Truth and is willing to do all in its power to further the activity of the word of Truth (Paul) in the consciousness (favo",
+      "candidates": []
+    },
+    {
+      "id": 3012,
+      "word": "seed",
+      "etym": "",
+      "mibDef": "The creative idea inherent in the Word. Its nature is inherited from its parent source, God.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2233",
+          "def": "seed; figuratively, fruit, plant, sowing-time, posterity"
+        },
+        {
+          "s": "G4690",
+          "def": "something sown, i.e., seed (including the male \"sperm\"); by implication, offspring; specially, a remnant (figuratively, as if kept over for planting)"
+        },
+        {
+          "s": "G4687",
+          "def": "to scatter, i.e., sow (literally or figuratively)"
+        },
+        {
+          "s": "G4703",
+          "def": "a scattering (of seed), i.e., (concretely) seed (as sown)"
+        },
+        {
+          "s": "H2234",
+          "def": "posterity"
+        }
+      ]
+    },
+    {
+      "id": 3013,
+      "word": "Seeing God",
+      "etym": "",
+      "mibDef": "From an ultimate standpoint, God is your great Counsellor, Advisor and Guiding",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3588",
+          "def": "(by implication) very widely used as a relative conjunction or adverb (as below); often largely modified by other particles annexed"
+        },
+        {
+          "s": "H7200",
+          "def": "to see, literally or figuratively (in numerous applications, direct and implied, transitive, intransitive and causative)"
+        },
+        {
+          "s": "G1492",
+          "def": "used only in certain past tenses, the others being borrowed from the equivalent G3700 and G3708; properly, to see (literally or figuratively); by implication, (in the perfect tense only) to know"
+        },
+        {
+          "s": "G991",
+          "def": "to look at (literally or figuratively)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        }
+      ]
+    },
+    {
+      "id": 3014,
+      "word": "Segub",
+      "etym": "Heb.",
+      "mibDef": "high; elevated; exalted; raised up; set on high; supreme; secure;",
+      "mibMeta": "High, powerful, protective thoughts belonging to the Israelite or truer spiritual realm of consciousness ( elevated, raised up, supreme, secure, protected, strong, fortified, two Israelitish men of the tribe of Judah? See HIEL, father of the first-named Segub, for an explanation of I Kings 16:34.",
+      "candidates": [
+        {
+          "s": "H7687",
+          "def": "Segub, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3015,
+      "word": "Seir",
+      "etym": "Heb .",
+      "mibDef": "standing on end; bristling; shaggy; hairy; rough; shrinking; shaking;",
+      "mibMeta": "The significance is virtually the same as that of Edom, the physical or sense consciousness in man ( bristling , shaggy, hairy, rough, tempestuous, fearful, he-goat, and so forth; Seir apparently refers especially to the very emotional and stormy, yet deep-seated, carnal tendencies in the physical).",
+      "candidates": [
+        {
+          "s": "H8165",
+          "def": "Seir, a mountain of Idumaea and its indigenous occupants, also one in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 3016,
+      "word": "Seirah (A. V.",
+      "etym": "Heb.",
+      "mibDef": "standing on end; bristling; henry- rough; shrinking;",
+      "mibMeta": "Seirah, being the feminine form of Seir, refers to the soul, receptive, or feminine phase of that which Seir signifies.",
+      "candidates": []
+    },
+    {
+      "id": 3017,
+      "word": "Sela",
+      "etym": "Heb ,",
+      "mibDef": "rock; large rock; cliff; firm; solid; elevated; lofty; fortress; stronghold.",
+      "mibMeta": "Sense man's trust centered in physical strength and power (rock, cliff, firm, elevated, fortress, the capital of Edom and a stronghold in Edom). Sela is the Hebrew equivalent of the Greek word petra (rock), that Jesus used in regard to Peter (faith) in Matthew 16: 18. (See JOKTHEEL for the significa",
+      "candidates": [
+        {
+          "s": "H5554",
+          "def": "Sela, the rock-city of Idumaea"
+        }
+      ]
+    },
+    {
+      "id": 3018,
+      "word": "Sela-hammahlekoth",
+      "etym": "Heb.",
+      "mibDef": "rock of the escapes; rock of the",
+      "mibMeta": "The will functioning in personal selfishness and egotism (Saul) has been seeking to destroy love (David), which is gradually rising in the individual consciousness to the place of rulership. Thus the sense mind, against which the will should have been exercising itself, has grown stronger and strong",
+      "candidates": []
+    },
+    {
+      "id": 3019,
+      "word": "Selah",
+      "etym": "Heb.",
+      "mibDef": "tranquil; secure; at rest; silence; pause; quiet; peaceful; serene;",
+      "mibMeta": "The state of mind in prayer in which we relax from our affirmation of Truth and thanksgiving for good received and to be received, and \"wait\" on God in the stillness, that the Holy Spirit may reveal more of its inspirations to us and that it may establish our thoughts and our heart more firmly in th",
+      "candidates": [
+        {
+          "s": "H5554",
+          "def": "Sela, the rock-city of Idumaea"
+        }
+      ]
+    },
+    {
+      "id": 3020,
+      "word": "selah",
+      "etym": "",
+      "mibDef": "Tranquil, secure, at rest, silence, pause, quiet. Selah is that state of mind in which we relax",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5554",
+          "def": "Sela, the rock-city of Idumaea"
+        }
+      ]
+    },
+    {
+      "id": 3021,
+      "word": "Seled",
+      "etym": "Heb.",
+      "mibDef": "springing up; leaping up; exulting; burning; roasting; consuming;",
+      "mibMeta": "A very emotional, changeable state of thought, and like experiences (springing up, leaping up, exulting, burning, consuming, torment; the idea in the name is that of jumping up and down in excess of emotion, whether joy or pain. This changeable, emotional, unpoised state of thought that is not estab",
+      "candidates": [
+        {
+          "s": "H5540",
+          "def": "Seled, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3022,
+      "word": "Seleucia",
+      "etym": "Gk.",
+      "mibDef": "beaten by waves; troubled; tossed; afflicted; white with brightness;",
+      "mibMeta": "Seleucia means beaten by waves, troubled, tossed, and Cyprus means fairness. Being shaken (Seleucia) is a common experience of those who send Spirit down into the body. Some are afraid that this disturbed condition is wrong. Spirit does not do the shaking; the experience is simply the revealment by ",
+      "candidates": []
+    },
+    {
+      "id": 3023,
+      "word": "self",
+      "etym": "",
+      "mibDef": "Christ, the divine idea, is the true self of every man. Adam, the natural man, is the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4572",
+          "def": "of (with, to) thyself"
+        },
+        {
+          "s": "G1683",
+          "def": "of myself so likewise the dative case ἐμαυτῷ <pronunciation strongs=\"em-ow-to'\"/>, and accusative case ἐμαυτόν <pronunciation strongs=\"em-ow-ton'\"/>"
+        },
+        {
+          "s": "G846",
+          "def": "the reflexive pronoun self, used (alone or in the comparative G1438) of the third person, and (with the proper personal pronoun) of the other persons"
+        }
+      ]
+    },
+    {
+      "id": 3024,
+      "word": "selling one's birthright",
+      "etym": "",
+      "mibDef": "When one denies his true inheritance as a son of God, in thought, word,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3025,
+      "word": "Semachiah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah sustains him; whom Jah upholds; who leans upon the",
+      "mibMeta": "One who is consciously joined to Jehovah and leans upon the Lord; who is supported and sustained by Jehovah, the indwelling Christ or Father (Jehovah sustains him, whom Jah upholds).",
+      "candidates": []
+    },
+    {
+      "id": 3026,
+      "word": "Semein (A. V.",
+      "etym": "Gk. fr. Heb .",
+      "mibDef": "heard distinctly; understood; hearkening,",
+      "mibMeta": "The understanding that attention and obedience to Spirit increase one's power of spiritual perception and discrimination, and truly exalt and ennoble the character (heard distinctly, understood, hearkening, obeying, famed).",
+      "candidates": []
+    },
+    {
+      "id": 3027,
+      "word": "Senaah",
+      "etym": "Heb.",
+      "mibDef": "thorny; bristling; thorn bush; thorn hedge; brambly.",
+      "mibMeta": "An enemy to error (thorny, brambly, the name of a city or a man of Judah, whose inhabitants or \"children\" returned from the Babylonian captivity). Some authorities connect this name with Hassenaah. (See HASSENAAH.)",
+      "candidates": []
+    },
+    {
+      "id": 3028,
+      "word": "Sending the other goat (Azazel",
+      "etym": "",
+      "mibDef": "removed, separated, sent away) out into the wilderness bespeaks",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7971",
+          "def": "to send away, for, or out (in a great variety of applications)"
+        },
+        {
+          "s": "H4916",
+          "def": "a sending out, i.e., (abstractly) presentation (favorable), or seizure (unfavorable); also (concretely) a place of dismissal, or a business to be discharged"
+        },
+        {
+          "s": "H4917",
+          "def": "a mission, i.e., (abstractly and favorable) release, or (concretely and unfavorable) an army"
+        },
+        {
+          "s": "G3992",
+          "def": "to dispatch (from the subjective view or point of departure, whereas ἵημι (as a stronger form of εἶμι) refers rather to the objective point or <i>terminus ad quem</i>, and G4724 denotes properly, the orderly motion involved), especially on a temporary errand; also to transmit, bestow, or wield"
+        }
+      ]
+    },
+    {
+      "id": 3029,
+      "word": "Seneh",
+      "etym": "Heb.",
+      "mibDef": "thorny; bristling; thorn bush; pointed (thorny) rock; bramble bush; thorn",
+      "mibMeta": "The fear that causes one to think that he dare not undertake to overcome and to drive out of his consciousness those error, sense thoughts of opposition to Spirit that the Philistines signify. Two rocky crags, Seneh and Bozez, separated Jonathan from the Philistines; Jonathan had to pass them in ord",
+      "candidates": []
+    },
+    {
+      "id": 3030,
+      "word": "Senir",
+      "etym": "Heb.",
+      "mibDef": "interwoven; entwined; connected; coat of mail; corselet; glistening; peak;",
+      "mibMeta": "Mount Hermon represents a high, sublime state of mind. Senir (peak, snowy mountain, glistening, the Amoritish name for Mount Hermon) symbolizes the highest thought of Truth that the Amorite phase of consciousness in man can perceive. (See AMORITES.) This high ideal is to this consciousness more or l",
+      "candidates": []
+    },
+    {
+      "id": 3031,
+      "word": "Sennacherib",
+      "etym": "Heb. fr. Pers .",
+      "mibDef": "conqueror of armies; Sin (moon",
+      "mibMeta": "A ruling thought in the sense-reasoning plane of consciousness in man. This is not the true source of understanding; it is head of the realm of thought represented by the Assyrians (a king of the Assyrians; see ASSYRIA). Though this ruling thought multiplies error in the consciousness that gives it ",
+      "candidates": [
+        {
+          "s": "H5576",
+          "def": "Sancherib, an Assyrian king"
+        }
+      ]
+    },
+    {
+      "id": 3032,
+      "word": "senses",
+      "etym": "",
+      "mibDef": "By declaring our senses to be spiritual and by speaking the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G145",
+          "def": "properly, an organ of perception, i.e., (figuratively) judgment"
+        }
+      ]
+    },
+    {
+      "id": 3033,
+      "word": "senses become Gezer",
+      "etym": "",
+      "mibDef": "a precipice to man, a very steep and dangerous place over which he is liable to",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G145",
+          "def": "properly, an organ of perception, i.e., (figuratively) judgment"
+        }
+      ]
+    },
+    {
+      "id": 3034,
+      "word": "Seorim",
+      "etym": "Heb .",
+      "mibDef": "hairy; bristling; bearded; barley; barleycorn; fears; distresses;",
+      "mibMeta": "Seorim is a form of the words SEIR and SEIRAH, which see. Since Seorim was the name of an Israelitish priest who served in the Temple in David's reign, we see in it a suggestion of elevation and transmutation of the sense or physical consciousness to higher and more spiritual expression.",
+      "candidates": []
+    },
+    {
+      "id": 3035,
+      "word": "separation from God",
+      "etym": "",
+      "mibDef": "Man, being the offspring of God, has the power to create. He has used his",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5145",
+          "def": "properly, something set apart, i.e., (abstractly) dedication (of a priet or Nazirite); hence (concretely) unshorn locks; also (by implication) a chaplet (especially of royalty)"
+        },
+        {
+          "s": "H5079",
+          "def": "properly, rejection; by implication, impurity, especially personal (menstruation) or moral (idolatry, incest)"
+        },
+        {
+          "s": "H914",
+          "def": "to divide (in variation senses literally or figuratively, separate, distinguish, differ, select, etc.)"
+        }
+      ]
+    },
+    {
+      "id": 3036,
+      "word": "Sephar",
+      "etym": "Heb .",
+      "mibDef": "spiritual travail; meditation; numbering; recounting; remembering;",
+      "mibMeta": "The east always represents the within, while a mountain signifies a high plane of thought. Sephar, \"the mountain of the east\" (meaning remembering, engraving, numbering, book, scribe), is, in consciousness of the individual, that high place within the spiritual realm of his being where a record is k",
+      "candidates": [
+        {
+          "s": "H5611",
+          "def": "Sephar, a place in Arabia"
+        }
+      ]
+    },
+    {
+      "id": 3037,
+      "word": "Sepharad",
+      "etym": "Heb.",
+      "mibDef": "divided number; severed; boundary; limit.",
+      "mibMeta": "There is always a limit to any seeming separation or wandering away from God, Spirit, Truth. When this limit or boundary is reached, a reaction sets in and the soul begins to swing back toward its center. Sepharad indicates this boundary or termination of the separation of the Jews from their native",
+      "candidates": []
+    },
+    {
+      "id": 3038,
+      "word": "Sepharvaim",
+      "etym": "Heb.",
+      "mibDef": "dual meditations; two inscriptions; two letters; two books;",
+      "mibMeta": "A dual state of consciousness-partly good, partly evil (dual meditations, two inscriptions). This dual habit of thinking is the result of reasoning according to the senses, or outer appearances (a city of Syria, and Syria signifies the thoughts of the intellectual realm that have no understanding of",
+      "candidates": []
+    },
+    {
+      "id": 3039,
+      "word": "Serah",
+      "etym": "Heb .",
+      "mibDef": "poured forth; diffused; spread out; extension; redundance; abundance;",
+      "mibMeta": "While Serah bespeaks a rich, broad, extensive phase of soul quality (extension, abundance, spread out), there is also a strong suggestion of waste of substance, lack of conservation (poured forth, diffused, excess).",
+      "candidates": [
+        {
+          "s": "H8294",
+          "def": "Serach, an Israelitess"
+        }
+      ]
+    },
+    {
+      "id": 3040,
+      "word": "Seraiah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah hath prevailed; Jah strives; Jah is prince; whom Jehovah",
+      "mibMeta": "Thoughts of dominion, of conquest and victory, based on the overcoming power of the indwelling Christ, I AM, Jehovah (Jehovah hath prevailed, Jah is prince, warrior of Jehovah, Israelitish men). seraphim- Ideas of purity; the cleansing power of exalted ideas.",
+      "candidates": [
+        {
+          "s": "H8304",
+          "def": "Serajah, the name of nine Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3041,
+      "word": "seraphim (A. V.",
+      "etym": "Heb.",
+      "mibDef": "the burning; fiery ones; consuming with fire;",
+      "mibMeta": "Ideas of purity, or the cleansing power of exalted ideas (the burning, fiery ones, glorious, princely). Wings symbolize freedom from material limitations. Six wings indicate that the purification must go through the six avenues of consciousness in the body. Those who are spiritually quickened have a",
+      "candidates": []
+    },
+    {
+      "id": 3042,
+      "word": "Sered",
+      "etym": "Heb ,",
+      "mibDef": "fear; trembling; flight; escape.",
+      "mibMeta": "Fearfulness, extreme unrest (fear, trembling) existing in the order faculty in the individual consciousness (Sered was a son of Zebulun, and Zebulun represents order). Back of this fearful, seemingly unstable thought that Sered signifies, however, deep within the truth that the order faculty is of s",
+      "candidates": []
+    },
+    {
+      "id": 3043,
+      "word": "Sergius Paulus",
+      "etym": "Lat .",
+      "mibDef": "little net; little searcher; small sieve.",
+      "mibMeta": "The reasoning faculty searching into the things of Spirit. In Acts 13:7-12 we find the proconsul, Sergius Paulus, a man of understanding, observing the effect of Spirit, being astonished at its power, and believing the Truth. In other words the reasoning faculty in man, unified with a certain execut",
+      "candidates": [
+        {
+          "s": "G4588",
+          "def": "Sergius, a Roman"
+        }
+      ]
+    },
+    {
+      "id": 3044,
+      "word": "Serug",
+      "etym": "Heb.",
+      "mibDef": "woven together; interwoven; braided; shoot; branch; tendril; braid;",
+      "mibMeta": "The budding, sprouting, growing, and developing (shoot, tendril ) of spiritual seed, or Truth ideas, deep down in the subconsciousness, preparatory to extending the saving work to the body. At the Serug phase of man's unfoldment the work is done mostly in secret, with just a ray of light extending h",
+      "candidates": [
+        {
+          "s": "H8286",
+          "def": "Serug, a postdiluvian patriarch"
+        }
+      ]
+    },
+    {
+      "id": 3045,
+      "word": "Seth",
+      "etym": "Heb.",
+      "mibDef": "settled; determined; founded; set; placed; disposed; constituted; substituted;",
+      "mibMeta": "The root idea of this name is that of a surrounding sympathetic movement that envelops a thing and defines its limits, places it, founds it, disposes of it. Some mystics have seen in the name Seth a law of destiny, that which predetermines a thing and settles its order. While man is in a sense a cre",
+      "candidates": [
+        {
+          "s": "H8352",
+          "def": "Sheth, third son of Adam"
+        }
+      ]
+    },
+    {
+      "id": 3046,
+      "word": "Sethur",
+      "etym": "Heb.",
+      "mibDef": "covered; veiled; secreted; hidden; protected; covert; hidden sin;",
+      "mibMeta": "A degree of understanding of Truth, but kept in the background and not acted upon ( covered , veiled, hidden, secreted). Thus deceptive errors are developed in the inner consciousness of the individual (covert, deceitful, hidden sin, self-defilement ), errors that are harmful to him and greatly hind",
+      "candidates": [
+        {
+          "s": "H5639",
+          "def": "Sethur, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3047,
+      "word": "Shaalabbin",
+      "etym": "Heb .",
+      "mibDef": "place of foxes; place of jackals; place of hollows; son of a fox;",
+      "mibMeta": "The wisdom, slyness, and cunning of the senses (place of foxes, place of jackals, son of a fox). The chief characteristic of the fox is craftiness, and that which is of a sly, deceptive nature is not easy to adjust according to Truth. This city of Shaalabbin was allotted to Dan, but the Danites fail",
+      "candidates": []
+    },
+    {
+      "id": 3048,
+      "word": "Shaalim (A. V.",
+      "etym": "Heb.",
+      "mibDef": "burrows; burrowers; foxes; jackals; foxes' region;",
+      "mibMeta": "The wisdom, slyness, and cunning of the senses, which exist secretly in the consciousness. There must be a substance of good in this wisdom, even if it does seem to be of the outer senses instead of originating in Spirit, since Shaalbim provided some of the provisions for Solomon's household (I King",
+      "candidates": []
+    },
+    {
+      "id": 3049,
+      "word": "Shaaph",
+      "etym": "Heb.",
+      "mibDef": "cutting off; separating; division; divided mind; doubtful; skeptical;",
+      "mibMeta": "In its most positive or extreme sense Shaaph signifies denial, denial of error (cutting o, separating, division). Preceding this comes a division of thought in the mind, a certain discernment between good and seeming error. If this discernment is applied negatively double- mindedness might enter in:",
+      "candidates": [
+        {
+          "s": "H8174",
+          "def": "Shaaph, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3050,
+      "word": "Shaashgaz",
+      "etym": "Heb. fr. Pers.",
+      "mibDef": "beauty's keeper; servant of the beautiful; devotee of",
+      "mibMeta": "An inherent devotion to that which is beautiful and refined, that serves as a connecting link between the dominion of the puffed-up personal will in the individual and his feminine or soul qualities (servant of the beautiful, devotee of beauty, a chamberlain to King Ahasuerus, one who kept the concu",
+      "candidates": []
+    },
+    {
+      "id": 3051,
+      "word": "Shabbethai",
+      "etym": "Heb.",
+      "mibDef": "Sabbath-born; seventh birth; my restoration; my rest.",
+      "mibMeta": "Abiding thoughts of peace and Truth, or an abiding consciousness of Truth, bom of the silence, prayer, of the giving up of one's personal desires and workings, and an entering into conscious unity with Spirit, that God may work in and through one to will and to do according to His good pleasure (my ",
+      "candidates": [
+        {
+          "s": "H7678",
+          "def": "Shabbethai, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3052,
+      "word": "Shachia",
+      "etym": "",
+      "mibDef": "appeased with Jah; fame of Jehovah; Jah protected.",
+      "mibMeta": "A sense of quietness, peace, harmony, protection, through one's indwelling Christ, I AM, Jehovah (appeased with Jah, Jah protected ). This does much to acquaint one with one's inner divine presence and power, and so honors the indwelling Christ (fame of Jah), through whom all dominion and good becom",
+      "candidates": []
+    },
+    {
+      "id": 3053,
+      "word": "Shagee (A. V.",
+      "etym": "Heb .",
+      "mibDef": "wandering; straying; going astray; reeling; staggering;",
+      "mibMeta": "A tendency to go astray, or a fear of going astray, in one's first blind groping for greater light, truer understanding. A Hararite (mountaineer) signifies a high aspiration, a strong, noble, uplifting thought; and this Shagee thought is groping for a truer light and a more efficient power that will",
+      "candidates": []
+    },
+    {
+      "id": 3054,
+      "word": "Shaharaim",
+      "etym": "Heb.",
+      "mibDef": "two cleavings; double breaking forth; two dawns; double",
+      "mibMeta": "The breaking of new light, understanding, in consciousness, doubly strong or doubly great and effective (two dawns, double morning, a Benjamite).",
+      "candidates": [
+        {
+          "s": "H7842",
+          "def": "Shacharajim, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3055,
+      "word": "Shahazumah (A. V.",
+      "etym": "",
+      "mibDef": "heights; elevations; elations;",
+      "mibMeta": "A group of thoughts of a high character, or that aspire to higher, more spiritual expression and attainment (heights, elevations ), in the active zeal faculty in individual consciousness (a city of Issachar, Issachar signifying the zeal faculty in man). In its negative aspect Shahazumah refers to a ",
+      "candidates": []
+    },
+    {
+      "id": 3056,
+      "word": "shaken\"",
+      "etym": "Matt. 24:29",
+      "mibDef": "that is, the mental realms were to be broken up— and He attributed this",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4531",
+          "def": "to waver, i.e., agitate, rock, topple or (by implication) destroy; figuratively, to disturb, incite"
+        },
+        {
+          "s": "H5128",
+          "def": "to waver, in a great variety of applications, literally and figuratively (as subjoined)"
+        },
+        {
+          "s": "H5287",
+          "def": "to tumble about"
+        },
+        {
+          "s": "H5086",
+          "def": "to shove asunder, i.e., disperse"
+        },
+        {
+          "s": "H5110",
+          "def": "to nod, i.e., waver; figuratively, to wander, flee, disappear; also (from shaking the head in sympathy), to console, deplore, or (from tossing the head in scorn) taunt"
+        }
+      ]
+    },
+    {
+      "id": 3057,
+      "word": "Shalishah (A. V.",
+      "etym": "Heb.",
+      "mibDef": "third; threefold; trinity; triad; triune;",
+      "mibMeta": "The three-dimensional or outer man (third, triangular). Threefold, triad, triune, also denote a trinity; and man is the third in the trinity composed of mind, idea, expression, or God, Christ, man. This man, however, is manifest man in his perfect state, and not sense man subject to corruption, as h",
+      "candidates": []
+    },
+    {
+      "id": 3058,
+      "word": "Shallecheth",
+      "etym": "Heb .",
+      "mibDef": "felling; overthrowing; casting out; thrown down.",
+      "mibMeta": "The word of denial; putting away out of consciousness that which is not acceptable to it; the casting forth of error by denial (casting out, felling, overthrowing, thrown down). Shallecheth, the gate at the west of the Temple (west signifying the without), is \"at the causeway that goeth up, watch ag",
+      "candidates": []
+    },
+    {
+      "id": 3059,
+      "word": "Shallum",
+      "etym": "Heb.",
+      "mibDef": "completion; perfection; restoration; peace; prosperity; gift; reward;",
+      "mibMeta": "Thoughts belonging to the real in man (Israelites), that pertain to the law of cause and effect, giving and receiving, sowing and reaping (recompense, perfection, peace, reward, retribution, punishment). \"Be not deceived; God is not mocked: for whatsoever a man soweth, that shall he also reap. For h",
+      "candidates": [
+        {
+          "s": "H7967",
+          "def": "Shallum, the name of fourteen Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3060,
+      "word": "Shallun",
+      "etym": "Heb .",
+      "mibDef": "completed; perfected; restored; peaceful; prosperous; restitution;",
+      "mibMeta": "See SHALLUM.",
+      "candidates": [
+        {
+          "s": "H7968",
+          "def": "Shallun, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3061,
+      "word": "Shalman",
+      "etym": "Heb. fr. Pers.",
+      "mibDef": "fire worshiper; modesty opposed to vehemence.",
+      "mibMeta": "Fire, in the Scriptures, as it relates to God and to the sacrifices of the Hebrews, signifies a purifying, refining, transmuting process. In Shalman, a king of Assyria (the ruling idea in the intellectual realm in man that is directed by the outer senses and opposed to Truth), the idea of fire would",
+      "candidates": [
+        {
+          "s": "H8020",
+          "def": "Shalman, a king apparently of Assyria"
+        }
+      ]
+    },
+    {
+      "id": 3062,
+      "word": "Shalmaneser",
+      "etym": "",
+      "mibDef": "fire worshiper; modesty opposed to vehemence.",
+      "mibMeta": "See SHALMAN.",
+      "candidates": [
+        {
+          "s": "H8022",
+          "def": "Shalmaneser, an Assyrian king"
+        }
+      ]
+    },
+    {
+      "id": 3063,
+      "word": "Shama",
+      "etym": "Heb .",
+      "mibDef": "hearing; hearkening; obedient; dutiful; understanding.",
+      "mibMeta": "An obedient attitude of mind, one attentive to the higher things of Spirit (obedient, hearing, dutiful, an Israelite).",
+      "candidates": [
+        {
+          "s": "H8091",
+          "def": "Shama, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3064,
+      "word": "Shamgar",
+      "etym": "Heb.",
+      "mibDef": "cup-bearer; most careful keeping; fleer; sword.",
+      "mibMeta": "Anath, father of Shamgar, and meaning answering, signifies the Spirit's response to the cry of the soul for deliverance from opposing error thoughts. Shamgar represents the affirmations or words of Truth (sword) by whose power the opposing thoughts (Philistines) are overcome. The oxgoad signifies th",
+      "candidates": [
+        {
+          "s": "H8044",
+          "def": "Shamgar, an Israelite judge"
+        }
+      ]
+    },
+    {
+      "id": 3065,
+      "word": "Shamhuth",
+      "etym": "Heb.",
+      "mibDef": "astonishment; awesome; laying waste; desolation; destruction;",
+      "mibMeta": "An influential thought in man's higher consciousness that is very active in destroying error (laying waste, destruction, desolation). In some of the men named Shammah, especially the one who was of Edom, the name signifies a destructive, fearful tendency in consciousness that leads to inharmonies of",
+      "candidates": [
+        {
+          "s": "H8049",
+          "def": "Shamhuth, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3066,
+      "word": "Shamir",
+      "etym": "Heb.",
+      "mibDef": "stiff; rigid; bristling; hard; thorn; sharp point; adamant; diamond;",
+      "mibMeta": "A sharp, piercing, perceiving, unyielding phase of consciousness, in the faculties in man that are represented by Judah, Ephraim, and Levi (stiff, rigid, hard, thorn, hard look, close watch, cities in the hill country of Judah and of Ephraim, and a Levite). These thoughts are always to the point, an",
+      "candidates": [
+        {
+          "s": "H8069",
+          "def": "Shamir, the name of two places in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 3067,
+      "word": "Shammah",
+      "etym": "Heb.",
+      "mibDef": "astonishment; amazement; awe; laid waste; desolation;",
+      "mibMeta": "See SHAMHUTH.",
+      "candidates": [
+        {
+          "s": "H8048",
+          "def": "Shammah, the name of an Edomite and four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3068,
+      "word": "Shammai",
+      "etym": "Heb .",
+      "mibDef": "astonishment; awe; laid waste; desolation; destruction; ruin;",
+      "mibMeta": "See SHAMHUTH. Shammoth, sham'-moth (Heb amazement; awe; laid waste; desolation; destruction; ruin; rumor; report; repute; fame; renown. One of David's mighty men (I Chron. 11:27). In II Samuel 23:25, he is called Shammah. Shamhuth of I Chronicles 27:8 is thought to be the same man. See SHAMHUTH.",
+      "candidates": [
+        {
+          "s": "H8060",
+          "def": "Shammai, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3069,
+      "word": "Shammua",
+      "etym": "Heb.",
+      "mibDef": "what is heard; report; rumor; obedience; understanding;",
+      "mibMeta": "Common truth; thoughts of man's higher religious state of mind that are attentive and receptive to only such truth as is commonly and widely known and accepted (what is heard, report, fame, obedience ). They would tend to make light of and scorn the deep inspirations of Spirit, or anything not gener",
+      "candidates": [
+        {
+          "s": "H8051",
+          "def": "Shammua, the name of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3070,
+      "word": "Shamsherai",
+      "etym": "Heb.",
+      "mibDef": "keeper of brilliance; hero; heroic; keeper of the sun; sunlike;",
+      "mibMeta": "An understanding faith, strong, joyous, fearless, which retains and radiates the light of Spirit (keeper of brilliance, hero, heroic, radiance, a Benjamite, Benjamin representing the active faith faculty in man).",
+      "candidates": []
+    },
+    {
+      "id": 3071,
+      "word": "Shapham",
+      "etym": "Heb .",
+      "mibDef": "polished; smoothed; bright; youthful; vigorous; bold; worn away;",
+      "mibMeta": "A ruling or strongly influencing thought of splendid courage, energy, and youthfulness (polished, bright, youthful, bold, vigorous), the result of power active in life and substance (a chief of Gad, who lived in Bashan, Gad referring to the power faculty in man, and Bashan referring to abundant life",
+      "candidates": [
+        {
+          "s": "H8223",
+          "def": "Shapham, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3072,
+      "word": "Shaphan",
+      "etym": "Heb.",
+      "mibDef": "covered; hidden; underground; sly; cunning; prudent; small",
+      "mibMeta": "The subjective memory, or recurring consciousness of the law, which brings out the inner rule of action that leads on to higher and better things through mental and physical evolution. In II Chronicles 34:14-28 the subjective memory (Shaphan the scribe) receives through the religious tendencies (Hil",
+      "candidates": [
+        {
+          "s": "H8227",
+          "def": "a species of rock-rabbit (from its hiding), i.e., probably the hyrax"
+        }
+      ]
+    },
+    {
+      "id": 3073,
+      "word": "Shaphat",
+      "etym": "Heb.",
+      "mibDef": "to set upright; to judge; true judgment; condemnation; punishment;",
+      "mibMeta": "These men by the name of Shaphat (to judge) signify the development of the discerning, judging faculty throughout the consciousness, or the judgment idea's becoming operative throughout the various faculties of mind that are represented by the tribes of Israel to whom the men by this name belonged.",
+      "candidates": [
+        {
+          "s": "H8202",
+          "def": "Shaphat, the name of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3074,
+      "word": "Shaphir (A. V.",
+      "etym": "Heb .",
+      "mibDef": "scratched; scraped; rubbed to a polish; fair; brilliant;",
+      "mibMeta": "The beauty and glory and joy of spiritual ideals (bright, shining, beautiful, fair, delightful, a city of Israel), destroyed out of consciousness by willful disobedience to Truth. \"Pass away, O inhabitant of Shaphir, in nakedness and shame. \"",
+      "candidates": []
+    },
+    {
+      "id": 3075,
+      "word": "Sharai",
+      "etym": "Heb.",
+      "mibDef": "Jehovah loosens; Jah is deliverer; whom Jah sets free; beginning, i. e.,",
+      "mibMeta": "An awakening to understanding that from the inner Christ comes the solution to all life's problems and deliverance from all error (Jah is deliverer, beginning, i. e., opening up, solution, an Israelite).",
+      "candidates": []
+    },
+    {
+      "id": 3076,
+      "word": "Sharar",
+      "etym": "Heb.",
+      "mibDef": "turning about; twisting together; cord; sinew; muscle; navel; strong;",
+      "mibMeta": "An active thought of strength, firmness, and order (strong, hard, firm, navel; the order faculty in the individual is located at the navel). The definitions of Sharar, as a whole, bespeak a great need of more love, cooperation, and harmony. These seem to be attained in the son Ahiam. (See AHIAM.) Sh",
+      "candidates": [
+        {
+          "s": "H8325",
+          "def": "Sharar, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3077,
+      "word": "Sharon",
+      "etym": "Heb ,",
+      "mibDef": "even; level; plain; straight; right; tranquil; harmonious; composed;",
+      "mibMeta": "The rich substance of Spirit established in body consciousness (fruitful, prosperous a tract of country in Palestine that was noted for its rich pasture lands). See LASSHARON for the significance of plain. The thoughts of justice, honor, poise, and harmony are also symbolized in this name. Sharonite",
+      "candidates": [
+        {
+          "s": "H8289",
+          "def": "Sharon, the name of a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 3078,
+      "word": "Sharuhen",
+      "etym": "Heb.",
+      "mibDef": "loosening of kindness; unbinding of compassion; dwelling of",
+      "mibMeta": "Loosening or awakening of love and Truth within one, this bringing one into an abiding consciousness of grace and joy and all good— a sense of satisfaction such as is suggested in Psalms 37:4: \"Delight thyself also in Jehovah; And he will give thee the desire of thy heart.\"",
+      "candidates": []
+    },
+    {
+      "id": 3079,
+      "word": "Shashai",
+      "etym": "Rob.",
+      "mibDef": "whiteness; fine white linen; noble; free; harmonious; proportional",
+      "mibMeta": "The thought of overcoming, with its results, is borne out in this name. \"He that overcometh shall ... be arrayed in white garments\"; \"They shall walk with me in white; for they are worthy\"; \"The fine linen is the righteous acts of the saints.\"",
+      "candidates": []
+    },
+    {
+      "id": 3080,
+      "word": "Shashak",
+      "etym": "Heb.",
+      "mibDef": "running to and fro; pedestrian; seeker; prayer; assaulter; eagerness;",
+      "mibMeta": "An intense desire for good, but unfulfilled because of running to and fro in the outer, because of seeking in the outer only. That which Shashak signifies lacks poise, self-mastery, concentration. It does not seek the Spirit of truth in quietness and confidence. Violence enters into the activity of ",
+      "candidates": []
+    },
+    {
+      "id": 3081,
+      "word": "Shaul",
+      "etym": "Heb .",
+      "mibDef": "asked for; desired; wished; demanded; searching; inquiring; digging;",
+      "mibMeta": "Shaul is a form of the name Saul, and its meaning is the same as that of Saul. It relates to the will in individual consciousness, the personal will. (See SAUL.) The men by this name, one a king of Edom, one a son of Simeon, and one a Levite, refer to the will or executive faculty in man, active at ",
+      "candidates": [
+        {
+          "s": "H7586",
+          "def": "Shaul, the name of an Edomite and two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3082,
+      "word": "Shaulites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or pertaining to Shaul.",
+      "mibMeta": "Thoughts springing from that in consciousness which Shaul the son of Simeon signifies. (See SHAUL.)",
+      "candidates": []
+    },
+    {
+      "id": 3083,
+      "word": "Shaveh",
+      "etym": "Heb.",
+      "mibDef": "compared; likened; equalized; placed in order; composed; calm;",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7741",
+          "def": "Shaveh-Kirjathajim, a place East of the Jordan"
+        }
+      ]
+    },
+    {
+      "id": 3084,
+      "word": "Shaveh-kiriathaim",
+      "etym": "Heb.",
+      "mibDef": "plain of Kiriathaim; plain of the twin cities;",
+      "mibMeta": "Shaveh means a plain, an equalized, poised state of mind and body; Kiriathaim means double city and signifies a twofold strength or supply of whatever the central idea of the group of thoughts may be. In Shaveh-kiriathaim, the significance is poise and equalization in the consciousness and the organ",
+      "candidates": []
+    },
+    {
+      "id": 3085,
+      "word": "Shavsha",
+      "etym": "Heb",
+      "mibDef": "bright; shining; white; nobility; splendor; purity.",
+      "mibMeta": "That which impresses Truth indelibly upon or within the consciousness (a scribe), and exalts and radiates the light and purity of Truth (bright, shining, white, splendor, nobility, purity). (See SCRIBES and EZRA the scribe.)",
+      "candidates": [
+        {
+          "s": "H7798",
+          "def": "Shavsha, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3086,
+      "word": "Sheal",
+      "etym": "Heb.",
+      "mibDef": "digging out; searching; inquiring; asking; requesting; desiring; praying.",
+      "mibMeta": "A thought activity in the higher consciousness of man (an Israelite) that SHEARIAH is seeking earnestly after more of God (searching, inquiring, desiring, praying).",
+      "candidates": []
+    },
+    {
+      "id": 3087,
+      "word": "Shealtiel",
+      "etym": "Heb.",
+      "mibDef": "I have asked of God; having asked of God.",
+      "mibMeta": "Zerubbabel is the activity in the higher consciousness of the individual that restores the worship of God. Shealtiel, father of Zerubbabel (I have asked of God), signifies the I in man appealing to the divine in him and making conscious union with Spirit.",
+      "candidates": []
+    },
+    {
+      "id": 3088,
+      "word": "Sheariah",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah estimates; Jah decides; judgment of Jah; Jehovah",
+      "mibMeta": "Azel father of Sheariah, signifies the uplifting and ennobling influence that the recognition of one's divine origin— sonship with God— has on one's character. Sheariah (Jehovah hath esteemed, whom Jehovah estimates, prized of Jehovah) is that high appreciation and estimation in which the Father reg",
+      "candidates": []
+    },
+    {
+      "id": 3089,
+      "word": "Sheba",
+      "etym": "Heb.",
+      "mibDef": "seven; cyclic fullness; completeness; fullness of times; fulfillment; an",
+      "mibMeta": "See BEER— SHEBA.",
+      "candidates": [
+        {
+          "s": "H7614",
+          "def": "Sheba, the name of three early progenitors of tribes and of an Ethiopian district"
+        },
+        {
+          "s": "H7652",
+          "def": "Sheba, the name of a place in Palestine, and of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3090,
+      "word": "Sheba",
+      "etym": "Heb.",
+      "mibDef": "rest; repose; stability; equilibrium; reintegration; return to an original",
+      "mibMeta": "Sheba pertains to wholeness or fullness on some plane of existence (return to an original state, rest, repose, equilibrium, reintegration, restoration). Whether or not this thought of wholeness, of bringing to fullness and stabilization, belongs to the inner or outer man, to good or to seeming ill, ",
+      "candidates": [
+        {
+          "s": "H7614",
+          "def": "Sheba, the name of three early progenitors of tribes and of an Ethiopian district"
+        },
+        {
+          "s": "H7652",
+          "def": "Sheba, the name of a place in Palestine, and of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3091,
+      "word": "Shebaniah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah has made grow up; Jehovah increases; whom Jehovah",
+      "mibMeta": "Our natural religious tendencies (priests and Levites) recognizing, rejoicing in, and seeking to inspire the whole consciousness with the realization that the Lather in us, our indwelling Christ, Jehovah, is our power to unfold and to grow spiritually; that the healing, restoring, constructive, upli",
+      "candidates": []
+    },
+    {
+      "id": 3092,
+      "word": "Sheber",
+      "etym": "Heb.",
+      "mibDef": "breach; fracture; broken in pieces; fragment; ruin; destruction; piece;",
+      "mibMeta": "Caleb signifies spiritual faith and enthusiasm; Maacah suggests a negative, depressed state of thought or feeling that exists in the natural soul in man. Sheber and Tirhanah, the first two sons of Caleb by Maacah (notice that these two sons are named as though they belonged together), indicate a bre",
+      "candidates": []
+    },
+    {
+      "id": 3093,
+      "word": "Shebuel",
+      "etym": "Heb.",
+      "mibDef": "captive of God; God's leading back; restored to a former state by",
+      "mibMeta": "True, spiritually inclined thoughts and activities in the religious phase of man's consciousness (Israelites, a chief of Levi, and a musician in the house of God, in David's reign) that have become irresistibly attracted to the real things of Spirit and wish to gain full spiritual guidance and direc",
+      "candidates": [
+        {
+          "s": "H7619",
+          "def": "Shebuel or Shubael, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3094,
+      "word": "Shechem",
+      "etym": "Heb.",
+      "mibDef": "inclining; bending down; shoulder; ridge; upper part of the back; a",
+      "mibMeta": "A burden-bearing attitude of thought (shoulder, a burden). Of Issachar we read: \"And he bowed his shoulder to bear, And became a servant under taskwork.\" Persons who are constantly bowed down with the thought of burdens and responsibilities and hard work become round-shouldered and stooped. On the o",
+      "candidates": [
+        {
+          "s": "H7927",
+          "def": "Shekem, a place in Palestine"
+        },
+        {
+          "s": "H7928",
+          "def": "Shekem, the name of a Hivite and two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3095,
+      "word": "Shedeur",
+      "etym": "Heb .",
+      "mibDef": "shedder of light; sender of revelation; shooting forth of flame;",
+      "mibMeta": "Divine intelligence, inspiration, active in the consciousness of the spiritually awakening individual (shedder of light, sender of revelation, flood of light). sheep. Sheep are the most harmless and innocent of animals. They represent the natural life that flows into man's consciousness from Spirit.",
+      "candidates": []
+    },
+    {
+      "id": 3096,
+      "word": "Shehariah",
+      "etym": "Heb .",
+      "mibDef": "breaking forth of Jehovah; Jehovah hath sought carefully;",
+      "mibMeta": "The following gives the significance of Shehariah, as applied to us individually: Jehovah, the Christ or Father in us, ever seeks to express more of God in and through us (Jehovah hath sought carefully). Our response to the attempts of Spirit to bring greater good into our life appears first in our ",
+      "candidates": []
+    },
+    {
+      "id": 3097,
+      "word": "Shelah",
+      "etym": "Heb.",
+      "mibDef": "tranquillity; security; rest; peace; inquiry; petition; prayer; request;",
+      "mibMeta": "A sense of peace, harmony, security that has come about by prayer, affirmation, desire, centered in that which is good and true (prayer, petition, request, demand ). Shelanites, she'-lan-ites (fr. Heb.). The \"family\" of Shelah, the son of Judah (Num. 26:20). Thoughts springing from and like to that ",
+      "candidates": [
+        {
+          "s": "H7956",
+          "def": "Shelah, the name of a postdiluvian patriarch and of an Israelite"
+        },
+        {
+          "s": "H7974",
+          "def": "Shelach, a postdiluvian patriarch"
+        }
+      ]
+    },
+    {
+      "id": 3098,
+      "word": "Shelemiah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah makes secure; completion of Jehovah; Jah finishes;",
+      "mibMeta": "Thoughts belonging to the real and true in man (Israelites); that recognize the law of sowing and reaping, giving and receiving, as being a spiritual law (Jehovah hath repaid, Jah is recompense ); that work in harmony with divine law and therefore bring about a sense of security and wholeness in the",
+      "candidates": [
+        {
+          "s": "H8018",
+          "def": "Shelemjah, the name of nine Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3099,
+      "word": "Sheleph",
+      "etym": "Heb.",
+      "mibDef": "reaction; reflection; refraction; emission; extraction; drawing out;",
+      "mibMeta": "A working out, from within, of the spiritual in man, or at least a striving of Spirit within man for greater expression in and through the individual (reaction, refraction, extraction, drawing out, drawn out). At the Sheleph stage of one's unfoldment, however, the spiritual does not gain much headwa",
+      "candidates": []
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+services:
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: bf
+      MYSQL_USER: bibleforge
+      MYSQL_PASSWORD: bibleforge
+    ports:
+      - "${DB_PORT_HOST:-6819}:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./docker/init-db:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-prootpassword"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  server:
+    image: node:20-alpine
+    working_dir: /app
+    volumes:
+      - ./server:/app
+      - ./custom-resources:/app/custom-resources:ro
+      - server_modules:/app/node_modules
+    command: sh -c "npm install && npm run dev"
+    ports:
+      - "${APP_PORT:-6101}:${APP_PORT:-6101}"
+    environment:
+      PORT: ${APP_PORT:-6101}
+      MIB_PATH: /app/custom-resources/metaphysical-bible-dictionary.json
+      GEMATRIA_PATH: /app/custom-resources/gematria.json
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_USER: bibleforge
+      DB_PASSWORD: bibleforge
+      DB_NAME: bf
+    depends_on:
+      db:
+        condition: service_healthy
+
+  client:
+    image: node:20-alpine
+    working_dir: /app
+    volumes:
+      - ./client:/app
+      - client_modules:/app/node_modules
+    command: sh -c "npm install && npm run dev"
+    ports:
+      - "${VITE_PORT:-7188}:${VITE_PORT:-7188}"
+    environment:
+      VITE_PORT: ${VITE_PORT:-7188}
+      VITE_PROXY_TARGET: http://server:${APP_PORT:-6101}
+      VITE_USE_POLLING: "true"
+    depends_on:
+      - server
+
+volumes:
+  mysql_data:
+  server_modules:
+  client_modules:

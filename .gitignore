@@ -1,0 +1,13 @@
+node_modules/
+dist/
+build/
+.env
+!.env.example
+!server/.env.example
+*.log
+.DS_Store
+coverage/
+# Generated copy — source is custom-resources/, Dockerfile copies it at build time
+server/data/metaphysical-bible-dictionary.json
+# Compiled binary
+custom-resources/gemini_blast

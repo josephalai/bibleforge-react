@@ -1,0 +1,1472 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "13 of 37",
+  "_entry_range": "ids 1200–1299",
+  "entries": [
+    {
+      "id": 1200,
+      "word": "feeling",
+      "etym": "",
+      "mibDef": "Feeling is external to thought; behind every feeling or emotion there lies thought, which",
+      "mibMeta": "That phase of our understanding which comes into contact with substance. Consequently we can take possession of all substance that we comprehend and understand, in the name of I AM. This is the meaning of Joshua 1:3: \"Every place that the sole of your foot shall tread upon, to you have I given it, a",
+      "candidates": [
+        {
+          "s": "G524",
+          "def": "to grieve out, i.e., become apathetic"
+        },
+        {
+          "s": "G4834",
+          "def": "to feel \"sympathy\" with, i.e., (by implication) to commiserate"
+        }
+      ]
+    },
+    {
+      "id": 1201,
+      "word": "feeling are strong factors in establishing harmony and music",
+      "etym": "",
+      "mibDef": "orderly, melodious activities of mind and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G524",
+          "def": "to grieve out, i.e., become apathetic"
+        },
+        {
+          "s": "G4834",
+          "def": "to feel \"sympathy\" with, i.e., (by implication) to commiserate"
+        }
+      ]
+    },
+    {
+      "id": 1202,
+      "word": "feet",
+      "etym": "",
+      "mibDef": "The denial of materiality is illustrated in Jesus' washing of the apostles' feet",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7272",
+          "def": "a foot (as used in walking); by implication, a step; by euphemistically the pudenda"
+        },
+        {
+          "s": "G4228",
+          "def": "a \"foot\" (figuratively or literally)"
+        },
+        {
+          "s": "H7271",
+          "def": "a foot, a step; by euphemistically the pudenda"
+        },
+        {
+          "s": "H6471",
+          "def": "a stroke, literally or figuratively (in various applications, as follow)"
+        },
+        {
+          "s": "H4772",
+          "def": "(plural for collective) a footpiece, i.e., (adverbially) at the foot, or (direct.) the foot itself"
+        }
+      ]
+    },
+    {
+      "id": 1203,
+      "word": "Felix",
+      "etym": "hat.",
+      "mibDef": "happy.",
+      "mibMeta": "Transient prosperity and happiness; the thoroughly sense consciousness that believes the manifest world is the all of existence. It poses as judge and decides all matters from the standpoint of personality and personal profit. Felix listened to the exhortations of Paul, hoping to receive money. It i",
+      "candidates": [
+        {
+          "s": "G5344",
+          "def": "happy; Phelix (i.e., Felix), a Roman"
+        }
+      ]
+    },
+    {
+      "id": 1204,
+      "word": "feminine",
+      "etym": "",
+      "mibDef": "The divine feminine in man is the mother phase of Being. God, through His Holy",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1205,
+      "word": "Festus",
+      "etym": "Lat.",
+      "mibDef": "joyful.",
+      "mibMeta": "The transient joys of the external life, or festivity and joyfulness-in the outer life. When Truth has once entered the mind there is no getting rid of its work. It may seem to be bound and in a dungeon (as was Paul) and forgotten by the prosperous ruler (Festus), yet it is not inactive. There is an",
+      "candidates": [
+        {
+          "s": "G5347",
+          "def": "festal; Phestus (i.e., Festus), a Roman"
+        }
+      ]
+    },
+    {
+      "id": 1206,
+      "word": "fiery furnace",
+      "etym": "",
+      "mibDef": "A state of mind in which one goes through a purifying process, and evil and error",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5135",
+          "def": "fire"
+        },
+        {
+          "s": "H8314",
+          "def": "burning, i.e., (figuratively) poisonous (serpent)"
+        },
+        {
+          "s": "H5774",
+          "def": "to fly; also (by implication of dimness) to faint (from the darkness of swooning)"
+        },
+        {
+          "s": "H799",
+          "def": "a fire-law"
+        },
+        {
+          "s": "H784",
+          "def": "fire (literally or figuratively)"
+        }
+      ]
+    },
+    {
+      "id": 1207,
+      "word": "find that they",
+      "etym": "",
+      "mibDef": "she was healed of that defect in thought. But more",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4672",
+          "def": "properly, to come forth to, i.e., appear or exist; transitively, to attain, i.e., find or acquire; figuratively, to occur, meet or be present"
+        },
+        {
+          "s": "G2147",
+          "def": "to find (literally or figuratively)"
+        },
+        {
+          "s": "H7912",
+          "def": "to discover (literally or figuratively)"
+        },
+        {
+          "s": "H7280",
+          "def": "properly, to toss violently and suddenly (the sea with waves, the skin with boils); figuratively (in a favorable manner) to settle, i.e., quiet; specifically, to wink (from the motion of the eye-lids)"
+        },
+        {
+          "s": "H2803",
+          "def": "properly, to plait or interpenetrate, i.e., (literally) to weave or (generally) to fabricate; figuratively, to plot or contrive (usually in a malicious sense); hence (from the mental effort) to think, regard, value, compute"
+        }
+      ]
+    },
+    {
+      "id": 1208,
+      "word": "fire",
+      "etym": "",
+      "mibDef": "Symbolizes cleansing and purification, but it is more than a symbol. Material fire is the",
+      "mibMeta": "Fire is generally used in the Bible as a symbol of destruction of evil and error. It stands for cleansing and purification. In its true essence it is the fire of Spirit, or the divine energy, which never ceases its life-giving, purifying glow; when its cleansing work is completed in man's mind and b",
+      "candidates": [
+        {
+          "s": "H784",
+          "def": "fire (literally or figuratively)"
+        },
+        {
+          "s": "H801",
+          "def": "properly, a burnt-offering; but occasionally of any sacrifice"
+        },
+        {
+          "s": "G4442",
+          "def": "\"fire\" (literally or figuratively, specially, lightning)"
+        },
+        {
+          "s": "H217",
+          "def": "flame; hence (in the plural) the East (as being the region of light)"
+        },
+        {
+          "s": "H5135",
+          "def": "fire"
+        }
+      ]
+    },
+    {
+      "id": 1209,
+      "word": "fire",
+      "etym": "",
+      "mibDef": "Illumination of thought, in demonstration of Spirit's presence and power.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H784",
+          "def": "fire (literally or figuratively)"
+        },
+        {
+          "s": "H801",
+          "def": "properly, a burnt-offering; but occasionally of any sacrifice"
+        },
+        {
+          "s": "G4442",
+          "def": "\"fire\" (literally or figuratively, specially, lightning)"
+        },
+        {
+          "s": "H217",
+          "def": "flame; hence (in the plural) the East (as being the region of light)"
+        },
+        {
+          "s": "H5135",
+          "def": "fire"
+        }
+      ]
+    },
+    {
+      "id": 1210,
+      "word": "firmament",
+      "etym": "",
+      "mibDef": "Faith in mind power, a firm, unwavering place in consciousness. The firmament in",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7549",
+          "def": "properly, an expanse, i.e., the firmament or (apparently) visible arch of the sky"
+        }
+      ]
+    },
+    {
+      "id": 1211,
+      "word": "flame of fire",
+      "etym": "",
+      "mibDef": "Light of understanding that flames up in the heart, yet does not consume",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3852",
+          "def": "flame"
+        },
+        {
+          "s": "H3851",
+          "def": "a flash; figuratively, a sharply polished blade or point of a weapon"
+        },
+        {
+          "s": "G5395",
+          "def": "a blaze"
+        },
+        {
+          "s": "H4864",
+          "def": "properly, (abstractly) a raising (as of the hands in prayer), or rising (of flame); figuratively, an utterance; concretely, a beacon (as raised); a present (as taken), mess, or tribute; figuratively, a reproach (as a burden)"
+        },
+        {
+          "s": "H7957",
+          "def": "a flare of fire"
+        }
+      ]
+    },
+    {
+      "id": 1212,
+      "word": "flesh",
+      "etym": "",
+      "mibDef": "A malformation of the substance idea of Being. It must be transformed",
+      "mibMeta": "Our thoughts. flood (Gen. 7 and 8). Science teaches that man's body contains several of the elements that are found in the earth. Religion goes a step farther and proclaims that man is an epitome of Being; that he is like his Maker in spirit, soul, and body, the image and likeness of God. If man's b",
+      "candidates": [
+        {
+          "s": "H1320",
+          "def": "flesh (from its freshness); by extension, body, person; also (by euphemistically) the pudenda of a man"
+        },
+        {
+          "s": "G4561",
+          "def": "flesh (as stripped of the skin), i.e., (strictly) the meat of an animal (as food), or (by extension) the body (as opposed to the soul (or spirit), or as the symbol of what is external, or as the means of kindred), or (by implication) human nature (with its frailties (physically or morally) and passions), or (specially), a human being (as such)"
+        },
+        {
+          "s": "H7607",
+          "def": "flesh (as swelling out), as living or for food; generally food of any kind; figuratively, kindred by blood"
+        },
+        {
+          "s": "H2878",
+          "def": "properly, something slaughtered; hence, a beast (or meat, as butchered); abstractly butchery (or concretely, a place of slaughter)"
+        },
+        {
+          "s": "H1321",
+          "def": "flesh"
+        }
+      ]
+    },
+    {
+      "id": 1213,
+      "word": "food",
+      "etym": "",
+      "mibDef": "Thoughts and words of Truth; the word of God.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3899",
+          "def": "food (for man or beast), especially bread, or grain (for making it)"
+        },
+        {
+          "s": "H400",
+          "def": "food"
+        },
+        {
+          "s": "H3978",
+          "def": "an eatable (including provender, flesh and fruit)"
+        },
+        {
+          "s": "H402",
+          "def": "food"
+        },
+        {
+          "s": "H398",
+          "def": "to eat (literally or figuratively)"
+        }
+      ]
+    },
+    {
+      "id": 1214,
+      "word": "foods",
+      "etym": "",
+      "mibDef": "The deeper truths that require much study, meditation, prayer, and concentration in",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1215,
+      "word": "for the whole of our being",
+      "etym": "",
+      "mibDef": "spirit, soul, and body— \"all men,\" \"all things,\" \"all life.\" (See verses 24, 25,",
+      "mibMeta": "A thought of spiritual exaltation, uplift. The history of Athlai reveals how the substance and energy of spiritual thought can be given over to sense affection (a foreign wife). Then through the activity of divine law they are restored to constructive use. (Athlai gave up his foreign wife, at the co",
+      "candidates": [
+        {
+          "s": "H3588",
+          "def": "(by implication) very widely used as a relative conjunction or adverb (as below); often largely modified by other particles annexed"
+        },
+        {
+          "s": "G1063",
+          "def": "properly, assigning a reason (used in argument, explanation or intensification; often with other particles)"
+        },
+        {
+          "s": "H5921",
+          "def": "above, over, upon, or against (yet always in this last relation with a downward aspect) in a great variety of applications"
+        },
+        {
+          "s": "G3754",
+          "def": "demonstrative, that (sometimes redundant); causative, because"
+        },
+        {
+          "s": "H5769",
+          "def": "properly, concealed, i.e., the vanishing point; generally, time out of mind (past or future), i.e., (practically) eternity; frequentatively, adverbial (especially with prepositional prefix) always"
+        }
+      ]
+    },
+    {
+      "id": 1216,
+      "word": "forces",
+      "etym": "",
+      "mibDef": "Active physical or mental forces, having the capacity to produce or to create.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2428",
+          "def": "probably a force, whether of men, means or other resources; an army, wealth, virtue, valor, strength"
+        },
+        {
+          "s": "H3981",
+          "def": "strength, i.e., (plural) resources"
+        }
+      ]
+    },
+    {
+      "id": 1217,
+      "word": "forehead",
+      "etym": "",
+      "mibDef": "The seat of perception. The forehead is the center of consciousness, which the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4696",
+          "def": "the forehead (as open and prominent)"
+        },
+        {
+          "s": "H1371",
+          "def": "bald in the forehead"
+        },
+        {
+          "s": "G3359",
+          "def": "the forehead (as opposite the countenance)"
+        }
+      ]
+    },
+    {
+      "id": 1218,
+      "word": "forerunner of Spirit",
+      "etym": "",
+      "mibDef": "As symbolized by John the Baptist, the perception of Truth that prepares the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4274",
+          "def": "a runner ahead, i.e., scout (figuratively, precursor)"
+        }
+      ]
+    },
+    {
+      "id": 1219,
+      "word": "forgiveness",
+      "etym": "",
+      "mibDef": "Our first work in any demonstration is to contact God; therefore, we",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G859",
+          "def": "freedom; (figuratively) pardon"
+        },
+        {
+          "s": "H5547",
+          "def": "pardon"
+        }
+      ]
+    },
+    {
+      "id": 1220,
+      "word": "formed world",
+      "etym": "",
+      "mibDef": "Baal— instead of the inner formless Spirit). This aspiration, or overcoming power of the I",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3335",
+          "def": "to mould into a form; especially as a potter; figuratively, to determine (i.e., form a resolution)"
+        },
+        {
+          "s": "H2342",
+          "def": "properly, to twist or whirl (in a circular or spiral manner), i.e., (specifically) to dance, to writhe in pain (especially of parturition) or fear; figuratively, to wait, to pervert"
+        },
+        {
+          "s": "H2490",
+          "def": "properly, to bore, i.e., (by implication) to wound, to dissolve; figuratively, to profane (a person, place or thing), to break (one's word), to begin (as if by an 'opening wedge'); to play (the flute)"
+        },
+        {
+          "s": "H7169",
+          "def": "to pinch, i.e., (partially) to bite the lips, blink the eyes (as a gesture of malice), or (fully) to squeeze off (a piece of clay in order to mould a vessel from it)"
+        },
+        {
+          "s": "G4110",
+          "def": "something moulded"
+        }
+      ]
+    },
+    {
+      "id": 1221,
+      "word": "fornication",
+      "etym": "",
+      "mibDef": "Debasement of the spiritual nature, caused by functioning in carnal consciousness.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4202",
+          "def": "harlotry (including adultery and incest); figuratively, idolatry"
+        },
+        {
+          "s": "G4203",
+          "def": "to act the harlot, i.e., (literally) indulge unlawful lust (of either sex), or (figuratively) practise idolatry"
+        },
+        {
+          "s": "H2181",
+          "def": "to commit adultery (usually of the female, and less often of simple fornication, rarely of involuntary ravishment); figuratively, to commit idolatry (the Jewish people being regarded as the spouse of Jehovah)"
+        },
+        {
+          "s": "H8457",
+          "def": "harlotry, i.e., (figuratively) idolatry"
+        }
+      ]
+    },
+    {
+      "id": 1222,
+      "word": "fornication",
+      "etym": "",
+      "mibDef": "Refusing to entertain mortal tendencies and dwelling in spiritual",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4202",
+          "def": "harlotry (including adultery and incest); figuratively, idolatry"
+        },
+        {
+          "s": "G4203",
+          "def": "to act the harlot, i.e., (literally) indulge unlawful lust (of either sex), or (figuratively) practise idolatry"
+        },
+        {
+          "s": "H2181",
+          "def": "to commit adultery (usually of the female, and less often of simple fornication, rarely of involuntary ravishment); figuratively, to commit idolatry (the Jewish people being regarded as the spouse of Jehovah)"
+        },
+        {
+          "s": "H8457",
+          "def": "harlotry, i.e., (figuratively) idolatry"
+        }
+      ]
+    },
+    {
+      "id": 1223,
+      "word": "forsaking all for Christ",
+      "etym": "",
+      "mibDef": "Giving up everything pertaining to the personal man, so that the Mind of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5805",
+          "def": "desertion (of inhabitants)"
+        },
+        {
+          "s": "G1459",
+          "def": "to leave behind in some place, i.e., (in a good sense) let remain over, or (in a bad sense) to desert"
+        }
+      ]
+    },
+    {
+      "id": 1224,
+      "word": "Fortunatus",
+      "etym": "Lat .",
+      "mibDef": "fortunate; luck; happy; prospered.",
+      "mibMeta": "The opening of the consciousness to the greater good that is in store for those who love and serve God. Those who keep the divine law of Truth realize and receive true, spiritual riches, as well as abundant supply in the outer. According to I Corinthians 2:9, God has prepared, for them that love Him",
+      "candidates": [
+        {
+          "s": "G5415",
+          "def": "\"fortunate\"; Fortunatus, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 1225,
+      "word": "frankincense",
+      "etym": "",
+      "mibDef": "\"A fragrant gum resin\" (Webster), ly, it represents in man the transmutation of the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3828",
+          "def": "frankincense (from its whiteness or perhaps that of its smoke)"
+        }
+      ]
+    },
+    {
+      "id": 1226,
+      "word": "freedom",
+      "etym": "",
+      "mibDef": "The quality or state of being without thought or restraint, bondage, limitation, or",
+      "mibMeta": "The \"fruit of the vine\" which man drinks anew in the Father's kingdom is the consciousness of spiritual life direct from the Fountainhead. fruitfulness— The rich consciousness man develops as the result of high realizations of Truth.",
+      "candidates": [
+        {
+          "s": "H2668",
+          "def": "liberty (from slavery)"
+        }
+      ]
+    },
+    {
+      "id": 1227,
+      "word": "from the personal self and attempts to rule in its own right",
+      "etym": "",
+      "mibDef": "that is, obstinately or arbitrarily, ignoring the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4480",
+          "def": "properly, a part of; hence (prepositionally), from or out of in many senses"
+        },
+        {
+          "s": "G575",
+          "def": "\"off,\" i.e., away (from something near), in various senses (of place, time, or relation; literal or figurative)"
+        },
+        {
+          "s": "H5921",
+          "def": "above, over, upon, or against (yet always in this last relation with a downward aspect) in a great variety of applications"
+        },
+        {
+          "s": "G1537",
+          "def": "a primary preposition denoting origin (the point whence action or motion proceeds), from, out (of place, time, or cause literal or figurative; direct or remote)"
+        },
+        {
+          "s": "H6440",
+          "def": "the face (as the part that turns); used in a great variety of applications (literally and figuratively); also (with prepositional prefix) as a preposition (before, etc.)"
+        }
+      ]
+    },
+    {
+      "id": 1228,
+      "word": "from within. When Spirit speaks",
+      "etym": "",
+      "mibDef": "the Truth itself is authority, and",
+      "mibMeta": "The scribes of Mark 1:22 represent the thoughts that come to us from other personalities or from books. The scribes of the 7th chapter of Mark are our external religious thoughts. There is a faculty of the mind that receives and transcribes upon the tablets of memory every wave of thought that touch",
+      "candidates": [
+        {
+          "s": "H4480",
+          "def": "properly, a part of; hence (prepositionally), from or out of in many senses"
+        },
+        {
+          "s": "G575",
+          "def": "\"off,\" i.e., away (from something near), in various senses (of place, time, or relation; literal or figurative)"
+        },
+        {
+          "s": "H5921",
+          "def": "above, over, upon, or against (yet always in this last relation with a downward aspect) in a great variety of applications"
+        },
+        {
+          "s": "G1537",
+          "def": "a primary preposition denoting origin (the point whence action or motion proceeds), from, out (of place, time, or cause literal or figurative; direct or remote)"
+        },
+        {
+          "s": "H6440",
+          "def": "the face (as the part that turns); used in a great variety of applications (literally and figuratively); also (with prepositional prefix) as a preposition (before, etc.)"
+        }
+      ]
+    },
+    {
+      "id": 1229,
+      "word": "fruit of the vine",
+      "etym": "",
+      "mibDef": "The \"fruit of the vine,\" which man drinks anew in the Father's kingdom, is the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H6529",
+          "def": "fruit (literally or figuratively)"
+        },
+        {
+          "s": "G2590",
+          "def": "fruit (as plucked), literally or figuratively"
+        },
+        {
+          "s": "H8393",
+          "def": "income, i.e., produce (literally or figuratively)"
+        },
+        {
+          "s": "G2592",
+          "def": "to be fertile (literally or figuratively)"
+        },
+        {
+          "s": "G1081",
+          "def": "offspring; by analogy, produce (literally or figuratively)"
+        }
+      ]
+    },
+    {
+      "id": 1230,
+      "word": "Gaal",
+      "etym": "Heb .",
+      "mibDef": "rejection with loathing; abhorrence; contempt; loathing; pollution; unclean;",
+      "mibMeta": "Abhorrence of that which is destructive, unjust, and tyrannical in the phase of the will that Abimelech signifies. (See ABIMELECH.) This thought or tendency for which Gaal stands contains so much of personal opposition that it does not lead to real overcoming. Gaal's fighting against Abimelech was v",
+      "candidates": [
+        {
+          "s": "H1603",
+          "def": "Gaal, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1231,
+      "word": "Gaash",
+      "etym": "Heb.",
+      "mibDef": "pushed with a sudden impulse; an earthquake; shaking; quaking;",
+      "mibMeta": "As the individual, under the leadership of some central idea (here it is Joshua, the I AM), succeeds in bringing all his faculties and forces into subservience to this central idea, the ideal itself seems to die (Joshua died) or to be merged into the general activity of his being as a whole. This is",
+      "candidates": []
+    },
+    {
+      "id": 1232,
+      "word": "Gabbai",
+      "etym": "Heb.",
+      "mibDef": "organic ingathering; collective increase; taxgatherer; collector; my",
+      "mibMeta": "A thought or group of thoughts that attracts. It attracts to itself, by its active exercise of faith (Benjamin), other thoughts of a faith character, as well as much substance and energy, that a harvest time of good may be brought about.",
+      "candidates": []
+    },
+    {
+      "id": 1233,
+      "word": "Gabbatha",
+      "etym": "Heb .",
+      "mibDef": "elevated place; arched; vaulted; domed; proud; a knoll.",
+      "mibMeta": "The place in the intellect ( elevated place, arched, vaulted, domed, proud; The Pavement, a hard state of thought) where the carnal will, or ruling principle of sense consciousness (Pilate), passes sentence upon the spiritual manifestation of man (Jesus) and bars it from consciousness. In the end, h",
+      "candidates": []
+    },
+    {
+      "id": 1234,
+      "word": "Gabriel",
+      "etym": "Heb.",
+      "mibDef": "mighty man of God; hero of God; man of God; God is my strength.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1043",
+          "def": "Gabriel, an archangel"
+        }
+      ]
+    },
+    {
+      "id": 1235,
+      "word": "Gad",
+      "etym": "Heb .",
+      "mibDef": "fortune; fortunate; good fortune; abundance; dispenser of fortune; lot; seer;",
+      "mibMeta": "The faculty of power (\"Let the horseman, Gad, be blest\"), but still mostly on the personal plane and not lifted to truly spiritual expression. Of the disciples of Jesus, Philip, a lover of horses, represents the power faculty. (See PHILIP.)",
+      "candidates": [
+        {
+          "s": "H1410",
+          "def": "Gad, a son of Jacob, including his tribe and its territory; also a prophet"
+        },
+        {
+          "s": "G1045",
+          "def": "Gad, a tribe of Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1236,
+      "word": "Gadarenes (A.V.",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "fortunate; organized; assembled;",
+      "mibMeta": "Strongly organized thoughts of energy and power in the subconscious realm of mind in man. When freed from carnal desires and warring tendencies, these thoughts will work mightily for the good of the individual, but in their unredeemed or error-possessed state they are very violent and destructive. (",
+      "candidates": [
+        {
+          "s": "G1046",
+          "def": "a Gadarene or inhabitant of Gadara"
+        }
+      ]
+    },
+    {
+      "id": 1237,
+      "word": "Gaddi",
+      "etym": "Heb .",
+      "mibDef": "fortunate; of the fortunate; belonging to fortune, i. e. , worshiper of",
+      "mibMeta": "The power (Susi, meaning horseman, and symbolizing power) of understanding (Manasseh) in individual consciousness, which enables one to perceive the fertility and productiveness of the Promised Land (the great possibilities of spiritual attainment that lie in man). At the Gaddi stage of its unfoldme",
+      "candidates": [
+        {
+          "s": "H1426",
+          "def": "Gaddi, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1238,
+      "word": "Gaddiel",
+      "etym": "Heb.",
+      "mibDef": "God is my fortune; fortune of God; assembly of God; troop of God;",
+      "mibMeta": "An understanding that all supply and all good, all orderly arrangement and demonstration of Truth in and for the individual, come from God. This understanding, or thought, belongs to the Zebulun, or order, consciousness. While it perceives the desirability of the Promised Land (of the attainment of ",
+      "candidates": [
+        {
+          "s": "H1427",
+          "def": "Gaddiel, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1239,
+      "word": "Gadi",
+      "etym": "Heb .",
+      "mibDef": "fortunate; my fortune; of Gad, i. e. , Jupiter; of the troop; organizer;",
+      "mibMeta": "A ruling thought in man that is of an organizing, assembling, drawing-together character; appropriation. Since this thought is directed by carnal, material ideas, and by belief in luck or chance, instead of a true love for and faith in the law of Spirit, it brings forth error instead of good. (See M",
+      "candidates": [
+        {
+          "s": "H1424",
+          "def": "Gadi, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1240,
+      "word": "Gadites",
+      "etym": "fr. Heb.",
+      "mibDef": "of Gad; posterity of Gad.",
+      "mibMeta": "The assemblage of organized thoughts that belong to the power faculty in individual consciousness. These thoughts are presented as power because they are organized, assembled into troops or organs. The character \"G\" is the organic sign, associated with all organic ideas, conducting, leading, organiz",
+      "candidates": [
+        {
+          "s": "H1425",
+          "def": "a Gadite (collectively) or descendants of Gad"
+        }
+      ]
+    },
+    {
+      "id": 1241,
+      "word": "Gaham",
+      "etym": "Heb .",
+      "mibDef": "flaming; burning; consuming; charring; blackness.",
+      "mibMeta": "The heat of sense consciousness brought to a climax, a focus, and burning itself out. This is caused by the higher desires (Nahor and Reumah, parents of Gaham) that have been aroused by and accompany the awakening of faith (Abraham) in the individual. Thus a reaction sets in, the whole consciousness",
+      "candidates": []
+    },
+    {
+      "id": 1242,
+      "word": "Gahar",
+      "etym": "Heb.",
+      "mibDef": "lurker; lurking place; hiding place; concealment; prostration.",
+      "mibMeta": "A hidden thought of deep lowliness and humility, which is carried to excess because of its being based on a feeling of servitude to God instead of being based on a realization of",
+      "candidates": []
+    },
+    {
+      "id": 1243,
+      "word": "Galal",
+      "etym": "Heb .",
+      "mibDef": "rolling weighty; massive; great; the force of momentum; a log; trunk;",
+      "mibMeta": "The great spiritual action (rhythmic, lolling) that takes place in consciousness while love thoughts (Levites are establishing harmony, peace, and true worship of God. This work of love in man's being is very important (weight, great, prominent, and increases as it proceeds (the force of momentum; t",
+      "candidates": []
+    },
+    {
+      "id": 1244,
+      "word": "Galatia",
+      "etym": "fr. Gk.",
+      "mibDef": "Gallic Greece; land of the Gauls; white as milk.",
+      "mibMeta": "Pure truths, but the simplest of truths, that belong to babes in Christ. In Acts 16:6 Galatia signifies a state of thought that is not yet ready for the operation of the word of Truth (Paul).",
+      "candidates": [
+        {
+          "s": "G1054",
+          "def": "Galatic or relating to Galatia"
+        }
+      ]
+    },
+    {
+      "id": 1245,
+      "word": "Galatians",
+      "etym": "fr. Gk.",
+      "mibDef": "of ox belonging to Galatia.",
+      "mibMeta": "The thoughts that belong to the Galatia state of consciousness. (See GALATIA.) The assembly of Christians at Galatia, to whom Paul wrote his Epistle, would be thoughts belonging to the Galatia consciousness; the word of Truth (Paul , doing its quickening work in the mind and the body of the individu",
+      "candidates": [
+        {
+          "s": "G1052",
+          "def": "a Galatian or inhabitant of Galatia"
+        }
+      ]
+    },
+    {
+      "id": 1246,
+      "word": "Galilans",
+      "etym": "Gk. fr. Hcb.",
+      "mibDef": "o/'or belonging to Galilee; rolled; circle; circuit.",
+      "mibMeta": "Active life thoughts, illumined thoughts in the activity of life consciousness that exalt the Christ, they having received the Truth \"at the feast\" of spiritual communion and appropriation (John 4:45).",
+      "candidates": []
+    },
+    {
+      "id": 1247,
+      "word": "Galilee",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "rolling; turning; a ring; a circle; a band; a circuit; rolling",
+      "mibMeta": "Energy of life; life activity; soul energy; power, force, energy, acting in conjunction with substance. Jesus' entrance into Galilee (John 4: 43-54) represents the increased activity that ensues when Truth comes down into the subconscious realm and brings about the realization of Christhood, after p",
+      "candidates": [
+        {
+          "s": "G1056",
+          "def": "Galilaea (i.e., the heathen circle), a region of Palestine"
+        },
+        {
+          "s": "H1551",
+          "def": "Galil (as a special circuit) in the North of Palestine"
+        },
+        {
+          "s": "G1057",
+          "def": "Galilean or belonging to Galilea"
+        }
+      ]
+    },
+    {
+      "id": 1248,
+      "word": "Gallim",
+      "etym": "Heb .",
+      "mibDef": "heaps; rolling waters; rushing waters; fountains; springs.",
+      "mibMeta": "Thoughts about life. Because of the activity of the personal will (Saul) and the sense reasonings of the unillumined intellect (Assyrians), devitalizing thoughts are piled up (heaps) in consciousness, and for the time being they keep the, fountains of life in a confused, tempestuous state ( rolling ",
+      "candidates": []
+    },
+    {
+      "id": 1249,
+      "word": "Gallio",
+      "etym": "Gk.",
+      "mibDef": "one who lives on milk; white as milk.",
+      "mibMeta": "A ruling thought that is entirely intellectual. It has no spiritual illumination, and no desire for anything of a spiritual nature. (The use of gala or galactos, milk, to designate the most simple and elemental of Christian truths would indicate that that which Gallio signifies is limited to the mos",
+      "candidates": [
+        {
+          "s": "G1058",
+          "def": "Gallion (i.e., Gallio), a Roman officer"
+        }
+      ]
+    },
+    {
+      "id": 1250,
+      "word": "Gamaliel",
+      "etym": "Heb.",
+      "mibDef": "led of God; God's recompense; reward of God; benefits of God.",
+      "mibMeta": "Gamaliel, the \"doctor of the law\" who advocates that Truth be tested by its fruits, was a leader among the most conservative Pharisees; he recommended common sense and reason. Prejudice and bigotry often blind us to real merit. There is in every one that spirit of fairness which will give every idea",
+      "candidates": [
+        {
+          "s": "H1583",
+          "def": "Gamliel, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1251,
+      "word": "Gamul",
+      "etym": "Heb.",
+      "mibDef": "weaned, i.e., matured; render deserts; pay; recompense; reward;",
+      "mibMeta": "A religious thought or tendency that is beginning to see something of the real law back of rites and ceremonies. This thought or tendency is weaned, as it were, from purely formal ideas of religion and is matured in the understanding of that which pertains to the natural man. It is now open to the s",
+      "candidates": []
+    },
+    {
+      "id": 1252,
+      "word": "Gareb",
+      "etym": "Heb.",
+      "mibDef": "scratch; scrape; rough; scabby; mangy; scurf; scurvy; leprous; reviled;",
+      "mibMeta": "An Ithrite is a descendant of Jether, and both of these names refer to excellence, preeminence, superiority. Ideals of this kind may, however, while under the intellectual thought, aid in establishing love (David) in consciousness and in defending that which is good; yet they are apt to become very ",
+      "candidates": [
+        {
+          "s": "H1619",
+          "def": "Gareb, the name of an Israelite, also of a hill near Jerusalem"
+        }
+      ]
+    },
+    {
+      "id": 1253,
+      "word": "garment",
+      "etym": "",
+      "mibDef": "The indivisible garment that Jesus wore next to His body. It was a",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H899",
+          "def": "a covering, also treachery or pillage"
+        },
+        {
+          "s": "H3801",
+          "def": "a shirt"
+        },
+        {
+          "s": "H8008",
+          "def": "a dress"
+        },
+        {
+          "s": "H3830",
+          "def": "a garment (literally or figuratively); by implication (euphemistically) a wife"
+        },
+        {
+          "s": "G2440",
+          "def": "a dress (inner or outer)"
+        }
+      ]
+    },
+    {
+      "id": 1254,
+      "word": "Garmite",
+      "etym": "fr. Heb.",
+      "mibDef": "bony; strong.",
+      "mibMeta": "Man's innate belief in the truth that his organism is structurally strong and enduring.",
+      "candidates": []
+    },
+    {
+      "id": 1255,
+      "word": "Gashmu",
+      "etym": "Heb ,",
+      "mibDef": "rain; violent rainstorm; heavy downpour; body-like; corporeal body;",
+      "mibMeta": "A leading factor in the Arabia state of consciousness in man. The Arabians signify unproductive thoughts and tendencies. The ruling tendency for which Gashmu stands believes firmly in the permanent materiality of man's outer consciousness and body. Gashmu signifies the error belief that every one wh",
+      "candidates": [
+        {
+          "s": "H1654",
+          "def": "Geshem or Gashmu, an Arabian"
+        }
+      ]
+    },
+    {
+      "id": 1256,
+      "word": "gate",
+      "etym": "",
+      "mibDef": "The spiritual mind, which requires absolute conformity to Truth and measures all",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8179",
+          "def": "an opening, i.e., door or gate"
+        },
+        {
+          "s": "H6607",
+          "def": "an opening (literally), i.e., door (gate) or entrance way"
+        },
+        {
+          "s": "G4439",
+          "def": "a gate, i.e., the leaf or wing of a folding entrance (literally or figuratively)"
+        },
+        {
+          "s": "G4440",
+          "def": "a gate-way, door-way of a building or city; by implication, a portal or vestibule"
+        },
+        {
+          "s": "H8651",
+          "def": "a door; by implication, a palace"
+        }
+      ]
+    },
+    {
+      "id": 1257,
+      "word": "gate",
+      "etym": "",
+      "mibDef": "The easy, negative way by which men conform to sense consciousness and the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8179",
+          "def": "an opening, i.e., door or gate"
+        },
+        {
+          "s": "H6607",
+          "def": "an opening (literally), i.e., door (gate) or entrance way"
+        },
+        {
+          "s": "G4439",
+          "def": "a gate, i.e., the leaf or wing of a folding entrance (literally or figuratively)"
+        },
+        {
+          "s": "G4440",
+          "def": "a gate-way, door-way of a building or city; by implication, a portal or vestibule"
+        },
+        {
+          "s": "H8651",
+          "def": "a door; by implication, a palace"
+        }
+      ]
+    },
+    {
+      "id": 1258,
+      "word": "gates",
+      "etym": "",
+      "mibDef": "The twelve faculties of mind. Before these faculties become avenues through",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8179",
+          "def": "an opening, i.e., door or gate"
+        },
+        {
+          "s": "H1817",
+          "def": "something swinging, i.e., the valve of a door"
+        },
+        {
+          "s": "G4440",
+          "def": "a gate-way, door-way of a building or city; by implication, a portal or vestibule"
+        },
+        {
+          "s": "H6607",
+          "def": "an opening (literally), i.e., door (gate) or entrance way"
+        },
+        {
+          "s": "H5592",
+          "def": "a vestibule (as a limit); also a dish (for holding blood or wine)"
+        }
+      ]
+    },
+    {
+      "id": 1259,
+      "word": "Gath",
+      "etym": "Heb.",
+      "mibDef": "wine press; wine vat; fortune.",
+      "mibMeta": "A group of thoughts in the sense consciousness of man that believe in trial (wine press), and look upon all experiences from the standpoint of seeming trial and suffering. Thus it causes the one who gives heed to it to become conscious of that which appears to be evil, when he should be busy seeing ",
+      "candidates": [
+        {
+          "s": "H1661",
+          "def": "Gath, a Philistine city"
+        }
+      ]
+    },
+    {
+      "id": 1260,
+      "word": "Gath-hepher (A.V.",
+      "etym": "Heb .",
+      "mibDef": "wine press of the pit; wine",
+      "mibMeta": "At every inflow of new life and Truth into consciousness there must be a letting go of old ideas and their accompanying habits, that the new may become established. To the sense mind of man this process of giving up his cherished beliefs is a sore trial (wine press of the pit). He sees only the tryi",
+      "candidates": []
+    },
+    {
+      "id": 1261,
+      "word": "Gath-rimmon",
+      "etym": "Heb ,",
+      "mibDef": "wine press ofRimmon; wine press of the height; wine press",
+      "mibMeta": "The lifting up of the \"trial\" idea in consciousness (wine press of the height) by seeing the fruitfulness of overcoming (wine press ofRimmon , or of the pomegranate, pomegranate signifying fruitfulness). As man comes into a true understanding of judgment (Dan) through love (Levites) he learns to rej",
+      "candidates": []
+    },
+    {
+      "id": 1262,
+      "word": "Gazez",
+      "etym": "Heb.",
+      "mibDef": "shearer; cut close; shaved; cut off.",
+      "mibMeta": "Caleb, in the highest, truest sense, represents spiritual faith and enthusiasm. He believed that the Israelites were able to go up and possess the Promised Land. Through faith the I AM is ready and willing to enter the inner consciousness and possess the people (soul forces). Ephah, Caleb's concubin",
+      "candidates": []
+    },
+    {
+      "id": 1263,
+      "word": "Gazzam",
+      "etym": "Heb .",
+      "mibDef": "devouring; consuming.",
+      "mibMeta": "A devouring, consuming, destroying thought or belief that belongs to the religious consciousness in man. It comes from the destructive idea of killing out all that is ungodlike; it is of the \"servant\" class, because the sonship or Christ idea is to lift up and redeem. (The Nethinim were servants in ",
+      "candidates": []
+    },
+    {
+      "id": 1264,
+      "word": "Gebal",
+      "etym": "Heb.",
+      "mibDef": "twisted cord for binding; a line; boundary line; boundary; border; limits;",
+      "mibMeta": "That in sense consciousness which marks the limits, the boundary line, of purely human conquest, capacity, and influence apart from the recognition and acknowledgment of God, Spirit, as the one source of all true dominion and power. (Phoenicia means land of palm trees; also purple and red. Palm tree",
+      "candidates": [
+        {
+          "s": "H1380",
+          "def": "Gebal, a place in Phoenicia"
+        }
+      ]
+    },
+    {
+      "id": 1265,
+      "word": "Gebim",
+      "etym": "Heb.",
+      "mibDef": "reservoirs, i.e., water gatherers or collectors; cisterns; marshes; pits;",
+      "mibMeta": "Cisterns, reservoirs, and ditches are artificial places for containing water and for carrying away surplus water. Trenches here are the same as ditches. In Jeremiah 2:13 we read, \"For my people have committed two evils: they have forsaken me, the fountain of living waters, and hewed them out cistern",
+      "candidates": [
+        {
+          "s": "H1374",
+          "def": "Gebim, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1266,
+      "word": "Gedaliah",
+      "etym": "Heb ,",
+      "mibDef": "whom Jah has made great; Jehovah is great; great things of",
+      "mibMeta": "The recognition by the higher religious and spiritual thoughts of man that all true greatness and might are of God and that they express in and through man by Spirit (whom Jah has made great, Jehovah is great, Jehovah is my strength, my increase is from Jehovah ).",
+      "candidates": [
+        {
+          "s": "H1436",
+          "def": "Gedaljah, the name of five Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1267,
+      "word": "Geder",
+      "etym": "Heb.",
+      "mibDef": "surrounded; inclosed; a wcdled-in place; a garden; a court; a city; a",
+      "mibMeta": "The significance is the same as that of Beth-gader, which is believed to be the same city as Geder. (See BETH-GADER.)",
+      "candidates": []
+    },
+    {
+      "id": 1268,
+      "word": "Gederah (A.V.",
+      "etym": "Heb.",
+      "mibDef": "a wcdled place; an inclosure; a",
+      "mibMeta": "The import of Gederah is virtually the same as that of Geder, except that Gederah refers more to the soul, or feminine, in man. When the soul is established in the consciousness that God is man's protection, defense, and unconquerable strength, it (the soul) becomes a fold, for sheep or cattle, a pl",
+      "candidates": []
+    },
+    {
+      "id": 1269,
+      "word": "Gederathite",
+      "etym": "fr. the Heb .",
+      "mibDef": "of Gederah; a native of Gederah.",
+      "mibMeta": "A strong, active, prominent thought belonging to the Gederah consciousness. (See GEDERAH.)",
+      "candidates": []
+    },
+    {
+      "id": 1270,
+      "word": "Gederite",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Geder; a native of Geder.",
+      "mibMeta": "A thought belonging to the Geder consciousness in man. (See GEDER and BETH-GADER.)",
+      "candidates": []
+    },
+    {
+      "id": 1271,
+      "word": "Gederoth",
+      "etym": "Heb.",
+      "mibDef": "inclosures; protections; sheepfolcls; fortresses.",
+      "mibMeta": "The plural form of Geder; it refers to the multiplying in consciousness of the assurance of Spirit as man's protection, defense, and unfailing strength. (See GEDER and GEDERAH.)",
+      "candidates": []
+    },
+    {
+      "id": 1272,
+      "word": "Gederothaim",
+      "etym": "Heb.",
+      "mibDef": "double walls; double inclosures; double protections; two",
+      "mibMeta": "The Geder and Gederah consciousness doubled in strength. See GEDER and GEDERAH.) It is just possible, however, that this may refer rather to the double-minded attitude of man toward this Gederah consciousness— to his material concept of it as well as his spiritual understanding of it.",
+      "candidates": []
+    },
+    {
+      "id": 1273,
+      "word": "Gedor",
+      "etym": "Heb.",
+      "mibDef": "surrounding; enveloping; a wall; an inclosing protection; fold;",
+      "mibMeta": "Man's innate yet exalted belief in divine strength and protection active in consciousness. (See GEDER and BETH— GADER.)",
+      "candidates": []
+    },
+    {
+      "id": 1274,
+      "word": "Gehazi",
+      "etym": "Heb .",
+      "mibDef": "valley of vision; valley of sight; depressed vision; diminished sight.",
+      "mibMeta": "Sight, or perception. II Kings 5:20-25 shows that the sight that Gehazi symbolizes must be intellectual perception, since it cannot always be relied upon; here, it judges by appearances, and does not discern the inner work of the soul. The definitions of the name also point to physical sight rather ",
+      "candidates": [
+        {
+          "s": "H1522",
+          "def": "Gechazi, the servant of Elisha"
+        }
+      ]
+    },
+    {
+      "id": 1275,
+      "word": "Gehenna",
+      "etym": "",
+      "mibDef": "Represents the cleansing fire of Spirit, which consumes all the dross of sense and",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1276,
+      "word": "Geliloth",
+      "etym": "Web.",
+      "mibDef": "rings; bands; circles; circuits; regions.",
+      "mibMeta": "Unity of the inner thought and life (rings, circles, circuits). When sense bondage is rolled away (see GILGAL) one comes into spiritual unity and harmony, and becomes more alive and active. Gemalli, ge-mal'-ll (Heb.)~ of the camel, camel owner, camel rider; camel driver. Father of Ammiel, of the tri",
+      "candidates": []
+    },
+    {
+      "id": 1277,
+      "word": "Gemariah",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah has perfected; Jehovah has accomplished;",
+      "mibMeta": "The innate belief, deep within the subjective religious nature of each individual, that God does, or will, accomplish the good that He has idealized even the perfecting of man and the universe. generation— Procreation. The law of generation is undoubtedly the mystery of mysteries in human consciousn",
+      "candidates": [
+        {
+          "s": "H1587",
+          "def": "Gemarjah, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1278,
+      "word": "generic",
+      "etym": "",
+      "mibDef": "\"Pertaining to, or having the rank of, a genus\" (Webster). Family; kind. Adam was",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1279,
+      "word": "Genesis",
+      "etym": "",
+      "mibDef": "Source or origin. The first of the \"five books of Moses,\" giving an account of creation",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1280,
+      "word": "Genesis",
+      "etym": "Gk.",
+      "mibDef": "source; origin; beginning; begetting; birth; lineage.",
+      "mibMeta": "Genesis points to the new birth and to the perfection of man in the regeneration.",
+      "candidates": []
+    },
+    {
+      "id": 1281,
+      "word": "genius",
+      "etym": "",
+      "mibDef": "One who lets Spirit within him speak out, regardless of how different the utterances may",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1282,
+      "word": "Gennesaret",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "garden of the prince; prince's garden; valley of riches.",
+      "mibMeta": "Sea of divine life. We are related, both within the consciousness and without, to all creation through the universal life principle. When we recognize our unity with the one life, and with all life, we are on the way to true exaltation and rulership and abundant substance (prince's garden, garden of",
+      "candidates": []
+    },
+    {
+      "id": 1283,
+      "word": "Genubath",
+      "etym": "Heb .",
+      "mibDef": "theft; things stolen.",
+      "mibMeta": "The stealthy, thieving method that the sensate, earthly consciousness in man employs in combating his more religious and spiritual nature.",
+      "candidates": [
+        {
+          "s": "H1592",
+          "def": "Genubath, an Edomitish prince"
+        }
+      ]
+    },
+    {
+      "id": 1284,
+      "word": "Gera",
+      "etym": "Heb.",
+      "mibDef": "gram; kernel; scraping; rough; enmity; a pilgrimage; sojourn.",
+      "mibMeta": "Faith taking on substance, or working in substance (grain). Apart from true understanding, faith is likely to become aggressive and hard, and to hold enmity against that which is true and of God, as was the case when Shimei, the son of Gera, cursed David and threw stones at him when he was fleeing f",
+      "candidates": [
+        {
+          "s": "H1617",
+          "def": "Gera, the name of six Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1285,
+      "word": "Gerar",
+      "etym": "Heb.",
+      "mibDef": "a sojourn; a lodging place; an encampment; a halting place.",
+      "mibMeta": "Subjective substance and life. In the beginning of man's journey spiritward this substance and life are in the possession of the sense nature (Philistines), and the ruling ego of the sense nature lives in the region of this place (Isaac went to Abimelech, king of the Philistines, \"unto Gerar\"). The ",
+      "candidates": [
+        {
+          "s": "H1642",
+          "def": "Gerar, a Philistine city"
+        }
+      ]
+    },
+    {
+      "id": 1286,
+      "word": "Gerasenes (A.V.",
+      "etym": "fr. Heb .",
+      "mibDef": "fortunate; organized; assembled; trooped",
+      "mibMeta": "(See GADARENES.)",
+      "candidates": []
+    },
+    {
+      "id": 1287,
+      "word": "Gerizim",
+      "etym": "Heb.",
+      "mibDef": "shorn places; waste places; barren deserts; cutters; rocky places,",
+      "mibMeta": "The working of the law in blessings and good to those who think and act in harmony with divine principle. It is that in us which takes cognizance of the working out of life, health, peace, joy, plenty, and every good in our life because of our understanding of and obedience to the law of God. This p",
+      "candidates": [
+        {
+          "s": "H1630",
+          "def": "Gerizim, a mountain of Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1288,
+      "word": "Gershom",
+      "etym": "Heb.",
+      "mibDef": "thrusting out; driving off; expulsion; exile; a stranger there.",
+      "mibMeta": "The sense of strangeness and of isolation that comes over him who has been somewhat violent in his first great zeal to overcome error and to carry out the work that Spirit has told him to do. What he has sown in aggressively fighting evil (Moses killed the Egyptian who was oppressing an Israelite) h",
+      "candidates": [
+        {
+          "s": "H1647",
+          "def": "Gereshom, the name of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1289,
+      "word": "Gershon",
+      "etym": "Heb .",
+      "mibDef": "thrusting out; driving off; expulsion; exile.",
+      "mibMeta": "See GERSHOM. The love consciousness does not always dwell in or express love at the first; it sometimes acts quite contrary to a loving spirit. This is shown in Levi, who was the one of Jacob's sons who stands for the love faculty in man. See his violence as revealed by Jacob in blessing his sons (G",
+      "candidates": [
+        {
+          "s": "H1648",
+          "def": "Gereshon or Gereshom, an Israelite"
+        },
+        {
+          "s": "H1649",
+          "def": "a Gereshonite or descendant of Gereshon"
+        }
+      ]
+    },
+    {
+      "id": 1290,
+      "word": "Gershonites",
+      "etym": "fr. Heb.",
+      "mibDef": "of Gershon.",
+      "mibMeta": "Thoughts belonging to the Gershon consciousness in man. (See GERSHON.)",
+      "candidates": [
+        {
+          "s": "H1649",
+          "def": "a Gereshonite or descendant of Gereshon"
+        }
+      ]
+    },
+    {
+      "id": 1291,
+      "word": "Geshan (A.V.",
+      "etym": "Heb.",
+      "mibDef": "covered with dust or earth; unclean; filthy; dirty;",
+      "mibMeta": "Geshan suggests two conditions that can follow the uniting of that in consciousness for which Caleb and Ephah stand. If the Caleb thought predominates to the clearing up of the Ephah thought, greater firmness and GESHURTTES strength will result. On the other hand, if the darkness and gloom of the se",
+      "candidates": []
+    },
+    {
+      "id": 1292,
+      "word": "Geshem",
+      "etym": "Heb.",
+      "mibDef": "violent rainstorm; heavy downpour; bodylike; corporeal body;",
+      "mibMeta": "See GASHMU.",
+      "candidates": [
+        {
+          "s": "H1654",
+          "def": "Geshem or Gashmu, an Arabian"
+        }
+      ]
+    },
+    {
+      "id": 1293,
+      "word": "Geshur",
+      "etym": "Heb .",
+      "mibDef": "bridge; land of the bridge; bridge land.",
+      "mibMeta": "Ian's attempt, from an intellectual or sense-reasoning standpoint (Syria refers to the intellect), to bridge over the current of thought in consciousness that the River Jordan signifies. But one cannot really enter and dwell in the Promised Land by purely intellectual and outer means, though one may",
+      "candidates": [
+        {
+          "s": "H1650",
+          "def": "Geshur, a district of Syria"
+        }
+      ]
+    },
+    {
+      "id": 1294,
+      "word": "Gether",
+      "etym": "Heb.",
+      "mibDef": "abundance pressed out; reciprocal increase; vale of tried.",
+      "mibMeta": "Shem, son of Noah, stands for the spiritual in man. Aram, however, denotes the intellect. The intellect has its foundation in Spirit, yet in unawakened man it has linked itself so completely with the outer, material world that it reasons almost entirely from the senses instead of receiving its inspi",
+      "candidates": []
+    },
+    {
+      "id": 1295,
+      "word": "Gethsemane",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "oil press; press for extracting unguents and",
+      "mibMeta": "The struggle that takes place within the consciousness when Truth is realized as the one reality. All the good is pressed out and saved and the error is denied away. This is often agony— the suffering that the soul undergoes in giving up its cherished idols or in letting go of human consciousness. T",
+      "candidates": []
+    },
+    {
+      "id": 1296,
+      "word": "Geuel",
+      "etym": "Heb.",
+      "mibDef": "majesty of God; exaltation of God; glory of God; God's lifting up, i.e.,",
+      "mibMeta": "A ruling thought in the Gad (power) consciousness in man. Though this thought activity is awakening to a perception of the might and power of God to uplift and redeem the whole organism of man, it is not yet firmly enough established in a consciousness of this truth to be unafraid when \"enemies\" in ",
+      "candidates": [
+        {
+          "s": "H1345",
+          "def": "Geuel, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1297,
+      "word": "Gezer (A.V.",
+      "etym": "Heb.",
+      "mibDef": "sharply cut off; precipitous; steep; sharp; a",
+      "mibMeta": "The subjective life forces (Canaanites) given over to the domination and use of the",
+      "candidates": [
+        {
+          "s": "H1507",
+          "def": "Gezer, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1298,
+      "word": "Giah",
+      "etym": "Heb .",
+      "mibDef": "breaking forth; bursting forth; a birth; a spring; a fountain; a waterfall.",
+      "mibMeta": "Ammah (a cubit— natural measure; a maternal nation natural; a hill in Israel) is symbolical of the idea that all intelligence, whether of the head or the heart, has a common source: Divine Mind. Here an agreement is reached between the executive power of love (Joab, David's commander) and the conclu",
+      "candidates": [
+        {
+          "s": "H1520",
+          "def": "Giach, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1299,
+      "word": "Gibbar",
+      "etym": "Heb.",
+      "mibDef": "mighty man; superior man; hero; archbaron; strong; mighty; powerful.",
+      "mibMeta": "A highly illumined thought in consciousness; a realization of the truth of man's being and of his splendid possibilities, his inherent might and power. Jesus Christ fully understood and demonstrated the truth that is contained in the name Gibbar. (See GABRIEL in conjunction with this name; the meani",
+      "candidates": []
+    }
+  ]
+}

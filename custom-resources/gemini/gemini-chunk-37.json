@@ -1,0 +1,700 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "37 of 37",
+  "_entry_range": "ids 3600–3667",
+  "entries": [
+    {
+      "id": 3600,
+      "word": "Zelzah",
+      "etym": "Heb .",
+      "mibDef": "protection from dazzling brightness; sun-protected;",
+      "mibMeta": "In Zelzah and the persons connected with the incident recorded in I Samuel 10 we find a union of faith and will with the animal and life forces in the organism. Samuel the prophet signifies the inner voice of Spirit, or the inner spiritual understanding expressing itself to the individual. He was of",
+      "candidates": []
+    },
+    {
+      "id": 3601,
+      "word": "Zemaraim",
+      "etym": "Heb.",
+      "mibDef": "double shearings; second shearing; double fleece; two coats of",
+      "mibMeta": "Thoughts of substance multiplied and strengthened in consciousness ( double shearings, double fleece, two coats of wool, double purning). Pruning and shearing give the idea of cutting off; even so thoughts of lack must be put away, that thoughts of substance may be established. The Zemaraim that was",
+      "candidates": []
+    },
+    {
+      "id": 3602,
+      "word": "Zemarite",
+      "etym": "fr. Heb .",
+      "mibDef": "that which exceeds the limits of moral authority; hunger for",
+      "mibMeta": "Rebellious, tyrannical, despotic thoughts and desires belonging to the \"mind of the flesh\" phase of consciousness in unredeemed man; the outer man seeking the dominion that belongs alone to the inner, or spiritual, man. (See HAM and CANAAN.)",
+      "candidates": []
+    },
+    {
+      "id": 3603,
+      "word": "Zemirah (A. V.",
+      "etym": "Heb.",
+      "mibDef": "striking the harp; music; song; chant; hymn of",
+      "mibMeta": "Harmonious expression in joy, praise, and triumph over error (striking the harp, music, hymn of praise, song of triumph). This comes about by means of an active faith (Benjamin).",
+      "candidates": []
+    },
+    {
+      "id": 3604,
+      "word": "Zenan",
+      "etym": "Heb.",
+      "mibDef": "rich in flocks; place of the flocks.",
+      "mibMeta": "Abundant substance and vitality (rich in flocks, place of flocks; see ZAANAN).",
+      "candidates": []
+    },
+    {
+      "id": 3605,
+      "word": "Zenas",
+      "etym": "Gk .",
+      "mibDef": "Zeus-given; gift of Jove; living.",
+      "mibMeta": "The belief that the understanding and the power of life come from some material source (Zeus-given, gift of Jove, living). Zeus and Jove are names of Jupiter, who was worshiped as the supreme god by the ancient Greeks, ly Jupiter represents the great value that the spiritually unawakened man puts on",
+      "candidates": [
+        {
+          "s": "G2211",
+          "def": "Jove-given; Zenas, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 3606,
+      "word": "Zephaniah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah has hidden; protected of Jehovah; Jah is secret; secret",
+      "mibMeta": "Truth active in the consciousness of the individual but hidden from the outer, sense phase of his being (Jehovah has hidden, Jah is secret, secret place of Jehovah). That the Truth of man's real being is hidden from his outer, personal, or carnal self is really a protection to him (protected of Jeho",
+      "candidates": [
+        {
+          "s": "H6846",
+          "def": "Tsephanjah, the name of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3607,
+      "word": "Zephath",
+      "etym": "Heb.",
+      "mibDef": "looking about; viewing from a distance; bending forward to behold;",
+      "mibMeta": "A group of thoughts of a high, wide-awake, watchful character (looking ZEPHATHAH 694 about, attending, mountain watch, watchtower, bending forward to behold) that has become a bearer of light (beacon) to the phase of consciousness in which the city of Zephath belongs (Canaanites, Canaan, lowland, si",
+      "candidates": []
+    },
+    {
+      "id": 3608,
+      "word": "Zephathah",
+      "etym": "Heb.",
+      "mibDef": "place of the watchtower; high watch; beholding; awaiting;",
+      "mibMeta": "Spiritual watch being kept in the lower or more subconscious phase of thought in the individual (place of the watchtower, high watch, a valley in the lowlands of Judah; see MARESHAH and ZERAH). The Ethiopians here are the undisciplined and undeveloped thought forces in the subconscious mind. They ar",
+      "candidates": [
+        {
+          "s": "H6859",
+          "def": "Tsephathah, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 3609,
+      "word": "Zephi",
+      "etym": "Heb.",
+      "mibDef": "outlook; watcher; watchtower; high watch; awaiting; expectation;",
+      "mibMeta": "A watchful, seeing, expectant thought, or attitude of mind, with an upward tendency, that belongs seemingly to the outer or physical man (outlook, watchtower, high watch, attention, expectation, obsen’ation, son of Eliphaz, and grandson of Esau; see ELIPHAZ and ESAU).",
+      "candidates": []
+    },
+    {
+      "id": 3610,
+      "word": "Zephon",
+      "etym": "Heb .",
+      "mibDef": "watchman; observer; attender; waiter; expecter; keeper of the high",
+      "mibMeta": "A realization of power (Gad, a son of Jacob, represents the power faculty in man), which is the result of a desire for, and a seeking after, power (watchman, observer, expecter, keeper of the high watch; the latter definition suggests prayer, an earnest desire for and expectation of something higher",
+      "candidates": []
+    },
+    {
+      "id": 3611,
+      "word": "Zer",
+      "etym": "Heb.",
+      "mibDef": "strait; narrow; pent up; compressed; cleavage; fissure; straits; distress;",
+      "mibMeta": "A group of thoughts of a very strong, established character ( rock, a fortified city of Naphtali, Naphtali representing the strength faculty in individual consciousness). This consciousness of great strength lacks the spiritual quality as yet. It is narrow, hard, and unyielding (flint), and has not ",
+      "candidates": []
+    },
+    {
+      "id": 3612,
+      "word": "Zerahiah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah has arisen; Jah shines forth with glory; brilliance of",
+      "mibMeta": "The individual awakening to the ZERERAH conscious recognition of his own indwelling Christ or I AM understanding and might (Jehovah has arisen, Jah shines forth with glory, Jah is appearing, brilliance of Jehovah, birth of Jehovah), and expressing this light and power constructively. Zerahites (A. V",
+      "candidates": [
+        {
+          "s": "H2228",
+          "def": "Zerachjah, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3613,
+      "word": "Zeredah (A. V.",
+      "etym": "Heb.",
+      "mibDef": "sharp; cutting; penetrating; piercing;",
+      "mibMeta": "As a city of Ephraim, Zeredah bespeaks the sharp, cold, piercing, penetrating nature of the will as expressing in personal consciousness, apart from the very needful balancing faculties of love and wisdom The Zeredah of II Chronicles 4:17 has virtually the same significance as the Zarethan of I King",
+      "candidates": []
+    },
+    {
+      "id": 3614,
+      "word": "Zererah (A. V.",
+      "etym": "Heb .",
+      "mibDef": "cutting; sharp; penetrating; piercing; cold; cool;",
+      "mibMeta": "The significance is virtually the same as that of ZARETHAN, which see. Then",
+      "candidates": []
+    },
+    {
+      "id": 3615,
+      "word": "Zeresh",
+      "etym": "Heb.",
+      "mibDef": "gold.",
+      "mibMeta": "A degree of soul wisdom (gold, a woman) that is of the carnal, adverse phase of consciousness in man.",
+      "candidates": [
+        {
+          "s": "H2238",
+          "def": "Zeresh, Haman's wife"
+        }
+      ]
+    },
+    {
+      "id": 3616,
+      "word": "Zereth",
+      "etym": "Heb.",
+      "mibDef": "appearing; coming into manifestation; light; brilliance; brightness;",
+      "mibMeta": "The bright shining of spiritual understanding into and through the consciousness of the spiritually awakening individual (light, oil, splendor, brightness); this is the result of the freeing activity of prayer and praise (Judah). This name also bespeaks the manifestation of Truth in the outer life a",
+      "candidates": []
+    },
+    {
+      "id": 3617,
+      "word": "Zereth-shahar (A. V.",
+      "etym": "Heb.",
+      "mibDef": "breaking forth of light; brilliance",
+      "mibMeta": "The wonderful illumination and glory, the spiritual uplift, the ecstasy, that so often accompany the inflow of new spiritual understanding, or light, into the consciousness of man after a period of trial or seeming darkness. (Zereth-shahar means breaking forth of ZERUBBABEL light, aurora's splendor,",
+      "candidates": []
+    },
+    {
+      "id": 3618,
+      "word": "Zeri",
+      "etym": "Heb.",
+      "mibDef": "running; flowing; distilling; mastic; balsam; balm.",
+      "mibMeta": "The very essence of Spirit entering into the consciousness and organism of man as a harmonizing, healing, renewing energy and power (running, flowing, distilling, mastic, balsam, balm, an Israelitish musician in David's reign). (See IZRI.)",
+      "candidates": []
+    },
+    {
+      "id": 3619,
+      "word": "Zeror",
+      "etym": "Heb .",
+      "mibDef": "pressing, compressing ; binding ; oppressing ; tied; a bundle; a packet;",
+      "mibMeta": "Concentrated thought, bringing one's thoughts together, and centering the attention on one central idea ( bundle , particle, tied, binding, compressing, bag, pebble, grain, kernel).",
+      "candidates": []
+    },
+    {
+      "id": 3620,
+      "word": "Zeruah",
+      "etym": "Heb.",
+      "mibDef": "heavily smitten; stricken; prostrated; scourged; leprous; hornets;",
+      "mibMeta": "A phase of the soul consciousness in man that is unclean and impure in thought and desire (leprous); also the troublous, fearful, stinging, error experiences that are the result of this condition of the soul ( heavily smitten, stricken, hornets, terror).",
+      "candidates": []
+    },
+    {
+      "id": 3621,
+      "word": "Zerubbabel (A. V.",
+      "etym": "Heb.",
+      "mibDef": "sown in Babylon; conceived",
+      "mibMeta": "A very strong and influential thought activity belonging to the spiritual phase of man. It comes to light in the consciousness of the unfolding individual in the midst of the stress and sorrow of the sense confusion and bondage (Babylon) into which he has drifted because of not understanding the tru",
+      "candidates": [
+        {
+          "s": "H2216",
+          "def": "Zerubbabel, an Israelite"
+        },
+        {
+          "s": "H2217",
+          "def": "Zerubbabel, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3622,
+      "word": "Zeruiah",
+      "etym": "Heb.",
+      "mibDef": "cleft; wounded; flowing; running; distilling; balsam; balm.",
+      "mibMeta": "Zeruiah and Abigail, sisters of David and daughters of Jesse, signify two attitudes of the soul in the spiritually awakening individual who is in the overcoming phase of his development. Abigail bespeaks the great joy and gladness that one feels because of the entrance of new light and Truth into co",
+      "candidates": [
+        {
+          "s": "H6870",
+          "def": "Tserujah, an Israelitess"
+        }
+      ]
+    },
+    {
+      "id": 3623,
+      "word": "Zetham",
+      "etym": "Heb.",
+      "mibDef": "luminous essence; giving light; shining; brightness; oil; oil tree; olive",
+      "mibMeta": "A thought belonging to the love faculty in the individual (a man of the tribe of Levi) that radiates the spirit of peace and prosperity (luminous essence, giving light, oil, shining, olive ZIBA tree, olive, olives being representative of peace and of great abundance, while oil symbolizes the Holy Sp",
+      "candidates": []
+    },
+    {
+      "id": 3624,
+      "word": "Zethan",
+      "etym": "Yleb.",
+      "mibDef": "giving light; shining; brightness; olive; olive tree.",
+      "mibMeta": "A thought in the active faith faculty of the individual (a man of Benjamin) that is radiating the spirit of peace and bounty (shining, olive, olive tree; see ZETHAM for the significance of olives).",
+      "candidates": []
+    },
+    {
+      "id": 3625,
+      "word": "Zethar",
+      "etym": "Heb. fr. Pers.",
+      "mibDef": "splendor; brilliance- star; conqueror.",
+      "mibMeta": "A purely mental perception and amplification of conquest and dominion (splendor, brilliance, star, conqueror) that helps to sustain the puffed-up personal will (a chamberlain who ministered to King Ahasuerus of Media and Persia).",
+      "candidates": []
+    },
+    {
+      "id": 3626,
+      "word": "Zia",
+      "etym": "Heb.",
+      "mibDef": "motion; movement; agitation; commotion; disquiet; trembling; shaking;",
+      "mibMeta": "A step in the unfolding of dominion and power in the individual consciousness, wherein fearfulness and instability seemingly prevail (motion, movement, disquiet, trembling, fear, a man of the Israelitish tribe of Gad, Gad referring to the power faculty). We find in Peter (faith), at a certain stage ",
+      "candidates": []
+    },
+    {
+      "id": 3627,
+      "word": "Ziba",
+      "etym": "Heb .",
+      "mibDef": "placed; stationed; left standing; statue; plantation; fixed;",
+      "mibMeta": "After Saul's household was destroyed, only Ziba, a servant, and Mephibosheth, a grandson who was crippled, were left. Ziba means a statue. This shows that the old-time fire that animated the will has burned itself out, leaving nothing but a form. Ziba represents only a remembrance of former experien",
+      "candidates": [
+        {
+          "s": "H6717",
+          "def": "Tsiba, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3628,
+      "word": "Zibeon",
+      "etym": "Heb .",
+      "mibDef": "immersed; dipped in; dyed; tinged; variegated; ravenous preyer; wild",
+      "mibMeta": "Hivites represent thoughts of opposition and resistance in the carnal phase of consciousness in unredeemed man. Zibeon (wild robber, ravenous preyer, immersed, dipped in, variegated, dyed) symbolizes a wild, lawless sense thought that has the capacity of adapting itself to the varying ideas and mood",
+      "candidates": [
+        {
+          "s": "H6649",
+          "def": "Tsibon, an Idumaean"
+        }
+      ]
+    },
+    {
+      "id": 3629,
+      "word": "Zibia",
+      "etym": "Heb .",
+      "mibDef": "beauty; gracefulness; antelope; gazelle; roe; deer.",
+      "mibMeta": "A swift, graceful, harmonious thought activity in the faith faculty in consciousness (beauty, gracefulness, gazelle, roe, deer; a man of Benjamin), also ZIHA in the spiritual phase of the soul (a woman of Beersheba, and mother of Jehoash, king of Judah). Zibiah. (See ZIBIA, b.)",
+      "candidates": []
+    },
+    {
+      "id": 3630,
+      "word": "Zichri",
+      "etym": "Heb.",
+      "mibDef": "called to mind; remembered; memorial; remembrance; recollected;",
+      "mibMeta": "Thoughts in man's higher, religious and spiritual consciousness (Israelites, some of them men of note) that keep calling his attention to the outworking of the law of Being, and to the importance of taking cognizance of this law ( called to mind, remembered, recollected, remembrance, renowned ).",
+      "candidates": [
+        {
+          "s": "H2147",
+          "def": "Zicri, the name of twelve Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3631,
+      "word": "Ziddim",
+      "etym": "Heb.",
+      "mibDef": "sides; walls; steeps; declivities; oppositions; adversaries; enemies;",
+      "mibMeta": "Strength, exalted very highly in the consciousness of the spiritually awakening individual, but expressed in a downward, destructive way because of the outer, material beliefs that he still holds regarding this important faculty of mind (sides, declivities, steeps, oppressions, destructions, a forti",
+      "candidates": []
+    },
+    {
+      "id": 3632,
+      "word": "Ziha",
+      "etym": "Heb.",
+      "mibDef": "dazzling white; brightness; bright; sunny; clear; plain; manifest; serene;",
+      "mibMeta": "Serving thoughts in consciousness (men who were of the Nethinim, or bond servants in the Temple) that are pure and radiant (dazzling white, brightness) and that desire greatly, but have not as yet appropriated as their own, the real joy, energy, substance, and soul satisfaction that are the result o",
+      "candidates": [
+        {
+          "s": "H6727",
+          "def": "Tsicha, the name of two Nethinim"
+        }
+      ]
+    },
+    {
+      "id": 3633,
+      "word": "Ziklag",
+      "etym": "Heb.",
+      "mibDef": "winding; bending; flowing; outpouring of a fountain; pouring out of",
+      "mibMeta": "Adaptability (winding, bending, flowing), to which love (David) has to resort in order to protect itself from the onslaughts of the selfish, personal will (Saul) that is determined to retain its rulership in consciousness, even if divine love has to be killed out in consequence. But love cannot be d",
+      "candidates": [
+        {
+          "s": "H6860",
+          "def": "Tsiklag or Tsikelag, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 3634,
+      "word": "Ziliah",
+      "etym": "Heb.",
+      "mibDef": "deep; darkness; gloom; shadow; screened; veiled; protected.",
+      "mibMeta": "A very great or dense obscurity of thought, regarding his true spiritual nature and capabilities, that exists in the soul of the individual who is still living wholly in the outer or sense consciousness {deep, darkness, ZIMMAH gloom, shadow, wife of Lamech, of the line of Cain). Lack of true and cle",
+      "candidates": []
+    },
+    {
+      "id": 3635,
+      "word": "Zilpah",
+      "etym": "Heb.",
+      "mibDef": "distilling; extracting an essence; dropping; dripping; trickling; leaking;",
+      "mibMeta": "The unfolding soul of man. Little by little, drop by drop, as it were, the soul becomes awakened to spiritual thought (distilling, extracting an essence, dropping, the essence here relating to Spirit as the fundamental principle of being). But in the Zilpah phase of the unfolding soul we do not find",
+      "candidates": [
+        {
+          "s": "H2153",
+          "def": "Zilpah, Leah's maid"
+        }
+      ]
+    },
+    {
+      "id": 3636,
+      "word": "Zimmah",
+      "etym": "",
+      "mibDef": "having in mind- thought; meditation; purpose; consideration;",
+      "mibMeta": "Love, degenerated into wickedness and lasciviousness because of the prevalence of sense desires in the consciousness, owing to the influence of the carnal mind (having in mind, thought, device, plot, wickedness, unchastity, men of the Israelitish tribe of Levi, Levi referring to the love faculty in ",
+      "candidates": [
+        {
+          "s": "H2155",
+          "def": "Zimmah, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3637,
+      "word": "Zimran",
+      "etym": "Heb.",
+      "mibDef": "celebrated in song; sung; song; music; chant; jubilee; singer; dancer;",
+      "mibMeta": "A positive expression of joy, harmony, and grace (celebrated in song, sung, jubilee, dancer, gazelle ); the first conscious result of a union of the awakening faith in the individual (Abraham) with the aspiration of the soul for higher bodily attainment (Keturah).",
+      "candidates": []
+    },
+    {
+      "id": 3638,
+      "word": "Zimri",
+      "etym": "Heb .",
+      "mibDef": "celebrated in song; singing; music; praise; jubilation; dancing; leaping;",
+      "mibMeta": "An inner sense of harmony; also an inner lauding and praising, thus a lifting up, of the activity-of-life idea in individual consciousness (celebrated in song, singing, dancing, music, mountain sheep, gazelle). In this way a new and increased realization of life becomes vibrant throughout the consci",
+      "candidates": [
+        {
+          "s": "H2174",
+          "def": "Zimri, the name of five Israelites, and of an Arabian tribe"
+        }
+      ]
+    },
+    {
+      "id": 3639,
+      "word": "Zin",
+      "etym": "Heb.",
+      "mibDef": "sharp; pointed; piercing; coldness; thorn; covering; protection; preservation;",
+      "mibMeta": "A seemingly very small beginning of a comprehension of Truth, of preservation, salvation, and of victory, working in the subconsciousness of the individual toward the body consciousness (lowland, low palm, piercing, covering, preservation, buckler). In this phase of thought the way to possession of ",
+      "candidates": [
+        {
+          "s": "H6790",
+          "def": "Tsin, a part of the Desert"
+        }
+      ]
+    },
+    {
+      "id": 3640,
+      "word": "Zina",
+      "etym": "Heb.",
+      "mibDef": "throwing out rays; glittering; sparkling; brilliant; ornamental; flowing with",
+      "mibMeta": "Love, radiating the thought of understanding, satisfaction, richness, opulence (throwing out rays, brilliant, flowing with milk, abundant, fruitful, productive, contentment, a man of the Israelitish tribe of Levi).",
+      "candidates": []
+    },
+    {
+      "id": 3641,
+      "word": "Zion",
+      "etym": "Heb.",
+      "mibDef": "sunny; very dry; clear, i. e., unobstructed, sunshine; set up; placed;",
+      "mibMeta": "Love's abode in the phase of the subjective consciousness where high, holy thoughts and ideals abide (clear, i. e., unobstructed, sunshine, sunny, set up, monument, fortress, landmark, a fortified hill, which later became a part of Jerusalem). In referring to the Holy City, the New Jerusalem, Zion s",
+      "candidates": [
+        {
+          "s": "H6726",
+          "def": "Tsijon (as a permanent capital), a mountain of Jerusalem"
+        }
+      ]
+    },
+    {
+      "id": 3642,
+      "word": "Zior",
+      "etym": "Heb.",
+      "mibDef": "reduced; brought low; littleness; smallness; contemned; dishonored.",
+      "mibMeta": "The inferiority of material thought and belief, in the light of the higher, truer understanding of Spirit (reduced, brought low, littleness, smallness, contemned, dishonored, a city in the hill country of Judah). Ziph, ziph (Heb.)-- flowing; overflowing; overwhelming; becoming liquid; liquefaction; ",
+      "candidates": []
+    },
+    {
+      "id": 3643,
+      "word": "Ziphah",
+      "etym": "Heb.",
+      "mibDef": "flux; fluidity; liquid; flowing; pure; refined; clean.",
+      "mibMeta": "The significance of Ziphah is the same as that of Ziph, a cleansing, purifying, refining thought in action in the consciousness. In Ziphah we also see established the effect of this thought in cleanliness and purity of thought (flux, flowing, clean, pure, refined).",
+      "candidates": []
+    },
+    {
+      "id": 3644,
+      "word": "Ziphion",
+      "etym": "Heb.",
+      "mibDef": "looking",
+      "mibMeta": "See ZEPHON. Ziphites, Ziph'-ites (fr. Heb.). Inhabitants of the city of Ziph, or of the wilderness of Ziph in which this city was located. Twice they went to Saul at Gibeah and told him where David was hiding (I Sam. 23 :19; 26 :1). Thoughts belonging to the cleansing, purifying state of mind that Z",
+      "candidates": []
+    },
+    {
+      "id": 3645,
+      "word": "Ziphron",
+      "etym": "Heb.",
+      "mibDef": "emitting sweet odor; fragrance; perfume; pleasantness; a flower",
+      "mibMeta": "Spiritual perception ( emitting sweet odor, fragrance, perfume).",
+      "candidates": []
+    },
+    {
+      "id": 3646,
+      "word": "Zippor",
+      "etym": "Heb.",
+      "mibDef": "chirper; peeper; twitterer; hopper; small bird; sparrow; anything that",
+      "mibMeta": "The thought here, while free, unattached (bird), is of that which is not clear in its utterances. Isaiah writes of \"them that have familiar spirits,\" and of \"wizards, that chirp and that mutter\" (Isa. 8:19); this suggests the nature of that which Zippor signifies (chirper, peeper, twitterer, and so ",
+      "candidates": [
+        {
+          "s": "H6834",
+          "def": "Tsippor, a Moabite"
+        }
+      ]
+    },
+    {
+      "id": 3647,
+      "word": "Zipporah",
+      "etym": "Heb.",
+      "mibDef": "little bird; sparrow; chirper; twitterer.",
+      "mibMeta": "Zipporah is the feminine of Zippor, and one definition of both names is little bird. In our study of the involution of the soul we learn that birds signify, or should signify, free, swift thoughts, thoughts that unite heaven and earth. Moses, the one drawn forth to deliver the spiritual consciousnes",
+      "candidates": [
+        {
+          "s": "H6855",
+          "def": "Tsipporah, Moses’ wife"
+        }
+      ]
+    },
+    {
+      "id": 3648,
+      "word": "Ziv (A. V.",
+      "etym": "Heb.",
+      "mibDef": "radiant; shining; brightness; splendor; beauty, especially of",
+      "mibMeta": "The phase of individual unfoldment wherein one expresses the Truth of Being in one's words ( blooming , flower month, brightness, splendor). A month, in fact any division of time, signifies a step in unfoldment. The meaning of Ziv calls to mind the third line of the little stanza: \"Kind hearts are t",
+      "candidates": []
+    },
+    {
+      "id": 3649,
+      "word": "Ziza",
+      "etym": "Heb.",
+      "mibDef": "throwing out rays; shining; glittering; sparkling; brilliant; ornamented;",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2124",
+          "def": "Ziza, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3650,
+      "word": "Zizah",
+      "etym": "Heb.",
+      "mibDef": "radiant; brilliant; shining; full breast; flowing with milk; abundance;",
+      "mibMeta": "See ZINA.",
+      "candidates": [
+        {
+          "s": "H2125",
+          "def": "Zizah, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3651,
+      "word": "Zoan",
+      "etym": "Heb. fr. Egypt.",
+      "mibDef": "depressed region; low region; loading beasts for a journey;",
+      "mibMeta": "A lowered state of vitality, a depressed, dejected, unstable center of thought activity in the subconscious phase of mind in man (depressed region, low region, migration, a city and a plain in Egypt). This state of thought is due to the belief that man, and especially the substance of which his body",
+      "candidates": [
+        {
+          "s": "H6814",
+          "def": "Tsoän, a place in Egypt"
+        }
+      ]
+    },
+    {
+      "id": 3652,
+      "word": "Zoar",
+      "etym": "Heb.",
+      "mibDef": "reduced; made small; lessened; smallness; littleness; brought low; despised;",
+      "mibMeta": "Inferiority (smallness, littleness, one of the wicked cities of the plain, and belonging to Moab, or carnal mind).",
+      "candidates": [
+        {
+          "s": "H6820",
+          "def": "Tsoar, a place East of the Jordan"
+        }
+      ]
+    },
+    {
+      "id": 3653,
+      "word": "Zobah",
+      "etym": "Heb.",
+      "mibDef": "settled; placed; appointed; caused to stand; station; encampment; fixed;",
+      "mibMeta": "A fixed error state of thought belonging to the sense intellectual realm of mind in man (settled, station, encampment, a Syrian kingdom in the time of Saul and David).",
+      "candidates": [
+        {
+          "s": "H6678",
+          "def": "Zoba or Zobah, a region of Syria"
+        }
+      ]
+    },
+    {
+      "id": 3654,
+      "word": "Zobebah",
+      "etym": "Heb.",
+      "mibDef": "the slow moving; the gentle moving; gentle flowing along; softly",
+      "mibMeta": "The poise, the harmony, the quiet, gentle, peaceful assurance and rhythm of the inner or spiritual consciousness and life (the slow moving, the gentle moving, gently flowing along, softly moving, the affable, a man of Judah). Zohar, zo'-har {Heb.)- -dazzling brilliance; brightness; whiteness; white;",
+      "candidates": []
+    },
+    {
+      "id": 3655,
+      "word": "Zoheleth",
+      "etym": "Heb.",
+      "mibDef": "creeping; crawling; slippery; sliding; serpent; timidity; fearfulness.",
+      "mibMeta": "The sense life, with its wisdom, which is of the outer man of carnality ( creeping, crawling, slippery, serpent). Adonijah's sacrificing sheep, oxen, and fatlings by this stone denotes the using of one's vitality, strength, and body substance to the furtherance of the sense life, or to the furtheran",
+      "candidates": []
+    },
+    {
+      "id": 3656,
+      "word": "Zoheth",
+      "etym": "Heb .",
+      "mibDef": "corpulence; strength.",
+      "mibMeta": "See BEN— ZOHETH.",
+      "candidates": []
+    },
+    {
+      "id": 3657,
+      "word": "zone",
+      "etym": "",
+      "mibDef": "Through His spiritual attainments Jesus formed a spiritual zone in the earth's",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3658,
+      "word": "Zophah",
+      "etym": "Heb .",
+      "mibDef": "extending; drawing out; spreading out; expanding; cruse; flask; vial",
+      "mibMeta": "A cruse, or vied, in the meaning of this name, points to the body of man, which is a vessel to hold the water and the wine of life and the oil of Spirit. In Matthew 9 : 17 (A. V.) we read of putting new wine into new bottles, which means that the body must be renewed and spiritualized that it may co",
+      "candidates": []
+    },
+    {
+      "id": 3659,
+      "word": "Zophai",
+      "etym": "Heb.",
+      "mibDef": "a flowing; an overflowing; honeycomb; honeycombed; floater;",
+      "mibMeta": "A very orderly, true-to-principle, loving thought of the higher and more spiritual phase of individual consciousness in expression (a flowing, an overflowing, honeycomb; a man of Levi; the little cells in a piece of honeycomb are built in a most exact way, each one virtually perfect). Honeycomb, hon",
+      "candidates": [
+        {
+          "s": "H6689",
+          "def": "Tsuph or Tsophai or Tsiph, the name of an Israelite and of a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 3660,
+      "word": "Zophar",
+      "etym": "Heb.",
+      "mibDef": "chirping; peeping; twittering; hopping; moving swiftly; small bird;",
+      "mibMeta": "Job's three friends represent phases of intellectual and mental thought and reason; that which is less than spiritual understanding. This is why they could not help him to find any remedy for his afflictions. They could show him to be wrong, but could not reveal to him the right way. Intellect only ",
+      "candidates": [
+        {
+          "s": "H6691",
+          "def": "Tsophar, a friend of Job"
+        }
+      ]
+    },
+    {
+      "id": 3661,
+      "word": "Zophim",
+      "etym": "Heb .",
+      "mibDef": "watchers; watchmen; viewers; lookers from afar; honycombs; flowing",
+      "mibMeta": "An attentive, vigilant attitude, but more from a standpoint of looking on from the outside than laying hold of and becoming one with that which is perceived (watchers, watchmen, viewers, lookers from afar; a field at the top of Pisgah, where Balak, king of Moab, took Balaam to try to induce him to c",
+      "candidates": []
+    },
+    {
+      "id": 3662,
+      "word": "Zorah",
+      "etym": "Heb.",
+      "mibDef": "stricken; smitten;",
+      "mibMeta": "A thought center in the subconsciousness (a city in the lowland of Judah) that is bowed under fear of oppression and affliction (stricken, smitten, prostrated, terrified), that is of a stinging, petulant nature (hornet, place of hornets), and that is in need of purifying (leprosy). Zorathites (in A.",
+      "candidates": [
+        {
+          "s": "H6881",
+          "def": "Tsorah, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 3663,
+      "word": "Zuar",
+      "etym": "Heb.",
+      "mibDef": "reduced; lessened; made little; smallness; littleness; brought low.",
+      "mibMeta": "Humility (made little, smallness). Nethanel, son of Zuar, signifies the grace that God imparts to His children. This grace is realized by those who are small in their own eyes, in so far as the lesser self is concerned. \"God . . . giveth grace to the humble\" (James 4:6; I Pet. 5:5); \"whosoever shall",
+      "candidates": [
+        {
+          "s": "H6686",
+          "def": "Tsuar, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3664,
+      "word": "Zuph",
+      "etym": "Heb.",
+      "mibDef": "flowing; overflowing; flowing honey; honeycomb.",
+      "mibMeta": "The significance is the same as that of Zophai, the sweetness and orderliness of Truth. (See ZOPHAI.)",
+      "candidates": []
+    },
+    {
+      "id": 3665,
+      "word": "Zur",
+      "etym": "Heb.",
+      "mibDef": "rock; stone; acute; sharp; precipitous; refuge; shelter; protection; founder of a",
+      "mibMeta": "Faith, as referring to the man of Benjamin (rock, refuge), and a very hard, aggressive, besieging, warring thought activity, as it pertains to the prince of Midian (rock, stone, precipitous, beset, assailed, besieged).",
+      "candidates": []
+    },
+    {
+      "id": 3666,
+      "word": "Zuriel",
+      "etym": "Heb.",
+      "mibDef": "God is my rock; whose protection is God; God is my defense; God is a",
+      "mibMeta": "A realization of God, the indwelling Spirit of truth, as one's firm, unwavering faith, as one's steadfastness and defense (God is my rock, God is a refuge, strength of God; a Levite).",
+      "candidates": [
+        {
+          "s": "H6700",
+          "def": "Tsuriel, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3667,
+      "word": "Zurishaddai",
+      "etym": "Heb.",
+      "mibDef": "the Almighty is a rock; my rock is the Almighty; the",
+      "mibMeta": "Like Zuriel, the knowledge or realization of God as unchanging principle, as one's staying power, defense, the ZUZIM 706 sure foundation of one's abiding perfection and good ( the Almighty is a rock, my rock is the Almighty). Zuzim (A. V., Zuzims), zu'-zlm (Heb.) --emitting rays; sparkling; glitteri",
+      "candidates": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+services:
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: bf
+      MYSQL_USER: bibleforge
+      MYSQL_PASSWORD: bibleforge
+    ports:
+      - "${DB_PORT_HOST:-3306}:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./docker/init-db:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-prootpassword"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  app:
+    build: .
+    ports:
+      - "${APP_PORT:-3001}:${APP_PORT:-3001}"
+    environment:
+      PORT: ${APP_PORT:-3001}
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_USER: bibleforge
+      DB_PASSWORD: bibleforge
+      DB_NAME: bf
+      STATIC_PATH: ./public
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  mysql_data:

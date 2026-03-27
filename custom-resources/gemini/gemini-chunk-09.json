@@ -1,0 +1,1256 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "9 of 37",
+  "_entry_range": "ids 800–899",
+  "entries": [
+    {
+      "id": 800,
+      "word": "conqueror",
+      "etym": "",
+      "mibDef": "ly, one who attains mastery over sense consciousness. \"We are more than conquerors",
+      "mibMeta": "Consciousness is our knowing that we know; that phase of knowing by which we take cognizance of our existence and of our relation to what we call environment. Environment is made by ideas held in mind and objectified. The ideas that are held in mind are the basis of all consciousness. The nature of ",
+      "candidates": []
+    },
+    {
+      "id": 801,
+      "word": "conscience",
+      "etym": "",
+      "mibDef": "A state of mind that refuses to remit past sins and keeps one in a state of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4893",
+          "def": "co-perception, i.e., moral consciousness"
+        },
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        }
+      ]
+    },
+    {
+      "id": 802,
+      "word": "consciousness",
+      "etym": "",
+      "mibDef": "The sense of awareness, of knowing. The knowledge or realization of any idea,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 803,
+      "word": "consciousness",
+      "etym": "",
+      "mibDef": "Rise to the spiritual realms of mind.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 804,
+      "word": "consciousness",
+      "etym": "",
+      "mibDef": "The subconscious mind in its work in the body— repairing, renewing, and",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 805,
+      "word": "consciousness",
+      "etym": "",
+      "mibDef": "The subconscious realm in man has twelve great centers of action.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 806,
+      "word": "consciousness",
+      "etym": "",
+      "mibDef": "Consciousness built in accordance with the Christ ideal, or in absolute",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 807,
+      "word": "consciousness",
+      "etym": "",
+      "mibDef": "A mind purified by the light of Truth.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 808,
+      "word": "consciousness",
+      "etym": "",
+      "mibDef": "The realm of the supermind as contrasted with the outer or conscious",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 809,
+      "word": "consciousness",
+      "etym": "",
+      "mibDef": "A state of mind based on belief in the reality of materiality, or things as",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 810,
+      "word": "consciousness",
+      "etym": "",
+      "mibDef": "A mind filled with un-God-like thoughts, such as fear, hate, greed, lust,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 811,
+      "word": "consciousness",
+      "etym": "",
+      "mibDef": "A mind filled with God's thoughts, such as power, strength, generosity,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 812,
+      "word": "consciousness",
+      "etym": "",
+      "mibDef": "A mental state that believes in and acts through the senses. To rise out of",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 813,
+      "word": "consciousness",
+      "etym": "",
+      "mibDef": "A state of mind that is conscious of God's ideal man.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 814,
+      "word": "consciousness",
+      "etym": "",
+      "mibDef": "the spiritual and the material. These work in mind and body, concurrently; they are",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 815,
+      "word": "consciousness",
+      "etym": "",
+      "mibDef": "vitalizing and",
+      "mibMeta": "The \"widows\" of Acts 9:39 represent half truths. These half truths see the external of Truth but they reject the real or inner spirit of it; thus they are in lack. The \"widow\" in Luke 18:1-5 typifies a belief in lack. It is not good in itself, but it serves to call man's attention to the law (judge)",
+      "candidates": []
+    },
+    {
+      "id": 816,
+      "word": "consciousness (Crete",
+      "etym": "",
+      "mibDef": "carnal, fleshly), but mostly because of the inharmonious experiences that these",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 817,
+      "word": "consciousness in man that Edom signifies (garment",
+      "etym": "",
+      "mibDef": "c lothing signifying",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 818,
+      "word": "consciousness is that the Jehovah",
+      "etym": "",
+      "mibDef": "has dominion over— all the host",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 819,
+      "word": "consciousness man deifies",
+      "etym": "",
+      "mibDef": "he worships the created instead of",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 820,
+      "word": "consciousness of the individual through the exercise of his I AM",
+      "etym": "",
+      "mibDef": "Jehovah, or Christ understanding-",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 821,
+      "word": "consciousness that is still in darkness",
+      "etym": "",
+      "mibDef": "in other words, the natural or animal man.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 822,
+      "word": "consented to; then forty",
+      "etym": "",
+      "mibDef": "until he got down to ten, but there were not even ten",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H225",
+          "def": "properly, to come, i.e., (implied) to assent"
+        },
+        {
+          "s": "H8085",
+          "def": "to hear intelligently (often with implication of attention, obedience, etc.; causatively, to tell, etc.)"
+        },
+        {
+          "s": "G4784",
+          "def": "to deposit (one's vote or opinion) in company with, i.e., (figuratively) to accord with"
+        },
+        {
+          "s": "G1962",
+          "def": "to nod at, i.e., (by implication) to assent"
+        }
+      ]
+    },
+    {
+      "id": 823,
+      "word": "convalescence",
+      "etym": "",
+      "mibDef": "That period during which pure life from on high is cleansing the consciousness,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 824,
+      "word": "conviction",
+      "etym": "",
+      "mibDef": "The state of being convinced, ly, it is the divine assurance that comes to one when he",
+      "mibMeta": "The \"scourge of small cords\" (A.V.) signifies the formulated word or statement of denial. When we deny in general terms we erase or cleanse the whole consciousness, like taking a bath; but secret sins may lurk in the inner parts and remain. The words that reach these are not the great ones, such as ",
+      "candidates": []
+    },
+    {
+      "id": 825,
+      "word": "cords",
+      "etym": "",
+      "mibDef": "The specific statement of denial. General denial cleanses the consciousness,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2256",
+          "def": "a rope (as twisted), especially a measuring line; by implication, a district or inheritance (as measured); or a noose (as of cords); figuratively, a company (as if tied together)"
+        },
+        {
+          "s": "H5688",
+          "def": "something intwined, i.e., a string, wreath or foliage"
+        },
+        {
+          "s": "H4340",
+          "def": "a cord (of a tent); or the string (of a bow)"
+        }
+      ]
+    },
+    {
+      "id": 826,
+      "word": "Corinth",
+      "etym": "Gk.",
+      "mibDef": "ornament; ornamentation; beauty",
+      "mibMeta": "Corinth (ornament, beauty), forty miles to the west of Athens, contained the Greek temple of Venus, which was dedicated to the worship of love. So we discern that it was at the love center CORNELIUS in consciousness that the Truth sought to do a work. Paul here is referred to as the word of Truth, a",
+      "candidates": []
+    },
+    {
+      "id": 827,
+      "word": "Cornelius",
+      "etym": "Lat.",
+      "mibDef": "as a horn; horn-bearing; horny; unyielding.",
+      "mibMeta": "According to Bible history Cornelius was the first Gentile to accept Christianity through the ministry of the apostles; he was a man of high rank and authority. There are two phases to the significance that he has in individual consciousness; they are suggested in the following explanations: First, ",
+      "candidates": [
+        {
+          "s": "G2883",
+          "def": "Cornelius, a Roman"
+        }
+      ]
+    },
+    {
+      "id": 828,
+      "word": "Cos (A.V.",
+      "etym": "Gk.",
+      "mibDef": "summit.",
+      "mibMeta": "Cos means summit; Rhodes, roses; Phoenicia, land of palm trees; Cyprus, fairness. These places symbolize certain pleasant phases of consciousness in the individual who is seeking the highest, but they are not, strictly speaking, on the spiritual plane.",
+      "candidates": []
+    },
+    {
+      "id": 829,
+      "word": "Cosam",
+      "etym": "Gk. from Heb.",
+      "mibDef": "diviner; divination; divining; an oracle; a seer.",
+      "mibMeta": "Clear spiritual perception and insight into Truth (a diviner, divining, an oracle, a seer). cosmos— Order; system; harmony; the opposite of chaos. The universe is a cosmos because it expresses Divine Mind, the essence of all harmony and order. council (Acts 6:15). The whole consciousness.",
+      "candidates": []
+    },
+    {
+      "id": 830,
+      "word": "country",
+      "etym": "",
+      "mibDef": "A state of consciousness in which man has separated himself from an intimate",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H7704",
+          "def": "a field (as flat)"
+        },
+        {
+          "s": "G5561",
+          "def": "room, i.e., a space of territory (more or less extensive; often including its inhabitants)"
+        },
+        {
+          "s": "G4066",
+          "def": "around the region, i.e., circumjacent (as noun, with G1093 implied vicinity)"
+        },
+        {
+          "s": "H249",
+          "def": "a spontaneous growth, i.e., native (tree or persons)"
+        }
+      ]
+    },
+    {
+      "id": 831,
+      "word": "covenant",
+      "etym": "",
+      "mibDef": "Jesus established a new and higher consciousness for man and taught and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1285",
+          "def": "a compact (because made by passing between pieces of flesh)"
+        },
+        {
+          "s": "G1242",
+          "def": "properly, a disposition, i.e., (specially) a contract (especially a devisory will)"
+        }
+      ]
+    },
+    {
+      "id": 832,
+      "word": "Covenant",
+      "etym": "",
+      "mibDef": "(see Ark of the Covenant)",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1285",
+          "def": "a compact (because made by passing between pieces of flesh)"
+        },
+        {
+          "s": "G1242",
+          "def": "properly, a disposition, i.e., (specially) a contract (especially a devisory will)"
+        }
+      ]
+    },
+    {
+      "id": 833,
+      "word": "Cozeba (A.V.",
+      "etym": "Heb.",
+      "mibDef": "lying; false; deceptive; deluding with false hope, i.e.,",
+      "mibMeta": "See CHEZIB and ACHZIB . creation. Creation presupposes a creator. The creator is God, Divine Mind. God creates by the power of His word: \"God said. ..and it was so.\" The Word of God is the divine Logos, the creative power of God expressed in the fiat, \"Let there be,\" \"and it was.\" The Logos, or Word",
+      "candidates": []
+    },
+    {
+      "id": 834,
+      "word": "creation",
+      "etym": "",
+      "mibDef": "The 1st chapter of Genesis describes the creative action of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2937",
+          "def": "original formation (properly, the act; by implication, the thing, literally or figuratively)"
+        }
+      ]
+    },
+    {
+      "id": 835,
+      "word": "Crescens",
+      "etym": "Lat.",
+      "mibDef": "growing; advancing; increasing; attaining honor.",
+      "mibMeta": "There were Christians in Galatia. Paul went there to preach, and his Epistle to the Galatians was written to the Christian assemblies throughout that country, or province. If Crescens went there at the request, or with the consent, of Paul, to help spread and establish Truth in that place, he signif",
+      "candidates": [
+        {
+          "s": "G2913",
+          "def": "growing; Cresces (i.e., Crescens), a Christian"
+        }
+      ]
+    },
+    {
+      "id": 836,
+      "word": "Cretans (A.V.",
+      "etym": "Gk.",
+      "mibDef": "cut off; carnal; fleshly.",
+      "mibMeta": "Carnal, deceitful, gluttonous thoughts, they belong to the carnal consciousness in the individual. (See CRETE.) In Acts 2:11, however, we see these Cretans hearing in their own tongue, from the Spirit-filled apostles, of the mighty works of God. There must therefore be something in the apparently ca",
+      "candidates": []
+    },
+    {
+      "id": 837,
+      "word": "Crete",
+      "etym": "",
+      "mibDef": "cut off; carnal; fleshly.",
+      "mibMeta": "The material, sensual, worldly consciousness in man, as opposed to the spiritual (carnal, fleshly).",
+      "candidates": []
+    },
+    {
+      "id": 838,
+      "word": "Crispus",
+      "etym": "Lat.",
+      "mibDef": "curled; curly-headed, wrinkled.",
+      "mibMeta": "Crispus (curled), the ruler of the synagogue, who believed with all his house, indicates that Truth really encompasses the whole man. The consolation and the encouragement that came from the Lord in a vision to Paul (Acts 18:9) indicate the fulfillment of the law in this movement of Truth in its wor",
+      "candidates": [
+        {
+          "s": "G2921",
+          "def": "\"crisp\"; Crispus, a Corinthian"
+        }
+      ]
+    },
+    {
+      "id": 839,
+      "word": "CTEsar",
+      "etym": "Lat .",
+      "mibDef": "hairy; sharp; cutting edge; keen.",
+      "mibMeta": "In the individual consciousness rulership implies the joint activity of reason and will. CTEsar, the Roman emperor, therefore refers to the personal seifs ruling, through reason and will (unmodified by spiritual love, mercy, and justice), both mind and body, as indicated by the \"world\" (Luke 2:1), a",
+      "candidates": []
+    },
+    {
+      "id": 840,
+      "word": "Cub (A.V.",
+      "etym": "Heb .",
+      "mibDef": "thorn bush; a thorn.",
+      "mibMeta": "A darkened, thorny state of thought that gives its substance to the upbuilding and sustaining of the Egypt consciousness. (See EGYPT.) crucifixion— The crossing out in consciousness of errors that have become fixed states of mind; the surrender or death of the whole personality in order that the Chr",
+      "candidates": []
+    },
+    {
+      "id": 841,
+      "word": "Cun (A.V.",
+      "etym": "Heb .",
+      "mibDef": "stand upright; set up; found; firmly establish; form; prepare;",
+      "mibMeta": "The building of divine life and substance into consciousness, preparatory to the establishment (form, prepare, firmly establish) of mind and body in enduring existence and perfection. The foundation for an immortal, incorruptible body structure is laid in an upright character ( stand upright) and in",
+      "candidates": []
+    },
+    {
+      "id": 842,
+      "word": "Cush cush",
+      "etym": "Heb .",
+      "mibDef": "firelike; burned; blackened; combustible;",
+      "mibMeta": "Ham typifies the physical in man, in its very biased, material, sensual expression. The physical has always been looked upon as something very material and as being void of intelligence and spirituality. It has been in darkness, and has been given over to ignorance and sensuality, with corruption as",
+      "candidates": [
+        {
+          "s": "H3568",
+          "def": "Cush (or Ethiopia), the name of a son of Ham, and of his territory"
+        }
+      ]
+    },
+    {
+      "id": 843,
+      "word": "Cushan",
+      "etym": "Heb.",
+      "mibDef": "blackness.",
+      "mibMeta": "See CUSHAN-RISHATHAIM.",
+      "candidates": [
+        {
+          "s": "H3572",
+          "def": "Cushan, a region of Arabia"
+        }
+      ]
+    },
+    {
+      "id": 844,
+      "word": "Cushan-rishathaim (A.V.",
+      "etym": "Heb.",
+      "mibDef": "blackness of",
+      "mibMeta": "A central ruling thought in the error state of consciousness that Aram-naharaim signifies— the belief of the unawakened intellect in man that all his sustenance comes from the outer and that he has no need of spiritual understanding and Truth to sustain him in either body or soul. (See ARAM-NAHARAIM",
+      "candidates": []
+    },
+    {
+      "id": 845,
+      "word": "Cushi",
+      "etym": "Heb .",
+      "mibDef": "firelike; burned; black; combustible; an Ethiopian.",
+      "mibMeta": "The darkness and denseness of material, sensual thought and belief (firelike, burned, black, combustible, an Ethiopian). The fact that the men by this name were Israelites shows that the religious tendencies and desires and the spiritual aspirations of the individual are piercing this darkness; the ",
+      "candidates": [
+        {
+          "s": "H3569",
+          "def": "a Cushite, or descendant of Cush"
+        }
+      ]
+    },
+    {
+      "id": 846,
+      "word": "Cushite",
+      "etym": "Heb.",
+      "mibDef": "same",
+      "mibMeta": "A thought that belongs to the state of consciousness that Cush typifies. (See CUSH.)",
+      "candidates": []
+    },
+    {
+      "id": 847,
+      "word": "Cuth",
+      "etym": "Heb .",
+      "mibDef": "separating; cutting; shrinking; fear.",
+      "mibMeta": "Strife, anger, fear, and all the error, warring thoughts and emotions of the outer sensate consciousness; these burn out and destroy the very nerve cells of the organism, and work against the health, peace, and general welfare of the individual who gives them place.",
+      "candidates": [
+        {
+          "s": "H3575",
+          "def": "Cuth or Cuthah, a province of Assyria"
+        }
+      ]
+    },
+    {
+      "id": 848,
+      "word": "Cyprus",
+      "etym": "Gk.",
+      "mibDef": "a measure of corn; fairness.",
+      "mibMeta": "A fair, frank, honest, just, unbiased state of mind (fairness) established in a degree of substance (a measure of corn); thus it draws to one very favorable and desirable conditions. This state of consciousness that Cyprus signifies is not truly spiritual, however; it needs to become established in ",
+      "candidates": [
+        {
+          "s": "G2953",
+          "def": "a Cyprian (Cypriot), i.e., inhabitant of Cyprus"
+        }
+      ]
+    },
+    {
+      "id": 849,
+      "word": "Cyrene",
+      "etym": "Gk.",
+      "mibDef": "wall; coldness.",
+      "mibMeta": "A fixed (wall) state of thought that has been founded in intellectual reasonings (Greeks) and has been built up and strengthened further by old, established, formal religious ideas (Jews). This thought center pertains to the sensual rather than to the spiritual in us, and needs to be thoroughly imbu",
+      "candidates": []
+    },
+    {
+      "id": 850,
+      "word": "Cyrus",
+      "etym": "Gk. from Pers.",
+      "mibDef": "the sun; rays of the sun; perhaps shepherd.",
+      "mibMeta": "In Daniel, Cyrus' capture of the kingdom of Babylonia represents the return of man to a state of barbarism, since, compared with the Babylonians, Cyrus was a barbarian. King Cyrus, who represents the will as ruling in sense consciousness, or the ruling idea in consciousness, was \"stirred up\" by the ",
+      "candidates": [
+        {
+          "s": "H3566",
+          "def": "Koresh (or Cyrus), the Persian king"
+        },
+        {
+          "s": "H3567",
+          "def": "Koresh (or Cyrus), the Persian king"
+        }
+      ]
+    },
+    {
+      "id": 851,
+      "word": "Dabbesheth (A.V.",
+      "etym": "Heb.",
+      "mibDef": "hump; soft protuberance; hump of a",
+      "mibMeta": "An aggregation of thoughts belonging to the faculty of order in man (a city of Zebulun). These thoughts are rich with substance (mass of honey), and are capable of conserving it for future use in the organism (suggested by hump of a camel).",
+      "candidates": []
+    },
+    {
+      "id": 852,
+      "word": "Daberath (A.V.",
+      "etym": "Heb.",
+      "mibDef": "words; oracles; reasons; to speak",
+      "mibMeta": "The understanding that orderly true thinking, speaking, and living (word, oracles, reasons, to speak after a mode, anything arranged in order) lead to realization and demonstration of substance, supply, prosperity (leading to pasture ; pasture indicates substance in a form in which it can be utilize",
+      "candidates": [
+        {
+          "s": "H1705",
+          "def": "Daberath, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 853,
+      "word": "Dagon",
+      "etym": "Heb.",
+      "mibDef": "fish; little fish; fish god; abundant propagation.",
+      "mibMeta": "A great increase of thoughts (fish, abundant propagation). This thought increase is on an error, sense plane, however, and not on the spiritual plane. The Philistines symbolize states of consciousness established in the senses; they were enemies to the Israelites, who symbolize true thoughts. The th",
+      "candidates": [
+        {
+          "s": "H1712",
+          "def": "Dagon, a Philistine deity"
+        }
+      ]
+    },
+    {
+      "id": 854,
+      "word": "dainties",
+      "etym": "",
+      "mibDef": "That which pertains to sensual gratification",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 855,
+      "word": "Dalmanutha",
+      "etym": "Gk .",
+      "mibDef": "overhanging branch; bucket.",
+      "mibMeta": "A faculty in consciousness (overhanging branch) that has only a limited understanding of, and capacity to contain, the waters of life (signified by bucket ). Jesus and His disciples crossed the Sea of Galilee (life activity) in a boat in order to reach Dalmanutha. Jesus did not stay long in this pla",
+      "candidates": []
+    },
+    {
+      "id": 856,
+      "word": "Dalmatia",
+      "etym": "Gk.",
+      "mibDef": "cloaked; covered; concealed; deceitful.",
+      "mibMeta": "A double-minded, misleading, deceptive state of consciousness in the individual (cloaked, covered, concealed, deceptive; a province). If given way to, it causes one to reason falsely and to think and act without sincerity.",
+      "candidates": []
+    },
+    {
+      "id": 857,
+      "word": "Dalphon",
+      "etym": "Heb.",
+      "mibDef": "dropping; dripping; leaking, particularly from the roof; flowing",
+      "mibMeta": "Hanman, the Jews' enemy, was an Agagite. The Agagites were descendants of Agag, who represents the Adversary in individual consciousness. Dalphon signifies a thought tendency that is very leaky (dropping, dripping, leaking), and not at all steadfast; it is very sympathetic in its nature, with a weak",
+      "candidates": []
+    },
+    {
+      "id": 858,
+      "word": "Damaris",
+      "etym": "Gk.",
+      "mibDef": "tamed; yoked together; joined; a wife; a spouse; a betrothed young",
+      "mibMeta": "The soul in its relation to the intellect (Athens symbolizes the intellect, and a woman refers to the soul). The soul is more closely unified (wife, joined) with our intellectual thoughts and activities than most persons realize. When we think that we have reasoned a thing out entirely with our head",
+      "candidates": []
+    },
+    {
+      "id": 859,
+      "word": "Damascenes",
+      "etym": "Gk. from Heb .",
+      "mibDef": "belonging to Damascus.",
+      "mibMeta": "Thoughts that belong to the Damascus consciousness. (See DAMASCUS.)",
+      "candidates": [
+        {
+          "s": "G1153",
+          "def": "a Damascene or inhabitant of Damascus"
+        }
+      ]
+    },
+    {
+      "id": 860,
+      "word": "Damascus",
+      "etym": "Gk. from Heb. and Arabic",
+      "mibDef": "activity; alertness, in respect to trade or",
+      "mibMeta": "Syria represents the intellectual sense domain, and the river Abanah represents a current of intellectual thoughts and reasonings about life. Damascus (meaning sack of blood) signifies a state of consciousness that is founded upon a material concept of life in the body; this concept has been sustain",
+      "candidates": [
+        {
+          "s": "H1834",
+          "def": "Damascus, a city of Syria"
+        },
+        {
+          "s": "G1154",
+          "def": "Damascus, a city of Syria"
+        },
+        {
+          "s": "H1833",
+          "def": "damask (as a fabric of Damascus)"
+        }
+      ]
+    },
+    {
+      "id": 861,
+      "word": "Dan-jaan",
+      "etym": "Heb.",
+      "mibDef": "Dan of the forest; Dan of the woods.",
+      "mibMeta": "A group of thoughts of a rich, prosperous, redundant nature, expressing in conjunction with the judgment faculty (Dan of the forest; Dan signifies judgment in the beginning of its expression in individual consciousness and forest, in the meaning of jaan, is developed from the idea of redundance, exu",
+      "candidates": []
+    },
+    {
+      "id": 862,
+      "word": "Daniel",
+      "etym": "Heb.",
+      "mibDef": "God is my judge; God is judge; judgment of God.",
+      "mibMeta": "Spiritual judgment. Daniel signifies pure judgment, conscious integrity. He typifies the clear, penetrating insight of Spirit. Daniel humbled himself in the presence of the universal Mind, and thereby opened his understanding and made himself receptive to the cosmic consciousness. Daniel and his com",
+      "candidates": [
+        {
+          "s": "H1841",
+          "def": "Danijel, the Hebrew prophet"
+        },
+        {
+          "s": "H1840",
+          "def": "Daniel or Danijel, the name of two Israelites"
+        },
+        {
+          "s": "G1158",
+          "def": "Daniel, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 863,
+      "word": "Danites",
+      "etym": "from Heb.",
+      "mibDef": "o/ or belonging to Dan.",
+      "mibMeta": "Thoughts that belong to the judgment faculty in man.",
+      "candidates": [
+        {
+          "s": "H1839",
+          "def": "a Danite (often collectively) or descendants (or inhabitants) of Dan"
+        }
+      ]
+    },
+    {
+      "id": 864,
+      "word": "Dannah",
+      "etym": "Heb.",
+      "mibDef": "depressed; low; humble; whispering; murmuring; judging.",
+      "mibMeta": "Judgment, exercised in humility and through praise.",
+      "candidates": []
+    },
+    {
+      "id": 865,
+      "word": "Dara",
+      "etym": "Heb.",
+      "mibDef": "pearl of wisdom; bearer, holder, i.e., the arm.",
+      "mibMeta": "The recognition by man that he is, or may become, the holder or bearer of true spiritual understanding— the Christ wisdom (pearl of wisdom). The idea of expressing wisdom also enters into the significance of Dara (the arm bespeaks execution, expression, doing). There is still something of the human ",
+      "candidates": []
+    },
+    {
+      "id": 866,
+      "word": "Darda",
+      "etym": "Heb.",
+      "mibDef": "pearl of knowledge; pearl of wisdom.",
+      "mibMeta": "A perception by the individual of his true source of wisdom, Christ. As the realization is ahead of the perception of Truth, however, so Solomon exceeds Darda in that Solomon signifies the actual expressing and manifesting of the Christ wisdom. (See DARA.)",
+      "candidates": []
+    },
+    {
+      "id": 867,
+      "word": "Darius",
+      "etym": "Gk. from Pers.",
+      "mibDef": "one who consents; one who restrains; (old Pers.) upholding",
+      "mibMeta": "The will, or the central ruling ego of the sense consciousness. However, it recognizes the value of, and gives a high place in government to, spiritual judgment (symbolized by Daniel). So that which Darius signifies becomes a conserver of true substance in the consciousness and organism, a restraine",
+      "candidates": [
+        {
+          "s": "H1868",
+          "def": "Darejavesh, a title (rather than name) of several Persian kings"
+        },
+        {
+          "s": "H1867",
+          "def": "Darejavesh, a title (rather than name) of several Persian kings"
+        }
+      ]
+    },
+    {
+      "id": 868,
+      "word": "darkened",
+      "etym": "",
+      "mibDef": "the physical, seemingly",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2821",
+          "def": "to be dark (as withholding light); transitively, to darken"
+        },
+        {
+          "s": "G4654",
+          "def": "to obscure (literally or figuratively)"
+        }
+      ]
+    },
+    {
+      "id": 869,
+      "word": "Darkon",
+      "etym": "Heb.",
+      "mibDef": "hearer; hastener; scatterer.",
+      "mibMeta": "A thought that supports and maintains the real and the true in consciousness; this thought also tends to dispel and dissipate the confused and darkened beliefs and thoughts of the Babylonian state of mind.",
+      "candidates": []
+    },
+    {
+      "id": 870,
+      "word": "Dathan",
+      "etym": "Heb .",
+      "mibDef": "cistern; fountain; spring; mandate; edict; decree; religious law.",
+      "mibMeta": "A leading thought in the religious consciousness of man that is established in the letter of the law as being the fount, or spring the source, cause, or motive of religious service and Truth. This thought does not see back of outer ceremonies to true spiritual understanding and service. It cannot pe",
+      "candidates": [
+        {
+          "s": "H1885",
+          "def": "Dathan, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 871,
+      "word": "David",
+      "etym": "Heb.",
+      "mibDef": "beloved; loved; well-beloved.",
+      "mibMeta": "David is often referred to as a type of Christ. His life was a forerunner of that of the more perfect man, Jesus Christ, who was of the house of David. David represents divine love individualized in human consciousness. Love in Being (God) is the idea of perfect unity in all existence. When this div",
+      "candidates": [
+        {
+          "s": "H1732",
+          "def": "David, the youngest son of Jesse"
+        },
+        {
+          "s": "G1138",
+          "def": "David, the Israelite king"
+        }
+      ]
+    },
+    {
+      "id": 872,
+      "word": "dawns",
+      "etym": "",
+      "mibDef": "& Benjamite, Benjamites signifying faith). Consumed with fire, burned up,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 873,
+      "word": "day",
+      "etym": "",
+      "mibDef": "Represents the state of mind in which intelligence dominates. The idea back of day is light,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3117",
+          "def": "a day (as the warm hours), whether literal (from sunrise to sunset, or from one sunset to the next), or figurative (a space of time defined by an associated term), (often used adverb)"
+        },
+        {
+          "s": "G2250",
+          "def": "day, i.e., (literally) the time space between dawn and dark, or the whole 24 hours (but several days were usually reckoned by the Jews as inclusive of the parts of both extremes); figuratively, a period (always defined more or less clearly by the context)"
+        },
+        {
+          "s": "H3119",
+          "def": "daily"
+        },
+        {
+          "s": "G4594",
+          "def": "on the (i.e., this) day (or night current or just passed); generally, now (i.e., at present, hitherto)"
+        },
+        {
+          "s": "G4521",
+          "def": "the Sabbath (i.e., Shabbath), or day of weekly repose from secular avocations (also the observance or institution itself); by extension, a se'nnight, i.e., the interval between two Sabbaths; likewise the plural in all the above applications"
+        }
+      ]
+    },
+    {
+      "id": 874,
+      "word": "day",
+      "etym": "",
+      "mibDef": "All shall attain who believe or have faith in the spiritual source of life. Whoever enters",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3117",
+          "def": "a day (as the warm hours), whether literal (from sunrise to sunset, or from one sunset to the next), or figurative (a space of time defined by an associated term), (often used adverb)"
+        },
+        {
+          "s": "G2250",
+          "def": "day, i.e., (literally) the time space between dawn and dark, or the whole 24 hours (but several days were usually reckoned by the Jews as inclusive of the parts of both extremes); figuratively, a period (always defined more or less clearly by the context)"
+        },
+        {
+          "s": "H3119",
+          "def": "daily"
+        },
+        {
+          "s": "G4594",
+          "def": "on the (i.e., this) day (or night current or just passed); generally, now (i.e., at present, hitherto)"
+        },
+        {
+          "s": "G4521",
+          "def": "the Sabbath (i.e., Shabbath), or day of weekly repose from secular avocations (also the observance or institution itself); by extension, a se'nnight, i.e., the interval between two Sabbaths; likewise the plural in all the above applications"
+        }
+      ]
+    },
+    {
+      "id": 875,
+      "word": "day-star",
+      "etym": "Lat., Lucifer; Gk., phosphorus; Heb. Ox",
+      "mibDef": "the principle of light; anything consisting of",
+      "mibMeta": "The text in Isaiah, \"O day-star, son of the morning!\" signifies man's uplifting of the ruling ego of the sense consciousness (represented here by the king of Babylon), and attributing to the outer sense man those qualities of light, understanding, and greatness that belong to God only. This is adver",
+      "candidates": []
+    },
+    {
+      "id": 876,
+      "word": "daydreamer",
+      "etym": "",
+      "mibDef": "One having ideas brilliant beyond description, but which are not clothed in the",
+      "mibMeta": "Days and nights, in Scripture, are symbols describing degrees of unfoldment, night being ignorance, and day understanding. The \"last day\" (John 6:39, 40) is the last degree of understanding. \"I John] was in the Spirit on the Lord's day\" (Rev. 1:10). \"The Lord's day\" here is a state of mind in which ",
+      "candidates": []
+    },
+    {
+      "id": 877,
+      "word": "days",
+      "etym": "",
+      "mibDef": "The three days that Jesus was in the tomb represent the three steps in overcoming",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3117",
+          "def": "a day (as the warm hours), whether literal (from sunrise to sunset, or from one sunset to the next), or figurative (a space of time defined by an associated term), (often used adverb)"
+        },
+        {
+          "s": "G2250",
+          "def": "day, i.e., (literally) the time space between dawn and dark, or the whole 24 hours (but several days were usually reckoned by the Jews as inclusive of the parts of both extremes); figuratively, a period (always defined more or less clearly by the context)"
+        },
+        {
+          "s": "H3118",
+          "def": "a day"
+        },
+        {
+          "s": "G4521",
+          "def": "the Sabbath (i.e., Shabbath), or day of weekly repose from secular avocations (also the observance or institution itself); by extension, a se'nnight, i.e., the interval between two Sabbaths; likewise the plural in all the above applications"
+        },
+        {
+          "s": "G1909",
+          "def": "properly, meaning superimposition (of time, place, order, etc.), as a relation of distribution (with the genitive case), i.e., over, upon, etc.; of rest (with the dative case) at, on, etc.; of direction (with the accusative case) towards, upon, etc"
+        }
+      ]
+    },
+    {
+      "id": 878,
+      "word": "death",
+      "etym": "",
+      "mibDef": "Death is not a friend an enemy and must be overcome. Death does not",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4194",
+          "def": "death (natural or violent); concretely, the dead, their place or state (hades); figuratively, pestilence, ruin"
+        },
+        {
+          "s": "G2288",
+          "def": "(properly, an adjective used as a noun) death (literally or figuratively)"
+        },
+        {
+          "s": "H4191",
+          "def": "to die (literally or figuratively); causatively, to kill"
+        },
+        {
+          "s": "H6757",
+          "def": "shade of death, i.e., the grave (figuratively, calamity)"
+        },
+        {
+          "s": "H7523",
+          "def": "properly, to dash in pieces, i.e., kill (a human being), especially to murder"
+        }
+      ]
+    },
+    {
+      "id": 879,
+      "word": "death",
+      "etym": "",
+      "mibDef": "Death is but a prolonged sleep, the result of thought inharmony so great that the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4194",
+          "def": "death (natural or violent); concretely, the dead, their place or state (hades); figuratively, pestilence, ruin"
+        },
+        {
+          "s": "G2288",
+          "def": "(properly, an adjective used as a noun) death (literally or figuratively)"
+        },
+        {
+          "s": "H4191",
+          "def": "to die (literally or figuratively); causatively, to kill"
+        },
+        {
+          "s": "H6757",
+          "def": "shade of death, i.e., the grave (figuratively, calamity)"
+        },
+        {
+          "s": "H7523",
+          "def": "properly, to dash in pieces, i.e., kill (a human being), especially to murder"
+        }
+      ]
+    },
+    {
+      "id": 880,
+      "word": "death",
+      "etym": "",
+      "mibDef": "The first death is the death of the light and life of Spirit in man's",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4194",
+          "def": "death (natural or violent); concretely, the dead, their place or state (hades); figuratively, pestilence, ruin"
+        },
+        {
+          "s": "G2288",
+          "def": "(properly, an adjective used as a noun) death (literally or figuratively)"
+        },
+        {
+          "s": "H4191",
+          "def": "to die (literally or figuratively); causatively, to kill"
+        },
+        {
+          "s": "H6757",
+          "def": "shade of death, i.e., the grave (figuratively, calamity)"
+        },
+        {
+          "s": "H7523",
+          "def": "properly, to dash in pieces, i.e., kill (a human being), especially to murder"
+        }
+      ]
+    },
+    {
+      "id": 881,
+      "word": "death",
+      "etym": "",
+      "mibDef": "The Christ man goes through the various centers of the body and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4194",
+          "def": "death (natural or violent); concretely, the dead, their place or state (hades); figuratively, pestilence, ruin"
+        },
+        {
+          "s": "G2288",
+          "def": "(properly, an adjective used as a noun) death (literally or figuratively)"
+        },
+        {
+          "s": "H4191",
+          "def": "to die (literally or figuratively); causatively, to kill"
+        },
+        {
+          "s": "H6757",
+          "def": "shade of death, i.e., the grave (figuratively, calamity)"
+        },
+        {
+          "s": "H7523",
+          "def": "properly, to dash in pieces, i.e., kill (a human being), especially to murder"
+        }
+      ]
+    },
+    {
+      "id": 882,
+      "word": "Debir",
+      "etym": "Heb.",
+      "mibDef": "the innermost part of the temple; sanctuary; place of oracles; speech;",
+      "mibMeta": "Debir, in its highest significance, is the secret place within the very center of man's being, the holy of holies where God dwells, where we can commune with Him. It also refers to the Christ, or Christ mind, which is the Word and from which we receive our revelations of Truth. Kiriath-sepher means ",
+      "candidates": [
+        {
+          "s": "H1688",
+          "def": "Debir, the name of an Amoritish king and of two places in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 883,
+      "word": "Deborah",
+      "etym": "Heb.",
+      "mibDef": "bee; wasp; a leader of the flock; one of the followers .",
+      "mibMeta": "Deborah means a bee. Bees are noted for their fine sense of discrimination, and for their great activity. Rebekah's nurse Deborah symbolizes a very active, sustaining soul quality. (See ALLON-BACUTH.) The prophetess Deborah represents judgment based upon spiritual discrimination. There is in every o",
+      "candidates": [
+        {
+          "s": "H1683",
+          "def": "Deborah, the name of two Hebrewesses"
+        }
+      ]
+    },
+    {
+      "id": 884,
+      "word": "debt",
+      "etym": "",
+      "mibDef": "Thoughts of abundance will more quickly and surely bring what is ours",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 885,
+      "word": "Decapolis",
+      "etym": "Gk ,",
+      "mibDef": "ten cities; ten cities (collectively).",
+      "mibMeta": "Decapolis means ten cities. A city represents a group of thoughts, or a thought center in consciousness. Mark 7: 31 says of Jesus, \"And again he went out from the borders of Tyre, and came through Sidon unto the Sea of Galilee, through the midst of the borders of Decapolis.\" This journey was made ju",
+      "candidates": [
+        {
+          "s": "G1179",
+          "def": "the ten-city region; the Decapolis, a district in Syria"
+        }
+      ]
+    },
+    {
+      "id": 886,
+      "word": "declare spiritual strength to be the presiding",
+      "etym": "",
+      "mibDef": "not a",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5046",
+          "def": "properly, to front, i.e., stand boldly out opposite; by implication (causatively), to manifest; figuratively, to announce (always by word of mouth to one present); specifically, to expose, predict, explain, praise"
+        },
+        {
+          "s": "H5608",
+          "def": "properly, to score with a mark as a tally or record, i.e., (by implication) to inscribe, and also to enumerate; intensively, to recount, i.e., celebrate"
+        },
+        {
+          "s": "H3045",
+          "def": "to know (properly, to ascertain by seeing); used in a great variety of senses, figuratively, literally, euphemistically and inferentially (including observation, care, recognition; and causatively, instruction, designation, punishment, etc.)"
+        },
+        {
+          "s": "G1107",
+          "def": "to make known; subjectively, to know"
+        },
+        {
+          "s": "G5419",
+          "def": "to indicate (by word or act), i.e., (specially), to expound"
+        }
+      ]
+    },
+    {
+      "id": 887,
+      "word": "decree of the king he aided them in their work. (See SHETHAR",
+      "etym": "",
+      "mibDef": "BOZENAI, who is named with",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1881",
+          "def": "a royal edict or statute"
+        },
+        {
+          "s": "H2942",
+          "def": "properly, flavor; figuratively, judgment (both subjective and objective); hence, account (both subjectively and objectively)"
+        },
+        {
+          "s": "H2706",
+          "def": "an enactment; hence, an appointment (of time, space, quantity, labor or usage)"
+        },
+        {
+          "s": "H1882",
+          "def": "a royal edict or statute"
+        },
+        {
+          "s": "H2710",
+          "def": "properly, to hack, i.e., engrave (Judges 5:14, to be a scribe simply); by implication, to enact (laws being cut in stone or metal tablets in primitive times) or (gen.) prescribe"
+        }
+      ]
+    },
+    {
+      "id": 888,
+      "word": "Dedan",
+      "etym": "Heb .",
+      "mibDef": "mutual attraction; selective affinity; physical love; low.",
+      "mibMeta": "Dedan (mutual attraction, selective affinity, physical love, low) refers to a phase of physical or animal attraction and affection. This must give way to true love, which is spiritual in its character and is unselfish and pure.",
+      "candidates": [
+        {
+          "s": "H1719",
+          "def": "Dedan, the name of two Cushites and of their territory"
+        }
+      ]
+    },
+    {
+      "id": 889,
+      "word": "Dedanites (A.V.",
+      "etym": "from Heb.",
+      "mibDef": "of or belonging to Declan.",
+      "mibMeta": "The rights springing from and belonging to that in consciousness which Dedan signifies. (See DEDAN.)",
+      "candidates": []
+    },
+    {
+      "id": 890,
+      "word": "defeated",
+      "etym": "",
+      "mibDef": "as well as the conquering side of Truth.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 891,
+      "word": "Dehaites (A.V.",
+      "etym": "Heb. from Per?,.",
+      "mibDef": "villagers.",
+      "mibMeta": "A psychical phase of consciousness in man that attempts to take the place of one's true religious and spiritual thoughts (Israelites) when the individual has given himself over to the rule of the intellect guided by sense (the Assyrians and their king). Deity, the-The Supreme Being; God.",
+      "candidates": []
+    },
+    {
+      "id": 892,
+      "word": "Delaiah",
+      "etym": "Heb.",
+      "mibDef": "that which Jehovah has drawn, i.e., that it may be poured out; Jah",
+      "mibMeta": "Freedom of expression. The delivering, freeing Truth is given to man by Jehovah God; it comes from the depths of his being in response to his I AM declaration of his oneness with the Source of all understanding and power, that he may manifest it and radiate it freely to others.",
+      "candidates": [
+        {
+          "s": "H1806",
+          "def": "Delajah, the name of five Israelites"
+        }
+      ]
+    },
+    {
+      "id": 893,
+      "word": "Delilah",
+      "etym": "Heb.",
+      "mibDef": "poured out; exhausted; weak; pining with desire; lustful pining;",
+      "mibMeta": "Sensuality. (See SAMSON.) delusion— False perception. Delusion occurs only in that realm which is not established by the divine Logos, God's creative Word.",
+      "candidates": [
+        {
+          "s": "H1807",
+          "def": "Delilah, a Philistine woman"
+        }
+      ]
+    },
+    {
+      "id": 894,
+      "word": "Demas",
+      "etym": "Gk .",
+      "mibDef": "popular; of the people.",
+      "mibMeta": "While the work of regeneration is going on, many old ideas are eliminated. We find Demas, whose name means popular, of the people, forsaking Paul and going to Thessalonica. His love for the material world separated him from the consciousness of Truth. The thoughts in us that believe in the material ",
+      "candidates": [
+        {
+          "s": "G1214",
+          "def": "Demas, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 895,
+      "word": "Demetrius",
+      "etym": "Gk.",
+      "mibDef": "belonging to Demeter or Ceres, i.e., the goddess of agriculture",
+      "mibMeta": "Material thoughts make a material body. Spiritual thoughts make a spiritual body. All thoughts and ideas embody themselves according to their character. If you find yourself using a body in which the material prevails, you are safe in assuming that somewhere in your consciousness are material belief",
+      "candidates": [
+        {
+          "s": "G1216",
+          "def": "Demetrius, the name of an Ephesian and of a Christian"
+        }
+      ]
+    },
+    {
+      "id": 896,
+      "word": "demon",
+      "etym": "",
+      "mibDef": "This word is used in Matt. 8:28-34, when the demons ask to be sent into the swine. The",
+      "mibMeta": "Demons, or evil spirits, are conditions of mind, or states of consciousness, that have been developed because the creative power of man has been used in an unwise or an ignorant way. If in thought or in word you are using your creative power in an ignorant way, you are bringing forth an ego or a per",
+      "candidates": []
+    },
+    {
+      "id": 897,
+      "word": "demons",
+      "etym": "",
+      "mibDef": "see",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 898,
+      "word": "demonstration",
+      "etym": "",
+      "mibDef": "God expressed in all fullness; the putting on of Christhood, which",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G585",
+          "def": "manifestation"
+        }
+      ]
+    },
+    {
+      "id": 899,
+      "word": "demonstration",
+      "etym": "",
+      "mibDef": "A spiritual realization followed by the manifestation in the outer of the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G585",
+          "def": "manifestation"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1214 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "21 of 37",
+  "_entry_range": "ids 2000–2099",
+  "entries": [
+    {
+      "id": 2000,
+      "word": "Joseph",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah will add to; Jehovah shall increase; he shall increase",
+      "mibMeta": "The state of consciousness in which we increase in character along all lines; we not only grow into a broader understanding but there is an increase of vitality and substance. Joseph is especially representative of the realm of forms. He was clothed with a coat of many colors; he was a dreamer and i",
+      "candidates": [
+        {
+          "s": "H3130",
+          "def": "Joseph, the name of seven Israelites"
+        },
+        {
+          "s": "G2501",
+          "def": "Joseph, the name of seven Israelites"
+        },
+        {
+          "s": "H3084",
+          "def": "Jehoseph (i.e., Joseph), a son of Jacob"
+        }
+      ]
+    },
+    {
+      "id": 2001,
+      "word": "Joshah",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah lets dwell; Jehovah establishes; Jehovah shall stand out;",
+      "mibMeta": "A ruling thought in the phase of the awakening consciousness of man that is attentive and receptive to higher spiritual ideals (Simeon). This thought, which belongs to the spiritually receptive phase of man's consciousness, is established by Jehovah (Jehovah establishes ) in the deeper realms of sub",
+      "candidates": [
+        {
+          "s": "H3144",
+          "def": "Joshah, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2002,
+      "word": "Joshaphat",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah judges; whom Jah sustains; Jah defends.",
+      "mibMeta": "The significance is virtually the same as that of Jehoshaphat: the development in consciousness of the idea of judgment and of the sustaining power of I AM. (See JEHOSHAPHAT.)",
+      "candidates": [
+        {
+          "s": "H3146",
+          "def": "Joshaphat, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2003,
+      "word": "Joshaviah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah is equality; seat of Jehovah; throne ofJah; whom Jah",
+      "mibMeta": "Establishing in consciousness (seat of Jehovah, dwelling of Jah) the spiritual idea of justice, fair-mindedness, equality (Jehovah is equality), and the all-sufficiency of God, Spirit, through I AM, Jehovah, to meet one's every need (sufficiency of Jah).",
+      "candidates": []
+    },
+    {
+      "id": 2004,
+      "word": "Joshbekashah",
+      "etym": "",
+      "mibDef": "seated in hardness; abiding in harshness; eagerly",
+      "mibMeta": "A sense of the hardness of intellectual understanding (see HEMAN, father of Joshbekashah) when Spirit is not consciously recognized and acknowledged (seated ill hardness); also a deep, inner soul yearning for conscious union with and an abiding place in true spiritual light and wisdom (eagerly seeki",
+      "candidates": []
+    },
+    {
+      "id": 2005,
+      "word": "Joshibiah (A. V.",
+      "etym": "Heb .",
+      "mibDef": "seat of Jehovah; whom Jehovah causes to",
+      "mibMeta": "Obedience to, and therefore conscious oneness with, Jehovah, I AM, Christ (seat of Jehovah, whom Jehovah causes to dwell, Jehovah enthrones). Joshibiah, at this stage of individual unfoldment, simply signifies a recognition and inner acknowledgment of the Truth; it has not as yet been worked out in ",
+      "candidates": []
+    },
+    {
+      "id": 2006,
+      "word": "Josiah",
+      "etym": "",
+      "mibDef": "Josiah was a good king of Judah -and Adaiah, her father, were of Bozkath; they signify",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2977",
+          "def": "Joshijah, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2007,
+      "word": "Josiphiah",
+      "etym": "Heb .",
+      "mibDef": "whom Jehovah increases; increase of the Lord; Jehovah adds;",
+      "mibMeta": "The increasing power of the mind— the faculty of imagination— established in I AM, Jehovah, Christ.",
+      "candidates": []
+    },
+    {
+      "id": 2008,
+      "word": "Jotbah",
+      "etym": "Heb .",
+      "mibDef": "goodness; healthfulness; beauty; comeliness; pleasantness; excellence.",
+      "mibMeta": "A consciousness of the refreshing waters of life and Truth; this is indeed pleasant and good and healthful.",
+      "candidates": []
+    },
+    {
+      "id": 2009,
+      "word": "Jotbathah",
+      "etym": "Heb.",
+      "mibDef": "goodness; healthfulness;",
+      "mibMeta": "Like Jotbah, a place in consciousness where the waters of life and Truth flow in freely and refresh the whole consciousness of man, the soul. This excellent, healthful, and good experience is always realized after one goes through a period of letting go error and darkness, such as is symbolized by G",
+      "candidates": []
+    },
+    {
+      "id": 2010,
+      "word": "Jotham",
+      "etym": "Heb .",
+      "mibDef": "Jehovah is upright; whom Jah makes perfect; Jehovah is perfection;",
+      "mibMeta": "Jotham, king of Judah, is the individual will's laying hold of the idea of divine perfection, wholeness, uprightness, integrity, by means of the silence, true prayer. Jotham, son of Gideon, or Zerubbaal, signifies that divine justice and uprightness (Jehovah is upright, whom Jah makes perfect ) are ",
+      "candidates": [
+        {
+          "s": "H3147",
+          "def": "Jotham, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2011,
+      "word": "Jozabad",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah bestows;",
+      "mibMeta": "See JEHOZABAD.",
+      "candidates": [
+        {
+          "s": "H3107",
+          "def": "Jozabad, the name of ten Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2012,
+      "word": "Jozacar (A. V.",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah remembers; Jah is mindful;",
+      "mibMeta": "The divine something within man's consciousness that makes it impossible for anything really to pass out of memory until it is adjusted rightly (Jah is mindful, remembered by Jehovah, Jah recalls). The law of sowing and reaping exemplifies this. Every thought, word, and act brings about, or helps to",
+      "candidates": []
+    },
+    {
+      "id": 2013,
+      "word": "Jubal",
+      "etym": "Heb .",
+      "mibDef": "principle of sound; source of joy; source of moral affections; source of",
+      "mibMeta": "The natural rhythm, harmony, and joy of life (a constant stream, music, source of joy) that are experienced when the soul radiates grace, beauty of thought and character, and comeliness (Adah, mother of Jubal), and the body is healthy and strong. (This latter is suggested in the meaning of Lamech, t",
+      "candidates": []
+    },
+    {
+      "id": 2014,
+      "word": "Jucal",
+      "etym": "Heb.",
+      "mibDef": "Jehovah is capable; ability ofJah; strength ofJah; Jah will overcome;",
+      "mibMeta": "The significance is the same as that of Jehucal, with this exception: Jucal's misunderstanding of Jeremiah and his consequent attitude toward him show that, while the will (king) has the inherent belief that Jehovah is fully able to deliver, yet it lacks the understanding and the freedom from self-c",
+      "candidates": [
+        {
+          "s": "H3116",
+          "def": "Jukal, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2015,
+      "word": "Judah",
+      "etym": "Heb .",
+      "mibDef": "praise Jehovah; celebration of Jehovah, laud Jehovah; confession ofJah.",
+      "mibMeta": "The Hebrew meaning of the word Judah is praise Jehovah. It is evident that Judah represents the spiritual faculty that corresponds to accumulation or increase in the mental; this is prayer and praise. Prayer should be a jubilant thanksgiving instead of a supplication. It quickens the mind and makes ",
+      "candidates": [
+        {
+          "s": "H3063",
+          "def": "Jehudah (or Judah), the name of five Israelites; also of the tribe descended from the first, and of its territory"
+        },
+        {
+          "s": "H3061",
+          "def": "properly, Judah, hence, Judaea"
+        }
+      ]
+    },
+    {
+      "id": 2016,
+      "word": "Judas",
+      "etym": "",
+      "mibDef": "Represents the ego that has possession of the sex, or life, center in the organism and is",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2455",
+          "def": "Judas (i.e., Jehudah), the name of ten Israelites; also of the posterity of one of them and its region"
+        }
+      ]
+    },
+    {
+      "id": 2017,
+      "word": "Jude",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "same as Judah and Judas; praise Jehovah.",
+      "mibMeta": "Jude, or Thadd%us, among the twelve apostles of Jesus Christ represents the faculty of elimination. (See THADD®US.) judge. The judge in I Peter 4:5 represents Truth itself, with which every thought in consciousness must harmonize. judgment. The description of the Last Judgment, as given in the Gospe",
+      "candidates": []
+    },
+    {
+      "id": 2018,
+      "word": "Judea",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "of Judah; praise",
+      "mibMeta": "A reference to the interpretation of Scriptural names shows Jud%a (now commonly spelled Judea) to mean \"the praise of Jehovah.\" This then is a key to the mental attitude in which the Christ consciousness will be opened to us— while we are praising the Lord. J ud%a is the land of Judah. \"Judah\" means",
+      "candidates": []
+    },
+    {
+      "id": 2019,
+      "word": "Judgment",
+      "etym": "",
+      "mibDef": "James, son of Zebedee-in lower part of solar plexus.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4941",
+          "def": "properly, a verdict (favorable or unfavorable) pronounced judicially, especially a sentence or formal decree (human or (participant's) divine law, individual or collective), including the act, the place, the suit, the crime, and the penalty; abstractly, justice, including a participant's right or privilege (statutory or customary), or even a style"
+        },
+        {
+          "s": "G2920",
+          "def": "decision (subjectively or objectively, for or against); by extension, a tribunal; by implication, justice (especially, divine law)"
+        },
+        {
+          "s": "G2917",
+          "def": "a decision (the function or the effect, for or against (\"crime\"))"
+        },
+        {
+          "s": "H1779",
+          "def": "judgement (the suit, justice, sentence or tribunal); by implication also strife"
+        },
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        }
+      ]
+    },
+    {
+      "id": 2020,
+      "word": "judgment",
+      "etym": "",
+      "mibDef": "That period in man's development when the law of justice and righteousness",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4941",
+          "def": "properly, a verdict (favorable or unfavorable) pronounced judicially, especially a sentence or formal decree (human or (participant's) divine law, individual or collective), including the act, the place, the suit, the crime, and the penalty; abstractly, justice, including a participant's right or privilege (statutory or customary), or even a style"
+        },
+        {
+          "s": "G2920",
+          "def": "decision (subjectively or objectively, for or against); by extension, a tribunal; by implication, justice (especially, divine law)"
+        },
+        {
+          "s": "G2917",
+          "def": "a decision (the function or the effect, for or against (\"crime\"))"
+        },
+        {
+          "s": "H1779",
+          "def": "judgement (the suit, justice, sentence or tribunal); by implication also strife"
+        },
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        }
+      ]
+    },
+    {
+      "id": 2021,
+      "word": "judgment",
+      "etym": "",
+      "mibDef": "fountain of judgment-one of the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4941",
+          "def": "properly, a verdict (favorable or unfavorable) pronounced judicially, especially a sentence or formal decree (human or (participant's) divine law, individual or collective), including the act, the place, the suit, the crime, and the penalty; abstractly, justice, including a participant's right or privilege (statutory or customary), or even a style"
+        },
+        {
+          "s": "G2920",
+          "def": "decision (subjectively or objectively, for or against); by extension, a tribunal; by implication, justice (especially, divine law)"
+        },
+        {
+          "s": "G2917",
+          "def": "a decision (the function or the effect, for or against (\"crime\"))"
+        },
+        {
+          "s": "H1779",
+          "def": "judgement (the suit, justice, sentence or tribunal); by implication also strife"
+        },
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        }
+      ]
+    },
+    {
+      "id": 2022,
+      "word": "judgment seat",
+      "etym": "",
+      "mibDef": "The \"judgment-seat\" (Rom. 14:10) is within man. A judging, or discerning",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4941",
+          "def": "properly, a verdict (favorable or unfavorable) pronounced judicially, especially a sentence or formal decree (human or (participant's) divine law, individual or collective), including the act, the place, the suit, the crime, and the penalty; abstractly, justice, including a participant's right or privilege (statutory or customary), or even a style"
+        },
+        {
+          "s": "G2920",
+          "def": "decision (subjectively or objectively, for or against); by extension, a tribunal; by implication, justice (especially, divine law)"
+        },
+        {
+          "s": "G2917",
+          "def": "a decision (the function or the effect, for or against (\"crime\"))"
+        },
+        {
+          "s": "H1779",
+          "def": "judgement (the suit, justice, sentence or tribunal); by implication also strife"
+        },
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        }
+      ]
+    },
+    {
+      "id": 2023,
+      "word": "Judgments based on outer appearances",
+      "etym": "",
+      "mibDef": "the senses— produce discordant thoughts, jealousies, and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4941",
+          "def": "properly, a verdict (favorable or unfavorable) pronounced judicially, especially a sentence or formal decree (human or (participant's) divine law, individual or collective), including the act, the place, the suit, the crime, and the penalty; abstractly, justice, including a participant's right or privilege (statutory or customary), or even a style"
+        },
+        {
+          "s": "H8201",
+          "def": "a sentence, i.e., infliction"
+        },
+        {
+          "s": "G2922",
+          "def": "a rule of judging (\"criterion\"), i.e., (by implication) a tribunal"
+        },
+        {
+          "s": "G1345",
+          "def": "an equitable deed; by implication, a statute or decision"
+        }
+      ]
+    },
+    {
+      "id": 2024,
+      "word": "Judith",
+      "etym": "Heb.",
+      "mibDef": "feminine form of Judah.",
+      "mibMeta": "Judith, feminine of Judah, signifies the outer-sense soul (wife of Esau and daughter of Beeri the Hittite, both referring to the physical or sense man) or feminine aspect of praise- and-prayer thoughts in consciousness.",
+      "candidates": [
+        {
+          "s": "H3067",
+          "def": "Jehudith, a Canaanitess"
+        }
+      ]
+    },
+    {
+      "id": 2025,
+      "word": "Julia",
+      "etym": "Lat .",
+      "mibDef": "soft-haired; downy; curly; frizzled.",
+      "mibMeta": "The soul, or feminine aspect of that in consciousness for which Julius stands. (See JULIUS.) Julia's being a Christian and a friend of Paul's, worthy of his salutation, shows that this feminine aspect of the Julius thought in consciousness has not only perceived the great value of Truth but has acce",
+      "candidates": []
+    },
+    {
+      "id": 2026,
+      "word": "Julius",
+      "etym": "Lat.",
+      "mibDef": "soft-haired; downy; curly; frizzled.",
+      "mibMeta": "A centurion, captain over one hundred Roman soldiers, typifies a certain phase of the will. The soldiers here were of the \"Augustan band.\" Augustus ( venerable , sacred) signifies worship of the will that is ruling in selfishness and directed by human reason. The intellect is the god of the Augustus",
+      "candidates": [
+        {
+          "s": "G2457",
+          "def": "Julius, a centurion"
+        }
+      ]
+    },
+    {
+      "id": 2027,
+      "word": "Junias (A. V.",
+      "etym": "Gk .",
+      "mibDef": "youthful; a youth.",
+      "mibMeta": "The inner, ever renewing vital force of the subjective mind. This vital force, along with the word of Truth (Paul), is held in bondage and is kept from doing its perfect renewing, vitalizing work in the organism of man, when man lets his spiritually unawakened intellect rule in consciousness instead",
+      "candidates": []
+    },
+    {
+      "id": 2028,
+      "word": "Jupiter",
+      "etym": "Lat .",
+      "mibDef": "Zeus pater; Jove father; father of light; father of the ether; father of all",
+      "mibMeta": "The great value that the man who is unawakened spiritually puts on that which he can see with his outer eyes and conceive with his outer mind, or intellect, as \"force,\" \"power,\" \"strength.\"",
+      "candidates": []
+    },
+    {
+      "id": 2029,
+      "word": "Jushab-hesed",
+      "etym": "Heb .",
+      "mibDef": "whose love is returned; requited love; returner of",
+      "mibMeta": "The individual consciousness, realizing and expressing toward God, toward itself and its fellow men, toward all creation, the same perfection of love and kindness that it has come to know exists in God toward man and toward all the universe.",
+      "candidates": []
+    },
+    {
+      "id": 2030,
+      "word": "justice",
+      "etym": "",
+      "mibDef": "When judgment is divorced from love, and works from the head alone, there goes forth",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H6666",
+          "def": "rightness (abstractly), subjectively (rectitude), objectively (justice), morally (virtue) or figuratively (prosperity)"
+        },
+        {
+          "s": "H6664",
+          "def": "the right (natural, moral or legal); also (abstractly) equity or (figuratively) prosperity"
+        },
+        {
+          "s": "H4941",
+          "def": "properly, a verdict (favorable or unfavorable) pronounced judicially, especially a sentence or formal decree (human or (participant's) divine law, individual or collective), including the act, the place, the suit, the crime, and the penalty; abstractly, justice, including a participant's right or privilege (statutory or customary), or even a style"
+        },
+        {
+          "s": "H6663",
+          "def": "to be (causatively, make) right (in a moral or forensic sense)"
+        }
+      ]
+    },
+    {
+      "id": 2031,
+      "word": "Justus",
+      "etym": "hat.",
+      "mibDef": "just; upright; righteous.",
+      "mibMeta": "Justus means just, upright. One definition of \"just\" is \"conforming to the spiritual law . . . righteous before God.\" Justus signifies that in man's religious consciousness which truly worships God, which conforms to divine law.",
+      "candidates": []
+    },
+    {
+      "id": 2032,
+      "word": "Jutah (A. V.",
+      "etym": "Heb .",
+      "mibDef": "extended; stretched out; measured; elongated; inclined;",
+      "mibMeta": "A group of thoughts (city) in the higher praise and prayer consciousness of man (the hill country of Judah) turning away (turned away, repulsed) from set forms and creeds of religious belief, that are binding and limiting to the consciousness, and reaching out, broadening out (extended), to a more t",
+      "candidates": []
+    },
+    {
+      "id": 2033,
+      "word": "Kabzeel",
+      "etym": "Heb.",
+      "mibDef": "gathered by God; grasped of God; God assembles; assembly of God;",
+      "mibMeta": "The significance is the same as that of Jekabzeel: the congregation of God, or that in us which is gathered by God, i. e., our true thoughts, our spiritual thought people that make up our spiritual consciousness. This is the assembly of God. Instead of being our whole spiritual consciousness, Kabzee",
+      "candidates": []
+    },
+    {
+      "id": 2034,
+      "word": "Kadesh",
+      "etym": "Heb.",
+      "mibDef": "clean; pure; bright; holy; sacred; sanctified; consecrated; a sanctuary.",
+      "mibMeta": "The inherently pure, sinless, perfect, ideal state that exists in the depths of the consciousness of every individual. As the various thoughts of the consciousness come into the light of this sacred and holy phase of mind, they are measured up according to these high ideals, and a",
+      "candidates": [
+        {
+          "s": "H6946",
+          "def": "Kadesh, a place in the Desert"
+        }
+      ]
+    },
+    {
+      "id": 2035,
+      "word": "Kadmiel",
+      "etym": "Heb.",
+      "mibDef": "God aforetimes; primeval God; God of the east, before God, i. e.,",
+      "mibMeta": "An inherently spiritual ideal in consciousness, founded on the innate knowledge of God, divine principle, as being from the beginning of time (God aforetimes, primeval God), serving God or ministering to the individual who gives it place (before God, i. e., servant or minister). Since God is from ev",
+      "candidates": [
+        {
+          "s": "H6934",
+          "def": "Kadmiel, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2036,
+      "word": "Kadmonite",
+      "etym": "Heb.",
+      "mibDef": "of the East; Oriental; primeval; prototype; ancient; eternal;",
+      "mibMeta": "The Canaanites signify the elemental life forces of man's organism. Kadmonite (primeval, prototype, ancient, eternal, unchangeable) refers to the very essence, source, beginning of all life, which is God, Spirit, the foundation principle of the life energy that animates man and the universe. Of the ",
+      "candidates": []
+    },
+    {
+      "id": 2037,
+      "word": "Kain (A. V.",
+      "etym": "Heb.",
+      "mibDef": "the Kenites.",
+      "mibMeta": "See KENITES. In Hebrew Kain is spelled the same as Cain, the son of Adam; therefore see CAIN also.",
+      "candidates": []
+    },
+    {
+      "id": 2038,
+      "word": "Kallai",
+      "etym": "Heb.",
+      "mibDef": "Jehovah is light, i. e., not heavy; swift; fleet; swift messenger of Jehovah.",
+      "mibMeta": "The swiftness, lightness, and power of spiritual thought emanating from the one Mind (God, Jehovah, Spirit) to the consciousness of man. Kanah, ka'-nah (Heb.) place of reeds; reedlike; cane; hollow stem; rod; measuring beam; canal; stalk of grain. a A brook on the western border of Ephraim, in Pales",
+      "candidates": []
+    },
+    {
+      "id": 2039,
+      "word": "Kareah",
+      "etym": "Heb.",
+      "mibDef": "smooth; bald; bare; glassy; crystal; ice; cold.",
+      "mibMeta": "Bald and bare mean destitute of the natural or common covering; for instance, of hair on the top of the head. The common covering of sense man is personality, in which is found the carnal and adverse mind of sense. Kareah (smooth, bald, bare, ice), an Israelite of the kingdom of Judah, signifies a t",
+      "candidates": [
+        {
+          "s": "H7143",
+          "def": "Kareach, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2040,
+      "word": "Karka (A. V.",
+      "etym": "Heb .",
+      "mibDef": "foundation; bottom; ground floor; pavement; deep",
+      "mibMeta": "Karka (ground floor, bottom, a place on the south border of Judah) signifies a group of thoughts pertaining to the very bottom, or foundation principle, of man's subconscious life forces. This group of thoughts is deeply rooted in substance (deep ground).",
+      "candidates": []
+    },
+    {
+      "id": 2041,
+      "word": "Karkor",
+      "etym": "Heb.",
+      "mibDef": "foundation; excavation; deep floor; deep ground.",
+      "mibMeta": "A group of thoughts, or state of consciousness, deeply rooted in substance (deep ground) and in the descending life flow of thought in the organism (to the east of the Jordan). It is the last stronghold of the phase of the sense mind that these two kings (Zalmunna and Zebah) and their armies symboli",
+      "candidates": []
+    },
+    {
+      "id": 2042,
+      "word": "Kartah",
+      "etym": "Web.",
+      "mibDef": "city; meeting place; accessible; city; convenience; refuge.",
+      "mibMeta": "A group of unifying, protecting thoughts (city, meeting place, refuge), with its corresponding nerve center (belonging to Zebulun, the faculty of order) in man. This city's being given over to the Levites denotes a further quickening of these thoughts into religious love and Truth.",
+      "candidates": [
+        {
+          "s": "H7177",
+          "def": "Kartah, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2043,
+      "word": "Kartan",
+      "etym": "",
+      "mibDef": "double city; large city",
+      "mibMeta": "Kartan, like Kartah, represents a group of thoughts of a convening, cooperative nature, only doubly large in number, or two groups united in one (double city), and belonging to the Naphtali or strength center in consciousness. The strength of these thoughts is set apart for use in sustaining the nat",
+      "candidates": [
+        {
+          "s": "H7178",
+          "def": "Kartan, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2044,
+      "word": "Kattath",
+      "etym": "Heb.",
+      "mibDef": "cut off; made smaller; reduced; small; smallness; little; littleness; very",
+      "mibMeta": "The idea expressed in Kattath is that of cutting off, lessening, reducing to exceeding smallness and insignificance (cut off, made smaller, very small, insignificant). This no doubt refers to putting away error, the limitations of sense thought and belief. Kattath was a border city of Zebulun. The Z",
+      "candidates": []
+    },
+    {
+      "id": 2045,
+      "word": "Kedar",
+      "etym": "Heb.",
+      "mibDef": "turbid; dirty; dusky; dark-colored; dark-skinned; obscured; overcast;",
+      "mibMeta": "A confused, unsettled, disturbed, obscure thought, yet one with a degree of power that belongs to the outer or sense phase of consciousness in man. This concept is darkened by materiality, yet for a time it brings forth substance. (From the Bible references to Kedar we gather that the tribe must hav",
+      "candidates": [
+        {
+          "s": "H6938",
+          "def": "Kedar, a son of Ishmael; also (collectively) Bedouin (as his descendants or representatives)"
+        }
+      ]
+    },
+    {
+      "id": 2046,
+      "word": "Kedemah",
+      "etym": "Heb.",
+      "mibDef": "eastern; toward the east; Orient; going before; precedence; the",
+      "mibMeta": "The inner or true being of man, divine principle; that which exists from everlasting to everlasting, man's true spiritual or Christ self (Orient, eastern, the first, principle, ancient, eternal ). Ishmael represents the thoughts that are the fruit of the personal or carnal in man. Kedemah, the young",
+      "candidates": []
+    },
+    {
+      "id": 2047,
+      "word": "Kedemoth",
+      "etym": "Heb.",
+      "mibDef": "eastern districts; Orientals; Easterners; antiquities; ancients;",
+      "mibMeta": "Each of the faculties of man has its foundation, its beginnings, in Spirit and is truly spiritual. To become conscious of the spiritual reality of those faculties, the individual must turn to his inner spiritual consciousness (eastern districts, Easterners). Kedemoth, a city allotted to Reuben, sign",
+      "candidates": [
+        {
+          "s": "H6932",
+          "def": "Kedemoth, a place in eastern Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2048,
+      "word": "Keilah",
+      "etym": "Heb.",
+      "mibDef": "carving; circular motion; inclosing; oppressing; citadel; fortress; castle;",
+      "mibMeta": "A thought, a group of thoughts, and a state of consciousness, belonging to the lower and more earthly phase of the Judah consciousness, that are firmly established, fortified, in that which Garmite symbolizes; namely: man's innate belief in the truth that his organism is structurally strong. (See GA",
+      "candidates": [
+        {
+          "s": "H7084",
+          "def": "Keilah, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2049,
+      "word": "Kelita",
+      "etym": "Heb.",
+      "mibDef": "take into oneself- selfishness; shrink; contract; shrunken; dwarfed;",
+      "mibMeta": "Kelita shows the result of using the power of the I AM, the lightness and swiftness of Jehovah, which Kelaiah signifies, to bring about the fulfillment of selfish, sense desires (taking a foreign wife). This result is a lessening of one's good in mind, body, and affairs. Kelita also shows how wonder",
+      "candidates": []
+    },
+    {
+      "id": 2050,
+      "word": "Kemuel",
+      "etym": "Heb.",
+      "mibDef": "God stands- God's righteousness; God raises up; judgment of God;",
+      "mibMeta": "The Spirit of God, divine righteousness and judgment, in the ascendancy in individual consciousness, growing and taking a firmer hold (God stands, God's righteousness, judgment of God, God raises up); also bringing about a closer union of the true, higher spiritual thoughts of the mind (assembly of ",
+      "candidates": [
+        {
+          "s": "H7055",
+          "def": "Kemuel, the name of a relative of Abraham, and of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2051,
+      "word": "Kenan",
+      "etym": "Heb.",
+      "mibDef": "self-centered one; fixed; ownership; centred dominion; possession",
+      "mibMeta": "Enosh (meaning mortal man, mutable being, corporeal man) refers to the outer or body consciousness, in its limited, material, corruptible concept of the organism: the unreality of the material is made evident by the higher, more spiritual thought (Seth) that has begun its work in the consciousness, ",
+      "candidates": []
+    },
+    {
+      "id": 2052,
+      "word": "Kenath",
+      "etym": "Heb .",
+      "mibDef": "possession; centralization; appropriation to self; self-seeking;",
+      "mibMeta": "A group of thoughts in consciousness whose central idea is that of possession, appropriation to self. This thought center belongs first to the Amoritish phase of consciousness in the individual. Carnal mind thinks that all the resources of man belong to it and are for its use exclusively. But upon a",
+      "candidates": []
+    },
+    {
+      "id": 2053,
+      "word": "Kenaz",
+      "etym": "Heb.",
+      "mibDef": "centralized strength; possessor; spear thrower; lancer; archer; hunter;",
+      "mibMeta": "Strength, centered in the physical (centralized strength, possessor, hunter, loin). A hunter, in the meaning of Kenaz, pertains to a thought that is connected with the animal forces of the organism. Esau was a hunter, and he symbolizes the body or physical vigor. Nimrod was \"a mighty hunter before J",
+      "candidates": [
+        {
+          "s": "H7073",
+          "def": "Kenaz, the name of an Edomite and of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2054,
+      "word": "Kenites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Kain; possessions; acquisitions; purchases;",
+      "mibMeta": "The Midianites signify thoughts of contention and strife. The Kenites, who were of the Midianites, therefore have their place in the carnal consciousness of man, the enemies in the land. But they possess an element that the Canaanite nations that were to be utterly destroyed did not have. The though",
+      "candidates": [
+        {
+          "s": "H7017",
+          "def": "a Kenite or member of the tribe of Kajin"
+        }
+      ]
+    },
+    {
+      "id": 2055,
+      "word": "Keren-happuch",
+      "etym": "Heb .",
+      "mibDef": "radiations of color; prismatic radiations; horn of",
+      "mibMeta": "The elevating power of light, of spiritual beauty, of Truth, a beautiful soul,",
+      "candidates": []
+    },
+    {
+      "id": 2056,
+      "word": "Kerioth",
+      "etym": "Heb.",
+      "mibDef": "meetings; conjunctions; cities; hamlets;",
+      "mibMeta": "Groups of thoughts ( meetings , conjunctions , cities, hamlets ), with their corresponding thought forms (buildings), belonging to and active in the Moab or carnal consciousness in the individual. Kerioth-hezron (A. V., Kerioth, and Hezron), ke'-rl-oth-hez'-ron (Heb.) joining inclosures; adjoining p",
+      "candidates": [
+        {
+          "s": "H7152",
+          "def": "Kerioth, the name of two places in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2057,
+      "word": "Keros",
+      "etym": "Heb.",
+      "mibDef": "bent; curved; bowed; a weaver's comb; a curved joint; a hook; bowed",
+      "mibMeta": "An idea of service, in the religious phase of man's consciousness and body, that is bowed d own under the thought of repentance (contrition), to the point of great negativeness (collapse). Thus this service idea, which is good inherently, is biased, turned away (bent, curved) from the positive purit",
+      "candidates": []
+    },
+    {
+      "id": 2058,
+      "word": "Keturah",
+      "etym": "Heb.",
+      "mibDef": "incense; fragrant smoke; fragrance; perfume; cdoe-wood.",
+      "mibMeta": "A phase of the soul consciousness that, though still in sense, aspires to higher things for the body. Through this sincere desire of the soul for higher and purer realizations of Truth, the animal nature is refined, and thus prepared for transmutation. (Burning of \"incense\" symbolizes the process of",
+      "candidates": []
+    },
+    {
+      "id": 2059,
+      "word": "Key of David- Philadelphia",
+      "etym": "Gk .",
+      "mibDef": "brotherly love; loving as brethren; love of",
+      "mibMeta": "The love center in consciousness, or love expressing (brotherly love). The church in Philadelphia is the love faculty, or the assembly of love thoughts in consciousness that make up the love faculty. He who has the \"key of David\" (Rev. 3:7) is the I AM. This I AM in its highest aspect is Christ; it ",
+      "candidates": [
+        {
+          "s": "G2807",
+          "def": "a key (as shutting a lock), literally or figuratively"
+        },
+        {
+          "s": "H4668",
+          "def": "an opener, i.e., a key"
+        }
+      ]
+    },
+    {
+      "id": 2060,
+      "word": "Keziah (A. V.",
+      "etym": "Heb.",
+      "mibDef": "cut off; stripped off; cassia bark; angular; acute;",
+      "mibMeta": "The purified soul expressing true perception and discrimination, thus aiding in the detection of all error, limited, human thoughts and ideals, that they may be put out of consciousness (cut off, stripped off). Spiritual perception and discrimination are great aids in cleansing the mind from thought",
+      "candidates": []
+    },
+    {
+      "id": 2061,
+      "word": "Kibzaim",
+      "etym": "Heb.",
+      "mibDef": "grasping with both hands; folding in the arms, i. e., as a shepherd",
+      "mibMeta": "A group, or assembly, of thoughts of unification, of appropriation, of fruition. This group is doubly large and strong and comprehensive (two gatherings, double congregations; grasping with both hands, folding in the amis, i. e., as a shepherd or reaper) because it is activated by and unified with b",
+      "candidates": [
+        {
+          "s": "H6911",
+          "def": "Kibtsajim, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2062,
+      "word": "Kidron",
+      "etym": "Heb .",
+      "mibDef": "turbid stream; muddy; foul; dirty; dingy; dark; obscured; overcast;",
+      "mibMeta": "The current of confused thoughts that sometimes pours in upon us when we try to go into the silence. The \"garden\" locates it in the world of universal thought. But this is a small matter compared to that great personal self in the subjective consciousness, Judas, who \"knew the place,\" and took advan",
+      "candidates": []
+    },
+    {
+      "id": 2063,
+      "word": "Kidron stands; the seat of the conscious mind",
+      "etym": "",
+      "mibDef": "all these are to become holy to",
+      "mibMeta": "The goat symbolizes resistance and opposition. It is a phase of personality. We resist Spirit on one hand, and we resist our fellows on the other. These two instances of resistance symbolize the two goats of Leviticus 16:5-22. They are both to be denied. Resistance to the Lord is to be killed out en",
+      "candidates": []
+    },
+    {
+      "id": 2064,
+      "word": "Kinah",
+      "etym": "Heb.",
+      "mibDef": "beating; striking; pulsating; smithy; musical instrument; strident sound;",
+      "mibMeta": "Inner expressions of sorrow (dirge, elegy, lamentation) of the human consciousness or natural man at having to give up its notion as to the desirability of personal possession; man must even give up the belief that he owns his body to do with as his sense mind pleases. A smithy is the workshop of a ",
+      "candidates": []
+    },
+    {
+      "id": 2065,
+      "word": "king",
+      "etym": "righteous",
+      "mibDef": "The executive faculty in every man whose life is guided, governed, and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4428",
+          "def": "a king"
+        },
+        {
+          "s": "H4430",
+          "def": "a king"
+        },
+        {
+          "s": "G935",
+          "def": "a sovereign (abstractly, relatively, or figuratively)"
+        },
+        {
+          "s": "H4427",
+          "def": "to reign; inceptively, to ascend the throne; causatively, to induct into royalty"
+        },
+        {
+          "s": "H7971",
+          "def": "to send away, for, or out (in a great variety of applications)"
+        }
+      ]
+    },
+    {
+      "id": 2066,
+      "word": "kingdom of God",
+      "etym": "",
+      "mibDef": "The Christ consciousness, kingdom of heaven.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G932",
+          "def": "properly, royalty, i.e., (abstractly) rule, or (concretely) a realm (literally or figuratively)"
+        },
+        {
+          "s": "H4467",
+          "def": "dominion, i.e., (abstractly) the estate (rule) or (concretely) the country (realm)"
+        },
+        {
+          "s": "H4437",
+          "def": "dominion (abstractly or concretely)"
+        },
+        {
+          "s": "H4438",
+          "def": "a rule; concretely, a dominion"
+        },
+        {
+          "s": "H4410",
+          "def": "something ruled, i.e., a realm"
+        }
+      ]
+    },
+    {
+      "id": 2067,
+      "word": "kingdom of heaven",
+      "etym": "",
+      "mibDef": "The kingdom of heaven is the realm of divine ideas, producing their",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G932",
+          "def": "properly, royalty, i.e., (abstractly) rule, or (concretely) a realm (literally or figuratively)"
+        },
+        {
+          "s": "H4467",
+          "def": "dominion, i.e., (abstractly) the estate (rule) or (concretely) the country (realm)"
+        },
+        {
+          "s": "H4437",
+          "def": "dominion (abstractly or concretely)"
+        },
+        {
+          "s": "H4438",
+          "def": "a rule; concretely, a dominion"
+        },
+        {
+          "s": "H4410",
+          "def": "something ruled, i.e., a realm"
+        }
+      ]
+    },
+    {
+      "id": 2068,
+      "word": "kingship. He reigns in peace",
+      "etym": "",
+      "mibDef": "the body. He is the natural",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2069,
+      "word": "Kir",
+      "etym": "Heb.",
+      "mibDef": "a digging; an earthwork; a wall; walled place; city; fortress; citadel.",
+      "mibMeta": "A group of thoughts that are strongly established in carnal belief (fortress, a digging, an earthwork). Kir-hareseth (in A. V., II Kings 3:25, Kir-haraseth), kir-har'-e-seth (Heb.)- pottery wall; brick fortress. A citadel, or stronghold, of Moab (II Kings 3:25; see Isaiah 15:1 and 16:7 also). Moab s",
+      "candidates": [
+        {
+          "s": "H7024",
+          "def": "Kir, a place in Moab"
+        }
+      ]
+    },
+    {
+      "id": 2070,
+      "word": "Kir-heres",
+      "etym": "Heb.",
+      "mibDef": "pottery wall; brick fortress.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2071,
+      "word": "Kiriath (A. V.",
+      "etym": "Heb .",
+      "mibDef": "meeting; joining; uniting; building; city; town.",
+      "mibMeta": "A city represents a group of thoughts, or a thought and nerve center, in the individual consciousness and body. Kiriath (meaning meeting, uniting, joining, building, city, and being a city of Benjamin) signifies a group of attracting, unifying, constructive thoughts whose central and dominating idea",
+      "candidates": []
+    },
+    {
+      "id": 2072,
+      "word": "Kiriath-arba (A. V.",
+      "etym": "Heb.",
+      "mibDef": "city ofArba; city foursquare; four",
+      "mibMeta": "Attributing to carnal reason the perfection that belongs to and comes forth from spiritual understanding only; attributing strength, power, knowledge, and greatness to the outer formed",
+      "candidates": []
+    },
+    {
+      "id": 2073,
+      "word": "Kiriath-arim (A. V.",
+      "etym": "Heb.",
+      "mibDef": "city of redundant growths; city of",
+      "mibMeta": "See KIRIATH-JEARIM.",
+      "candidates": []
+    },
+    {
+      "id": 2074,
+      "word": "Kiriath-baal (A. V.",
+      "etym": "Heb.",
+      "mibDef": "city of Baal; city of the lord; city of",
+      "mibMeta": "In Kiriath-baal the idea is given that, at this particular phase of unfoldment in the individual, this group of thoughts of dominion and abundance in consciousness still attributes power to things formed instead of understanding that all power and all reality exist in formless Spirit. (See BAAL; see",
+      "candidates": []
+    },
+    {
+      "id": 2075,
+      "word": "Kiriath-huzoth (A. V.",
+      "etym": "Heb .",
+      "mibDef": "city of divisions; city of",
+      "mibMeta": "Divided thoughts, thoughts of good and evil, God and self ( city of divisions, city of two parts), expressing in and through the psychic realm in individual consciousness (middle city, that which exists between the inner and the outer), that the carnal mind (Moab) would have one believe to be ways o",
+      "candidates": []
+    },
+    {
+      "id": 2076,
+      "word": "Kiriath-jearim (A. V.",
+      "etym": "Heb.",
+      "mibDef": "city of redundant growths;",
+      "mibMeta": "A nerve center— a network of nerves— with its accompanying thoughts and thought activities (city of forests; trees represent nerves, and it is over the nerves that the thoughts travel to every part of the body). The aspirations of this thought center are of a high, rich, fruitful, spiritual characte",
+      "candidates": []
+    },
+    {
+      "id": 2077,
+      "word": "Kiriath-sannah (A. V.",
+      "etym": "Heb .",
+      "mibDef": "city of palm branch; city of",
+      "mibMeta": "The central idea of the group of thoughts that Kiriath-sannah signifies is cleanliness, purity, victory over that which is impure and unclean, over that which is of a divided mind, by casting out the seeming error (city of palm branch, city of broom, city of palms, bristling city). (See KIRIATH-SEPH",
+      "candidates": []
+    },
+    {
+      "id": 2078,
+      "word": "Kiriath-sepher (A. V.",
+      "etym": "Heb.",
+      "mibDef": "city of engravings; city of",
+      "mibMeta": "Thoughts relating to understanding. The central idea here seems to be that of storing up knowledge by the study of books, by memorizing, and so forth. The definitions of Kiriath- sepher point more to the outer than the inner. But man must rise to a comprehension of the truth that the source of true ",
+      "candidates": []
+    },
+    {
+      "id": 2079,
+      "word": "Kiriathaim (A. V.",
+      "etym": "Heb .",
+      "mibDef": "double meeting; double joining; double",
+      "mibMeta": "Kiriathaim of the tribe of Reuben would belong to the seeing, discerning faculty in individual consciousness, instead of the strength faculty. (See KARTAN.)",
+      "candidates": [
+        {
+          "s": "H7156",
+          "def": "Kirjathaim, the name of two placed in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2080,
+      "word": "Kish",
+      "etym": "Heb.",
+      "mibDef": "curved; bent, i. e., as a bow; a bow; iris; bowman; archer; strength; power;",
+      "mibMeta": "Endurance, strength, power (a bow), as definitions of Kish, in conjunction with the other definitions of the name, recall the text, \"But his bow abode in strength.\" The steadfastness, power, and strength that Kish signifies may express in a carnal or in a spiritual way, according to whether it is es",
+      "candidates": [
+        {
+          "s": "H7027",
+          "def": "Kish, the name of five Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2081,
+      "word": "Kishi",
+      "etym": "Heb .",
+      "mibDef": "bow of Jehovah; strength ofJah; power of Jehovah.",
+      "mibMeta": "Kishi— bow of Jehovah-- makes us think of the text in Genesis 49:24: \"But his bow abode in strength, And the arms of his hands were made strong (active, marg.), By the hands of the Mighty One of Jacob.\" Kishi represents divine strength, activity, and executive power.",
+      "candidates": []
+    },
+    {
+      "id": 2082,
+      "word": "Kishion",
+      "etym": "Heb.",
+      "mibDef": "horny hard; firm; inflexible; obdurate; difficult, stubborn.",
+      "mibMeta": "Kedesh refers to the place within man where he communes with God and realizes the divine presence within himself. Thus light and strength are realized sufficient to put away error, limited material ideas and conditions. Kishion (meaning horny, hard, obdurate, difficult, stubborn ), a city of Issacha",
+      "candidates": []
+    },
+    {
+      "id": 2083,
+      "word": "Kishon",
+      "etym": "Heb.",
+      "mibDef": "curved; winding; bent; crooked; hard; difficult; laborious.",
+      "mibMeta": "The prophets of Baal that Elijah slew at \"the brook Kishon\" represent the many external impulses that sway the soul dominated by nature's elements. To cut off these emotions that have been counted so dear and have been treasured in song and prose is indeed an exceedingly hard process for some people",
+      "candidates": [
+        {
+          "s": "H7028",
+          "def": "Kishon, a river of Palestine"
+        },
+        {
+          "s": "H7191",
+          "def": "Kishjon, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2084,
+      "word": "Kitron",
+      "etym": "Heb.",
+      "mibDef": "knotted; jointed; vertebrate; knotty, i~ e., difficult of solution; parables;",
+      "mibMeta": "A group of thoughts in the Zebulun or order faculty in individual consciousness. Like Kattath, the ideas of this thought center are too small and savor too much of the belief in limitation ( little and short); there is too little reality in them (figurative) and they believe the problem of putting a",
+      "candidates": []
+    },
+    {
+      "id": 2085,
+      "word": "knowledge",
+      "etym": "",
+      "mibDef": "\"Acquaintance with fact; hence, scope of information\" (Webster). Intellectual",
+      "mibMeta": "The ruling thought, or seemingly great power, of the animal nature in man, in its positive, determined, headstrong, actively aggressive aspect.",
+      "candidates": [
+        {
+          "s": "H1847",
+          "def": "knowledge"
+        },
+        {
+          "s": "G1922",
+          "def": "recognition, i.e., (by implication) full discernment, acknowledgement"
+        },
+        {
+          "s": "G1108",
+          "def": "knowing (the act), i.e., (by implication) knowledge"
+        },
+        {
+          "s": "H3045",
+          "def": "to know (properly, to ascertain by seeing); used in a great variety of senses, figuratively, literally, euphemistically and inferentially (including observation, care, recognition; and causatively, instruction, designation, punishment, etc.)"
+        },
+        {
+          "s": "H1844",
+          "def": "knowledge"
+        }
+      ]
+    },
+    {
+      "id": 2086,
+      "word": "Kohath",
+      "etym": "Heb.",
+      "mibDef": "called together; convocation; assembly; one who obeys a call; an ally.",
+      "mibMeta": "The attracting, unifying, gathering element in love, and the power of love (Levi is the son of Jacob who represents love, and love is unifying in its nature).",
+      "candidates": [
+        {
+          "s": "H6955",
+          "def": "Kehath, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2087,
+      "word": "Kohathites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Kohath.",
+      "mibMeta": "Thoughts springing from and belonging to that in consciousness which Kohath represents. (See KOHATH.)",
+      "candidates": [
+        {
+          "s": "H6956",
+          "def": "a Kohathite (collectively) or descendants of Kehath"
+        }
+      ]
+    },
+    {
+      "id": 2088,
+      "word": "Kolaiah",
+      "etym": "Heb .",
+      "mibDef": "voice of Jehovah; listen to Jehovah; hearken to Jah; proclaim",
+      "mibMeta": "Spiritual inspiration with power to proclaim it (by means of the voice, ideas are",
+      "candidates": []
+    },
+    {
+      "id": 2089,
+      "word": "Korah",
+      "etym": "Heb.",
+      "mibDef": "bald; smooth; crystal; clear; ice; cold; bald-headed; without horns.",
+      "mibMeta": "Coldness and unproductiveness of life and good, because of one's not being willing to be guided in the love faculty (Korah was descended from Levi, who signifies the love faculty in individual consciousness) by the law of God. (See ASSIR, son of Korah.) Korah, son of Esau, denotes the coldness, the ",
+      "candidates": [
+        {
+          "s": "H7141",
+          "def": "Korach, the name of two Edomites and three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2090,
+      "word": "Korahites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or",
+      "mibMeta": "Thoughts springing from and belonging to that in consciousness which Korah, the great-grandson of Levi, signifies. (See KORAH.) Clear, crystal, definitions of Korah, bespeak a comprehension that would aid in raising these Korah thoughts to the love and productiveness that belong to their true nature",
+      "candidates": []
+    },
+    {
+      "id": 2091,
+      "word": "Kore",
+      "etym": "Heb .",
+      "mibDef": "caller; crier; proclaimer; beseecher; convoker; reciter; a partridge; quail;",
+      "mibMeta": "That in man's natural religious tendencies (Levites, in their office of ministering in the house of Jehovah) which insistently suggests and proclaims true ideas to man's inner consciousness and seeks to impress them on him. (The men named Kore belonged to the porters in the Temple. One of them \"was ",
+      "candidates": [
+        {
+          "s": "H6981",
+          "def": "Kore, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2092,
+      "word": "Kushaiah",
+      "etym": "Heb ,",
+      "mibDef": "bow of Jehovah.",
+      "mibMeta": "See KISHI. L LABAN",
+      "candidates": []
+    },
+    {
+      "id": 2093,
+      "word": "Laadah",
+      "etym": "Heb.",
+      "mibDef": "set to time; set in order; harmonious; adorned; to testify; to assemble;",
+      "mibMeta": "A condition of harmony and order in the consciousness when one is ready to recognize the divine inner presence, and the answer to one's prayer. One's realizations and demonstrations come about in order, since order is heaven's first law and everything of Spirit is done according to the working of di",
+      "candidates": [
+        {
+          "s": "H3935",
+          "def": "Ladah, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2094,
+      "word": "Laban",
+      "etym": "Heb .",
+      "mibDef": "white; clean; pure; gentle; clear; transparent; shining; glorious; noble.",
+      "mibMeta": "Laban means white, pure , clear, shining, gentle, noble; Haran means exalted, mountain. This clearly indicates that the attention shall be located in exalted states of mind and united with spiritual intelligence and nonresistance. Jacob grew rapidly in understanding and in possessions in the land of",
+      "candidates": [
+        {
+          "s": "H3837",
+          "def": "Laban, a Mesopotamian"
+        }
+      ]
+    },
+    {
+      "id": 2095,
+      "word": "Lachish",
+      "etym": "Heb.",
+      "mibDef": "adhering; strongly united; tenacious; unyielding; impregnable;",
+      "mibMeta": "The Amorites symbolize a race inheritance. They have their seat of action in the generative function. Lachish, a city of the Amorites, denotes carnal man's erroneous belief concerning his amorous sex impulses and desires. To the sensate, carnal mind of man, these are of God; they exist as a fundamen",
+      "candidates": [
+        {
+          "s": "H3923",
+          "def": "Lakish, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2096,
+      "word": "ladder",
+      "etym": "",
+      "mibDef": "Represents the step-by-step realization by means of which man assimilates the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5551",
+          "def": "a stair-case"
+        }
+      ]
+    },
+    {
+      "id": 2097,
+      "word": "Lael",
+      "etym": "Heb.",
+      "mibDef": "unto God; Godward; of God; belonging to God; consecrated to God; created",
+      "mibMeta": "A ruling thought belonging to that phase of the love faculty in man for which Gershon, son of Levi, stands. (See GERSHON.) This thought is of God, is turned toward God (Godward), and is consecrated to God; thus it does its part in elevating the consciousness of the individual to a higher and more sp",
+      "candidates": []
+    },
+    {
+      "id": 2098,
+      "word": "Lahad",
+      "etym": "Heb.",
+      "mibDef": "flaming; glowing; glittering; praising; bright; splendid; majestic;",
+      "mibMeta": "Jahath, father of Lahad, represents the tearing down and the building up that attend every true overcoming of error in individual consciousness. (See JAHATH.) Ahumai, Lahad's brother who is named with him, signifies a negative, denying, or letting-go state of thought, (See AHUMAI.) The negative mean",
+      "candidates": []
+    },
+    {
+      "id": 2099,
+      "word": "Lahmam",
+      "etym": "Web.",
+      "mibDef": "toward noonday; toward noontime warmth; toward light; place of",
+      "mibMeta": "An increase of light, love, and substance (toward noontime warmth, toward light, place of bread, universal assimilative substance) in the subconscious mind (lowland of Judah).",
+      "candidates": []
+    }
+  ]
+}

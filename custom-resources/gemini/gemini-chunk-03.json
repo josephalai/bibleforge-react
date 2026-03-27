@@ -1,0 +1,1454 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "3 of 37",
+  "_entry_range": "ids 200–299",
+  "entries": [
+    {
+      "id": 200,
+      "word": "Alvah",
+      "etym": "Heb.",
+      "mibDef": "sublimation (of evil); sublimity; twisted; pervert; wicked; evil.",
+      "mibMeta": "The animal nature in man exalting itself ( sublimation of evil). This is evil in the sight of Truth, since true sublimity and exaltation come only by one's unifying the entire being with the spiritual or Christ consciousness.",
+      "candidates": []
+    },
+    {
+      "id": 201,
+      "word": "Alvan",
+      "etym": "Heb.",
+      "mibDef": "sublime; tall.",
+      "mibMeta": "A lofty concept, of man's seemingly material consciousness, concerning the apparently sensual or physical phase of his organism— a glimpse of the truth that even the outer man has his origin in Spirit. (See SHOBAL.)",
+      "candidates": []
+    },
+    {
+      "id": 202,
+      "word": "AM",
+      "etym": "",
+      "mibDef": "love, life, intelligence, strength, power, substance, all the principles",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1510",
+          "def": "I exist (used only when emphatic)"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        },
+        {
+          "s": "G2064",
+          "def": "to come or go (in a great variety of applications, literally and figuratively)"
+        },
+        {
+          "s": "H935",
+          "def": "to go or come (in a wide variety of applications)"
+        },
+        {
+          "s": "H2204",
+          "def": "to be old"
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "word": "AM",
+      "etym": "",
+      "mibDef": "that which he has",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1510",
+          "def": "I exist (used only when emphatic)"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        },
+        {
+          "s": "G2064",
+          "def": "to come or go (in a great variety of applications, literally and figuratively)"
+        },
+        {
+          "s": "H935",
+          "def": "to go or come (in a wide variety of applications)"
+        },
+        {
+          "s": "H2204",
+          "def": "to be old"
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "word": "Amad",
+      "etym": "Heb.",
+      "mibDef": "people of duration; enduring; a station.",
+      "mibMeta": "An aggregation of thoughts of an established, enduring, sustaining character, founded in Truth principles (a station, people of duration, enduring).",
+      "candidates": []
+    },
+    {
+      "id": 205,
+      "word": "Amal",
+      "etym": "Heb .",
+      "mibDef": "labor; laboring; toil",
+      "mibMeta": "A belief that the exertion of one's strength (Helem, the father, signifies strength) is hard work and is accompanied by fatigue (laboring, toil). This belief really belongs to the old carnal thoughts, but if we are not watchful it finds its way into what we intend to make \"spiritual service.\" All on",
+      "candidates": []
+    },
+    {
+      "id": 206,
+      "word": "Amalek",
+      "etym": "Heb.",
+      "mibDef": "warlike; dweller in the vale; valley dweller; that licks up.",
+      "mibMeta": "Esau represents the body consciousness. From him the Amalekites were descended. Amalek ( warlike , dweller in the vale, that licks up, or consumes) signifies lust, that base desire which, when established in the animal forces of the subconscious mind of man, is the begetter of destructive, rebelliou",
+      "candidates": [
+        {
+          "s": "H6002",
+          "def": "Amalek, a descendant of Esau; also his posterity and their country"
+        }
+      ]
+    },
+    {
+      "id": 207,
+      "word": "Amalekites",
+      "etym": "Heb.",
+      "mibDef": "belonging to Amalek.",
+      "mibMeta": "The base desires of the individual. To those in spiritual understanding it is clear that the vale (valley dweller) represents that great realm of mind called the subconscious. The Amalekites symbolize the animal forces, appetites, and passions. They are warlike, and are destructive in their nature. ",
+      "candidates": [
+        {
+          "s": "H6002",
+          "def": "Amalek, a descendant of Esau; also his posterity and their country"
+        },
+        {
+          "s": "H6003",
+          "def": "an Amalekite (or collectively the Amalekites) or descendants of Amalek"
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "word": "Amam",
+      "etym": "Heb.",
+      "mibDef": "gathering place.",
+      "mibMeta": "A fixed state of thought in the subconscious mind, and very close to the body consciousness. (Edom refers to the body, or flesh. The south always means below; it usually pertains to the subconsciousness.) It is an assembling place (gathering place) in which a certain phase of subconscious thought fo",
+      "candidates": []
+    },
+    {
+      "id": 209,
+      "word": "Aman",
+      "etym": "Heb.",
+      "mibDef": "active; nimble; strong.",
+      "mibMeta": "A constructive, restoring, upbuilding thought in consciousness-a thought that is powerful, vigorous, alert, resourceful, and active in its nature (strong, nimble); it might be named a belief in efficiency.",
+      "candidates": []
+    },
+    {
+      "id": 210,
+      "word": "Amana",
+      "etym": "Heb.",
+      "mibDef": "constant; permanent; integrity; a seal of verity; a covenant .",
+      "mibMeta": "A high place in consciousness where we enter into the realization of a deeper union with our indwelling Christ —our bridegroom— than we have known before. We get a clearer understanding of His promises (covenant,) and the Christ becomes to us such a source of constancy and integrity (constant, perma",
+      "candidates": []
+    },
+    {
+      "id": 211,
+      "word": "Amariah",
+      "etym": "Heb.",
+      "mibDef": "Jah says; word of Jehovah; Jehovah enlightens.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H568",
+          "def": "Amarjah, the name of nine Israelites"
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "word": "Amasa",
+      "etym": "Heb.",
+      "mibDef": "burden; burden-bearer; sparing the people.",
+      "mibMeta": "A negativeness or uncertainty of the will (the executive power of the mind) that arises when one's love (David) is divided between the outer and the inner, when one is of a double mind and desires to please and to save the thoughts (people) of the physical-sense man and yet wishes to serve",
+      "candidates": [
+        {
+          "s": "H6021",
+          "def": "Amasa, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "word": "Amasai",
+      "etym": "Heb",
+      "mibDef": "burdenbearer; burdensome.",
+      "mibMeta": "The thought of great responsibility or burden ( burdensome , burdenbearer) that comes to one who feels very strongly the necessity for following set rules in keeping the letter of the law. Priests and Levites represent our \"natural religious tendencies.\" They typify religious thoughts, but not neces",
+      "candidates": []
+    },
+    {
+      "id": 214,
+      "word": "Amashsai (A. V.",
+      "etym": "Heb.",
+      "mibDef": "carrying a load; burdensome.",
+      "mibMeta": "A religious tendency in man that, because of its multiplicity of thoughts not established in divine wisdom, leads to confusion (Babylon). (Amashsai was of the family of Immer, the name Immer meaning talkative.) \"And the burden of Jehovah shall ye mention no more: for every man's own word shall be hi",
+      "candidates": []
+    },
+    {
+      "id": 215,
+      "word": "Amasiah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah bears; Jah has strength (to bear); whom Jehovah bears.",
+      "mibMeta": "Sustaining strength, through the inner Christ (whom Jehovah bears , Jah has strength to bear). Amasiah was of the tribe of Judah. By means of praise (Judah) our strength is increased and all our inner faculties and powers are greatly increased in consciousness.",
+      "candidates": [
+        {
+          "s": "H6007",
+          "def": "Amasjah, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "word": "Amaziah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah makes mighty; the Lord protects; strength of Jehovah.",
+      "mibMeta": "The overcoming strength that inheres in the will when it is established in Jehovah (Christ), when man's trust is in the Lord (strength of Jehovah). When the will admits into consciousness the error belief that strength and power are physical instead of spiritual, and begins to trust in the flesh ins",
+      "candidates": [
+        {
+          "s": "H558",
+          "def": "Amatsjah, the name of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "word": "Ami",
+      "etym": "Gk., from Heb.",
+      "mibDef": "Aram.",
+      "mibMeta": "Refers to the intellect. (See ARAM .)",
+      "candidates": []
+    },
+    {
+      "id": 218,
+      "word": "Amittai",
+      "etym": "Heb .",
+      "mibDef": "truthful; true.",
+      "mibMeta": "The tendency in us to adhere very closely to that which we believe to be true ( truthful Metaphysical ). This tendency is good, but if it is of the intellect alone, rather than of the spiritual consciousness, we are likely to become narrow and condemnatory in our dealings with ourselves and with oth",
+      "candidates": []
+    },
+    {
+      "id": 219,
+      "word": "Ammah",
+      "etym": "Heb.",
+      "mibDef": "a (natural measure) cubit; a (natural) maternal nation; a metropolis;",
+      "mibMeta": "A place of agreement, in consciousness, between the executive power of love (Joab, David's commander) and the conclusions of the somewhat spiritually enlightened intellect (Abner, captain of Saul's host). This agreement is based upon the innate knowing that all intelligence, whether of the heart or ",
+      "candidates": []
+    },
+    {
+      "id": 220,
+      "word": "Ammi",
+      "etym": "Heb.",
+      "mibDef": "my people; my flock; my troop; my serx’ants.",
+      "mibMeta": "The acknowledgment by Jehovah, the Christ or true self in us, that our Israel thoughts have become obedient to the true ideas of the mind of Spirit (m?l people). Formerly, they had given themselves over to belief in a formal religion, to belief in materiality.",
+      "candidates": []
+    },
+    {
+      "id": 221,
+      "word": "Ammiel",
+      "etym": "Heb .",
+      "mibDef": "people of God; servants of God; my kinsman is God; my people is",
+      "mibMeta": "Spiritual thoughts in consciousness (people of God). These thoughts are related closely to the divine (my kinsman is God), and potentially they are strong (my people is strong). But not all the men named Ammiel recognized the unfailingness of spiritual strength; some of them attributed strength to e",
+      "candidates": [
+        {
+          "s": "H5988",
+          "def": "Ammiel, the name of three or four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 222,
+      "word": "Ammihud",
+      "etym": "Heb .",
+      "mibDef": "people of excellence (my kinsman is majesty; people of glory;",
+      "mibMeta": "Ideas pertaining to the honor, authority, high moral integrity, and worth of true spiritual thoughts in consciousness; also the high esteem in which such thoughts should be held by the individual (people of excellence, people of glory, people of praise, my kinsman is majesty, my people is honorable)",
+      "candidates": [
+        {
+          "s": "H5989",
+          "def": "Ammihud, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "word": "Ammishaddai",
+      "etym": "Heb.",
+      "mibDef": "people of the Almighty; people of Providence; my",
+      "mibMeta": "The efficiency and the power of which man becomes conscious when he recognizes his unity with omnipotent God (people of the Almighty, my kinsman is the Almighty); also the assurance of divine oversight and supply (people of Providence) . Ammizabad, am-miz'-a-bad (Heb.)-- people of endowment; people ",
+      "candidates": []
+    },
+    {
+      "id": 224,
+      "word": "Ammon",
+      "etym": "Heb.",
+      "mibDef": "a great people; an extensive people; a fellow countryman.",
+      "mibMeta": "The central dominating thought of that which the Ammonites symbolize in consciousness— the belief in carnality; also the extensiveness of this line of thought in mortal man. (See AMMONITES.) Ammonites, am'-mon-ites. Descendants of Ben-ammi, son of Lot, and enemies of the Israelites (Deut. 2:3:3; I S",
+      "candidates": [
+        {
+          "s": "H5983",
+          "def": "Ammon, a son of Lot; also his posterity and their country"
+        }
+      ]
+    },
+    {
+      "id": 225,
+      "word": "Amnon",
+      "etym": "Heb.",
+      "mibDef": "faithful; upbringing; tutelage.",
+      "mibMeta": "A mental quality in man, under discipline or in process of education. When completed this training will bring about faithfulness (upbringing, tutelage, faithful) From the Bible history of Amnon, the faithful attitude of thought and action was yet to be attained by him.",
+      "candidates": [
+        {
+          "s": "H550",
+          "def": "Amnon (or Aminon), a son of David"
+        }
+      ]
+    },
+    {
+      "id": 226,
+      "word": "Amon",
+      "etym": "Heb.",
+      "mibDef": "master workman; workman; builder.",
+      "mibMeta": "Egypt is the realm of substance and life in body consciousness. To the unregenerate soul it is the land of mystery and darkness, yet it is essential to the continuation of the body. When the individual looks upon his body as material and believes that the substance and the life that sustain it are m",
+      "candidates": [
+        {
+          "s": "H526",
+          "def": "Amon, the name of three Israelites"
+        },
+        {
+          "s": "G300",
+          "def": "Amon, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "word": "Amon",
+      "etym": "Heb.",
+      "mibDef": "swift; roaring; rushing stream; a murmur; noisy; rejoicing.",
+      "mibMeta": "The life current in man. which is tumultuous (swift, roaring, noisy, rushing stream) under the dominion of carnal thought (Moab and the Amorites), but is a rejoicing of the whole man when possessed and guided by Israel, the real and the true. Arod, a'-rod (Heb.) - -fleeing; a wild ass. Son of Gad an",
+      "candidates": [
+        {
+          "s": "H526",
+          "def": "Amon, the name of three Israelites"
+        },
+        {
+          "s": "G300",
+          "def": "Amon, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 228,
+      "word": "Amorites",
+      "etym": "Heb.",
+      "mibDef": "dwellers of the summits; mountaineers; highlanders.",
+      "mibMeta": "A race inheritance; the Amorites' seat of action is the generative function. They",
+      "candidates": [
+        {
+          "s": "H567",
+          "def": "an Emorite, one of the Canaanitish tribes"
+        }
+      ]
+    },
+    {
+      "id": 229,
+      "word": "Amos",
+      "etym": "",
+      "mibDef": "burden; load; borne up; sustained; carried.",
+      "mibMeta": "Conscience, which shepherds the natural forces of mind and body. (Sheep represent thoughts that are obedient to the natural law; they also represent the pure natural life of the body.) Amos in us warns us when we have transgressed the divine law.",
+      "candidates": [
+        {
+          "s": "H5986",
+          "def": "Amos, an Israelite prophet"
+        }
+      ]
+    },
+    {
+      "id": 230,
+      "word": "Amoz",
+      "etym": "Heb.",
+      "mibDef": "vigorous; strong; courageous; quick.",
+      "mibMeta": "A firm, active trust in God, which is an encouragement and protection to the",
+      "candidates": [
+        {
+          "s": "H531",
+          "def": "Amots, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 231,
+      "word": "Amphipolis",
+      "etym": "Gk.",
+      "mibDef": "around the city; about the city; surrounded city.",
+      "mibMeta": "Truth passes through several stages in entering the mind: doubt, then examination, then great desire for the Truth, then acceptance. These are represented by the Gentile cities, Amphipolis, Apollonia, and Thessalonica, through which Paul passed, and Beroea, where \"he received the word with all readi",
+      "candidates": [
+        {
+          "s": "G295",
+          "def": "a city surrounded by a river; Amphipolis, a place in Macedonia"
+        }
+      ]
+    },
+    {
+      "id": 232,
+      "word": "Ampliatus (A. V.",
+      "etym": "Lat .",
+      "mibDef": "large; full; ample.",
+      "mibMeta": "A very great capacity to comprehend Truth (large, full, ample).",
+      "candidates": []
+    },
+    {
+      "id": 233,
+      "word": "Amram",
+      "etym": "Heb.",
+      "mibDef": "kind red of the lofty One, i. e., of God; exalted people; high people.",
+      "mibMeta": "A very high conception of oneness with God and of the true thoughts of man's consciousness as being emanations from the ideas of the one Mind (kindred of the lofty One, i. e., of God, exalted people ) .",
+      "candidates": [
+        {
+          "s": "H6019",
+          "def": "Amram, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 234,
+      "word": "Amramites",
+      "etym": "Heb .",
+      "mibDef": "belonging to Amram.",
+      "mibMeta": "Thoughts springing from and of character like that in consciousness which Amram signifies. See AMRAM.",
+      "candidates": []
+    },
+    {
+      "id": 235,
+      "word": "Amraphel",
+      "etym": "Heb .",
+      "mibDef": "keeper of the gods; keeper of the treasures; or, speaker of",
+      "mibMeta": "The belief of unawakened man that in generation, physical reproduction, he is fulfilling the creative law of Being. The truth is that the command to be fruitful and multiply and to replenish the earth and subdue it includes the bringing forth and expressing of the ideas of the one Mind. The Word is ",
+      "candidates": [
+        {
+          "s": "H569",
+          "def": "Amraphel, a king of Shinar"
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "word": "Amzi",
+      "etym": "Heb.",
+      "mibDef": "strong.",
+      "mibMeta": "Strength.",
+      "candidates": []
+    },
+    {
+      "id": 237,
+      "word": "an",
+      "etym": "Heb .",
+      "mibDef": "desirable; pleasant; grateful; precious.",
+      "mibMeta": "The seemingly desirable and pleasant aspect of the sense beliefs and activities of one that is not awakened spiritually. This pleasure, however, is but transitory and soon turns to dust and ashes, to vanity and vexation of spirit. (See DISHON, SEIR, and HORITE.)",
+      "candidates": [
+        {
+          "s": "H3967",
+          "def": "a hundred; also as a multiplicative and a fraction"
+        },
+        {
+          "s": "H3722",
+          "def": "to cover (specifically with bitumen); figuratively, to expiate or condone, to placate or cancel"
+        },
+        {
+          "s": "H1004",
+          "def": "a house (in the greatest variation of applications, especially family, etc.)"
+        },
+        {
+          "s": "H4196",
+          "def": "an altar"
+        },
+        {
+          "s": "H3615",
+          "def": "to end, whether intransitive (to cease, be finished, perish) or transitive (to complete, prepare, consume)"
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "word": "an affirmation. All growth takes place through these two attitudes",
+      "etym": "",
+      "mibDef": "a letting go and a taking hold, or",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3967",
+          "def": "a hundred; also as a multiplicative and a fraction"
+        },
+        {
+          "s": "H3722",
+          "def": "to cover (specifically with bitumen); figuratively, to expiate or condone, to placate or cancel"
+        },
+        {
+          "s": "H1004",
+          "def": "a house (in the greatest variation of applications, especially family, etc.)"
+        },
+        {
+          "s": "H4196",
+          "def": "an altar"
+        },
+        {
+          "s": "H3615",
+          "def": "to end, whether intransitive (to cease, be finished, perish) or transitive (to complete, prepare, consume)"
+        }
+      ]
+    },
+    {
+      "id": 239,
+      "word": "Anab",
+      "etym": "Heb.",
+      "mibDef": "cluster of grapes; grape town.",
+      "mibMeta": "A state of thought that magnifies the life idea in man, thus increasing his consciousness of life and making union with the one Source of all life. Grapes suggest wine, and wine symbolizes life; Judah (praise) gives the thought of increase of life. A cluster of grapes bespeaks a conjunction, a group",
+      "candidates": []
+    },
+    {
+      "id": 240,
+      "word": "Anah",
+      "etym": "Heb .",
+      "mibDef": "answering.",
+      "mibMeta": "Error tendencies, or strongly influencing thoughts, deep within the subjective life forces in individual consciousness, which cause these life forces to respond to the desires of the flesh or sense man (answering) instead of listening to Spirit. (The Hivites and the Horites were descendants of Canaa",
+      "candidates": [
+        {
+          "s": "H6034",
+          "def": "Anah, the name of two Edomites and one Edomitess"
+        }
+      ]
+    },
+    {
+      "id": 241,
+      "word": "Anaiah",
+      "etym": "Heb.",
+      "mibDef": "Jah answers; Jah has answered; whom Jehovah answers.",
+      "mibMeta": "A positive assurance in the consciousness of awakened man that God hears and answers when man seeks to understand and obey the divine law (Jah answers Jah has answered). Anak a'-nak (Heb.)— long-necked; giant; collar. Son of Arba, a giant (Josh. 21:11). The home of Anak and his three sons was in Heb",
+      "candidates": []
+    },
+    {
+      "id": 242,
+      "word": "Anakim (A. V.",
+      "etym": "Heb.",
+      "mibDef": "the long-necked; giants.",
+      "mibMeta": "The intellectual thoughts and states of consciousness in man that believe that the outer, formed world, with its customs and teachings, is real and is the source of man's strength, power, and good, instead of seeing that the outer manifestation is but an expression of man's inner thought and word an",
+      "candidates": []
+    },
+    {
+      "id": 243,
+      "word": "Anamim",
+      "etym": "Heb .",
+      "mibDef": "statues; rockmen; fountains.",
+      "mibMeta": "Hard, material thoughts ( rockmen ) about life (fountains). Material thoughts about life aid in building corruptible bodies, mere statues in so far as being truly alive through union with the Source of all life is concerned.",
+      "candidates": []
+    },
+    {
+      "id": 244,
+      "word": "Anammelech",
+      "etym": "Heb.",
+      "mibDef": "king's statue; king's rock; kingly image.",
+      "mibMeta": "See ADRAMMELECH.",
+      "candidates": []
+    },
+    {
+      "id": 245,
+      "word": "Anan",
+      "etym": "Heb.",
+      "mibDef": "a covering; a",
+      "mibMeta": "A high spiritual thought of consecration to God. This thought aids the true consciousness (Israel) to make an agreement with God to serve Him and be loyal to Him. Yet the thought that Anan signifies is obscured, or clouded (cloud, beclouded ) to some extent by a belief in sin and evil as a power tha",
+      "candidates": []
+    },
+    {
+      "id": 246,
+      "word": "Ananias",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "graciousness ofJah; mercy of Jehovah; compassion of",
+      "mibMeta": "There is a lurking belief in the mind that we can join the great school of spiritual development and at the same time retain our hold upon worldly thoughts. This belief represents Ananias of Acts 5:1-5, deception. Such deception of the mind is a very subtle error and causes the would-be disciple muc",
+      "candidates": [
+        {
+          "s": "G367",
+          "def": "Ananias, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 247,
+      "word": "Anathoth",
+      "etym": "Heb.",
+      "mibDef": "shoutings; answers; answers, i. e., to prayer; chants; afflictions;",
+      "mibMeta": "In Isaiah 10:30 we read, \"O thou poor Anathoth !\" This comment was inspired by the Lord's having sent the Assyrians (reasonings and thoughts of the sense mind plane that do not recognize Spirit) against Anathoth and other places in Israel because of their sins. Solomon told Abiathar the priest, \"Get",
+      "candidates": [
+        {
+          "s": "H6068",
+          "def": "Anathoth, the name of two Israelites, also of a place in Pal"
+        }
+      ]
+    },
+    {
+      "id": 248,
+      "word": "and exaltation of generation",
+      "etym": "",
+      "mibDef": "the higher ideals of the Israelites, or",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2532",
+          "def": "and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words"
+        },
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G1161",
+          "def": "but, and, etc"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        }
+      ]
+    },
+    {
+      "id": 249,
+      "word": "and has the power to expand. Then",
+      "etym": "",
+      "mibDef": "choose words representing",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2532",
+          "def": "and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words"
+        },
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G1161",
+          "def": "but, and, etc"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        }
+      ]
+    },
+    {
+      "id": 250,
+      "word": "And his ears are open unto their cry.\" Hoshea",
+      "etym": "Heb.",
+      "mibDef": "deliverance; safety; salvation; help.",
+      "mibMeta": "Hoshea means \"save.\" Joshua and Jesus are variations of the same word, along with Jah and Jehovah. \"Jehovah saves.\" Hoshea represents the saving grace of the inner I AM, Jehovah. In II Kings 17:2 we are told that the king by this name, Hoshea, was not so bad as his predecessors. He was weak in his f",
+      "candidates": [
+        {
+          "s": "G2532",
+          "def": "and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words"
+        },
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G1161",
+          "def": "but, and, etc"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        }
+      ]
+    },
+    {
+      "id": 251,
+      "word": "and is ever attentive and obedient",
+      "etym": "",
+      "mibDef": "prophesied that \"the captives of Jerusalem, that are in Sepharad,\"",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2532",
+          "def": "and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words"
+        },
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G1161",
+          "def": "but, and, etc"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        }
+      ]
+    },
+    {
+      "id": 252,
+      "word": "and is to be found in nearly all forms of worship. He and his people served many gods",
+      "etym": "",
+      "mibDef": "calves, molten",
+      "mibMeta": "\"All the host of heaven\" (II Chron. 33:5) are the sun, moon, stars, and the twelve signs of the zodiac.",
+      "candidates": [
+        {
+          "s": "G2532",
+          "def": "and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words"
+        },
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G1161",
+          "def": "but, and, etc"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        }
+      ]
+    },
+    {
+      "id": 253,
+      "word": "and its activities",
+      "etym": "",
+      "mibDef": "the seemingly mortal, physical part of himself. But this will all change as he perceives",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2532",
+          "def": "and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words"
+        },
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G1161",
+          "def": "but, and, etc"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        }
+      ]
+    },
+    {
+      "id": 254,
+      "word": "and mind",
+      "etym": "",
+      "mibDef": "in contrast to the inner spirit. Jericho signifies the intellect, an external",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2532",
+          "def": "and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words"
+        },
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G1161",
+          "def": "but, and, etc"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        }
+      ]
+    },
+    {
+      "id": 255,
+      "word": "and one Power",
+      "etym": "",
+      "mibDef": "the omnipotent good, which man must know and consider in his contact with the world",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2532",
+          "def": "and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words"
+        },
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G1161",
+          "def": "but, and, etc"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        }
+      ]
+    },
+    {
+      "id": 256,
+      "word": "and powers",
+      "etym": "",
+      "mibDef": "the Son,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2532",
+          "def": "and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words"
+        },
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G1161",
+          "def": "but, and, etc"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        }
+      ]
+    },
+    {
+      "id": 257,
+      "word": "and silver",
+      "etym": "",
+      "mibDef": "because David had defeated Hadadezer, king of Zobah, who had also been at war with Toi",
+      "mibMeta": "The indefinite, unsettled, vacillating, and seemingly untrue phase of thought that is the central characteristic of the Hamath state of consciousness (straying from a path, error, wandering, impiety, king of Hamath; Hamath signifies confidence in material conditions rather than trust in God). Howeve",
+      "candidates": [
+        {
+          "s": "G2532",
+          "def": "and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words"
+        },
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G1161",
+          "def": "but, and, etc"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        }
+      ]
+    },
+    {
+      "id": 258,
+      "word": "and they proudly referred to their forefathers",
+      "etym": "",
+      "mibDef": "Abraham, Isaac, and Jacob— who were taught of God.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2532",
+          "def": "and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words"
+        },
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G1161",
+          "def": "but, and, etc"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        }
+      ]
+    },
+    {
+      "id": 259,
+      "word": "and unifying the whole man",
+      "etym": "",
+      "mibDef": "spirit, soul, and body— in life. The apostles did much teaching and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2532",
+          "def": "and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words"
+        },
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G1161",
+          "def": "but, and, etc"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        }
+      ]
+    },
+    {
+      "id": 260,
+      "word": "and wealth",
+      "etym": "",
+      "mibDef": "the understanding and the realization of the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2532",
+          "def": "and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words"
+        },
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G1161",
+          "def": "but, and, etc"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        }
+      ]
+    },
+    {
+      "id": 261,
+      "word": "Andrew",
+      "etym": "Gk.",
+      "mibDef": "strong; a strong man; manly.",
+      "mibMeta": "The strength of the mind (a strong man, manly) that is rejoiced greatly when it finds the inexhaustible Source of all strength, and exclaims, \"We have found the Messiah\" (John 1:41). Andrew symbolizes the strength, while Simon Peter symbolizes the faith capacity, of the mind. When strength finds fai",
+      "candidates": [
+        {
+          "s": "G406",
+          "def": "manly; Andreas, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 262,
+      "word": "Andronicus",
+      "etym": "Gk.",
+      "mibDef": "man of victory; conquering man; a conqueror.",
+      "mibMeta": "Paul's statement that Andronicus was \"of note among the apostles,\" and was \"in Christ before me,\" means that man was ideally perfect in the Christ mind from the beginning, before he ever exercised his free will in a perverse way; also that he is inherently perfect before his will is finally converte",
+      "candidates": [
+        {
+          "s": "G408",
+          "def": "man of victory; Andronicos, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 263,
+      "word": "Anem",
+      "etym": "Heb.",
+      "mibDef": "double fountain; two fountains; two springs.",
+      "mibMeta": "A springing up of life and substance for both the spiritual and the seemingly material phases of man's being (double fountain). Levites pertain to the mental and spiritual of man; Issachar ( bearing hire , reward, tribute ) refers more to the earthly, or body consciousness. His are \"the hidden treas",
+      "candidates": [
+        {
+          "s": "H6046",
+          "def": "Anem, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 264,
+      "word": "Aner",
+      "etym": "Heb.",
+      "mibDef": "a boy; adolescent youth; a young sprout; shaken off; an exile.",
+      "mibMeta": "A refreshing, renewing thought -new life springing into consciousness (a boy, youth, a young sprout; the Canaanites are the elemental life forces in the subconsciousness, and the Amorites are erroneous thoughts and desires that have their seat of action in the generative function). Under the old tho",
+      "candidates": [
+        {
+          "s": "H6063",
+          "def": "Aner, a Amorite, also a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 265,
+      "word": "angel",
+      "etym": "Gk .",
+      "mibDef": "messenger; messengers of God.",
+      "mibMeta": "Thought of the Lord (Luke 1:11). Our angels are our spiritual perceptive faculties, which ever dwell in the presence of the Lather (Matt. 13:49). \"Their angels do always behold the face of my Lather who is in heaven\" (Matt. 18:10). These angels of our childlike, spiritual thoughts, \"these little one",
+      "candidates": [
+        {
+          "s": "H4397",
+          "def": "a messenger; specifically, of God, i.e., an angel (also a prophet, priest or teacher)"
+        },
+        {
+          "s": "G32",
+          "def": "compare G0034) (to bring tidings); a messenger; especially an \"angel\"; by implication, a pastor"
+        }
+      ]
+    },
+    {
+      "id": 266,
+      "word": "angel",
+      "etym": "",
+      "mibDef": "The quickening thought of God appearing in the form of light or divine",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4397",
+          "def": "a messenger; specifically, of God, i.e., an angel (also a prophet, priest or teacher)"
+        },
+        {
+          "s": "G32",
+          "def": "compare G0034) (to bring tidings); a messenger; especially an \"angel\"; by implication, a pastor"
+        }
+      ]
+    },
+    {
+      "id": 267,
+      "word": "angels",
+      "etym": "",
+      "mibDef": "The imaging power of the mind receiving divine ideas and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G32",
+          "def": "compare G0034) (to bring tidings); a messenger; especially an \"angel\"; by implication, a pastor"
+        },
+        {
+          "s": "H4397",
+          "def": "a messenger; specifically, of God, i.e., an angel (also a prophet, priest or teacher)"
+        }
+      ]
+    },
+    {
+      "id": 268,
+      "word": "angels",
+      "etym": "",
+      "mibDef": "To guard, to direct, and to redeem the natural forces of the body and mind,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G32",
+          "def": "compare G0034) (to bring tidings); a messenger; especially an \"angel\"; by implication, a pastor"
+        },
+        {
+          "s": "H4397",
+          "def": "a messenger; specifically, of God, i.e., an angel (also a prophet, priest or teacher)"
+        }
+      ]
+    },
+    {
+      "id": 269,
+      "word": "Aniam",
+      "etym": "Heb.",
+      "mibDef": "sighing; groaning; mourning; lamentation of the people.",
+      "mibMeta": "Manasseh refers to the understanding faculty in man, but more to an intellectual and negative phase of it that is not yet spiritually enlightened. Shemida means name of wisdom, fame of wisdom; but the understanding that is of the outer mentality alone, and is negative in its nature, cannot give true",
+      "candidates": []
+    },
+    {
+      "id": 270,
+      "word": "Anim",
+      "etym": "Heb .",
+      "mibDef": "fountains; natural springs; (weeping) eyes.",
+      "mibMeta": "New life, from the one unfailing Source of all life, springing into consciousness (fountains). Mountains symbolize high places in consciousness, exalted states of mind, and Judah symbolizes praise. By practicing praise and prayer we come into a realization of the truth of Jesus Christ's words, \"The ",
+      "candidates": []
+    },
+    {
+      "id": 271,
+      "word": "Anna",
+      "etym": "Gk.",
+      "mibDef": "grace; gracious.",
+      "mibMeta": "A certain conservation of spiritual life, which has been built up by devotion and faithfulness. This spiritual life is transmitted through many incarnations and becomes an inheritance of the soul; it is of great importance in the formation of the Christ body. Nothing is lost in the evolution of the ",
+      "candidates": []
+    },
+    {
+      "id": 272,
+      "word": "Annas",
+      "etym": "Gk. fr. Heb .",
+      "mibDef": "graciousness', grace ofJah.",
+      "mibMeta": "A very influential religious thought of the intellect, that is given over to rites and",
+      "candidates": [
+        {
+          "s": "G452",
+          "def": "Annas (i.e., G0367), an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 273,
+      "word": "anointed of God",
+      "etym": "",
+      "mibDef": "One who is conscious of the real spiritual outpouring from the source of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4886",
+          "def": "to rub with oil, i.e., to anoint; by implication, to consecrate; also to paint"
+        },
+        {
+          "s": "H4899",
+          "def": "anointed; usually a consecrated person (as a king, priest, or saint); specifically, the Messiah"
+        },
+        {
+          "s": "G218",
+          "def": "to oil (with perfume)"
+        },
+        {
+          "s": "G5548",
+          "def": "to smear or rub with oil, i.e., (by implication) to consecrate to an office or religious service"
+        },
+        {
+          "s": "H5480",
+          "def": "properly, to smear over (with oil), i.e., anoint"
+        }
+      ]
+    },
+    {
+      "id": 274,
+      "word": "anointed ones",
+      "etym": "Lat.",
+      "mibDef": "greased; smeared or rubbed with oil. The term has the same sense as the",
+      "mibMeta": "The \"two anointed ones\" (sons of oil), \"that stand by the Lord of the whole earth\" (Zech. 4:14) are the avenues through which the oil of the Spirit of life is brought into the body consciousness. In Revelation 11: 3, 4 they are called \"my two witnesses\" and \"the two olive trees.\" In Zechariah 4:6 we",
+      "candidates": [
+        {
+          "s": "H4886",
+          "def": "to rub with oil, i.e., to anoint; by implication, to consecrate; also to paint"
+        },
+        {
+          "s": "H4899",
+          "def": "anointed; usually a consecrated person (as a king, priest, or saint); specifically, the Messiah"
+        },
+        {
+          "s": "G218",
+          "def": "to oil (with perfume)"
+        },
+        {
+          "s": "G5548",
+          "def": "to smear or rub with oil, i.e., (by implication) to consecrate to an office or religious service"
+        },
+        {
+          "s": "H5480",
+          "def": "properly, to smear over (with oil), i.e., anoint"
+        }
+      ]
+    },
+    {
+      "id": 275,
+      "word": "Anthothijah (A. V.",
+      "etym": "Heb.",
+      "mibDef": "answers of Jah; answers from Jehovah.",
+      "mibMeta": "The truth that Jehovah, the Christ or Father in us, always responds (answers of Jah) to our faith when it is centered in the one true principle of Being, God the All-Good. The answers, or fulfillment of our faith, are ever present in Jerusalem, our own inner spiritual consciousness.",
+      "candidates": []
+    },
+    {
+      "id": 276,
+      "word": "antichrist",
+      "etym": "Gk .",
+      "mibDef": "against Christ; opposed to Christ; instead of Christ.",
+      "mibMeta": "That which denies or opposes the idea that the Christ dwells in and is the true self of each individual (against Christ; the meaning of anti is opposite, against, contrary to). Those who make the indwelling Spirit of truth their guide and authority will not be deceived by false claims made either by",
+      "candidates": [
+        {
+          "s": "G500",
+          "def": "an opponent of the Messiah"
+        }
+      ]
+    },
+    {
+      "id": 277,
+      "word": "Antioch",
+      "etym": "Gk .",
+      "mibDef": "withstanding; lasting; speedy as a chariot.",
+      "mibMeta": "Formulated theology. This state of mind must be Christianized thoroughly. Our ideas of God and of man's relation to God must undergo a great change before we can begin uplifting",
+      "candidates": [
+        {
+          "s": "G490",
+          "def": "Antioch (Antiochia), a place in Syria"
+        }
+      ]
+    },
+    {
+      "id": 278,
+      "word": "Antipas",
+      "etym": "Gk.",
+      "mibDef": "against one's native country; against all.",
+      "mibMeta": "Faithfulness to Truth ideals, even to the point of becoming against all that does not measure up to these ideals. This resistant attitude of mind leads to martyrdom. Jesus said that we should \"resist not him that is evil\" (Matt. 5:39). We do not need to resist evil, since it has no power of itself. ",
+      "candidates": [
+        {
+          "s": "G493",
+          "def": "Antipas, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 279,
+      "word": "apart from Spirit",
+      "etym": "",
+      "mibDef": "he calls upon the name",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5079",
+          "def": "properly, rejection; by implication, impurity, especially personal (menstruation) or moral (idolatry, incest)"
+        },
+        {
+          "s": "H5674",
+          "def": "to cross over; used very widely of any transition (literal or figurative; transitive, intransitive, intensive, causative); specifically, to cover (in copulation)"
+        },
+        {
+          "s": "H6395",
+          "def": "to distinguish (literally or figuratively)"
+        },
+        {
+          "s": "G3441",
+          "def": "remaining, i.e., sole or single; by implication, mere"
+        },
+        {
+          "s": "G659",
+          "def": "to put away (literally or figuratively)"
+        }
+      ]
+    },
+    {
+      "id": 280,
+      "word": "Apelles",
+      "etym": "Gk.",
+      "mibDef": "called; set apart.",
+      "mibMeta": "That in man which follows the inner leading of Spirit onward and upward ( called, set apart) to the exclusion of lesser, sense promptings and desires. This brings about a realization of the approval of the inner Christ: \"The Father approves of what I do.\"",
+      "candidates": [
+        {
+          "s": "G559",
+          "def": "Apelles, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 281,
+      "word": "Apharsathchites",
+      "etym": "Heb.",
+      "mibDef": "the breakers-up; the renders.",
+      "mibMeta": "Wandering thoughts and reasonings of the sense plane of thought in man that have no settled or fixed place in his consciousness. They are of a tearing apart, disagreeing nature (the breakers-up, the renders).",
+      "candidates": []
+    },
+    {
+      "id": 282,
+      "word": "Aphek",
+      "etym": "Heb.",
+      "mibDef": "strong; holding firm; tenacious; fortress.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 283,
+      "word": "Aphekah",
+      "etym": "Heb.",
+      "mibDef": "the fortress; the strong city.",
+      "mibMeta": "See APHEK.",
+      "candidates": []
+    },
+    {
+      "id": 284,
+      "word": "Aphiah",
+      "etym": "Heb.",
+      "mibDef": "blowing; breathing; uttering; refreshing; revivifying; panting; striving.",
+      "mibMeta": "The renewing, reanimating work of faith in consciousness (blowing, breathing, refreshing, revivifying, a Benjamite) .",
+      "candidates": []
+    },
+    {
+      "id": 285,
+      "word": "Aphik",
+      "etym": "Heb.",
+      "mibDef": "a fortress; a .strong place.",
+      "mibMeta": "See APHEK.",
+      "candidates": []
+    },
+    {
+      "id": 286,
+      "word": "Apollonia",
+      "etym": "Gk.",
+      "mibDef": "city of Apollo; place of Apollo; destruction.",
+      "mibMeta": "Examination or investigation into Truth. Truth passes through several stages in entering the mind: first doubt, then examination, then a great desire for the Truth, then acceptance.",
+      "candidates": []
+    },
+    {
+      "id": 287,
+      "word": "Apollos",
+      "etym": "Gk .",
+      "mibDef": "belonging to Apollo; destroyer; the sun, i. e., as laying waste. (See",
+      "mibMeta": "While one has but an intellectual concept of Truth (the John the Baptist doctrine) one is very likely to be hard and destructive in judgments (destroyer, laying waste), because of a zeal to get rid of error; but when the Christ understanding enters the consciousness, love predominates. Then a true p",
+      "candidates": [
+        {
+          "s": "G625",
+          "def": "Apollos, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 288,
+      "word": "Apollyon",
+      "etym": "Gk.",
+      "mibDef": "destruction; destroyer.",
+      "mibMeta": "See ABADDON. apostles— Those sent forth; messengers; ambassadors; active spiritual thoughts. Jesus conferred this title on the Twelve whom He sent forth to teach and to heal. In order to command our powers and to bring them into unity of action, we must know what they are and their respective places",
+      "candidates": []
+    },
+    {
+      "id": 289,
+      "word": "Appaim",
+      "etym": "Heb .",
+      "mibDef": "breathing places; two nostrils; countenance; face; presence; two",
+      "mibMeta": "The ability to face apparent facts and conditions squarely, and to originate (nostrils, nose-initiative capacity of the mind) or inaugurate new thoughts and modes of conduct, new rules of action, in order to bring about better conditions. Appaim also signifies the ability to detect, discern, or comp",
+      "candidates": []
+    },
+    {
+      "id": 290,
+      "word": "apparent control. It seems fleeting",
+      "etym": "",
+      "mibDef": "spiritual",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 291,
+      "word": "appears right to it",
+      "etym": "",
+      "mibDef": "its judgments and decisions being founded, for the greater part at least, in",
+      "mibMeta": "A soul quality relating to that which Shunem signifies. The central thought in that which Shulammite represents is peace and perfection. Shumathites, shu'-math-ites (fr. Heb.) --fragment; odorous; pungent; acrid; smelling. A family of Kiriath-jearim, descended from Shobal, son of Caleb (I Chron. 2:5",
+      "candidates": []
+    },
+    {
+      "id": 292,
+      "word": "appetite",
+      "etym": "",
+      "mibDef": "A hunger and thirst for sensual pleasures; misdirected effort to obtain",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2416",
+          "def": "alive; hence, raw (flesh); fresh (plant, water, year), strong; also (as noun, especially in the feminine singular and masculine plural) life (or living thing), whether literally or figuratively"
+        },
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        }
+      ]
+    },
+    {
+      "id": 293,
+      "word": "Apphia",
+      "etym": "Gk .",
+      "mibDef": "productive.",
+      "mibMeta": "Philemon means loving; he was a friend to Truth. Archippus means chief of the horses, master of horses, which suggests dominion over the vital forces of the organism and ability to care for them wisely. These qualities represented by Philemon and Archippus bring about a soul productiveness or fertil",
+      "candidates": []
+    },
+    {
+      "id": 294,
+      "word": "appropriating",
+      "etym": "",
+      "mibDef": "God and not God, or good and evil. The result, so the allegory",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 295,
+      "word": "Aquila",
+      "etym": "Lat.",
+      "mibDef": "eagle.",
+      "mibMeta": "By misunderstanding himself and his relation to the one Mind, man in his unregenerate state is constantly tearing down his organism. The heart center and the solar plexus, instead of being pervaded by thoughts of peace and harmony, and a just appreciation of divine law, are perverted to the basest t",
+      "candidates": [
+        {
+          "s": "G207",
+          "def": "Akulas, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 296,
+      "word": "Ar",
+      "etym": "Heb.",
+      "mibDef": "a city (especially a fortified city); a strong city; to excite, arouse, an enemy.",
+      "mibMeta": "An aggregation of strongly established thoughts (a strong city) in the carnal mind",
+      "candidates": [
+        {
+          "s": "H6144",
+          "def": "Ar, a place in Moab"
+        }
+      ]
+    },
+    {
+      "id": 297,
+      "word": "Arab",
+      "etym": "Heb .",
+      "mibDef": "ambuscade; a lurking place; a snare, - ambush.",
+      "mibMeta": "The reasoning faculty (this city was near Hebron, in the hill country of Judah, and",
+      "candidates": []
+    },
+    {
+      "id": 298,
+      "word": "Arabia",
+      "etym": "Heb.",
+      "mibDef": "darkened; toward the west; a stranger- uncultivated; unproductive;",
+      "mibMeta": "An outer, or Gentile, state of consciousness that in its wild, ignorant undisciplined, and unsettled nature is destructive in its tendency and is unproductive of good (darkened, toward the west, uncultivated, barren, wild). It must, however, be redeemed. Arabians, a-ra'-bl-ans (Heb.). Inhabitants of",
+      "candidates": [
+        {
+          "s": "H6152",
+          "def": "Arab (i.e., Arabia), a country East of Palestine"
+        }
+      ]
+    },
+    {
+      "id": 299,
+      "word": "Arah",
+      "etym": "Heb.",
+      "mibDef": "to go; to walk; to be on the way; a traveler; a wayfarer; a wanderer; the",
+      "mibMeta": "An unstable thought in man's consciousness, or a tendency to digress from Truth",
+      "candidates": []
+    }
+  ]
+}

@@ -1,0 +1,1287 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "8 of 37",
+  "_entry_range": "ids 700–799",
+  "entries": [
+    {
+      "id": 700,
+      "word": "Carpus",
+      "etym": "Gk.",
+      "mibDef": "harvest, i. e., ingathering of crops; fruitfulness; products; fruits.",
+      "mibMeta": "The good effect (fruits) of the word of Truth that has been declared (Paul's work) in the Troas consciousness in the individual. (See TROAS.)",
+      "candidates": []
+    },
+    {
+      "id": 701,
+      "word": "Carshena",
+      "etym": "Heb. from Pers .",
+      "mibDef": "black; spoiler; lean; slender; distinguished.",
+      "mibMeta": "There were seven of these princes who were next to the king in the kingdom; they represent the seven creative principles that have been developed in the natural man. There are five more",
+      "candidates": []
+    },
+    {
+      "id": 702,
+      "word": "Casiphia",
+      "etym": "Heb ,",
+      "mibDef": "pale; pallid, white; silver (so called from its pale color); money;",
+      "mibMeta": "A certain purity of thought (white) with a degree of understanding and realization of substance, but in need of more direct spiritual illumination, strength, and vitality (pale, pallid, silver, money, shining).",
+      "candidates": []
+    },
+    {
+      "id": 703,
+      "word": "Casluhim",
+      "etym": "Heb.",
+      "mibDef": "tried for atonement; expiatory trials; forgiveness of sins; hopes of",
+      "mibMeta": "The thought contained in Casluhim is that, by means of trials, testings, tribulation, experience, man's outer consciousness (that which constitutes the sensate or physical in him) evolves, unfolds Godward, is released from error, and is lifted to its true spiritual quality and expression; that man m",
+      "candidates": []
+    },
+    {
+      "id": 704,
+      "word": "Cauda (A. V.",
+      "etym": "Gk.",
+      "mibDef": "broken ; lame; lamentable.",
+      "mibMeta": "Sorrow (lamentable, broken, lame ) because of the errors of the carnal",
+      "candidates": []
+    },
+    {
+      "id": 705,
+      "word": "cause and effect",
+      "etym": "",
+      "mibDef": "The law of sequence; the balance wheel of the universe. This law, like all other",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H853",
+          "def": "properly, self (but generally used to point out more definitely the object of a verb or preposition, even or namely)"
+        },
+        {
+          "s": "G5124",
+          "def": "that thing"
+        },
+        {
+          "s": "H7379",
+          "def": "a contest (personal or legal)"
+        },
+        {
+          "s": "H7725",
+          "def": "to turn back (hence, away) transitively or intransitively, literally or figuratively (not necessarily with the idea of return to the starting point); generally to retreat; often adverbial, again"
+        },
+        {
+          "s": "G156",
+          "def": "a cause (as if asked for), i.e., (logical) reason (motive, matter), (legal) crime (alleged or proved)"
+        }
+      ]
+    },
+    {
+      "id": 706,
+      "word": "causes",
+      "etym": "",
+      "mibDef": "Primal causes are complete, finished, absolute. All that man manifests has its",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1697",
+          "def": "a word; by implication, a matter (as spoken of) or thing; adverbially, a cause"
+        },
+        {
+          "s": "H182",
+          "def": "turnings (i.e., occasions); (adverb) on account of"
+        },
+        {
+          "s": "H4065",
+          "def": "seduction"
+        },
+        {
+          "s": "H7379",
+          "def": "a contest (personal or legal)"
+        },
+        {
+          "s": "G5130",
+          "def": "of (from or concerning) these (persons or things)"
+        }
+      ]
+    },
+    {
+      "id": 707,
+      "word": "Cenchrc/E (A. V.",
+      "etym": "Gk .",
+      "mibDef": "millet; milletlike; small grains; small beads.",
+      "mibMeta": "Cenchreae (small grains, like millet) signifies, like the mustard seed of Jesus' parable, the fact that the Truth established in the consciousness of man is at first similar to a very tiny seed (the word is the seed). We should not therefore despise nor look upon as insignificant any beginning of li",
+      "candidates": []
+    },
+    {
+      "id": 708,
+      "word": "Cephas",
+      "etym": "Gk. from Chald ,",
+      "mibDef": "hard; unyielding; a stone; rock; cliff.",
+      "mibMeta": "An unwavering faith in God. (See PETER.) When this faith is established firmly in individual consciousness, it becomes a rock, a sure foundation, unshakable, immovable, upon which one can build spiritually.",
+      "candidates": []
+    },
+    {
+      "id": 709,
+      "word": "ceremonies",
+      "etym": "",
+      "mibDef": "the outer letter of the word, or form of religion, without the inner spiritual Truth. The Bible",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4941",
+          "def": "properly, a verdict (favorable or unfavorable) pronounced judicially, especially a sentence or formal decree (human or (participant's) divine law, individual or collective), including the act, the place, the suit, the crime, and the penalty; abstractly, justice, including a participant's right or privilege (statutory or customary), or even a style"
+        }
+      ]
+    },
+    {
+      "id": 710,
+      "word": "Chaldea",
+      "etym": "Gk.",
+      "mibDef": "savant; astrologer; magi.",
+      "mibMeta": "The psychic realm in man (savant, astrologer, magi) posing as the true spiritual realm, thus deceiving the individual and robbing him of the spiritual contact and good that he is seeking.",
+      "candidates": [
+        {
+          "s": "H3778",
+          "def": "a Kasdite, or descendant of Kesed; by implication, a Chaldaean (as if so descended); also an astrologer (as if proverbial of that people"
+        }
+      ]
+    },
+    {
+      "id": 711,
+      "word": "Chaldeans",
+      "etym": "Gk.",
+      "mibDef": "savants; astrologers; occultists; magi.",
+      "mibMeta": "Psychic thoughts that connect the individual soul with the soul of the earth and the heavenly bodies. They are not spiritual, but shine by borrowed light. Chaldees, chal'-dees. The same people as the Chaldeans (Gen. 15:7). See CHALDEANS.",
+      "candidates": [
+        {
+          "s": "H3778",
+          "def": "a Kasdite, or descendant of Kesed; by implication, a Chaldaean (as if so descended); also an astrologer (as if proverbial of that people"
+        },
+        {
+          "s": "H3779",
+          "def": "a Chaldaean or inhabitant of Chaldaea; by implication, a Magian or professional astrologer"
+        }
+      ]
+    },
+    {
+      "id": 712,
+      "word": "Change",
+      "etym": "",
+      "mibDef": "Action and reaction are constant in the cosmos. There",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4171",
+          "def": "to alter; by implication, to barter, to dispose of"
+        },
+        {
+          "s": "H2487",
+          "def": "alternation"
+        },
+        {
+          "s": "H2498",
+          "def": "properly, to slide by, i.e., (by implication) to hasten away, pass on, spring up, pierce or change"
+        },
+        {
+          "s": "H8138",
+          "def": "to fold, i.e., duplicate (literally or figuratively); by implication, to transmute (transitive or intransitive)"
+        },
+        {
+          "s": "G236",
+          "def": "to make different"
+        }
+      ]
+    },
+    {
+      "id": 713,
+      "word": "Change",
+      "etym": "",
+      "mibDef": "An ancient Hebre meditation lost in antiquity says, “Change perpetual is at the root of",
+      "mibMeta": "Chariots, in the Bible, represent the body activities.",
+      "candidates": [
+        {
+          "s": "H4171",
+          "def": "to alter; by implication, to barter, to dispose of"
+        },
+        {
+          "s": "H2487",
+          "def": "alternation"
+        },
+        {
+          "s": "H2498",
+          "def": "properly, to slide by, i.e., (by implication) to hasten away, pass on, spring up, pierce or change"
+        },
+        {
+          "s": "H8138",
+          "def": "to fold, i.e., duplicate (literally or figuratively); by implication, to transmute (transitive or intransitive)"
+        },
+        {
+          "s": "G236",
+          "def": "to make different"
+        }
+      ]
+    },
+    {
+      "id": 714,
+      "word": "chaos",
+      "etym": "",
+      "mibDef": "Disorder; confusion; discord. Chaos in body and affairs results from chaos in mind, a",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 715,
+      "word": "character",
+      "etym": "",
+      "mibDef": "The true estimate of man's qualities. Character building is ever from within",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 716,
+      "word": "Chebar",
+      "etym": "Heb.",
+      "mibDef": "binding together; joining; plaiting; braiding; strength; magnitude;",
+      "mibMeta": "A current (river) of vital thought, which strengthens the religious thoughts of man (Jews) that have been reaching out for spiritual Truth but have become entangled in psychic forces (Chaldeans) and have fallen into sense confusion (Babylon). Spiritual revelation also comes to them here and tends to",
+      "candidates": []
+    },
+    {
+      "id": 717,
+      "word": "Chedorlaomer",
+      "etym": "Heb. of doubtful origin",
+      "mibDef": "sheaf band; handful of sheaves;",
+      "mibMeta": "The generative functions of the body given over to the expression of sex lust. The kings of Genesis 14:2, who served Chedorlaomer for twelve years and then rebelled, represent ruling thoughts in the hidden, sense consciousness of man. The substance of these ruling energies is given over to the use o",
+      "candidates": [
+        {
+          "s": "H3540",
+          "def": "Kedorlaomer, an early Persian king"
+        }
+      ]
+    },
+    {
+      "id": 718,
+      "word": "cheerfulness",
+      "etym": "",
+      "mibDef": "A steady, quiet, beautiful expression of the joy of God. It is conducive to good",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 719,
+      "word": "Chelal",
+      "etym": "Heb .",
+      "mibDef": "perfection; completion; whole; finished; crowned.",
+      "mibMeta": "The perfection or completion that Chelal signifies cannot refer to spiritual",
+      "candidates": []
+    },
+    {
+      "id": 720,
+      "word": "Chelub",
+      "etym": "Heb.",
+      "mibDef": "a trap cage; a bird cage; a basket.",
+      "mibMeta": "A degree of executive power attained through praise (a man of Judah who had charge of the field laborers in David's reign). This consciousness of executive power is somewhat limited by narrow personal beliefs, but is seeking freer, fuller expression (a trap cage, a bird cage, a basket, with the thou",
+      "candidates": [
+        {
+          "s": "H3620",
+          "def": "Kelub, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 721,
+      "word": "Chelubai",
+      "etym": "Heb.",
+      "mibDef": "clapper; barker; trapper; basket weaver.",
+      "mibMeta": "A thought activity that works in the consciousness to put away error and establish good. The destructive tendency must be eliminated from this thought and the cleansing, redeeming spirit of the Christ must be wholly accepted, that it may do perfect work. (See CALEB,)",
+      "candidates": []
+    },
+    {
+      "id": 722,
+      "word": "Cheluhi (A.V.",
+      "etym": "Web.",
+      "mibDef": "completed; perfected; finished; full; robust;",
+      "mibMeta": "Perfection of vigor and strength in the natural man (completed, perfected, full, robust; an Israelite who had taken a foreign wife). This expression of vigor and strength needs to be unified with true understanding that it may become more spiritual.",
+      "candidates": []
+    },
+    {
+      "id": 723,
+      "word": "Chemarim",
+      "etym": "Heb.",
+      "mibDef": "burners; scorchers; black-",
+      "mibMeta": "The priests of the Old Testament symbolize our natural religious tendencies; they are not necessarily spiritual. The Chemarim (idolatrous priests) are the ruling thoughts in our religious nature that pass under the guise of Truth but that ever magnify, build up, and strengthen the material and perso",
+      "candidates": []
+    },
+    {
+      "id": 724,
+      "word": "Chemosh",
+      "etym": "Heb.",
+      "mibDef": "subduer; depressor; vanquisher; an incubus; concealed; yearning",
+      "mibMeta": "The seeming strength and subtlety of error, of the \"mind of the flesh\" in man. (See CARCHEMISH.)",
+      "candidates": [
+        {
+          "s": "H3645",
+          "def": "Kemosh, the god of the Moabites"
+        }
+      ]
+    },
+    {
+      "id": 725,
+      "word": "Chenaanah",
+      "etym": "Heb.",
+      "mibDef": "existing in and for material things; trafficker in material",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3668",
+          "def": "Kenaanah, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 726,
+      "word": "Chenani",
+      "etym": "Heb ,",
+      "mibDef": "whom Jehovah has set; Jehovah has planted; Jah has established;",
+      "mibMeta": "The belief in man's higher, religious, or spiritual thoughts that he is of God, has",
+      "candidates": []
+    },
+    {
+      "id": 727,
+      "word": "Chenaniah",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah has set; Jah has established; whom Jah",
+      "mibMeta": "The interpretation is virtually the same as that of Chenani. (See CHENANI.) When this realization of divine protection springs up in man's consciousness and throughout his whole being, he is greatly strengthened (strength of the Lord); he also experiences joy and harmony (music) in his soul and he s",
+      "candidates": [
+        {
+          "s": "H3663",
+          "def": "Kenanjah, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 728,
+      "word": "Chephar-ammoni (A.V.",
+      "etym": "Web.",
+      "mibDef": "village of the",
+      "mibMeta": "A thought center in man that, though given over to the activity of faith (Benjamites), still retains some of its old Ammonitish tendencies and beliefs (village of the Ammonites). (See AMMONITES.)",
+      "candidates": []
+    },
+    {
+      "id": 729,
+      "word": "Chephirah",
+      "etym": "Heb.",
+      "mibDef": "covered; overlaid; village; hamlet.",
+      "mibMeta": "A subconscious realm of thought, of a lowly, common, deceptive nature ( covered, overlaid, village, hamlet). It recognizes the superiority of the higher, truer, religious thoughts that the Israelites signify. By subtlety, and because of its willingness to exchange ideas (the Chephirahites were trade",
+      "candidates": []
+    },
+    {
+      "id": 730,
+      "word": "Cheran",
+      "etym": "Heb .",
+      "mibDef": "lyre; harp; a stringed instrument; united; a joyous; shout.",
+      "mibMeta": "A harmonious, unifying thought that is active in the depths of the physical CHERUB being of man (united, lyre; a Horite). Since this thought is not consciously one with Spirit, though its origin and intent are good, it cannot bring about the perfect union of man with God, and the true spiritual harm",
+      "candidates": []
+    },
+    {
+      "id": 731,
+      "word": "Cherethites",
+      "etym": "",
+      "mibDef": "executioners; couriers; foot runners; headsmen.",
+      "mibMeta": "Activities of a high degree of understanding and justice, also of life energy and executive power ( executioners , headsmen, and foot runners); these protect and serve, and execute the demands of, the love faculty in man when it is raised to the seat of power and dominion in consciousness (King Davi",
+      "candidates": [
+        {
+          "s": "H3774",
+          "def": "a Kerethite or life-guardsman"
+        }
+      ]
+    },
+    {
+      "id": 732,
+      "word": "Cherith",
+      "etym": "Heb .",
+      "mibDef": "cutting; separating; dividing; slaying; a trench; a gorge; a wound.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 733,
+      "word": "Cherub",
+      "etym": "Heb.",
+      "mibDef": "the singular form of cherubim. (See CHERUBIM for further",
+      "mibMeta": "An aggregation of thoughts in consciousness that have been held in confusion (Babylon) but are becoming free because of the seeds of Truth thoughts (Israelites) that are working in them. They are still so tainted with the Babylonish thought, however, that they cannot take a place among our natural r",
+      "candidates": [
+        {
+          "s": "H3742",
+          "def": "a cherub or imaginary figure"
+        }
+      ]
+    },
+    {
+      "id": 734,
+      "word": "cherubim",
+      "etym": "Heb.",
+      "mibDef": "legion-like; augmentation; growth to infinity; grasped; held fast.",
+      "mibMeta": "The \"cherubim\" of I Kings 8:6-8 were symbolic figures representing the attributes and majesty of God. hey stand for the unfettered truths of Being, which must always be present in the holy of holies within us. If we do not have this higher realization before us constantly, we shall drop down to the ",
+      "candidates": []
+    },
+    {
+      "id": 735,
+      "word": "cherubim",
+      "etym": "",
+      "mibDef": "Protection; sacred life. The inner, spiritual life is protected from the outer, coarser",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 736,
+      "word": "Chesalon",
+      "etym": "Heb.",
+      "mibDef": "loin; fleshy; fat; strength; great hope; sure confidence; fertile.",
+      "mibMeta": "A consciousness of physical strength (loin; fleshy; fat; strength). Under the influence of the higher ideals that Judah signifies, this consciousness of strength will be raised to the understanding that all true strength is founded in Spirit and works out great good to the individual who realizes Go",
+      "candidates": []
+    },
+    {
+      "id": 737,
+      "word": "Chesed",
+      "etym": "Heb.",
+      "mibDef": "wisdom; a savant; an astrologer; a magi; an occultist.",
+      "mibMeta": "A degree of wisdom, a wisdom that is psychical in its nature, rather than spiritual (a savant, an astrologer, a magi, an occultist).",
+      "candidates": []
+    },
+    {
+      "id": 738,
+      "word": "Chesil",
+      "etym": "Heb.",
+      "mibDef": "loin; fleshy; fat; fleshly; carnal; fool; foolish; impious; ungodly.",
+      "mibMeta": "The unwise, ungodly thoughts and activities that hold sway in man when he lives",
+      "candidates": []
+    },
+    {
+      "id": 739,
+      "word": "Chidon",
+      "etym": "Heb.",
+      "mibDef": "javelin; spear; calamity; war; destruction; ruin.",
+      "mibMeta": "See NACON. childlike— (see meek) Children of Israel— The thoughts of reality or the true ideas about Being that have to be brought out in every part of man's consciousness. These thoughts are brought down from the land of Canaan into Egypt (the flesh consciousness) and, for a season, are submerged i",
+      "candidates": []
+    },
+    {
+      "id": 740,
+      "word": "Chileab",
+      "etym": "Heb.",
+      "mibDef": "like unto the father; totality of the father, i.e., perfection of all that the",
+      "mibMeta": "Daniel signifies spiritual judgment. Chileab here refers to love (like into the father; David symbolizing love) established in judgment.",
+      "candidates": []
+    },
+    {
+      "id": 741,
+      "word": "Chilion",
+      "etym": "Heb .",
+      "mibDef": "pining; wasting away; sickly; consumption; destruction.",
+      "mibMeta": "Elimelech means God is king. But Naomi (the soul) has let her desire run out to the sense consciousness, and has given her substance to it. Therefore the sons, or thought emanations, that come from the soul and its consciousness of God as king are not strong, positive and vital; they are not filled ",
+      "candidates": [
+        {
+          "s": "H3630",
+          "def": "Kiljon, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 742,
+      "word": "Chilmad",
+      "etym": "Heb.",
+      "mibDef": "inclosed; surrounded; closed.",
+      "mibMeta": "The picture of Tyre as given by Ezekiel shows it to symbolize sense consciousness puffed up with pride and self-sufficiency. Chilmad signifies an active state of thought of the same character as Tyre. It is apparently wholly taken up with sense. It is surrounded by error, and is closed against spiri",
+      "candidates": []
+    },
+    {
+      "id": 743,
+      "word": "Chimham",
+      "etym": "Heb.",
+      "mibDef": "pining; longing; desiring greatly; pale; faint.",
+      "mibMeta": "Barzillai represents physical strength, whose substance is used for the sustenance of love ruling in consciousness (David, the king). Chimham (pining longing), who went with David to Gilgal (Gilgal means rolling and refers to a total denial, or rolling away, of sense bondage), is the intense longing",
+      "candidates": [
+        {
+          "s": "H3643",
+          "def": "Kimham, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 744,
+      "word": "Chinneroth",
+      "etym": "Heb.",
+      "mibDef": "the plural form of Chinnereth.",
+      "mibMeta": "See CHINNERETH.",
+      "candidates": [
+        {
+          "s": "H3672",
+          "def": "Kinneroth or Kinnereth, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 745,
+      "word": "Chios",
+      "etym": "Gk.",
+      "mibDef": "wine; fertility; open.",
+      "mibMeta": "An open, unobstructed, fertile attitude of thought; this thought relates closely to Spirit and life (wine). When man opens his intellectual reasoning mind so that the word of Truth (Paul) may find access, he is \"over against\" Chios.",
+      "candidates": []
+    },
+    {
+      "id": 746,
+      "word": "Chislev (A.V.",
+      "etym": "Heb .",
+      "mibDef": "hopeful; confident; Mars; Orion; a hunter. The three",
+      "mibMeta": "A hopeful, confident attitude of mind. In individual consciousness divisions of time refer to degrees of unfoldment. Things that are spiritual and eternal cannot be measured by days, months, and years, but by steps or degrees in unfoldment and attainment. (See TIME.)",
+      "candidates": []
+    },
+    {
+      "id": 747,
+      "word": "Chislon",
+      "etym": "Heb.",
+      "mibDef": "strength; hope; confidence; trust. This name comes from the same root",
+      "mibMeta": "Strength and confidence established in faith (strength, hope, confidence, trust; a Benjamite). The hope of man's full redemption must be based upon God before man can enter in and take possession of his Promised Land (the consciousness and the body), and before he can utilize all his inner forces an",
+      "candidates": []
+    },
+    {
+      "id": 748,
+      "word": "Chisloth-tabor",
+      "etym": "Heb.",
+      "mibDef": "loins of Tabor; strength of Tabor; hope of the heaped",
+      "mibMeta": "The strength of high, exalted thoughts and ideals (loins of Tabor; loins refer to strength). (See TABOR and CHESULLOTH.)",
+      "candidates": []
+    },
+    {
+      "id": 749,
+      "word": "Chloe",
+      "etym": "Gk.",
+      "mibDef": "tender shoot; tender growth; verdant herbage; green herb.",
+      "mibMeta": "A springing up into expression, or manifest growth, of the word of Truth that has been planted in the love center (Corinth) in individual consciousness. This word has taken root in substance and is springing up into life and peace. The 6 household of Chloe\" means spiritual thoughts of life and love ",
+      "candidates": []
+    },
+    {
+      "id": 750,
+      "word": "Chorazin",
+      "etym": "Gk. from Heb .",
+      "mibDef": "place of proclamations; place of heralds; secret.",
+      "mibMeta": "The people of Chorazin, with Bethsaida, witnessed the mighty works of Jesus, yet were not moved to change their ways and accept the Truth. They are types of minds that are fixed in their ideas of what is religiously proper, and do not open to the more interior phases of Truth. The openly wanton and ",
+      "candidates": []
+    },
+    {
+      "id": 751,
+      "word": "chosen of God",
+      "etym": "",
+      "mibDef": "God has chosen each of us as a medium for the expression of Himself as love,",
+      "mibMeta": "Along with the doctrine of hell and eternal punishment, there came into the theological world a very warped idea of a \"chosen people.\" In the minds of certain churchmen and their followers the belief became general that God chose certain people to be saved in heaven, and elected the remainder of the",
+      "candidates": [
+        {
+          "s": "H977",
+          "def": "properly, to try, i.e., (by implication) select"
+        },
+        {
+          "s": "G1586",
+          "def": "to select"
+        },
+        {
+          "s": "H4005",
+          "def": "select, i.e., best"
+        },
+        {
+          "s": "G1588",
+          "def": "select; by implication, favorite"
+        },
+        {
+          "s": "H970",
+          "def": "properly, selected, i.e., a youth (often collective)"
+        }
+      ]
+    },
+    {
+      "id": 752,
+      "word": "chosen people",
+      "etym": "",
+      "mibDef": "The \"royal priesthood\" making up the Christ body; by overcoming, they have",
+      "mibMeta": "Christ is the divine-idea man. Jesus is the name that represents an individual expression of the Christ idea. Jesus Christ is the form of the name that is commonly applied to the man of Galilee who demonstrated perfection. Christ Jesus is the idea that is being expressed by men as the result of thei",
+      "candidates": [
+        {
+          "s": "H977",
+          "def": "properly, to try, i.e., (by implication) select"
+        },
+        {
+          "s": "G1586",
+          "def": "to select"
+        },
+        {
+          "s": "H4005",
+          "def": "select, i.e., best"
+        },
+        {
+          "s": "G1588",
+          "def": "select; by implication, favorite"
+        },
+        {
+          "s": "H970",
+          "def": "properly, selected, i.e., a youth (often collective)"
+        }
+      ]
+    },
+    {
+      "id": 753,
+      "word": "Christ",
+      "etym": "",
+      "mibDef": "and is established in his rightful place by Jehovah, wherein he is divinely sustained and protected",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5547",
+          "def": "anointed, i.e., the Messiah, an epithet of Jesus"
+        }
+      ]
+    },
+    {
+      "id": 754,
+      "word": "Christ",
+      "etym": "",
+      "mibDef": "The incarnating principle of the God- man; the perfect Word or idea of God, which",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5547",
+          "def": "anointed, i.e., the Messiah, an epithet of Jesus"
+        }
+      ]
+    },
+    {
+      "id": 755,
+      "word": "Christ",
+      "etym": "",
+      "mibDef": "To dwell continually in the consciousness of Christ to the point of realization of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5547",
+          "def": "anointed, i.e., the Messiah, an epithet of Jesus"
+        }
+      ]
+    },
+    {
+      "id": 756,
+      "word": "Christ",
+      "etym": "",
+      "mibDef": "Man is the bringing forth (the birth) of God's idea of man, the Christ of God.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5547",
+          "def": "anointed, i.e., the Messiah, an epithet of Jesus"
+        }
+      ]
+    },
+    {
+      "id": 757,
+      "word": "Christ",
+      "etym": "",
+      "mibDef": "The dawning in mind that spiritual man is the real Son of God.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5547",
+          "def": "anointed, i.e., the Messiah, an epithet of Jesus"
+        }
+      ]
+    },
+    {
+      "id": 758,
+      "word": "Christ",
+      "etym": "",
+      "mibDef": "When man appropriates words of Truth he partakes of that which forms the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5547",
+          "def": "anointed, i.e., the Messiah, an epithet of Jesus"
+        }
+      ]
+    },
+    {
+      "id": 759,
+      "word": "Christ",
+      "etym": "",
+      "mibDef": "The Son of God or spiritual nucleus within each person. All our thoughts",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5547",
+          "def": "anointed, i.e., the Messiah, an epithet of Jesus"
+        }
+      ]
+    },
+    {
+      "id": 760,
+      "word": "Christ",
+      "etym": "",
+      "mibDef": "We are joint heirs with Christ to all that the Father has. This truth",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5547",
+          "def": "anointed, i.e., the Messiah, an epithet of Jesus"
+        }
+      ]
+    },
+    {
+      "id": 761,
+      "word": "Christ",
+      "etym": "",
+      "mibDef": "The awakening and the regeneration of the subconscious mind",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5547",
+          "def": "anointed, i.e., the Messiah, an epithet of Jesus"
+        }
+      ]
+    },
+    {
+      "id": 762,
+      "word": "Christ and Jehovah",
+      "etym": "",
+      "mibDef": "Jehovah of the Old Testament is the I AM, or Christ of God invisible; the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5547",
+          "def": "anointed, i.e., the Messiah, an epithet of Jesus"
+        }
+      ]
+    },
+    {
+      "id": 763,
+      "word": "Christ and of God",
+      "etym": "",
+      "mibDef": "for their exhortation and confirmation in Truth. \"And Judas and Silas, being",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5547",
+          "def": "anointed, i.e., the Messiah, an epithet of Jesus"
+        }
+      ]
+    },
+    {
+      "id": 764,
+      "word": "Christ body",
+      "etym": "",
+      "mibDef": "The work of the Christ body is the \"restoration of all things, whereof",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5547",
+          "def": "anointed, i.e., the Messiah, an epithet of Jesus"
+        }
+      ]
+    },
+    {
+      "id": 765,
+      "word": "Christ in you",
+      "etym": "",
+      "mibDef": "The true light, which guides every man coming into the world, is, and ever has",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5547",
+          "def": "anointed, i.e., the Messiah, an epithet of Jesus"
+        }
+      ]
+    },
+    {
+      "id": 766,
+      "word": "Christian",
+      "etym": "",
+      "mibDef": "In the New Testament symbology. Christian typifies the spiritual and",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 767,
+      "word": "Christianity",
+      "etym": "",
+      "mibDef": "The science of eternal life. It is governed by scientific principles of mind action,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 768,
+      "word": "Christianity",
+      "etym": "",
+      "mibDef": "Christianity that deals with the deep truths that Jesus taught. \"The letter",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 769,
+      "word": "Christianity",
+      "etym": "",
+      "mibDef": "Christianity that deals with the letter or surface meaning of the teachings",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 770,
+      "word": "Chronicles 7:27",
+      "etym": "Heb .",
+      "mibDef": "Jehovah is salvation; Jah is",
+      "mibMeta": "Joshua means Jah is savior, Jehovah is deliverer. In the Hebrew the name is identical with the name Jesus. Both of these names are derived from the word Jehovah, meaning \"I AM THAT I AM.\" The only difference between Joshua and Jesus is the extent of conscious realization of identity with the I AM. U",
+      "candidates": [
+        {
+          "s": "H1697",
+          "def": "a word; by implication, a matter (as spoken of) or thing; adverbially, a cause"
+        }
+      ]
+    },
+    {
+      "id": 771,
+      "word": "church of Christ",
+      "etym": "",
+      "mibDef": "Spiritual consciousness, first individual, then collective. In the general usage",
+      "mibMeta": "Herod is the human will, or sense consciousness, in active control in the individual. But when Jesus has been born in one's consciousness, and the Christ Truth is being imparted to the whole man, the faculties of body and soul that have been given over to sense begin to wake up, and to recognize the",
+      "candidates": [
+        {
+          "s": "G1577",
+          "def": "a calling out, i.e., (concretely) a popular meeting, especially a religious congregation (Jewish synagogue, or Christian community of members on earth or saints in heaven or both)"
+        }
+      ]
+    },
+    {
+      "id": 772,
+      "word": "Cilicia",
+      "etym": "Gk .",
+      "mibDef": "treacherous; cruel; brutish.",
+      "mibMeta": "Cilicia, meaning treacherous, cruel, Derbe, meaning harsh, stinging, and Lystra, meaning that dissolves, indicate that the work of Paul and Silas required great effort; it was not pleasant. Forceful thoughts often stir up opposition, especially if these thoughts have much of the \"purely intellectual",
+      "candidates": [
+        {
+          "s": "G2791",
+          "def": "Cilicia, a region of Asia Minor"
+        }
+      ]
+    },
+    {
+      "id": 773,
+      "word": "circulation",
+      "etym": "",
+      "mibDef": "The inner stream of life, substance, and intelligence flowing freely through",
+      "mibMeta": "Fixed states of consciousness or aggregations of thoughts in the various nerve centers of the body. The presiding or central thought-meaning of a city is found in the significance of its name, combined with that of the man tribe, country, or nation with which it is mentioned. In their highest signif",
+      "candidates": []
+    },
+    {
+      "id": 774,
+      "word": "city of Adoraim signifies",
+      "etym": "",
+      "mibDef": "it is unstable and shifting, until the sense man",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5892",
+          "def": "a city (a place guarded by waking or a watch) in the widest sense (even of a mere encampment or post)"
+        },
+        {
+          "s": "G4172",
+          "def": "a town (properly, with walls, of greater or less size)"
+        },
+        {
+          "s": "H7151",
+          "def": "a city"
+        },
+        {
+          "s": "H7149",
+          "def": "building; a city"
+        },
+        {
+          "s": "H7153",
+          "def": "Kirjath-Arba or Kirjath-ha-Arba, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 775,
+      "word": "Claudia",
+      "etym": "Lat.",
+      "mibDef": "broken; lame; lamentable.",
+      "mibMeta": "A soul quality that loves the truth of man's divine sonship (believes on Jesus Christ); this soul quality is somewhat limited or hindered in its practical understanding and expression ( broken , lame ) because of its relation to the head in its sensate reasoning and carnal personal will (Rome and th",
+      "candidates": []
+    },
+    {
+      "id": 776,
+      "word": "Claudius",
+      "etym": "Lat.",
+      "mibDef": "broken; lame; lamentable.",
+      "mibMeta": "Lameness usually refers to the legs and feet; the feet represent the phase of man's understanding that comes in touch with the outer world of affairs. Claudius ( broken , lame, lamentable ) points to a serious and deplorable defect in the practical understanding, which should enable one to express t",
+      "candidates": [
+        {
+          "s": "G2804",
+          "def": "Claudius, the name of two Romans"
+        }
+      ]
+    },
+    {
+      "id": 777,
+      "word": "Clement",
+      "etym": "Lat. from Gk.",
+      "mibDef": "tender; merciful; mild; kind.",
+      "mibMeta": "The gentle, soothing, releasing (tender, merciful mild, kind) quality of the word in its calming, equalizing, healing activities in the consciousness. (Paul, in his missionary work, represents the word of Truth in its ministry to the whole of man's being.)",
+      "candidates": [
+        {
+          "s": "G2815",
+          "def": "merciful; Clemes (i.e., Clemens), a Christian"
+        }
+      ]
+    },
+    {
+      "id": 778,
+      "word": "Cleopas",
+      "etym": "Gk.",
+      "mibDef": "glorious father; renowned father; father of praise.",
+      "mibMeta": "A faculty of mind not yet awakened fully to spiritual understanding. It has heard the Truth: Cleopas was a follower of Jesus; he had walked and talked with Him, but he had never affirmed as his own the Truth that Jesus taught. Through the blessing and breaking of bread his eyes were opened— his comp",
+      "candidates": []
+    },
+    {
+      "id": 779,
+      "word": "Clopas (Cleophas",
+      "etym": "",
+      "mibDef": "Alph%us), clo'-pas (Gk glory to the father; glorious father; otherwise the",
+      "mibMeta": "See ALPH®US. cloud, the, that filled the whole place (I Kings 8:10, 11). The presence of the mind of God in spiritual visibility, which comes to us when we have dropped all formal religious exercises and are resting in the very consciousness of Deity. This brightness of understanding is so great tha",
+      "candidates": []
+    },
+    {
+      "id": 780,
+      "word": "Cnidus",
+      "etym": "Gk.",
+      "mibDef": "nettle; scratch; irritate; tickle.",
+      "mibMeta": "Paul, the word of Truth, was being taken to Rome (Paul bound at Rome represents the word of Truth confined to the intellect) in bonds, and the voyage was very hazardous; it was beset by carnal thoughts and desires of the \"mind of the flesh\" (Crete means carnal, fleshly); also by the vexed, irritated",
+      "candidates": []
+    },
+    {
+      "id": 781,
+      "word": "coat without seam",
+      "etym": "",
+      "mibDef": "The \"coat . . . without seam,\" which the soldiers did not separate, represents",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3801",
+          "def": "a shirt"
+        },
+        {
+          "s": "H8302",
+          "def": "a corslet (as if twisted)"
+        },
+        {
+          "s": "G5509",
+          "def": "a tunic or shirt"
+        },
+        {
+          "s": "G1903",
+          "def": "a wrapper, i.e., outer garment"
+        }
+      ]
+    },
+    {
+      "id": 782,
+      "word": "coats of skins",
+      "etym": "Gen. 3:21",
+      "mibDef": "the Hebrew word is chithanoth, which signifies not only coats, but",
+      "mibMeta": "The body of flesh. Man was connected originally with the spiritual-body idea, but when he took on persona consciousness he was given \"coats of skins,\" which, under divine law, corresponded with the quality of his thought world. When spiritual thought becomes supreme in consciousness, the coats of sk",
+      "candidates": [
+        {
+          "s": "H3801",
+          "def": "a shirt"
+        },
+        {
+          "s": "G5509",
+          "def": "a tunic or shirt"
+        },
+        {
+          "s": "H5622",
+          "def": "a cloak"
+        }
+      ]
+    },
+    {
+      "id": 783,
+      "word": "coats of skins",
+      "etym": "",
+      "mibDef": "The body of flesh. Man was connected originally with the spiritual-body idea, but",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3801",
+          "def": "a shirt"
+        },
+        {
+          "s": "G5509",
+          "def": "a tunic or shirt"
+        },
+        {
+          "s": "H5622",
+          "def": "a cloak"
+        }
+      ]
+    },
+    {
+      "id": 784,
+      "word": "cocreator",
+      "etym": "",
+      "mibDef": "\"My Father worketh even until now, and I work\" (John 5:17). God",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 785,
+      "word": "Colhozeh",
+      "etym": "Heb .",
+      "mibDef": "all-seeing; wholly a seer, i. e . , of God; all prophets.",
+      "mibMeta": "Divine intelligence, the all-. seeing, all-knowing spiritual light and wisdom, which is God and embraces the true understanding of all prophets; for it is wholly a seer, i. e. of God- the source of all true perception and knowledge.",
+      "candidates": []
+    },
+    {
+      "id": 786,
+      "word": "Colosse (A.V.",
+      "etym": "Gk.",
+      "mibDef": "punishment; correction; discipline, i. e. , instruction;",
+      "mibMeta": "An aggregation of thoughts in man's consciousness that pertains to the activity of the law of sowing and reaping ( punishment penalty, i.e., retributive punishment ) as it is set forth in Galatians 6:7: \"Be not deceived; God is not mocked: for whatsoever a man soweth, that shall he also reap. For he",
+      "candidates": []
+    },
+    {
+      "id": 787,
+      "word": "come into manifest existence by the will of God",
+      "etym": "",
+      "mibDef": "through the action of Jehovah, the Lord God, or",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H935",
+          "def": "to go or come (in a wide variety of applications)"
+        },
+        {
+          "s": "G2064",
+          "def": "to come or go (in a great variety of applications, literally and figuratively)"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        },
+        {
+          "s": "H5927",
+          "def": "to ascend, intransitively (be high) or actively (mount); used in a great variety of senses, primary and secondary, literal and figurative"
+        },
+        {
+          "s": "H3318",
+          "def": "to go (causatively, bring) out, in a great variety of applications, literally and figuratively, direct and proxim"
+        }
+      ]
+    },
+    {
+      "id": 788,
+      "word": "comeliness",
+      "etym": "",
+      "mibDef": "a strength and joy and beauty of character, and of outer form also— that is enduring because",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1935",
+          "def": "grandeur (i.e., an imposing form and appearance)"
+        }
+      ]
+    },
+    {
+      "id": 789,
+      "word": "Comforter",
+      "etym": "",
+      "mibDef": "The Holy Spirit, the only authorized interpreter of the gospel of Jesus; He who",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3875",
+          "def": "an intercessor, consoler"
+        },
+        {
+          "s": "H5162",
+          "def": "properly, to sigh, i.e., breathe strongly; by implication, to be sorry, i.e., (in a favorable sense) to pity, console or (reflexively) rue; or (unfavorably) to avenge (oneself)"
+        }
+      ]
+    },
+    {
+      "id": 790,
+      "word": "commandments",
+      "etym": "",
+      "mibDef": "This is to command, to control, and to direct every thought",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4687",
+          "def": "a command, whether human or divine (collectively, the Law)"
+        },
+        {
+          "s": "G1785",
+          "def": "injunction, i.e., an authoritative prescription"
+        },
+        {
+          "s": "G1778",
+          "def": "an injunction, i.e., religious precept"
+        },
+        {
+          "s": "H6490",
+          "def": "properly, appointed, i.e., a mandate (of God; plural only, collectively, for the Law)"
+        },
+        {
+          "s": "G1781",
+          "def": "to enjoin"
+        }
+      ]
+    },
+    {
+      "id": 791,
+      "word": "communion",
+      "etym": "",
+      "mibDef": "There are times when it is to our own spiritual benefit and to God's",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2842",
+          "def": "partnership, i.e., (literally) participation, or (social) intercourse, or (pecuniary) benefaction"
+        }
+      ]
+    },
+    {
+      "id": 792,
+      "word": "compassion",
+      "etym": "",
+      "mibDef": "In the heart of God exists an eternal tenderness and mercy for His children.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4697",
+          "def": "to have the bowels yearn, i.e., (figuratively) feel sympathy, to pity"
+        },
+        {
+          "s": "H7355",
+          "def": "to fondle; by implication, to love, especially to compassionate"
+        },
+        {
+          "s": "H2550",
+          "def": "to commiserate; by implication, to spare"
+        },
+        {
+          "s": "H7356",
+          "def": "compassion (in the plural); by extension, the womb (as cherishing the fetus); by implication, a maiden"
+        },
+        {
+          "s": "G1653",
+          "def": "to compassionate (by word or deed, specially, by divine grace)"
+        }
+      ]
+    },
+    {
+      "id": 793,
+      "word": "compassion",
+      "etym": "",
+      "mibDef": "A characteristic of love and mercy prompted by an understanding heart. A",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4697",
+          "def": "to have the bowels yearn, i.e., (figuratively) feel sympathy, to pity"
+        },
+        {
+          "s": "H7355",
+          "def": "to fondle; by implication, to love, especially to compassionate"
+        },
+        {
+          "s": "H2550",
+          "def": "to commiserate; by implication, to spare"
+        },
+        {
+          "s": "H7356",
+          "def": "compassion (in the plural); by extension, the womb (as cherishing the fetus); by implication, a maiden"
+        },
+        {
+          "s": "G1653",
+          "def": "to compassionate (by word or deed, specially, by divine grace)"
+        }
+      ]
+    },
+    {
+      "id": 794,
+      "word": "compensation",
+      "etym": "",
+      "mibDef": "The order under which one receives just remuneration. The law of",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 795,
+      "word": "Conaniah",
+      "etym": "",
+      "mibDef": "Jah is founding; Jehovah has",
+      "mibMeta": "Love (the men named Conaniah were of the tribe of Levi) expressed in worship and service. There can be no true worship or service apart from love, for love is established and sustained by Jehovah (made by Jehovah, Jah has sustained). It is the very essence of Jehovah, for God is love, and love is th",
+      "candidates": [
+        {
+          "s": "H3562",
+          "def": "Conanjah, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 796,
+      "word": "condemnation",
+      "etym": "",
+      "mibDef": "According to Webster, condemn means \"to pronounce to be wrong.\"",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2631",
+          "def": "an adverse sentence (the verdict)"
+        },
+        {
+          "s": "G2633",
+          "def": "sentencing adversely (the act)"
+        },
+        {
+          "s": "G2917",
+          "def": "a decision (the function or the effect, for or against (\"crime\"))"
+        }
+      ]
+    },
+    {
+      "id": 797,
+      "word": "conditions",
+      "etym": "",
+      "mibDef": "In Divine Mind there is no recognition of evil conditions. Such conditions have",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2065",
+          "def": "to interrogate; by implication, to request"
+        }
+      ]
+    },
+    {
+      "id": 798,
+      "word": "Coniah",
+      "etym": "Heb.",
+      "mibDef": "Jah is founding; Jehovah is setting up, i.e., establishing; Jah is",
+      "mibMeta": "Coniah is an abbreviated form of Jeconiah and Jehoiachim. (See JECONIAH and JEHOIACHIM . )",
+      "candidates": [
+        {
+          "s": "H3659",
+          "def": "Conjah, an Israelite king"
+        }
+      ]
+    },
+    {
+      "id": 799,
+      "word": "conjunction with this name",
+      "etym": "",
+      "mibDef": "a realization of your I AM power and",
+      "mibMeta": "",
+      "candidates": []
+    }
+  ]
+}

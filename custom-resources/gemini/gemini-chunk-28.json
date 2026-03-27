@@ -1,0 +1,1154 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "28 of 37",
+  "_entry_range": "ids 2700–2799",
+  "entries": [
+    {
+      "id": 2700,
+      "word": "Parthians",
+      "etym": "fr. Gk .",
+      "mibDef": "wounding as they fly; fighting backward; rapid flight; exiles;",
+      "mibMeta": "Very active thoughts of power (horsemen, rapid flight, horses referring to the vital force in man, or power), though with a warring and deceptive tendency of expression ( fighting backward, wounding as they fly). In this instance they belong to the religious thoughts of the individual, since the Par",
+      "candidates": []
+    },
+    {
+      "id": 2701,
+      "word": "Paruah",
+      "etym": "Heb .",
+      "mibDef": "breaking forth; budding; blossoming; hatching; being born;",
+      "mibMeta": "The idea of spiritual substance and supply coming forth from within and increasing and abounding in the consciousness (breaking forth, budding, blossoming, being born, flourishing, increase, progeny). Paruah's son Jehoshaphat signifies judgment's being developed in consciousness; thus a right distri",
+      "candidates": []
+    },
+    {
+      "id": 2702,
+      "word": "Parvaim",
+      "etym": "Heb.",
+      "mibDef": "eastern; original; primal; prior; anterior; virgin purity; pure virgin",
+      "mibMeta": "In Scripture symbology east always signifies the within. Parvaim therefore (meaning eastern, and being a country that produced the very finest quality of gold) would refer to the inner Christ mind or consciousness, whence comes our very highest and purest comprehension of divine wisdom and substance",
+      "candidates": []
+    },
+    {
+      "id": 2703,
+      "word": "Pas-dammim",
+      "etym": "Heb.",
+      "mibDef": "end of bloodshed; boundary of blood; limit of blood.",
+      "mibMeta": "See EPHES-DAMMIM.",
+      "candidates": []
+    },
+    {
+      "id": 2704,
+      "word": "Pasach",
+      "etym": "Heb.",
+      "mibDef": "cutting up; cutting off; dividing; considering decisively; part; piece;",
+      "mibMeta": "A deeply analytical and positive tendency of thought (cutting up, considering decisively, dividing), but more from a human or intellectual than from a spiritual standpoint. The result therefore is not a perfect deduction, or perfect understanding. (Halting, limping, a lameness in walking, signifies ",
+      "candidates": []
+    },
+    {
+      "id": 2705,
+      "word": "Paseah",
+      "etym": "Heb .",
+      "mibDef": "leaping over; passing over;",
+      "mibMeta": "Paseah (passing over, sparing, delivering) signifies thoughts of a freeing, overcoming character. We see also in this word a tendency to hesitate between two opinions, and to jump to conclusions, to decide matters without properly considering the details involved (halting, pausing, hesitating, leapi",
+      "candidates": []
+    },
+    {
+      "id": 2706,
+      "word": "Pashhur (A.V.",
+      "etym": "Heb.",
+      "mibDef": "encompassed by plenty; prosperity round about;",
+      "mibMeta": "Freeing thoughts in consciousness, thoughts that are activated and surrounded by ideas of substance, of plenty, and of nobility ( encompassed by plenty, surrounded by nobility, liberty, freedom, liberation). The first two of these men named Pashhur, however, worked against Jeremiah because he prophe",
+      "candidates": []
+    },
+    {
+      "id": 2707,
+      "word": "Passover",
+      "etym": "",
+      "mibDef": "Outwardly a Jewish feast; symbolically, a mental attitude in which we are bridging",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H6453",
+          "def": "a pretermission, i.e., exemption; used only techically of the Jewish Passover (the festival or the victim)"
+        },
+        {
+          "s": "G3957",
+          "def": "the Passover (the meal, the day, the festival or the special sacrifices connected with it)"
+        }
+      ]
+    },
+    {
+      "id": 2708,
+      "word": "pasture",
+      "etym": "",
+      "mibDef": "ly, a pasture represents substance in a form in which it can be utilized by the individual.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4829",
+          "def": "pasture (the place or the act); also the haunt of wild animals"
+        },
+        {
+          "s": "H4830",
+          "def": "pasturage; concretely, a flock"
+        }
+      ]
+    },
+    {
+      "id": 2709,
+      "word": "Patara",
+      "etym": "Gk .",
+      "mibDef": "trodden down; trampled underfoot; desecration; contempt; insult;",
+      "mibMeta": "A group of thoughts in the sense consciousness of man that are the result of suppression. These thoughts are of a browbeaten, subdued nature, and work toward bondage (trodden down, trampled under foot).",
+      "candidates": []
+    },
+    {
+      "id": 2710,
+      "word": "Pathros",
+      "etym": "Heb. fr. Egypt.",
+      "mibDef": "Upper Egypt, i. e., distinguished from Mizraim, or Lower",
+      "mibMeta": "A phase of the subconscious mind that, though there is good in it, is still in darkness so far as the individual is consciously or subconsciously concerned ( region of the south, a district in Upper Egypt, south referring to that which is below). The fact that Pathros was in the upper or higher grou",
+      "candidates": [
+        {
+          "s": "H6624",
+          "def": "Pathros, a part of Egypt"
+        }
+      ]
+    },
+    {
+      "id": 2711,
+      "word": "Pathrusim",
+      "etym": "Heb. fr. Egypt.",
+      "mibDef": "Egyptians of the upper kingdom.",
+      "mibMeta": "Thoughts belonging to the state of consciousness in man that Pathros signifies. (See PATHROS.)",
+      "candidates": []
+    },
+    {
+      "id": 2712,
+      "word": "patience",
+      "etym": "",
+      "mibDef": "An attitude of mind characterized by poise, inner calmness, and quiet endurance,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5281",
+          "def": "cheerful (or hopeful) endurance, constancy"
+        },
+        {
+          "s": "G3114",
+          "def": "to be long-spirited, i.e., (objectively) forbearing or (subjectively) patient"
+        },
+        {
+          "s": "G3115",
+          "def": "longanimity, i.e., (objectively) forbearance or (subjectively) fortitude"
+        }
+      ]
+    },
+    {
+      "id": 2713,
+      "word": "Patmos",
+      "etym": "Gk.",
+      "mibDef": "mortal.",
+      "mibMeta": "A place in consciousness where we realize through Spirit that the fleshly or carnal man produces nothing. When we are in Spirit the body is physically quiet; all sensation is primarily from the Spirit. So far as the I AM or spiritual is concerned the physical is as a rock, void of sensation or activ",
+      "candidates": []
+    },
+    {
+      "id": 2714,
+      "word": "Pau",
+      "etym": "Web.",
+      "mibDef": "crying out; screaming; howling; bellowing; bleating; lowing; hissing;",
+      "mibMeta": "The great effort and outer show, the commotion and unrest in expressing life and power, that attend the efforts of the animal or carnal nature in the individual ( crying out, screaming, howling, and so forth). Especially does this become apparent to one who is awakening to the truth of his being and",
+      "candidates": []
+    },
+    {
+      "id": 2715,
+      "word": "Paul",
+      "etym": "fr. Lat .",
+      "mibDef": "restrained; constrained; reduced; lessened; made small; little.",
+      "mibMeta": "Different symbolisms and shades of meaning are given to Paul and to his life and ministry, all bearing on the important work of overcoming in the individual. Some of them are as follows: In the early history of Paul we behold two states of mind: first, the pharisaical state of mind, which may be fou",
+      "candidates": [
+        {
+          "s": "G3972",
+          "def": "(little; but remotely from a derivative of G3973, meaning the same); Paulus, the name of a Roman and of an apostle"
+        },
+        {
+          "s": "G2411",
+          "def": "a sacred place, i.e., the entire precincts (whereas G3485 denotes the central sanctuary itself) of the Temple (at Jerusalem or elsewhere)"
+        },
+        {
+          "s": "G1210",
+          "def": "to bind (in various applications, literally or figuratively)"
+        }
+      ]
+    },
+    {
+      "id": 2716,
+      "word": "Paulus",
+      "etym": "Lat .",
+      "mibDef": "restrained; constrained; reduced, lessened, made small; little.",
+      "mibMeta": "See SERGIUS PAULUS. peace-Harmony and tranquillity derived from awareness of the Christ consciousness. \"Peace I leave with you; my peace I give unto you\" (John 14:27). Steadfast affirmations of peace will harmonize the whole body structure and open the way to attainment of health conditions in mind ",
+      "candidates": []
+    },
+    {
+      "id": 2717,
+      "word": "peace",
+      "etym": "",
+      "mibDef": "the Promised Land.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8002",
+          "def": "properly, requital, i.e., a (voluntary) sacrifice in thanks"
+        },
+        {
+          "s": "H7965",
+          "def": "safe, i.e., (figuratively) well, happy, friendly; also (abstractly) welfare, i.e., health, prosperity, peace"
+        },
+        {
+          "s": "G1515",
+          "def": "peace (literally or figuratively); by implication, prosperity"
+        },
+        {
+          "s": "H7999",
+          "def": "to be safe (in mind, body or estate); figuratively, to be (causatively, make) completed; by implication, to be friendly; by extension, to reciprocate (in various applications)"
+        },
+        {
+          "s": "H2790",
+          "def": "to scratch, i.e., (by implication) to engrave, plough; hence (from the use of tools) to fabricate (of any material); figuratively, to devise (in a bad sense); hence (from the idea of secrecy) to be silent, to let alone; hence (by implication) to be deaf (as an accompaniment of dumbness)"
+        }
+      ]
+    },
+    {
+      "id": 2718,
+      "word": "peace and good results of victory over all that is unlike our perfect model",
+      "etym": "",
+      "mibDef": "spiritual man, who was",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8002",
+          "def": "properly, requital, i.e., a (voluntary) sacrifice in thanks"
+        },
+        {
+          "s": "H7965",
+          "def": "safe, i.e., (figuratively) well, happy, friendly; also (abstractly) welfare, i.e., health, prosperity, peace"
+        },
+        {
+          "s": "G1515",
+          "def": "peace (literally or figuratively); by implication, prosperity"
+        },
+        {
+          "s": "H7999",
+          "def": "to be safe (in mind, body or estate); figuratively, to be (causatively, make) completed; by implication, to be friendly; by extension, to reciprocate (in various applications)"
+        },
+        {
+          "s": "H2790",
+          "def": "to scratch, i.e., (by implication) to engrave, plough; hence (from the use of tools) to fabricate (of any material); figuratively, to devise (in a bad sense); hence (from the idea of secrecy) to be silent, to let alone; hence (by implication) to be deaf (as an accompaniment of dumbness)"
+        }
+      ]
+    },
+    {
+      "id": 2719,
+      "word": "pearl of great price",
+      "etym": "",
+      "mibDef": "The Truth that no man can afford to barter away, although all the kingdoms",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3135",
+          "def": "a pearl"
+        }
+      ]
+    },
+    {
+      "id": 2720,
+      "word": "Pedahel",
+      "etym": "Heb.",
+      "mibDef": "whom God delivers; ransomed of God; God redeems; preserved of",
+      "mibMeta": "A very influential thought in the strength faculty of man (a prince of Naphtali) that is established in the idea of divine deliverance from bondage to limitation and error (whom God delivers, God redeems, God frees from servitude).",
+      "candidates": [
+        {
+          "s": "H6300",
+          "def": "Pedahel, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2721,
+      "word": "Pedahzur",
+      "etym": "Heb.",
+      "mibDef": "the rock has redeemed; the rock of deliverance; stone of",
+      "mibMeta": "Faith in Christ as the redeeming, saving power of the individual (the rock has redeemed, rock of deliverance, stone of redemption, suggesting Christ and faith). Jesus said to Peter, \"Thou art Peter, and upon this rock I will build my church.\" Peter means a stone, and symbolizes the faith faculty in ",
+      "candidates": []
+    },
+    {
+      "id": 2722,
+      "word": "Pedaiah",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah delivers; Jah has ransomed; Jah delivers; redemption",
+      "mibMeta": "The symbolism here is that of redemption, overcoming power, salvation, from error and its effects to manifest Christlikeness, by means of Jehovah, I AM, the indwelling Christ.",
+      "candidates": [
+        {
+          "s": "H6305",
+          "def": "Pedajah, the name of six Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2723,
+      "word": "Pekah",
+      "etym": "Heb.",
+      "mibDef": "o pen-eyed; seeing; perceiving; watchful; restored to sight.",
+      "mibMeta": "The executive power of the will (captain of the king's army), very observant and attentive (open-eyed, watchful), but in an intellectual or outer reasoning way rather than in true spiritual understanding. Therefore it sees the evil in the will that is ruling in personal willfulness and ignorance (th",
+      "candidates": [
+        {
+          "s": "H6492",
+          "def": "Pekach, an Israelite king"
+        }
+      ]
+    },
+    {
+      "id": 2724,
+      "word": "Pekahiah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah has opened his eyes; Jah perceives; Jah watches;",
+      "mibMeta": "The ruling will of the objective consciousness of man (king of Israel, in Samaria), reigning in willfulness and ignorance (Pekahiah was a wicked king), but watched over by Jehovah and being taught, or gaining, understanding by the way of experience (Jehovah has opened his eyes, Jehovah",
+      "candidates": [
+        {
+          "s": "H6494",
+          "def": "Pekachjah, an Israelite king"
+        }
+      ]
+    },
+    {
+      "id": 2725,
+      "word": "Pekod",
+      "etym": "Heb .",
+      "mibDef": "visitation; punishment.",
+      "mibMeta": "The harvest time of error. There is a law of sowing and reaping. When error thoughts, fears, and beliefs have been sown in our consciousness they must— unless we discern the Truth and root out the errors by means of our true",
+      "candidates": []
+    },
+    {
+      "id": 2726,
+      "word": "Pelaliah",
+      "etym": "Heb.",
+      "mibDef": "Jah judges; Jehovah makes even; Jah is thinker; Jah intercedes;",
+      "mibMeta": "The significance of this name is that true judgment, inspiration, and prayer are spiritual, are of Jehovah, the Christ (Jah judges; Jah is thinker; Jah intercedes ). By earnest desire ( entreating the Lord ) and by thinking on Jehovah, man becomes spiritually discerning, discriminative, and divinely",
+      "candidates": []
+    },
+    {
+      "id": 2727,
+      "word": "Pelatiah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah makes smooth; Jah is way of escape; Jah delivers;",
+      "mibMeta": "Freeing, delivering thoughts in consciousness, based on a degree of understanding of divine law (Jehovah makes smooth, Jah is way of escape, Jah delivers, deliverance of the Lord, Lord referring to divine law). The Pelatiah whom Ezekiel was told to prophesy against was one of those \"that give wicked",
+      "candidates": [
+        {
+          "s": "H6410",
+          "def": "Pelatjah, the name of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2728,
+      "word": "Peleg",
+      "etym": "Heb.",
+      "mibDef": "moral distinction; separation through grace; distinction of principle;",
+      "mibMeta": "Eber, father of Peleg, and meaning a shoot, signifies the germination of the spiritual in man's consciousness. (Shem, from whom Eber was descended, was the son of Noah who represents the spiritual in man. From Eber, through Peleg, Abraham, Isaac, and Jacob, the Hebrew race later came into existence.",
+      "candidates": [
+        {
+          "s": "H6389",
+          "def": "Peleg, a son of Shem"
+        }
+      ]
+    },
+    {
+      "id": 2729,
+      "word": "Pelet",
+      "etym": "Heb.",
+      "mibDef": "smooth; escape; deliverance; freedom; safety.",
+      "mibMeta": "Freeing, delivering thoughts in consciousness (smooth, escape, deliverance, freedom, safety), based on an active faith (a Benjamite) and praise and prayer (a Judahite).",
+      "candidates": []
+    },
+    {
+      "id": 2730,
+      "word": "Peleth",
+      "etym": "Heb.",
+      "mibDef": "swiftness; speed; dispatch; haste; flight; escape; freedom; separation;",
+      "mibMeta": "Swift, active, separating, discriminating, freeing thoughts ( swiftness , speed, haste, freedom, escape, separation, distinction, a Reubenite, Reuben referring to inspiration, sight, but more of the outer man, and a man of Judah) that tend to eliminate error. These thoughts, however, must become mor",
+      "candidates": []
+    },
+    {
+      "id": 2731,
+      "word": "Pelethites",
+      "etym": "Heb.",
+      "mibDef": "public runners; messengers; couriers; swift horses.",
+      "mibMeta": "Love's messengers-swift, vital, spiritual thoughts that are in attendance upon our inner love (David) faculty when it is ruling in consciousness (public runners, couriers, swift horses; attendants, messengers, and warriors of David).",
+      "candidates": []
+    },
+    {
+      "id": 2732,
+      "word": "Pelonite",
+      "etym": "fr. Heb.",
+      "mibDef": "a separation; a distinction; definite; distinct.",
+      "mibMeta": "The thought activities that are symbolized by Helez and Ahijah set apart to do a",
+      "candidates": []
+    },
+    {
+      "id": 2733,
+      "word": "Peniel",
+      "etym": "Heb .",
+      "mibDef": "turned toward God; face of God; within the presence of God;",
+      "mibMeta": "The inner realization of the divine presence, of having met God face to face, and of having succeeded through prayer in attaining the divine favor and blessing that have been sought (turned toward God, face of God, within the presence of God, vision of God, recognition of God, beholden of God). At P",
+      "candidates": []
+    },
+    {
+      "id": 2734,
+      "word": "Peninnah",
+      "etym": "Heb .",
+      "mibDef": "pearl; red coral; precious stone; gem; jewel.",
+      "mibMeta": "The soul lifted up in individual consciousness and unified with the understanding that man's inheritance is from God; that while he does not own anything selfishly, yet all that the Father has is his (Elkanah). The union of the soul with this understanding makes of the soul, or causes the individual",
+      "candidates": [
+        {
+          "s": "H6444",
+          "def": "Peninnah, an Israelitess"
+        }
+      ]
+    },
+    {
+      "id": 2735,
+      "word": "Pentateuch",
+      "etym": "",
+      "mibDef": "The first five books of the Bible, called the books of law, or the books of Moses.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2736,
+      "word": "Pentateuch",
+      "etym": "",
+      "mibDef": "the first five books of the Old Testament,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2737,
+      "word": "Pentecost",
+      "etym": "",
+      "mibDef": "The \"day of Pentecost\" was with the Israelites the great \"feast of harvest,\" or \"day of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4005",
+          "def": "fiftieth (G2250 being implied) from Passover, i.e., the festival of \"Pentecost\""
+        }
+      ]
+    },
+    {
+      "id": 2738,
+      "word": "Pentecost",
+      "etym": "Gk .",
+      "mibDef": "the fiftieth (day). The day of Pentecost is the Greek rendering of",
+      "mibMeta": "The meaning of the \"day of Pentecost\" is that in the unfoldment of the spiritual mind there are periods when the ideas that we have meditated on, and accepted as true, spring forth into consciousness, becoming living realities in our life instead of mere mental concepts. In this awakening we get the",
+      "candidates": [
+        {
+          "s": "G4005",
+          "def": "fiftieth (G2250 being implied) from Passover, i.e., the festival of \"Pentecost\""
+        }
+      ]
+    },
+    {
+      "id": 2739,
+      "word": "Penuel",
+      "etym": "Heb .",
+      "mibDef": "turned toward God; face of God; within the presence of God.",
+      "mibMeta": "See PENIEL. people. Our thoughts.",
+      "candidates": [
+        {
+          "s": "H6439",
+          "def": "Penuel or Peniel, a place East of Jordan; also (as Penuel) the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2740,
+      "word": "people",
+      "etym": "",
+      "mibDef": "The members of the body of Christ are called a holy people because they are",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5971",
+          "def": "a people (as a congregated unit); specifically, a tribe (as those of Israel); hence (collectively) troops or attendants; figuratively, a flock"
+        },
+        {
+          "s": "G2992",
+          "def": "a people (in general; thus differing from G1218, which denotes one's own populace)"
+        },
+        {
+          "s": "G3793",
+          "def": "a throng (as borne along); by implication, the rabble; by extension, a class of people; figuratively, a riot"
+        },
+        {
+          "s": "H3816",
+          "def": "a community"
+        },
+        {
+          "s": "H1471",
+          "def": "a foreign nation; hence, a Gentile; also (figuratively) a troop of animals, or a flight of locusts"
+        }
+      ]
+    },
+    {
+      "id": 2741,
+      "word": "Peor",
+      "etym": "Heb.",
+      "mibDef": "hiatus; yawning chasm; cleft; opening wide; gaping; ravenous beasts;",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H6465",
+          "def": "Peor, a mountain East of Jordan in Moab; Baal Peor, (for H1187) a deity worshipped there"
+        }
+      ]
+    },
+    {
+      "id": 2742,
+      "word": "Perazim",
+      "etym": "Heb.",
+      "mibDef": "breaches; rents; ruptures; dispersions; assaults; defeats.",
+      "mibMeta": "\"For Jehovah will rise up as in mount Perazim.\" The reference here is to Baal- perazim, a place where David gained a victory over the Philistines (II Sam. 5:20). The significance therefore is the same as that of BAAL-PERAZIM, which see.",
+      "candidates": []
+    },
+    {
+      "id": 2743,
+      "word": "perception",
+      "etym": "",
+      "mibDef": "Apprehension of Truth through intuition; the ability to perceive spiritually;",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2744,
+      "word": "peres",
+      "etym": "Heb.",
+      "mibDef": "cloven; parted; divided; hoofed; horse; Persia.",
+      "mibMeta": "Here, PERES refers to the dividing or breaking up of sense confusion (Babylon).",
+      "candidates": []
+    },
+    {
+      "id": 2745,
+      "word": "Peresh",
+      "etym": "Heb.",
+      "mibDef": "cleaning; separating; dividing; distinguishing; specifying; excrement;",
+      "mibMeta": "That which has served its purpose in the consciousness and organism, and is no longer needed, but is due to pass away (separating, specifying, excrement ) as a result of the activity of Machir, father of Peresh (meaning sold, purchased, acquired, and signifying the right balance that must exist betw",
+      "candidates": []
+    },
+    {
+      "id": 2746,
+      "word": "Perez",
+      "etym": "Heb .",
+      "mibDef": "broken through;",
+      "mibMeta": "Victory through praise, or making a way out of apparent limitation and error and predominating over them by means of prayer and praise. Perez means broken through, torn asunder, dispersed. Judah, father of Perez, signifies praise; his mother, Tamar, meaning palm tree, erect, represents uprightness a",
+      "candidates": [
+        {
+          "s": "H6557",
+          "def": "Perets, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2747,
+      "word": "Perez-uzza",
+      "etym": "Heb.",
+      "mibDef": "breaking ofUzzah; breach ofUzza; defeat of strength;",
+      "mibMeta": "Uzza, or Uzzah, means strength. Perez-uzza (meaning breaking of Uzzah, breach ofUzza, dispersion of strength), the place where Uzza was smitten by Jehovah because he put forth his hand to steady the Ark, signifies a dividing, and therefore diminishing, of one's consciousness of strength, because of ",
+      "candidates": []
+    },
+    {
+      "id": 2748,
+      "word": "Perez-uzzah",
+      "etym": "Heb.",
+      "mibDef": "breaking ofUzza; breach ofUzza; defeat of strength;",
+      "mibMeta": "See PEREZ-UZZA. perfection— A state of consciousness completely free from any shadow of negation.",
+      "candidates": []
+    },
+    {
+      "id": 2749,
+      "word": "Perezites (A.V.",
+      "etym": "fr. Heb.",
+      "mibDef": "of ox belonging to Perez.",
+      "mibMeta": "Thoughts springing from and belonging to that in consciousness which Perez signifies. (See PEREZ.)",
+      "candidates": []
+    },
+    {
+      "id": 2750,
+      "word": "perfect salvation of the whole man",
+      "etym": "",
+      "mibDef": "Spirit, soul, and body— and righteousness (right relation) is",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8003",
+          "def": "complete (literally or figuratively); especially friendly"
+        },
+        {
+          "s": "H8549",
+          "def": "entire (literally, figuratively or morally); also (as noun) integrity, truth"
+        },
+        {
+          "s": "G5046",
+          "def": "complete (in various applications of labor, growth, mental and moral character, etc.); neuter (as noun, with G3588) completeness"
+        },
+        {
+          "s": "H8535",
+          "def": "complete; usually (morally) pious; specifically, gentle, dear"
+        },
+        {
+          "s": "G5048",
+          "def": "to complete, i.e., (literally) accomplish, or (figuratively) consummate (in character)"
+        }
+      ]
+    },
+    {
+      "id": 2751,
+      "word": "perfection",
+      "etym": "",
+      "mibDef": "Jesus said, \"Ye therefore shall be perfect, as your heavenly Father is",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4512",
+          "def": "completion, i.e., (in produce) wealth"
+        },
+        {
+          "s": "H4359",
+          "def": "perfection (of beauty)"
+        },
+        {
+          "s": "H8537",
+          "def": "completeness; figuratively, prosperity; usually (morally) innocence"
+        },
+        {
+          "s": "H3632",
+          "def": "complete; as noun, the whole (specifically, a sacrifice entirely consumed); as adverb, fully"
+        },
+        {
+          "s": "G5050",
+          "def": "(the act) completion, i.e., (of prophecy) verification, or (of expiation) absolution"
+        }
+      ]
+    },
+    {
+      "id": 2752,
+      "word": "Perga",
+      "etym": "Gk ,",
+      "mibDef": "very earthy.",
+      "mibMeta": "Very earthy, material thoughts. (See PAMPHYLIA.)",
+      "candidates": [
+        {
+          "s": "G4011",
+          "def": "a tower; Perga, a place in Asia Minor"
+        }
+      ]
+    },
+    {
+      "id": 2753,
+      "word": "Pergamum (A.V.",
+      "etym": "Gk.",
+      "mibDef": "strongly united; closely knit; tough texture;",
+      "mibMeta": "The intellectual consciousness in man ( strongly united, closely knit, tough texture, elevated, height, citadel); Pergamum is intelligence. \"I know where thou dwellest, even where Satan's throne is\" (Rev. 2:13). Satan is the adverse consciousness and Satan's throne, the place where the Adversary loc",
+      "candidates": []
+    },
+    {
+      "id": 2754,
+      "word": "Perizzite",
+      "etym": "fr. Heb.",
+      "mibDef": "countryman; rustic; dweller in the country.",
+      "mibMeta": "The Perizzites, like the Canaanites, refer to the elemental life forces in the organism, only elevated to a more exalted plane by the outer, personal man, and more strongly intrenched in the sense consciousness of the individual. (The Perizzites lived in the hill country; they are named with the Can",
+      "candidates": [
+        {
+          "s": "H6522",
+          "def": "a Perizzite, one of the Canaanitish tribes"
+        }
+      ]
+    },
+    {
+      "id": 2755,
+      "word": "perseverance",
+      "etym": "",
+      "mibDef": "ly, to persist in pursuit of Truth. Through perseverance we make connection with",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4343",
+          "def": "persistancy"
+        }
+      ]
+    },
+    {
+      "id": 2756,
+      "word": "Persia",
+      "etym": "",
+      "mibDef": "same in Chald. and Heb.)— cutting; cleaving; dividing; cloven-hoofed;",
+      "mibMeta": "The Medes and Persians are usually, if not always, mentioned together in the Bible. They were one kingdom, and their symbolism is virtually the same: the middle land, or psychic realm; that which lies between the outer and the true inner spiritual consciousness. (See MEDIA and MADAI.) A horse, as a ",
+      "candidates": [
+        {
+          "s": "H6539",
+          "def": "Paras (i.e., Persia), an Eastern country, including its inhabitants"
+        }
+      ]
+    },
+    {
+      "id": 2757,
+      "word": "Persian",
+      "etym": "fr. Skr.",
+      "mibDef": "of or belonging to Persia.",
+      "mibMeta": "A thought springing from and belonging to that in consciousness which Persia signifies. (See PERSIA.)",
+      "candidates": []
+    },
+    {
+      "id": 2758,
+      "word": "Persis",
+      "etym": "Gk. fr. Pers.",
+      "mibDef": "Persian; cleaving; cutting; dividing; cloven-hoofed; a horse; a",
+      "mibMeta": "A thought activity in consciousness that is of a separating nature (cleaving, cutting, dividing). Its work is to separate good from apparent error in the earth life of man, that the error may be cast out. The first work of Spirit in an individual is always a separating work, since before one can bec",
+      "candidates": []
+    },
+    {
+      "id": 2759,
+      "word": "personality",
+      "etym": "",
+      "mibDef": "The sum total of characteristics that man has personalized as distinct of himself,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2760,
+      "word": "Peruda",
+      "etym": "Heb",
+      "mibDef": "broken off; separated; dispersed; divided; scattered; seed- grain;",
+      "mibMeta": "See PERIDA. The thought of separation that is given in the meaning of these names suggests the ability to analyze a matter, to separate or disunite the parts of it, for the purpose of looking into it from different angles.",
+      "candidates": []
+    },
+    {
+      "id": 2761,
+      "word": "pessimism",
+      "etym": "",
+      "mibDef": "An unhappy mental state resulting from beholding the shadow of reality, termed evil.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2762,
+      "word": "Peter",
+      "etym": "Gk.",
+      "mibDef": "hard; compact; strong; firm; unyielding; a large stone, a rock; a cliff.",
+      "mibMeta": "The spiritual faculty of faith. This disciple's name, Simon (hearing), signifying his receptivity and ability to discern Truth, was changed by Jesus to Peter, or Cephas, which is the Greek for the word rock. This represents faith in God, strong, unwavering, and enduring. This faith is a necessary fo",
+      "candidates": [
+        {
+          "s": "G4074",
+          "def": "a (piece of) rock (larger than G3037); as a name, Petrus, an apostle"
+        },
+        {
+          "s": "G2521",
+          "def": "and ἧμαι (to sit; akin to the base of G1476); to sit down; figuratively, to remain, reside"
+        },
+        {
+          "s": "G3004",
+          "def": "properly, to \"lay\" forth, i.e., (figuratively) relate (in words (usually of systematic or set discourse; whereas G2036 and G5346 generally refer to an individual expression or speech respectively; while G4483 is properly to break silence merely, and G2980 means an extended or random harangue)); by implication, to mean"
+        }
+      ]
+    },
+    {
+      "id": 2763,
+      "word": "Pethahiah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah has opened; Jah is the open (door); whom Jehovah",
+      "mibMeta": "The \"way\" out of every human, material limitation and apparent error, or inharmony. This \"way\" is made by Jehovah, I AM, Christ within the individual, acting in conjunction with the universal law of Truth (Jehovah has opened, Jah is the open door, freed by Jehovah). \"God is faithful, who will not su",
+      "candidates": [
+        {
+          "s": "H6611",
+          "def": "Pethachjah, the name of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2764,
+      "word": "Pethor",
+      "etym": "Heb. and Chald.",
+      "mibDef": "extension; table; tablet; interpreting of dreams; prophetic",
+      "mibMeta": "A certain broadening of mental vision (extension), and a degree of insight into the power of thoughts and their working out into expression (prophecies); also an understanding of thought forms and the ideas back of them (interpreting of dreams), but more under the dominion of the sense man than of t",
+      "candidates": [
+        {
+          "s": "H6604",
+          "def": "Pethor, a place in Mesopotamia"
+        }
+      ]
+    },
+    {
+      "id": 2765,
+      "word": "Pethuel",
+      "etym": "Heb.",
+      "mibDef": "opened toward God, enlarged of God; open-minded toward God;",
+      "mibMeta": "The understanding of the individual opened toward God, and thus broadened and deepened (enlarged of God) into a comprehension of man as being a spiritual being, a divine creation, through which God, the Father-Mind, expresses and works (open mouth of God). This enlarged understanding brings about de",
+      "candidates": []
+    },
+    {
+      "id": 2766,
+      "word": "Peullethai (A.V.",
+      "etym": "Heb.",
+      "mibDef": "wages of Jehovah; acquisitions of Jah; works",
+      "mibMeta": "Love serving, and guarding the door of one's thoughts (Peullethai was a doorkeeper in the tabernacle, in David's reign. David represents love, and a doorkeeper suggests that which guards one's thoughts. Wages and works signify service too, as does Obed-edom the father of Peullethai.) Wages of Jehova",
+      "candidates": []
+    },
+    {
+      "id": 2767,
+      "word": "Phanuel",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "turned toward God: face of God; within the presence of God;",
+      "mibMeta": "Spiritual understanding, divine insight into spiritual Truth (face of God, vision of God, understanding of God); also the inner realization of the divine presence, of having met God face to face and of having succeeded, through prayer, in attaining the divine favor and blessing that has been sought ",
+      "candidates": []
+    },
+    {
+      "id": 2768,
+      "word": "Pharaoh",
+      "etym": "Heb. fr. Egypt.",
+      "mibDef": "the king; the Ra; the sun.",
+      "mibMeta": "Pharaoh means the sun. He is ruler of the solar plexus, the sun center in the subconscious mind. This is obscurity, or Egypt, to the conscious mind. Pharaoh's (the sun's) being in Egypt shows us that the light of the sun of righteousness is veiled by our life on the lower or sense plane. Joseph's be",
+      "candidates": [
+        {
+          "s": "H6547",
+          "def": "Paroh, a general title of Egyptian kings"
+        },
+        {
+          "s": "G5328",
+          "def": "Pharao (i.e., Pharoh), an Egyptian king"
+        }
+      ]
+    },
+    {
+      "id": 2769,
+      "word": "Pharaoh-necoh (A.V.",
+      "etym": "Heb. fr. Egypt.",
+      "mibDef": "Pharaoh the",
+      "mibMeta": "See PHARAOH and NECO. Pharisees, phar'-l-sees (Gk. fr. Heb.) --separatists; separated; distinct; accurate; literalist, i. e., separating word for word. A Jewish sect that flourished at the time of Jesus Christ and His apostles. They were opposed to Jesus and His teaching (Matt. 5:20). The Pharisees ",
+      "candidates": []
+    },
+    {
+      "id": 2770,
+      "word": "Pharpar",
+      "etym": "Heb .",
+      "mibDef": "borne rapidly; running swiftly; swift fruition; swift.",
+      "mibMeta": "A current of thought in the intellectual realm of man's consciousness (a river symbolizes a current of thought, and Damascus in Syria is of the intellect guided by the senses). Outer,",
+      "candidates": []
+    },
+    {
+      "id": 2771,
+      "word": "phase of the soul",
+      "etym": "",
+      "mibDef": "many people think that God gave man his",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2772,
+      "word": "Phicol (A.V.",
+      "etym": "Heb.",
+      "mibDef": "mouth of all; spokesman for all; all-commanding; every",
+      "mibMeta": "The seeming all-sufficiency of the sense consciousness in man at a certain stage of his unfoldment or evolution (mouth of all, spokesman for all, all-commanding, every tongue, the whole speech, captain of the host of Abimelech king of Gerar, of the Philistines, Philistines signifying sense conscious",
+      "candidates": []
+    },
+    {
+      "id": 2773,
+      "word": "Philadelphia",
+      "etym": "Gk .",
+      "mibDef": "brotherly love; loving as brethren; love of brothers (or",
+      "mibMeta": "The love center in consciousness, or love expressing (brotherly love). The church in Philadelphia is the love faculty, or the assembly of love thoughts in consciousness that make up the love faculty. He who has the \"key of David\" (Rev. 3:7) is the I AM. This I AM in its highest aspect is Christ; it ",
+      "candidates": [
+        {
+          "s": "G5359",
+          "def": "Philadelphia, a place in Asia Minor"
+        }
+      ]
+    },
+    {
+      "id": 2774,
+      "word": "Philemon",
+      "etym": "Gk.",
+      "mibDef": "loving; affectionate.",
+      "mibMeta": "A thought that belongs to the love nature in man, and becomes deeply attached to the Christ Truth (loving, affectionate, a convert to Christianity). This thought is established in substance and power (Philemon was a wealthy man, and a man of position). The lesson that is being worked out through Pau",
+      "candidates": [
+        {
+          "s": "G5371",
+          "def": "friendly; Philemon, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 2775,
+      "word": "Philetus",
+      "etym": "Gk .",
+      "mibDef": "amiable; lovable; beloved.",
+      "mibMeta": "A thought in the higher, religious consciousness of man that is agreeable, lovable, harmonious, and pleasing (amiable, lovable, beloved ). It is established in love, but has not unified itself with wisdom. It has not, therefore, as yet acquired true understanding of the resurrection and life in Chri",
+      "candidates": []
+    },
+    {
+      "id": 2776,
+      "word": "Philip",
+      "etym": "Gk.",
+      "mibDef": "lover of horses.",
+      "mibMeta": "The power faculty in man. It functions through the power center in the body, at the root of the tongue. Through Philip the word is charged with power (John 6:7). Philip means a lover of horses. We gather from this that he represents the faculty in us that, through love, masters the vital forces; hen",
+      "candidates": [
+        {
+          "s": "G5376",
+          "def": "fond of horses; Philippus, the name of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2777,
+      "word": "Philippi",
+      "etym": "Gk.",
+      "mibDef": "city of Philip, i. e., Philip I of Macedon; city of the lover of horses.",
+      "mibMeta": "Philip symbolizes power. Philippi (city of Philip, city of the lover of horses) signifies a thought center of power and vigor in consciousness. Philippi was a city in Macedonia where the proconsul or governor of Macedonia lived. It is therefore the center of the executive faculty of that in us signi",
+      "candidates": [
+        {
+          "s": "G5375",
+          "def": "Philippi, a place in Macedonia"
+        }
+      ]
+    },
+    {
+      "id": 2778,
+      "word": "Philistia",
+      "etym": "fr. Heb.",
+      "mibDef": "rolling about; transition; migration; emigration, wandering;",
+      "mibMeta": "The sense realm in man. Rolling about, transition, migration, wandering, deviating from a true course, rejected, infidel, definitions of Philistia, reveal the changeableness, the transitoriness, the error, of the understanding that is founded on the perception of the senses functioning in the outer ",
+      "candidates": [
+        {
+          "s": "H6429",
+          "def": "Pelesheth, a region of Syria"
+        }
+      ]
+    },
+    {
+      "id": 2779,
+      "word": "Philologus",
+      "etym": "Gk .",
+      "mibDef": "lover of the word; lover of speech; erudite; learned; fond of",
+      "mibMeta": "The tendency of the intellectual thought in one to reason things out and to argue, even after one has been spiritually quickened and awakened in some degree. The intellect loves and holds to the outer expression of ideas in words rather than to the inner ideas themselves, and to their source: Spirit",
+      "candidates": []
+    },
+    {
+      "id": 2780,
+      "word": "Phinehas",
+      "etym": "Heb.",
+      "mibDef": "oracle; mouth of prophecy; mouth of the serpent; mouth of brass;",
+      "mibMeta": "Spiritual revelation and power (oracle, mouth of prophecy). It is necessary for the thoughts that are awakening to spiritual revelation and power to be disciplined and directed intelligently in all their ways. If they become lifted up in spiritual pride, or become selfish and act on a purely materia",
+      "candidates": [
+        {
+          "s": "H6372",
+          "def": "Pinechas, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2781,
+      "word": "Phlegon",
+      "etym": "Gk .",
+      "mibDef": "burning; fired; zealous.",
+      "mibMeta": "Ardent zeal, expressing in behalf of Truth (burning, fired, zealous, a Christian to whom Paul sent salutation). Phoebe (A.V., Phebe), phoe'-be (Gk.) --bright; shining; brilliant; radiant; pure. A \"servant\" or \"deaconess\" (margin) of the church at Cenchre% in Corinth, to whom Paul sent salutation in ",
+      "candidates": []
+    },
+    {
+      "id": 2782,
+      "word": "Phoenix (A.V.",
+      "etym": "Gk.",
+      "mibDef": "the bennu bird; palm branch; palm tree; purple;",
+      "mibMeta": "Crete (carnal, fleshly) signifies the material, sensual, worldly consciousness in man as opposed to the spiritual. Phoenix, a haven of Crete (palm tree, purple, blood-red), would signify a degree of conquest and power, also of renewal of life activity, expressing in the carnal consciousness of the i",
+      "candidates": []
+    },
+    {
+      "id": 2783,
+      "word": "Phrygia",
+      "etym": "Gk.",
+      "mibDef": "dried; parched; barren; lifeless; stubble; brush.",
+      "mibMeta": "A dry, barren, fruitless state of thought. The central idea of this realm of the sense consciousness that Phrygia signifies is a belief in lack, lack of vitality, of substance, of strength, of power, and of increase of good (dried, parched, barren, lifeless, stubble, brush).",
+      "candidates": [
+        {
+          "s": "G5435",
+          "def": "Phrygia, a region of Asia Minor"
+        }
+      ]
+    },
+    {
+      "id": 2784,
+      "word": "Phygelus (A.V.",
+      "etym": "Gk .",
+      "mibDef": "one inflight; a fugitive.",
+      "mibMeta": "A thought that believes in the good and tends to good, but is as yet not stable, is not established. It is fearful, and lacks the staying, abiding qualities of Spirit. Therefore it backs down and disappears when seeming bondage and error arise in consciousness to oppose the word of Truth (Paul), whe",
+      "candidates": []
+    },
+    {
+      "id": 2785,
+      "word": "Physician",
+      "etym": "",
+      "mibDef": "The omnipresent, healing, in-dwelling Spirit of Jesus Christ.",
+      "mibMeta": "The worship of the vital force of life activity, increase, and continuity by the Egyptian, or darkened, sensate, carnal consciousness in the spiritually unawakened man. The name Pi-beseth was derived from the Egyptian goddess Past or Bast, who was represented in the image of a woman with a cat's hea",
+      "candidates": [
+        {
+          "s": "H7495",
+          "def": "properly, to mend (by stitching), i.e., (figuratively) to cure"
+        }
+      ]
+    },
+    {
+      "id": 2786,
+      "word": "Pildash",
+      "etym": "Heb.",
+      "mibDef": "flame of fire; consuming flame; devouring ardor; destruction; ruin.",
+      "mibMeta": "Zeal, ardor ( flame of fire), the result of a quickening that has taken place in consciousness. (See NAHOR and MILCAH, the parents of Pildash.) This zeal may use its force either in tearing down old ideas and cells in the organism or in building up the consciousness and body in Truth, according to t",
+      "candidates": []
+    },
+    {
+      "id": 2787,
+      "word": "Piltai",
+      "etym": "Heb.",
+      "mibDef": "deliverance ofJah; Jah causes to escape; Jehovah is salvation, Jah saves.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2788,
+      "word": "pinnacle of God's creation",
+      "etym": "",
+      "mibDef": "the image and likeness of God. \"Thou art my beloved Son, in thee I am well",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4419",
+          "def": "a winglet, i.e., (figuratively) extremity (top corner)"
+        }
+      ]
+    },
+    {
+      "id": 2789,
+      "word": "Pinon",
+      "etym": "Heb.",
+      "mibDef": "darkness; perplexity; distraction; hopelessness.",
+      "mibMeta": "The great anxiety, confusion, and hopelessness that often come over the purely mortal, darkened consciousness of man in times of error reaping (darkness, perplexity, distraction, hopelessness, a chief of Edom, Edom referring to Esau and signifying the seemingly physical and carnal phase of man's bei",
+      "candidates": []
+    },
+    {
+      "id": 2790,
+      "word": "Pirathonite",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Pirathon.",
+      "mibMeta": "A thought belonging to that in consciousness that Pirathon signifies. (See PIRATHON.)",
+      "candidates": [
+        {
+          "s": "H6553",
+          "def": "a Pirathonite or inhabitant of Pirathon"
+        }
+      ]
+    },
+    {
+      "id": 2791,
+      "word": "Pisgah",
+      "etym": "Heb.",
+      "mibDef": "cut up; divided; cleft; hill; peak; point.",
+      "mibMeta": "A very high, exalted state of mind in that phase of the consciousness signified by Moab (peak, hill, a mountain in Moab; see MOAB). From this elevated place in thought the spiritually developing phase of man's consciousness that is represented by Moses perceives the Promised Land, has a vision of th",
+      "candidates": []
+    },
+    {
+      "id": 2792,
+      "word": "Pishon (A.V.",
+      "etym": "",
+      "mibDef": "great outpouring; full flowing; fully diffused; spread out;",
+      "mibMeta": "Pishon is defined as fully diffused, carried to its highest degree. This is descriptive of Spirit at work in man's consciousness, Spirit diffusing its ideas of intelligence and light, the activity of divine ideas in their fullness. The river Pishon is described as encompassing \"the whole land of Hav",
+      "candidates": []
+    },
+    {
+      "id": 2793,
+      "word": "Pithom",
+      "etym": "Heb. fr. Egypt.",
+      "mibDef": "city or place of Turn; narrow place; narrow pass.",
+      "mibMeta": "A group of thoughts pertaining to conservation of substance, built up in the subjective consciousness of man (Egypt) by his higher ideals (Israelites) while they are in bondage to the darkened, sense thoughts that the Egyptians represent (a treasure city, \"store-city,\" built in Egypt by the Israelit",
+      "candidates": [
+        {
+          "s": "H6619",
+          "def": "Pithom, a place in Egypt"
+        }
+      ]
+    },
+    {
+      "id": 2794,
+      "word": "Pithon",
+      "etym": "Heb.",
+      "mibDef": "opened; enlarged; expanded; open-faced; openmouthed; open-minded;",
+      "mibMeta": "An open-minded, receptive, childlike phase of thought. If guided by Spirit and thus led unresistingly into Truth, it is good. If guided by personal willfulness and selfishness, however, (Pithon was descended from Saul, who represents the personal will), delusion and error will be the result. plagues",
+      "candidates": []
+    },
+    {
+      "id": 2795,
+      "word": "place when the light of faith arises within one (Baara -brutish",
+      "etym": "",
+      "mibDef": "two",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4725",
+          "def": "properly, a standing, i.e., a spot; but used widely of a locality (general or specific); also (figuratively) of a condition (of body or mind)"
+        },
+        {
+          "s": "G5117",
+          "def": "a spot (general in space, but limited by occupancy; whereas G5561 is a large but participle locality), i.e., location (as a position, home, tract, etc.); figuratively, condition, opportunity; specially, a scabbard"
+        },
+        {
+          "s": "H1116",
+          "def": "an elevation"
+        },
+        {
+          "s": "H8478",
+          "def": "the bottom (as depressed); only adverbially, below (often with prepositional prefix underneath), in lieu of, etc"
+        },
+        {
+          "s": "H1004",
+          "def": "a house (in the greatest variation of applications, especially family, etc.)"
+        }
+      ]
+    },
+    {
+      "id": 2796,
+      "word": "places”",
+      "etym": "",
+      "mibDef": "the higher realms of consciousness in man. Paul, in II Corinthians 11:13-15, speaks about",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2797,
+      "word": "planes",
+      "etym": "",
+      "mibDef": "The different realms of ideas in which men function. There are many planes of life, one",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2798,
+      "word": "Pleiades",
+      "etym": "Gk.",
+      "mibDef": "the seven stars- seven daughters of Atlas; heap; cluster; bound",
+      "mibMeta": "A star represents a truth, light, that apparently is beyond man's present conception, something that is but dimly understood by him; and seven is the number of fulfillment in the natural man. The Pleiades, the group of seven stars that indicate spring, with the \"sweet influences\" that bring the warm",
+      "candidates": []
+    },
+    {
+      "id": 2799,
+      "word": "Pochereth-hazzebaim (A.V.",
+      "etym": "Heb.",
+      "mibDef": "binding",
+      "mibMeta": "A limiting thought in the higher or religious phase of man's consciousness that for a time hinders Spirit from consciously expressing and demonstrating in his life, or at least hinders the individual from becoming conscious of the beauty and glory and splendor of his true self, his true being, poise",
+      "candidates": []
+    }
+  ]
+}

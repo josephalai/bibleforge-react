@@ -1,0 +1,1309 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "25 of 37",
+  "_entry_range": "ids 2400–2499",
+  "entries": [
+    {
+      "id": 2400,
+      "word": "Metaphysical. Thoughts that radiate understanding",
+      "etym": "",
+      "mibDef": "rich, bountiful,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2401,
+      "word": "Metaphysical. When man becomes established in the Christ righteousness",
+      "etym": "",
+      "mibDef": "in grace, mercy, and",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2402,
+      "word": "Metaphysical. Worldly thoughts",
+      "etym": "",
+      "mibDef": "thoughts pertaining to the external, or thoughts that function",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2403,
+      "word": "Methuselah",
+      "etym": "Heb.",
+      "mibDef": "man of the sword; man of the dart; extension of the sword;",
+      "mibMeta": "A quick, piercing thought, or word (man of the sword, man of the dart) of life, power, and oneness with God which, while it causes a renewal of youth in degree, and serves to lengthen one's life in the body (sending forth of death), does not become abiding enough in the consciousness at the Methusel",
+      "candidates": [
+        {
+          "s": "H4968",
+          "def": "Methushelach, an antediluvian patriarch"
+        }
+      ]
+    },
+    {
+      "id": 2404,
+      "word": "Methushael (A.V.",
+      "etym": "Heb.",
+      "mibDef": "man of God; extension of God; man",
+      "mibMeta": "The idea that man is a spiritual and perfect being is of God, and is inherent even in the body consciousness of man (Cain and his descendants refer to the outer or physical consciousness). Methushael refers also to the error idea of death, to disintegration of the outer organism, that unenlightened ",
+      "candidates": []
+    },
+    {
+      "id": 2405,
+      "word": "Mezobaite (A.V.",
+      "etym": "Heb.",
+      "mibDef": "station ofJah, i. e., where He stands- the",
+      "mibMeta": "Jaasiel signifies the illumined reason or intellect (Abner, father of Jaasiel) awakening to the truth that God, Spirit, Divine Mind, is the source of all intelligence, of all true understanding, and is also the creator or maker (from definitions of Jaasiel) of the universe; that, separated from Spir",
+      "candidates": []
+    },
+    {
+      "id": 2406,
+      "word": "Mibhar",
+      "etym": "Heb.",
+      "mibDef": "p roved; examined; approved; chosen; choice; selected; best;",
+      "mibMeta": "A new, high, discriminating, MICA superior thought in consciousness (approved, chosen, selected, best); a thought of the vitality and vigor of youth, that allies itself to the ruling David, or love faculty, and becomes one of its strong supporters.",
+      "candidates": [
+        {
+          "s": "H4006",
+          "def": "Mibchar, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2407,
+      "word": "Mibsam",
+      "etym": "Heb.",
+      "mibDef": "having good smell; aromatic; fragrant; sweet odor; delightful;",
+      "mibMeta": "A perception or sensing of the joys and beauties of Spirit. This is possessed in degree both by a phase of the sense or carnal mind (son of Ishmael) and by a thought in the higher, more awakened and receptive mentality of the individual (a Simeonite). The sense of smell signifies the power to percei",
+      "candidates": [
+        {
+          "s": "H4017",
+          "def": "Mibsam, the name of an Ishmaelite and of an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2408,
+      "word": "Mibzar",
+      "etym": "Heb.",
+      "mibDef": "cut off; inaccessible; walled; lofty; impervious; fortified; difficult for",
+      "mibMeta": "A ruling belief of the carnal mind in man that the things of Spirit, of God, are hard to understand, that they are so far removed from the apparently finite mind of man that they are unattainable.",
+      "candidates": []
+    },
+    {
+      "id": 2409,
+      "word": "Mica (A.V.",
+      "etym": "Heb.",
+      "mibDef": "who is like Jehovah?; who can assimilate Jah ?",
+      "mibMeta": "Thoughts in the high, true consciousness of man and among his natural religious tendencies (Israelites, and one a Levite) that have awakened to a perception of the magnitude and perfection, the love, greatness, and glory, of the Christ, of man's true, spiritual I AM, or Jehovah (who is like Jehovah?",
+      "candidates": []
+    },
+    {
+      "id": 2410,
+      "word": "Micah",
+      "etym": "Heb.",
+      "mibDef": "who is like unto Jehovah?; who",
+      "mibMeta": "The individual's awakening to the truth of his real being, to the fact that in his real, true self he is spiritual, was made in the image and likeness of God, and is endowed with all the possibilities that can be attained through the use of his spiritual powers: life, love, wisdom, intelligence, fai",
+      "candidates": [
+        {
+          "s": "H4318",
+          "def": "Micah, the name of seven Israelites"
+        },
+        {
+          "s": "H4320",
+          "def": "Micajah, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2411,
+      "word": "Micaiah",
+      "etym": "Heb.",
+      "mibDef": "who is like Jah?; who can assimilate Jah?",
+      "mibMeta": "The prophetic phase of man's higher consciousness, which perceives that the powers of Being are active in and through man, and foresees the end of all error activities in him even though for the time being the individual will is seemingly engaged in promoting these error activities. It also knows th",
+      "candidates": [
+        {
+          "s": "H4321",
+          "def": "Mikajah, the name of three Israelites"
+        },
+        {
+          "s": "H4319",
+          "def": "Mikehu, an Israelite prophet"
+        }
+      ]
+    },
+    {
+      "id": 2412,
+      "word": "Michael",
+      "etym": "Web.",
+      "mibDef": "who is like unto God?; who is like God; who is assimilated of God;",
+      "mibMeta": "Divine inspiration, and a realization of the all-conquering power of God; also a Godlike or perfect state of being.",
+      "candidates": [
+        {
+          "s": "H4317",
+          "def": "Mikael, the name of an archangel and of nine Israelites"
+        },
+        {
+          "s": "G3413",
+          "def": "Michael, an archangel"
+        }
+      ]
+    },
+    {
+      "id": 2413,
+      "word": "Michal",
+      "etym": "Heb .",
+      "mibDef": "brook; rivulet; shallow well; turbid stream; who is perfect; completion;",
+      "mibMeta": "An intuitive quality active in the human soul, and becoming for the time being a cleansing, inspiring stream of pure thoughts and emotions to the preserving of the love thought (David); this thought has not, at this stage of the unfoldment of the individual, attained the ruling power in consciousnes",
+      "candidates": [
+        {
+          "s": "H4324",
+          "def": "Mikal, Saul's daughter"
+        }
+      ]
+    },
+    {
+      "id": 2414,
+      "word": "Michmas",
+      "etym": "Heb.",
+      "mibDef": "treasure house,; place of concealment; something hidden; hidden",
+      "mibMeta": "Chemosh was a national god of the Moabites, and signifies lustful desire. (See CHEMOSH.) It was at Michmash that the Philistines encamped when they came up to fight against Israel and Saul (I Sam. 13:5); and, according to Isaiah 10:28, the Assyrian stored his baggage at Michmash when he came against",
+      "candidates": []
+    },
+    {
+      "id": 2415,
+      "word": "Michmethath (A.V.",
+      "etym": "Heb.",
+      "mibDef": "hiding place; place of concealment;",
+      "mibMeta": "Michmethath, a border city between Ephraim and Manasseh, and meaning hiding place, lurking place, refers to a group of thoughts of indecision in consciousness. They lean to Truth, but are not positive enough in understanding (Manasseh) or will (Ephraim) to join either sufficiently to work boldly and",
+      "candidates": []
+    },
+    {
+      "id": 2416,
+      "word": "Michri",
+      "etym": "Heb.",
+      "mibDef": "my price; price of Jehovah; dowry ofJah; Jah possesses, i. e., by",
+      "mibMeta": "A wise and an understanding heart. Of understanding, it is said that \"she is more precious than rubies.\" \"The lips of knowledge are a precious jewel.\" \"How precious also are thy thoughts unto me, O God!\" (Prov. 3:15; 20:15; Psa. 139:17). Knowledge and wisdom come from the Spirit of Christ within one",
+      "candidates": []
+    },
+    {
+      "id": 2417,
+      "word": "Michtam",
+      "etym": "Heb.",
+      "mibDef": "writing; prescript; poem; psalm; song; golden psalm; precious",
+      "mibMeta": "The entrance into consciousness of wise, inspiring, harmonious, uplifting thoughts of substance and Truth; and the inscribing of these Truth ideals in the memory. In the phrase, golden psalm, \"golden\" suggests wisdom and substance; writing, precious verse, \"a poem intended to record memorable though",
+      "candidates": [
+        {
+          "s": "H4387",
+          "def": "an engraving, i.e., (technically) a poem"
+        }
+      ]
+    },
+    {
+      "id": 2418,
+      "word": "microbes",
+      "etym": "",
+      "mibDef": "Microbes or germs are formed by the power of thought. Thoughts",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2419,
+      "word": "Middin",
+      "etym": "Heb .",
+      "mibDef": "extended; lengthened; stretched out; meted; measured.",
+      "mibMeta": "An extending or enlarging (extended, lengthened, stretched out ) of one's inner spiritual capacity, in what seems to be the wilderness phase of one's Judah or praise consciousness, that all limitation (meted, measured) may be done away. \"For he giveth not the Spirit by measure\" (John 3:34).",
+      "candidates": []
+    },
+    {
+      "id": 2420,
+      "word": "middle wall of partition",
+      "etym": "",
+      "mibDef": "The division between the conscious mind and the subconscious mind,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8484",
+          "def": "central"
+        },
+        {
+          "s": "H8432",
+          "def": "a bisection, i.e., (by implication) the center"
+        },
+        {
+          "s": "H2872",
+          "def": "properly, accumulated; i.e., (by implication) a summit"
+        },
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        }
+      ]
+    },
+    {
+      "id": 2421,
+      "word": "Midian",
+      "etym": "Heb.",
+      "mibDef": "rule; government; judgment;",
+      "mibMeta": "Midian pertains to rule, government, a certain sense of dominion in consciousness that comes about by the union of Abraham (the first activity of faith in human consciousness) and Keturah (a phase of soul consciousness that, though still in sense, aspires to higher things for the body; see KETURAH).",
+      "candidates": [
+        {
+          "s": "H4080",
+          "def": "Midjan, a son of Abraham; also his country and (collectively) his descendants"
+        }
+      ]
+    },
+    {
+      "id": 2422,
+      "word": "Migdal-el",
+      "etym": "Heb.",
+      "mibDef": "tower of God; from the great elevation of God; strength of God;",
+      "mibMeta": "The exaltation of divine strength in consciousness. Naphtali refers to the faculty of strength; a tower bespeaks something lofty and exalted, and in the nature of a stronghold or fortress. This tower, being of God, denotes divine strength. (See MAGADAN.)",
+      "candidates": []
+    },
+    {
+      "id": 2423,
+      "word": "Migdal-gad",
+      "etym": "Heb.",
+      "mibDef": "tower of Gad; strength of Gad; who is bound by fortune;",
+      "mibMeta": "Gad means fortune, seer, troop. \"Let the horseman. Gad, be blest\" (Deut. 33:20, Fenton translation). \"Blessed be he that enlargeth Gad\"— so runs the text in the American Standard Version. Blessed is he who enters into a greater power consciousness— Gad refers to the faculty of power in man, the powe",
+      "candidates": []
+    },
+    {
+      "id": 2424,
+      "word": "Migdol",
+      "etym": "Heb.",
+      "mibDef": "bound together; strength; force; greatness; magnitude; elevation;",
+      "mibMeta": "The consciousness unified, in degree at least, built up, strengthened, and fortified in the idea of power. \"Thy neck is like the tower of David Budded for an armory. Whereon there hang a thousand bucklers All the shields of the mighty men.\" The power center in man is in the throat. Migdol's being a ",
+      "candidates": [
+        {
+          "s": "H4024",
+          "def": "Migdol, a place in Egypt"
+        }
+      ]
+    },
+    {
+      "id": 2425,
+      "word": "Migron",
+      "etym": "Heb.",
+      "mibDef": "cast down; overthrown; delivered; precipice; precipitate; fallen;",
+      "mibMeta": "Gibeah (a height, an eminence) signifies the spiritual aspiration inherent in every desire. Migron (cast down, overthrown, fallen, landslide ) denotes the dangers that lie in receiving high spiritual inspirations and then giving them over to the command and direction of the uncultivated, selfish, pe",
+      "candidates": []
+    },
+    {
+      "id": 2426,
+      "word": "Mijamin",
+      "etym": "",
+      "mibDef": "from the right hand, on the right",
+      "mibMeta": "Man's knowing that executive ability, abundant supply, faithfulness, joy, all good, are his inheritance from God, and his receiving them consciously by exercising the divine power within himself (from the right hand, from the south, fortunate, prosperous, happy, faithful).",
+      "candidates": []
+    },
+    {
+      "id": 2427,
+      "word": "Mikloth",
+      "etym": "Heb.",
+      "mibDef": "germinations; sprouts; twigs; sticks; rods; staves; divining rods, i.",
+      "mibMeta": "\"Thy rod and thy staff, they comfort me\" (Psalms 23:4). Rods suggest correction, and staves denote something to lean upon. \"He is in the way of life that heedeth correction\" (Prov. 10:17). \"Whoso loveth correction loveth knowledge\" (Prov. 12:1). \"The eternal God is thy dwelling-place, And underneath",
+      "candidates": [
+        {
+          "s": "H4732",
+          "def": "Mikloth, a place in the Desert"
+        }
+      ]
+    },
+    {
+      "id": 2428,
+      "word": "Milalai",
+      "etym": "Heb .",
+      "mibDef": "elevated speech; high-spoken; eloquent; word ofJah; command of",
+      "mibMeta": "An active, expressing ( eloquent ) thought of love and harmony, belonging to our natural religious tendencies (a musician of the Levites), in our true, higher consciousness, that magnifies Jehovah ( elevated speech, word of the Lord, great elevation of Jehovah).",
+      "candidates": []
+    },
+    {
+      "id": 2429,
+      "word": "Milcah",
+      "etym": "Heb.",
+      "mibDef": "feminine of Melech, a king; queen; rule; counsel; advice.",
+      "mibMeta": "The soul expressing dominion, wisdom, good judgment. The soul of man, in its feminine aspect, is intuitional, and often perceives or senses things that, while they do not appear to the outer or more active and positive phase of the individual consciousness, should be heeded by it.",
+      "candidates": [
+        {
+          "s": "H4435",
+          "def": "Milcah, the name of a Hebrewess and of an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2430,
+      "word": "Milcom",
+      "etym": "Heb.",
+      "mibDef": "their king.",
+      "mibMeta": "See MALCAM and MOLECH.",
+      "candidates": [
+        {
+          "s": "H4445",
+          "def": "Malcam or Milcom, the national idol of the Ammonites"
+        }
+      ]
+    },
+    {
+      "id": 2431,
+      "word": "Miletus",
+      "etym": "Gk.",
+      "mibDef": "red; scarlet; purest wool.",
+      "mibMeta": "Miletus, meaning red, scarlet, refers to the seemingly material life in the organism of the individual. Purest wool, from the fact that only the purest of wool could take the scarlet dye, points to the true substance of life as lying back of and existing in the apparently material and corruptible, w",
+      "candidates": [
+        {
+          "s": "G3399",
+          "def": "Miletus, a city of Asia Minor"
+        }
+      ]
+    },
+    {
+      "id": 2432,
+      "word": "Millo",
+      "etym": "Heb.",
+      "mibDef": "filling up; making full; fullness; abundant; mound, i. e., filled with earth",
+      "mibMeta": "A building in of substance in consciousness (a filling up, fullness); also a strengthening and fortifying of oneself in the consciousness of substance (abundant, fortress, castle). millstone— A seeming hindrance of an earthly nature; a heavy burden.",
+      "candidates": [
+        {
+          "s": "H4407",
+          "def": "a rampart (as filled in), i.e., the citadel"
+        }
+      ]
+    },
+    {
+      "id": 2433,
+      "word": "Mind",
+      "etym": "",
+      "mibDef": "By the term Mind, we mean God— the universal Principle, which includes all principles.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G3563",
+          "def": "the intellect, i.e., mind (divine or human; in thought, feeling, or will); by implication, meaning"
+        },
+        {
+          "s": "G5426",
+          "def": "to exercise the mind, i.e., entertain or have a sentiment or opinion; by implication, to be (mentally) disposed (more or less earnestly in a certain direction); intensively, to interest oneself in (with concern or obedience)"
+        },
+        {
+          "s": "H7307",
+          "def": "wind; by resemblance breath, i.e., a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)"
+        },
+        {
+          "s": "H3824",
+          "def": "the heart (as the most interior organ)"
+        }
+      ]
+    },
+    {
+      "id": 2434,
+      "word": "mind",
+      "etym": "",
+      "mibDef": "A binding, holding process. If man affirms his unity with the life,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G3563",
+          "def": "the intellect, i.e., mind (divine or human; in thought, feeling, or will); by implication, meaning"
+        },
+        {
+          "s": "G5426",
+          "def": "to exercise the mind, i.e., entertain or have a sentiment or opinion; by implication, to be (mentally) disposed (more or less earnestly in a certain direction); intensively, to interest oneself in (with concern or obedience)"
+        },
+        {
+          "s": "H7307",
+          "def": "wind; by resemblance breath, i.e., a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)"
+        },
+        {
+          "s": "H3824",
+          "def": "the heart (as the most interior organ)"
+        }
+      ]
+    },
+    {
+      "id": 2435,
+      "word": "mind",
+      "etym": "",
+      "mibDef": "Misuse of mind powers, arising from ignorance of the relationship between God",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G3563",
+          "def": "the intellect, i.e., mind (divine or human; in thought, feeling, or will); by implication, meaning"
+        },
+        {
+          "s": "G5426",
+          "def": "to exercise the mind, i.e., entertain or have a sentiment or opinion; by implication, to be (mentally) disposed (more or less earnestly in a certain direction); intensively, to interest oneself in (with concern or obedience)"
+        },
+        {
+          "s": "H7307",
+          "def": "wind; by resemblance breath, i.e., a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)"
+        },
+        {
+          "s": "H3824",
+          "def": "the heart (as the most interior organ)"
+        }
+      ]
+    },
+    {
+      "id": 2436,
+      "word": "mind",
+      "etym": "",
+      "mibDef": "A change of mind is the very first requisite of the new life in Christ. We go",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G3563",
+          "def": "the intellect, i.e., mind (divine or human; in thought, feeling, or will); by implication, meaning"
+        },
+        {
+          "s": "G5426",
+          "def": "to exercise the mind, i.e., entertain or have a sentiment or opinion; by implication, to be (mentally) disposed (more or less earnestly in a certain direction); intensively, to interest oneself in (with concern or obedience)"
+        },
+        {
+          "s": "H7307",
+          "def": "wind; by resemblance breath, i.e., a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)"
+        },
+        {
+          "s": "H3824",
+          "def": "the heart (as the most interior organ)"
+        }
+      ]
+    },
+    {
+      "id": 2437,
+      "word": "mind",
+      "etym": "",
+      "mibDef": "A combination of thoughts in consciousness that is hard to change; ideas",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G3563",
+          "def": "the intellect, i.e., mind (divine or human; in thought, feeling, or will); by implication, meaning"
+        },
+        {
+          "s": "G5426",
+          "def": "to exercise the mind, i.e., entertain or have a sentiment or opinion; by implication, to be (mentally) disposed (more or less earnestly in a certain direction); intensively, to interest oneself in (with concern or obedience)"
+        },
+        {
+          "s": "H7307",
+          "def": "wind; by resemblance breath, i.e., a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)"
+        },
+        {
+          "s": "H3824",
+          "def": "the heart (as the most interior organ)"
+        }
+      ]
+    },
+    {
+      "id": 2438,
+      "word": "mind",
+      "etym": "",
+      "mibDef": "Error consciousness in unregenerate man, or man composed of ungodlike",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G3563",
+          "def": "the intellect, i.e., mind (divine or human; in thought, feeling, or will); by implication, meaning"
+        },
+        {
+          "s": "G5426",
+          "def": "to exercise the mind, i.e., entertain or have a sentiment or opinion; by implication, to be (mentally) disposed (more or less earnestly in a certain direction); intensively, to interest oneself in (with concern or obedience)"
+        },
+        {
+          "s": "H7307",
+          "def": "wind; by resemblance breath, i.e., a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)"
+        },
+        {
+          "s": "H3824",
+          "def": "the heart (as the most interior organ)"
+        }
+      ]
+    },
+    {
+      "id": 2439,
+      "word": "mind",
+      "etym": "",
+      "mibDef": "The sum of all man's past thinking; also his memory. The subconscious",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G3563",
+          "def": "the intellect, i.e., mind (divine or human; in thought, feeling, or will); by implication, meaning"
+        },
+        {
+          "s": "G5426",
+          "def": "to exercise the mind, i.e., entertain or have a sentiment or opinion; by implication, to be (mentally) disposed (more or less earnestly in a certain direction); intensively, to interest oneself in (with concern or obedience)"
+        },
+        {
+          "s": "H7307",
+          "def": "wind; by resemblance breath, i.e., a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)"
+        },
+        {
+          "s": "H3824",
+          "def": "the heart (as the most interior organ)"
+        }
+      ]
+    },
+    {
+      "id": 2440,
+      "word": "mind",
+      "etym": "",
+      "mibDef": "Conscious mind, subconscious mind, and superconscious mind, called the",
+      "mibMeta": "By the term Mind, we mean God-- the universal principle of causation, which includes all principles. Mathematics is a principle that in its field illustrates the exact and inexorable laws that are one with the manifestations of God, or Mind.",
+      "candidates": [
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G3563",
+          "def": "the intellect, i.e., mind (divine or human; in thought, feeling, or will); by implication, meaning"
+        },
+        {
+          "s": "G5426",
+          "def": "to exercise the mind, i.e., entertain or have a sentiment or opinion; by implication, to be (mentally) disposed (more or less earnestly in a certain direction); intensively, to interest oneself in (with concern or obedience)"
+        },
+        {
+          "s": "H7307",
+          "def": "wind; by resemblance breath, i.e., a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)"
+        },
+        {
+          "s": "H3824",
+          "def": "the heart (as the most interior organ)"
+        }
+      ]
+    },
+    {
+      "id": 2441,
+      "word": "mind of the flesh",
+      "etym": "",
+      "mibDef": "(Rom. 8:7) Mixed thoughts, selfishness, fear, and the like. These thoughts are",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G3563",
+          "def": "the intellect, i.e., mind (divine or human; in thought, feeling, or will); by implication, meaning"
+        },
+        {
+          "s": "G5426",
+          "def": "to exercise the mind, i.e., entertain or have a sentiment or opinion; by implication, to be (mentally) disposed (more or less earnestly in a certain direction); intensively, to interest oneself in (with concern or obedience)"
+        },
+        {
+          "s": "H7307",
+          "def": "wind; by resemblance breath, i.e., a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)"
+        },
+        {
+          "s": "H3824",
+          "def": "the heart (as the most interior organ)"
+        }
+      ]
+    },
+    {
+      "id": 2442,
+      "word": "Mind. The soul of man is a mental thing",
+      "etym": "",
+      "mibDef": "thoughts and words",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G3563",
+          "def": "the intellect, i.e., mind (divine or human; in thought, feeling, or will); by implication, meaning"
+        },
+        {
+          "s": "G5426",
+          "def": "to exercise the mind, i.e., entertain or have a sentiment or opinion; by implication, to be (mentally) disposed (more or less earnestly in a certain direction); intensively, to interest oneself in (with concern or obedience)"
+        },
+        {
+          "s": "H7307",
+          "def": "wind; by resemblance breath, i.e., a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)"
+        },
+        {
+          "s": "H3824",
+          "def": "the heart (as the most interior organ)"
+        }
+      ]
+    },
+    {
+      "id": 2443,
+      "word": "Miniamin",
+      "etym": "Heb ,",
+      "mibDef": "from the right side; on the right side; dexterous; fortunate ;",
+      "mibMeta": "Faithfulness, substance, fruitfulness, joy, skill, power to execute, active in the higher thoughts of man's consciousness and bearing fruit in his outer organism and life. There is that in every individual which causes him always to hope for and expect that which is good and true, and his very expec",
+      "candidates": []
+    },
+    {
+      "id": 2444,
+      "word": "Minni",
+      "etym": "Heb.",
+      "mibDef": "divided out; numbered; reckoned; meted; allotted; appointed;",
+      "mibMeta": "A day of reckoning, a period of judgment, for sense confusion (Babylon). The time always comes when one's thoughts and activities are taken into account, as it were, and one reaps according to that which one has sown. In fact man is every day reaping some of his past sowing, be it good or ill. Being",
+      "candidates": []
+    },
+    {
+      "id": 2445,
+      "word": "miracle",
+      "etym": "",
+      "mibDef": "\"An event or effect in the physical world beyond or out of the ordinary course of things,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4592",
+          "def": "an indication, especially ceremonially or supernaturally"
+        },
+        {
+          "s": "H4159",
+          "def": "a miracle; by implication, a token or omen"
+        },
+        {
+          "s": "G1411",
+          "def": "force (literally or figuratively); specially, miraculous power (usually by implication, a miracle itself)"
+        }
+      ]
+    },
+    {
+      "id": 2446,
+      "word": "miracle",
+      "etym": "",
+      "mibDef": "\"An event or effect in the physical world beyond or out of the ordinary course of things,",
+      "mibMeta": "The miracles or \"signs\" (John 7:31) that go so far in convincing one's unbelieving thoughts are the transformations that go on in the midst of one's unbelieving thoughts and are the result of one's true words. A woman once told her crossed eyes that they were not eyes of flesh but eyes of Spirit, an",
+      "candidates": [
+        {
+          "s": "G4592",
+          "def": "an indication, especially ceremonially or supernaturally"
+        },
+        {
+          "s": "H4159",
+          "def": "a miracle; by implication, a token or omen"
+        },
+        {
+          "s": "G1411",
+          "def": "force (literally or figuratively); specially, miraculous power (usually by implication, a miracle itself)"
+        }
+      ]
+    },
+    {
+      "id": 2447,
+      "word": "Miriam",
+      "etym": "H eb .",
+      "mibDef": "contradiction; outcry; protest; rebellion; perversion; bitterness;",
+      "mibMeta": "The soul, or feminine side of the love quality that is active in man (Miriam was of the tribe of Levi— love) while he is struggling to free himself from the errors and selfishness of personality, that he may be fully released from all bondage to human limitations and enter wholly into the Promised L",
+      "candidates": [
+        {
+          "s": "H4813",
+          "def": "Mirjam, the name of two Israelitesses"
+        }
+      ]
+    },
+    {
+      "id": 2448,
+      "word": "Mirmah (A.V.",
+      "etym": "Heb.",
+      "mibDef": "deceit; fraud; pen’erse; full of guile; wicked; cast",
+      "mibMeta": "In Ephesians 6:12 we read about \"spiritual . . . wickedness in the heavenly",
+      "candidates": []
+    },
+    {
+      "id": 2449,
+      "word": "Misgab",
+      "etym": "Heb.",
+      "mibDef": "height; altitude; a high rock; refuge; security; an inaccessible place.",
+      "mibMeta": "The carnal mind, or limited, personal man (Moab), exalting itself and seeking to justify and fortify itself in its human and sense limitations.",
+      "candidates": [
+        {
+          "s": "H4869",
+          "def": "properly, a cliff (or other lofty or inaccessible place); abstractly, altitude; figuratively, a refuge"
+        }
+      ]
+    },
+    {
+      "id": 2450,
+      "word": "Mishael",
+      "etym": "Heb.",
+      "mibDef": "who is what God is ?; who is like unto God?; what God is; from the",
+      "mibMeta": "Love, Godlikeness, that which is greatly desired and is prayed earnestly for by all persons who have in any degree been awakened to the Christ Truth. The inner self of every person, whether he recognizes it or not, ever seeks and longs to have the individual come into conscious oneness with his Sour",
+      "candidates": [
+        {
+          "s": "H4332",
+          "def": "Mishael, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2451,
+      "word": "Mishal (A.V.",
+      "etym": "Heb .",
+      "mibDef": "digging out; hollowing out; searching;",
+      "mibMeta": "The central idea expressed in Mishal is prayer, an earnest seeking after God and Truth. By means of its great and sincere desire for light and overcoming, this group of thoughts (Mishal) comes to the Israelites (true, higher thoughts), and then is given over to the Levites, the natural religious ten",
+      "candidates": [
+        {
+          "s": "H4861",
+          "def": "Mishal, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2452,
+      "word": "Misham",
+      "etym": "Heb .",
+      "mibDef": "swift going; fleet; hasty; impetuous; quick; made clean; cleansed;",
+      "mibMeta": "One of the results of a great increase of the activity of faith in consciousness (a son of Elpaal; see ELPAAL). This result is a quick purification from error and an establishment of the good and true.",
+      "candidates": []
+    },
+    {
+      "id": 2453,
+      "word": "Mishma",
+      "etym": "Heb.",
+      "mibDef": "a hearing; hearkening; report; rumor; fame; call; declaration;",
+      "mibMeta": "A receptive, attentive, obedient attitude (hearing, obeying) in bath the inner and the outer consciousness of the individual (Mishma, a descendant of Simeon, refers to the religious and spiritual realm of mind in man, while the other Mishma, a son of Ishmael, refers to the outer or sense consciousne",
+      "candidates": [
+        {
+          "s": "H4927",
+          "def": "Mishma, the name of a son of Ishmael, and of an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2454,
+      "word": "Mishmannah",
+      "etym": "Heb.",
+      "mibDef": "fatness; sumptuous; strength; vigor; fertility.",
+      "mibMeta": "A strong, active thought of power, vitality, substance, strength, that allies itself to the love faculty (David) and aids it in coming into its rightful place of rulership in consciousness.",
+      "candidates": [
+        {
+          "s": "H4925",
+          "def": "Mashmannah, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2455,
+      "word": "Mishraites",
+      "etym": "fr. Heb .",
+      "mibDef": "drawn out; extended; spread abroad; leaders; shepherds.",
+      "mibMeta": "High ideals being extended, spread abroad, throughout the consciousness of the individual, and becoming true leaders and shepherds of his thoughts and forces. (See KIRIATH- JEARIM.)",
+      "candidates": []
+    },
+    {
+      "id": 2456,
+      "word": "Mispereth",
+      "etym": "Heb .",
+      "mibDef": "inscribing; engraving; writing; counting; tallying; scoring;",
+      "mibMeta": "That in man which takes account of and places an estimate on his true spiritual values (numbering) and records them in the memory of the individual, upon the inner tablet of the heart (engraving, inscribing, writing). This Mispereth quality in man comes up out of Babylon (sense confusion) with Zerub",
+      "candidates": []
+    },
+    {
+      "id": 2457,
+      "word": "Misrephoth-maim",
+      "etym": "Heb.",
+      "mibDef": "burning waters; burning of waters; hot",
+      "mibMeta": "The carrying away of impurities, errors, poisons, from the consciousness and organism by the cleansing waters of denial. During this process of cleansing, while errors and impurities",
+      "candidates": []
+    },
+    {
+      "id": 2458,
+      "word": "Mithkah (A.V.",
+      "etym": "Heb.",
+      "mibDef": "relish, sweetness; pleasantness; sweet (well or",
+      "mibMeta": "A place, or condition, in the wilderness experience of one's truer thoughts (Israelites) that are on their way from the darkness of Egypt to the Promised Land, wherein an inflow of new substance and life is realized. This is indeed sweetness to one's higher consciousness. (Well or fountain points to",
+      "candidates": []
+    },
+    {
+      "id": 2459,
+      "word": "Mithnite",
+      "etym": "fr. Heb.",
+      "mibDef": "loin; strength; firmness; liberality; gift.",
+      "mibMeta": "The increase of strength, faithfulness, Truth, and broadness of vision in consciousness (loin, strength, firmness, liberality; \"she girdeth her loins with strength\"; \"faithfulness the girdle of his loins\"; \"having girded your loins with truth.\" This great increase of good, or grace (gift of God), co",
+      "candidates": []
+    },
+    {
+      "id": 2460,
+      "word": "Mithredath",
+      "etym": "Heb.",
+      "mibDef": "given by Mithra; gift of the sun god; mandate ofMithra;",
+      "mibMeta": "Light, understanding, but more on the psychical than on the spiritual plane, because of one's beholding the laws, the secondary step in understanding as it comes forth into expression and manifestation, instead of keeping the attention fixed on the Source (given by Mithra, gift of the sun god, manda",
+      "candidates": [
+        {
+          "s": "H4990",
+          "def": "Mithredath, the name of two Persians"
+        }
+      ]
+    },
+    {
+      "id": 2461,
+      "word": "Mitylene",
+      "etym": "Gk.",
+      "mibDef": "pressing; curtailing; cleansing; purifying.",
+      "mibMeta": "A place in consciousness wherein the word of Truth (Paul) enters and does a much needed (pressing, meaning urgent) cleansing and purifying; thus error is diminished (curtailing) and the individual is made ready for the next step, which is signified by Chios, where Paul went from Mitylene. Chios mean",
+      "candidates": []
+    },
+    {
+      "id": 2462,
+      "word": "Mizar",
+      "etym": "Heb.",
+      "mibDef": "smallness; reduced; little; few; brought low; insignificant; despised;",
+      "mibMeta": "Mount Hermon signifies a high, sublime state of mind. The Hermons, or three peaks of Hermon, bespeak the exaltation of the triune God; the lifting up, in conscious recognition, of",
+      "candidates": []
+    },
+    {
+      "id": 2463,
+      "word": "Mizpah",
+      "etym": "Heb.",
+      "mibDef": "looking about; scanning the horizon; watchtower; lofty place, i. e.,",
+      "mibMeta": "Spiritual watching-being on guard against the encroachment of error. The great spiritual Teacher instructs us not only to pray, but to \"take heed, watch and pray\" (Mark 13:33). The second step that Samuel took (I Sam. 7:2-12) in leading the Children of Israel out against the Philistines was to have ",
+      "candidates": [
+        {
+          "s": "H4709",
+          "def": "Mitspah, the name of two places in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2464,
+      "word": "Mizpeh",
+      "etym": "Heb.",
+      "mibDef": "watchtower; same as Mizpah.",
+      "mibMeta": "See MIZPAH.",
+      "candidates": [
+        {
+          "s": "H4708",
+          "def": "Mitspeh, the name of five places in Palestine"
+        },
+        {
+          "s": "H4709",
+          "def": "Mitspah, the name of two places in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2465,
+      "word": "Mizraim",
+      "etym": "",
+      "mibDef": "Egypt; Egyptians; circumscription; limitation; bondage;",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4714",
+          "def": "Mitsrajim, i.e., Upper and Lower Egypt"
+        }
+      ]
+    },
+    {
+      "id": 2466,
+      "word": "Mizzah",
+      "etym": "Heb.",
+      "mibDef": "flowing down; melting away; fear; terror; exhaustion;",
+      "mibMeta": "A steady tearing down and wearing away of the consciousness and organism (flowing clown, melting away, disintegration, exhaustion, dissolution). This is the result of fear, fear being one of the most subtle and destructive errors that the carnal mind in man contains. It is overcome by divine love, w",
+      "candidates": []
+    },
+    {
+      "id": 2467,
+      "word": "Mnason",
+      "etym": "",
+      "mibDef": "pronounced na'-son (Gk.)— mindful; reminding; remembering; bringing to",
+      "mibMeta": "That in the spiritually awakening consciousness of the individual which causes him to remember, to be mindful of the word of Truth (Paul) and all the higher thoughts and ideals that pertain to the Christ mind. Mnason would be equivalent to the Holy Spirit, in significance.",
+      "candidates": [
+        {
+          "s": "G3416",
+          "def": "Mnason, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 2468,
+      "word": "Moab",
+      "etym": "Heb .",
+      "mibDef": "seed of the father; water of the water; flowing from the father; what of the",
+      "mibMeta": "Moab seems to have two sides to its significance. Moab means seed of the father, flowing from the father, of his father, and while Moab represents the body and the most external conditions of life, there is something good in it, or at least a possibility of good. From the top of a mountain in Moab, ",
+      "candidates": [
+        {
+          "s": "H4124",
+          "def": "Moab, an incestuous son of Lot; also his territory and descendants"
+        }
+      ]
+    },
+    {
+      "id": 2469,
+      "word": "Moabites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Moab.",
+      "mibMeta": "Thoughts springing from and belonging to that in consciousness which Moab signifies. (See MOAB.)",
+      "candidates": [
+        {
+          "s": "H4124",
+          "def": "Moab, an incestuous son of Lot; also his territory and descendants"
+        },
+        {
+          "s": "H4125",
+          "def": "a Moabite or Moabitess, i.e., a descendant from Moab"
+        }
+      ]
+    },
+    {
+      "id": 2470,
+      "word": "Moabitess",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Moab.",
+      "mibMeta": "The carnal mind as it pertains to the soul of man. Ruth the Moabitess signifies human love raised to the divine because of its willingness to leave the love of the unreal. (See RUTH and MOAB.) Moadiah, mo-a-dl'-ah (Heb.) appointed time of Jehovah- festival ofJah; ornament of Jehovah. A priest of Isr",
+      "candidates": [
+        {
+          "s": "H4125",
+          "def": "a Moabite or Moabitess, i.e., a descendant from Moab"
+        }
+      ]
+    },
+    {
+      "id": 2471,
+      "word": "modest",
+      "etym": "",
+      "mibDef": "not bold, presumptuous, or hypocritical; it is bom of a true knowledge of God.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2887",
+          "def": "orderly, i.e., decorous"
+        }
+      ]
+    },
+    {
+      "id": 2472,
+      "word": "Moladah",
+      "etym": "Heb.",
+      "mibDef": "begetting; conception; birth; nativity; offspring; progeny.",
+      "mibMeta": "New thoughts born into consciousness, thoughts of praise (Judah) and receptivity to Truth (Simeon).",
+      "candidates": []
+    },
+    {
+      "id": 2473,
+      "word": "Molech",
+      "etym": "Heb.",
+      "mibDef": "king; ruler; counselor; judge.",
+      "mibMeta": "The ruling of public opinion, and of the \"mind of the flesh\" in one's consciousness. Children's being sacrificed in the fire to this god signifies one's mentally burning and destroying new ideas by letting fear of or deep regard for what other persons may think (public opinion), with the prejudices,",
+      "candidates": []
+    },
+    {
+      "id": 2474,
+      "word": "Molid",
+      "etym": "Heb.",
+      "mibDef": "genitor; begetter, i. e., father; conceiver, i. e., mother; generation;",
+      "mibMeta": "Molid refers to the cause (father) and the reception ( mother ) of new ideas in consciousness, or that in the individual consciousness which opens the way for and causes new ideas to spring forth (begetter, conceiver). Both Abishur and Abihail, parents of Molid, signify strength and might brought in",
+      "candidates": []
+    },
+    {
+      "id": 2475,
+      "word": "moment. This understanding of God as omnipresent Spirit",
+      "etym": "",
+      "mibDef": "life, substance, and intelligence in whom",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7281",
+          "def": "a wink (of the eyes), i.e., a very short space of time"
+        },
+        {
+          "s": "G4743",
+          "def": "a point of time, i.e., an instant"
+        }
+      ]
+    },
+    {
+      "id": 2476,
+      "word": "Morashtite (A.V.",
+      "etym": "fr. Heb.",
+      "mibDef": "of ox belonging to Moresheth-gath.",
+      "mibMeta": "See MORESHETH-GATH and MICAH.",
+      "candidates": []
+    },
+    {
+      "id": 2477,
+      "word": "Mordecai",
+      "etym": "Heb. fr. Pers.",
+      "mibDef": "little man, manikin; of Merodach; dedicated to Mars;",
+      "mibMeta": "Victorious for Truth, a spiritual power working within each soul for its full redemption. Little man, and contrition, definitions of the name Mordecai, signify that humbleness which always marks the truly great individual, or idea, and a repentance or turning away from error and a resolute turning t",
+      "candidates": [
+        {
+          "s": "H4782",
+          "def": "Mordecai, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2478,
+      "word": "Moreh",
+      "etym": "Heb .",
+      "mibDef": "teaching; a teacher; sage; prophet; importer of wisdom.",
+      "mibMeta": "A state of mind receptive to Truth; a teachable state of mind. In a teachable state of mind the constructive methods that are always characteristic of the divine are revealed, and with this mind protection and strength (oak tree) are realized and victory is assured.",
+      "candidates": []
+    },
+    {
+      "id": 2479,
+      "word": "Moresheth-gath",
+      "etym": "Heb .",
+      "mibDef": "possession of Gath; possession of the wine press.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2480,
+      "word": "Moriah",
+      "etym": "Heb.",
+      "mibDef": "vision of Jehovah; revelation ofJah; chosen by Jehovah; Jah",
+      "mibMeta": "The \"land of Moriah,\" to which Abraham was told to go to make his sacrifice, means bitterness of Jehovah. When changes take place in the consciousness there are sometimes very bitter experiences, and a stout faith is needed to believe that good will come out of them. But good always comes if there i",
+      "candidates": []
+    },
+    {
+      "id": 2481,
+      "word": "mortal and an entrance into that which the positive",
+      "etym": "",
+      "mibDef": "a realization",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2349",
+          "def": "liable to die"
+        },
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        }
+      ]
+    },
+    {
+      "id": 2482,
+      "word": "mortal beliefs",
+      "etym": "",
+      "mibDef": "Beliefs in sickness, sin, poverty, trouble, accident, and death, which are prevalent",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2349",
+          "def": "liable to die"
+        },
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        }
+      ]
+    },
+    {
+      "id": 2483,
+      "word": "mortal plane",
+      "etym": "",
+      "mibDef": "That realm of ideas conceived in mortal, or material consciousness.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2349",
+          "def": "liable to die"
+        },
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        }
+      ]
+    },
+    {
+      "id": 2484,
+      "word": "Moserah (A.V.",
+      "etym": "Heb.",
+      "mibDef": "bond; band; fetter; yoke; chain harness:",
+      "mibMeta": "The seeming trial (chastisement) and bondage (bond, fetter) in which the Christian remains so long as he has only an intellectual comprehension of divine law. To such a one, Hebrews 12:6 reads \"whom the Lord loveth he chasteneth\" instead of \"whom the Lord loves, he disciplines.\" The latter is the co",
+      "candidates": []
+    },
+    {
+      "id": 2485,
+      "word": "Moseroth",
+      "etym": "Heb.",
+      "mibDef": "bonds; fetters; yokes; corrections; chastisements ; reproofs;",
+      "mibMeta": "See MOSERAH.",
+      "candidates": []
+    },
+    {
+      "id": 2486,
+      "word": "Moses",
+      "etym": "Heb.",
+      "mibDef": "drawing out; drawer out; drawing forth; extracting, i. e.,from the water;",
+      "mibMeta": "Moses means drawing out, extracting, i. e.,from the water. The birth of Moses represents man's development in consciousness of the law of his being, from the negative side. Water represents universal negation; but water also represents the great possibility. Out of seemingly negative conditions come",
+      "candidates": [
+        {
+          "s": "H4872",
+          "def": "Mosheh, the Israelite lawgiver"
+        },
+        {
+          "s": "G3475",
+          "def": "Moseus, Moses, or Mouses (i.e., Mosheh), the Hebrew lawgiver"
+        }
+      ]
+    },
+    {
+      "id": 2487,
+      "word": "motherhood",
+      "etym": "",
+      "mibDef": "The brooding, nourishing element of Divine Mind, or God, in which",
+      "mibMeta": "Exaltation, a high plane of consciousness, a state of spiritual realization.",
+      "candidates": []
+    },
+    {
+      "id": 2488,
+      "word": "Moza",
+      "etym": "Heb .",
+      "mibDef": "going forth; origin; source; rising, i. e., of the sun; offspring; the east;",
+      "mibMeta": "Thoughts belonging to the active faith (Benjamin) and praise (Judah) consciousness in man. These thoughts have their origin or source in Spirit (the two men named Moza were Israelites). They go forth throughout the organism of the individual as a bubbling spring or fountain of life and wholeness, of",
+      "candidates": [
+        {
+          "s": "H4162",
+          "def": "Motsa, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2489,
+      "word": "Mozah",
+      "etym": "Heb .",
+      "mibDef": "outgoing; issuing; departing; source; origin; going out; exodus;",
+      "mibMeta": "The significance is virtually the same as that of Moza: the issuing forth of the waters of life, or thoughts of life and Truth, into the outer consciousness, the result of an active faith (Benjamin) that the one Source of all life (springhead) is the life of the outer man as well as of the inner man",
+      "candidates": []
+    },
+    {
+      "id": 2490,
+      "word": "mule",
+      "etym": "",
+      "mibDef": "Represents human will. When it is ridden and is obedient, it infers subjection of that",
+      "mibMeta": "Human will. When it is ridden and is obedient, it infers subjection of that faculty to the established order. multitude— The \"great multitude\" of John 6:5 is composed of our own hungry thoughts. They want an influx of the Truth of Spirit into consciousness. \"Man doth not live by bread only, but by e",
+      "candidates": [
+        {
+          "s": "H6505",
+          "def": "a mule (perhaps from his lonely habits)"
+        }
+      ]
+    },
+    {
+      "id": 2491,
+      "word": "Muppim",
+      "etym": "Heb .",
+      "mibDef": "serpents; glidings; wavings; coverings; hiding under ground;",
+      "mibMeta": "Human or sense wisdom (serpents) that is very subtle, and is unsteady and unsettled in its reasonings and deductions (glidings, hiding under ground, wavings, \"tossed to and fro and carried about with every wind of doctrine\") and is not clear therefore (obscurities, darkenings), and does not lead the",
+      "candidates": []
+    },
+    {
+      "id": 2492,
+      "word": "Mushi",
+      "etym": "Heb.",
+      "mibDef": "withdrawn; drawn out; letting go; taking away; deserting; departing;",
+      "mibMeta": "A phase of the natural love in the human consciousness (a grandson of Levi; Levi signifies the first conscious development of the love faculty in man) that is very sensitive, susceptible, impressionable, touchy, quick to sense or feel conditions and to take offense. The individual who is dominated b",
+      "candidates": []
+    },
+    {
+      "id": 2493,
+      "word": "Mushites",
+      "etym": "fr. Heb.",
+      "mibDef": "o/ or belonging to Mushi.",
+      "mibMeta": "Thoughts springing from and belonging to that in consciousness which Mushi symbolizes. (See MUSHI.) mustard seed— The mustard seed comparison shows the capacity of the apparently small thought of Truth to develop in consciousness until it becomes the abiding place of a higher range of thoughts (bird",
+      "candidates": []
+    },
+    {
+      "id": 2494,
+      "word": "Myra",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "flowing; dripping; weeping; bitterness; grief; sadness; sorrow;",
+      "mibMeta": "Unrestrained emotion. Ointments, one definition of Myra, suggests something of a healing nature, but the other definitions, weeping, dripping, flowing, bitterness, grief sorrow, all denote the emotional nature's expressing in a dissipating, destructive way. The emotions, expressing on the material p",
+      "candidates": []
+    },
+    {
+      "id": 2495,
+      "word": "myrrh",
+      "etym": "",
+      "mibDef": "An aromatic gum resin; a slightly pungent perfume, used for incense, ly myrrh represents",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4753",
+          "def": "myrrh (as distilling in drops, and also as bitter)"
+        },
+        {
+          "s": "G4666",
+          "def": "myrrh"
+        }
+      ]
+    },
+    {
+      "id": 2496,
+      "word": "Mysia",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "beyond bounds; beech land; border land; criminal, abominable.",
+      "mibMeta": "The meaning of Mysia is beyond bounds, criminal, abominable, and the meaning of Bithynia, the place mentioned with Mysia, is violent precipitation. Under the guidance of the Lord the redeeming power of Spirit is not set into action in these dark states of consciousness until neighboring thought cent",
+      "candidates": [
+        {
+          "s": "G3465",
+          "def": "Mysia, a region of Asia Minor"
+        }
+      ]
+    },
+    {
+      "id": 2497,
+      "word": "mystic",
+      "etym": "",
+      "mibDef": "One who has intimate, firsthand acquaintance with God; a man of prayer. Jesus was the",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2498,
+      "word": "Naam",
+      "etym": "Heb.",
+      "mibDef": "comity; concord; amity; sociability; sweetness; pleasantness;",
+      "mibMeta": "Wisdom's ways are ways of pleasantness, and all her paths are peace. Naam (comity, amity, pleasantness, sweetness, delightfulness, and abundant good) signifies the joy and gladness, the harmony and satisfaction, that are the result of a true, faithful spirit, and of enthusiastic faith in God. Caleb,",
+      "candidates": []
+    },
+    {
+      "id": 2499,
+      "word": "Naamah",
+      "etym": "Heb.",
+      "mibDef": "comity; concord; amity; socicd unity; sweet; pleasant; grace;",
+      "mibMeta": "The animal soul in pleasing, harmonious relationship with the youthful idea, even though this consciousness of strength and youth here is of the outer man (Lamech, father of the one Naamah, was descended from Cain, who represents the outer or the body; the other woman named Naamah was an Ammonitess,",
+      "candidates": [
+        {
+          "s": "H5279",
+          "def": "Naamah, the name of an antediluvian woman, of an Ammonitess"
+        }
+      ]
+    }
+  ]
+}

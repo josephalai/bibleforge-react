@@ -1,0 +1,1500 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "14 of 37",
+  "_entry_range": "ids 1300–1399",
+  "entries": [
+    {
+      "id": 1300,
+      "word": "Gibbethon",
+      "etym": "Heb.",
+      "mibDef": "height; eminence; a raised place; high; a high house.",
+      "mibMeta": "A group of highly illumined thoughts in consciousness, that belong to the judgment faculty (Dan).",
+      "candidates": [
+        {
+          "s": "H1405",
+          "def": "Gibbethon, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1301,
+      "word": "Gibea",
+      "etym": "Heb.",
+      "mibDef": "high; like a mountain; a hill; an eminence; a highlander.",
+      "mibMeta": "A hill always refers to a high, elevated thought, desire, aspiration, or state of consciousness. This may not always be spiritual; it may be of the intellect or of the soul, but it is an aspiring to higher things. The meaning of Gibea is virtually the same as that of Gibeah. (See GIBEAH.)",
+      "candidates": []
+    },
+    {
+      "id": 1302,
+      "word": "Gibeah",
+      "etym": "Heb.",
+      "mibDef": "a height; as a mountain; a hill; a place on a high hill; an eminence.",
+      "mibMeta": "At the time when Jonathan resolved to go over into the Philistine garrison, Saul was in Gibeah, which is Migron (I Sam. 14:2). Gibeah, meaning a height, an eminence, represents the spiritual aspiration inherent in every desire. Saul, the will, though undisciplined, aspired to high and lofty aims (sy",
+      "candidates": [
+        {
+          "s": "H1390",
+          "def": "Gibah; the name of three places in Palestine"
+        },
+        {
+          "s": "H1387",
+          "def": "Geba, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1303,
+      "word": "Gibeath",
+      "etym": "Heb.",
+      "mibDef": "heights; hills; eminences; distinctions.",
+      "mibMeta": "See GIBEAH. Gibeathite. glb'-e-ath-lte (fr. Heb.)~o/or belonging to Gibeah. A native or inhabitant of Gibeah; \"the sons of Shemaah the Gibeathite\" (I Chron. 12:3). A thought belonging to the Gibeah consciousness. (See GIBEAH.) Gibeon, g;b'-e-on (Heb.)-- place of the hill; hill city, i.e., built on a",
+      "candidates": []
+    },
+    {
+      "id": 1304,
+      "word": "Gibeonites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Gibeon.",
+      "mibMeta": "Thoughts of the sensate or carnal phase of the subjective consciousness that aspire to higher and more spiritual ideals and try to reach these ideals by making an alliance with man's real, true thoughts (Israel).",
+      "candidates": [
+        {
+          "s": "H1393",
+          "def": "a Gibonite, or inhabitant of Gibon"
+        }
+      ]
+    },
+    {
+      "id": 1305,
+      "word": "Giddalti",
+      "etym": "Heb.",
+      "mibDef": "I magnify (God); I have magnified; I have made great; I have caused",
+      "mibMeta": "Love (Levite) magnifying God (spiritual Truth), thus producing rhythm and harmony in the body temple and bringing the organism into tune with the Infinite. This leads to true greatness and strength.",
+      "candidates": []
+    },
+    {
+      "id": 1306,
+      "word": "Giddel",
+      "etym": "Heb.",
+      "mibDef": "very great; gigantic; greater magnitude, i.e., of size or number.",
+      "mibMeta": "The exaltation of service.",
+      "candidates": []
+    },
+    {
+      "id": 1307,
+      "word": "Gideon (A.V.",
+      "etym": "Heb .",
+      "mibDef": "cutter-o; mutilator, destroyer; tree",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1439",
+          "def": "Gidon, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1308,
+      "word": "Gideoni",
+      "etym": "Heb .",
+      "mibDef": "of Gideon, i.e., having a likeness or quality of Gideon; warlike;",
+      "mibMeta": "Denial, working through the activity of faith (a Benjamite) to destroy error and to bring about discrimination, good judgment (Abidan).",
+      "candidates": []
+    },
+    {
+      "id": 1309,
+      "word": "Gidom",
+      "etym": "Heb.",
+      "mibDef": "severing; completely cutting off; destroying; laying waste; desolation.",
+      "mibMeta": "A state of consciousness in which there is great activity during the cutting off, by denial, of impure thoughts and desires; also a sense of desolation, or emptiness, that comes over one when one has been very vigorous in the denial and putting away of some error that was strongly rooted in the cons",
+      "candidates": []
+    },
+    {
+      "id": 1310,
+      "word": "gift",
+      "etym": "",
+      "mibDef": "\"Every good gift and every perfect gift is from above, coming down from the Father of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1431",
+          "def": "a gratuity"
+        },
+        {
+          "s": "G5486",
+          "def": "a (divine) gratuity, i.e., deliverance (from danger or passion); (specially), a (spiritual) endowment, i.e., (subjectively) religious qualification, or (objectively) miraculous faculty"
+        },
+        {
+          "s": "G1435",
+          "def": "a present; specially, a sacrifice"
+        },
+        {
+          "s": "H7810",
+          "def": "a donation (venal or redemptive)"
+        },
+        {
+          "s": "H4979",
+          "def": "a present; specifically (in a good sense), a sacrificial offering, (in a bad sense) a bribe"
+        }
+      ]
+    },
+    {
+      "id": 1311,
+      "word": "gift",
+      "etym": "",
+      "mibDef": "The manifestation of Spirit in each of the members of the Christ body according to",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1431",
+          "def": "a gratuity"
+        },
+        {
+          "s": "G5486",
+          "def": "a (divine) gratuity, i.e., deliverance (from danger or passion); (specially), a (spiritual) endowment, i.e., (subjectively) religious qualification, or (objectively) miraculous faculty"
+        },
+        {
+          "s": "G1435",
+          "def": "a present; specially, a sacrifice"
+        },
+        {
+          "s": "H7810",
+          "def": "a donation (venal or redemptive)"
+        },
+        {
+          "s": "H4979",
+          "def": "a present; specifically (in a good sense), a sacrificial offering, (in a bad sense) a bribe"
+        }
+      ]
+    },
+    {
+      "id": 1312,
+      "word": "gifts",
+      "etym": "",
+      "mibDef": "Offerings of love to the Christ; inner resources open to the Christ Mind.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1435",
+          "def": "a present; specially, a sacrifice"
+        },
+        {
+          "s": "H4979",
+          "def": "a present; specifically (in a good sense), a sacrificial offering, (in a bad sense) a bribe"
+        },
+        {
+          "s": "G5486",
+          "def": "a (divine) gratuity, i.e., deliverance (from danger or passion); (specially), a (spiritual) endowment, i.e., (subjectively) religious qualification, or (objectively) miraculous faculty"
+        },
+        {
+          "s": "G1390",
+          "def": "a present"
+        },
+        {
+          "s": "H4503",
+          "def": "a donation; euphemistically, tribute; specifically a sacrificial offering (usually bloodless and voluntary)"
+        }
+      ]
+    },
+    {
+      "id": 1313,
+      "word": "Gihon",
+      "etym": "Heb .",
+      "mibDef": "determining impulse; formative movement; a bursting forth; whirlpool;",
+      "mibMeta": "Gihon means formative movement. It represents the deific breath of God inspiring man and purifying his blood in the lungs. It flows through the darkened consciousness (Cush). The Gihon that was a fountain, or pool, with springs, just outside Jerusalem, indicates a bursting forth of joyous life and T",
+      "candidates": []
+    },
+    {
+      "id": 1314,
+      "word": "Gilalai",
+      "etym": "Heb.",
+      "mibDef": "rolling along; rolling together; weighty; dungy; like a ball; like a",
+      "mibMeta": "A strong love thought in consciousness that realizes how important (weight) it is to have cooperative, harmonious activity (rolling along, rolling together) in one's thoughts in order to increase one's substance, and to rebuild the seemingly mortal organism into a spiritual body.",
+      "candidates": []
+    },
+    {
+      "id": 1315,
+      "word": "Gilboa",
+      "etym": "Heb.",
+      "mibDef": "boiling springs; bubbling fountains; agitated pools; swelling with",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1316,
+      "word": "Gilead",
+      "etym": "Heb.",
+      "mibDef": "mound of witness; massive witness; enduring rock; rock of time; great",
+      "mibMeta": "The high place in consciousness where Spirit discerns and witnesses to what is true and to all man's thoughts and acts, that an adjustment may be made throughout mind and body. If we let our high ideals and standards become subject to sensate, error reasonings, our spiritual discernment becomes obsc",
+      "candidates": [
+        {
+          "s": "H1568",
+          "def": "Gilad, a region East of the Jordan; also the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1317,
+      "word": "Gileadite",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Gilead.",
+      "mibMeta": "A discerning, discriminating, judging thought belonging to the Gilead consciousness in man. (See GILEAD.)",
+      "candidates": [
+        {
+          "s": "H1569",
+          "def": "a Giladite or descendant of Gilad"
+        }
+      ]
+    },
+    {
+      "id": 1318,
+      "word": "Gilgal",
+      "etym": "Heb .",
+      "mibDef": "circle; rolling away; a wheel; a whirlwind; chaff; stubble.",
+      "mibMeta": "A total denial of sense bondage. In Joshua 5:9 it is written, \"And Jehovah said unto Joshua, This day have I rolled away the reproach of Egypt from off you. Wherefore the name of that place was called Gilgal, unto this day.\" When we have, in the positive spirit of Elijah, rolled away the Egyptian da",
+      "candidates": [
+        {
+          "s": "H1537",
+          "def": "Gilgal, the name of three places in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1319,
+      "word": "Giloh",
+      "etym": "Heb .",
+      "mibDef": "welling up; rejoicing; uncovering; laying bare; revealing; making naked;",
+      "mibMeta": "Intellectual perception of Truth rejoicing because of its insight into spiritual things. It is not really spiritual in itself, however, and is an exile in so far as the kingdom of heaven is concerned, since the least of one's truly spiritual thoughts is greater than one's highest intellectual percep",
+      "candidates": []
+    },
+    {
+      "id": 1320,
+      "word": "Gilonite",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Giloh.",
+      "mibMeta": "A thought belonging to the Giloh state of consciousness. See GILOH.)",
+      "candidates": []
+    },
+    {
+      "id": 1321,
+      "word": "Gimzo",
+      "etym": "Heb .",
+      "mibDef": "producing sycamores; place fertile in sycamores; one acute-minded;",
+      "mibMeta": "Sense shrewdness, subtleness, and wisdom (one acute-minded sagacious; this city reverted to the Philistines). Jesus said in one of His parables: \"The sons of this world are for their own generation wiser than the sons of the light\" (Luke 16:8).",
+      "candidates": [
+        {
+          "s": "H1579",
+          "def": "Gimzo, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1322,
+      "word": "Ginath",
+      "etym": "Heb .",
+      "mibDef": "garden; inclosure; protection.",
+      "mibMeta": "A thought of abundant sustenance (garden) and safety (protection) for the Israel consciousness in the individual. The fruit of this thought (Tibni, meaning intelligence building of Jehovah knowing) is endowed with a degree of spiritual insight or knowledge, and it aspires to rulership; but neither t",
+      "candidates": []
+    },
+    {
+      "id": 1323,
+      "word": "Ginnethoi (A.V.",
+      "etym": "Heb .",
+      "mibDef": "gardener; great protection.",
+      "mibMeta": "A strong assurance of divine protection and that God the Father is caretaker, the power by which one is enabled to overcome that in one which falls short of perfection. (A gardener is one who tends a garden, sows the seed, prunes the vines, pulls the weeds, sees that the ground is well fertilized, w",
+      "candidates": []
+    },
+    {
+      "id": 1324,
+      "word": "Girgashite (A.V.",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to that which",
+      "mibMeta": "The very material (dense condensed) state of thought that unawakened man holds concerning himself and especially concerning his seemingly material organism. He thus builds up a consciousness that cannot abide, because it is not established in Truth.",
+      "candidates": []
+    },
+    {
+      "id": 1325,
+      "word": "Girzites (A.V.",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Gezer.",
+      "mibMeta": "Thoughts belonging to the consciousness in man that was symbolized by the city of Gezer while under the Canaanite, or error, dominion. (See GEZER.)",
+      "candidates": []
+    },
+    {
+      "id": 1326,
+      "word": "Gishpa (A.V.",
+      "etym": "Heb .",
+      "mibDef": "stroke; caress; fondle; flattery.",
+      "mibMeta": "Love for Truth or consideration of Truth, but directed more by sense thought than by spiritual thought.",
+      "candidates": []
+    },
+    {
+      "id": 1327,
+      "word": "Gittaim",
+      "etym": "Heb.",
+      "mibDef": "two wine presses; two vats; double fortune. See GATH, of which",
+      "mibMeta": "Trial doubled by a great influx of thoughts of life and increase (Beerothites) into consciousness, while one is still being governed to a great extent by the limited views of the personal man. Our sense consciousness sees and magnifies the seeming evil and the suffering phase of our experiences in u",
+      "candidates": []
+    },
+    {
+      "id": 1328,
+      "word": "giving",
+      "etym": "",
+      "mibDef": "It is necessary to give freely if we are to receive freely. The law of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5414",
+          "def": "to give, used with greatest latitude of application (put, make, etc.)"
+        },
+        {
+          "s": "G2168",
+          "def": "to be grateful, i.e., (actively) to express gratitude (towards); specially, to say grace at a meal"
+        },
+        {
+          "s": "G1325",
+          "def": "to give (used in a very wide application, properly, or by implication, literally or figuratively; greatly modified by the connection)"
+        },
+        {
+          "s": "G2169",
+          "def": "gratitude; actively, grateful language (to God, as an act of worship)"
+        },
+        {
+          "s": "G4337",
+          "def": "(figuratively) to hold the mind (3563 implied) towards, i.e., pay attention to, be cautious about, apply oneself to, adhere to"
+        }
+      ]
+    },
+    {
+      "id": 1329,
+      "word": "Gizonite",
+      "etym": "fr. Heb.",
+      "mibDef": "cut or hewn stone; a quarry; ford; pass.",
+      "mibMeta": "A thought pertaining to the passing over (ford, pass) from a belief in lack to a consciousness of true spiritual riches; also the obtaining of a sure foundation (cut or hewn stone, a quarry) for one's supply of good within and without (Hashem means shining, fat, wealthy, thus suggesting riches). glo",
+      "candidates": []
+    },
+    {
+      "id": 1330,
+      "word": "gluttonous",
+      "etym": "",
+      "mibDef": "that at this time is",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5314",
+          "def": "a glutton"
+        }
+      ]
+    },
+    {
+      "id": 1331,
+      "word": "go of the consciousness of life",
+      "etym": "",
+      "mibDef": "which each one does who dies. The pure, unadulterated Christ Truth",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1980",
+          "def": "to walk (in a great variety of applications, literally and figuratively)"
+        },
+        {
+          "s": "H3318",
+          "def": "to go (causatively, bring) out, in a great variety of applications, literally and figuratively, direct and proxim"
+        },
+        {
+          "s": "H935",
+          "def": "to go or come (in a wide variety of applications)"
+        },
+        {
+          "s": "H5927",
+          "def": "to ascend, intransitively (be high) or actively (mount); used in a great variety of senses, primary and secondary, literal and figurative"
+        },
+        {
+          "s": "H3381",
+          "def": "to descend (literally, to go downwards; or conventionally to a lower region, as the shore, a boundary, the enemy, etc.; or figuratively, to fall); causatively, to bring down (in all the above applications)"
+        }
+      ]
+    },
+    {
+      "id": 1332,
+      "word": "Goah (A.V.",
+      "etym": "Heb.",
+      "mibDef": "lowing; crying out; exclaiming.",
+      "mibMeta": "Physical strength in expression (lowing, crying out, exclaiming. A cow or an ox represents physical strength. This strength must be lifted up and transmuted into pure spiritual substance and life. (Jeremiah 31:38-40 prophesies of man's entire renewal in mind and his consequent transformation in body",
+      "candidates": []
+    },
+    {
+      "id": 1333,
+      "word": "goat",
+      "etym": "",
+      "mibDef": "ly, the goat symbolizes resistance and opposition. It is a phase of personality. We resist",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8163",
+          "def": "shaggy; as noun, a he-goat; by analogy, a faun"
+        },
+        {
+          "s": "H5795",
+          "def": "a she-goat (as strong), but masculine in plural (which also is used elliptically for goat's hair)"
+        },
+        {
+          "s": "H6842",
+          "def": "a male goat (as prancing)"
+        },
+        {
+          "s": "H8495",
+          "def": "a buck or he-goat (as given to butting)"
+        }
+      ]
+    },
+    {
+      "id": 1334,
+      "word": "Gob",
+      "etym": "Heb.",
+      "mibDef": "hollowed out; a cistern, a pit.",
+      "mibMeta": "Sense rule deeply established in the subjective life forces of the organism. (See GEZER.) (At least-two of the sons of the Philistine giant, Raphah, were slain at Gob by the Israelites.) God— The almighty One; the Creator; the ruler of the universe; the Infinite; the Eternal. God is not person but P",
+      "candidates": [
+        {
+          "s": "H1359",
+          "def": "Gob, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1335,
+      "word": "God",
+      "etym": "",
+      "mibDef": "To have the attention focused on spiritual ideas and ideals.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H430",
+          "def": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative"
+        },
+        {
+          "s": "G2316",
+          "def": "a deity, especially (with G3588) the supreme Divinity; figuratively, a magistrate; exceedingly (by Hebraism)"
+        },
+        {
+          "s": "H410",
+          "def": "strength; as adjective, mighty; especially the Almighty (but used also of any deity)"
+        },
+        {
+          "s": "H426",
+          "def": "God"
+        },
+        {
+          "s": "H3069",
+          "def": "God"
+        }
+      ]
+    },
+    {
+      "id": 1336,
+      "word": "God",
+      "etym": "",
+      "mibDef": "Christianity describes God as Spirit, creating by a process comparable",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H430",
+          "def": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative"
+        },
+        {
+          "s": "G2316",
+          "def": "a deity, especially (with G3588) the supreme Divinity; figuratively, a magistrate; exceedingly (by Hebraism)"
+        },
+        {
+          "s": "H410",
+          "def": "strength; as adjective, mighty; especially the Almighty (but used also of any deity)"
+        },
+        {
+          "s": "H426",
+          "def": "God"
+        },
+        {
+          "s": "H3069",
+          "def": "God"
+        }
+      ]
+    },
+    {
+      "id": 1337,
+      "word": "God",
+      "etym": "",
+      "mibDef": "To demonstrate God means to make His Spirit manifest in one's life.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H430",
+          "def": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative"
+        },
+        {
+          "s": "G2316",
+          "def": "a deity, especially (with G3588) the supreme Divinity; figuratively, a magistrate; exceedingly (by Hebraism)"
+        },
+        {
+          "s": "H410",
+          "def": "strength; as adjective, mighty; especially the Almighty (but used also of any deity)"
+        },
+        {
+          "s": "H426",
+          "def": "God"
+        },
+        {
+          "s": "H3069",
+          "def": "God"
+        }
+      ]
+    },
+    {
+      "id": 1338,
+      "word": "God",
+      "etym": "",
+      "mibDef": "God is not jealous as men count jealousy, but He is jealous of principle, from",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H430",
+          "def": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative"
+        },
+        {
+          "s": "G2316",
+          "def": "a deity, especially (with G3588) the supreme Divinity; figuratively, a magistrate; exceedingly (by Hebraism)"
+        },
+        {
+          "s": "H410",
+          "def": "strength; as adjective, mighty; especially the Almighty (but used also of any deity)"
+        },
+        {
+          "s": "H426",
+          "def": "God"
+        },
+        {
+          "s": "H3069",
+          "def": "God"
+        }
+      ]
+    },
+    {
+      "id": 1339,
+      "word": "God",
+      "etym": "",
+      "mibDef": "To be reconciled with God means to be willing that His will be done;",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H430",
+          "def": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative"
+        },
+        {
+          "s": "G2316",
+          "def": "a deity, especially (with G3588) the supreme Divinity; figuratively, a magistrate; exceedingly (by Hebraism)"
+        },
+        {
+          "s": "H410",
+          "def": "strength; as adjective, mighty; especially the Almighty (but used also of any deity)"
+        },
+        {
+          "s": "H426",
+          "def": "God"
+        },
+        {
+          "s": "H3069",
+          "def": "God"
+        }
+      ]
+    },
+    {
+      "id": 1340,
+      "word": "God",
+      "etym": "",
+      "mibDef": "Truth is implanted in us by divine intelligence. To the degree that we",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H430",
+          "def": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative"
+        },
+        {
+          "s": "G2316",
+          "def": "a deity, especially (with G3588) the supreme Divinity; figuratively, a magistrate; exceedingly (by Hebraism)"
+        },
+        {
+          "s": "H410",
+          "def": "strength; as adjective, mighty; especially the Almighty (but used also of any deity)"
+        },
+        {
+          "s": "H426",
+          "def": "God"
+        },
+        {
+          "s": "H3069",
+          "def": "God"
+        }
+      ]
+    },
+    {
+      "id": 1341,
+      "word": "God",
+      "etym": "",
+      "mibDef": "God's will is always perfection and all good for all His children; perfect health in",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H430",
+          "def": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative"
+        },
+        {
+          "s": "G2316",
+          "def": "a deity, especially (with G3588) the supreme Divinity; figuratively, a magistrate; exceedingly (by Hebraism)"
+        },
+        {
+          "s": "H410",
+          "def": "strength; as adjective, mighty; especially the Almighty (but used also of any deity)"
+        },
+        {
+          "s": "H426",
+          "def": "God"
+        },
+        {
+          "s": "H3069",
+          "def": "God"
+        }
+      ]
+    },
+    {
+      "id": 1342,
+      "word": "God",
+      "etym": "",
+      "mibDef": "the good omnipotent-must be established in its stead.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H430",
+          "def": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative"
+        },
+        {
+          "s": "G2316",
+          "def": "a deity, especially (with G3588) the supreme Divinity; figuratively, a magistrate; exceedingly (by Hebraism)"
+        },
+        {
+          "s": "H410",
+          "def": "strength; as adjective, mighty; especially the Almighty (but used also of any deity)"
+        },
+        {
+          "s": "H426",
+          "def": "God"
+        },
+        {
+          "s": "H3069",
+          "def": "God"
+        }
+      ]
+    },
+    {
+      "id": 1343,
+      "word": "God (gift of God",
+      "etym": "",
+      "mibDef": "our life— is everlasting. \"The free gift",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H430",
+          "def": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative"
+        },
+        {
+          "s": "G2316",
+          "def": "a deity, especially (with G3588) the supreme Divinity; figuratively, a magistrate; exceedingly (by Hebraism)"
+        },
+        {
+          "s": "H410",
+          "def": "strength; as adjective, mighty; especially the Almighty (but used also of any deity)"
+        },
+        {
+          "s": "H426",
+          "def": "God"
+        },
+        {
+          "s": "H3069",
+          "def": "God"
+        }
+      ]
+    },
+    {
+      "id": 1344,
+      "word": "God as mind",
+      "etym": "",
+      "mibDef": "The connecting link between God and man. God-Mind embraces all knowledge,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H430",
+          "def": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative"
+        },
+        {
+          "s": "G2316",
+          "def": "a deity, especially (with G3588) the supreme Divinity; figuratively, a magistrate; exceedingly (by Hebraism)"
+        },
+        {
+          "s": "H410",
+          "def": "strength; as adjective, mighty; especially the Almighty (but used also of any deity)"
+        },
+        {
+          "s": "H426",
+          "def": "God"
+        },
+        {
+          "s": "H3069",
+          "def": "God"
+        }
+      ]
+    },
+    {
+      "id": 1345,
+      "word": "God as principle",
+      "etym": "",
+      "mibDef": "The unchangeable life, love, substance, and intelligence of Being. Principle",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H430",
+          "def": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative"
+        },
+        {
+          "s": "G2316",
+          "def": "a deity, especially (with G3588) the supreme Divinity; figuratively, a magistrate; exceedingly (by Hebraism)"
+        },
+        {
+          "s": "H410",
+          "def": "strength; as adjective, mighty; especially the Almighty (but used also of any deity)"
+        },
+        {
+          "s": "H426",
+          "def": "God"
+        },
+        {
+          "s": "H3069",
+          "def": "God"
+        }
+      ]
+    },
+    {
+      "id": 1346,
+      "word": "God immanent",
+      "etym": "",
+      "mibDef": "This refers to the all-pervading and indwelling presence of God, the life and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H430",
+          "def": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative"
+        },
+        {
+          "s": "G2316",
+          "def": "a deity, especially (with G3588) the supreme Divinity; figuratively, a magistrate; exceedingly (by Hebraism)"
+        },
+        {
+          "s": "H410",
+          "def": "strength; as adjective, mighty; especially the Almighty (but used also of any deity)"
+        },
+        {
+          "s": "H426",
+          "def": "God"
+        },
+        {
+          "s": "H3069",
+          "def": "God"
+        }
+      ]
+    },
+    {
+      "id": 1347,
+      "word": "God presence",
+      "etym": "",
+      "mibDef": "To make oneself conscious of the presence of God, one must",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H430",
+          "def": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative"
+        },
+        {
+          "s": "G2316",
+          "def": "a deity, especially (with G3588) the supreme Divinity; figuratively, a magistrate; exceedingly (by Hebraism)"
+        },
+        {
+          "s": "H410",
+          "def": "strength; as adjective, mighty; especially the Almighty (but used also of any deity)"
+        },
+        {
+          "s": "H426",
+          "def": "God"
+        },
+        {
+          "s": "H3069",
+          "def": "God"
+        }
+      ]
+    },
+    {
+      "id": 1348,
+      "word": "God's name",
+      "etym": "",
+      "mibDef": "God's name represents wholeness. It is holy, perfect. God is everywhere present.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H430",
+          "def": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative"
+        },
+        {
+          "s": "H426",
+          "def": "God"
+        },
+        {
+          "s": "G2316",
+          "def": "a deity, especially (with G3588) the supreme Divinity; figuratively, a magistrate; exceedingly (by Hebraism)"
+        }
+      ]
+    },
+    {
+      "id": 1349,
+      "word": "God)",
+      "etym": "",
+      "mibDef": "even when one seems to be in a wilderness of conflicting, undisciplined thoughts. Thus spiritual",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H430",
+          "def": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative"
+        },
+        {
+          "s": "G2316",
+          "def": "a deity, especially (with G3588) the supreme Divinity; figuratively, a magistrate; exceedingly (by Hebraism)"
+        },
+        {
+          "s": "H410",
+          "def": "strength; as adjective, mighty; especially the Almighty (but used also of any deity)"
+        },
+        {
+          "s": "H426",
+          "def": "God"
+        },
+        {
+          "s": "H3069",
+          "def": "God"
+        }
+      ]
+    },
+    {
+      "id": 1350,
+      "word": "God-man",
+      "etym": "",
+      "mibDef": "The man that God created in His image and likeness, and present within all men.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1351,
+      "word": "Gog",
+      "etym": "Heb.",
+      "mibDef": "elastic; stretched out; extended; at roof; plane top.",
+      "mibMeta": "The satanic or selfish thought force in human consciousness, warring against the true thought force that is based upon the ideas taught and demonstrated by Jesus Christ. Unity of purpose and effort is becoming widely recognized as the most potent means to attain any desired end. For instance, labor ",
+      "candidates": [
+        {
+          "s": "H1463",
+          "def": "Gog, the name of an Israelite, also of some nothern nation"
+        },
+        {
+          "s": "G1136",
+          "def": "Gog, a symbolic name for some future Antichrist"
+        }
+      ]
+    },
+    {
+      "id": 1352,
+      "word": "Goiim",
+      "etym": "Heb .",
+      "mibDef": "Gentiles; nations; peoples, especially foreign; bodies; corporealities.",
+      "mibMeta": "The carnal, material thoughts and state of consciousness that belong to the outer man (Gentiles, nations).",
+      "candidates": []
+    },
+    {
+      "id": 1353,
+      "word": "Golan",
+      "etym": "Heb.",
+      "mibDef": "circle; circuit; exultation; praise; overcome; led away; a captive; an",
+      "mibMeta": "Spiritual life activity (circuit, circle, exultation, praise) established in love (Levites) and understanding (Manasseh). Mistaken, limited thoughts in consciousness, upon awaking to greater light, may flee to this place and be forgiven and healed. golden calf, the (Exod. 32:1-8). The Scripture narr",
+      "candidates": [
+        {
+          "s": "H1474",
+          "def": "Golan, a place east of the Jordan"
+        }
+      ]
+    },
+    {
+      "id": 1354,
+      "word": "gold",
+      "etym": "",
+      "mibDef": "ly, gold represents spiritual gifts; the riches of Spirit. The gold that the Wise Men brought",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2091",
+          "def": "gold, figuratively, something gold-colored (i.e., yellow), as oil, a clear sky"
+        },
+        {
+          "s": "H1722",
+          "def": "gold"
+        },
+        {
+          "s": "H3800",
+          "def": "properly, something carved out, i.e., ore; hence, gold (pure as originally mined)"
+        },
+        {
+          "s": "G5557",
+          "def": "gold; by extension, a golden article, as an ornament or coin"
+        },
+        {
+          "s": "G5553",
+          "def": "a golden article, i.e., gold plating, ornament, or coin"
+        }
+      ]
+    },
+    {
+      "id": 1355,
+      "word": "Golgotha",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "the skull; place of the skull, i. e . , round, shaped like a head.",
+      "mibMeta": "When we search the Scriptures to find the place where crucifixion takes place, we are introduced to a symbolism not hard to interpret. Golgotha, in the Aramaic-Jewish language, means place of the skull. The skull is the place where intellect is crossed out, that Spirit may win an eternal ascendancy.",
+      "candidates": []
+    },
+    {
+      "id": 1356,
+      "word": "Goliath",
+      "etym": "Heb.",
+      "mibDef": "revealing; conspicuous; taken off; an exile; a soothsayer.",
+      "mibMeta": "Ideas are not all of the same importance. Some are large and strong, and some are weak and small. There are aggressive, domineering ideas, like Goliath, that parade themselves prominently, brag about their power, and with fearful threats of disaster keep us frightened into submission to their unrigh",
+      "candidates": [
+        {
+          "s": "H1555",
+          "def": "Goljath, a Philistine"
+        }
+      ]
+    },
+    {
+      "id": 1357,
+      "word": "good",
+      "etym": "",
+      "mibDef": "The Absolute; the incomparable; that which is godly in its character. God is",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2896",
+          "def": "good (as an adjective) in the widest sense; used likewise as a noun, both in the masculine and the feminine, the singular and the plural (good, a good or good thing, a good man or woman; the good, goods or good things, good men or women), also as an adverb (well)"
+        },
+        {
+          "s": "G18",
+          "def": "\"good\" (in any sense, often as noun)"
+        },
+        {
+          "s": "G2570",
+          "def": "properly, beautiful, but chiefly (figuratively) good (literally or morally), i.e., valuable or virtuous (for appearance or use, and thus distinguished from G0018, which is properly intrinsic)"
+        },
+        {
+          "s": "H2898",
+          "def": "good (as a noun), in the widest sense, especially goodness (superlative concretely, the best), beauty, gladness, welfare"
+        },
+        {
+          "s": "H553",
+          "def": "to be alert, physically (on foot) or mentally (in courage)"
+        }
+      ]
+    },
+    {
+      "id": 1358,
+      "word": "goodness",
+      "etym": "",
+      "mibDef": "There is always a saving grace in divine goodness; and if we have ever",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2896",
+          "def": "good (as an adjective) in the widest sense; used likewise as a noun, both in the masculine and the feminine, the singular and the plural (good, a good or good thing, a good man or woman; the good, goods or good things, good men or women), also as an adverb (well)"
+        },
+        {
+          "s": "H2898",
+          "def": "good (as a noun), in the widest sense, especially goodness (superlative concretely, the best), beauty, gladness, welfare"
+        },
+        {
+          "s": "H2617",
+          "def": "kindness; by implication (towards God) piety; rarely (by opposition) reproof, or (subject.) beauty"
+        },
+        {
+          "s": "G5544",
+          "def": "usefulness, i.e., morally, excellence (in character or demeanor)"
+        },
+        {
+          "s": "G5543",
+          "def": "employed, i.e., (by implication) useful (in manner or morals)"
+        }
+      ]
+    },
+    {
+      "id": 1359,
+      "word": "Goshen",
+      "etym": "Heb.",
+      "mibDef": "drawing near.",
+      "mibMeta": "Unity. The bringing of Jacob and the brothers of Joseph with their families and their flocks down into the land of Egypt symbolizes the unification of the I AM (Jacob) with all the faculties of the mind, the life energies, and the substance of the whole man. They dwelt \"in the land of Goshen\" (unity",
+      "candidates": [
+        {
+          "s": "H1657",
+          "def": "Goshen, the residence of the Israelites in Egypt; also a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1360,
+      "word": "gospel",
+      "etym": "",
+      "mibDef": "An Anglo-Saxon word derived from God (good) and spell (story, tidings). It is now",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2098",
+          "def": "a good message, i.e., the gospel"
+        },
+        {
+          "s": "G2097",
+          "def": "to announce good news (\"evangelize\") especially the gospel"
+        },
+        {
+          "s": "G4283",
+          "def": "to announce glad news in advance"
+        }
+      ]
+    },
+    {
+      "id": 1361,
+      "word": "Gozan",
+      "etym": "Heb.",
+      "mibDef": "quarry; benefaction; dole; portion; fleece.",
+      "mibMeta": "The promise of the intellect to man's highest religious and spiritual thoughts (Israelites) that in the outer reasonings of the sense mind there is sufficient sustenance and good (benefaction) for the whole man, that Spirit is not needed. When man's higher ideals, however, are given over to the rule",
+      "candidates": []
+    },
+    {
+      "id": 1362,
+      "word": "great reaction sets in ( held suspended",
+      "etym": "",
+      "mibDef": "\"thou art weighed in the balances, and art found",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1419",
+          "def": "great (in any sense); hence, older; also insolent"
+        },
+        {
+          "s": "G3173",
+          "def": "big (literally or figuratively, in a very wide application)"
+        },
+        {
+          "s": "H7227",
+          "def": "abundant (in quantity, size, age, number, rank, quality)"
+        },
+        {
+          "s": "G4183",
+          "def": "(singular) much (in any respect) or (plural) many; neuter (singular) as adverbial, largely; neuter (plural) as adverb or noun often, mostly, largely"
+        },
+        {
+          "s": "H3966",
+          "def": "properly, vehemence, i.e., (with or without preposition) vehemently; by implication, wholly, speedily, etc. (often with other words as an intensive or superlative; especially when repeated)"
+        }
+      ]
+    },
+    {
+      "id": 1363,
+      "word": "Greece",
+      "etym": "fr. Lat.",
+      "mibDef": "hoary; old; fat; fertile; productive; going fom’ard and upward; step;",
+      "mibMeta": "The intellect in man. Athens, the capital of Greece, and the birthplace of Plato, was a great center for learning throughout the then known world. In man's consciousness Athens refers to the intellectual center. (See ATHENS and ACHAIA.) Greek, greek (fr. Lat.). a The language of Greece (Acts 21: 37)",
+      "candidates": []
+    },
+    {
+      "id": 1364,
+      "word": "greed",
+      "etym": "",
+      "mibDef": "A result of the habit of tithing, which establishes a consciousness of giving",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1365,
+      "word": "Greek",
+      "etym": "",
+      "mibDef": "ly, a term for intellectual reasoning. In Acts 1 1:20-24, the truth regarding the new",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1672",
+          "def": "a Hellen (Grecian) or inhabitant of Hellas; by extension a Greek-speaking person, especially a non-Jew"
+        },
+        {
+          "s": "G1673",
+          "def": "Hellenic, i.e., Grecian (in language)"
+        }
+      ]
+    },
+    {
+      "id": 1366,
+      "word": "ground",
+      "etym": "",
+      "mibDef": "Substance in its spiritual wholeness, or the idea of substance in Divine Mind.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H127",
+          "def": "soil (from its general redness)"
+        },
+        {
+          "s": "G1093",
+          "def": "soil; by extension a region, or the solid part or the whole of the terrene globe (including the occupants in each application)"
+        },
+        {
+          "s": "H2912",
+          "def": "to grind meal; hence, to be a concubine (that being their employment)"
+        },
+        {
+          "s": "H7704",
+          "def": "a field (as flat)"
+        }
+      ]
+    },
+    {
+      "id": 1367,
+      "word": "growth",
+      "etym": "",
+      "mibDef": "The increase of God in man. All growth is first in mind and depends on the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3954",
+          "def": "the after crop"
+        }
+      ]
+    },
+    {
+      "id": 1368,
+      "word": "Gudgodah",
+      "etym": "Heb.",
+      "mibDef": "incising; cutting; cleaving; pulsating; reverberating;",
+      "mibMeta": "A further cutting, or cleaving away from consciousness, of the remains of Egyptian darkness and ignorance, that more abundant vitality and wholeness (well of much water, signifying the life force) and happiness may be realized by the individual who has started out on his conscious journey toward per",
+      "candidates": [
+        {
+          "s": "H1412",
+          "def": "Gudgodah, a place in the Desert"
+        }
+      ]
+    },
+    {
+      "id": 1369,
+      "word": "guidance",
+      "etym": "",
+      "mibDef": "The impressions that come from the Spirit of truth within man.",
+      "mibMeta": "Every state of consciousness is formed by groups of ideas. Some dominant idea is the nucleus, and about this the ego builds a mental house. Thus are reared walls, or ideas of separation, that shut out the universal light, and the ego finds itself a prisoner in a dungeon of its own construction. Thes",
+      "candidates": []
+    },
+    {
+      "id": 1370,
+      "word": "guidance of man's higher",
+      "etym": "",
+      "mibDef": "the result is trouble.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1371,
+      "word": "Guni",
+      "etym": "Heb.",
+      "mibDef": "colored; dyed; tinted; tinged; painted; overlaid; protected.",
+      "mibMeta": "Colored, dyed, painted, tinged, all suggest a taking on of some foreign idea or substance. In this case the qualities of strength (Naphtali) and power (Gad) are involved. These qualities are inherently spiritual, but in coming into expression in the outer, physical, sense man who does not yet unders",
+      "candidates": []
+    },
+    {
+      "id": 1372,
+      "word": "Gunites",
+      "etym": "fr. Heb.",
+      "mibDef": "of ox belonging to Guni.",
+      "mibMeta": "Thoughts belonging to the Guni phase of the strength (Naphtali) consciousness. (See GUNI.)",
+      "candidates": []
+    },
+    {
+      "id": 1373,
+      "word": "Gur",
+      "etym": "Heb.",
+      "mibDef": "turn aside; sojourn; dwell; stranger; foreigner; gather together; assemble;",
+      "mibMeta": "\"The ascent of Gur, which is by Ibleam,\" signifies a going up to victory (Ibleam means victory of the people). It was here that Ahaziah the wicked king of Judah was slain by Jehu's men. Jehu means Jehovah is He. The consciousness that I AM, Jehovah, eternally exists in us as our foundation Truth and",
+      "candidates": []
+    },
+    {
+      "id": 1374,
+      "word": "Gur-baal",
+      "etym": "Heb.",
+      "mibDef": "sojourn of Baal; dwelling of Baal; abode of Baal.",
+      "mibMeta": "A place in consciousness, or a state of consciousness, that had been given over to Baal, to material beliefs and worship. But the substance of these material beliefs and thoughts is now being used to uphold and sustain that in consciousness for which Uzziah stands, Jehovah is my strength. The Arabia",
+      "candidates": []
+    },
+    {
+      "id": 1375,
+      "word": "Haahashtari",
+      "etym": "Heb. fr. Pers.",
+      "mibDef": "the muleteer; the mule driver; the courier; the",
+      "mibMeta": "That in us which bears our high ideals and revelations of Truth quickly to any of the various centers or parts of the organism to which the I AM wishes to transmit them— a swift messenger of the king.",
+      "candidates": []
+    },
+    {
+      "id": 1376,
+      "word": "Habakkuk",
+      "etym": "Heb .",
+      "mibDef": "embracing; infolding, i. e . , with the hands or arms; a favorite; a",
+      "mibMeta": "The clearness of vision in us that, looking into the working of the thoughts of our consciousness, foresees their fruition and holds tightly to (embraces) that which is good and true, while it wrestles, or struggles, with the error in an attempt to purge it out. HABOR Most of the old Jewish prophets",
+      "candidates": [
+        {
+          "s": "H2265",
+          "def": "Chabakkuk, the prophet"
+        }
+      ]
+    },
+    {
+      "id": 1377,
+      "word": "Habazziniah (A.V.",
+      "etym": "Heb .",
+      "mibDef": "brightness ofJah; lamp of Jehovah;",
+      "mibMeta": "True, spiritual understanding. The Rechabites stand in consciousness for logical reasoning, level-headedness, good judgment, and the faithfulness of the intellect to that which one believes to be right. This opens the consciousness to spiritual thoughts; thus the true light, understanding, shines in",
+      "candidates": []
+    },
+    {
+      "id": 1378,
+      "word": "Hacaliah (A.V.",
+      "etym": "Heb.",
+      "mibDef": "wait (with confidence ) upon Jehovah, whose eyes",
+      "mibMeta": "Light in seeming darkness; an inner attitude of prayer, of waiting on the Lord for light to dispel the seeming darkness that hides our good from us when our true (Israelitish) thoughts have become engulfed, apparently, in sense confusion (Babylon).",
+      "candidates": []
+    },
+    {
+      "id": 1379,
+      "word": "Hachilah",
+      "etym": "Heb.",
+      "mibDef": "dark; darksome; brilliant; flashing eyes; waiting in confidence;",
+      "mibMeta": "Hope, expectation of good, in the face of seeming darkness and lack; light, in the midst of apparent darkness.",
+      "candidates": []
+    },
+    {
+      "id": 1380,
+      "word": "Hachmoni",
+      "etym": "Heb.",
+      "mibDef": "one who is wise; knowing; intelligent; skillful; dexterous;",
+      "mibMeta": "A thought that has its inception in the wisdom center in consciousness, situated at the top brain in the head, in the Christ mind in man.",
+      "candidates": [
+        {
+          "s": "H2453",
+          "def": "Chakmoni, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1381,
+      "word": "Hachmonite",
+      "etym": "fr. Heb.",
+      "mibDef": "of or pertaining to Hachmoni.",
+      "mibMeta": "A thought belonging to the wisdom (Hachmoni) consciousness in man. (See HACHMONI.)",
+      "candidates": []
+    },
+    {
+      "id": 1382,
+      "word": "Hadad",
+      "etym": "Heb.",
+      "mibDef": "sharp; quick; vehement; might; force; power; majesty; glory; splendor;",
+      "mibMeta": "The setting up, as all-powerful, of the intellect in its spiritually unawakened state. Back of the intellect, however, back of every expression of intelligence or understanding, there exists the hidden principle of all light, all wisdom, all knowledge-God, Spirit.",
+      "candidates": [
+        {
+          "s": "H1908",
+          "def": "Hadad, the name of an idol, and of several kings of Edom, possibly a royal title"
+        },
+        {
+          "s": "H111",
+          "def": "Adad (or Hadad), an Edomite"
+        }
+      ]
+    },
+    {
+      "id": 1383,
+      "word": "Hadadezer",
+      "etym": "Heb.",
+      "mibDef": "mighty is the help; powerful succor; Hadad or Aclad is his",
+      "mibMeta": "The ruling thought in the state of consciousness in man that believes that the intellect, directed by the senses, is man's greatest possible enlightener and help in all matters.",
+      "candidates": [
+        {
+          "s": "H1909",
+          "def": "Hadadezer, a Syrian king, possibly a royal title"
+        }
+      ]
+    },
+    {
+      "id": 1384,
+      "word": "Hadadrimmon",
+      "etym": "Heb .",
+      "mibDef": "Hadad ofRimmon; Hadad of the pomegranate; joy of",
+      "mibMeta": "Attributing joy, fruitfulness, abundance to the efforts of that which Hadad represents in man (see HADAD); or the putting away of true fruitfulness (rending of the pomegranate) from consciousness by ceasing to be loyal to spiritual Truth (Josiah, whose death was mourned at Hadadrimmon, is representa",
+      "candidates": [
+        {
+          "s": "H1910",
+          "def": "Hadad-Rimmon, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1385,
+      "word": "Hadashah",
+      "etym": "Heb.",
+      "mibDef": "new; make new; make anew; repair; restore; renew.",
+      "mibMeta": "A group of thoughts (city) in the subconscious mind (lowland of Judah) that is established in a power that works for perpetual youth (new, make new, restore, renew ) in the individual. \"If any man is in Christ, he is a new creature: the old things are passed away; behold, they are become new\" (II Co",
+      "candidates": []
+    },
+    {
+      "id": 1386,
+      "word": "Hadassah",
+      "etym": "Heb.",
+      "mibDef": "leaping; springing up; joy; gladness; myrtle.",
+      "mibMeta": "The myrtle is a lovely evergreen shrub or moderate-sized tree, having white flowers. Both leaves and flowers give out a very pleasant odor. Among the ancient Greeks the myrtle was sacred to Venus as the symbol of youth and beauty; it was used extensively at festivals. It is symbolical of the life pr",
+      "candidates": []
+    },
+    {
+      "id": 1387,
+      "word": "Hades",
+      "etym": "Gk .",
+      "mibDef": "not to be seen; not to be looked upon.",
+      "mibMeta": "Hades refers to the outer darkness, the realm of sense, in contrast to the inner or luminously spiritual. To live in the outer is to live outside the body, as it were; hence Hades came to be considered the realm of discamate souls. In individual consciousness it may be likened to the darkened and si",
+      "candidates": []
+    },
+    {
+      "id": 1388,
+      "word": "hades",
+      "etym": "",
+      "mibDef": "A Greek word, often translated hell. It is supposed to refer to the unseen world, or the",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1389,
+      "word": "Hadid",
+      "etym": "Heb ,",
+      "mibDef": "one; unity; sharp; pointed; peak; pinnacle; quick; swift; alert; nimble;",
+      "mibMeta": "A group of thoughts in consciousness that are unified and high (one, unity, peak), to the point, clear, keen, active, discriminating, decisive, straightforward. They aid greatly in doing away with confusion and disorder in mind, body, and affairs, and in keeping the individual in an attitude of rejo",
+      "candidates": []
+    },
+    {
+      "id": 1390,
+      "word": "Hadlai",
+      "etym": "Heb.",
+      "mibDef": "lax; idle; resting; dissolute; keeping a holiday; forbearing; forsaking;",
+      "mibMeta": "A very negative thought in consciousness, which tends to lack of positiveness and of necessary self-discipline; thus it hinders one's realizing and demonstrating of good.",
+      "candidates": []
+    },
+    {
+      "id": 1391,
+      "word": "Hadoram",
+      "etym": "Heb.",
+      "mibDef": "Hadar is high; highly ornamental; powerful; pompous majestic.",
+      "mibMeta": "The lifting up of the outer, sense mind of man, and the attributing of power and might to it as though it were man's highest source of light and good. This belief also held sway, to a certain extent at least, in the Hadoram who was an Israelite. It causes the thought for which he stands in our consc",
+      "candidates": [
+        {
+          "s": "H1913",
+          "def": "Hadoram, a son of Joktan, and the tribe descended from him"
+        }
+      ]
+    },
+    {
+      "id": 1392,
+      "word": "Hadrach",
+      "etym": "Heb .",
+      "mibDef": "periodical returning; over and over again; sun's returning: place to",
+      "mibMeta": "Man, in sense consciousness, moves in cycles. Over and over again (like the return of the sun, and of the seasons) he returns to, or goes through, almost precisely the same experiences. This is proved by history, which repeats itself. Each cycle may be on an almost imperceptibly higher plane than th",
+      "candidates": []
+    },
+    {
+      "id": 1393,
+      "word": "Hagab",
+      "etym": "Heb.",
+      "mibDef": "a locust; hiding; covering; leaping; bending.",
+      "mibMeta": "A serving thought in man's religious consciousness, but with a somewhat biased, darkening, and destructive (locust) tendency. (See Revelation 9:310 and Exodus 10:12-15 for an insight into the destructive thought force that locusts symbolize.) Likewise a strong belief in evil works destructively in o",
+      "candidates": []
+    },
+    {
+      "id": 1394,
+      "word": "Hagaba",
+      "etym": "Heb.",
+      "mibDef": "a locust.",
+      "mibMeta": "This name signifies, like Hagab, a thought of service to God, in man's religious consciousness, yet with a destructive tendency. (The Nethinim were servants in the Temple.) Hagar, ha'-gSr (Heb. (--flight; to flee one's country; fugitive; wanderer; stranger. Sarai's handmaid, the mother of Ishmael by",
+      "candidates": []
+    },
+    {
+      "id": 1395,
+      "word": "Haggai",
+      "etym": "Heb .",
+      "mibDef": "festive; festal; feast; festival; joyous; rejoicing.",
+      "mibMeta": "A realization of good as taking the place of seeming evil. That spiritual insight in man which heralds joyous, full, free deliverance from oppression, and abundance of rich substance and life for mind and body; it feasts upon the Truth daily, and foresees and foretells the working out of good.",
+      "candidates": [
+        {
+          "s": "H2292",
+          "def": "Chaggai, a Hebrew prophet"
+        }
+      ]
+    },
+    {
+      "id": 1396,
+      "word": "Haggi",
+      "etym": "Heb .",
+      "mibDef": "festive; festal; feast; festival; joyous; rejoicing.",
+      "mibMeta": "See HAGGAI.",
+      "candidates": []
+    },
+    {
+      "id": 1397,
+      "word": "Haggiah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah's feast; festival of Jehovah; feast of the Lord; joy of the",
+      "mibMeta": "The Christ of God (Jehovah) feasting with man upon the joyous occasion of man's opening the door of his consciousness to the Christ rule of love. \"Behold, I stand at the door and knock: if any man hear my voice and open the door, I will come in to him, and will sup with him, and he with me\" (Rev. 3:",
+      "candidates": [
+        {
+          "s": "H2293",
+          "def": "Chaggijah, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1398,
+      "word": "Haggites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Haggi.",
+      "mibMeta": "Thoughts pertaining to the realization of good that Haggi stands for in consciousness; thoughts that spring from this realization. (See HAGGAI.)",
+      "candidates": []
+    },
+    {
+      "id": 1399,
+      "word": "Haggith",
+      "etym": "Heb .",
+      "mibDef": "festive; festal; feast; festival; joyous; rejoicing.",
+      "mibMeta": "The joyous activity of the soul or feminine in man, unified with the ruling love faculty (David) in consciousness, drinking in, feasting upon, appropriating, substance and Truth. Hagri (A.V., Haggeri), hag'-rl {Heb. (-fugitive; wanderer; stranger. Father of Mibhar, one of David's warriors (1 Chron. ",
+      "candidates": [
+        {
+          "s": "H2294",
+          "def": "Chaggith, a wife of David"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1407 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "12 of 37",
+  "_entry_range": "ids 1100–1199",
+  "entries": [
+    {
+      "id": 1100,
+      "word": "Ephraimite (A.V.",
+      "etym": "fr. Heb.",
+      "mibDef": "o/ or belonging to Ephraim.",
+      "mibMeta": "A thought that belongs to the will faculty in man.",
+      "candidates": []
+    },
+    {
+      "id": 1101,
+      "word": "Ephrath",
+      "etym": "Reb.",
+      "mibDef": "fruitfulness; fruitful; productive; abundant.",
+      "mibMeta": "A realization of abundant substance; this increase of substance ideas in consciousness brings about a corresponding fruitfulness, abundance, throughout one's entire life and affairs.",
+      "candidates": []
+    },
+    {
+      "id": 1102,
+      "word": "Ephrathah (A.V.",
+      "etym": "Reb.",
+      "mibDef": "fertility; productiveness; fruitfulness;",
+      "mibMeta": "See EPHRATH.",
+      "candidates": []
+    },
+    {
+      "id": 1103,
+      "word": "Ephron",
+      "etym": "Heb .",
+      "mibDef": "fawnlike; gazellelike; quick; volatile; spirited.",
+      "mibMeta": "A phase of thought that is very impulsive, light, airy, and quick to change its thinking base ( gazellelike , quick, volatile, spirited). When going through an inner experience wherein some much cherished soul quality or phase of thought that has finished its work for the time being must be released",
+      "candidates": [
+        {
+          "s": "H6085",
+          "def": "Ephron, the name of a Canaanite and of two places in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1104,
+      "word": "Epicurean",
+      "etym": "Gk .",
+      "mibDef": "followers of Epicurus.",
+      "mibMeta": "The character of the thoughts that Epicurean signifies is revealed in Jesus' parable of Luke 12: 16-21; see the 19th verse, especially the last part of the verse. equivalent— \"Equal in force or authority\" (Webster). Our demonstrations are equivalent to the power and illumination contained in our rea",
+      "candidates": []
+    },
+    {
+      "id": 1105,
+      "word": "Er",
+      "etym": "Heb .",
+      "mibDef": "awake; watchful; alert; watcher; watchman.",
+      "mibMeta": "Observant, attentive, vigilant thoughts. It matters a great deal what one watches, or gives attention to. If one persists in recognizing that which appears to be evil and error, one cannot obtain abiding life and good. We are transformed into the Christ likeness by beholding Him, not by taking cogni",
+      "candidates": [
+        {
+          "s": "H6147",
+          "def": "Er, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1106,
+      "word": "Eran",
+      "etym": "Heb.",
+      "mibDef": "more watchful; vigilant; attentive; watcher.",
+      "mibMeta": "The will attentive to the greatly increasing power of Truth in consciousness. Eranites, e'-ran-ltes (fr. Heb.)-o/or belonging to Eran. Descendants of Eran (Num. 26:36). Thoughts belonging to the Eran consciousness. (See ERAN.)",
+      "candidates": []
+    },
+    {
+      "id": 1107,
+      "word": "Erastus",
+      "etym": "Gk.",
+      "mibDef": "beloved; amiable.",
+      "mibMeta": "The harmonizing quality of love. (See CORINTH.)",
+      "candidates": [
+        {
+          "s": "G2037",
+          "def": "beloved; Erastus, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 1108,
+      "word": "Erech",
+      "etym": "Heb.",
+      "mibDef": "long; length; extended; prolonged; attenuated; slack; dissolute; prostrate;",
+      "mibMeta": "The truth about the natural, inherent wholeness and goodness of man (because of his being made in the likeness of God), reduced in his consciousness to material thinking and, because of long and extended material thinking, bringing about the disastrous results of error in his body and affairs. (See ",
+      "candidates": []
+    },
+    {
+      "id": 1109,
+      "word": "Eri",
+      "etym": "Heb.",
+      "mibDef": "my watcher; watching; worshipping Jah.",
+      "mibMeta": "An unfolding of the power faculty (Gad) in consciousness. Power seems to express first on the mortal or human plane. The true, spiritual quality in the power faculty, however, is constantly seeking expression, and in Eri it is attentive to the higher or divine law.",
+      "candidates": []
+    },
+    {
+      "id": 1110,
+      "word": "Erites",
+      "etym": "",
+      "mibDef": "of or belonging to Eri; posterity of Eri.",
+      "mibMeta": "Thoughts belonging to the Eri consciousness. (See ERI.) error— That which is untrue. Error thoughts represent belief in thoughts and beliefs not of God. Error thoughts have no foundation in Truth. They originate in the intellect. They are eliminated by one's denying their reality and power, and affi",
+      "candidates": []
+    },
+    {
+      "id": 1111,
+      "word": "Esar-haddon",
+      "etym": "Heb. fr. Assyr.",
+      "mibDef": "Ashur (Assyria) hath given a brother; victorious",
+      "mibMeta": "The body, or physical vigor. In the immature consciousness the natural man is moved by desire. Appetite and passion are satisfied regardless of the higher law. Esau sold his birthright for a mess of pottage. The threat of Esau against Jacob's life represents the inward rebellion that we often feel w",
+      "candidates": [
+        {
+          "s": "H634",
+          "def": "Esar-chaddon, an Assyrian king"
+        }
+      ]
+    },
+    {
+      "id": 1112,
+      "word": "Esek",
+      "etym": "Heb .",
+      "mibDef": "oppression strife; violence; injury; distress; straits, contention.",
+      "mibMeta": "A warring that takes place in the subconsciousness (valley) between the sense animal desires (the herdsmen of Gerar, a Philistine city) and the attempt of the awakening spiritual understanding (Isaac, a type of Christ,) to lift up the animal forces of the organism. The digging of the well signifies ",
+      "candidates": []
+    },
+    {
+      "id": 1113,
+      "word": "Eshan",
+      "etym": "Heb.",
+      "mibDef": "couch; support; prop.",
+      "mibMeta": "An aggregation of thoughts in consciousness that is of a supporting, sustaining, restful character (couch, support). This aggregation of strengthening, sustaining thoughts is the product of, and belongs to, the praise-and-prayer consciousness (Judah). Eshbaal, esh'-ba-al (Heb .)-man of Baal; Baal's ",
+      "candidates": []
+    },
+    {
+      "id": 1114,
+      "word": "Eshban",
+      "etym": "Heb.",
+      "mibDef": "man of understanding; thinking man; man of wisdom; wise man; son of",
+      "mibMeta": "The belief, held by the outer man, that wisdom and understanding come through the perception and reasonings of the senses. (If Eshban had been an Israelite instead of a Horite, the significance of the name would be that of true understanding.)",
+      "candidates": []
+    },
+    {
+      "id": 1115,
+      "word": "Eshcol",
+      "etym": "Heb.",
+      "mibDef": "cluster; cluster of grapes; a bunch; cluster, especially of grapes.",
+      "mibMeta": "The life forces in the subconsciousness; also a realization of their great fruitfulness in consciousness, and man's abundant possibilities through them.",
+      "candidates": []
+    },
+    {
+      "id": 1116,
+      "word": "Eshek",
+      "etym": "Heb.",
+      "mibDef": "oppression; violence; strife; injury; distress; straits.",
+      "mibMeta": "The activity of the faith (Benjamin) thought in man, but directed and influenced by the selfish, oppressive, contentious dominance of the personal will (Saul). This brings about a very destructive attitude of mind. Faith must work by love in order to establish harmony, true freedom, and peace in man",
+      "candidates": [
+        {
+          "s": "H6232",
+          "def": "Eshek, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1117,
+      "word": "Eshtaol",
+      "etym": "Heb.",
+      "mibDef": "excavation; hollow way; searching out; petition; entreaty;",
+      "mibMeta": "The earnest prayer or entreaty of the soul, the subconscious depths of man's being, for a way of escape from the dominance of sense (the Philistines). The Israelites were seemingly under complete subjection to the Philistines at this time; in other words, the error thoughts and activities of the out",
+      "candidates": [
+        {
+          "s": "H847",
+          "def": "Eshtaol, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1118,
+      "word": "Eshtaolites (A.V.",
+      "etym": "fr. Heb .",
+      "mibDef": "belonging to Eshtaol.",
+      "mibMeta": "Thoughts belonging to the Eshtaol phase of consciousness. (See ESHTAOL.)",
+      "candidates": []
+    },
+    {
+      "id": 1119,
+      "word": "Eshtemoa",
+      "etym": "Heb.",
+      "mibDef": "hearing; hearkening; understanding; obedience; submission.",
+      "mibMeta": "The spirit of receptivity, understanding, and obedience, which causes one to give attention to spiritual guidance and to obey its leadings.",
+      "candidates": [
+        {
+          "s": "H851",
+          "def": "Eshtemoa or Eshtemoh, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1120,
+      "word": "Eshtemoh",
+      "etym": "Heb .",
+      "mibDef": "hearing; hearkening; understanding; obedience; submission.",
+      "mibMeta": "See ESHTEMOA.",
+      "candidates": []
+    },
+    {
+      "id": 1121,
+      "word": "Eshton",
+      "etym": "Heb.",
+      "mibDef": "womanish; uxorious; weak; restful.",
+      "mibMeta": "A thought of or tendency toward love of ease; also a weak, or negative, submissiveness to the emotions and desires of the human soul ( uxorious means \"excessively or dotingly fond of, or submissive to, a wife\").",
+      "candidates": [
+        {
+          "s": "H850",
+          "def": "Eshton, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1122,
+      "word": "Esli",
+      "etym": "Gk. from Heb.",
+      "mibDef": "God has reserved; separated from God; resented.",
+      "mibMeta": "A strong thought of consecration to God and of nearness to or oneness with Him. This thought belongs to man's spiritual consciousness. It is through the spiritual consciousness, or superconsciousness, in man that he contacts God and that the ideas of the one Mind enter the consciousness of the indiv",
+      "candidates": []
+    },
+    {
+      "id": 1123,
+      "word": "essence",
+      "etym": "",
+      "mibDef": "The substance in which all things exist and out of which all things are made.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1124,
+      "word": "established in the spiritually unawakened individual",
+      "etym": "",
+      "mibDef": "the seat",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3559",
+          "def": "properly, to be erect (i.e., stand perpendicular); hence (causatively) to set up, in a great variety of applications, whether literal (establish, fix, prepare, apply), or figurative (appoint, render sure, proper or prosperous)"
+        },
+        {
+          "s": "H6965",
+          "def": "to rise (in various applications, literal, figurative, intensive and causative)"
+        },
+        {
+          "s": "H539",
+          "def": "properly, to build up or support; to foster as a parent or nurse; figuratively to render (or be) firm or faithful, to trust or believe, to be permanent or quiet; morally to be true or certain"
+        },
+        {
+          "s": "H3245",
+          "def": "to set (literally or figuratively); intensively, to found; reflexively, to sit down together, i.e., settle, consult"
+        },
+        {
+          "s": "H2388",
+          "def": "to fasten upon; hence, to seize, be strong (figuratively, courageous, causatively strengthen, cure, help, repair, fortify), obstinate; to bind, restrain, conquer"
+        }
+      ]
+    },
+    {
+      "id": 1125,
+      "word": "establishment of the consciousness in Truth",
+      "etym": "",
+      "mibDef": "God, Spirit. The way is opened for this by a state of mind",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H571",
+          "def": "stability; (figuratively) certainty, truth, trustworthiness"
+        }
+      ]
+    },
+    {
+      "id": 1126,
+      "word": "Esther",
+      "etym": "Heb. fr. Pers.",
+      "mibDef": "star; the planet Venus; happiness; good fortune.",
+      "mibMeta": "The dissolving power of spiritual love; this is an antidote for a dictatorial will. Queen Esther had all her relatives, the Jews (spiritual thoughts), join her in a fast. This means that we must deny all selfish desires out of our love before we use it in softening the imperious will. When this cons",
+      "candidates": [
+        {
+          "s": "H635",
+          "def": "Ester, the Jewish heroine"
+        }
+      ]
+    },
+    {
+      "id": 1127,
+      "word": "Etam",
+      "etym": "Heb.",
+      "mibDef": "aerie; numbers of rapacious birds; lair of ravenous beasts.",
+      "mibMeta": "Aggregations of thoughts in consciousness given over to force, violence, greed. Some of these thoughts have the characteristics of birds (they are free, unattached), and others belong to the \"beast\" life in the organism. In other words, Etam signifies the beast life's running wild and having gained ",
+      "candidates": []
+    },
+    {
+      "id": 1128,
+      "word": "eternal life",
+      "etym": "",
+      "mibDef": "the lifting up of the whole man— spirit, soul, and body— into the Christ consciousness of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G166",
+          "def": "perpetual (also used of past time, or past and future as well)"
+        },
+        {
+          "s": "H6924",
+          "def": "the front, of place (absolutely, the fore part, relatively the East) or time (antiquity); often used adverbially (before, anciently, eastward)"
+        },
+        {
+          "s": "H5769",
+          "def": "properly, concealed, i.e., the vanishing point; generally, time out of mind (past or future), i.e., (practically) eternity; frequentatively, adverbial (especially with prepositional prefix) always"
+        },
+        {
+          "s": "G126",
+          "def": "everduring (forward and backward, or forward only)"
+        },
+        {
+          "s": "G165",
+          "def": "properly, an age; by extension, perpetuity (also past); by implication, the world; specially (Jewish) a Messianic period (present or future)"
+        }
+      ]
+    },
+    {
+      "id": 1129,
+      "word": "Etham",
+      "etym": "Heb. fr. Egypt .",
+      "mibDef": "border of the sea; seabound; extremes of habitation;",
+      "mibMeta": "An apparently negative phase of consciousness (desolation). When our highest, truest conscious ideals (Israelites) go beyond the old environment of race thought and understanding and lead us into new, untried experiences, we should keep our attention fixed on God, Spirit. If we allow ourselves to me",
+      "candidates": []
+    },
+    {
+      "id": 1130,
+      "word": "Ethan",
+      "etym": "Heb .",
+      "mibDef": "ancient; perennial; perpetual; firm; strong; mighty.",
+      "mibMeta": "The firm, strong root in consciousness that the old thoughts about God have gained because of the length of time that they have been kept alive in the race (ancient suggests this). There is a marked tendency in mankind to accept as a fixed, unalterable law (this is suggested by perpetual ) anything ",
+      "candidates": [
+        {
+          "s": "H387",
+          "def": "Ethan, the name of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1131,
+      "word": "Ethanim",
+      "etym": "Heb.",
+      "mibDef": "munificent gifts; perennial owing; owing brooks. Fallows says of",
+      "mibMeta": "The whole consciousness of man is made up of objective and subjective thoughts and their results. Like a chemical solution they go through changes on the subjective side that are observed in their outer appearance only and are but dimly understood. This feast in the seventh month, Ethanim, refers to",
+      "candidates": []
+    },
+    {
+      "id": 1132,
+      "word": "Ethbaal",
+      "etym": "Heb.",
+      "mibDef": "with Baal, i.e., with the favor or help of Baal; Baal's similitude, i.e.,",
+      "mibMeta": "A belief that is wholly given over to materiality; it is the ruling, or central thought of the Sidon state of consciousness. (See SIDONIAN.)",
+      "candidates": [
+        {
+          "s": "H856",
+          "def": "Ethbaal, a Phoenician king"
+        }
+      ]
+    },
+    {
+      "id": 1133,
+      "word": "Ether",
+      "etym": "Heb.",
+      "mibDef": "plenty; riches; abundance; fullness.",
+      "mibMeta": "Praise (Judah) in touch with the fullness of abundant substance in the subconsciousness (lowland).",
+      "candidates": []
+    },
+    {
+      "id": 1134,
+      "word": "ether",
+      "etym": "",
+      "mibDef": "The spiritual substance in which we live, move, and have our being and out of which can",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1135,
+      "word": "Ethiopia",
+      "etym": "fr. Gk .",
+      "mibDef": "burned faces; country of the burning.",
+      "mibMeta": "The darkened or material thought in which man has held his body and its",
+      "candidates": [
+        {
+          "s": "H3568",
+          "def": "Cush (or Ethiopia), the name of a son of Ham, and of his territory"
+        }
+      ]
+    },
+    {
+      "id": 1136,
+      "word": "Ethnan",
+      "etym": "Heb.",
+      "mibDef": "gift; reward; hire.",
+      "mibMeta": "\"The free gift of God is eternal life in Christ Jesus our Lord\" (Rom. 6:23). From the human viewpoint there may be a sense of hire, of earning one's good (see Matt. 20: 1- 16, in the attaining of life, since every man must work out his own salvation. Each individual, however, will come to the place,",
+      "candidates": []
+    },
+    {
+      "id": 1137,
+      "word": "Ethni",
+      "etym": "Heb.",
+      "mibDef": "giving; munificence; generosity; liberality",
+      "mibMeta": "A thought of great liberality, generosity, and broad-mindedness.",
+      "candidates": []
+    },
+    {
+      "id": 1138,
+      "word": "Eubulus",
+      "etym": "Gk.",
+      "mibDef": "good counsel; prudent.",
+      "mibMeta": "Good judgment, discretion, wisdom (prudent, good counsel) belonging to the illumined intellect in man.",
+      "candidates": [
+        {
+          "s": "G2103",
+          "def": "good-willer; Eubulus, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 1139,
+      "word": "Eunice",
+      "etym": "Gk.",
+      "mibDef": "conquering well; happily conquering; good victory.",
+      "mibMeta": "A blending of our inner spiritual qualities of faith and love. Faith is the victory that overcomes the world, and love is the harmonizing influence in our life that brings us conscious joy and good (Paul writes of the unfeigned faith that dwelt in Eunice). eunuch. A thought from which the capacity t",
+      "candidates": []
+    },
+    {
+      "id": 1140,
+      "word": "Euodia (A.V.",
+      "etym": "Gk .",
+      "mibDef": "prosperous journey; prosperous course; good journey;",
+      "mibMeta": "The soul aspiring to that which is spiritual and high, to abundant good (fragrant and sweet-scented refer to the sense of smell; smelling stands for aspiration in consciousness).",
+      "candidates": []
+    },
+    {
+      "id": 1141,
+      "word": "Euphrates",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "bursting forth; breaking out; fructifying; that which is the",
+      "mibMeta": "For the interpretation of Euphrates see the Addenda.",
+      "candidates": [
+        {
+          "s": "H6578",
+          "def": "Perath (i.e., Euphrates), a river of the East"
+        }
+      ]
+    },
+    {
+      "id": 1142,
+      "word": "Euraquilo (A.V.",
+      "etym": "Gk .",
+      "mibDef": "northeast wind.",
+      "mibMeta": "The tempest or brain storm that sometimes arises in one's mind because of the introduction of the word of Truth (Paul) into the material thoughts and beliefs of the intellectual consciousness. (The countries of Bible times that bordered on the eastern, southeastern, and northeastern parts of the Med",
+      "candidates": []
+    },
+    {
+      "id": 1143,
+      "word": "Eutychus",
+      "etym": "Gk .",
+      "mibDef": "fortunate.",
+      "mibMeta": "The understanding that the youthful energies of the organism can be quickened into new life again even after they appear to be utterly dead, after such a renewal appears to be hopeless. Man is indeed fortunate in having the word of Truth (indicated here by Paul) always at hand, since by the word of ",
+      "candidates": []
+    },
+    {
+      "id": 1144,
+      "word": "Evi",
+      "etym": "Yleb.",
+      "mibDef": "desire; inclination; choice; the will; object of desire, i.e., where the will is",
+      "mibMeta": "Unjust desire. All desire at its origin is good and is of God; but in interpreting itself to the human consciousness it takes on the dominant beliefs therein. This, in Evi's case, is the belief in materiality and sense, in rebellion against the true thoughts of Spirit (Israelites). Thus the desire e",
+      "candidates": []
+    },
+    {
+      "id": 1145,
+      "word": "evidence of faith in its naked word",
+      "etym": "",
+      "mibDef": "quickened to action by the zealous will— the word of Truth goes",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5612",
+          "def": "properly, writing (the art or a document); by implication, a book"
+        },
+        {
+          "s": "G1650",
+          "def": "proof, conviction"
+        }
+      ]
+    },
+    {
+      "id": 1146,
+      "word": "evil",
+      "etym": "",
+      "mibDef": "Evil must be overcome with good. We must dwell in the good so wholly that",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7451",
+          "def": "bad or (as noun) evil (natural or moral)"
+        },
+        {
+          "s": "G4190",
+          "def": "hurtful, i.e., evil (properly, in effect or influence, and thus differing from G2556, which refers rather to essential character, as well as from G4550, which indicates degeneracy from original virtue); figuratively, calamitous; also (passively) ill, i.e., diseased; but especially (morally) culpable, i.e., derelict, vicious, facinorous; neuter (singular) mischief, malice, or (plural) guilt; masculine (singular) the devil, or (plural) sinners"
+        },
+        {
+          "s": "G2556",
+          "def": "worthless (intrinsically, such; whereas G4190 properly refers to effects), i.e., (subjectively) depraved, or (objectively) injurious"
+        },
+        {
+          "s": "H7489",
+          "def": "properly, to spoil (literally, by breaking to pieces); figuratively, to make (or be) good for nothing, i.e., bad (physically, socially or morally)"
+        },
+        {
+          "s": "G987",
+          "def": "to vilify; specially, to speak impiously"
+        }
+      ]
+    },
+    {
+      "id": 1147,
+      "word": "Evil-merodach",
+      "etym": "Heb .",
+      "mibDef": "fool of Merodach; Merodach's fool, i.e., his foolish",
+      "mibMeta": "A central, ruling thought in the Babylon state of consciousness in man. This thought is foolish in that it looks upon worldly pride, pomp, and power as worthy of one's effort to attain; it also believes in outer, limited, error conditions as real. Persons who behold the outer constantly, and believe",
+      "candidates": []
+    },
+    {
+      "id": 1148,
+      "word": "evolution",
+      "etym": "",
+      "mibDef": "The unfolding of the Spirit of God into expression. The Christ or Son of",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1149,
+      "word": "except by divine love",
+      "etym": "",
+      "mibDef": "the mind that was in Christ Jesus— \"who, when he was reviled, reviled not again;",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1437",
+          "def": "a conditional particle; in case that, provided, etc.; often used in connection with other particles to denote indefiniteness or uncertainty"
+        },
+        {
+          "s": "G3361",
+          "def": "(adverb) not, (conjunction) lest; also (as an interrogative implying a negative answer (whereas G3756 expects an affirmative one)) whether"
+        },
+        {
+          "s": "G1487",
+          "def": "if, whether, that, etc"
+        },
+        {
+          "s": "H518",
+          "def": "used very widely as demonstrative, lo!; interrogative, whether?; or conditional, if, although; also Oh that!, when; hence, as a negative, not"
+        },
+        {
+          "s": "H3588",
+          "def": "(by implication) very widely used as a relative conjunction or adverb (as below); often largely modified by other particles annexed"
+        }
+      ]
+    },
+    {
+      "id": 1150,
+      "word": "excited state of thought also",
+      "etym": "",
+      "mibDef": "in other words, established",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1151,
+      "word": "exercises",
+      "etym": "",
+      "mibDef": "Prayer, meditation, worship, and fasting from erroneous ideas.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1152,
+      "word": "existence of strength and power as fundamental principles of Being",
+      "etym": "",
+      "mibDef": "of God and of man (Jesse, the",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1153,
+      "word": "Exodus",
+      "etym": "Gk.",
+      "mibDef": "exit; departure; going out; decease.",
+      "mibMeta": "Exodus refers to the deliverance of man's highest religious and spiritual thoughts from the obscurity, darkness, and ignorance of the Egyptian consciousness, or \"mind of the flesh.\" We make our exodus when we die to sin and are born anew to righteousness in Jesus Christ. exorcist— One who uses a hol",
+      "candidates": []
+    },
+    {
+      "id": 1154,
+      "word": "expressed and demonstrated throughout man",
+      "etym": "",
+      "mibDef": "must be recognized and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5344",
+          "def": "to puncture, literally (to perforate, with more or less violence) or figuratively (to specify, designate, libel)"
+        }
+      ]
+    },
+    {
+      "id": 1155,
+      "word": "expressed in a beautiful character",
+      "etym": "",
+      "mibDef": "beauty of face and form. (Keren-happuch",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5344",
+          "def": "to puncture, literally (to perforate, with more or less violence) or figuratively (to specify, designate, libel)"
+        }
+      ]
+    },
+    {
+      "id": 1156,
+      "word": "expressed in audible words",
+      "etym": "",
+      "mibDef": "the throat— is the power center in man). The voice",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5344",
+          "def": "to puncture, literally (to perforate, with more or less violence) or figuratively (to specify, designate, libel)"
+        }
+      ]
+    },
+    {
+      "id": 1157,
+      "word": "external forms of religion",
+      "etym": "",
+      "mibDef": "Undue attention to ritual and ceremony. Concern with the",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1158,
+      "word": "eye",
+      "etym": "",
+      "mibDef": "Spiritual vision; intuitive seeing with the eye of Truth.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5869",
+          "def": "an eye (literally or figuratively); by analogy, a fountain (as the eye of the landscape)"
+        },
+        {
+          "s": "G3788",
+          "def": "the eye (literally or figuratively); by implication, vision; figuratively, envy (from the jealous side-glance)"
+        },
+        {
+          "s": "H5048",
+          "def": "a front, i.e., part opposite; specifically a counterpart, or mate; usually (adverbial, especially with preposition) over against or before"
+        },
+        {
+          "s": "H5870",
+          "def": "an eye"
+        },
+        {
+          "s": "G5169",
+          "def": "an aperture, i.e., a needle's eye"
+        }
+      ]
+    },
+    {
+      "id": 1159,
+      "word": "eye",
+      "etym": "",
+      "mibDef": "Searching quality of mind with keen observation that selects only that which is good.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5869",
+          "def": "an eye (literally or figuratively); by analogy, a fountain (as the eye of the landscape)"
+        },
+        {
+          "s": "G3788",
+          "def": "the eye (literally or figuratively); by implication, vision; figuratively, envy (from the jealous side-glance)"
+        },
+        {
+          "s": "H5048",
+          "def": "a front, i.e., part opposite; specifically a counterpart, or mate; usually (adverbial, especially with preposition) over against or before"
+        },
+        {
+          "s": "H5870",
+          "def": "an eye"
+        },
+        {
+          "s": "G5169",
+          "def": "an aperture, i.e., a needle's eye"
+        }
+      ]
+    },
+    {
+      "id": 1160,
+      "word": "eyes",
+      "etym": "",
+      "mibDef": "A darkened consciousness. When we are exalted and illumined through Truth",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5869",
+          "def": "an eye (literally or figuratively); by analogy, a fountain (as the eye of the landscape)"
+        },
+        {
+          "s": "G3788",
+          "def": "the eye (literally or figuratively); by implication, vision; figuratively, envy (from the jealous side-glance)"
+        },
+        {
+          "s": "H5870",
+          "def": "an eye"
+        },
+        {
+          "s": "G816",
+          "def": "to gaze intently"
+        },
+        {
+          "s": "G455",
+          "def": "to open up (literally or figuratively, in various applications)"
+        }
+      ]
+    },
+    {
+      "id": 1161,
+      "word": "Ezbai",
+      "etym": "Heb.",
+      "mibDef": "shining; beautiful; hyssoplike, i.e., fragrant.",
+      "mibMeta": "The light of Truth as shining into individual consciousness, graciously (beautiful) and with fragrance (hyssoplike), ever aspiring to higher and better things. (Anything good connected with the sense of smelling bespeaks aspiration.)",
+      "candidates": []
+    },
+    {
+      "id": 1162,
+      "word": "Ezbon",
+      "etym": "Heb.",
+      "mibDef": "pushing to understanding; hastening to understand; splendor; bright.",
+      "mibMeta": "Thoughts that come into the light, into the brightness and glory of Truth, because of being attentive to the things of Spirit. Because these thoughts have a receptive ear to hear the Truth, they understand quickly. (See OZNI.)",
+      "candidates": []
+    },
+    {
+      "id": 1163,
+      "word": "Ezekiel",
+      "etym": "Heb .",
+      "mibDef": "God strengthens; God is strong; God is powerful; whom God makes",
+      "mibMeta": "That in us which relies on Spirit and encourages us to place our full trust in Jehovah, that the Lord Jehovah (the spiritual I AM in us) may become the keeper of our sheep (our spiritual thoughts). Ezekiel was an enthusiast. His mind was open and alive to things spiritual. He shows us how to demonst",
+      "candidates": [
+        {
+          "s": "H3168",
+          "def": "Jechezkel, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1164,
+      "word": "Ezel",
+      "etym": "Heb.",
+      "mibDef": "roll off rapidly; go away quickly; depart suddenly; separation.",
+      "mibMeta": "A sense of separation that the soul (Jonathan) feels very keenly when forced, seemingly, to part from the true love quality (David) because of the hardness of the adverse, personal will (Saul), which is intent upon killing love out of consciousness. Thus love has to go into hiding, as it were; it mu",
+      "candidates": []
+    },
+    {
+      "id": 1165,
+      "word": "Ezem (A.V.",
+      "etym": "Heb.",
+      "mibDef": "collective growth; bone; strength;",
+      "mibMeta": "An aggregation of thoughts in consciousness that are unified in their development in strength, stability, and power (collective growth bespeaks unity in development and bone bespeaks stability).",
+      "candidates": []
+    },
+    {
+      "id": 1166,
+      "word": "Ezer (A.V.",
+      "etym": "Heb.",
+      "mibDef": "surround; envelop; help; unite; succor; aid;",
+      "mibMeta": "Man's innate belief in a substance, a wisdom (treasure), an established oneness with All-Good (unite), and a power to aid and to protect (surround, envelop, help) that come from something higher, stronger, and more real and lasting than sense consciousness can give. This innate belief springs up thr",
+      "candidates": [
+        {
+          "s": "H5829",
+          "def": "Ezer, the name of four Israelites"
+        },
+        {
+          "s": "H687",
+          "def": "Etser, an Idumaean"
+        }
+      ]
+    },
+    {
+      "id": 1167,
+      "word": "Ezion-geber (A.V.",
+      "etym": "",
+      "mibDef": "backbone of a might one; backbone of",
+      "mibMeta": "The Children of Israel's encamping at Ezion-geber refers to a great building up and strengthening of firmness and moral principle in consciousness. This place called Ezion-geber belongs to the main trunk of the tree of life in man, the spinal column ( backbone also bespeaks firmness and strength).",
+      "candidates": []
+    },
+    {
+      "id": 1168,
+      "word": "Eznite",
+      "etym": "fr. Web.",
+      "mibDef": "strong; firm; sharp; a spear.",
+      "mibMeta": "A perceptive, discerning, piercing thought in man. This thought is very strong, steadfast, and active in consciousness, in its defense of the ruling love ego (David).",
+      "candidates": []
+    },
+    {
+      "id": 1169,
+      "word": "Ezra",
+      "etym": "Heb.",
+      "mibDef": "help.",
+      "mibMeta": "There is a faculty of the mind that receives and transcribes upon the tablets of memory every wave of mind that touches the consciousness, whether from the flesh or from Spirit. This faculty is Ezra the scribe. This faculty may be exalted to a point where it will receive impressions from the spiritu",
+      "candidates": [
+        {
+          "s": "H5830",
+          "def": "Ezra, an Israelite"
+        },
+        {
+          "s": "H5831",
+          "def": "Ezra, an Israelite"
+        },
+        {
+          "s": "H5834",
+          "def": "Ezrah, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1170,
+      "word": "Ezrahite",
+      "etym": "fr. Heb.",
+      "mibDef": "a native, i.e., in his own country, not a foreigner.",
+      "mibMeta": "Intellectual understanding, which is natural to man in his seemingly mortal state (a native, i.e., in his own country). One may become very brilliant in so far as education and the intellect are concerned, yet fall far short of the true spiritual wisdom and understanding that Solomon signifies.",
+      "candidates": []
+    },
+    {
+      "id": 1171,
+      "word": "Ezri",
+      "etym": "Heb.",
+      "mibDef": "my help; help o/'Jchovah.",
+      "mibMeta": "By denials and affirmations we cultivate the soil of our mind and of our body consciousness (ground); thus we make both ready for the bringing forth of abundant realization of substance and Truth. These denials of error and affirmations of Truth are, or they reveal, the help of Jehovah to us. They a",
+      "candidates": [
+        {
+          "s": "H5836",
+          "def": "Ezri, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1172,
+      "word": "faculties",
+      "etym": "",
+      "mibDef": "Faculties of mind that have been expanded until they function in harmony",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1173,
+      "word": "faculties of mind",
+      "etym": "",
+      "mibDef": "in man's consciousness— of knowledge of God, through his",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1174,
+      "word": "faculty",
+      "etym": "",
+      "mibDef": "An individualized center of God consciousness. The twelve faculties or ideas",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1175,
+      "word": "failure",
+      "etym": "",
+      "mibDef": "Inability, through a lack of power, to make a demonstration. Seeming failure is often a",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1176,
+      "word": "faintheartedness",
+      "etym": "",
+      "mibDef": "Uncourageous thoughts, lacking ability and efficiency.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1177,
+      "word": "Faith",
+      "etym": "",
+      "mibDef": "Peter— center of head, pineal gland.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4102",
+          "def": "persuasion, i.e., credence; moral conviction (of religious truth, or the truthfulness of God or a religious teacher), especially reliance upon Christ for salvation; abstractly, constancy in such profession; by extension, the system of religious (Gospel) truth itself"
+        },
+        {
+          "s": "G1680",
+          "def": "expectation (abstractly or concretely) or confidence"
+        }
+      ]
+    },
+    {
+      "id": 1178,
+      "word": "faith",
+      "etym": "",
+      "mibDef": "An instinctive trust in a power higher than ourselves. Because blind faith does not",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4102",
+          "def": "persuasion, i.e., credence; moral conviction (of religious truth, or the truthfulness of God or a religious teacher), especially reliance upon Christ for salvation; abstractly, constancy in such profession; by extension, the system of religious (Gospel) truth itself"
+        },
+        {
+          "s": "G1680",
+          "def": "expectation (abstractly or concretely) or confidence"
+        }
+      ]
+    },
+    {
+      "id": 1179,
+      "word": "faith",
+      "etym": "",
+      "mibDef": "The pineal gland, located in the middle of the brain, is the center of faith in the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4102",
+          "def": "persuasion, i.e., credence; moral conviction (of religious truth, or the truthfulness of God or a religious teacher), especially reliance upon Christ for salvation; abstractly, constancy in such profession; by extension, the system of religious (Gospel) truth itself"
+        },
+        {
+          "s": "G1680",
+          "def": "expectation (abstractly or concretely) or confidence"
+        }
+      ]
+    },
+    {
+      "id": 1180,
+      "word": "faith",
+      "etym": "",
+      "mibDef": "By studying the experiences of Peter (the apostle representing faith), we",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4102",
+          "def": "persuasion, i.e., credence; moral conviction (of religious truth, or the truthfulness of God or a religious teacher), especially reliance upon Christ for salvation; abstractly, constancy in such profession; by extension, the system of religious (Gospel) truth itself"
+        },
+        {
+          "s": "G1680",
+          "def": "expectation (abstractly or concretely) or confidence"
+        }
+      ]
+    },
+    {
+      "id": 1181,
+      "word": "faith",
+      "etym": "",
+      "mibDef": "The faith that has its seat of action in the intellect only. Intellectual man has",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4102",
+          "def": "persuasion, i.e., credence; moral conviction (of religious truth, or the truthfulness of God or a religious teacher), especially reliance upon Christ for salvation; abstractly, constancy in such profession; by extension, the system of religious (Gospel) truth itself"
+        },
+        {
+          "s": "G1680",
+          "def": "expectation (abstractly or concretely) or confidence"
+        }
+      ]
+    },
+    {
+      "id": 1182,
+      "word": "faith",
+      "etym": "",
+      "mibDef": "The act of mentally taking that which is desired. Jesus said, \"All things",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4102",
+          "def": "persuasion, i.e., credence; moral conviction (of religious truth, or the truthfulness of God or a religious teacher), especially reliance upon Christ for salvation; abstractly, constancy in such profession; by extension, the system of religious (Gospel) truth itself"
+        },
+        {
+          "s": "G1680",
+          "def": "expectation (abstractly or concretely) or confidence"
+        }
+      ]
+    },
+    {
+      "id": 1183,
+      "word": "faith",
+      "etym": "",
+      "mibDef": "Faith that functions from Principle. It is based on knowledge of Truth. It",
+      "mibMeta": "Deceptive thoughts that have been built up by error, selfish desires. Outwardly they present the appearance of being candid and open; inwardly they are ravenous for personal sensation and worldly gain. In order to attain their end they deceive even \"the elect.\" \"By their fruits ye shall know them.\" ",
+      "candidates": [
+        {
+          "s": "G4102",
+          "def": "persuasion, i.e., credence; moral conviction (of religious truth, or the truthfulness of God or a religious teacher), especially reliance upon Christ for salvation; abstractly, constancy in such profession; by extension, the system of religious (Gospel) truth itself"
+        },
+        {
+          "s": "G1680",
+          "def": "expectation (abstractly or concretely) or confidence"
+        }
+      ]
+    },
+    {
+      "id": 1184,
+      "word": "faith compared with trust",
+      "etym": "",
+      "mibDef": "Trust is a weaker brand of faith, but better than mistrust. As a rule,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4102",
+          "def": "persuasion, i.e., credence; moral conviction (of religious truth, or the truthfulness of God or a religious teacher), especially reliance upon Christ for salvation; abstractly, constancy in such profession; by extension, the system of religious (Gospel) truth itself"
+        },
+        {
+          "s": "G1680",
+          "def": "expectation (abstractly or concretely) or confidence"
+        }
+      ]
+    },
+    {
+      "id": 1185,
+      "word": "faith in oneself",
+      "etym": "",
+      "mibDef": "The ground for man's faith in himself is the truth that he is a son of God and, as",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4102",
+          "def": "persuasion, i.e., credence; moral conviction (of religious truth, or the truthfulness of God or a religious teacher), especially reliance upon Christ for salvation; abstractly, constancy in such profession; by extension, the system of religious (Gospel) truth itself"
+        },
+        {
+          "s": "G1680",
+          "def": "expectation (abstractly or concretely) or confidence"
+        }
+      ]
+    },
+    {
+      "id": 1186,
+      "word": "faith of Jesus",
+      "etym": "",
+      "mibDef": "Jesus did not claim an exclusive supernatural power, which we usually accredit to",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4102",
+          "def": "persuasion, i.e., credence; moral conviction (of religious truth, or the truthfulness of God or a religious teacher), especially reliance upon Christ for salvation; abstractly, constancy in such profession; by extension, the system of religious (Gospel) truth itself"
+        },
+        {
+          "s": "G1680",
+          "def": "expectation (abstractly or concretely) or confidence"
+        }
+      ]
+    },
+    {
+      "id": 1187,
+      "word": "family",
+      "etym": "",
+      "mibDef": "Jesus said: \"Who is my mother and my brethren? And looking round on them",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4940",
+          "def": "a family, i.e., circle of relatives; figuratively, a class (of persons), a species (of animals) or sort (of things); by extension a tribe or people"
+        },
+        {
+          "s": "H504",
+          "def": "a family; also (from the sense of yoking or taming) an ox or cow"
+        },
+        {
+          "s": "H1004",
+          "def": "a house (in the greatest variation of applications, especially family, etc.)"
+        },
+        {
+          "s": "G3965",
+          "def": "paternal descent, i.e., (concretely) a group of families or a whole race (nation)"
+        }
+      ]
+    },
+    {
+      "id": 1188,
+      "word": "family",
+      "etym": "",
+      "mibDef": "If God is the Father of all, then all men and women are brothers and sisters",
+      "mibMeta": "Denial; also abstinence from error thoughts, to the end that we may meditate upon spiritual truths and incorporate them into our consciousness of oneness with the Father. fate— \"That which is destined or decreed; appointed lot. Fate suggests inevitability and immutability in strict use, but usually ",
+      "candidates": [
+        {
+          "s": "H4940",
+          "def": "a family, i.e., circle of relatives; figuratively, a class (of persons), a species (of animals) or sort (of things); by extension a tribe or people"
+        },
+        {
+          "s": "H504",
+          "def": "a family; also (from the sense of yoking or taming) an ox or cow"
+        },
+        {
+          "s": "H1004",
+          "def": "a house (in the greatest variation of applications, especially family, etc.)"
+        },
+        {
+          "s": "G3965",
+          "def": "paternal descent, i.e., (concretely) a group of families or a whole race (nation)"
+        }
+      ]
+    },
+    {
+      "id": 1189,
+      "word": "Father and Son",
+      "etym": "",
+      "mibDef": "The Father-Mind is the living Principle, the Absolute, the Great Unlimited. The",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1",
+          "def": "father, in a literal and immediate, or figurative and remote application"
+        },
+        {
+          "s": "G3962",
+          "def": "a \"father\" (literally or figuratively, near or more remote)"
+        },
+        {
+          "s": "H2859",
+          "def": "to give (a daughter) away in marriage; hence (generally) to contract affinity by marriage"
+        },
+        {
+          "s": "H2524",
+          "def": "a father-in-law (as in affinity)"
+        },
+        {
+          "s": "H2",
+          "def": "father"
+        }
+      ]
+    },
+    {
+      "id": 1190,
+      "word": "Father and Son",
+      "etym": "",
+      "mibDef": "When we are quickened in spiritual understanding, we",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1",
+          "def": "father, in a literal and immediate, or figurative and remote application"
+        },
+        {
+          "s": "G3962",
+          "def": "a \"father\" (literally or figuratively, near or more remote)"
+        },
+        {
+          "s": "H2859",
+          "def": "to give (a daughter) away in marriage; hence (generally) to contract affinity by marriage"
+        },
+        {
+          "s": "H2524",
+          "def": "a father-in-law (as in affinity)"
+        },
+        {
+          "s": "H2",
+          "def": "father"
+        }
+      ]
+    },
+    {
+      "id": 1191,
+      "word": "Father of lights",
+      "etym": "",
+      "mibDef": "Source of profound understanding, illumination, wisdom. Through our",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1",
+          "def": "father, in a literal and immediate, or figurative and remote application"
+        },
+        {
+          "s": "G3962",
+          "def": "a \"father\" (literally or figuratively, near or more remote)"
+        },
+        {
+          "s": "H2859",
+          "def": "to give (a daughter) away in marriage; hence (generally) to contract affinity by marriage"
+        },
+        {
+          "s": "H2524",
+          "def": "a father-in-law (as in affinity)"
+        },
+        {
+          "s": "H2",
+          "def": "father"
+        }
+      ]
+    },
+    {
+      "id": 1192,
+      "word": "Father's house",
+      "etym": "",
+      "mibDef": "The Christ consciousness. It is the center of man's consciousness and is",
+      "mibMeta": "The word fear as used in I Sam. 12:24 implies reverence or respect for the law of God. \"All your heart\" represents the whole of the inner consciousness or the inner source of life, which should be dedicated to the Lord.",
+      "candidates": [
+        {
+          "s": "H1",
+          "def": "father, in a literal and immediate, or figurative and remote application"
+        },
+        {
+          "s": "G3962",
+          "def": "a \"father\" (literally or figuratively, near or more remote)"
+        },
+        {
+          "s": "H2",
+          "def": "father"
+        },
+        {
+          "s": "G3964",
+          "def": "a parricide"
+        }
+      ]
+    },
+    {
+      "id": 1193,
+      "word": "father). This comprehension of Truth",
+      "etym": "",
+      "mibDef": "meaning to lay hold of— husband of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1",
+          "def": "father, in a literal and immediate, or figurative and remote application"
+        },
+        {
+          "s": "G3962",
+          "def": "a \"father\" (literally or figuratively, near or more remote)"
+        },
+        {
+          "s": "H2859",
+          "def": "to give (a daughter) away in marriage; hence (generally) to contract affinity by marriage"
+        },
+        {
+          "s": "H2524",
+          "def": "a father-in-law (as in affinity)"
+        },
+        {
+          "s": "H2",
+          "def": "father"
+        }
+      ]
+    },
+    {
+      "id": 1194,
+      "word": "Father-Principle",
+      "etym": "",
+      "mibDef": "The exact and immutable Principle of Being, lying back of all existence as",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1195,
+      "word": "fear",
+      "etym": "",
+      "mibDef": "Fear is cast out by perfect love. To know divine love is to be selfless,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3372",
+          "def": "to fear; morally to revere; causatively to frighten"
+        },
+        {
+          "s": "H3374",
+          "def": "fear (also used as infinitive); morally, reverence"
+        },
+        {
+          "s": "H6343",
+          "def": "a (sudden) alarm (properly, the object feared, by implication, the feeling)"
+        },
+        {
+          "s": "H3373",
+          "def": "fearing; morally, reverent"
+        },
+        {
+          "s": "G5399",
+          "def": "to frighten, i.e., (passively) to be alarmed; by analogy, to be in awe of, i.e., revere"
+        }
+      ]
+    },
+    {
+      "id": 1196,
+      "word": "fear of God",
+      "etym": "",
+      "mibDef": "\"Only fear Jehovah, and serve him in truth with all your heart\" (I Sam. 12:24). In",
+      "mibMeta": "Appropriation in a large measure; that is, laying hold of divine potentialities. Several of the miracles of Jesus were in connection with a feast of some kind. Eating is the outer representation of an inward fact, that fact being spiritual. Jesus used the outer symbol to represent the spiritual real",
+      "candidates": [
+        {
+          "s": "H3372",
+          "def": "to fear; morally to revere; causatively to frighten"
+        },
+        {
+          "s": "H3374",
+          "def": "fear (also used as infinitive); morally, reverence"
+        },
+        {
+          "s": "H6343",
+          "def": "a (sudden) alarm (properly, the object feared, by implication, the feeling)"
+        },
+        {
+          "s": "H3373",
+          "def": "fearing; morally, reverent"
+        },
+        {
+          "s": "G5399",
+          "def": "to frighten, i.e., (passively) to be alarmed; by analogy, to be in awe of, i.e., revere"
+        }
+      ]
+    },
+    {
+      "id": 1197,
+      "word": "feast",
+      "etym": "",
+      "mibDef": "Conscious union between spirit or mind and body in the silent influx of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2282",
+          "def": "a festival, or a victim therefor"
+        },
+        {
+          "s": "H4960",
+          "def": "drink, by implication, drinking (the act); also (by implication) a banquet or (generally) feast"
+        },
+        {
+          "s": "G1859",
+          "def": "a festival"
+        },
+        {
+          "s": "H2287",
+          "def": "properly, to move in a circle, i.e., (specifically) to march in a sacred procession, to observe a festival; by implication, to be giddy"
+        },
+        {
+          "s": "G755",
+          "def": "director of the entertainment"
+        }
+      ]
+    },
+    {
+      "id": 1198,
+      "word": "feast",
+      "etym": "",
+      "mibDef": "The inflow of spiritual substance that we realize when we enter the silence.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2282",
+          "def": "a festival, or a victim therefor"
+        },
+        {
+          "s": "H4960",
+          "def": "drink, by implication, drinking (the act); also (by implication) a banquet or (generally) feast"
+        },
+        {
+          "s": "G1859",
+          "def": "a festival"
+        },
+        {
+          "s": "H2287",
+          "def": "properly, to move in a circle, i.e., (specifically) to march in a sacred procession, to observe a festival; by implication, to be giddy"
+        },
+        {
+          "s": "G755",
+          "def": "director of the entertainment"
+        }
+      ]
+    },
+    {
+      "id": 1199,
+      "word": "feeding the five thousand",
+      "etym": "",
+      "mibDef": "In the universal Mind is a substance that Jesus called the \"Father,\"",
+      "mibMeta": "In the universal mind principle there is a substance that Jesus called the \"Father,\" which is also the mother or seed of all visible substance. It is the only real substance because it is unchangeable, while visible substance is in constant transition. The origin of all substance is the idea of subs",
+      "candidates": [
+        {
+          "s": "H7462",
+          "def": "to tend a flock; i.e., pasture it; intransitively, to graze (literally or figuratively); generally to rule; by extension, to associate with (as a friend)"
+        },
+        {
+          "s": "G4165",
+          "def": "to tend as a shepherd of (figuratively, superviser)"
+        },
+        {
+          "s": "G1006",
+          "def": "to pasture; by extension to, fodder; reflexively, to graze"
+        }
+      ]
+    }
+  ]
+}

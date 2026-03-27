@@ -1,0 +1,1910 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "36 of 37",
+  "_entry_range": "ids 3500–3599",
+  "entries": [
+    {
+      "id": 3500,
+      "word": "V.",
+      "etym": "Heb .",
+      "mibDef": "whom Jehovah sets up; whom",
+      "mibMeta": "Spiritual faith demanding that all religious thoughts be true in observance of divine law. The individual who has faith is very courageous spiritually, but in outer consciousness such a one may be timid and shrinking when directed by the Spirit of the Lord to testify to Truth, as was Jeremiah (see J",
+      "candidates": []
+    },
+    {
+      "id": 3501,
+      "word": "Vaizatha (A. V.",
+      "etym": "Pers",
+      "mibDef": "white; whitened; white-robecl; born oflzecl;",
+      "mibMeta": "The seeming strength of adverse thoughts and appearances (strong as the wind). Adversity appears to be very blusterous and to have great power at times, but it has no foundation in Spirit. It passes away into nothingness when the light of Truth is turned upon it, when the one Power and the one Intel",
+      "candidates": []
+    },
+    {
+      "id": 3502,
+      "word": "Vaniah",
+      "etym": "Heb.",
+      "mibDef": "distress; oppression; weapon of Jehovah; Jah is praise.",
+      "mibMeta": "Vaniah bespeaks the demonstrating power of the word, or of thoughts and words, perhaps more in a negative than in a constructive way. The weapon of Jehovah is the divine thought or word in expression; \"for the word of God is living, and active, and sharper than any two-edged sword\" (Heb. 4:12). When",
+      "candidates": []
+    },
+    {
+      "id": 3503,
+      "word": "Vashti",
+      "etym": "Pers.",
+      "mibDef": "beauty; belle; beautiful; fair; lovely.",
+      "mibMeta": "The emotions of the human soul in their most pleasing aspect, or personal love, which is very beautiful and good to the outer consciousness (beauty, belle, beautiful, fair, lovely, the queen of King Ahasuerus of the Medes and Persians). The egotistic, personal, dictatorial will (King Ahasuerus) thin",
+      "candidates": [
+        {
+          "s": "H2060",
+          "def": "Vashti, the queen of Xerxes"
+        }
+      ]
+    },
+    {
+      "id": 3504,
+      "word": "vegetarian",
+      "etym": "",
+      "mibDef": "One who abstains from eating animal food or products. \"And God said, Behold, I",
+      "mibMeta": "\"The veil of the temple was rent in the midst\" (Luke 23:45) means that the last step in regeneration is the giving up of the thought of the corporeal existence of the body temple. Then the veil of sense thought that conceals the spiritual body is rent, and man comes into consciousness of the body im",
+      "candidates": []
+    },
+    {
+      "id": 3505,
+      "word": "verities",
+      "etym": "",
+      "mibDef": "The truths of Being, which are without beginning and without end; facts of",
+      "mibMeta": "The \"holy vessels\" (I Kings 8:4) are the thoughts that lie back of and form the various organs of the body. The vessels that had been taken from the Temple by Nebuchadnezzar and returned by Cyrus (Ezra 1:6-8) represent our capacity to comprehend and our ability to measure or appreciate life, love, a",
+      "candidates": []
+    },
+    {
+      "id": 3506,
+      "word": "vessels",
+      "etym": "",
+      "mibDef": "(I Kings 8:4). The thoughts that lie back of and form the various organs of the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3627",
+          "def": "something prepared, i.e., any apparatus (as an implement, utensil, dress, vessel or weapon)"
+        },
+        {
+          "s": "G4632",
+          "def": "a vessel, implement, equipment or apparatus (literally or figuratively (specially, a wife as contributing to the usefulness of the husband))"
+        },
+        {
+          "s": "H3984",
+          "def": "a utensil"
+        },
+        {
+          "s": "G30",
+          "def": "a receptacle"
+        }
+      ]
+    },
+    {
+      "id": 3507,
+      "word": "vesture of Jesus",
+      "etym": "",
+      "mibDef": "(John 19:23). Symbolizes the consciousness of unity, which is the inner",
+      "mibMeta": "The \"vesture\" or \"coat\" (tunic, margin) of Jesus (John 19:24) that was \"without seam, woven from the top throughout,\" symbolizes the consciousness of unity, which is the inner conviction of all things; without it even error could not retain a semblance of permanency. Hence in the final relinquishmen",
+      "candidates": [
+        {
+          "s": "G2441",
+          "def": "clothing"
+        },
+        {
+          "s": "G2440",
+          "def": "a dress (inner or outer)"
+        },
+        {
+          "s": "H3830",
+          "def": "a garment (literally or figuratively); by implication (euphemistically) a wife"
+        },
+        {
+          "s": "G4018",
+          "def": "something thrown around one, i.e., a mantle, veil"
+        }
+      ]
+    },
+    {
+      "id": 3508,
+      "word": "vibrations",
+      "etym": "",
+      "mibDef": "Energies sent out by the force and power of thought.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3509,
+      "word": "vine and branches",
+      "etym": "",
+      "mibDef": "The I AM within us is the vine, our faculties are the branches, and the perfect",
+      "mibMeta": "The I AM within us is the vine, our faculties are the branches, and the perfect body is the fruit (John 15). The life current as it comes from the Universal is one in vine, branches, and fruit, and it is on this free-flowing inner force that we fix our attention when we demonstrate the power of Spir",
+      "candidates": [
+        {
+          "s": "H1612",
+          "def": "a vine (as twining), especially the grape"
+        },
+        {
+          "s": "H5139",
+          "def": "separate, i.e., consecrated (as prince, a Nazirite); hence (figuratively from the latter) an unpruned vine (like an unshorn Nazirite)"
+        },
+        {
+          "s": "H3196",
+          "def": "wine (as fermented); by implication, intoxication"
+        },
+        {
+          "s": "H3755",
+          "def": "a vinedresser"
+        },
+        {
+          "s": "H2156",
+          "def": "a twig (as pruned)"
+        }
+      ]
+    },
+    {
+      "id": 3510,
+      "word": "vineyard",
+      "etym": "",
+      "mibDef": "The fruit of the vine is a symbol of life. Jesus said, \"I am the vine.\" The vineyard",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3754",
+          "def": "a garden or vineyard"
+        },
+        {
+          "s": "G290",
+          "def": "a vineyard"
+        },
+        {
+          "s": "H3657",
+          "def": "a plant (as set)"
+        }
+      ]
+    },
+    {
+      "id": 3511,
+      "word": "virgins",
+      "etym": "",
+      "mibDef": "The ten virgins represent the senses. The senses are five, in number but have a twofold",
+      "mibMeta": "The ten virgins (Matt. 25:113) represent the senses. They are five in number, but",
+      "candidates": [
+        {
+          "s": "H1330",
+          "def": "a virgin (from her privacy); sometimes (by continuation) a bride; also (figuratively) a city or state"
+        },
+        {
+          "s": "H5959",
+          "def": "a lass (as veiled or private)"
+        },
+        {
+          "s": "G3933",
+          "def": "a maiden; by implication, an unmarried daughter"
+        }
+      ]
+    },
+    {
+      "id": 3512,
+      "word": "vision",
+      "etym": "",
+      "mibDef": "Seeing God as the foundation of all, the sources of all, and the substance of all.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2377",
+          "def": "a sight (mentally), i.e., a dream, revelation, or oracle"
+        },
+        {
+          "s": "H4758",
+          "def": "a view (the act of seeing); also an appearance (the thing seen), whether (real) a shape (especially if handsome, comeliness; often plural the looks), or (mental) a vision"
+        },
+        {
+          "s": "G3705",
+          "def": "something gazed at, i.e., a spectacle (especially supernatural)"
+        },
+        {
+          "s": "H4236",
+          "def": "a vision"
+        },
+        {
+          "s": "H2384",
+          "def": "a revelation, expectation by dream"
+        }
+      ]
+    },
+    {
+      "id": 3513,
+      "word": "Vophsi",
+      "etym": "Heb.",
+      "mibDef": "my increase; added unto me; additional; riches; gain; profit; addition",
+      "mibMeta": "An acquisitive, accumulative thought belonging to the strength faculty in individual consciousness (my increase, added unto me, additional, riches, gain, profit; a prominent man of Naphtali, Naphtali referring to the faculty of strength in man). This thought can be carried to the extreme and all the",
+      "candidates": []
+    },
+    {
+      "id": 3514,
+      "word": "want",
+      "etym": "",
+      "mibDef": "there is a famine in their land. And so, at the heart of this Egypt, or seemingly darkened and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4270",
+          "def": "deficiency; hence, impoverishment"
+        },
+        {
+          "s": "H2640",
+          "def": "poverty"
+        },
+        {
+          "s": "H3772",
+          "def": "to cut (off, down or asunder); by implication, to destroy or consume; specifically, to covenant (i.e., make an alliance or bargain, originally by cutting flesh and passing between the pieces)"
+        },
+        {
+          "s": "H1097",
+          "def": "properly, failure, i.e., nothing or destruction; usually (with preposition) without, not yet, because not, as long as, etc"
+        },
+        {
+          "s": "H2637",
+          "def": "to lack; by implication, to fail, want, lessen"
+        }
+      ]
+    },
+    {
+      "id": 3515,
+      "word": "was written in three languages signifies that the Jesus Christ Truth",
+      "etym": "",
+      "mibDef": "life, perfection, immortality,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        },
+        {
+          "s": "G2258",
+          "def": "I (thou, etc.) was (wast or were)"
+        },
+        {
+          "s": "G1096",
+          "def": "to cause to be (\"gen\"-erate), i.e., (reflexively) to become (come into being), used with great latitude (literal, figurative, intensive, etc.)"
+        },
+        {
+          "s": "H935",
+          "def": "to go or come (in a wide variety of applications)"
+        },
+        {
+          "s": "H3808",
+          "def": "not (the simple or abs. negation); by implication, no; often used with other particles"
+        }
+      ]
+    },
+    {
+      "id": 3516,
+      "word": "watch",
+      "etym": "",
+      "mibDef": "Persistent looking toward the fulfillment of divine ideals.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1127",
+          "def": "to keep awake, i.e., watch (literally or figuratively)"
+        },
+        {
+          "s": "H8245",
+          "def": "to be alert, i.e., sleepless; hence to be on the lookout (whether for good or ill)"
+        },
+        {
+          "s": "H6822",
+          "def": "properly, to lean forward, i.e., to peer into the distance; by implication, to observe, await"
+        },
+        {
+          "s": "H8104",
+          "def": "properly, to hedge about (as with thorns), i.e., guard; generally, to protect, attend to, etc"
+        },
+        {
+          "s": "H4931",
+          "def": "watch, i.e., the act (custody), or (concretely) the sentry, the post; objectively preservation, or (concretely) safe; figuratively observance, i.e., (abstractly) duty or (objectively) a usage or party"
+        }
+      ]
+    },
+    {
+      "id": 3517,
+      "word": "watchman",
+      "etym": "",
+      "mibDef": "A spiritually developed person who sees within and without, and with the word of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H6822",
+          "def": "properly, to lean forward, i.e., to peer into the distance; by implication, to observe, await"
+        },
+        {
+          "s": "H8104",
+          "def": "properly, to hedge about (as with thorns), i.e., guard; generally, to protect, attend to, etc"
+        }
+      ]
+    },
+    {
+      "id": 3518,
+      "word": "water",
+      "etym": "",
+      "mibDef": "In its different aspects water represents weakness and negativeness, cleansing, mental",
+      "mibMeta": "Water in its different aspects represents weakness and negativeness, cleansing, mental potentiality, and in some cases life, or vital energy. The waters of Genesis 1:6, 7 represent unexpressed possibilities in mind. There must be a firm starting point established. This point or \"firmament\" is faith ",
+      "candidates": [
+        {
+          "s": "H4325",
+          "def": "water; figuratively, juice; by euphemism, urine, semen"
+        },
+        {
+          "s": "G5204",
+          "def": "water (as if rainy) literally or figuratively"
+        },
+        {
+          "s": "H8248",
+          "def": "to quaff, i.e., (causatively) to irrigate or furnish a potion to"
+        },
+        {
+          "s": "H4529",
+          "def": "to dissolve"
+        },
+        {
+          "s": "H2222",
+          "def": "a pouring rain"
+        }
+      ]
+    },
+    {
+      "id": 3519,
+      "word": "water",
+      "etym": "",
+      "mibDef": "In every mental proposition we have an above and a",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4325",
+          "def": "water; figuratively, juice; by euphemism, urine, semen"
+        },
+        {
+          "s": "G5204",
+          "def": "water (as if rainy) literally or figuratively"
+        },
+        {
+          "s": "H8248",
+          "def": "to quaff, i.e., (causatively) to irrigate or furnish a potion to"
+        },
+        {
+          "s": "H4529",
+          "def": "to dissolve"
+        },
+        {
+          "s": "H2222",
+          "def": "a pouring rain"
+        }
+      ]
+    },
+    {
+      "id": 3520,
+      "word": "water",
+      "etym": "",
+      "mibDef": "Water (the sea) represents mental potentiality. The race thoughts have formed a",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4325",
+          "def": "water; figuratively, juice; by euphemism, urine, semen"
+        },
+        {
+          "s": "G5204",
+          "def": "water (as if rainy) literally or figuratively"
+        },
+        {
+          "s": "H8248",
+          "def": "to quaff, i.e., (causatively) to irrigate or furnish a potion to"
+        },
+        {
+          "s": "H4529",
+          "def": "to dissolve"
+        },
+        {
+          "s": "H2222",
+          "def": "a pouring rain"
+        }
+      ]
+    },
+    {
+      "id": 3521,
+      "word": "waterpots",
+      "etym": "",
+      "mibDef": "The \"six waterpots of stone\" (John 2:6,7) represent the six nerve centers in the body,",
+      "mibMeta": "The \"six waterpots of stone\" (John 2:6, 7) are the six nerve centers in the body, which are filled with the water of life, or nerve fluid. The symbol represents the abundance of vital energy that may be generated from a union of I AM spiritual thought with the water of life, or nerve fluid, in the v",
+      "candidates": [
+        {
+          "s": "G5201",
+          "def": "a water-jar, i.e., receptacle for family supply"
+        }
+      ]
+    },
+    {
+      "id": 3522,
+      "word": "waters the growing Truth in consciousness",
+      "etym": "",
+      "mibDef": "a true, practical",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4325",
+          "def": "water; figuratively, juice; by euphemism, urine, semen"
+        },
+        {
+          "s": "G5204",
+          "def": "water (as if rainy) literally or figuratively"
+        },
+        {
+          "s": "H6440",
+          "def": "the face (as the part that turns); used in a great variety of applications (literally and figuratively); also (with prepositional prefix) as a preposition (before, etc.)"
+        },
+        {
+          "s": "H5140",
+          "def": "to drip, or shed by trickling"
+        }
+      ]
+    },
+    {
+      "id": 3523,
+      "word": "way",
+      "etym": "",
+      "mibDef": "The I AM in man, the open door to the kingdom of God. (see Christ and Jesus)",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1870",
+          "def": "a road (as trodden); figuratively, a course of life or mode of action, often adverb"
+        },
+        {
+          "s": "G3598",
+          "def": "a road; by implication, a progress (the route, act or distance); figuratively, a mode or means"
+        },
+        {
+          "s": "H734",
+          "def": "a well-trodden road (literally or figuratively); also a caravan"
+        },
+        {
+          "s": "G5217",
+          "def": "to lead (oneself) under, i.e., withdraw or retire (as if sinking out of sight), literally or figuratively"
+        },
+        {
+          "s": "G4311",
+          "def": "to send forward, i.e., escort or aid in travel"
+        }
+      ]
+    },
+    {
+      "id": 3524,
+      "word": "way to Jerusalem",
+      "etym": "",
+      "mibDef": "with the exception of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1870",
+          "def": "a road (as trodden); figuratively, a course of life or mode of action, often adverb"
+        },
+        {
+          "s": "G3598",
+          "def": "a road; by implication, a progress (the route, act or distance); figuratively, a mode or means"
+        },
+        {
+          "s": "H734",
+          "def": "a well-trodden road (literally or figuratively); also a caravan"
+        },
+        {
+          "s": "G5217",
+          "def": "to lead (oneself) under, i.e., withdraw or retire (as if sinking out of sight), literally or figuratively"
+        },
+        {
+          "s": "G4311",
+          "def": "to send forward, i.e., escort or aid in travel"
+        }
+      ]
+    },
+    {
+      "id": 3525,
+      "word": "we might say",
+      "etym": "",
+      "mibDef": "the spiritual or God wisdom and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2249",
+          "def": "we (only used when emphatic)"
+        },
+        {
+          "s": "H587",
+          "def": "we"
+        },
+        {
+          "s": "G2192",
+          "def": "to hold (used in very various applications, literally or figuratively, direct or remote; such as possession; ability, contiuity, relation, or condition)"
+        },
+        {
+          "s": "G1492",
+          "def": "used only in certain past tenses, the others being borrowed from the equivalent G3700 and G3708; properly, to see (literally or figuratively); by implication, (in the perfect tense only) to know"
+        },
+        {
+          "s": "H3808",
+          "def": "not (the simple or abs. negation); by implication, no; often used with other particles"
+        }
+      ]
+    },
+    {
+      "id": 3526,
+      "word": "wealth",
+      "etym": "",
+      "mibDef": "True wealth is a state of consciousness, the consciousness of God as man's supply.",
+      "mibMeta": "Garments represent the outer clothing of the mind. The \"wedding-garment\" (Matt. 22:1 1) is symbolical of a state of consciousness in which there is special preparation for the union unique; in other words, our external thinking must be in harmony with the inner revelation before we can make complete",
+      "candidates": [
+        {
+          "s": "H1952",
+          "def": "wealth; by implication, enough"
+        },
+        {
+          "s": "H2428",
+          "def": "probably a force, whether of men, means or other resources; an army, wealth, virtue, valor, strength"
+        },
+        {
+          "s": "H2896",
+          "def": "good (as an adjective) in the widest sense; used likewise as a noun, both in the masculine and the feminine, the singular and the plural (good, a good or good thing, a good man or woman; the good, goods or good things, good men or women), also as an adverb (well)"
+        }
+      ]
+    },
+    {
+      "id": 3527,
+      "word": "well-beloved",
+      "etym": "",
+      "mibDef": "The Christ, the ideal man.",
+      "mibMeta": "The wells that were dug by Isaac's herdsmen (Gen. 26:15-25) are inward sources of life that are opened up by joy (Isaac means laughter). The well of living water (see John 4:10-14) in man is the fount of inspiration within his",
+      "candidates": [
+        {
+          "s": "H3039",
+          "def": "loved"
+        },
+        {
+          "s": "G27",
+          "def": "beloved"
+        },
+        {
+          "s": "H1730",
+          "def": "(figuratively) to love; by implication, a love-token, lover, friend; specifically an uncle"
+        }
+      ]
+    },
+    {
+      "id": 3528,
+      "word": "were in possession of the priesthood",
+      "etym": "",
+      "mibDef": "the",
+      "mibMeta": "An inner assurance of sonship, of oneness with God and dependence upon His word (Jah says, word of Jehovah), which stays with one when one seems incapable of outer spiritual expression for the time being; it is the light and assurance of the inner Word with its creative power to bring forth fruit in",
+      "candidates": [
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        },
+        {
+          "s": "G2258",
+          "def": "I (thou, etc.) was (wast or were)"
+        },
+        {
+          "s": "H6485",
+          "def": "to visit (with friendly or hostile intent); by analogy, to oversee, muster, charge, care for, miss, deposit, etc"
+        },
+        {
+          "s": "G1096",
+          "def": "to cause to be (\"gen\"-erate), i.e., (reflexively) to become (come into being), used with great latitude (literal, figurative, intensive, etc.)"
+        },
+        {
+          "s": "H3808",
+          "def": "not (the simple or abs. negation); by implication, no; often used with other particles"
+        }
+      ]
+    },
+    {
+      "id": 3529,
+      "word": "which is of God",
+      "etym": "",
+      "mibDef": "Spirit (eternal, everlasting, fully developed, a young man, puberty ). The natural man",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H834",
+          "def": "who, which, what, that; also (as an adverb and a conjunction) when, where, how, because, in order that, etc"
+        },
+        {
+          "s": "G3739",
+          "def": "the relatively (sometimes demonstrative) pronoun, who, which, what, that"
+        },
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "G3748",
+          "def": "which some, i.e., any that; also (definite) which same"
+        },
+        {
+          "s": "H1931",
+          "def": "he (she or it); only expressed when emphatic or without a verb; also (intensively) self, or (especially with the article) the same; sometimes (as demonstrative) this or that; occasionally (instead of copula) as or are"
+        }
+      ]
+    },
+    {
+      "id": 3530,
+      "word": "which is represented by Elead",
+      "etym": "",
+      "mibDef": "that is, it sinks back into the subconscious mind until further",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H834",
+          "def": "who, which, what, that; also (as an adverb and a conjunction) when, where, how, because, in order that, etc"
+        },
+        {
+          "s": "G3739",
+          "def": "the relatively (sometimes demonstrative) pronoun, who, which, what, that"
+        },
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "G3748",
+          "def": "which some, i.e., any that; also (definite) which same"
+        },
+        {
+          "s": "H1931",
+          "def": "he (she or it); only expressed when emphatic or without a verb; also (intensively) self, or (especially with the article) the same; sometimes (as demonstrative) this or that; occasionally (instead of copula) as or are"
+        }
+      ]
+    },
+    {
+      "id": 3531,
+      "word": "whole man",
+      "etym": "",
+      "mibDef": "spirit, soul, and body.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G3650",
+          "def": "\"whole\" or \"all\", i.e., complete (in extent, amount, time or degree), especially (neuter) as noun or adverb"
+        },
+        {
+          "s": "G3956",
+          "def": "all, any, every, the whole"
+        },
+        {
+          "s": "H3606",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "H3117",
+          "def": "a day (as the warm hours), whether literal (from sunrise to sunset, or from one sunset to the next), or figurative (a space of time defined by an associated term), (often used adverb)"
+        }
+      ]
+    },
+    {
+      "id": 3532,
+      "word": "whole man",
+      "etym": "",
+      "mibDef": "spirit, soul, and body. It all takes place right here on earth. Then that which takes place in us",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G3650",
+          "def": "\"whole\" or \"all\", i.e., complete (in extent, amount, time or degree), especially (neuter) as noun or adverb"
+        },
+        {
+          "s": "G3956",
+          "def": "all, any, every, the whole"
+        },
+        {
+          "s": "H3606",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "H3117",
+          "def": "a day (as the warm hours), whether literal (from sunrise to sunset, or from one sunset to the next), or figurative (a space of time defined by an associated term), (often used adverb)"
+        }
+      ]
+    },
+    {
+      "id": 3533,
+      "word": "whole of man",
+      "etym": "",
+      "mibDef": "spirit, soul, and body. To be born again is to be made a \"new creature,\" having \"this",
+      "mibMeta": "The \"new man\" is born of a divine idea through the overshadowing of the Holy Spirit. This idea is that man is a spiritual being. He is a \"holy thing,\" as Mary (the soul) was informed.",
+      "candidates": [
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G3650",
+          "def": "\"whole\" or \"all\", i.e., complete (in extent, amount, time or degree), especially (neuter) as noun or adverb"
+        },
+        {
+          "s": "G3956",
+          "def": "all, any, every, the whole"
+        },
+        {
+          "s": "H3606",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "H3117",
+          "def": "a day (as the warm hours), whether literal (from sunrise to sunset, or from one sunset to the next), or figurative (a space of time defined by an associated term), (often used adverb)"
+        }
+      ]
+    },
+    {
+      "id": 3534,
+      "word": "wholeness and perfection; if it did",
+      "etym": "",
+      "mibDef": "made union with the",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3535,
+      "word": "widow of Zarephath",
+      "etym": "",
+      "mibDef": "The widow of Zarephath, to whom Elijah was sent for sustenance,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H490",
+          "def": "a widow; also a desolate place"
+        },
+        {
+          "s": "G5503",
+          "def": "a widow (as lacking a husband), literally or figuratively"
+        }
+      ]
+    },
+    {
+      "id": 3536,
+      "word": "wife",
+      "etym": "",
+      "mibDef": "Represents a unification of the I AM with the affections.",
+      "mibMeta": "The wilderness (Josh. 1:4) represents in individual consciousness the multitude of undisciplined and uncultivated thoughts.",
+      "candidates": [
+        {
+          "s": "H802",
+          "def": "a woman"
+        },
+        {
+          "s": "G1135",
+          "def": "a woman; specially, a wife"
+        },
+        {
+          "s": "H2994",
+          "def": "a sister-in-law"
+        }
+      ]
+    },
+    {
+      "id": 3537,
+      "word": "will",
+      "etym": "",
+      "mibDef": "have their roots in God. All the gifts of Spirit are to",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3808",
+          "def": "not (the simple or abs. negation); by implication, no; often used with other particles"
+        },
+        {
+          "s": "H5414",
+          "def": "to give, used with greatest latitude of application (put, make, etc.)"
+        },
+        {
+          "s": "H6213",
+          "def": "to do or make, in the broadest sense and widest application"
+        },
+        {
+          "s": "H935",
+          "def": "to go or come (in a wide variety of applications)"
+        },
+        {
+          "s": "H7725",
+          "def": "to turn back (hence, away) transitively or intransitively, literally or figuratively (not necessarily with the idea of return to the starting point); generally to retreat; often adverbial, again"
+        }
+      ]
+    },
+    {
+      "id": 3538,
+      "word": "will",
+      "etym": "",
+      "mibDef": "The will is the executive faculty of the mind, the determining factor in man. What man",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3808",
+          "def": "not (the simple or abs. negation); by implication, no; often used with other particles"
+        },
+        {
+          "s": "H5414",
+          "def": "to give, used with greatest latitude of application (put, make, etc.)"
+        },
+        {
+          "s": "H6213",
+          "def": "to do or make, in the broadest sense and widest application"
+        },
+        {
+          "s": "H935",
+          "def": "to go or come (in a wide variety of applications)"
+        },
+        {
+          "s": "H7725",
+          "def": "to turn back (hence, away) transitively or intransitively, literally or figuratively (not necessarily with the idea of return to the starting point); generally to retreat; often adverbial, again"
+        }
+      ]
+    },
+    {
+      "id": 3539,
+      "word": "will",
+      "etym": "",
+      "mibDef": "(see God, will of)",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3808",
+          "def": "not (the simple or abs. negation); by implication, no; often used with other particles"
+        },
+        {
+          "s": "H5414",
+          "def": "to give, used with greatest latitude of application (put, make, etc.)"
+        },
+        {
+          "s": "H6213",
+          "def": "to do or make, in the broadest sense and widest application"
+        },
+        {
+          "s": "H935",
+          "def": "to go or come (in a wide variety of applications)"
+        },
+        {
+          "s": "H7725",
+          "def": "to turn back (hence, away) transitively or intransitively, literally or figuratively (not necessarily with the idea of return to the starting point); generally to retreat; often adverbial, again"
+        }
+      ]
+    },
+    {
+      "id": 3540,
+      "word": "will",
+      "etym": "",
+      "mibDef": "The adversary in sense-conscious will. He usurps power and considers himself",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3808",
+          "def": "not (the simple or abs. negation); by implication, no; often used with other particles"
+        },
+        {
+          "s": "H5414",
+          "def": "to give, used with greatest latitude of application (put, make, etc.)"
+        },
+        {
+          "s": "H6213",
+          "def": "to do or make, in the broadest sense and widest application"
+        },
+        {
+          "s": "H935",
+          "def": "to go or come (in a wide variety of applications)"
+        },
+        {
+          "s": "H7725",
+          "def": "to turn back (hence, away) transitively or intransitively, literally or figuratively (not necessarily with the idea of return to the starting point); generally to retreat; often adverbial, again"
+        }
+      ]
+    },
+    {
+      "id": 3541,
+      "word": "will and desire",
+      "etym": "",
+      "mibDef": "Desire is a reaching out of the mind for satisfaction. Will is the controlling,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3808",
+          "def": "not (the simple or abs. negation); by implication, no; often used with other particles"
+        },
+        {
+          "s": "H5414",
+          "def": "to give, used with greatest latitude of application (put, make, etc.)"
+        },
+        {
+          "s": "H6213",
+          "def": "to do or make, in the broadest sense and widest application"
+        },
+        {
+          "s": "H935",
+          "def": "to go or come (in a wide variety of applications)"
+        },
+        {
+          "s": "H7725",
+          "def": "to turn back (hence, away) transitively or intransitively, literally or figuratively (not necessarily with the idea of return to the starting point); generally to retreat; often adverbial, again"
+        }
+      ]
+    },
+    {
+      "id": 3542,
+      "word": "wind",
+      "etym": "",
+      "mibDef": "Life currents that come from within and surround the whole being; the executive",
+      "mibMeta": "The \"wine\" (John 2:1-11) symbolizes the vitality that forms the connecting link between soul and body. It is an all-pervading free essence that is generated from the nerve substance, or water of life. This wine of life or free vitality of the organism must be present in large quantities before a ble",
+      "candidates": [
+        {
+          "s": "H7307",
+          "def": "wind; by resemblance breath, i.e., a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)"
+        },
+        {
+          "s": "G417",
+          "def": "wind; (plural) by implication, (the four) quarters (of the earth)"
+        },
+        {
+          "s": "H6921",
+          "def": "the fore or front part; hence (by orientation) the East (often adverbially, eastward, for brevity the east wind)"
+        },
+        {
+          "s": "G3558",
+          "def": "the south(-west) wind; by extension, the southern quarter itself"
+        },
+        {
+          "s": "H7308",
+          "def": "mind, spirit"
+        }
+      ]
+    },
+    {
+      "id": 3543,
+      "word": "wisdom",
+      "etym": "",
+      "mibDef": "Wisdom is the ability to use knowledge. Worldly wisdom is knowledge of",
+      "mibMeta": "The stored-up resources of the soul, which rise to the surface when its depths are stirred by a great spiritual revelation. They are the inner realms of consciousness that, like books of life, have kept the records of past lives and held them in reserve for the great day when the soul would receive ",
+      "candidates": [
+        {
+          "s": "H2451",
+          "def": "wisdom (in a good sense)"
+        },
+        {
+          "s": "G4678",
+          "def": "wisdom (higher or lower, worldly or spiritual)"
+        },
+        {
+          "s": "H2452",
+          "def": "wisdom"
+        },
+        {
+          "s": "H8454",
+          "def": "support or (by implication) ability, i.e., (direct) help, (in purpose) an undertaking, (intellectual) understanding"
+        },
+        {
+          "s": "H2454",
+          "def": "wisdom"
+        }
+      ]
+    },
+    {
+      "id": 3544,
+      "word": "wishing",
+      "etym": "",
+      "mibDef": "A wish is a superficial expression of desire, and is only fleeting. The patience,",
+      "mibMeta": "While we believe that there is an outer interpretation to all prophecy, we know that there is also an inner interpretation, and since this is the more necessary in our overcoming we always seek to give the Scriptures an individual meaning or explanation. According to the 1st chapter of Revelation th",
+      "candidates": [
+        {
+          "s": "H7592",
+          "def": "to inquire; by implication, to request; by extension, to demand"
+        }
+      ]
+    },
+    {
+      "id": 3545,
+      "word": "with the Spirit of truth",
+      "etym": "",
+      "mibDef": "that",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5973",
+          "def": "adverb or preposition, with (i.e., in conjunction with), in varied applications; specifically, equally with; often with prepositional prefix (and then usually unrepresented in English)"
+        },
+        {
+          "s": "H854",
+          "def": "properly, nearness (used only as a preposition or an adverb), near; hence, generally, with, by, at, among, etc"
+        },
+        {
+          "s": "G3326",
+          "def": "properly, denoting accompaniment; \"amid\" (local or causal); modified variously according to the case (genitive association, or accusative succession) with which it is joined; occupying an intermediate position between G0575 or G1537 and G1519 or G4314; less intimate than G1722 and less close than G4862)"
+        },
+        {
+          "s": "G1722",
+          "def": "\"in,\" at, (up-)on, by, etc"
+        },
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        }
+      ]
+    },
+    {
+      "id": 3546,
+      "word": "within",
+      "etym": "",
+      "mibDef": "by meditation, by going into the silence, and by speaking the word.",
+      "mibMeta": "Dark, ignorant, material thoughts and beliefs pertaining to the body, existing in the subconscious mind of man. These thoughts help to keep the body manifesting materially when it should be immortal and abiding (dwelling in booths, coverings, an African people who were connected with the Egyptians).",
+      "candidates": [
+        {
+          "s": "H7130",
+          "def": "properly, the nearest part, i.e., the center, whether literal, figurative or adverbial (especially with preposition)"
+        },
+        {
+          "s": "H8432",
+          "def": "a bisection, i.e., (by implication) the center"
+        },
+        {
+          "s": "H1004",
+          "def": "a house (in the greatest variation of applications, especially family, etc.)"
+        },
+        {
+          "s": "H8179",
+          "def": "an opening, i.e., door or gate"
+        },
+        {
+          "s": "G1722",
+          "def": "\"in,\" at, (up-)on, by, etc"
+        }
+      ]
+    },
+    {
+      "id": 3547,
+      "word": "wolves",
+      "etym": "",
+      "mibDef": "Devouring thoughts. They represent fear thoughts, thoughts of lack, and all thoughts",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2061",
+          "def": "a wolf"
+        },
+        {
+          "s": "G3074",
+          "def": "a wolf"
+        }
+      ]
+    },
+    {
+      "id": 3548,
+      "word": "woman",
+      "etym": "",
+      "mibDef": "Signifies the intuitive perception of Truth reflected into the intellect from the",
+      "mibMeta": "Besides the interpretation given under SYROPHOENICIAN (which see), the Greek woman of Tyre and Sidon may also be said to represent the unspiritualized love that is natural to the body. Her daughter is physical sensation, which has been sensualized by impure thought. Whenever the illumined I AM (Jesu",
+      "candidates": [
+        {
+          "s": "H802",
+          "def": "a woman"
+        },
+        {
+          "s": "G1135",
+          "def": "a woman; specially, a wife"
+        },
+        {
+          "s": "H3205",
+          "def": "to bear young; causatively, to beget; medically, to act as midwife; specifically, to show lineage"
+        },
+        {
+          "s": "G846",
+          "def": "the reflexive pronoun self, used (alone or in the comparative G1438) of the third person, and (with the proper personal pronoun) of the other persons"
+        },
+        {
+          "s": "H2030",
+          "def": "pregnant"
+        }
+      ]
+    },
+    {
+      "id": 3549,
+      "word": "Word",
+      "etym": "",
+      "mibDef": "The agency by which God reveals Himself in some measure to all men, but to greater",
+      "mibMeta": "John gives us the following concerning the Word of God: \"In the beginning was the Word, and the Word was with God, and the Word was God.\" The Word of God is the divine Logos, God in His capacity as creative power, and includes all the potentialities of Being. It is the idea of God, the image and lik",
+      "candidates": [
+        {
+          "s": "H1697",
+          "def": "a word; by implication, a matter (as spoken of) or thing; adverbially, a cause"
+        },
+        {
+          "s": "G3056",
+          "def": "something said (including the thought); by implication, a topic (subject of discourse), also reasoning (the mental faculty) or motive; by extension, a computation; specially, (with the article in John) the Divine Expression (i.e., Christ)"
+        },
+        {
+          "s": "G4487",
+          "def": "an utterance (individually, collectively or specially),; by implication, a matter or topic (especially of narration, command or dispute); with a negative naught whatever"
+        },
+        {
+          "s": "H6310",
+          "def": "the mouth (as the means of blowing), whether literal or figurative (particularly speech); specifically edge, portion or side; adverbially (with preposition) according to"
+        },
+        {
+          "s": "H565",
+          "def": "an utterance"
+        }
+      ]
+    },
+    {
+      "id": 3550,
+      "word": "Word",
+      "etym": "",
+      "mibDef": "The creative idea in Divine Mind, which may be expressed by man when he has",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1697",
+          "def": "a word; by implication, a matter (as spoken of) or thing; adverbially, a cause"
+        },
+        {
+          "s": "G3056",
+          "def": "something said (including the thought); by implication, a topic (subject of discourse), also reasoning (the mental faculty) or motive; by extension, a computation; specially, (with the article in John) the Divine Expression (i.e., Christ)"
+        },
+        {
+          "s": "G4487",
+          "def": "an utterance (individually, collectively or specially),; by implication, a matter or topic (especially of narration, command or dispute); with a negative naught whatever"
+        },
+        {
+          "s": "H6310",
+          "def": "the mouth (as the means of blowing), whether literal or figurative (particularly speech); specifically edge, portion or side; adverbially (with preposition) according to"
+        },
+        {
+          "s": "H565",
+          "def": "an utterance"
+        }
+      ]
+    },
+    {
+      "id": 3551,
+      "word": "word",
+      "etym": "",
+      "mibDef": "As man is quickened with spiritual faith his word is endowed with power. It",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1697",
+          "def": "a word; by implication, a matter (as spoken of) or thing; adverbially, a cause"
+        },
+        {
+          "s": "G3056",
+          "def": "something said (including the thought); by implication, a topic (subject of discourse), also reasoning (the mental faculty) or motive; by extension, a computation; specially, (with the article in John) the Divine Expression (i.e., Christ)"
+        },
+        {
+          "s": "G4487",
+          "def": "an utterance (individually, collectively or specially),; by implication, a matter or topic (especially of narration, command or dispute); with a negative naught whatever"
+        },
+        {
+          "s": "H6310",
+          "def": "the mouth (as the means of blowing), whether literal or figurative (particularly speech); specifically edge, portion or side; adverbially (with preposition) according to"
+        },
+        {
+          "s": "H565",
+          "def": "an utterance"
+        }
+      ]
+    },
+    {
+      "id": 3552,
+      "word": "word",
+      "etym": "",
+      "mibDef": "A word of authoritative command; a form of vigorous denial that reaches the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1697",
+          "def": "a word; by implication, a matter (as spoken of) or thing; adverbially, a cause"
+        },
+        {
+          "s": "G3056",
+          "def": "something said (including the thought); by implication, a topic (subject of discourse), also reasoning (the mental faculty) or motive; by extension, a computation; specially, (with the article in John) the Divine Expression (i.e., Christ)"
+        },
+        {
+          "s": "G4487",
+          "def": "an utterance (individually, collectively or specially),; by implication, a matter or topic (especially of narration, command or dispute); with a negative naught whatever"
+        },
+        {
+          "s": "H6310",
+          "def": "the mouth (as the means of blowing), whether literal or figurative (particularly speech); specifically edge, portion or side; adverbially (with preposition) according to"
+        },
+        {
+          "s": "H565",
+          "def": "an utterance"
+        }
+      ]
+    },
+    {
+      "id": 3553,
+      "word": "work",
+      "etym": "",
+      "mibDef": "The true object of all work is to express the powers of one's being and to benefit",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4639",
+          "def": "an action (good or bad); generally, a transaction; abstractly, activity; by implication, a product (specifically, a poem) or (generally) property"
+        },
+        {
+          "s": "H4399",
+          "def": "properly, deputyship, i.e., ministry; generally, employment (never servile) or work (abstractly or concretely); also property (as the result of labor)"
+        },
+        {
+          "s": "G2041",
+          "def": "toil (as an effort or occupation); by implication, an act"
+        },
+        {
+          "s": "H6213",
+          "def": "to do or make, in the broadest sense and widest application"
+        },
+        {
+          "s": "H6467",
+          "def": "an act or work (concretely)"
+        }
+      ]
+    },
+    {
+      "id": 3554,
+      "word": "work that it is his to do. He is in a period of waiting",
+      "etym": "",
+      "mibDef": "a \"sojourner\" in a strange land.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4639",
+          "def": "an action (good or bad); generally, a transaction; abstractly, activity; by implication, a product (specifically, a poem) or (generally) property"
+        },
+        {
+          "s": "H4399",
+          "def": "properly, deputyship, i.e., ministry; generally, employment (never servile) or work (abstractly or concretely); also property (as the result of labor)"
+        },
+        {
+          "s": "G2041",
+          "def": "toil (as an effort or occupation); by implication, an act"
+        },
+        {
+          "s": "H6213",
+          "def": "to do or make, in the broadest sense and widest application"
+        },
+        {
+          "s": "H6467",
+          "def": "an act or work (concretely)"
+        }
+      ]
+    },
+    {
+      "id": 3555,
+      "word": "working",
+      "etym": "",
+      "mibDef": "over which Spirit is brooding, as it were that Truth may blossom forth and come to fruition in",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1753",
+          "def": "efficiency (\"energy\")"
+        },
+        {
+          "s": "G2038",
+          "def": "to toil (as a task, occupation, etc.), (by implication) effect, be engaged in or with, etc"
+        },
+        {
+          "s": "G2716",
+          "def": "to work fully, i.e., accomplish; by implication, to finish, fashion"
+        },
+        {
+          "s": "G4160",
+          "def": "to make or do (in a very wide application, more or less direct)"
+        },
+        {
+          "s": "H6213",
+          "def": "to do or make, in the broadest sense and widest application"
+        }
+      ]
+    },
+    {
+      "id": 3556,
+      "word": "world",
+      "etym": "",
+      "mibDef": "in the unformed ideas of the one",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2889",
+          "def": "orderly arrangement, i.e., decoration; by implication, the world (including its inhabitants, literally or figuratively (morally))"
+        },
+        {
+          "s": "H8398",
+          "def": "the earth (as moist and therefore inhabited); by extension, the globe; by implication, its inhabitants; specifically, a particular land, as Babylonia, Palestine"
+        },
+        {
+          "s": "G165",
+          "def": "properly, an age; by extension, perpetuity (also past); by implication, the world; specially (Jewish) a Messianic period (present or future)"
+        },
+        {
+          "s": "G3625",
+          "def": "land, i.e., the (terrene part of the) globe; specially, the Roman empire"
+        },
+        {
+          "s": "H5769",
+          "def": "properly, concealed, i.e., the vanishing point; generally, time out of mind (past or future), i.e., (practically) eternity; frequentatively, adverbial (especially with prepositional prefix) always"
+        }
+      ]
+    },
+    {
+      "id": 3557,
+      "word": "world",
+      "etym": "",
+      "mibDef": "A state of consciousness formed through the belief in the reality of things external. It",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2889",
+          "def": "orderly arrangement, i.e., decoration; by implication, the world (including its inhabitants, literally or figuratively (morally))"
+        },
+        {
+          "s": "H8398",
+          "def": "the earth (as moist and therefore inhabited); by extension, the globe; by implication, its inhabitants; specifically, a particular land, as Babylonia, Palestine"
+        },
+        {
+          "s": "G165",
+          "def": "properly, an age; by extension, perpetuity (also past); by implication, the world; specially (Jewish) a Messianic period (present or future)"
+        },
+        {
+          "s": "G3625",
+          "def": "land, i.e., the (terrene part of the) globe; specially, the Roman empire"
+        },
+        {
+          "s": "H5769",
+          "def": "properly, concealed, i.e., the vanishing point; generally, time out of mind (past or future), i.e., (practically) eternity; frequentatively, adverbial (especially with prepositional prefix) always"
+        }
+      ]
+    },
+    {
+      "id": 3558,
+      "word": "world",
+      "etym": "",
+      "mibDef": "\"The end of the age,\" as Ferrar Fenton puts it, is the point in consciousness where",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2889",
+          "def": "orderly arrangement, i.e., decoration; by implication, the world (including its inhabitants, literally or figuratively (morally))"
+        },
+        {
+          "s": "H8398",
+          "def": "the earth (as moist and therefore inhabited); by extension, the globe; by implication, its inhabitants; specifically, a particular land, as Babylonia, Palestine"
+        },
+        {
+          "s": "G165",
+          "def": "properly, an age; by extension, perpetuity (also past); by implication, the world; specially (Jewish) a Messianic period (present or future)"
+        },
+        {
+          "s": "G3625",
+          "def": "land, i.e., the (terrene part of the) globe; specially, the Roman empire"
+        },
+        {
+          "s": "H5769",
+          "def": "properly, concealed, i.e., the vanishing point; generally, time out of mind (past or future), i.e., (practically) eternity; frequentatively, adverbial (especially with prepositional prefix) always"
+        }
+      ]
+    },
+    {
+      "id": 3559,
+      "word": "worldliness",
+      "etym": "",
+      "mibDef": "is the great adultery, or \"whoredom\" of professed followers of God. Diblaim (double cakes,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3560,
+      "word": "worship",
+      "etym": "",
+      "mibDef": "When one worships he bestows his love on, or identifies himself with, the things of",
+      "mibMeta": "Some Bible authorities claim that the \"wrath of God,\" or of the Lord (Rom. 1:18), might with equal propriety be translated the \"blessings\" of the Lord. We know that after the destruction of limited and inferior thoughts and forms of life, other and higher thoughts and forms take their place, and the",
+      "candidates": [
+        {
+          "s": "H7812",
+          "def": "to depress, i.e., prostrate (especially reflexive, in homage to royalty or God)"
+        },
+        {
+          "s": "G4352",
+          "def": "to fawn or crouch to, i.e., (literally or figuratively) prostrate oneself in homage (do reverence to, adore)"
+        },
+        {
+          "s": "H5457",
+          "def": "to worship"
+        },
+        {
+          "s": "G4576",
+          "def": "to revere, i.e., adore"
+        },
+        {
+          "s": "G3000",
+          "def": "to minister (to God), i.e., render religious homage"
+        }
+      ]
+    },
+    {
+      "id": 3561,
+      "word": "Yes and No",
+      "etym": "",
+      "mibDef": "“Every yes has its nay,” The Bible says: Let your communication by, Yea, Yea;",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3304",
+          "def": "so then at least"
+        }
+      ]
+    },
+    {
+      "id": 3562,
+      "word": "your sometimes seeing eyes",
+      "etym": "",
+      "mibDef": "single in purpose and sight. Your understandings are increased and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5216",
+          "def": "of (from or concerning) you"
+        },
+        {
+          "s": "H430",
+          "def": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative"
+        },
+        {
+          "s": "H1",
+          "def": "father, in a literal and immediate, or figurative and remote application"
+        },
+        {
+          "s": "H3027",
+          "def": "a hand (the open one [indicating power, means, direction, etc.], in distinction from H3709, the closed one); used (as noun, adverb, etc.) in a great variety of applications, both literally and figuratively, both proximate and remote [as follows]"
+        },
+        {
+          "s": "H251",
+          "def": "a brother (used in the widest sense of literal relationship and metaphorical affinity or resemblance [like H0001])"
+        }
+      ]
+    },
+    {
+      "id": 3563,
+      "word": "Zaanan",
+      "etym": "Heb.",
+      "mibDef": "going forth; migrating; rich in flocks; place of flocks; flocking place.",
+      "mibMeta": "A thought center, deep within the consciousness, changing from belief in lack of life and of substance to belief in abundant substance and vitality (going forth, migrating, rich in flocks, place of flocks, flocking place, a town in the lowlands of Judah).",
+      "candidates": [
+        {
+          "s": "H6630",
+          "def": "Zaanan, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 3564,
+      "word": "Zaanannim",
+      "etym": "Heb.",
+      "mibDef": "complete changes;",
+      "mibMeta": "Great and complete changes for the better, taking place in consciousness. In bringing about higher and better ideals and experiences in one's consciousness, there must be first a dissatisfaction with present apparent thoughts and conditions, and a willingness to alter one's views. In this name a ver",
+      "candidates": []
+    },
+    {
+      "id": 3565,
+      "word": "Zabad",
+      "etym": "Heb.",
+      "mibDef": "whom God gave; gift; present; donation; endowment; dowry.",
+      "mibMeta": "In giving His Son, the Christ, spiritual man, or Jehovah, to be the true inner self or spiritual I AM of each individual, God gave His whole gift to man. In the Son there is all-possibility; in embryo there is all that the Father is and has. This is suggested in the name Zabad, which means whom God ",
+      "candidates": [
+        {
+          "s": "H2066",
+          "def": "Zabad, the name of seven Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3566,
+      "word": "Zabbai",
+      "etym": "Heb.",
+      "mibDef": "washed; cleansed; clean; clear; limpid; pure; innocent.",
+      "mibMeta": "Thoughts belonging to the high, spiritual phase of consciousness in man (Israelites), which tend to purity and Truth (washed, cleansed, clean, pure) and to clearness of comprehension (limpid, clear).",
+      "candidates": [
+        {
+          "s": "H2079",
+          "def": "Zabbai (or Zaccai), an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3567,
+      "word": "Zabbud",
+      "etym": "Heb.",
+      "mibDef": "given; donated; bestowed; endowed; dowered.",
+      "mibMeta": "An awakening to the fact that man is furnished with a permanent, inexhaustible",
+      "candidates": []
+    },
+    {
+      "id": 3568,
+      "word": "Zabdi",
+      "etym": "Heb.",
+      "mibDef": "gift of Jehovah; Jah is endower; Jehovah gave; my dowry.",
+      "mibMeta": "Thoughts recognizing fullness of life, of vitality, as being possible of continuous expression in and through man, by means of his indwelling Christ, Jehovah, I AM (gift of Jehovah, Jah is endower, Jehovah gave, my dowry). \"I came that they may have life, and may have it abundantly\" (John 10:10).",
+      "candidates": [
+        {
+          "s": "H2067",
+          "def": "Zabdi, the name of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3569,
+      "word": "Zabdiel",
+      "etym": "Heb.",
+      "mibDef": "God is my gift; gift of God; God endows; dowry of God.",
+      "mibMeta": "The idea signified here is that God, Spirit, being omnipresent in man and in all creation, has given man, or is to man, all-life, all-intelligence, all-substance, all-power, all-Truth— everything that man can need and use in his unfoldment and growth into the full manifestation of the perfect image ",
+      "candidates": []
+    },
+    {
+      "id": 3570,
+      "word": "Zabud",
+      "etym": "Heb.",
+      "mibDef": "given; presented; bestowed; endowed; dowered.",
+      "mibMeta": "See ZABBUD and ZABAD.",
+      "candidates": [
+        {
+          "s": "H2071",
+          "def": "given, Zabud, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3571,
+      "word": "Zaccai",
+      "etym": "Heb.",
+      "mibDef": "washed; cleansed; purified; clean; clear; limpid; guileless; innocent;",
+      "mibMeta": "A very influential, or fruitful, thought belonging to the spiritual phase of consciousness in man (an Israelite, who had numerous descendants who returned to Judea from the Captivity) that is true, honest, upright, and unadulterated by materiality or by error (cleansed, purified, just, guileless, ri",
+      "candidates": []
+    },
+    {
+      "id": 3572,
+      "word": "Zacchaeus",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "washed; cleansed; cleansed; clean; purified; clear;",
+      "mibMeta": "Conservatism degenerated to avarice. Zacchaeus means just, or clean, purified. In the Truth of Being, conservatism, or the power to accumulate, is legitimate; but Zacchaeus wrongfully had exacted more than his share of goods. This represents the tendency of race thought to reflect into consciousness",
+      "candidates": [
+        {
+          "s": "G2195",
+          "def": "Zacchaeus, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3573,
+      "word": "Zaccur",
+      "etym": "Heb .",
+      "mibDef": "pricking; piercing; penetrating; calling to mind; remembering; mindful;",
+      "mibMeta": "The action that an idea sets up in entering the consciousness of an individual, producing thought, reflection, due consideration, and bringing forth a positive conclusion (pricking, penetrating, remembering, considering, reflecting, bearing a nude child).",
+      "candidates": [
+        {
+          "s": "H2139",
+          "def": "Zakkur, the name of seven Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3574,
+      "word": "Zachariah (A. V.",
+      "etym": "Heb.",
+      "mibDef": "Jehovah has penetrated; Jah is mindful;",
+      "mibMeta": "The significance is the same as that of Zacharias and Zechariah, spiritual consciousness (Jehovah has penetrated, Jehovah has remembered, concentrating on Jehovah, memory of Jah, Jah is renowned), or the entrance of spiritual thought into man's consciousness and a lifting up of spiritual understandi",
+      "candidates": [
+        {
+          "s": "H2148",
+          "def": "Zecarjah, the name of twenty-nine Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3575,
+      "word": "Zadok",
+      "etym": "Heb.",
+      "mibDef": "righteous; just; true.",
+      "mibMeta": "Thoughts that are right and true and just (righteous, just). Zadok the priest and Nathan the prophet (I Kings 1 :34, 38, 39) are representatives of the spiritual kingdom, which i8 the real source of all enduring power.",
+      "candidates": [
+        {
+          "s": "H6659",
+          "def": "Tsadok, the name of eight or nine Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3576,
+      "word": "Zaham",
+      "etym": "Heb.",
+      "mibDef": "offensive; stinking; rancid; impure; unwholesome; unclean; leprous;",
+      "mibMeta": "Rehoboam represents that in man's consciousness which exalts the senses; it is the fruit of many sensuous and insane thought habits. (See REHOBOAM.) Zaham (offensive, impure, unclean, leprous, loathsome, hateful), son of Rehoboam, signifies the offensiveness of extreme uncleanness of thought and hab",
+      "candidates": []
+    },
+    {
+      "id": 3577,
+      "word": "Zair",
+      "etym": "Heb .",
+      "mibDef": "small; little; minor; reduced; made few; petty; ignoble; mean; despised;",
+      "mibMeta": "The inferiority of the \"mind of the flesh\" in man, in comparison with the phase of his being that is established in spiritual understanding and expression (little, small, made few, petty; ignoble, worthless; a place in Edom, Edom referring to the sense consciousness in man). Jesus said, \"It is the s",
+      "candidates": []
+    },
+    {
+      "id": 3578,
+      "word": "Zalaph",
+      "etym": "Heb.",
+      "mibDef": "breaking; breaking forth; breaking up; fracturing; bruising; wounding;",
+      "mibMeta": "A breaking forth from, or breaking up of, errors in consciousness, that good may be established. Seeming sorrow and travail in one's being often accompany a breaking up and passing away of established error thoughts, habits and conditions (fracturing, bruising, wounding, hurting), but the outcome is",
+      "candidates": []
+    },
+    {
+      "id": 3579,
+      "word": "Zalmon",
+      "etym": "Heb.",
+      "mibDef": "shade; shadow; overcast; shadowy; shady; darkness; shadowed forth;",
+      "mibMeta": "A going up to a higher plane of thought (a mountain; also the man named Zalmon is called Ilai in I Chronicles 11:29, Ilai meaning elevated, supreme), but with the understanding of Truth as yet obscure. Because of man's seeing more from the standpoint of the cuter senses than from the inner Spirit, t",
+      "candidates": [
+        {
+          "s": "H6756",
+          "def": "Tsalmon, the name of a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 3580,
+      "word": "Zalmonah",
+      "etym": "Heb .",
+      "mibDef": "giving shade; shady; shaded; sheltered; canopied; overcast.",
+      "mibMeta": "Divine protection from more intense light and heat, or spiritual illumination and inflow of life and energy, than the individual at this stage of his unfoldment Godward is able to apprehend, to assimilate, and to use rightly (giving shade, shaded, sheltered, canopied; a shade here signifying somethi",
+      "candidates": []
+    },
+    {
+      "id": 3581,
+      "word": "Zaphon",
+      "etym": "Heb.",
+      "mibDef": "covered; protected- concealed; secret; private; unknown; unmanifest;",
+      "mibMeta": "Zaphon refers to the north, to that which is above in consciousness, or in this case,",
+      "candidates": []
+    },
+    {
+      "id": 3582,
+      "word": "Zarephath",
+      "etym": "Heb.",
+      "mibDef": "place of refinement; smelter; smelting place; place of",
+      "mibMeta": "The purifying fires of the inner subjective life centers. Zarephath means place of refinement, smelting place, place of purification with fire, and smelting is the extracting of precious Metaphysicalls by heat. This refining work is literally what takes place in the man who has let sense expression ",
+      "candidates": []
+    },
+    {
+      "id": 3583,
+      "word": "Zattu",
+      "etym": "Heb.",
+      "mibDef": "sprout; shoot; branch; green; fresh; lovely;",
+      "mibMeta": "A sprouting, growing consciousness and realization of peace and prosperity, under direction of the indwelling Christ Spirit (sprout, shoot, branch, green, fresh, lovely, pleasant, olive branch.)",
+      "candidates": []
+    },
+    {
+      "id": 3584,
+      "word": "Zaza",
+      "etym": "Heb .",
+      "mibDef": "glittering; sparkling; projecting rays; emitting splendor; flowering;",
+      "mibMeta": "The love of God for mankind, as revealed in Christ. This love, when understood even in faintest degree by the individual, shines out above and beyond all else in his life and brings forth fruit (glittering, sparkling, projecting rays, emitting splendor, flowering, sprouting; a son of Jonathan, of th",
+      "candidates": []
+    },
+    {
+      "id": 3585,
+      "word": "Zeal",
+      "etym": "",
+      "mibDef": "Simon the Canaanite— lower back head, medulla.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7068",
+          "def": "jealousy or envy"
+        },
+        {
+          "s": "G2205",
+          "def": "properly, heat, i.e., (figuratively) \"zeal\" (in a favorable sense, ardor; in an unfavorable one, jealousy, as of a husband (figuratively, of God), or an enemy, malice)"
+        },
+        {
+          "s": "H7065",
+          "def": "to be (causatively, make) zealous, i.e., (in a bad sense) jealous or envious"
+        }
+      ]
+    },
+    {
+      "id": 3586,
+      "word": "zeal",
+      "etym": "",
+      "mibDef": "Intensity, ardor, enthusiasm; the inward fire of the soul that urges man onward, regardless",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7068",
+          "def": "jealousy or envy"
+        },
+        {
+          "s": "G2205",
+          "def": "properly, heat, i.e., (figuratively) \"zeal\" (in a favorable sense, ardor; in an unfavorable one, jealousy, as of a husband (figuratively, of God), or an enemy, malice)"
+        },
+        {
+          "s": "H7065",
+          "def": "to be (causatively, make) zealous, i.e., (in a bad sense) jealous or envious"
+        }
+      ]
+    },
+    {
+      "id": 3587,
+      "word": "Zebadiah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah has given; Jah is enclower; dowry ofJah; presentation of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2069",
+          "def": "Zebadjah, the name of nine Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3588,
+      "word": "Zebah",
+      "etym": "Heb.",
+      "mibDef": "slaying; slaughtering; killing; sacrificing; immolation of victims; victim;",
+      "mibMeta": "The offering to God of the phase of thought that stands back of the strife and contention, or Midianite state of mind, in the individual (sacrifice, a king of Midian who was pursued and slain by Gideon and his men). When any error thought or state of consciousness is put on the altar, is sacrificed ",
+      "candidates": [
+        {
+          "s": "H2078",
+          "def": "Zebach, a Midianitish prince"
+        }
+      ]
+    },
+    {
+      "id": 3589,
+      "word": "Zebidah (A. V.",
+      "etym": "Heb.",
+      "mibDef": "gift outright; bestowal; dowry; endowment.",
+      "mibMeta": "The soul of man's recognizing the Truth that is signified by Zabbud (the masculine form of Zebidah). Zebidah, being the name of a woman, signifies the soul or feminine phase of that for which the masculine form of the name stands. (See ZABBUD.) Zebina, ze-bi'-na (Heb.) - getting for oneself; purchas",
+      "candidates": []
+    },
+    {
+      "id": 3590,
+      "word": "Zeboiim",
+      "etym": "Heb.",
+      "mibDef": "wars waging of wars;",
+      "mibMeta": "Zeboiim pertains to ravenous appetites, sensual passions, the wild-beast nature, holding sway in the subconsciousness (wars, plunderings, preyings, rending with the teeth, beasts of prey, bestiality, carnivorous wild beasts; a city whose king was subject to Chedorlaomer, rebelled against him, and wa",
+      "candidates": []
+    },
+    {
+      "id": 3591,
+      "word": "Zebul",
+      "etym": "Heb .",
+      "mibDef": "making round; surrounding; habitation; dwelling; dwelling together;",
+      "mibMeta": "A ruling thought in the burdenbearing attitude of mind that Shechem signifies, which persists in holding to things as they appear; is content to abide in present beliefs and conditions; goes with the crowd; joins forces with the present seeming prevailing power, whatever it may be (habitation, dwell",
+      "candidates": [
+        {
+          "s": "H2083",
+          "def": "Zebul, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3592,
+      "word": "Zebulun",
+      "etym": "Heb.",
+      "mibDef": "surrounded;",
+      "mibMeta": "Order, static (habitation, dwelling; \"the abundance of the seas,\" universal Mind). In the organism of man the faculty of order is located in the center of the abdomen, at the navel. Zebulun may also be said to represent the intelligence in the stomach that directs the digestion, and presides over th",
+      "candidates": [
+        {
+          "s": "H2074",
+          "def": "Zebulon, a son of Jacob; also his territory and tribe"
+        }
+      ]
+    },
+    {
+      "id": 3593,
+      "word": "Zechariah",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah has remembered; Jehovah has remembered;",
+      "mibMeta": "See ZACHARIAH and ZACHARIAS.",
+      "candidates": [
+        {
+          "s": "H2148",
+          "def": "Zecarjah, the name of twenty-nine Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3594,
+      "word": "Zecher (A. V.",
+      "etym": "Heb.",
+      "mibDef": "called to mind; remembrance; recollection; memory;",
+      "mibMeta": "Zaccur has virtually the same meaning and significance. (See ZACCUR; see ZECHARIAH also.) Zedad, ze'-dad (Heb.) a side; turning aside; turning one's side to another; opposition; aversion; steep place; hillside; mountain side; coast; border. A place on the north border of Israel's inheritance in the ",
+      "candidates": []
+    },
+    {
+      "id": 3595,
+      "word": "Zedekiah",
+      "etym": "Heb.",
+      "mibDef": "uprightness of Jehovah;",
+      "mibMeta": "Zedekiah the false prophet symbolizes a belief in the uprightness and power of the Christ Truth, but with no understanding of the necessity for conforming to divine law in order to realize the victories that come to one when Jehovah fights one's battles. Zedekiah, king of Judah, is the ruling though",
+      "candidates": [
+        {
+          "s": "H6667",
+          "def": "Tsidkijah, the name of six Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3596,
+      "word": "Zeeb",
+      "etym": "Heb.",
+      "mibDef": "golden; yellow; yellowish; tawny; brazen; bold; wolf.",
+      "mibMeta": "A thought activity that has its inception in wisdom (golden, yellow). Because of the errors and limitations of the Midian phase of consciousness, with which this wisdom thought activity is associated, it has become tainted with error (tawny) and has taken on the attributes that are expressed in braz",
+      "candidates": [
+        {
+          "s": "H2062",
+          "def": "Zeeb, a Midianitish prince"
+        }
+      ]
+    },
+    {
+      "id": 3597,
+      "word": "Zela",
+      "etym": "Heb.",
+      "mibDef": "sheltering involutions ; outer coverings; exterior envelope;",
+      "mibMeta": "Zela is the same word that is translated \"rib\" in Genesis 2:21; it signifies the female principle in man, the soul, which is not only within but also infolds, envelops, and protects (see the foregoing definitions). When that which Saul and Jonathan signify comes to the end of outer dominance and exp",
+      "candidates": []
+    },
+    {
+      "id": 3598,
+      "word": "Zelek",
+      "etym": "Heb.",
+      "mibDef": "cleaving; splitting; rending; rent; fissure; chasm.",
+      "mibMeta": "A breaking up, taking place in the outer consciousness ( cleaving , splitting, rending, fissure, chasm, an Ammonite who was one of David's guard of mighty men). This breaking up results when the effects of the rule of divine love (David) in the individual reach the outer man (the Ammonites belong to",
+      "candidates": [
+        {
+          "s": "H6768",
+          "def": "Tselek, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3599,
+      "word": "Zelophehad",
+      "etym": "Heb.",
+      "mibDef": "first breaking out; first fracture; first opening; first-born.",
+      "mibMeta": "The phase of understanding that perceives the falsity of error and so goes ahead opening up the consciousness to Truth, by means of denial of error ( first breaking out, first-born, first opening). Established error thoughts must be overthrown, to a certain extent at least, before one can come into ",
+      "candidates": [
+        {
+          "s": "H6765",
+          "def": "Tselophchad, an Israelite"
+        }
+      ]
+    }
+  ]
+}

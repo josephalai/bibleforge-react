@@ -1,0 +1,1264 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "2 of 37",
+  "_entry_range": "ids 100–199",
+  "entries": [
+    {
+      "id": 100,
+      "word": "Adalia",
+      "etym": "Heb. fr. Pers.",
+      "mibDef": "a sun god; fire god.",
+      "mibMeta": "The adverse belief that heat, warmth, and life are produced and kept in expression",
+      "candidates": []
+    },
+    {
+      "id": 101,
+      "word": "Adam",
+      "etym": "",
+      "mibDef": "red; ruddy; reddish; firm.",
+      "mibMeta": "The first movement of mind in its contact with life and substance. Adam also represents the generic man, or the whole human race epitomized in an individual-man idea. Eve is the feminine aspect of generic man, outwardly manifest: \"male and female created he them. \" If the ego, or will, which is man,",
+      "candidates": [
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G76",
+          "def": "Adam, the first man; typically (of Jesus) man (as his representative)"
+        },
+        {
+          "s": "H121",
+          "def": "Adam the name of the first man, also of a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "word": "Adam man",
+      "etym": "",
+      "mibDef": "The many ills of the Adam man grew out of his belief that he could satisfy",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G76",
+          "def": "Adam, the first man; typically (of Jesus) man (as his representative)"
+        },
+        {
+          "s": "H121",
+          "def": "Adam the name of the first man, also of a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "word": "Adam man",
+      "etym": "",
+      "mibDef": "We are not to erase Adam, but we are to transform him by the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        },
+        {
+          "s": "G76",
+          "def": "Adam, the first man; typically (of Jesus) man (as his representative)"
+        },
+        {
+          "s": "H121",
+          "def": "Adam the name of the first man, also of a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "word": "Adamah",
+      "etym": "Heb.",
+      "mibDef": "ground; red earth.",
+      "mibMeta": "A group of thoughts in consciousness, or a thought center, that is quite firmly established in a belief in material or physical strength ( ground , red earth; a fortified city of Naphtali, Naphtali referring to the strength faculty in man) .",
+      "candidates": []
+    },
+    {
+      "id": 105,
+      "word": "Adar",
+      "etym": "Heb .",
+      "mibDef": "eclipsed (in the sense of outshining and not of covering up); large; eminent;",
+      "mibMeta": "A phase of our progress in which we appear to face the complete destruction of our true, higher ideals (see Esth. 3:13), but in which we eventually unfold spiritually to a degree that outshines all of our former realizations and demonstrations (see Ezra 6:15). In giving up phases of the sensual that",
+      "candidates": [
+        {
+          "s": "H143",
+          "def": "Adar, the 12th Hebrew month"
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "word": "Adbeel",
+      "etym": "Heb.",
+      "mibDef": "yearning for God; languishing f or God; disciplined of (for) God;",
+      "mibMeta": "A thought that seemingly springs from the sense or flesh mind, but in reality is inspired by Spirit. It longs for God, for something higher and better than it has heretofore experienced (yearning for God; languishing for God) . This yearning will bring forth fruit in time, when it has been subjected",
+      "candidates": []
+    },
+    {
+      "id": 107,
+      "word": "Addar (A. V.",
+      "etym": "Heb .",
+      "mibDef": "large; ample; a wide-open space; a",
+      "mibMeta": "The uplifting, strength-giving power and might that comes to a person when he makes room in his life for the good and separates it from the error— from that which i8 no longer useful in his progress from sense to Spirit (height, honor, mighty, threshing floor, a wide-open space). A threshing floor a",
+      "candidates": []
+    },
+    {
+      "id": 108,
+      "word": "Addon",
+      "etym": "Heb.",
+      "mibDef": "strong; powerful; a foundation stone; low (in the sense of being humble",
+      "mibMeta": "An aggregation of thoughts of great power and strength in consciousness (strong, powerful). These thoughts have their foundation in humility (low, a foundation stone), and they lead to freedom from sense confusion (Babylon). However, at a certain stage of his unfoldment the individual needs a cleare",
+      "candidates": []
+    },
+    {
+      "id": 109,
+      "word": "Adiel",
+      "etym": "Heb.",
+      "mibDef": "an ornament of God; adornment of God; witness of God.",
+      "mibMeta": "The adorning, beautifying quality of spiritual thoughts that bear witness in consciousness to Truth (an ornament of God, adornment of God, witness of God; men of Israel).",
+      "candidates": []
+    },
+    {
+      "id": 110,
+      "word": "Adin",
+      "etym": "Heb.",
+      "mibDef": "voluptuous one; ornament; effeminate; dainty.",
+      "mibMeta": "A somewhat negative (effeminate) thought in consciousness. While this thought is of a refined, spiritual origin, it is taken captive into Babylon It enters a state of confusion because of its having given its substance to the belief in pleasure through the senses ( voluptuous one). But out of its fo",
+      "candidates": []
+    },
+    {
+      "id": 111,
+      "word": "Adina",
+      "etym": "Heb.",
+      "mibDef": "ornament; slender; delicate.",
+      "mibMeta": "A perceptive, discerning, seeing thought of the mind (ornament, .slender; a chief man of the Reubenites, and Reuben refers to the sense of sight). This thought is of a harmonizing, attracting nature because the loving idea (Shiza) is back of it.",
+      "candidates": [
+        {
+          "s": "H5721",
+          "def": "Adina, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "word": "Adino",
+      "etym": "Heb.",
+      "mibDef": "his ornament; his pleasure.",
+      "mibMeta": "See JASHOBEAM and EZNITE. adjustment— The rearrangement of thoughts according to the divine order of the Christ Mind; a bringing of man's consciousness into exact correspondence with God's perfect harmony, or heaven. \"And the crooked shall become straight, and the rough ways smooth\" (Luke 3:5).",
+      "candidates": [
+        {
+          "s": "H5722",
+          "def": "his spear"
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "word": "Adlai",
+      "etym": "Heb .",
+      "mibDef": "justice of God; Jehovah's justice; my witness; lax; weary .",
+      "mibMeta": "A just, discerning thought in consciousness, which is based on divine justice (justice of God, Jehovah's justice). Lax, weary, suggests a need of a more definite purpose on the part of this thought.",
+      "candidates": []
+    },
+    {
+      "id": 114,
+      "word": "Admah",
+      "etym": "Heb.",
+      "mibDef": "dumb; silent; unrelenting; unmerciful; menacing; a fortress; a tomb.",
+      "mibMeta": "The seeming strength and merciless sureness of the death thought and condition that enter into man's experience as the result of his carnal, material, adverse thoughts and activities. (See SODOM and GOMORRAH.)",
+      "candidates": []
+    },
+    {
+      "id": 115,
+      "word": "Adnah",
+      "etym": "Heb.",
+      "mibDef": "delight; pleasure; rest.",
+      "mibMeta": "The understanding that true overcoming, joy, and peace (pleasure, delight, rest) are the products of love, good judgment, and praise; they are not brought about by personal will. (Both men named Adnah were captains of thousands, and mighty men of valor. Adnah, the Manassite, was a captain under Saul",
+      "candidates": [
+        {
+          "s": "H5734",
+          "def": "Adnah, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "word": "Adoni-bezek",
+      "etym": "Heb.",
+      "mibDef": "lord ofBezek; lord of lightning.",
+      "mibMeta": "Bezek means lightning. Lightning is a force that gathers and then explodes and dissipates its energy, because it is not in harmony with universal equilibrium. This illustrates well the mind of the individual who believes himself to be an independent and unrelated creation. When this kind of thought ",
+      "candidates": []
+    },
+    {
+      "id": 117,
+      "word": "Adoni-zedek",
+      "etym": "Heb.",
+      "mibDef": "lord of righteousness; lord of justice, i. e.,just lord; lord",
+      "mibMeta": "The sensual or carnal idea of what is just and right having dominion over the life forces of the individual and ruling according to carnal affections and desires. Adoni-zedek cannot represent spiritual justice and righteousness, since he was not an Israelite but was an enemy to the Israelites. Thoug",
+      "candidates": []
+    },
+    {
+      "id": 118,
+      "word": "Adonijah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah is Lord; (my) lord is Jehovah.",
+      "mibMeta": "Hebron symbolizes the front brain, the seat of conscious thought. David at Hebron represents the love of the heart center in the act of becoming unified with understanding, or working in cooperation with it, in the head. While the thought that Adonijah symbolizes is good, it is a thought that tends ",
+      "candidates": [
+        {
+          "s": "H138",
+          "def": "Adonijah, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "word": "Adonikam",
+      "etym": "Heb.",
+      "mibDef": "whom the Lord establishes; the Lord stands (firm); (my) Lord is",
+      "mibMeta": "A resurrecting, uplifting, firmly based spiritual belief (whom the Lord establishes, my Lord is raised, the Lord stands) that, even though it resided in sense confusion (Babylon), brought forth a company of thoughts (the descendants of Adonikam) that returned to spiritual consciousness (Jerusalem), ",
+      "candidates": []
+    },
+    {
+      "id": 120,
+      "word": "Adoniram",
+      "etym": "Heb.",
+      "mibDef": "m7/ lord is exalted; my lord is high; lord of height, i. e., high",
+      "mibMeta": "An exalted thought of service to the Lord (my Lord is exalted; Adoniram, or Adoram, served in the same office under both David and Solomon). This thought, while it concerns spiritual service, is more intellectual than spiritual in its nature and origin. It is high to begin with, but it makes a slave",
+      "candidates": [
+        {
+          "s": "H141",
+          "def": "Adoniram, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "word": "Adoraim",
+      "etym": "Heb.",
+      "mibDef": "mounds, or dwellings; double mounds; double strength; double",
+      "mibMeta": "Adoraim was close to Hebron-the seat of conscious thought. The idea that is conveyed by the meaning of Adoraim (double mounds, double honor, mounds or dwellings) is double- mindedness. When the conscious thoughts of man are guided and ruled by a high, spiritual idea, honor and strength are given to ",
+      "candidates": []
+    },
+    {
+      "id": 122,
+      "word": "Adrammelech",
+      "etym": "Heb.",
+      "mibDef": "the majesty of the king; honor of the king; splendor of",
+      "mibMeta": "A fiery, consuming thought in man. This fiery thought is the offspring of, and destroys, Sennacherib ( bramble of destruction), the head of the realm of psychic sense thought, which is represented by the Assyrians. (Adrammelech and his brother Sharezer killed their father, Sennacherib.) Adrammelech ",
+      "candidates": [
+        {
+          "s": "H152",
+          "def": "Adrammelek, the name of an Assyrian idol, also of a son of Sennacherib"
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "word": "Adramyttium",
+      "etym": "Gk.",
+      "mibDef": "court of death.",
+      "mibMeta": "Mysia means criminal, abominable. The Athenians symbolize purely intellectual thoughts, Athens representing the intellectual center in consciousness. When Paul appealed to Caesar (who symbolizes the tyrannical rule of the personal will through the reason, unmodified by spiritual love, mercy, and jus",
+      "candidates": []
+    },
+    {
+      "id": 124,
+      "word": "Adriel",
+      "etym": "Heb.",
+      "mibDef": "flock of God; host of God; my help is God.",
+      "mibMeta": "Merab refers to increase. The true thoughts of life and substance (flock of God) and the thoughts of increase that Adriel and Merab signify, one in the soul consciousness and the other in the outer intellectual realm, are closely related to the personal will (Saul). Therefore, though these thoughts ",
+      "candidates": [
+        {
+          "s": "H5741",
+          "def": "Adriel, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "word": "adultery",
+      "etym": "",
+      "mibDef": "Mixed thoughts, errors that have their existence in the unregenerated feelings; thoughts",
+      "mibMeta": "On the road from Jericho (the external consciousness, or realm of reflected thought) up to Jerusalem (spiritual consciousness) there are dangerous places through which we have to pass. The thieves and robbers that we have to meet are thoughts of error that would turn us aside from the real Truth and",
+      "candidates": [
+        {
+          "s": "H5003",
+          "def": "to commit adultery; figuratively, to apostatize"
+        },
+        {
+          "s": "G3431",
+          "def": "to commit adultery"
+        },
+        {
+          "s": "G3429",
+          "def": "(middle voice) to commit adultery"
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "word": "Adversary",
+      "etym": "",
+      "mibDef": "The vain imagination that there could, in reality, be anything opposed to Divine",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7854",
+          "def": "an opponent; especially (with the article prefixed) Satan, the arch-enemy of good"
+        },
+        {
+          "s": "H6862",
+          "def": "narrow"
+        },
+        {
+          "s": "G476",
+          "def": "an opponent (in a lawsuit); specially, Satan (as the arch-enemy)"
+        },
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "H6696",
+          "def": "to cramp, i.e., confine (in many applications, literally and figuratively, formative or hostile)"
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "word": "affirmation",
+      "etym": "",
+      "mibDef": "The \"yes\" action of the mind; the act of affirming; the declaring of Truth; the",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 128,
+      "word": "affirmation",
+      "etym": "",
+      "mibDef": "Affirmations do not have to be made only in set terms such as, \"I affirm",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 129,
+      "word": "affirmation",
+      "etym": "",
+      "mibDef": "To establish in consciousness a broad understanding of the divine",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 130,
+      "word": "affirmation",
+      "etym": "",
+      "mibDef": "All unrighteous conditions may be adjusted through affirming",
+      "mibMeta": "That in us which perceives the different forces working in the soul, the point at which these forces are likely to clash, and the evident outcome. This ability to perceive is known in man's consciousness as the power of prophecy. Agabus prophesied of error things, hence the thought of locust, which ",
+      "candidates": []
+    },
+    {
+      "id": 131,
+      "word": "affirmation and denial",
+      "etym": "",
+      "mibDef": "Two movements of the mind that express power to accept or to reject, to",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 132,
+      "word": "affirmation of the I AM Spirit",
+      "etym": "",
+      "mibDef": "I AM life, I AM that I AM, I AM the Son of God sitting at the right hand",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 133,
+      "word": "afflicts them",
+      "etym": "",
+      "mibDef": "presumably for their higher good (afflicted of God, stifled of",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 134,
+      "word": "Agag",
+      "etym": "Heb.",
+      "mibDef": "violent; high; warlike; flame.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H90",
+          "def": "Agag, a title of Amalekitish kings"
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "word": "Agagite",
+      "etym": "Heb .",
+      "mibDef": "belonging to Agag.",
+      "mibMeta": "See AGAG and AMALEKITE. age-A cycle or a dispensation. Jesus was acquainted with cycles or ages of spiritual development of which the natural man knew nothing. Jesus came at the end of an age. Age to mortal man is the measurement of the life or existence of a person or thing. It is based on the fals",
+      "candidates": []
+    },
+    {
+      "id": 136,
+      "word": "agnostic",
+      "etym": "",
+      "mibDef": "the Sadducee, the Sadducees and Pharisees, mentioned in Matt. 22:34-46-these represent",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 137,
+      "word": "Agrippa",
+      "etym": "Gk .",
+      "mibDef": "one who causes pain at birth; perhaps wild-horse tamer.",
+      "mibMeta": "As Festus, in Acts 26: 19-32, represents the transient joys of the external life, his brother-in-law, Agrippa, shows the close association that this sort of pleasure has with pain. So long as we are enjoying ourselves in the sense life, our ears are usually dull to Truth: Festus was not moved by Pau",
+      "candidates": [
+        {
+          "s": "G67",
+          "def": "wild-horse tamer; Agrippas, one of the Herods"
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "word": "Agur",
+      "etym": "Heb.",
+      "mibDef": "gathered; scraped together; small money; profit; tax money; a hireling; a",
+      "mibMeta": "Outer understanding— man's intellectual consciousness— gathering knowledge and substance for personal advancement and gain. This is not the true, spiritual understanding and substance, but is a hireling , a stranger, so far as concerns the getting of good by waiting on the inner teacher, the Spirit ",
+      "candidates": [
+        {
+          "s": "H94",
+          "def": "Agur, possibly a symbolic name for Solomon"
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "word": "Ahab",
+      "etym": "Heb.",
+      "mibDef": "father's brother; uncle.",
+      "mibMeta": "Error states of consciousness based on false intellectual reasoning, or the intellect that has dropped to the level of sense worship. Ahab married Jezebel, who represents the counterpart, in bodily sensations and desires, of the false intellectual concepts; she is the animal soul of unbridled passio",
+      "candidates": [
+        {
+          "s": "H256",
+          "def": "Achab, the name of a king of Israel and of a prophet at Babylon"
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "word": "Aharah",
+      "etym": "Heb .",
+      "mibDef": "after the brother .",
+      "mibMeta": "That in man's spiritually awakening consciousness which follows after lofty, kindly, brotherly, constructive ideals ( after the brother; a Benjamite).",
+      "candidates": [
+        {
+          "s": "H315",
+          "def": "Achrach, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "word": "Aharhel",
+      "etym": "Heb.",
+      "mibDef": "behind the intrenchment; behind the breastwork; after might.",
+      "mibMeta": "A belief in protection and might as coming from God and not emanating from the outer man.",
+      "candidates": [
+        {
+          "s": "H316",
+          "def": "Acharchel, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "word": "Ahasbai",
+      "etym": "Heb.",
+      "mibDef": "I have taken refuge in Jehovah.",
+      "mibMeta": "An idea of faith and trust in Jehovah, the true, inner spiritual I AM (I have taken refuge in Jehovah ).",
+      "candidates": []
+    },
+    {
+      "id": 143,
+      "word": "Ahasuerus",
+      "etym": "Heb. fr. Pers.",
+      "mibDef": "lion; king.",
+      "mibMeta": "The will puffed up by its conquests and dominated by ambition. It is the function of the will to rule, and when man is more ambitious than wise he often makes a spectacle of himself. The edict to destroy the Jews, which King Ahasuerus sent forth at the instigation of Haman, represents one of those f",
+      "candidates": [
+        {
+          "s": "H325",
+          "def": "Achashverosh (i.e., Ahasuerus or Artaxerxes, but in this case Xerxes), the title (rather than name) of a Persian king"
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "word": "Ahava",
+      "etym": "Heb .",
+      "mibDef": "stream; water.",
+      "mibMeta": "A current of cleansing thought (stream) where the waters of denial (fasting, see Ezra 8:21) wash away fearful thoughts and material beliefs, thus enabling our religious thoughts (Jews) to proceed on their way to Jerusalem (spiritual consciousness) in safety. Ahaz, a'-haz (Heb.)- possessor: possessin",
+      "candidates": [
+        {
+          "s": "H163",
+          "def": "Ahava, a river of Babylonia"
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "word": "Ahaziah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah hath grasped; Jah holds, possesses; whom Jehovah",
+      "mibMeta": "Although both these kings were idolatrous, and were directed in their reigns by the selfishness of the sense man, yet they represent the continuity of the inner spiritual will of man (whom Jehovah sustains, Jah holds, possesses), which selfishness cannot kill out. In the case of Ahaziah, king of Jud",
+      "candidates": [
+        {
+          "s": "H274",
+          "def": "Achazjah, the name of a Jewish and an Israelite king"
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "word": "Ahiam",
+      "etym": "Heb.",
+      "mibDef": "brother of mother; mother's brother; uncle. Some commentators think",
+      "mibMeta": "A sense of the close union that n Truth exists between all men, universal relationship (father's brother ; mother's brother , uncle). This feeling of universal relationship is always in evidence where love (David) is, and it aids greatly in preparing the way for love (David) to rule in consciousness",
+      "candidates": [
+        {
+          "s": "H279",
+          "def": "Achiam, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "word": "Ahian",
+      "etym": "Heb.",
+      "mibDef": "brotherly.",
+      "mibMeta": "The significance here is that true understanding expressing in the consciousness of an individual establishes a sense of union with and brotherly kindness toward all mankind and all creation. (Shemida, father of Ahian, is interpreted splendor of wisdom, renowned knowledge, while Manasseh refers to t",
+      "candidates": []
+    },
+    {
+      "id": 148,
+      "word": "Ahiezer",
+      "etym": "Heb.",
+      "mibDef": "helping brother; brother of help, i. e., helpful; (my) brother is help.",
+      "mibMeta": "Good judgment (Dan refers to the judgment faculty in man), even if it be of the intellectual consciousness, acknowledges God as the source of all might, and love (David) as the true king of Israel. Being positive in its nature, good judgment is very helpful (helping brother, helpful; Ammishaddai, fa",
+      "candidates": [
+        {
+          "s": "H295",
+          "def": "Achiezer, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "word": "Ahihud",
+      "etym": "Heb .",
+      "mibDef": "brother of majesty; brother of honor; brother of renown.",
+      "mibMeta": "The exaltation of joy, and its unifying power (brother of honor, majesty, renown; a prince of Asher, Asher meaning happy). The Ahihud of I Chronicles 8:7 was of the tribe of Benjamin, and was one of the heads of the family of Ehud. This name is different in the Hebrew from the other Ahihud. It means",
+      "candidates": [
+        {
+          "s": "H282",
+          "def": "Achihud, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "word": "Ahikam",
+      "etym": "Heb.",
+      "mibDef": "my brother has arisen; brother of rising, i. e., standing; brother who",
+      "mibMeta": "A certain spiritual awakening, an elevation and stabilization of thought, and a revivifying of soul that take place in the consciousness of man (my brother has arisen, brother of rising, i. e., standing, brother who rises and stands) and cause him to search earnestly to learn more about the great la",
+      "candidates": [
+        {
+          "s": "H296",
+          "def": "Achikam, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "word": "Ahilud",
+      "etym": "Heb.",
+      "mibDef": "brother of a son, i. e., of one who is already born; a brother born;",
+      "mibMeta": "A brother born capacity for fairness; also a protective, brotherly love toward and unity with one's own inner functions, faculties, and powers, and toward all persons in the outer, which",
+      "candidates": [
+        {
+          "s": "H286",
+          "def": "Achilud, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "word": "Ahimaaz",
+      "etym": "Heb.",
+      "mibDef": "brother of travail; brother of power, i. c., powerful effort; brother",
+      "mibMeta": "Ahimaaz does not stand in man's consciousness for anything pertaining to our present day idea of wrath, anger, or touchiness. Ahimaaz the son of Zadok represents an inner quickness of thought, an intuition that is of Spirit and is governed by love and brotherly kindness. This intuition will warn one",
+      "candidates": [
+        {
+          "s": "H290",
+          "def": "Achimaats, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "word": "Ahiman",
+      "etym": "Heb.",
+      "mibDef": "brother of a portion; brother of allotment; brother of a gift, i. e.,",
+      "mibMeta": "Anak and his sons lived in Hebron. (Hebron signifies the front brain, or seat of conscious thought.) They represent certain strongly intrenched intellectual reasonings that derive their energy from the elemental life forces of the subconscious mind (Canaanites), because they have become such a deepl",
+      "candidates": []
+    },
+    {
+      "id": 154,
+      "word": "Ahimelech",
+      "etym": "Heb .",
+      "mibDef": "brother of Melek, brother of the king i. e., the king's friend; my",
+      "mibMeta": "A high ideal of the intellectual consciousness that ministers to the religious thoughts of man (Israelites), especially to the thoughts pertaining to faith (Benjamin). Ahimelech is a brother and a friend of the true king, Spirit, which is the one source of all true intelligence and ruling power (bro",
+      "candidates": [
+        {
+          "s": "H288",
+          "def": "Achimelek, the name of an Israelite and of a Hittite"
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "word": "Ahimoth",
+      "etym": "Heb.",
+      "mibDef": "brother is death; brother of death.",
+      "mibMeta": "That phase of life which pertains to the breaking up and passing away of the \"old man,\" or mortal thoughts and states of consciousness ( breaking in pieces, dissolution, are meanings of Mahath). Paul said, \"I die daily.\" In order to keep on living, in order to attain eternal life, one must attain a ",
+      "candidates": []
+    },
+    {
+      "id": 156,
+      "word": "Ahinadab",
+      "etym": "Heb.",
+      "mibDef": "brother of liberality; liberal brother; (my) brother is noble.",
+      "mibMeta": "Mahanaim was the name that Jacob gave to the place where the angels of God met him when he was returning from Laban to become unified with Esau. Mahanaim means two hosts or companies. These refer to the angels of God (spiritual ideas) and to Jacob and his company, his wives, children, and possession",
+      "candidates": [
+        {
+          "s": "H292",
+          "def": "Achinadab, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "word": "Ahinoam",
+      "etym": "Heb.",
+      "mibDef": "my brother is delight; pleasant brother; brother of grace;",
+      "mibMeta": "The ruling idea in mind represented by David's wife, Ahinoam, is activity without discord (my brother is delight, pleasant brother, gracious). The wives of David represent the substance side of thought, which must enter into the demonstration of our rule in divine love. The first step is obedience t",
+      "candidates": [
+        {
+          "s": "H293",
+          "def": "Achinoam, the name of two Israelitesses"
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "word": "Ahira",
+      "etym": "",
+      "mibDef": "brother of evil, i. e., unlucky. In a good sense: brother of nourishment;",
+      "mibMeta": "The central controlling thought, at a certain period of man's unfoldment, of the strength faculty (Naphtali) in consciousness. This very influential thought, in leading the individual to give his strength to material thinking, brings about error conditions such as weakness, disease, and inharmony. T",
+      "candidates": [
+        {
+          "s": "H299",
+          "def": "Achira, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "word": "Ahiram",
+      "etym": "Heb .",
+      "mibDef": "brother of height, i. e., high, lofty; exalted brother; (my) brother is",
+      "mibMeta": "See AHARAH.",
+      "candidates": []
+    },
+    {
+      "id": 160,
+      "word": "Ahisamach",
+      "etym": "Heb.",
+      "mibDef": "brother of support, i. e., helpful, aiding; supporting brother;",
+      "mibMeta": "A helpful, sustaining attitude of mind that is based on good judgment (supporting brother, aiding, helpful; a Danite, Dan meaning judge). This attitude of mind tends to build up and maintain the body temple in poise and harmony. The tabernacle in the wilderness refers to the outer physical body; Oho",
+      "candidates": []
+    },
+    {
+      "id": 161,
+      "word": "Ahishahar",
+      "etym": "Heb.",
+      "mibDef": "brother of dawn; brother of the dawn, i. e., early.",
+      "mibMeta": "The breaking forth of new light into consciousness ( brother of dawn- that which is unified with light, understanding) .",
+      "candidates": []
+    },
+    {
+      "id": 162,
+      "word": "Ahishar",
+      "etym": "Heb.",
+      "mibDef": "brother of song; (my) brother is song; brother of the upright, i. e.,",
+      "mibMeta": "The harmony and order (brother of song, brother of the upright, i. e., righteousness) that prevail in the consciousness when peace has been established by the union of wisdom and love, or, the blending of love (David) into wisdom (Solomon).",
+      "candidates": [
+        {
+          "s": "H301",
+          "def": "Achishar, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "word": "Ahithophel",
+      "etym": "Heb .",
+      "mibDef": "foolish brother; brother of foolishness, i. e., foolish; brother of",
+      "mibMeta": "The history of Ahithophel as given in the Bible, together with the meaning of the name, shows him to be a good example of the utter foolishness of the highest worldly or intellectual wisdom when it is compared with true spiritual understanding. In his ill treatment of David and in his suicide which ",
+      "candidates": [
+        {
+          "s": "H302",
+          "def": "Achithophel, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "word": "Ahitub",
+      "etym": "Heb.",
+      "mibDef": "brother of goodness, or benignity, i. e., benign.",
+      "mibMeta": "A conception of the truth that God (Spirit) is good only and that He expresses in individual consciousness as kindness and goodness (brother of goodness, benignity, benign). Ahlab, ah'-lab (Heb.)-- fat; fruitful place; fertile. A city of Canaan that was allotted to the tribe of Asher. Asher, however",
+      "candidates": [
+        {
+          "s": "H285",
+          "def": "Achitub, the name of several priests"
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "word": "Ahlai",
+      "etym": "Heb.",
+      "mibDef": "Oh that! would God ! an intense wish; ornamental.",
+      "mibMeta": "An inner or soul desire for a more positive (masculine) expression of truth ( Oh that ! would God ! an intense wish; ornamental; an Israelitish woman). This desire was realized in due time. Attai, the son of Ahlai, means timely, opportune, seasonable.",
+      "candidates": []
+    },
+    {
+      "id": 166,
+      "word": "Ahoah",
+      "etym": "Heb.",
+      "mibDef": "brother's reed; brotherly; living brother; brother, i. e., friend ofJah.",
+      "mibMeta": "See AHI and AHHAH.",
+      "candidates": []
+    },
+    {
+      "id": 167,
+      "word": "Ahumai",
+      "etym": "Heb.",
+      "mibDef": "heated by Jah; brother of water; water reeds; cowardly; indolent.",
+      "mibMeta": "A negative state of mind caused by too much denial, a letting go and a letting down in thought ( brother of water, cowardly, indolent). Courage is needed, and greater enthusiasm (heated by Jah), that a positive laying hold of good may lift the consciousness to spiritual activity and accomplishment.",
+      "candidates": []
+    },
+    {
+      "id": 168,
+      "word": "Ahuzzam (A. V.",
+      "etym": "Heb.",
+      "mibDef": "their possession; holding fast; possessions.",
+      "mibMeta": "The ability to perceive, acquire, and possess (their possession, holding fast, possessions), belonging to the Judah faculty of mind. Ahzai (A. V., Ahasai), ah'-zai (Heb.) --my holder; protector; whom Jehovah holds; whom Jehovah upholds. A priest of Israel (Neh. 1 1 : 13); a form of the name Ahaziah.",
+      "candidates": []
+    },
+    {
+      "id": 169,
+      "word": "Ahuzzath",
+      "etym": "Heb.",
+      "mibDef": "holding fast; a possession; possessions.",
+      "mibMeta": "The selfishness of the unregenerate will (Ahimelech) in its belief that it is the rightful ruler of man and that the substance and the forces of man's being are for its own sense desires. Having witnessed the ever increasing power and possessions of Isaac (who is a symbol of the divine sonship), Abi",
+      "candidates": [
+        {
+          "s": "H276",
+          "def": "Achuzzath, a Philistine"
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "word": "Ai",
+      "etym": "Heb.",
+      "mibDef": "the heap; a heap of rubbish; heap of ruins.",
+      "mibMeta": "Ai is mentioned in the Bible with Bethel. In Joshua 8, much is written about the utter destruction of Ai, but nothing is said about Bethel's being destroyed, though both at that time were cities of the Canaanites. We are told that Jacob named Bethel house of God, when he had the dream that caused hi",
+      "candidates": [
+        {
+          "s": "H5857",
+          "def": "Ai, Aja or Ajath, a place in Palestine"
+        },
+        {
+          "s": "H5892",
+          "def": "a city (a place guarded by waking or a watch) in the widest sense (even of a mere encampment or post)"
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "word": "Aiah",
+      "etym": "Heb.",
+      "mibDef": "a cry; a clamor; a hawk; vulture.",
+      "mibMeta": "Destructive, devouring thoughts pertaining to the animal consciousness and to what should be the higher thought realm in the individual (a cry, a clamor, a hawk, a vulture; an Israelite and a Horite) .",
+      "candidates": [
+        {
+          "s": "H345",
+          "def": "Ajah, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "word": "Aijalon",
+      "etym": "Heb .",
+      "mibDef": "place of",
+      "mibMeta": "Dan and Zebulun refer to phases of order, judgment, and intelligent discrimination in the consciousness. Joshua commanded the moon to stand still in the Valley of Aijalon while the Israelites completed their destruction of the Amorites. Aijalon therefore has to do with intellectual or reflected thou",
+      "candidates": [
+        {
+          "s": "H357",
+          "def": "Ajalon, the name of five places in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "word": "Ain",
+      "etym": "",
+      "mibDef": "eye; a (natural) fountain; a fountain, literally, an eye.",
+      "mibMeta": "Praise (Judah) of our natural religious tendencies (Levites) and hearing of, or obedience (Simeon) to, them open the way for discernment (eye) of spiritual Truth. Light, love, and Truth enter a person's consciousness and become in him a fountain (Ain) of living water. \"The water that I shall give hi",
+      "candidates": [
+        {
+          "s": "H5871",
+          "def": "Ajin, the name (thus simply) of two places in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "word": "air",
+      "etym": "",
+      "mibDef": "The deific breath of God. It symbolizes a purifying, vitalizing power that revives and makes",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3772",
+          "def": "the sky; by extension, heaven (as the abode of God); by implication, happiness, power, eternity; specially, the Gospel (Christianity)"
+        },
+        {
+          "s": "H8064",
+          "def": "the sky (as aloft; the dual perhaps alluding to the visible arch in which the clouds move, as well as to the higher ether where the celestial bodies revolve)"
+        },
+        {
+          "s": "H7307",
+          "def": "wind; by resemblance breath, i.e., a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)"
+        },
+        {
+          "s": "G109",
+          "def": "\"air\" (as naturally circumambient)"
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "word": "Akan",
+      "etym": "Heb.",
+      "mibDef": "keen; acute; twisted; warped; pen’erted; keen of vision.",
+      "mibMeta": "A ruling thought, or at least a very strong, influential thought, in the sense consciousness. This thought aids in diverting the individual from the Truth, and causes much trouble in the flesh. It is acute, and is quick to perceive (keen) on the sense plane, but is blind (warped, twisted) to the rea",
+      "candidates": []
+    },
+    {
+      "id": 176,
+      "word": "Akeldama (A. V.",
+      "etym": "Gk. fr. Aram .",
+      "mibDef": "field of blood; portion of blood.",
+      "mibMeta": "Judas carried the bag from which the disciples drew the funds to meet their physical needs. A portion of the substance that supports our organism is extracted in a very intricate manner from the food that we eat. From mouth to stomach, to blood, to nerve fluid it is refined step by step to the highe",
+      "candidates": []
+    },
+    {
+      "id": 177,
+      "word": "Akkub",
+      "etym": "Hcb.",
+      "mibDef": "to take by the heel; to lie in wait; cunning; insidious.",
+      "mibMeta": "Akkub, though it suggests deceit and craftiness (to take by the heel; ALEXANDER cunning; to lie in wait; insidious), has reference, like Jacob, to the subtle working of sense mind in the progression of the individual toward spiritual consciousness.",
+      "candidates": []
+    },
+    {
+      "id": 178,
+      "word": "Akrabbim",
+      "etym": "Heb .",
+      "mibDef": "scorpions; scourges; wounds the heel; the going up, in sense of",
+      "mibMeta": "South always means below, in Biblical symbology, and often refers to the subconscious. Akrabbim, in .Judges 1:36, is said to have been a border of the territory of the Amorites. It represents the passing up, in consciousness, out of the realm of the Amorites (the error race belief in",
+      "candidates": []
+    },
+    {
+      "id": 179,
+      "word": "alchemy",
+      "etym": "",
+      "mibDef": "Transmutation; changing in action and in character from the mortal into the",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 180,
+      "word": "alcoholism",
+      "etym": "",
+      "mibDef": "A diseased condition brought about by one who, thirsting for the true stimulation of",
+      "mibMeta": "True faith thoughts (Benjamites) developing within the consciousness; an inner unfoldment, or soul progression, that the outer man does not realize ( hiding place, adolescence). (See ALLEMETH.)",
+      "candidates": []
+    },
+    {
+      "id": 181,
+      "word": "Alexander",
+      "etym": "Gk.",
+      "mibDef": "man defender; helper of man; helper of men; defender of men.",
+      "mibMeta": "Alexander refers more to the outer belief in positive mental and physical force (man defender, helper of man) than it does to the true, inner overcoming power of divine love. The thought that he represents, therefore, is as likely to work against the real, spiritual good of man as it is to act for t",
+      "candidates": [
+        {
+          "s": "G223",
+          "def": "Alexander, the name of three Israelites and one other man"
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "word": "Alexandria",
+      "etym": "Gk .",
+      "mibDef": "of Alexander; from Alexander.",
+      "mibMeta": "Alexandria denotes a phase- of the intellect that rules the body consciousness at a certain stage of man's unfoldment, until the position of rulership is given over to the rightful ruler in man, his spiritual I AM, or Christ. In this phase of the intellectual realm, which Alexandria signifies,",
+      "candidates": [
+        {
+          "s": "G222",
+          "def": "Alexandrine, or belonging to Alexandria"
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "word": "all appearances as indicated by the five senses",
+      "etym": "",
+      "mibDef": "the Spirit from which was",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G3956",
+          "def": "all, any, every, the whole"
+        },
+        {
+          "s": "G3650",
+          "def": "\"whole\" or \"all\", i.e., complete (in extent, amount, time or degree), especially (neuter) as noun or adverb"
+        },
+        {
+          "s": "H3606",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G537",
+          "def": "absolutely all or (singular) every one"
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "word": "all divine ideas",
+      "etym": "",
+      "mibDef": "such as love, life, substance, and intelligence-are eternal and omnipresent, they are not",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G3956",
+          "def": "all, any, every, the whole"
+        },
+        {
+          "s": "G3650",
+          "def": "\"whole\" or \"all\", i.e., complete (in extent, amount, time or degree), especially (neuter) as noun or adverb"
+        },
+        {
+          "s": "H3606",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G537",
+          "def": "absolutely all or (singular) every one"
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "word": "all material",
+      "etym": "",
+      "mibDef": "which is the same name as John— and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G3956",
+          "def": "all, any, every, the whole"
+        },
+        {
+          "s": "G3650",
+          "def": "\"whole\" or \"all\", i.e., complete (in extent, amount, time or degree), especially (neuter) as noun or adverb"
+        },
+        {
+          "s": "H3606",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G537",
+          "def": "absolutely all or (singular) every one"
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "word": "Allammelech (A. V.",
+      "etym": "Heb.",
+      "mibDef": "king's oak.",
+      "mibMeta": "A state of consciousness in man that realizes that \"the joy of Jehovah\" is his fortress and strength ( the king's oak; a place in Asher, Asher meaning happy). An oak tree stands for something very strong and protective; it signifies the defense of the Almighty.",
+      "candidates": []
+    },
+    {
+      "id": 187,
+      "word": "allegiance to the Father",
+      "etym": "",
+      "mibDef": "The consciousness that divine wisdom is guiding the universe and man,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 188,
+      "word": "Allemeth",
+      "etym": "Heb .",
+      "mibDef": "place of concealment; hiding place; covering,",
+      "mibMeta": "An inner development, or soul progression. The outer man does not know that this",
+      "candidates": []
+    },
+    {
+      "id": 189,
+      "word": "Allon",
+      "etym": "Heb.",
+      "mibDef": "oak; an oak.",
+      "mibMeta": "A realization of protection and strength (oak). Allon-bacuth, al'-lon-bae'-uth (Heb.) -oak of weeping. The oak tree under which Rebekah's nurse, Deborah, was buried (Gen. 35:8). Weeping is an expression of emotion, a negative condition, a letting go throughout the organism. Rebekah's nurse, Deborah ",
+      "candidates": [
+        {
+          "s": "H438",
+          "def": "Allon, an Israelite, also a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "word": "Almodad",
+      "etym": "Heb .",
+      "mibDef": "incommensurate ; immeasurable; measure of God; agitated; the",
+      "mibMeta": "A certain discernment of the boundless possibilities that are open to man if he makes practical application of Truth (immeasurable, measure of God). This understanding, however, proves to be a disturbing element (agitated) in the consciousness because it is not definite enough or held strongly enoug",
+      "candidates": []
+    },
+    {
+      "id": 191,
+      "word": "Almon",
+      "etym": "Heb.",
+      "mibDef": "hiding place; hidden.",
+      "mibMeta": "See ALLEMETH.",
+      "candidates": [
+        {
+          "s": "H5960",
+          "def": "Almon, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "word": "Almon-diblathaim",
+      "etym": "Heb.",
+      "mibDef": "hiding of two fig cakes; hiding of troubles.",
+      "mibMeta": "Figs, or fig trees, are a symbol of prosperity. Figs are also representative of the seed of man. This seed in its original essence is mind energy, and when ideas are related purely to Divine Mind the seed of man is the life stream in its original purity. Man's original sin is the misappropriation of",
+      "candidates": []
+    },
+    {
+      "id": 193,
+      "word": "alone",
+      "etym": "",
+      "mibDef": "the belief that in the regenerate state we are to be like Jesus, who became Christ",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H905",
+          "def": "properly, separation; by implication, a part of the body, branch of a tree, bar for carrying; figuratively, chief of a city; especially (with prepositional prefix) as an adverb, apart, only, besides"
+        },
+        {
+          "s": "H910",
+          "def": "separate; adverb, separately"
+        },
+        {
+          "s": "H259",
+          "def": "properly, united, i.e., one; or (as an ordinal) first"
+        },
+        {
+          "s": "H909",
+          "def": "to divide, i.e., (reflexive) be solitary"
+        },
+        {
+          "s": "H7503",
+          "def": "to slacken (in many applications, literal or figurative)"
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "word": "altar",
+      "etym": "",
+      "mibDef": "Stabilized place of worship. A fixed, definite center in consciousness; the place in",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4196",
+          "def": "an altar"
+        },
+        {
+          "s": "G2379",
+          "def": "a place of sacrifice, i.e., an altar (special or genitive case, literal or figurative)"
+        },
+        {
+          "s": "H741",
+          "def": "the altar of the temple"
+        },
+        {
+          "s": "H5014",
+          "def": "to pierce; to be hollow, or (figuratively) foolish"
+        },
+        {
+          "s": "H854",
+          "def": "properly, nearness (used only as a preposition or an adverb), near; hence, generally, with, by, at, among, etc"
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "word": "altar",
+      "etym": "",
+      "mibDef": "Represents the generative life.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4196",
+          "def": "an altar"
+        },
+        {
+          "s": "G2379",
+          "def": "a place of sacrifice, i.e., an altar (special or genitive case, literal or figurative)"
+        },
+        {
+          "s": "H741",
+          "def": "the altar of the temple"
+        },
+        {
+          "s": "H5014",
+          "def": "to pierce; to be hollow, or (figuratively) foolish"
+        },
+        {
+          "s": "H854",
+          "def": "properly, nearness (used only as a preposition or an adverb), near; hence, generally, with, by, at, among, etc"
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "word": "altar",
+      "etym": "",
+      "mibDef": "Symbolizes the establishing of permanent resolutions of purity and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4196",
+          "def": "an altar"
+        },
+        {
+          "s": "G2379",
+          "def": "a place of sacrifice, i.e., an altar (special or genitive case, literal or figurative)"
+        },
+        {
+          "s": "H741",
+          "def": "the altar of the temple"
+        },
+        {
+          "s": "H5014",
+          "def": "to pierce; to be hollow, or (figuratively) foolish"
+        },
+        {
+          "s": "H854",
+          "def": "properly, nearness (used only as a preposition or an adverb), near; hence, generally, with, by, at, among, etc"
+        }
+      ]
+    },
+    {
+      "id": 197,
+      "word": "altar",
+      "etym": "",
+      "mibDef": "A yearning to know the unrevealed Spirit and a reaching out for a",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4196",
+          "def": "an altar"
+        },
+        {
+          "s": "G2379",
+          "def": "a place of sacrifice, i.e., an altar (special or genitive case, literal or figurative)"
+        },
+        {
+          "s": "H741",
+          "def": "the altar of the temple"
+        },
+        {
+          "s": "H5014",
+          "def": "to pierce; to be hollow, or (figuratively) foolish"
+        },
+        {
+          "s": "H854",
+          "def": "properly, nearness (used only as a preposition or an adverb), near; hence, generally, with, by, at, among, etc"
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "word": "alternate between good and evil",
+      "etym": "",
+      "mibDef": "To swing the mind from good to evil and vice versa, with",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 199,
+      "word": "Alush",
+      "etym": "Heb.",
+      "mibDef": "wild place; desolation; crowd.",
+      "mibMeta": "A worldly active, undisciplined phase of the mentality (wilderness, wild place, crowd ) that has to be met and overcome by the children of Israel (true thoughts) before the Promised Land can be entered. If allowed to continue its ignorant activities, the state of mind that Alush represents will brin",
+      "candidates": []
+    }
+  ]
+}

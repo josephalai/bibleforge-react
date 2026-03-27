@@ -1,0 +1,1089 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "11 of 37",
+  "_entry_range": "ids 1000–1099",
+  "entries": [
+    {
+      "id": 1000,
+      "word": "Elath",
+      "etym": "Heb.",
+      "mibDef": "oak trees; terebinth trees; grove of strong trees; palm grove; aggregation",
+      "mibMeta": "A strengthening of the whole nervous system (aggregation of strength, oak trees). A tree is a connecting link between the heavens and the earth, the formless and the formed. The nervous system in man connects the spiritual and the physical; it is in very close union with the mental thoughts,",
+      "candidates": [
+        {
+          "s": "H359",
+          "def": "Eloth or Elath, a place on the Red Sea"
+        }
+      ]
+    },
+    {
+      "id": 1001,
+      "word": "Eldaah",
+      "etym": "Heb ,",
+      "mibDef": "whom God has called; invocation of God; knowledge of God; God of",
+      "mibMeta": "A central thought that, although it belongs to the sense phase of man's consciousness, responds in measure to the quickening presence of Spirit (whom God has called). It perceives that God is the source of understanding (God of understanding, wisdom of God) yet it does not bring forth definite fruit",
+      "candidates": []
+    },
+    {
+      "id": 1002,
+      "word": "Eldad",
+      "etym": "Heb.",
+      "mibDef": "whom God loveth; loved of God; stirred by God",
+      "mibMeta": "The love of God, or the perception of God as love. Belief in law (Moses) in its apparently hard aspect of cause and effect, and its outer \"thou shalt,\" and \"thou shalt not,\" is not sufficient to meet the needs of our thought people. A knowledge of God as love is necessary, that a right adjustment ma",
+      "candidates": [
+        {
+          "s": "H419",
+          "def": "Eldad, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1003,
+      "word": "Eleadah",
+      "etym": "Heb.",
+      "mibDef": "whom God puts on, i.e., fills and dons with Himself; whom God",
+      "mibMeta": "The individual will (Ephraim signifies the will) fully unified with and expressing the divine, having the quality of Godlikeness, and being eternal even as God is eternal. (The name Eleadah is prophetic, as many of the names of the Old Testament are, inasmuch as the Truth for which it stands was not",
+      "candidates": []
+    },
+    {
+      "id": 1004,
+      "word": "Elealeh",
+      "etym": "Heb.",
+      "mibDef": "whither God ascends; whereto God arises; ascent of God; God is",
+      "mibMeta": "A state of consciousness that, though of Moab (carnal mind), exalts God, Spirit, Truth, and so passes into the possession of the Reubenites, who signify discernment, sight, faith. This state of consciousness is thus reestablished on a higher basis. It is the seemingly good in the carnal mind that ca",
+      "candidates": []
+    },
+    {
+      "id": 1005,
+      "word": "Eleasah",
+      "etym": "Heb.",
+      "mibDef": "God is maker; whom God has made; God is creator.",
+      "mibMeta": "The recognition by the individual that God, Spirit, is the source of deliverance, strength, healing, and of true greatness in both the inner and the outer man (God is maker, whom God has made, God is creator). Helez signifies deliverance and strength through praise (Judah). Raphah gives the thought ",
+      "candidates": [
+        {
+          "s": "H501",
+          "def": "Elasah, the name of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1006,
+      "word": "Eleazar",
+      "etym": "Heb .",
+      "mibDef": "God has surrounded; God succors; God is helper; whom God has",
+      "mibMeta": "Spiritual strength through the individual's recognition of God as his supporting, sustaining power ( God is helper). This becomes the presiding, directive faculty of a new state of consciousness. (See AARON.)",
+      "candidates": [
+        {
+          "s": "H499",
+          "def": "Elazar, the name of seven Israelites"
+        },
+        {
+          "s": "G1648",
+          "def": "Eleazar, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1007,
+      "word": "elements of the world",
+      "etym": "",
+      "mibDef": "a \"bondservant\" (see Galatians 4:1,3)— but is getting hold of the idea of sonship",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4747",
+          "def": "something orderly in arrangement, i.e., (by implication) a serial (basal, fundamental, initial) constituent (literally), proposition (figuratively)"
+        }
+      ]
+    },
+    {
+      "id": 1008,
+      "word": "Eleph",
+      "etym": "Heb.",
+      "mibDef": "union; power; strength; instruction; learning; one thousand, i. e. , a very",
+      "mibMeta": "Union with infinite strength, through understanding and faith. (An ox stands for physical strength; Benjamin relates to an active faith; learning bespeaks understanding.)",
+      "candidates": []
+    },
+    {
+      "id": 1009,
+      "word": "Elhanan",
+      "etym": "Heb.",
+      "mibDef": "God is gracious; grace of God; whom God has bestowed;",
+      "mibMeta": "A gracious, kindly, loving attitude of mind that emanates from God, Spirit, and is established in substance (Beth-lehem). This gives courage and fearlessness in combating seeming error.",
+      "candidates": [
+        {
+          "s": "H445",
+          "def": "Elchanan, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1010,
+      "word": "Eli",
+      "etym": "Heb.",
+      "mibDef": "ascent; summit; apex; a going up; exaltation; supreme; highest; Most High; my",
+      "mibMeta": "The intellect under spiritual discipline. Our first unfoldment is always through the intellect. We get an intellectual concept of Truth and in due season clothe it with substance and life. While Eli (meaning going up, ascent) is typical of the phase of man's consciousness that is always seeking spir",
+      "candidates": [
+        {
+          "s": "H5941",
+          "def": "Eli, an Israelite highpriest"
+        }
+      ]
+    },
+    {
+      "id": 1011,
+      "word": "Eliab",
+      "etym": "Heb.",
+      "mibDef": "God is Father; strength of the Father.",
+      "mibMeta": "That in our religious and spiritual nature which takes cognizance of the Author of being (God is Father) as the source of strength (strength of the Father). We are apt to think of outer manifestation rather than of inner spiritual capacities. Samuel thought that Eliab, the first son of Jesse and eld",
+      "candidates": [
+        {
+          "s": "H446",
+          "def": "Eliab, the name of six Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1012,
+      "word": "Eliada",
+      "etym": "Heb.",
+      "mibDef": "God knows; God of knowledge; power of understanding; known of",
+      "mibMeta": "Ian's awakening, through the consciousness of love and active faith (David and Benjamin), to the understanding that God, Divine Mind, is the source of all knowing, of all knowledge. The loving (David) thought in this awakening bespeaks the idea that God cares, as well as knows.",
+      "candidates": [
+        {
+          "s": "H450",
+          "def": "Eljada, the name of two Israelites and of an Aramaean leader"
+        }
+      ]
+    },
+    {
+      "id": 1013,
+      "word": "Eliahba",
+      "etym": "Heb.",
+      "mibDef": "God hides; whom God conceals; hidden by God.",
+      "mibMeta": "The concealing of divine love in consciousness from its enemies, the sense thoughts, desires, and activities of the carnal mind. By the wisdom and cunning of the outer senses (Shaalbim, whence Eliahba came, and meaning place of foxes) we cannot search out God or come into an understanding of our div",
+      "candidates": [
+        {
+          "s": "H455",
+          "def": "Eljachba, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1014,
+      "word": "Eliakim",
+      "etym": "Heb .",
+      "mibDef": "God sets up; whom God has established; God of raising, i.e., in",
+      "mibMeta": "The will (which is of God) taking command. This command may be of oneself or of others; also a rising from a negative attitude of thoughts and a becoming positive in one's judgment (God sets up, God of raising, i.e., in judgment, raised of God, whom God has established). All power to be or to do is ",
+      "candidates": [
+        {
+          "s": "H471",
+          "def": "Eljakim, the name of four Israelites"
+        },
+        {
+          "s": "G1662",
+          "def": "Eliakim, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1015,
+      "word": "Eliam",
+      "etym": "Heb.",
+      "mibDef": "GW of the people; God's people; who are the people of God.",
+      "mibMeta": "Our true thoughts are God's people. They are gathered together and established in consciousness by divine light and power.",
+      "candidates": [
+        {
+          "s": "H463",
+          "def": "Eliam, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1016,
+      "word": "Eliasaph",
+      "etym": "Heb .",
+      "mibDef": "God adds; God increases; whom God enlarges, i.e., adds to;",
+      "mibMeta": "God, Divine Mind, is the power that increases and multiplies true ideas in consciousness. Our ability, or power, to concentrate, to gather our ideas and centralize them, control",
+      "candidates": [
+        {
+          "s": "H460",
+          "def": "Eljasaph, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1017,
+      "word": "Eliashib",
+      "etym": "",
+      "mibDef": "God restores; whom God restores; God of restitution ; requited of",
+      "mibMeta": "The men named Eliashib signify thoughts in the religious and spiritual nature of man that assure him of his ultimate return to the original sinless, whole, perfect state ( God restores , God of restitution) in which he was created— idealized in the mind of the Father-Mother God. These men also signi",
+      "candidates": [
+        {
+          "s": "H475",
+          "def": "Eljashib, the name of six Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1018,
+      "word": "Eliathah",
+      "etym": "Heb .",
+      "mibDef": "God has come; God is come; to whom God comes.",
+      "mibMeta": "A realization and expression of the presence of God as divine harmony ( God is come; a musician or singer).",
+      "candidates": []
+    },
+    {
+      "id": 1019,
+      "word": "Elidad",
+      "etym": "Heb.",
+      "mibDef": "God is love; God loves; loved of God; God's beloved; God nourishes.",
+      "mibMeta": "A keen discrimination and insight into Truth, and into man's relation to the various phases of Truth. This spiritual insight is the product of an active faith (Benjamin) and love ( God is love, God loves) working in unison in man's consciousness; it is a great factor in helping to establish in their",
+      "candidates": [
+        {
+          "s": "H449",
+          "def": "Elidad, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1020,
+      "word": "Eliehoenai (A.V.",
+      "etym": "Heb.",
+      "mibDef": "unto Jehovah are mine eyes; toward Jah are",
+      "mibMeta": "The turning of the attention from the outer world of manifestation to Jehovah, the Christ, or Father within one, as the power that delivers from sense bondage and saves to the uttermost— brings again to the Promised Land.",
+      "candidates": []
+    },
+    {
+      "id": 1021,
+      "word": "Eliel",
+      "etym": "Heb.",
+      "mibDef": "my God is God; God of gods; power of God; exaltation God.",
+      "mibMeta": "The strength, the power, the almightiness of God.",
+      "candidates": [
+        {
+          "s": "H447",
+          "def": "Eliel, the name of nine Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1022,
+      "word": "Elienai",
+      "etym": "",
+      "mibDef": "unto Jehovah are mine eyes; toward Jehovah are my eyes; to Jehovah",
+      "mibMeta": "The attention turned to Jehovah as the saving power of man. (See ELIEHOENAI.)",
+      "candidates": []
+    },
+    {
+      "id": 1023,
+      "word": "Eliezer",
+      "etym": "Heb.",
+      "mibDef": "God of help; God my help; God of succor; God is help.",
+      "mibMeta": "A belief in God as one's sustaining power, as the power that relieves one in distress and assists one to better conditions and to higher attainments ( God my help God is help; see Exod. 18:4)",
+      "candidates": [
+        {
+          "s": "H461",
+          "def": "Eliezer, the name of a Damascene and of ten Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1024,
+      "word": "Elihoreph",
+      "etym": "Heb.",
+      "mibDef": "autumn God; God of autumn; God of harvest; God my",
+      "mibMeta": "God is the power that brings our thoughts to fruition. He is the source of our bountiful supply and the power by which our good is gathered to us— is made manifest for our use.",
+      "candidates": [
+        {
+          "s": "H456",
+          "def": "Elichoreph, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1025,
+      "word": "Elihu",
+      "etym": "Heb.",
+      "mibDef": "my God is that which is; whose God is He; my God is He; God is He i.e.,",
+      "mibMeta": "Elihu of the book of Job represents the Holy Spirit. The name Elihu also signifies the recognition by man that his true inner self is Spirit.",
+      "candidates": [
+        {
+          "s": "H453",
+          "def": "Elihu, the name of one of Job's friends, and of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1026,
+      "word": "Elijah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah is God; my God is Jah;",
+      "mibMeta": "The spiritual I AM of man's consciousness. Elijah on Mount Carmel (I Kings 18:19) represents the I AM in realization of its unfettered power. Elijah championed the cause of God with such enthusiasm that he became violent and destructive. This was the Jezebel side of his character. But he was willing",
+      "candidates": [
+        {
+          "s": "H452",
+          "def": "Elijah, the name of the famous prophet and of two other Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1027,
+      "word": "Elika",
+      "etym": "Heb.",
+      "mibDef": "God is rejecter; God his rejecter; rejected of God.",
+      "mibMeta": "Elimination of fear (a Harodite is a native of Harod, or one belonging to Harod, and Harod means fear, terror , trembling). It is fear that is rejected of God, or in other words is eliminated by Truth. elimination— (see renunciation)",
+      "candidates": [
+        {
+          "s": "H470",
+          "def": "Elika, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1028,
+      "word": "Elim",
+      "etym": "Heb.",
+      "mibDef": "terebinths; palm trees; trees; oaks.",
+      "mibMeta": "A realization of fullness of life, strength, and cleansing Truth for the whole man; also a realization of victory (twelve is a number representing fullness in the spiritual. Springs of water stand for life and cleansing; oaks signify strength and protection; and palm trees denote victory).",
+      "candidates": [
+        {
+          "s": "H362",
+          "def": "Elim, a place in the Desert"
+        }
+      ]
+    },
+    {
+      "id": 1029,
+      "word": "Elimelech",
+      "etym": "Heb.",
+      "mibDef": "God is king; God the king; my God is king.",
+      "mibMeta": "The consciousness of the soul (Naomi) that God is king. (See NAOMI and CHILION.)",
+      "candidates": [
+        {
+          "s": "H458",
+          "def": "Elimelek, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1030,
+      "word": "Elimination",
+      "etym": "",
+      "mibDef": "Thaddaeus— lower part of back.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1031,
+      "word": "Elioenai",
+      "etym": "Heb.",
+      "mibDef": "to Jah are mine eyes; toward Jehovah are my eyes.",
+      "mibMeta": "Thoughts of the religious or spiritual consciousness looking Godward— beholding Jehovah, Christ, within one. \"Look unto me, and be ye saved, all the ends of the earth; for I am God, and there is none else\" (Isa. 45:22). \"Thou wilt keep him in perfect peace, whose mind is stayed on thee\" (Isa. 26:3).",
+      "candidates": [
+        {
+          "s": "H454",
+          "def": "Eljehoenai or Eljoenai, the name of seven Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1032,
+      "word": "Eliphaz",
+      "etym": "Heb .",
+      "mibDef": "God is purification; God is dispenser; God of strength; whom God",
+      "mibMeta": "Teman refers to the southern quarter , or subconscious realm in man. Eliphaz the Temanite signifies a thought of strength and of purification that springs from the subconsciousness. This thought, however, does not measure up to spiritual Truth: Eliphaz did not prove himself able to help Job. But the",
+      "candidates": [
+        {
+          "s": "H464",
+          "def": "Eliphaz, the name of one of Job's friends, and of a son of Esau"
+        }
+      ]
+    },
+    {
+      "id": 1033,
+      "word": "Eliphelehu (A.V.",
+      "etym": "Heb .",
+      "mibDef": "whom God makes distinguished;",
+      "mibMeta": "He who is consecrated to God in thought and act is in turn exalted by God, is distinguished above his fellows. This is true also of our inner thoughts and activities that give their love and substance to the building up of our spiritual consciousness; they produce a harmony, a joy, and a melody that",
+      "candidates": []
+    },
+    {
+      "id": 1034,
+      "word": "Eliphelet",
+      "etym": "Heb.",
+      "mibDef": "God is deliverance; God is",
+      "mibMeta": "Deliverance from error and its results— salvation— is from God; it is accomplished by the power of Spirit. It is not by personal might or power that we are enabled to obtain the good that is our divine birthright, \"but by my Spirit, saith Jehovah of hosts\" (Zech. 4:6).",
+      "candidates": [
+        {
+          "s": "H467",
+          "def": "Eliphelet or Elpelet, the name of six Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1035,
+      "word": "Elisabeth",
+      "etym": "Gk. from Heb.",
+      "mibDef": "my God is ml oath, i.e., a worshiper of God; God of the",
+      "mibMeta": "The soul in the feminine or love consciousness. (See ELISHEBA.)",
+      "candidates": [
+        {
+          "s": "G1665",
+          "def": "Elisabet, an Israelitess"
+        }
+      ]
+    },
+    {
+      "id": 1036,
+      "word": "Elisha (A.V.",
+      "etym": "Heb.",
+      "mibDef": "God is a savior; to whom God gives",
+      "mibMeta": "Spiritual I AM. The double portion of Elijah's spirit for which Elisha asked is the positive and negative, or \"yes\" and \"no,\" of Truth. Elisha, the tender, retiring one, needs the ability to say yes and no with all the positiveness of Elijah. He can have this only by perceiving the true character of",
+      "candidates": [
+        {
+          "s": "H477",
+          "def": "Elisha, the famous prophet"
+        }
+      ]
+    },
+    {
+      "id": 1037,
+      "word": "Elishah",
+      "etym": "Heb .",
+      "mibDef": "God firmly establishes; God sets upright; uprightness of God; God",
+      "mibMeta": "Even the human reasoning in man acknowledges that God is the saving power of His people (Japheth refers to the intellect, or reason, in man). Javan means clayey soil, productiveness, as it relates to the physical and material. The intellectual powers of man are human and they are deceiving, yet they",
+      "candidates": [
+        {
+          "s": "H473",
+          "def": "Elishah, a son of Javan"
+        }
+      ]
+    },
+    {
+      "id": 1038,
+      "word": "Elishama",
+      "etym": "Heb.",
+      "mibDef": "whom God hears; God of hearing, i. e. , understanding; God is",
+      "mibMeta": "The inner assurance that God hears and answers the true desires of His people, and that Spirit is the source of true understanding.",
+      "candidates": [
+        {
+          "s": "H476",
+          "def": "Elishama, the name of seven Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1039,
+      "word": "Elishaphat",
+      "etym": "Heb.",
+      "mibDef": "God of judgment; whom God judges; whom God sets upright;",
+      "mibMeta": "Spiritual judgment and adjustment active in the inner life force of man's organism (the kingdom of Judah represents the inner life force, or vitality).",
+      "candidates": [
+        {
+          "s": "H478",
+          "def": "Elishaphat, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1040,
+      "word": "Elisheba",
+      "etym": "Heb.",
+      "mibDef": "my God is my oath, i. e. , a worshiper of God; God of the seven;",
+      "mibMeta": "The full assurance in the soul or feminine, love consciousness, that God is a God of Truth and keeps His promises to man; in other words, the inner conviction of the soul that the working out of the law of life and Truth in man's consciousness is inevitable and sure.",
+      "candidates": []
+    },
+    {
+      "id": 1041,
+      "word": "Elishua",
+      "etym": "Heb.",
+      "mibDef": "God is a savior; to who God gives salvation; God of deliverance; to",
+      "mibMeta": "The understanding of love (David) that true riches are from Spirit; also that deliverance from all error, and help of every kind that pertains to salvation, are from the same source. (See ELISHAMA.)",
+      "candidates": []
+    },
+    {
+      "id": 1042,
+      "word": "Eliud",
+      "etym": "Heb.",
+      "mibDef": "God of Judah: God of the Jews; God of majesty; God of celebration; God",
+      "mibMeta": "Praise and exaltation of God, Spirit, as being in authority, as being King of Kings and Lord of Lords. This attitude of mind is necessary that the Christ may be born into one's consciousness.",
+      "candidates": [
+        {
+          "s": "G1664",
+          "def": "God of majesty; Eliud, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1043,
+      "word": "Elizaphan",
+      "etym": "Heb.",
+      "mibDef": "God of the left side, i.e., the north; God of the hidden; God of",
+      "mibMeta": "The inner assurance of divine protection and safety through putting away error and doing right (cleansing the Temple).",
+      "candidates": [
+        {
+          "s": "H469",
+          "def": "Elitsaphan or Eltsaphan, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1044,
+      "word": "Elizur",
+      "etym": "Heb.",
+      "mibDef": "God is a rock; God is a refuge, i.e., stable, sure, a bulwark of strength.",
+      "mibMeta": "The spiritual insight that discerns God as a rock, a sure, immovable foundation of strength, protection, and Truth, upon which man builds his spiritual consciousness, to eternal life and peace. Reuben is faith in its aspect of discernment, sight; Shedeur, father of Elizur, means shedder of light.)",
+      "candidates": [
+        {
+          "s": "H468",
+          "def": "Elitsur, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1045,
+      "word": "Elkanah",
+      "etym": "Heb.",
+      "mibDef": "whom God has founded; God has created; possessed of God;",
+      "mibMeta": "The understanding by man that he is from God, that his inheritance is from God, that he does not selfishly own anything, but that God possesses all and all that the Father has is man's.",
+      "candidates": [
+        {
+          "s": "H511",
+          "def": "Elkanah, the name of several Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1046,
+      "word": "Elkoshite",
+      "etym": "Heb.",
+      "mibDef": "bowed of God; my bow is God; inclined of God.",
+      "mibMeta": "My defense, might, power, are of God, Spirit (m bow is God; a bow represents the power of the will to act and to direct the consciousness). My willingness to do God's will is also the result of the activity of Spirit in my consciousness ( inclined of God).",
+      "candidates": []
+    },
+    {
+      "id": 1047,
+      "word": "Ellasar",
+      "etym": "Heb.",
+      "mibDef": "strong rebellion; oath of Assyria; oak of Assyria.",
+      "mibMeta": "A state of consciousness whose central, controlling thought and belief is that for which Arioch stands. (See ARIOCH.) It does not look to Spirit for its strength and power, but trusts in \"the mind of the flesh.\"",
+      "candidates": []
+    },
+    {
+      "id": 1048,
+      "word": "Elmadam (A.V.",
+      "etym": "Gk. from Heb.",
+      "mibDef": "God's measure; power of extension;",
+      "mibMeta": "The enlarging of the consciousness so that it may comprehend something of the immeasurable greatness of God.",
+      "candidates": []
+    },
+    {
+      "id": 1049,
+      "word": "Elnaam",
+      "etym": "Heb.",
+      "mibDef": "GW is pleasant; sweetness of God; delight of God; beauty of God;",
+      "mibMeta": "The spiritual joy, satisfaction, delight, and fair-minded judgment that adhere to the will ruling in love (David). These qualities of mind aid in supporting and protecting the ruling love idea in consciousness and in causing it to be victorious over opposing sense thoughts and activities.",
+      "candidates": []
+    },
+    {
+      "id": 1050,
+      "word": "Elnathan",
+      "etym": "",
+      "mibDef": "bestowed of God; God gives; given of God; God's gift, i.e.,",
+      "mibMeta": "The conscience that God bestows- the inner intuition, discrimination, and sense of judgment that are given of God to man to enable him to know the right course to pursue and also to know the result of willfulness and disobedience. Elohim God— The original Mind in creative action. El means \"the stron",
+      "candidates": [
+        {
+          "s": "H494",
+          "def": "Elnathan, the name of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1051,
+      "word": "Eloi (in Heb.",
+      "etym": "Aram.",
+      "mibDef": "my God; God; in Aramaic also a contraction of Elias, or",
+      "mibMeta": "The soul in great stress crying out for God.",
+      "candidates": []
+    },
+    {
+      "id": 1052,
+      "word": "Elon",
+      "etym": "Heb.",
+      "mibDef": "strong man; an oak; any embodiment of strength, power, or stability.",
+      "mibMeta": "Thoughts of strength and power. In the case of Elon the Hittite, the thought of strength and power is very material and is not enduring. In the significance of Elon who was a judge of Israel, and the city of Elon that belonged to the Israelitish tribe of Dan, the quality of judgment is also present.",
+      "candidates": [
+        {
+          "s": "H356",
+          "def": "Elon, the name of a place in Palestine, and also of one Hittite, two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1053,
+      "word": "Elon-beth-hanan",
+      "etym": "Heb.",
+      "mibDef": "oak of the house ofHanan; strength of the house of",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1054,
+      "word": "Elonites",
+      "etym": "Heb.",
+      "mibDef": "belonging to Elon.",
+      "mibMeta": "A powerful protective state of consciousness in man that is brought about by his fully trusting in God. (See ELON.)",
+      "candidates": []
+    },
+    {
+      "id": 1055,
+      "word": "Eloth",
+      "etym": "Heb .",
+      "mibDef": "oak or terebinth grove; grove of strong trees.",
+      "mibMeta": "See ELATH.",
+      "candidates": []
+    },
+    {
+      "id": 1056,
+      "word": "Elpaal",
+      "etym": "Heb.",
+      "mibDef": "God works; God's work; wages of God; God's reward.",
+      "mibMeta": "The activity of faith greatly increased in consciousness, and its good results. (Benjamites represent the active faith quality in man, which is the work of God; the wages or reward is a great increase of faith and its activity, and the good that man experiences by acting upon his faith in God, the g",
+      "candidates": []
+    },
+    {
+      "id": 1057,
+      "word": "Elpelet (A.V.",
+      "etym": "Heb.",
+      "mibDef": "God is escape; God is deliverance; deliverance of God.",
+      "mibMeta": "See ELIPHELET. El Shaddai-(see almighty)",
+      "candidates": []
+    },
+    {
+      "id": 1058,
+      "word": "Elteke",
+      "etym": "A.V., Eltekeh, el'-te-ke (Heb.",
+      "mibDef": "observance of God; reverence of God; fear of God;",
+      "mibMeta": "Judgment (signified by Dan) is often looked upon by the outer man as punishment sent to him by a personal God because of his sins; thus he fears God (fear of God). As man unfolds, however, and begins to understand judgment and justice in a clearer light, he reverences divine law and ceases to fear. ",
+      "candidates": []
+    },
+    {
+      "id": 1059,
+      "word": "Eltekon",
+      "etym": "Heb.",
+      "mibDef": "God makes straight; God sets upright, i.e., establishes in order; God's",
+      "mibMeta": "An aggregation of thoughts in consciousness that is based upon divine principle (founded by God). This group of thoughts is centered in the assurance that Principle, God, is perfectly upright, correct, just, unchangeable, and that Spirit constantly works in the universe and man to establish in order",
+      "candidates": []
+    },
+    {
+      "id": 1060,
+      "word": "Eltolad",
+      "etym": "Heb.",
+      "mibDef": "begotten of God; born of God; God's generation.",
+      "mibMeta": "\"As many as received him, to them gave he the right to become children of God, even to them that believe on his name: who were born [begotten, margin], not of blood, nor of the will of the flesh, nor of the will of man, but of God\" (John 1:12, 13). \"Having been begotten again, not of corruptible see",
+      "candidates": []
+    },
+    {
+      "id": 1061,
+      "word": "Elul",
+      "etym": "Heb.",
+      "mibDef": "the gleaning month; vine; outcry.",
+      "mibMeta": "A place of fruition in consciousness (the gleaning month), also the earnest desire of the soul for greater fruitfulness (outcry).",
+      "candidates": []
+    },
+    {
+      "id": 1062,
+      "word": "Eluzai",
+      "etym": "Heb.",
+      "mibDef": "God is my strength; God is my refuge; God is my place of safety.",
+      "mibMeta": "Faith in God as one's strength and as one's protection and vindication. This faith thought (Eluzai was a Benjamite) acts jointly with love (David) in consciousness, while the personal will (Saul) is still being dominated by the selfishness of sense and would kill out the spiritual quality of love if",
+      "candidates": []
+    },
+    {
+      "id": 1063,
+      "word": "Elymas",
+      "etym": "Gk.",
+      "mibDef": "wise; powerful; a Magus; an astrologer; a magician.",
+      "mibMeta": "The sense thought that tries to counterfeit the working of Spirit. Paul had just received a special baptism of the Holy Spirit, with power to express the word of God. When he perceived that sense thought was working in the personality in opposition to the true working of Spirit, he called it to acco",
+      "candidates": [
+        {
+          "s": "G1681",
+          "def": "Elymas, a wizard"
+        }
+      ]
+    },
+    {
+      "id": 1064,
+      "word": "Elzaphan",
+      "etym": "Heb.",
+      "mibDef": "God of the left side, i.e., the north; God of the hidden; God of",
+      "mibMeta": "Thoughts of divine protection and safety. (See ELIZAPHAN.)",
+      "candidates": []
+    },
+    {
+      "id": 1065,
+      "word": "emanate",
+      "etym": "",
+      "mibDef": "\"To issue forth from a source\" (Webster). In Metaphysicalphysics, emanation usually",
+      "mibMeta": "A depressed state of consciousness, caused by a belief in separation from God, the good (vale of the cut-off). It needs to be built up and strengthened by the assurance of man's oneness with the Divine.",
+      "candidates": []
+    },
+    {
+      "id": 1066,
+      "word": "emanates from",
+      "etym": "",
+      "mibDef": "divine intelligence. This wisdom that Me-zahab",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1067,
+      "word": "Emim (A.V.",
+      "etym": "Heb.",
+      "mibDef": "the terrible; formidable people; terrors; objects of terror,",
+      "mibMeta": "Terrors; fears. They are a race of giants in human consciousness. They are the product of man's believing in the outer formed world, and in the conditions that man has built up, as being real and true. In this way belief in a power of evil is established in consciousness and man fears and dreads man",
+      "candidates": []
+    },
+    {
+      "id": 1068,
+      "word": "En-dor",
+      "etym": "Heb .",
+      "mibDef": "fountain of Dor, fount of the dwelling; fount of the habitation; fount of",
+      "mibMeta": "The life faculty in man unified with and activated by generative and psychic sense thought (fount of the habitation, fount of the generation, the home of a woman who had a familiar spirit). As the Israelites, the true, higher thoughts of the individual, grow stronger in the regenerative idea, the Ca",
+      "candidates": [
+        {
+          "s": "H5874",
+          "def": "En-Dor, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1069,
+      "word": "En-eglaim",
+      "etym": "Heb .",
+      "mibDef": "fountain of two calves; well of two calves; perhaps fountain of",
+      "mibMeta": "A great increase of ideas (fish) of life and cleansing (fountain, well) in consciousness, but on the innocent, untried animal plane (calves). energy— The power of God within us to accomplish. Strength or vigor of expression. Internal or inherent power, as of the mind; capacity of acting, or producin",
+      "candidates": []
+    },
+    {
+      "id": 1070,
+      "word": "En-gannim",
+      "etym": "Heb .",
+      "mibDef": "fountain of gardens; fount of organic inclosures; fountain of the",
+      "mibMeta": "Spiritual life and fruitfulness, inherent in and restricted to the consciousness of the individual ( fountain of gardens, fount of organic inclosures, fountain of the hedged fields); thus the expression and manifestation may be very limited or very broad and abundant.",
+      "candidates": []
+    },
+    {
+      "id": 1071,
+      "word": "En-gedi",
+      "etym": "Heb .",
+      "mibDef": "fount of the kid; kid's fountain; fountain of Gad; fountain of fortune.",
+      "mibMeta": "The individual love (David) consciousness, consecrating itself to Spirit and earnestly seeking after, and increasing its realization of, the cleansing, freeing, redeeming Truth of Spirit, water of life; also the joy and power that come to one from a realization of the springing up of the cleansing l",
+      "candidates": []
+    },
+    {
+      "id": 1072,
+      "word": "En-haddah",
+      "etym": "Heb.",
+      "mibDef": "swift fountain; fount of vehemence; sharp fountain; fountain of",
+      "mibMeta": "The springing up of life into consciousness, quickened into greater activity and energy, and lifted to a higher level by the influence of the faculty of zeal (Issachar).",
+      "candidates": []
+    },
+    {
+      "id": 1073,
+      "word": "En-hakkore",
+      "etym": "Heb .",
+      "mibDef": "fount of the crying aloud; the crier's fountain; fount of the",
+      "mibMeta": "The positive affirmative prayer, or demand, that results in a quickening of new life in consciousness ( fount of the crying cdoud, fountain of the emphatic prayer), the effect of this quickening being renewed vitality, strength, wholeness, and inspiration. The water that Samson drank sprang out of \"",
+      "candidates": []
+    },
+    {
+      "id": 1074,
+      "word": "En-hazor",
+      "etym": "Heb .",
+      "mibDef": "fount of Hazor; inclosed fountain, i.e., walled in; fountain of the",
+      "mibMeta": "Cleansing life— the stronghold and defense of the strength center (Naphtali) in man's consciousness. Purity increases strength; the fountain of divine life springing up in man's consciousness is a purifying quality as well as a resurrecting, revitalizing quality (see Zech. 13:1). Until man reaches a",
+      "candidates": []
+    },
+    {
+      "id": 1075,
+      "word": "En-mishpat",
+      "etym": "Heb.",
+      "mibDef": "fountain of judgment; fount of rectitude; fountain of right;",
+      "mibMeta": "The significance of En-mishpat ( fountain of judgment) is that, under the great law of adjustment, when sense indulgence reaches a certain point in its expression it destroys the very error desires that keep it active in consciousness. These desires die for lack of fuel to keep them alive— evil is i",
+      "candidates": []
+    },
+    {
+      "id": 1076,
+      "word": "En-rimmon",
+      "etym": "Heb.",
+      "mibDef": "fountain of Rimmon; fount of the pomegranates; fount of",
+      "mibMeta": "The springing up in consciousness of new, abundant life and substance after a period of seeming dearth and inactivity. En-rimmon is mentioned as being reinhabited by some of the Jews who returned from the Captivity; this indicates that praise and prayer, Judah, again become active in the aggregation",
+      "candidates": []
+    },
+    {
+      "id": 1077,
+      "word": "En-rogel",
+      "etym": "Reb.",
+      "mibDef": "foot fountain; well of the treacling feet; fullers' fountain, because at",
+      "mibMeta": "The cleansing, healing life of Spirit springing up into consciousness (see BETHESDA also) and, activated and directed by the power of the word, doing an orderly, disciplinary, cleansing, purifying, adjusting work in the life of the individual.",
+      "candidates": []
+    },
+    {
+      "id": 1078,
+      "word": "En-shemesh",
+      "etym": "Reb.",
+      "mibDef": "fountain of the sun; fount of glorious brilliance; fount of",
+      "mibMeta": "The almost stupefying effect that the first entrance of the true Christ life and light (fountain of the sun, fount of glorious brilliance) into consciousness has upon the individual. Up to this time the individual has lived in sensate thought, and the light of Spirit is blinding ( fount of astonishm",
+      "candidates": []
+    },
+    {
+      "id": 1079,
+      "word": "En-tappuah",
+      "etym": "Heb .",
+      "mibDef": "fount of the fragrant breath; fount of the apple region, i. e. ,",
+      "mibMeta": "Tappuah means apple, or fragrant fruit of some kind; also fragrant breath, referring to inspiration and life. En-tappuah (fountain ofTappuah ) refers to the inbreathing life, intuition, discrimination, discernment springing into fruitfulness in mind, body, and affairs; in other words, bringing forth",
+      "candidates": []
+    },
+    {
+      "id": 1080,
+      "word": "enables one to bring forth good judgment",
+      "etym": "",
+      "mibDef": "Jehovah judgment. (Jehoshaphat, the son of Ahilud, means",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1081,
+      "word": "Enan",
+      "etym": "Heb .",
+      "mibDef": "lowing forth; eyed, i. e . , having eyes; a natural spring; a fountain.",
+      "mibMeta": "The great strength and energy of the cleansing Christ life in consciousness (Naphtali refers to strength, and a fountain and flowing forth suggest life and cleansing). This cleansing fountain of life is allied with divine intelligence, sight, understanding (having eyes). end, of world. (See Matt. 13",
+      "candidates": []
+    },
+    {
+      "id": 1082,
+      "word": "enlightening idea of Spirit",
+      "etym": "",
+      "mibDef": "man's all-sufficient life, inspiration, substance of supply— as entering into",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H215",
+          "def": "to be (causative, make) luminous (literally and metaphorically)"
+        }
+      ]
+    },
+    {
+      "id": 1083,
+      "word": "Enoch",
+      "etym": "Heb.",
+      "mibDef": "founder; centralizer; teacher; instructor; initiator; fixer; repentance;",
+      "mibMeta": "Entrance into and instruction in a new state of thought, of understanding. In the case of the Enoch who walked with God, the new state of thought would be spiritual consciousness, the new life in Christ.",
+      "candidates": [
+        {
+          "s": "H2585",
+          "def": "Chanok, an antediluvian patriach"
+        },
+        {
+          "s": "G1802",
+          "def": "Enoch (i.e., Chanok), an antediluvian"
+        }
+      ]
+    },
+    {
+      "id": 1084,
+      "word": "Enosh (A.V.",
+      "etym": "Heb.",
+      "mibDef": "mutable being; transient man; corporeal man; mortal man;",
+      "mibMeta": "The outer, or body consciousness, in its limited, material, corruptible concept of the organism. See SETH in conjunction with this name; the two must be studied together in order to get the full significance of this one.",
+      "candidates": []
+    },
+    {
+      "id": 1085,
+      "word": "entering into the conscious understanding and dominion that are necessary",
+      "etym": "",
+      "mibDef": "begin",
+      "mibMeta": "A phase of the higher consciousness of man (Jerusalem) that lies very close to the inner spiritual place of worship and the meeting place between God and the individual, yet is outside the real, true, inner spiritual realm ( open summer house, piazza, open portico, a precinct close to and really a p",
+      "candidates": [
+        {
+          "s": "H6607",
+          "def": "an opening (literally), i.e., door (gate) or entrance way"
+        },
+        {
+          "s": "H935",
+          "def": "to go or come (in a wide variety of applications)"
+        },
+        {
+          "s": "G1525",
+          "def": "to enter (literally or figuratively)"
+        },
+        {
+          "s": "G1531",
+          "def": "to enter (literally or figuratively)"
+        },
+        {
+          "s": "H3996",
+          "def": "an entrance (the place or the act); specifically sunset or the west; also (adverb with preposition) towards"
+        }
+      ]
+    },
+    {
+      "id": 1086,
+      "word": "entities",
+      "etym": "",
+      "mibDef": "The shepherds who were watching their flocks by night at the time of Jesus'",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1087,
+      "word": "envelopment",
+      "etym": "",
+      "mibDef": "Judah representing the life faculty in man, which, in its",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1088,
+      "word": "Epanetus",
+      "etym": "Gk .",
+      "mibDef": "approbation; commendation; praise; praise -worthy.",
+      "mibMeta": "The first acceptance of the Christ, or love teaching of the heart, by the hardened, seemingly material, warring thoughts of the head (Rome), in individual consciousness. This is very praiseworthy and it causes great rejoicing in the realm of the word of Truth (Paul).",
+      "candidates": []
+    },
+    {
+      "id": 1089,
+      "word": "Epaphras",
+      "etym": "Gk.",
+      "mibDef": "lovely; covered with foam, i. e. , impassioned.",
+      "mibMeta": "The loving message of the Christ (lovely) and its action in the Colossi and Rome states of mind. God is love and His expressions toward man are purely peaceful and good. When these ideas are sown into the belief in punishment and retribution (Coloss%) and into heady states of mind (Rome) they cause ",
+      "candidates": [
+        {
+          "s": "G1889",
+          "def": "Epaphras, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 1090,
+      "word": "Epaphroditus",
+      "etym": "Gk.",
+      "mibDef": "lovely; charming; fascinating; filled",
+      "mibMeta": "A message of love and peace that is sent by the word of Truth (Paul) to the enlightened thoughts of the states of mind that Philippi and Coloss% signify in individual consciousness. (See PHILIPPI and COLOSS®.) Ephah, e'-phah (Heb.) covered, as with the wings of a fowl; brooded; overcast; obscured; d",
+      "candidates": [
+        {
+          "s": "G1891",
+          "def": "Epaphroditus, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 1091,
+      "word": "Ephai",
+      "etym": "Yieb.",
+      "mibDef": "weary; languid; tired; obscuring; gloomy; darkening; birdlike, i. e. ,",
+      "mibMeta": "A thought of divine protection (birdlike, i.e., covering with wings) that bears fruit (Ephai had sons who were saved from being taken into Babylon). \"When I am weak, then am I strong\" (II Cor. 12:10), because when I recognize the weakness (wear, languid, tired, gloom) and insufficiency of the carnal",
+      "candidates": [
+        {
+          "s": "H5778",
+          "def": "Ephai, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1092,
+      "word": "Epher",
+      "etym": "Heb.",
+      "mibDef": "light; quick; ethereal; young hart; gazelle; young deer; young calf.",
+      "mibMeta": "Thoughts on the animal plane of consciousness in man that are active, yet young and inexperienced (young hart, young deer, young calf). By partaking of understanding (Manasseh), and by being guided and impelled by enthusiasm, fearlessness, and faithfulness to principle (Caleb), that which Epher sign",
+      "candidates": []
+    },
+    {
+      "id": 1093,
+      "word": "Ephes-dammim",
+      "etym": "Heb.",
+      "mibDef": "end of bloodshed; limit of blood; boundary of blood.",
+      "mibMeta": "Ephes-dammim bespeaks the end of warring thoughts and beliefs, the end of thoughts of strife and bloodshed, and the end of the error idea that life is material and limited ( end of bloodshed, limit of blood, boundary of blood). As the consciousness is thus purified, as it is set free from the hordes",
+      "candidates": []
+    },
+    {
+      "id": 1094,
+      "word": "Ephesians",
+      "etym": "fr. the Gk .",
+      "mibDef": "belonging to Ephesus.",
+      "mibMeta": "Thoughts that belong to the Ephesus state of consciousness in man. The Ephesians to whom the Epistle of Paul was written signify the enlightened and partially enlightened thoughts that belong to this state of consciousness. (See EPHESUS.)",
+      "candidates": [
+        {
+          "s": "G2180",
+          "def": "an Ephesian or inhabitant of Ephesus"
+        }
+      ]
+    },
+    {
+      "id": 1095,
+      "word": "Ephesus",
+      "etym": "Gk .",
+      "mibDef": "desirable; appealing.",
+      "mibMeta": "The central building faculty of the consciousness called desire. In its physical aspect Ephesus symbolizes the stomach. In its mental aspect it symbolizes the ganglionic center at the pit of the stomach, which controls and directs all the organs pertaining to digestion and assimilation. Philosophers",
+      "candidates": [
+        {
+          "s": "G2181",
+          "def": "Ephesus, a city of Asia Minor"
+        },
+        {
+          "s": "G2179",
+          "def": "Ephesine, or situated at Ephesus"
+        }
+      ]
+    },
+    {
+      "id": 1096,
+      "word": "Ephlal",
+      "etym": "Heb.",
+      "mibDef": "judgment; equity; judging i.e., coloring with ones thoughts.",
+      "mibMeta": "The dawning concept in the individual that he has power to name, or give character to, whatever within himself or his world of affairs he passes judgment upon (judgment judging i.e., coloring with one s thoughts. See Gen. 2:19, 20.) By right judgment, thinking the truth about himself and all that he",
+      "candidates": [
+        {
+          "s": "H654",
+          "def": "Ephlal, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1097,
+      "word": "Ephod",
+      "etym": "Heb.",
+      "mibDef": "gird; clothe as a priest; to cover; overlay with gold as an idol;",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H646",
+          "def": "a girdle; specifically the ephod or highpriest's shoulder-piece; also generally, an image"
+        }
+      ]
+    },
+    {
+      "id": 1098,
+      "word": "ephphatha",
+      "etym": "Gk. fr. Aram.",
+      "mibDef": "be thou opened; be opened; be thou unbound i.e.,",
+      "mibMeta": "An inner freeing, healing thought or word of the Christ that releases all tension in consciousness and opens the mind and the body to spiritual receptivity and wholeness.",
+      "candidates": []
+    },
+    {
+      "id": 1099,
+      "word": "Ephraim",
+      "etym": "Heb.",
+      "mibDef": "doubly fruitful; very fruitful; productive.",
+      "mibMeta": "The will In Genesis 41:50-52 it is stated that Joseph had two sons, Manasseh and Ephraim. \"And Joseph called the name of the first-bom Manasseh: For, said he, God hath made me forget all my toil, and all my father's house. And the name of the second called he Ephraim: For God hath made me fruitful i",
+      "candidates": [
+        {
+          "s": "H669",
+          "def": "Ephrajim, a son of Joseph; also the tribe descended from him, and its territory"
+        }
+      ]
+    }
+  ]
+}

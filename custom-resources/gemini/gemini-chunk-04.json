@@ -1,0 +1,1129 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "4 of 37",
+  "_entry_range": "ids 300–399",
+  "entries": [
+    {
+      "id": 300,
+      "word": "Aram",
+      "etym": "Heb.",
+      "mibDef": "highlands; high; exalted. \"Aram is used in the Hebrew to denote the nation",
+      "mibMeta": "Aram refers to the intellect. The intellect has its foundation in Spirit, but in unawakened man it has linked itself so entirely with the outer or seemingly material realm that it reasons from the base of the senses instead of acknowledging Divine Mind as the source of all intelligence. The intellec",
+      "candidates": [
+        {
+          "s": "G689",
+          "def": "Aram (i.e., Ram), an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 301,
+      "word": "Aram-maacah (A. V.",
+      "etym": "Heb.",
+      "mibDef": "high pressure; high",
+      "mibMeta": "A much depressed state of consciousness that is the outcome of oppressing, tyrannical thoughts. These thoughts work against the spiritual good of the individual; they aid the wild, uncultivated, undisciplined, and sensuous thoughts (Ammonites) in an attempt to overcome the true spiritual thoughts (I",
+      "candidates": []
+    },
+    {
+      "id": 302,
+      "word": "Aram-naharaim",
+      "etym": "Heb.",
+      "mibDef": "Aram of the two rivers; highlands of two rivers.",
+      "mibMeta": "The Tigris is the river Hiddekel of Genesis 2:14, and symbolizes the nervous system. The Euphrates symbolizes the circulation of the blood in physical man. The circulatory system is closely connected with the outer physical, or seemingly material, organism of man, and the nervous system is more the ",
+      "candidates": []
+    },
+    {
+      "id": 303,
+      "word": "Aram-zobah",
+      "etym": "Heb.",
+      "mibDef": "high warriors; highland warriors; A r Aram ofTsobah.",
+      "mibMeta": "The assembling of the warring thoughts of the intellect (see ZOBAH and ARAM), thoughts that believe in the enforcement of personal rights, thus stirring up strife and inharmony. These thoughts intend to stay in the consciousness; they encamp; they make man believe that he cannot get along in the wor",
+      "candidates": []
+    },
+    {
+      "id": 304,
+      "word": "Aran",
+      "etym": "Heb.",
+      "mibDef": "active; nimble; a wild goat; firmness.",
+      "mibMeta": "Aggressiveness, and a firmness or obstinacy of thought that is untrained and undisciplined and is guided, not by understanding, but by outer desires (a wild goat, firmness, a Horite). This makes a place of refuge for many of the sense ideas of man that should be overcome.",
+      "candidates": []
+    },
+    {
+      "id": 305,
+      "word": "Ararat (A. V.",
+      "etym": "",
+      "mibDef": "sacred land; holy land;",
+      "mibMeta": "From the lack of decision on the part of historians as to where and what Ararat really was, and the diversity of meanings attributed to the name, we infer that it represents that which to the spiritually unawakened man is unknown. This \"unknown\" may to one individual be sacred, high, holy, and fille",
+      "candidates": []
+    },
+    {
+      "id": 306,
+      "word": "Arba",
+      "etym": "Heb.",
+      "mibDef": "a giant; strength; a cube; four. Arba is the name of the number four,",
+      "mibMeta": "The reasoning of the sense mind in man, which attributes power and reality to the outer formed world instead of knowing that all power and reality exist in Spirit— the unformed ideas of the one Mind. (See ANAK, also.) Sense reasoning, which is based on sense observations, is very firmly",
+      "candidates": [
+        {
+          "s": "H704",
+          "def": "Arba, one of the Anakim"
+        }
+      ]
+    },
+    {
+      "id": 307,
+      "word": "Arbathite",
+      "etym": "Heb .",
+      "mibDef": "belonging to Arabah; of the sterile region of the desert.",
+      "mibMeta": "See ARABAH and ARAB. When Abiel, or Abi-albon, the Arbathite, one of David's mighty men of valor (a strong, mighty thought that has its source in God), arises in consciousness, the restoring of these desert places (Arabah) to fruitfulness begins. Archelaus, ar-che-la'-us (Gk.)- people's chief; ruler",
+      "candidates": []
+    },
+    {
+      "id": 308,
+      "word": "Archevites",
+      "etym": "Chald .",
+      "mibDef": "belonging to Erech.",
+      "mibMeta": "Thoughts belonging to the state of consciousness that Erech signifies. (See ERECH.)",
+      "candidates": []
+    },
+    {
+      "id": 309,
+      "word": "Archippus",
+      "etym": "Gk.",
+      "mibDef": "master of the horse; chief of the horses; ruler of horses.",
+      "mibMeta": "Dominion over the vital forces of the organism, and the wisdom and ability to train and care for these forces wisely (master of the horse, chief of the horses, ruler of horses; horses refer to the vitality, or vital forces). In Colossians 4:17 Paul admonishes Archippus: \"Take heed to the ministry wh",
+      "candidates": [
+        {
+          "s": "G751",
+          "def": "horse-ruler; Archippus, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 310,
+      "word": "Archite",
+      "etym": "Heb.",
+      "mibDef": "a man of Erech; prolonged; lengthened; extended; adapted.",
+      "mibMeta": "See ARCHEVITES and HUSHAI.",
+      "candidates": [
+        {
+          "s": "H757",
+          "def": "an Arkite or native of Erek"
+        }
+      ]
+    },
+    {
+      "id": 311,
+      "word": "Ard",
+      "etym": "Heb .",
+      "mibDef": "fugitive; to flee; wild ass.",
+      "mibMeta": "The thought that Ard signifies belongs to the outer or animal phase of consciousness, where fear enters and one runs away (to flee) from seeming evil, or resists it wildly and stubbornly (wild ass), as the case may be, because one fears it. In this phase of consciousness one does not understand that",
+      "candidates": [
+        {
+          "s": "H714",
+          "def": "Ard, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 312,
+      "word": "Ardon",
+      "etym": "Heb .",
+      "mibDef": "fugitive; one wandering about; bewildered. Strictly speaking, fugitive",
+      "mibMeta": "A bewildered state of mind. A stirring up of one's thoughts and a somewhat \"lost\" feeling are very apt to follow bold, zealous, impetuous denials of error and declarations of Truth by faith",
+      "candidates": []
+    },
+    {
+      "id": 313,
+      "word": "are being thrown to the surface and eliminated",
+      "etym": "",
+      "mibDef": "the individual for a time",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1526",
+          "def": "they are"
+        },
+        {
+          "s": "G2075",
+          "def": "ye are"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        },
+        {
+          "s": "G2076",
+          "def": "he (she or it) is; also (with neuter plural) they are"
+        },
+        {
+          "s": "G2070",
+          "def": "we are"
+        }
+      ]
+    },
+    {
+      "id": 314,
+      "word": "are not masters of their animal nature",
+      "etym": "",
+      "mibDef": "but, like the beasts of the field, are mere slaves to animal desire.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1526",
+          "def": "they are"
+        },
+        {
+          "s": "G2075",
+          "def": "ye are"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        },
+        {
+          "s": "G2076",
+          "def": "he (she or it) is; also (with neuter plural) they are"
+        },
+        {
+          "s": "G2070",
+          "def": "we are"
+        }
+      ]
+    },
+    {
+      "id": 315,
+      "word": "are universal",
+      "etym": "",
+      "mibDef": "to something personal for the use of the outer man in building up and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1526",
+          "def": "they are"
+        },
+        {
+          "s": "G2075",
+          "def": "ye are"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        },
+        {
+          "s": "G2076",
+          "def": "he (she or it) is; also (with neuter plural) they are"
+        },
+        {
+          "s": "G2070",
+          "def": "we are"
+        }
+      ]
+    },
+    {
+      "id": 316,
+      "word": "Areli",
+      "etym": "Heb.",
+      "mibDef": "lionlike; valiant; heroic.",
+      "mibMeta": "Courage to abide by that which one believes to be right and best; also boldness and fearlessness in making one's ideas practical (lionlike, valiant, heroic).",
+      "candidates": []
+    },
+    {
+      "id": 317,
+      "word": "Areopagite",
+      "etym": "Gk.",
+      "mibDef": "of the Areopagus.",
+      "mibMeta": "The court of Areopagus represents the highest understanding and rendering of justice in the intellectual domain, and is very close to the spiritual. An Areopagite symbolizes one of the thoughts or qualities of justice and fairness and discernment that comprise this court in consciousness. (See AREOP",
+      "candidates": []
+    },
+    {
+      "id": 318,
+      "word": "Areopagus",
+      "etym": "Gk .",
+      "mibDef": "Mars' Hill; the hill of Ares or Mars.",
+      "mibMeta": "A hill always represents a high place in consciousness, and in this instance it symbolizes the intellectual phase of thought in man, since Athens was the center of intellectual learning in the then known world. The council of Areopagus was also known as \"the Council on Mars' Hill,\" or the \"Upper Cou",
+      "candidates": []
+    },
+    {
+      "id": 319,
+      "word": "Aretas",
+      "etym": "Gk .",
+      "mibDef": "excellence; virtue; power; purity.",
+      "mibMeta": "A certain natural love of virtue, merit, and goodness inherent in the outer man, although he does not appreciate the spiritual word in its work throughout the body consciousness (Paul and his ministry). Even the outer man, however, is inherently good. The physical is not of itself evil; the body is ",
+      "candidates": [
+        {
+          "s": "G702",
+          "def": "Aretas, an Arabian"
+        }
+      ]
+    },
+    {
+      "id": 320,
+      "word": "Argob",
+      "etym": "Heb.",
+      "mibDef": "a heap of .stones; to stone any one; stony; hard; durable; strong.",
+      "mibMeta": "Judging from its meaning, as well as from its fortified cities, its rocky location, and the cliffs that bordered it, Argob must symbolize a very strong defensive state of consciousness in man. This, when controlled by the sense or carnal mind (when under the rule of Og, the Ammonitish king), would b",
+      "candidates": [
+        {
+          "s": "H709",
+          "def": "Argob, a district of Palestine"
+        }
+      ]
+    },
+    {
+      "id": 321,
+      "word": "Aridatha",
+      "etym": "Heb., Pers. origin",
+      "mibDef": "strength; worthy; desen’ing.",
+      "mibMeta": "The darkened thought in man that calls evil good and that attributes strength to error. The truth is that error has no strength or power except that which man gives to it temporarily by believing in it. (See ARIDAI.)",
+      "candidates": []
+    },
+    {
+      "id": 322,
+      "word": "Arieh",
+      "etym": "Heb.",
+      "mibDef": "lion; the lion; strength; valor; fierceness; cruelty.",
+      "mibMeta": "A bold, courageous, conquering phase (lion) of the ruling power of the outer consciousness pertaining to Israel (the religious thoughts struggling toward perfection, of which not all are spiritual) . The will has its origin in Spirit. It is a spiritual faculty, even though it is often directed by in",
+      "candidates": []
+    },
+    {
+      "id": 323,
+      "word": "Ariel",
+      "etym": "Heb.",
+      "mibDef": "lion of God; strength of God; burning place of God; altar of God.",
+      "mibMeta": "Ariel of Moab signifies a bold, warlike tendency pertaining to the carnal mind of man. The Ariel of Ezra 8:16, who was a chief man among those who returned from the Babylonian captivity, also stands for a bold, conquering thought quality in man, but of a higher nature than that symbolized by Ariel o",
+      "candidates": []
+    },
+    {
+      "id": 324,
+      "word": "Arioch",
+      "etym": "Gk.",
+      "mibDef": "lionlike; venerable.",
+      "mibMeta": "The Arioch of Genesis 14:1 represents the seeming power, strength, and dominion ( lionlike ) that sex lust has over man; also, the belief so prevalent among all peoples that the secret desires and habits pertaining to the sex life must be good and must have been ordained of God because of ages of ac",
+      "candidates": [
+        {
+          "s": "H746",
+          "def": "Arjok, the name of two Babylonians"
+        }
+      ]
+    },
+    {
+      "id": 325,
+      "word": "Arisai",
+      "etym": "Pers .",
+      "mibDef": "arrow ofAriAi,; arrow ofVishnii; excellence.",
+      "mibMeta": "The significance is virtually the same as that of Aridai and Aridatha, which see. Arisai also bespeaks the swiftness of the arrow and its ability to pierce, to penetrate. These qualities are attributed to the errors that this name signifies. Aristarchus, ar-ls-tar'-ehus (Gk.)~ best ruling; the best ",
+      "candidates": []
+    },
+    {
+      "id": 326,
+      "word": "Aristobulus",
+      "etym": "Gk.",
+      "mibDef": "best deliberating; best advising; best counsel; supreme",
+      "mibMeta": "The Holy Spirit as counselor and adviser in man (best advising, best counsel, supreme deliberation with oneself) . The Holy Spirit is not confined to one place in man, but is active throughout his whole consciousness— everywhere present. The ideas and the inspirations of Spirit (household of Aristob",
+      "candidates": []
+    },
+    {
+      "id": 327,
+      "word": "ark",
+      "etym": "Lat.",
+      "mibDef": "a holy abode; a sanctuary; a tabernacle; any vessel for presentation; a sphere; a",
+      "mibMeta": "Noah's ark symbolizes the spiritual part of oneself, built in the midst of the flood of error. One builds one's ark on the scientific understanding of the wisdom, presence, and power of God. The ark is built upon the affirmations of what one is in Spirit. One takes into the ark one's wife, one's son",
+      "candidates": [
+        {
+          "s": "H727",
+          "def": "a box"
+        },
+        {
+          "s": "H8392",
+          "def": "a box"
+        },
+        {
+          "s": "G2787",
+          "def": "a box, i.e., the sacred ark and that of Noah"
+        }
+      ]
+    },
+    {
+      "id": 328,
+      "word": "ark",
+      "etym": "",
+      "mibDef": "Symbolizes the spiritual part of oneself, built in the midst of the flood of error. One",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H727",
+          "def": "a box"
+        },
+        {
+          "s": "H8392",
+          "def": "a box"
+        },
+        {
+          "s": "G2787",
+          "def": "a box, i.e., the sacred ark and that of Noah"
+        }
+      ]
+    },
+    {
+      "id": 329,
+      "word": "Ark of the Covenant",
+      "etym": "",
+      "mibDef": "Represents the original spark of divinity in man's being, which is a sacred",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H727",
+          "def": "a box"
+        },
+        {
+          "s": "H8392",
+          "def": "a box"
+        },
+        {
+          "s": "G2787",
+          "def": "a box, i.e., the sacred ark and that of Noah"
+        }
+      ]
+    },
+    {
+      "id": 330,
+      "word": "Arkite",
+      "etym": "Heb .",
+      "mibDef": "fugitive; blind passions; brutish appetites; a tusk.",
+      "mibMeta": "A thought pertaining to the carnal consciousness in man.",
+      "candidates": []
+    },
+    {
+      "id": 331,
+      "word": "Armoni",
+      "etym": "Heb .",
+      "mibDef": "palace-born; of the palace; of a fortress.",
+      "mibMeta": "A seemingly strongly fortified belief in the human consciousness that the personal will (Saul) is inherently the rightful ruling power in man (of a fortress, palace-born). Armoni was one of the seven sons and grandsons of Saul who were given over to the Gibeonites by David and were put to death by t",
+      "candidates": [
+        {
+          "s": "H764",
+          "def": "Armoni, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 332,
+      "word": "Aroer",
+      "etym": "Heb .",
+      "mibDef": "ruins; desolation; barren; bare; naked; inclosed.",
+      "mibMeta": "Those seemingly empty, waste, despairing states of thought into which one gets occasionally, states wherein everything looks dark and bare and there appears to be no way to the fulfillment of the good that one is seeking to demonstrate (ruins, desolation, naked). In such a time one needs more than e",
+      "candidates": [
+        {
+          "s": "H6177",
+          "def": "Aroër, the name of three places in or near Palestine"
+        }
+      ]
+    },
+    {
+      "id": 333,
+      "word": "Aroerite",
+      "etym": "Heb .",
+      "mibDef": "of Aroer.",
+      "mibMeta": "A thought belonging to that in consciousness which Aroer signifies. (See AROER.)",
+      "candidates": []
+    },
+    {
+      "id": 334,
+      "word": "Arpachshad (A. V.",
+      "etym": "Heb .",
+      "mibDef": "providential regeneration; realm of",
+      "mibMeta": "A belief in man that his good depends wholly upon something outside of himself—",
+      "candidates": []
+    },
+    {
+      "id": 335,
+      "word": "Arpad",
+      "etym": "Heb.",
+      "mibDef": "spread out a bed; a couch; strong;",
+      "mibMeta": "A settled belief (a couch, spread out a bed, resting) that material reasonings of the intellect, rather than trust in God and in the wisdom of Spirit, are the source and power of man's true enlightenment and redemption (strong, supporting, refreshing, light's redemption ). (See SYRIA.)",
+      "candidates": []
+    },
+    {
+      "id": 336,
+      "word": "Artaxerxes",
+      "etym": "",
+      "mibDef": "mighty shah; great king; mighty warrior.",
+      "mibMeta": "The will (great king) ruling in sense consciousness but open to both error and spiritual thought and acting according to whichever appeals most strongly to it at the time.",
+      "candidates": [
+        {
+          "s": "H783",
+          "def": "Artachshasta (or Artaxerxes), a title (rather than name) of several Persian kings"
+        }
+      ]
+    },
+    {
+      "id": 337,
+      "word": "Artemas",
+      "etym": "Gk.",
+      "mibDef": "gift of Artemis; gift of perfection; gift of wholeness.",
+      "mibMeta": "Crete means carnal, while Tychicus, whom Paul considered sending to Crete to relieve Titus instead of sending Artemas, represents a belief in fate. Paul seems to have been undecided as to whether it would be best to leave this carnal state of consciousness (Crete) to its fate (Tychicus) for a time, ",
+      "candidates": [
+        {
+          "s": "G734",
+          "def": "gift of Artemis; Artemas (or Artemidorus), a Christian"
+        }
+      ]
+    },
+    {
+      "id": 338,
+      "word": "Artemis",
+      "etym": "Gk.",
+      "mibDef": "Diana; huntress; goddess of night.",
+      "mibMeta": "See DIANA and ASHTORETH.",
+      "candidates": []
+    },
+    {
+      "id": 339,
+      "word": "Arubboth (A. V.",
+      "etym": "Heb.",
+      "mibDef": "fourfold forces; lattice works; windows; courts;",
+      "mibMeta": "The increasing of substance (a rich com-growing country) through praise (Judah), its entrance into consciousness (windows, sluice gates) and its adjustment in mind (courts), that a certain portion of this substance may be appropriated for the sustenance of the peace consciousness in man (Solomon and",
+      "candidates": []
+    },
+    {
+      "id": 340,
+      "word": "Arumah",
+      "etym": "Heb.",
+      "mibDef": "height; exalted; elevated; on high.",
+      "mibMeta": "The lifting up of the personal will and desire for leadership (height, exalted ), guided by a destructive tendency without being directed by good judgment. (Gideon means destroyer; he was a destroyer of error and a deliverer of Israel. Abimelech, however, represents this destructive tendency without",
+      "candidates": []
+    },
+    {
+      "id": 341,
+      "word": "Arza",
+      "etym": "Heb .",
+      "mibDef": "earth; land; r/omain; firm; low; inferior; terminated.",
+      "mibMeta": "That phase of man's thought which predominates when the will (king) allows the individual to give himself over to the appetites and desires of the flesh (earth; low; inferior; terminated; the king was \"drinking himself drunk in the house of Arza\" when he was slain). Giving up entirely to carnal appe",
+      "candidates": [
+        {
+          "s": "H777",
+          "def": "Artsa, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 342,
+      "word": "as applied to the universe",
+      "etym": "",
+      "mibDef": "the evolutionary law. In our interpretation we",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H834",
+          "def": "who, which, what, that; also (as an adverb and a conjunction) when, where, how, because, in order that, etc"
+        },
+        {
+          "s": "G5613",
+          "def": "which how, i.e., in that manner (very variously used, as follows)"
+        },
+        {
+          "s": "G2531",
+          "def": "just (or inasmuch) as, that"
+        },
+        {
+          "s": "G3745",
+          "def": "as (much, great, long, etc.) as"
+        },
+        {
+          "s": "H3644",
+          "def": "as, thus, so"
+        }
+      ]
+    },
+    {
+      "id": 343,
+      "word": "Asa",
+      "etym": "Heb.",
+      "mibDef": "physician; healer; binding up; making whole.",
+      "mibMeta": "The will working constructively. In body consciousness the work of Asa is the rebuilding process that goes on in the subconscious mind, directed by the will to be well. When the natural life in the organism is acknowledged as God life, when it is quickened, purified, and regenerated with words of Tr",
+      "candidates": [
+        {
+          "s": "H609",
+          "def": "Asa, the name of a king and of a Levite"
+        },
+        {
+          "s": "G760",
+          "def": "Asa, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 344,
+      "word": "Asahel",
+      "etym": "Heb.",
+      "mibDef": "whom God created; whom God constituted; whom God has made;",
+      "mibMeta": "The swiftness of the activity of the creative word in man's consciousness when love (David) is the ruling power (king). Before the intellect (Abner, captain of Saul's host) gives way fully to the new spiritual rulership, there is sometimes such keen competition between the two that the word of Truth",
+      "candidates": [
+        {
+          "s": "H6214",
+          "def": "Asahel, the name of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 345,
+      "word": "Asaph",
+      "etym": "Heb.",
+      "mibDef": "collector; gatherer; harvester; assembler.",
+      "mibMeta": "The Asaph who had charge of the song services in the Temple worship represents the gathering together (collector, gatherer, assembler) of the thoughts and forces of man through his concentrating in I AM, the spiritual center and true directive power, thus establishing harmony and all the healing, re",
+      "candidates": [
+        {
+          "s": "H623",
+          "def": "Asaph, the name of three Israelites, and of the family of the first"
+        }
+      ]
+    },
+    {
+      "id": 346,
+      "word": "Asarel (A. V.",
+      "etym": "Heb.",
+      "mibDef": "whom God has bound; vow with God; fettered by God;",
+      "mibMeta": "A certain restriction of error in consciousness, of the purely selfish and personal; this is the result of consecration to God (vow with God, oathbound, fettered by God) . ascension— The ascending or progressive unfoldment of man from the animal to the spiritual. It is measured by three degrees or s",
+      "candidates": []
+    },
+    {
+      "id": 347,
+      "word": "Asenath",
+      "etym": "Egypt.",
+      "mibDef": "she is ofNeith; dedicated to Neith; favorite ofNeith.",
+      "mibMeta": "The feminine or love side of the natural man. She was Joseph's wife, and mother of his two sons, Ephraim and Manasseh (will and understanding). These two sons of Joseph (imagination) inherited his allotment in the Promised Land (the perfected body). The front brain is the field of operation for thes",
+      "candidates": [
+        {
+          "s": "H621",
+          "def": "Asenath, the wife of Joseph"
+        }
+      ]
+    },
+    {
+      "id": 348,
+      "word": "Ashan",
+      "etym": "Heb .",
+      "mibDef": "smoke.",
+      "mibMeta": "In almost every instance where smoke is mentioned in the Bible it is connected with the anger, wrath, or jealousy of Jehovah. Otherwise it is used in connection with the passing away of the results of evil. This shows the unreality and transitoriness of that which is not founded in God- good. When T",
+      "candidates": [
+        {
+          "s": "H6228",
+          "def": "Ashan, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 349,
+      "word": "Asharelah (A. V.",
+      "etym": "Heb.",
+      "mibDef": "upright toward God; happiness of God;",
+      "mibMeta": "Uprightness of thought— the \"upward look\" and attention— also the joy and blessedness that come from God to those whose thoughts are stayed on Him (upright toward God, happiness of God, blessedness). These activities, expressing through love (Asharelah was of the Israelitish tribe of Levi), do their",
+      "candidates": []
+    },
+    {
+      "id": 350,
+      "word": "Ashbea",
+      "etym": "Heb.",
+      "mibDef": "1 adjure; 1 swear; an adjuration; an oath; man of Baal.",
+      "mibMeta": "The 1, in man's spiritually awakening consciousness, appealing earnestly and solemnly to God, the All-Good, and declaring its highest concept of Truth. Man of Baal is a possible interpretation of the name Ashbea, but a doubtful one. If this",
+      "candidates": []
+    },
+    {
+      "id": 351,
+      "word": "Ashbel",
+      "etym": "Heb.",
+      "mibDef": "man of Baal; reproof of God; judgment of God.",
+      "mibMeta": "The admonition of Spirit (reproof of God) in man's consciousness against looking upon as real (and thus giving power to) the material thought about outer formed things (man of Baal). The inharmonious result of worshipping Baal— looking upon the outer world as real and as the source of life, understa",
+      "candidates": [
+        {
+          "s": "H788",
+          "def": "Ashbel, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 352,
+      "word": "Ashdod",
+      "etym": "Heb.",
+      "mibDef": "stronghold; fortress; castle; an oppressor; despoiler; ravager; theft.",
+      "mibMeta": "A strongly fortified aggregation of rebellious, oppressing, thieving, destroying thoughts in man's consciousness (stronghold, fortress, an oppressor, despoiler, ravager, theft). (See PHILISTINES and ASHDODITES.) Ashdodites, ash'-dod-ites (Heb.) . Inhabitants of Ashdod (Josh. 13:3; Neh. 4:7). All-aro",
+      "candidates": [
+        {
+          "s": "H795",
+          "def": "Ashdod, a place in Palestine"
+        },
+        {
+          "s": "H796",
+          "def": "an Ashdodite (often collectively) or inhabitant of Asdod"
+        }
+      ]
+    },
+    {
+      "id": 353,
+      "word": "Asher (A. V.",
+      "etym": "Heb.",
+      "mibDef": "straight; straightforward; prosperous;",
+      "mibMeta": "The meaning of the name and the blessings given to Asher point both to understanding and to substance, which are attendant upon uprightness of character. In Proverbs 3:13-18 we are told of the happiness that comes to one who gains wisdom and understanding, and the priceless value of these qualities.",
+      "candidates": [
+        {
+          "s": "H836",
+          "def": "Asher, a son of Jacob, and the tribe descended from him, with its territory; also a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 354,
+      "word": "Asherah",
+      "etym": "Heb .",
+      "mibDef": "straight; upright; a pillar; fortune; happiness.",
+      "mibMeta": "Asherah suggests merely an outer form or show of honor, uprightness, and stability; it also suggests outer worldly pleasures and possessions as constituting true happiness and prosperity. (See ASHTORETH, BAAL, and ASHERIM.)",
+      "candidates": []
+    },
+    {
+      "id": 355,
+      "word": "Asherim",
+      "etym": "Heb.",
+      "mibDef": "Asherahs; pillars; columns; groves; symbols of the goddess",
+      "mibMeta": "Human love with its animal propensities. Through Jehoshaphat's allegiance to Jehovah, the inner forces (Judah) are purified. \"He took away . . . the Asherim out of Judah\" (II Chron. 17:6). Asherites, ash'-er-ltes (Heb.) . Men belonging to the tribe of Asher (Judg. 1:32). They were descendants of Ash",
+      "candidates": []
+    },
+    {
+      "id": 356,
+      "word": "Asheroth",
+      "etym": "Heb .",
+      "mibDef": "Asherahs; pillars; columns; groves; groves (a shrine of the",
+      "mibMeta": "Human love, with its animal propensities. It requires fine discrimination to distinguish between human love and divine love. In its origin all love is divine, but in passing through the lens of man's mind it is apparently broken into many colors. Yet, like the ray of white light, it ever remains pur",
+      "candidates": []
+    },
+    {
+      "id": 357,
+      "word": "Ashhur (A. V.",
+      "etym": "Heb .",
+      "mibDef": "blackness; black; aurora; the dawn; morning; break",
+      "mibMeta": "Tekoa means confirming, settling, securing, fixing (of tents), and represents the establishing, in the individual, of a more firm and abiding idea regarding his body. This is accomplished by Ashhur, founder of Tekoa, who typifies recognition that the entire man, spirit, soul, and body, is free, of s",
+      "candidates": []
+    },
+    {
+      "id": 358,
+      "word": "Ashima",
+      "etym": "Heb.",
+      "mibDef": "heaven; offense, transgression. Ashima is doubtful in its etymology.",
+      "mibMeta": "Hamath signifies confidence in material conditions rather than trust in God. This, with the meanings of Ashima, signifies that though the sense mind may promise much peace and harmony (heaven), yet resistance and strife (goat) are always the result of looking to the outer for guidance, understanding",
+      "candidates": []
+    },
+    {
+      "id": 359,
+      "word": "Ashkelon",
+      "etym": "Heb .",
+      "mibDef": "migration; sojourn; stranger; weight; fire of infamy.",
+      "mibMeta": "The changeableness and uncertainty of man's sense beliefs and activities; also their foreignness to spiritual understanding (migration, sojourn, stranger; the Philistines refer to sense thoughts in man). Sense thoughts and beliefs lead to sensuality, which becomes a heavy burden (weight) to the whol",
+      "candidates": [
+        {
+          "s": "H831",
+          "def": "Ashkelon, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 360,
+      "word": "Ashkenaz (A. V.",
+      "etym": "Heb .",
+      "mibDef": "fire that spreads; latent fire;",
+      "mibMeta": "Babylon signifies confusion. The. fire that spreads to assist in doing away with the confused state of mind that Babylon represents is the life thought founded in Spirit (Ashkenaz). When this thought is taken up consciously by man it extends quickly to the whole consciousness and overthrows sense co",
+      "candidates": []
+    },
+    {
+      "id": 361,
+      "word": "Ashnah",
+      "etym": "Heb.",
+      "mibDef": "hard; strong; firm; robust; change; transform; shining; bright.",
+      "mibMeta": "A change is continually taking place in man's organism. An adjustment in thought is constantly going on; cells of the body are each moment passing away to make room for new ones. When this change is brought about by praise and thanksgiving, founded in spiritual understanding and substance (the true ",
+      "candidates": []
+    },
+    {
+      "id": 362,
+      "word": "Ashpenaz",
+      "etym": "Pers.",
+      "mibDef": "nose of the horse; horse's nose.",
+      "mibMeta": "Ashpenaz listened to the advice of Daniel (spiritual judgment) in regard to the kind of food that Daniel desired to eat, and was quick to note the good effects of the change of diet. The nose is the organ of smell, and smelling suggests a certain power to perceive, detect, or get an inkling of thing",
+      "candidates": [
+        {
+          "s": "H828",
+          "def": "Ashpenaz, a Babylonian eunuch"
+        }
+      ]
+    },
+    {
+      "id": 363,
+      "word": "Ashtaroth",
+      "etym": "Heb. from Pers.",
+      "mibDef": "statues ofAstarte; stars; riches; abundance; love;",
+      "mibMeta": "After Joshua died the children of Israel \"forsook Jehovah, and served Baal and the Ashtaroth. And the anger of Jehovah was kindled against Israel, and he delivered them into the hands of spoilers that despoiled them\" (Judg. 2: 13, 14). If we would avoid the condition that overcame the children of Is",
+      "candidates": [
+        {
+          "s": "H6252",
+          "def": "Ashtaroth, the name of a Sidonian deity, and of a place East of the Jordan"
+        }
+      ]
+    },
+    {
+      "id": 364,
+      "word": "Ashterathite",
+      "etym": "Heb. fr. Pers .",
+      "mibDef": "of Ashtaroth.",
+      "mibMeta": "A thought pertaining to intellectual perception devoid of spiritual understanding. (See ASHTAROTH .)",
+      "candidates": []
+    },
+    {
+      "id": 365,
+      "word": "Ashteroth-karnaim",
+      "etym": "Heb .",
+      "mibDef": "horned Ashteroth; Astarte of the two horns;",
+      "mibMeta": "A state of consciousness in man that attributes double honor, authority, exaltation, and power to purely intellectual understanding and capacity. In this state of thought man does not recognize that God instead of intellect is the source of intelligence. The intellect borrows all its real light from",
+      "candidates": []
+    },
+    {
+      "id": 366,
+      "word": "Ashtoreth",
+      "etym": "Heb. fr. Pers .",
+      "mibDef": "the goddess Astarte; a star; riches; abundance; love;",
+      "mibMeta": "Inasmuch as Ashtoreth relates to the moon and stars, it seems to refer to the rule of the intellect instead of the rule of Spirit. Since lustful practices formed the chief part of her worship, Ashtoreth also stands for sensuality, which man in carnal mind cultivates in the belief that it is essentia",
+      "candidates": [
+        {
+          "s": "H6253",
+          "def": "Ashtoreth, the Phoenician goddess of love (and increase)"
+        }
+      ]
+    },
+    {
+      "id": 367,
+      "word": "Ashurites",
+      "etym": "Heb .",
+      "mibDef": "belonging to Ashhur or Ashur.",
+      "mibMeta": "Thoughts brought forth by the state of mind that Ashhur represents. (See ASHHUR.) Ashvath, ash'-vath ( Heb.)- -forged; labored; smoothed; wrought; bright; polished; shining; thinking; purposing. Son of Japhlet and descendant of Asher, Jacob's son (I Chron. 7:33). Ashvath suggests the process by whic",
+      "candidates": [
+        {
+          "s": "H839",
+          "def": "the cedar tree or some other light elastic wood"
+        }
+      ]
+    },
+    {
+      "id": 368,
+      "word": "Asia",
+      "etym": "Lat. from Gk.",
+      "mibDef": "unique continent; unique land;",
+      "mibMeta": "In Acts 16:6 Asia refers to a state of consciousness impregnated by old, decayed, wom-out, material ideas that should have been left behind long ago by the one who would progress spiritually. The foregoing symbology no doubt enters into the interpretation of Asia as given in other texts in the Bible",
+      "candidates": [
+        {
+          "s": "G773",
+          "def": "Asia, i.e., Asia Minor, or (usually) only its western shore"
+        }
+      ]
+    },
+    {
+      "id": 369,
+      "word": "Asiarchs",
+      "etym": "Lat .",
+      "mibDef": "chief of Asia.",
+      "mibMeta": "A ruling tendency in man to pay homage to power, whether it is expressed by some individual who has acquired great fame and position and makes a great show of it (the Roman emperor), or whether it is displayed by nature and the elements (the gods of the Romans and of the unenlightened countries rule",
+      "candidates": []
+    },
+    {
+      "id": 370,
+      "word": "Asiel",
+      "etym": "Heb .",
+      "mibDef": "creation of God; made by God; God is doer.",
+      "mibMeta": "The inner revelation that man is in reality spiritual and came forth from God ( creation of God; made by God; God is doer; emanation of God). Simeon means \"hearing\" and signifies the state of mind that listens and is obedient. By listening to God in the silence and heeding the voice of Spirit within",
+      "candidates": []
+    },
+    {
+      "id": 371,
+      "word": "Asnah",
+      "etym": "Heb.",
+      "mibDef": "bramble; dweller in the thorn bush; thorn bush.",
+      "mibMeta": "The belief in servitude to God; a belief that, when it dominates the mind of a Christian, makes him really a slave. The life of such a one is full of trials and harassing experiences and hard places ( bramble , thorn bush, dweller in the thorn bush). His path is thorny indeed, until he recognizes th",
+      "candidates": []
+    },
+    {
+      "id": 372,
+      "word": "aspirations",
+      "etym": "",
+      "mibDef": "The deep longing of man for union with his source, with his Father-Mother, God.",
+      "mibMeta": "A unifying thought in consciousness (joining of God); man’s awakening to the truth that there can be no real understanding, whether intellectual or otherwise, apart from God. (Manasseh relates to the understanding in its negative aspect, and Aram means the same as Syria, which refers to the intellec",
+      "candidates": []
+    },
+    {
+      "id": 373,
+      "word": "ass",
+      "etym": "",
+      "mibDef": "In Oriental countries in Bible times kings and rulers rode the ass, and it was the accepted",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2543",
+          "def": "a male ass (from its dun red)"
+        },
+        {
+          "s": "H860",
+          "def": "a female donkey (from its docility)"
+        },
+        {
+          "s": "H6501",
+          "def": "the onager"
+        },
+        {
+          "s": "G3688",
+          "def": "a donkey"
+        },
+        {
+          "s": "H5895",
+          "def": "properly, a young ass (as just broken to a load); hence an ass-colt"
+        }
+      ]
+    },
+    {
+      "id": 374,
+      "word": "Asshur",
+      "etym": "Heb.",
+      "mibDef": "a step; level ongoing; straightforward; observation of laws;",
+      "mibMeta": "The intellectual, or mental reasoning, plane in man (Assyria) in its progress toward the spiritual, or, in its upliftment and union with true spiritual understanding (a step, level ongoing, straightforward, obserx’ation of laws, and so on). In Isaiah 19:23-25 we read that Egypt, Assyria, and Israel ",
+      "candidates": [
+        {
+          "s": "H804",
+          "def": "Ashshur, the second son of Shem; also his descendants and the country occupied by them (i.e., Assyria), its region and its empire"
+        }
+      ]
+    },
+    {
+      "id": 375,
+      "word": "Asshurim",
+      "etym": "Heb.",
+      "mibDef": "mighty ones; dwellers of the plain; liers in wait.",
+      "mibMeta": "Abraham represents the faith (the power of the mind to bring forth ideas into unlimited expression) that reproduces on the sense-mind plane as well as in spirit. Abraham's seed was counted through Isaac, the son of Sarah; Isaac represents divine sonship. But Abraham had seven sons who had been begot",
+      "candidates": []
+    },
+    {
+      "id": 376,
+      "word": "Assir",
+      "etym": "Heb .",
+      "mibDef": "captive; prisoner.",
+      "mibMeta": "Moses represents the divine law and Aaron represents the executive power of divine law. Korah springs from love (Levi), as do Moses and Aaron, but Korah means bald, ice. This infers the opposite of love— a state in which one is cold and unproductive of life and good because of unwillingness to be gu",
+      "candidates": [
+        {
+          "s": "H617",
+          "def": "Assir, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 377,
+      "word": "association",
+      "etym": "",
+      "mibDef": "Living in an uninterrupted relationship with ideas that come into",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 378,
+      "word": "Assos",
+      "etym": "Gk .",
+      "mibDef": "approaching.",
+      "mibMeta": "An intellectual state of consciousness that is willing to examine into the truth (Apollonia), and is therefore drawing near to (approaching) an understanding of it.",
+      "candidates": []
+    },
+    {
+      "id": 379,
+      "word": "astrology",
+      "etym": "",
+      "mibDef": "\"The pseudo science which treats of the influence of the stars upon human affairs, and",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 380,
+      "word": "astronomy",
+      "etym": "",
+      "mibDef": "\"The science which treats of the celestial bodies, their magnitudes, motions,",
+      "mibMeta": "The reasonings, philosophical and psychical, that do not recognize the spiritual Head of the universe, but are based upon sense observation, upon the formed instead of the formless. Such thoughts are destructive and undisciplined. If man keeps his attention fixed on Spirit he is protected from the m",
+      "candidates": []
+    },
+    {
+      "id": 381,
+      "word": "Asyncritus",
+      "etym": "Lat. from Gk.",
+      "mibDef": "unlike, incomparable.",
+      "mibMeta": "The understanding that spiritual Truth is so superior to worldly wisdom as to be beyond comparison with it ( unlike , incomparable).",
+      "candidates": []
+    },
+    {
+      "id": 382,
+      "word": "Atad",
+      "etym": "Heb.",
+      "mibDef": "bramble; thorn bush; a thorn.",
+      "mibMeta": "A threshing floor infers a place of judgment or separation, a letting go of that which it is no longer needful to express in consciousness. Atad ( bramble , thorn bush, a thorn ) represents the belief that vexations trials, and sorrows are real. It is that unredeemed thought or belief in man which c",
+      "candidates": []
+    },
+    {
+      "id": 383,
+      "word": "Atarah",
+      "etym": "Heb.",
+      "mibDef": "crown; diadem, head ornament.",
+      "mibMeta": "When one learns to know God as a loving, merciful, kind, compassionate Father, Husband, and Friend (Jerahmeel, husband of Atarah, means whom God loveth, on whom God hath mercy or compassion), not as an angry and revengeful deity, great rejoicing crowns the soul (crown, diadem, head ornament) and ado",
+      "candidates": []
+    },
+    {
+      "id": 384,
+      "word": "Ataroth",
+      "etym": "Heb.",
+      "mibDef": "crowns.",
+      "mibMeta": "Crowns symbolize victory, reward, authority, honor. Ataroth (crowns) here is representative of victory or dominion over, and intelligent direction of, animal strength (cattle) in individual consciousness, also of the reward that follows this victory, which is an increase of spiritual strength and po",
+      "candidates": []
+    },
+    {
+      "id": 385,
+      "word": "Ataroth- addar",
+      "etym": "Heb .",
+      "mibDef": "crowns ofaddar.",
+      "mibMeta": "See ATAROTH and ADDAR.",
+      "candidates": []
+    },
+    {
+      "id": 386,
+      "word": "Ater",
+      "etym": "Heb.",
+      "mibDef": "hound; shut up; dumb; tongue-tied; impeded; left-handed .",
+      "mibMeta": "A binding, limiting, suppressing thought, or group of thoughts, in individual consciousness (bound, shut up, dumb, tongue-tied, impeded, left-handed). These thought families belong to the religious phase of man's being (they are Israelites), but because of their limiting nature they have entered int",
+      "candidates": [
+        {
+          "s": "H333",
+          "def": "Ater, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 387,
+      "word": "Athach",
+      "etym": "Heb.",
+      "mibDef": "lodging; inn; stopping place.",
+      "mibMeta": "A fixed state of consciousness, or aggregation of thoughts of abidingness in Truth and of trust in the great Source of all, in the inner life forces of the subconscious in man. Love (David) often finds there a temporary abode (lodging, inn, stopping place ) while hiding from the personal will (Saul)",
+      "candidates": []
+    },
+    {
+      "id": 388,
+      "word": "Athaiah",
+      "etym": "Heb.",
+      "mibDef": "created ofJah; whom Jehovah made; time ofJah; Jehovah's",
+      "mibMeta": "The attitude of mind in which man acknowledges Jehovah as the source of his existence ( created ofJah, whom Jehovah made). This attitude of mind is trusting, and it believes in the working of the divine law (time ofJah, Jehovah's opportunity). Jehovah's time is measured by steps in overcoming in con",
+      "candidates": [
+        {
+          "s": "H6265",
+          "def": "Athajah, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 389,
+      "word": "Athaliah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah suspends; Jah constrains; distress of Jehovah; affliction of",
+      "mibMeta": "The feminine or love nature in man wholly given to selfishness. This is the distress of Jehovah. Its dominant ambition is to rule, and it destroys everything that stands in the way of its attaining this ambition (II Kings 11:1-16). The selfishness of Athaliah was engendered through love for her son,",
+      "candidates": [
+        {
+          "s": "H6271",
+          "def": "Athaljah, the name of an Israelitess and two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 390,
+      "word": "Atharim",
+      "etym": "Heb.",
+      "mibDef": "regions; places. \"By the way of Atharim\" is translated \"by the way of",
+      "mibMeta": "\"By the way of Atharim\" refers to the indefinite, little known regions or realms of the subconsciousness (\"the South\") in man. It refers especially to the parts relating to the rudimentary life forces (Canaanites) in the subconscious phase of man's being.",
+      "candidates": []
+    },
+    {
+      "id": 391,
+      "word": "Athens",
+      "etym": "Gk.",
+      "mibDef": "city of Athene (named after the goddess Athene, corresponding to the",
+      "mibMeta": "The intellectual center in man. Paul's going from Athens to Corinth (Acts 18:1) signifies the withdrawal of the power of the divine word from the intellectual center (Athens) to the love center (Corinth) . Acts 17:16-31 shows in symbols how the word of Truth (Paul) commends the intellect's attempts ",
+      "candidates": [
+        {
+          "s": "G116",
+          "def": "Athenae, the capitol of Greece"
+        }
+      ]
+    },
+    {
+      "id": 392,
+      "word": "atmosphere",
+      "etym": "",
+      "mibDef": "Individually, an extension of consciousness; collectively, the pervading influence of",
+      "mibMeta": "By reading the letter of the Bible and accepting it as authority, men have formed erroneous ideas regarding the atonement. The Spirit of truth alone can reveal the true meaning of Jesus Christ's mission and work. The atonement as it has been understood by Christian people in the past has not taken s",
+      "candidates": []
+    },
+    {
+      "id": 393,
+      "word": "Atroth- shophan (A. V.",
+      "etym": "Heb.",
+      "mibDef": "Shophan: covered;",
+      "mibMeta": "The subtle, underhanded, deceitful way by which the thoughts, beliefs, and activities that are symbolized by the Amorites (see AMORITES) work to retain their hold in man's consciousness and life. But Atroph-shophan, after the Israelitish conquest of the Amorites, was given over to the Israelitish tr",
+      "candidates": []
+    },
+    {
+      "id": 394,
+      "word": "Atroth-beth-joab (A. V.",
+      "etym": "Heb.",
+      "mibDef": "crowns of the",
+      "mibMeta": "Atroth, or Ataroth, means crowns, and beth means house; therefore Atroth-beth- joab means crowns of the house of Joab. Joab (Jehovah is father) led David's army that defeated and slew Absalom. Joab represents the executive power of love— the pivotal center within man that preserves the unity and int",
+      "candidates": []
+    },
+    {
+      "id": 395,
+      "word": "Attai",
+      "etym": "Heb.",
+      "mibDef": "timely; opportune; seasonable; fit; in time; ready; my time.",
+      "mibMeta": "Attai symbolizes what the meanings of the name infer— that there is an opportune or seasonable time for all fruition of thought. This time has no reference to man's outer way of counting time in minutes, hours, days, and so forth. It refers to certain steps in consciousness that must be taken in ord",
+      "candidates": [
+        {
+          "s": "H6262",
+          "def": "Attai, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 396,
+      "word": "attainment",
+      "etym": "",
+      "mibDef": "Intellectual attainments are not in themselves of use in matters spiritual.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 397,
+      "word": "attainment",
+      "etym": "",
+      "mibDef": "A laying hold of the high and lofty ideas of the Christ Mind; the bringing",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 398,
+      "word": "Attalia",
+      "etym": "Gk.",
+      "mibDef": "that increases.",
+      "mibMeta": "Pamphylia means mixture of nations and signifies mixed thoughts and states of consciousness. Attalia represents an aggregation of thoughts in the outer consciousness, on the border of the sea of mortal thought. This aggregation of thoughts pertains to increase, growth, enlargement, multiplication ( ",
+      "candidates": []
+    },
+    {
+      "id": 399,
+      "word": "attitude",
+      "etym": "",
+      "mibDef": "in order to receive spiritual inspiration. The phrase, \"of the tribe of Judah,\" bespeaks this",
+      "mibMeta": "",
+      "candidates": []
+    }
+  ]
+}

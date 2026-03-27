@@ -1,0 +1,1226 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "20 of 37",
+  "_entry_range": "ids 1900–1999",
+  "entries": [
+    {
+      "id": 1900,
+      "word": "Jehudi",
+      "etym": "Heb.",
+      "mibDef": "of Judah, i. e., land of Judea; a Jew; my celebration; my praise; my",
+      "mibMeta": "A divine idea from the spiritual consciousness in the individual (a Jew here refers to a spiritual thought rather than to some old-established religious thought; see JEWS) to enlighten the will (king) with wise counsel and advice (conferring); this idea is bom of the inner praise-and-prayer consciou",
+      "candidates": [
+        {
+          "s": "H3065",
+          "def": "Jehudi, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1901,
+      "word": "Jeiel",
+      "etym": "Heb.",
+      "mibDef": "God snatches away; God sweeps away, i. c., purifies, removes the refuge of",
+      "mibMeta": "God's treasure ( treasure of God) is the man who was made in the image and likeness of the Father-Mother God (see Gen. 1:26). This is spiritual man, the Christ, or Son, the divine- ideal man, who is the true inner self of every individual. Jeiel signifies an awakening by man to his inner true self, ",
+      "candidates": [
+        {
+          "s": "H3273",
+          "def": "Jeiel, the name of six Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1902,
+      "word": "Jekabzeel",
+      "etym": "Heb .",
+      "mibDef": "which God gathers; whom God collects; assemblage of God;",
+      "mibMeta": "Jekabzeel (the congregation of God, or that in us which God gathers together, infolds, and protects, takes special note of) typifies our highest, truest thoughts, our spiritual-thought people that make up our spiritual consciousness.",
+      "candidates": []
+    },
+    {
+      "id": 1903,
+      "word": "Jekameam",
+      "etym": "Heb.",
+      "mibDef": "heaping together of the people; gathering of the people;",
+      "mibMeta": "Jekameam (congregation of the people) comprises the thoughts of the intellectual, or purely mental, plane that are raised (rising of the people) to a higher standard (standing of the people) by the individual's consciously unifying himself (Hebron, father of Jekameam, means alliance and signifies th",
+      "candidates": [
+        {
+          "s": "H3360",
+          "def": "Jekamam, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1904,
+      "word": "Jekamiah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah will heap",
+      "mibMeta": "The inner assurance of the spiritually awakening individual that regardless of present appearances the Jehovah, I AM, or Christ mind, will be lifted up in him (rising ofJah) and will bring him into conscious union with God (gathering ofJah, congregation of Jehovah), and into a realization of great s",
+      "candidates": [
+        {
+          "s": "H3359",
+          "def": "Jekamjah, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1905,
+      "word": "Jekuthiel",
+      "etym": "Heb .",
+      "mibDef": "obedience toward God; piety toward God; hope of God; strength",
+      "mibMeta": "A thought belonging to the Judah (inner praise and life) consciousness that is very obedient and earnest in its devotion to Truth (obedience toward God, piety toward God). Its trust is in the divine law, in Spirit, as being its all-sufficient strength and might (hope of God, strength of God, mighty ",
+      "candidates": [
+        {
+          "s": "H3354",
+          "def": "Jekuthiel, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1906,
+      "word": "Jemimah (A. V.",
+      "etym": "Heb.",
+      "mibDef": "dove; purity; fruitfulness; fertility; love; desire;",
+      "mibMeta": "The soul purified from fear, contention, and self-justification, and made gentle, peaceful, loving, fertile for greater acceptance and realization of good.",
+      "candidates": []
+    },
+    {
+      "id": 1907,
+      "word": "Jemuel",
+      "etym": "Heb.",
+      "mibDef": "God is light; day of God; infinite and universal luminous manifestation",
+      "mibMeta": "Jemuel (God is light, day of God) symbolizes the time in individual unfoldment when the light of Truth is accepted into consciousness and realized. The individual thus enters spiritual understanding, a comprehension of the light that is God (infinite and universal luminous manifestation of God). Thi",
+      "candidates": []
+    },
+    {
+      "id": 1908,
+      "word": "Jephthah",
+      "etym": "Heb.",
+      "mibDef": "whom He (Jehovah) sets free;",
+      "mibMeta": "A very influential thought in the judgment faculty in man. Though cast out as evil by the more formal, established religious thoughts (his brethren), and denied inheritance with them, this Jephthah thought persists in holding to the good, to perfection. (Jephthah dwelt in the land of Tob, and Tob me",
+      "candidates": [
+        {
+          "s": "H3316",
+          "def": "Jiphtach, an Israelite; also a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1909,
+      "word": "Jephunneh",
+      "etym": "Heb.",
+      "mibDef": "which will be before his face; appearing; which holds",
+      "mibMeta": "A thought in the Israelitish, or real, true, higher consciousness in man that, by attentively looking into (he will behold, which holds attention ) the divine law and regarding it with favor, by seeking to promote the keeping of it ( which will be before his face, favorable-appearing), brings to lig",
+      "candidates": [
+        {
+          "s": "H3312",
+          "def": "Jephunneh, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1910,
+      "word": "Jerah",
+      "etym": "Heb .",
+      "mibDef": "companionate radiation; radiating brother; he will breathe; he will",
+      "mibMeta": "Jerah (companionate radiation; he will breathe, he will become inspired, moon, lunar month) refers to the light (understanding) of the inspired intellect, or to the fact that the intellect of",
+      "candidates": []
+    },
+    {
+      "id": 1911,
+      "word": "Jerahmeel",
+      "etym": "Heb.",
+      "mibDef": "whom God loves; on whom God has mercy; to whom God",
+      "mibMeta": "The true idea of God as a loving and compassionate father, mother, friend, and almighty resource, and not as an angry, revengeful deity. (When the personal man gets hold of this idea he is likely to carry it to an extreme by thinking that he can do anything that he wishes to do, even to the point of",
+      "candidates": [
+        {
+          "s": "H3396",
+          "def": "Jerachmeel, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1912,
+      "word": "Jerahmeelites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Jerahmeel.",
+      "mibMeta": "Thoughts springing from and belonging to that in consciousness which Jerahmeel signifies. (See JERAHMEEL.)",
+      "candidates": []
+    },
+    {
+      "id": 1913,
+      "word": "Jered",
+      "etym": "Heb .",
+      "mibDef": "going down, i. e.,from a higher to a lower; descent; downcast; weeping;",
+      "mibMeta": "Virtually the same meaning as Jared: the descent of the higher Truth thoughts into the subconsciousness (flowing south) and the body consciousness in one's seemingly mortal state (brought low), there to act as leaven and so to raise the whole of the individual to a higher, even to spiritual, underst",
+      "candidates": [
+        {
+          "s": "H3382",
+          "def": "Jered, the name of an antediluvian, and of an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1914,
+      "word": "Jeremai",
+      "etym": "Heb.",
+      "mibDef": "of the heights; dwelling on high; dwelling on high places;",
+      "mibMeta": "A high thought, or attitude of mind, in the consciousness of the spiritually awakening individual, but not entirely free from the influence of the lower emotions, affections, and desires of the phase of the soul that is given over to sense (he had taken a foreign wife). Jeremiah (in A.",
+      "candidates": []
+    },
+    {
+      "id": 1915,
+      "word": "Jeremoth",
+      "etym": "Heb.",
+      "mibDef": "elevations; heights; exaltations; terror of death; rejection of death.",
+      "mibMeta": "Lofty, constructive thoughts in the true religious consciousness of man. Such thoughts aid in putting away death.",
+      "candidates": []
+    },
+    {
+      "id": 1916,
+      "word": "Jeriah",
+      "etym": "Heb.",
+      "mibDef": "founded of Jehovah; constituted ofJah- Jehovah will throw, i. e., scatter",
+      "mibMeta": "A strong religious tendency (Levite) that springs from the love faculty (Levi) and makes union with the outer conscious mind (Hebron, referring to the front brain, or seat of conscious thought). This religious tendency, or thought activity, has its inception in Spirit. It is based on Truth ( founded",
+      "candidates": [
+        {
+          "s": "H3404",
+          "def": "Jerijah, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1917,
+      "word": "Jeribai",
+      "etym": "Heb .",
+      "mibDef": "for whom Jehovah pleads; whom Jehovah defends; for whom Jah",
+      "mibMeta": "The assurance of love (David) that our justice comes from the Lord and He will regulate all our affairs. When we know Truth and abide by it we do not have to contend with seeming adversaries within or without. We only need to turn them over to the Lord, the divine law of justice, and to declare the ",
+      "candidates": []
+    },
+    {
+      "id": 1918,
+      "word": "Jeriel",
+      "etym": "Heb .",
+      "mibDef": "founded by God; constituted by God; God points the way; vision of God;",
+      "mibMeta": "A strong, spiritually enlightened, directive, cherishing (vision of God, God points the way, God scatters the early rain ), ruling thought belonging to the zeal faculty in individual consciousness (a chief man of Issachar), that has its foundation in Spirit and receives its impetus from Spirit ( fou",
+      "candidates": []
+    },
+    {
+      "id": 1919,
+      "word": "Jerijah",
+      "etym": "Heb .",
+      "mibDef": "founded of Jehovah; constituted ofJah; Jehovah will throw, i. e., scatter",
+      "mibMeta": "See JERIAH.",
+      "candidates": [
+        {
+          "s": "H3404",
+          "def": "Jerijah, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1920,
+      "word": "Jerimoth",
+      "etym": "Heb.",
+      "mibDef": "elevations; heights; exaltations; terror of death; rejection of death.",
+      "mibMeta": "High thoughts in the true religious consciousness of man— thoughts of faith and love (descendants of Benjamin and Levi) centered in the recognition of God as life, omnipresent and abiding in all its fullness. Thus the error idea of death is put away (rejection of death).",
+      "candidates": [
+        {
+          "s": "H3406",
+          "def": "Jerimoth or Jeremoth, the name of twelve Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1921,
+      "word": "Jerioth",
+      "etym": "Heb.",
+      "mibDef": "veils; curtains; canopies; tents; tabernacles; tremulous; shakings;",
+      "mibMeta": "Fearfulness and lack of courage and positiveness (tremulous, timidity) that envelop the soul at times, so long as the individual still believes in a limited consciousness of life in the body (tents, tabernacles). Such thoughts cause obscurity of the inner vision, a certain darkness or lack of unders",
+      "candidates": []
+    },
+    {
+      "id": 1922,
+      "word": "Jeroboam",
+      "etym": "Heb.",
+      "mibDef": "whose people is many; many people; multiplying people;",
+      "mibMeta": "Jeroboam symbolizes what the name implies— the people are adverse (adverse people, hostile people, contentious people ). The thoughts of man are his people. The Rehoboam kingdom, called the kingdom of Judah, stands for the natural life forces of the organism, the subjective consciousness. The Jerobo",
+      "candidates": [
+        {
+          "s": "H3379",
+          "def": "Jarobam, the name of two Israelite kings"
+        }
+      ]
+    },
+    {
+      "id": 1923,
+      "word": "Jeroham",
+      "etym": "Heb.",
+      "mibDef": "He ( Jehovah ) is compassionate; who finds mercy; he will cherish;",
+      "mibMeta": "Spiritual ideas of divine love, mercy, tender compassion, and support (He is compassionate, who finds mercy, he will cherish, he will love) becoming active in the various faculties of individual consciousness that are represented by the tribes to which the Israelitish men by this name belonged: the ",
+      "candidates": [
+        {
+          "s": "H3395",
+          "def": "Jerocham, the name of seven or eight Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1924,
+      "word": "Jerubbaal",
+      "etym": "Heb.",
+      "mibDef": "with whom Bcml contends; contender with Bacd; Bcml of strife;",
+      "mibMeta": "At this time the Israelites had so lost their consciousness of the one true God that they were worshipping Baal, or materiality. For them to be conducted out of darkness it was necessary that some capable leader be raised up. This leader was found in the person of Gideon or Jerubbaal. Jerubbaal is a",
+      "candidates": [
+        {
+          "s": "H3378",
+          "def": "Jerubbaal, a symbolic name of Gideon"
+        }
+      ]
+    },
+    {
+      "id": 1925,
+      "word": "Jeruel",
+      "etym": "Heb.",
+      "mibDef": "foundation of Gocl; founded of God; God points the way; vision of Gocl.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1926,
+      "word": "Jerusalem",
+      "etym": "Heb.",
+      "mibDef": "habitation of peace; dwelling place of peace; possession of",
+      "mibMeta": "Jerusalem means habitation of peace. In man it is the abiding consciousness of spiritual peace, which is the result of continuous realizations of spiritual power tempered with spiritual poise and confidence. Jerusalem is the \"city of David,\" which symbolizes the great nerve center just back of the h",
+      "candidates": [
+        {
+          "s": "H3389",
+          "def": "Jerushalaim or Jerushalem, the capital city of Palestine"
+        },
+        {
+          "s": "G2419",
+          "def": "Hierusalem (i.e., Jerushalem), the capitol of Palestine"
+        },
+        {
+          "s": "G2414",
+          "def": "Hierosolyma (i.e., Jerushalaim), the capitol of Palestine"
+        },
+        {
+          "s": "H3390",
+          "def": "Jerusalem"
+        }
+      ]
+    },
+    {
+      "id": 1927,
+      "word": "Jerusalem",
+      "etym": "",
+      "mibDef": "ly, a receptive state of mind toward all spiritual good.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3389",
+          "def": "Jerushalaim or Jerushalem, the capital city of Palestine"
+        },
+        {
+          "s": "G2419",
+          "def": "Hierusalem (i.e., Jerushalem), the capitol of Palestine"
+        },
+        {
+          "s": "G2414",
+          "def": "Hierosolyma (i.e., Jerushalaim), the capitol of Palestine"
+        },
+        {
+          "s": "H3390",
+          "def": "Jerusalem"
+        }
+      ]
+    },
+    {
+      "id": 1928,
+      "word": "Jerusalem",
+      "etym": "",
+      "mibDef": "Spiritual consciousness. It is founded on the twelve fundamental ideas in Divine",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3389",
+          "def": "Jerushalaim or Jerushalem, the capital city of Palestine"
+        },
+        {
+          "s": "G2419",
+          "def": "Hierusalem (i.e., Jerushalem), the capitol of Palestine"
+        },
+        {
+          "s": "G2414",
+          "def": "Hierosolyma (i.e., Jerushalaim), the capitol of Palestine"
+        },
+        {
+          "s": "H3390",
+          "def": "Jerusalem"
+        }
+      ]
+    },
+    {
+      "id": 1929,
+      "word": "Jerusha",
+      "etym": "Web.",
+      "mibDef": "taking; seizing; possessing; possession; inheritance; heredity.",
+      "mibMeta": "Man's possession by inheritance, his hereditary possession, is the soul, the whole consciousness, at one with the Christ mind and constantly open to ideas from the one Mind. The thought of taking, seizing, possessing, shows that man has work to do in order to enter into conscious oneness with Spirit",
+      "candidates": []
+    },
+    {
+      "id": 1930,
+      "word": "Jeshaiah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah is liberty; liberation",
+      "mibMeta": "This name is virtually the same as Isaiah, and its symbology is the same: the higher self, Jehovah delivers. Spiritual understanding in us discerns the reality, or the real character, of spiritual man, I AM, Jehovah, and receives divine help in our daily overcoming.",
+      "candidates": [
+        {
+          "s": "H3470",
+          "def": "Jeshajah, the name of seven Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1931,
+      "word": "Jeshanah",
+      "etym": "Heb .",
+      "mibDef": "sleeping; slumbering; inactive; dry; listless; old, i. e., not new.",
+      "mibMeta": "Inactivity; thoughts that are not open to new ideas, to the activity of spiritual life and youth, but cling to the old ways and old ideas. Such thoughts are at the root of old-age manifestations; the sleeping youth in each individual needs resurrecting, even as Jesus raised Lazarus, that true wakefu",
+      "candidates": [
+        {
+          "s": "H3466",
+          "def": "Jeshanah, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1932,
+      "word": "Jesharelah",
+      "etym": "Heb.",
+      "mibDef": "up right toward God; God is righteous; God's equity; plain way",
+      "mibMeta": "The significance is virtually the same as that of Asharelah: uprightness of thought, the upward look, the attention fixed on God, Spirit. This, with love, the joining, unifying quality in individual consciousness, does much toward keeping one's mind and body \"in tune with the Infinite,\" in divine ha",
+      "candidates": []
+    },
+    {
+      "id": 1933,
+      "word": "Jeshebeab",
+      "etym": "Heb .",
+      "mibDef": "seat of the father; sitting of the father, i. e., in judgment;",
+      "mibMeta": "The fact that man is the dwelling place of God (seat of the father, temple of the Father ). The individual awakening to the truth that the heavenly Father's seat, abiding place, or established place of rule, is within man.",
+      "candidates": []
+    },
+    {
+      "id": 1934,
+      "word": "Jesher",
+      "etym": "Heb.",
+      "mibDef": "evenness; balance; plainness; straightness; uprightness; righteousness;",
+      "mibMeta": "Integrity and uprightness of thought and act, unbiased by error or prejudice. Such a life experiences and radiates light, peace, joy, and harmony.",
+      "candidates": []
+    },
+    {
+      "id": 1935,
+      "word": "Jeshishai",
+      "etym": "Heb .",
+      "mibDef": "of or pertaining to age; son of venerable age; hoary; whiteness;",
+      "mibMeta": "The idea that wisdom, peace, and true purity of thought and life come by age, experience, worship or great veneration of age, of that which is old: relics, thoughts and beliefs of ancestors, and so forth. Man must be watchful not to let this idea have place in his consciousness to the extent that hi",
+      "candidates": []
+    },
+    {
+      "id": 1936,
+      "word": "Jeshohaiah",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah bows down; humbled by Jah; inclined toward",
+      "mibMeta": "A humble, receptive state of thought. By meditating on the things of Spirit (inclined toward Jehovah, meditation of Jehovah) in a receptive attitude of mind (Simeon), one may be shown a shortcoming that one must put away, perhaps some outer word or act that must be corrected. This causes one to feel",
+      "candidates": []
+    },
+    {
+      "id": 1937,
+      "word": "Jeshua",
+      "etym": "",
+      "mibDef": "Jehovah is deliverance; Jehovah is help; Jehovah is salvation; Jah is",
+      "mibMeta": "Salvation or redemption through Jehovah, I AM. See JOSHUA.",
+      "candidates": [
+        {
+          "s": "H3442",
+          "def": "Jeshua, the name of ten Israelites, also of a place in Palestine"
+        },
+        {
+          "s": "H3443",
+          "def": "Jeshua, the name of ten Israelites, also of a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1938,
+      "word": "Jeshurun",
+      "etym": "Heb .",
+      "mibDef": "rectitude; righteousness; justice;",
+      "mibMeta": "The happy state (blessedness) of our real, religious thoughts (Israel), especially when they have become up right according to the true spiritual standard of righteousness, which includes love, mercy, good judgment, order, and the activity of all the faculties of the mind raised to spiritual conscio",
+      "candidates": [
+        {
+          "s": "H3484",
+          "def": "Jeshurun, a symbolic name for Israel"
+        }
+      ]
+    },
+    {
+      "id": 1939,
+      "word": "Jesimiel",
+      "etym": "Heb.",
+      "mibDef": "whom God has set up; constituted of God; whom God appoints;",
+      "mibMeta": "An influential thought in the spiritually receptive, attentive, obedient attitude of mind in man (Simeon), which acknowledges God, Spirit, as the power that not only created man (builded of God, Gocl-made ), but that also establishes him in his rightful place in Being (whom God has set up), and give",
+      "candidates": []
+    },
+    {
+      "id": 1940,
+      "word": "Jesse",
+      "etym": "Heb.",
+      "mibDef": "upstanding; firm; strong; upright; he will give; Jah exists; Jah is; he who",
+      "mibMeta": "In the Hebrew the root meaning of the word Jesse is Jah, Jehovah, or I AM, representing eternal existence ( Jah exists). When man realizes the eternal existence of I AM, and is firm and strong in this realization, he is in the Jesse state of mind, and out of this state of mind will come God's idea o",
+      "candidates": [
+        {
+          "s": "H3448",
+          "def": "Jishai, David's father"
+        },
+        {
+          "s": "G2421",
+          "def": "Jessae (i.e., Jishai), an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1941,
+      "word": "Jesus",
+      "etym": "Gk. fr. Heb. Jeshua or Joshua",
+      "mibDef": "whose help Jehovah is; deliverance; safety;",
+      "mibMeta": "The I in man, the self, the directive power, raised to divine understanding and power— the I AM identity. Jesus represents God's idea of man in expression; Christ is that idea in the absolute. Jesus Christ was the type man, which includes all the mental phases through which man passes in demonstrati",
+      "candidates": [
+        {
+          "s": "G2424",
+          "def": "Jesus (i.e., Jehoshua), the name of our Lord and two (three) other Israelites"
+        },
+        {
+          "s": "G846",
+          "def": "the reflexive pronoun self, used (alone or in the comparative G1438) of the third person, and (with the proper personal pronoun) of the other persons"
+        },
+        {
+          "s": "G1427",
+          "def": "two and ten, i.e., a dozen"
+        },
+        {
+          "s": "G1145",
+          "def": "to shed tears"
+        },
+        {
+          "s": "G4160",
+          "def": "to make or do (in a very wide application, more or less direct)"
+        }
+      ]
+    },
+    {
+      "id": 1942,
+      "word": "Jesus",
+      "etym": "",
+      "mibDef": "The Jews were under the dominion of an earth-minded priesthood. They",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2424",
+          "def": "Jesus (i.e., Jehoshua), the name of our Lord and two (three) other Israelites"
+        },
+        {
+          "s": "G846",
+          "def": "the reflexive pronoun self, used (alone or in the comparative G1438) of the third person, and (with the proper personal pronoun) of the other persons"
+        },
+        {
+          "s": "G1427",
+          "def": "two and ten, i.e., a dozen"
+        },
+        {
+          "s": "G1145",
+          "def": "to shed tears"
+        },
+        {
+          "s": "G4160",
+          "def": "to make or do (in a very wide application, more or less direct)"
+        }
+      ]
+    },
+    {
+      "id": 1943,
+      "word": "Jesus",
+      "etym": "",
+      "mibDef": "The Man of Nazareth, son of Mary; the Saviour of mankind according to present-day",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2424",
+          "def": "Jesus (i.e., Jehoshua), the name of our Lord and two (three) other Israelites"
+        },
+        {
+          "s": "G846",
+          "def": "the reflexive pronoun self, used (alone or in the comparative G1438) of the third person, and (with the proper personal pronoun) of the other persons"
+        },
+        {
+          "s": "G1427",
+          "def": "two and ten, i.e., a dozen"
+        },
+        {
+          "s": "G1145",
+          "def": "to shed tears"
+        },
+        {
+          "s": "G4160",
+          "def": "to make or do (in a very wide application, more or less direct)"
+        }
+      ]
+    },
+    {
+      "id": 1944,
+      "word": "Jether",
+      "etym": "Heb.",
+      "mibDef": "to have a surplus; left over; redundant; abundant; pre ‘minent; excellent;",
+      "mibMeta": "For the significance of Jether the Ishmaelite, the father of Amasa, see ITHRA; for the significance of Jether, priest of Midian and father-in-law of Moses, see JETHRO. The other men by this name also represent exalted thoughts in consciousness (pre ‘minent, excellent) and thoughts of abundance ( to ",
+      "candidates": [
+        {
+          "s": "H3500",
+          "def": "Jether, the name of five or six Israelites and of one Midianite"
+        }
+      ]
+    },
+    {
+      "id": 1945,
+      "word": "Jethro",
+      "etym": "Heb.",
+      "mibDef": "his abundance; his superiority; his preeminence; his excellence; his",
+      "mibMeta": "Jethro means his excellence, his superiority, his abundance. Midian means judgment, and Horeb, solitude. The interpretation of Exodus 3:1 is that we have to go into the solitude of the inner and lead our flock of thoughts to the back of the wilderness, where dwells the exalted One, the divine I AM, ",
+      "candidates": [
+        {
+          "s": "H3503",
+          "def": "Jethro, Moses' father-in-law"
+        }
+      ]
+    },
+    {
+      "id": 1946,
+      "word": "Jetur",
+      "etym": "Heb.",
+      "mibDef": "inclosure; encircled; nomadic; encampment; border; fence; boundary;",
+      "mibMeta": "An idea of order, solidity, strength ( that which keeps within bounds, i. e., in good order, a pillar, rock), that has sprung from the carnal (Ishmael). This Jetur belief thinks that the individual can be kept in orderly existence only when limited to certain lines of thought and action, when his th",
+      "candidates": []
+    },
+    {
+      "id": 1947,
+      "word": "Jeuel",
+      "etym": "Heb.",
+      "mibDef": "God snatched away; God swept away, i. e.,",
+      "mibMeta": "The significance is very much like that of Jeiel. Zerah, father of one of the men named Jeuel, is man's first conscious awakening to the inner light of his being. Jeuel is a further awakening by man to his true self, to his divine sonship. Jeuel also signifies the treasuring, unifying, gathering tog",
+      "candidates": []
+    },
+    {
+      "id": 1948,
+      "word": "Jeush",
+      "etym": "Heb.",
+      "mibDef": "to whom He ( God) hastens; he will",
+      "mibMeta": "Strong, unifying, attracting, accumulating thoughts in consciousness (he will collect, he will assemble, he will bring together). The thought of Cod, in the meaning of this name, to whom He (God) hastens, he will make haste, with the idea of bringing together, bespeaks the final lifting up and unify",
+      "candidates": [
+        {
+          "s": "H3266",
+          "def": "Jeush, the name of an Edomite and of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1949,
+      "word": "Jew",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Judea.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2453",
+          "def": "Judaean, i.e., belonging to Jehudah"
+        },
+        {
+          "s": "H3064",
+          "def": "a Jehudite (i.e., Judaite or Jew), or descendant of Jehudah (i.e., Judah)"
+        }
+      ]
+    },
+    {
+      "id": 1950,
+      "word": "jewels",
+      "etym": "",
+      "mibDef": "\"Jewels of silver, and jewels of gold\" (Exod. 12:35) represent wisdom and love in the",
+      "mibMeta": "\"Jewels of silver, and jewels of gold\" (Exod. 12:35) represent wisdom and love in an external sense, which are to be asked or demanded by the Children of Israel (the word \"borrowed,\" in the Authorized Version, is an error). This means that we are to affirm that all wisdom and all love, even in their",
+      "candidates": [
+        {
+          "s": "H3627",
+          "def": "something prepared, i.e., any apparatus (as an implement, utensil, dress, vessel or weapon)"
+        }
+      ]
+    },
+    {
+      "id": 1951,
+      "word": "Jewess",
+      "etym": "fr. Heb.",
+      "mibDef": "a female Jew.",
+      "mibMeta": "The soul or feminine aspect of that in consciousness for which a Jew stands. (See JEW, JEWS, and HEBREW.) Jewish, jew'-ish (fr. Heb.). Pertaining to the Jews (Tit. 1:14). Pertaining to that in consciousness for which a Jew stands. (See JEW and JEWS.) Jews, jews. People belonging to the tribe and kin",
+      "candidates": []
+    },
+    {
+      "id": 1952,
+      "word": "Jezebel",
+      "etym": "Heb.",
+      "mibDef": "intact; untouched; untouchable; unproductive; noncohabiting;",
+      "mibMeta": "The animal soul, unbridled passions of sense consciousness. When the union of the ruling identity in the intellect (King Ahab) and the licentious desires of the body is complete, the whole man is involved in error. This is rearing \"an altar for Baal in the house of Baal\" (I Kings 16:32). Jezebel cou",
+      "candidates": [
+        {
+          "s": "H348",
+          "def": "Izebel, the wife of king Ahab"
+        }
+      ]
+    },
+    {
+      "id": 1953,
+      "word": "Jezer",
+      "etym": "Heb.",
+      "mibDef": "formation; frame; image; imagination; thought; purpose; ideation;",
+      "mibMeta": "The forming (formation ) faculty of the mind, the imagination, established in strength (Naphtali).",
+      "candidates": []
+    },
+    {
+      "id": 1954,
+      "word": "Jezerites",
+      "etym": "Heb.",
+      "mibDef": "o/or belonging to Jezer.",
+      "mibMeta": "Thoughts and forces belonging to that in consciousness for which Jezer stands. (See JEZER.)",
+      "candidates": []
+    },
+    {
+      "id": 1955,
+      "word": "Jeziel",
+      "etym": "Heb.",
+      "mibDef": "whom God assembles; assembly of God; united of God; God unites;",
+      "mibMeta": "Spiritual unity (whom God assembles, united of God, assembly of God) brought about by the activity of faith and love. (Azmaveth, father of Jeziel, a Benjamite who came to David at Ziklag, signifies faith's power to bring results; and David stands for love). These two working together in the consciou",
+      "candidates": []
+    },
+    {
+      "id": 1956,
+      "word": "Jezrahiah",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah brings forth; Jehovah shines forth; glory of the",
+      "mibMeta": "The light of Truth shining forth, radiating in and from the redeemed consciousness of man (the rebuilding of Jerusalem's walls signifies the renewing and spiritualizing of man's organism).",
+      "candidates": [
+        {
+          "s": "H3156",
+          "def": "Jizrachjah, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1957,
+      "word": "Jezreel",
+      "etym": "Heb.",
+      "mibDef": "God scatters; whom God sows; seed of God; GodOs fruitfulness;",
+      "mibMeta": "Words of Truth (seed o~ God ) brought into man's conscious, thinking mind, or brought to his attention, by the inspiration of the Holy Spirit within him ( God scatters, whom God sows). JOAB",
+      "candidates": [
+        {
+          "s": "H3157",
+          "def": "Jizreel, the name of two places in Palestine and of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1958,
+      "word": "Jezreelite",
+      "etym": "fr. Heb.",
+      "mibDef": "o/or belonging to Jezreel.",
+      "mibMeta": "A positive thought force belonging to the word-of-Truth consciousness for which Jezreel stands. (See JEZREEL.) Jezreelitess, jez'-re-el-i-tess (fr. Heb.)~o/or belonging to Jezreel. A woman inhabitant of Jezreel; here it is Ahinoam the Jezreelitess, one of David's wives (I Sam. 27:3). Ahinoam the Jez",
+      "candidates": [
+        {
+          "s": "H3158",
+          "def": "a Jizreelite or native of Jizreel"
+        }
+      ]
+    },
+    {
+      "id": 1959,
+      "word": "Jidlaph",
+      "etym": "Heb .",
+      "mibDef": "dropping; dripping; distilling; tearful; weeping; flowing out; wasting",
+      "mibMeta": "A very negative phase of thought in man.",
+      "candidates": []
+    },
+    {
+      "id": 1960,
+      "word": "Joab",
+      "etym": "Heb.",
+      "mibDef": "whose father Jehovah is; Jehovah is father.",
+      "mibMeta": "The executive power of love. The pivotal center within man that preserves the unity and integrity of soul and body— the individual will. This is the focal point around which all the forces of the organism, objective and subjective, adjust themselves. II Samuel 18:9-15 does not say that Joab killed A",
+      "candidates": [
+        {
+          "s": "H3097",
+          "def": "Joab, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1961,
+      "word": "Joah",
+      "etym": "Heb.",
+      "mibDef": "whose brother is Jehovah; Jah is brother; Jah is friend; confederated of",
+      "mibMeta": "Man's divine relationship to his / AM, or indwelling Christ (Jehovah); an",
+      "candidates": [
+        {
+          "s": "H3098",
+          "def": "Joach, the name of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1962,
+      "word": "Joahaz",
+      "etym": "Heb.",
+      "mibDef": "who lays hold of Jehovah; Jehovah holds fast; who adheres to Jah;",
+      "mibMeta": "A phase of man's memory in his higher realm of consciousness, in which is kept a record of all true, helpful, spiritual thoughts and experiences (who lays hold of Jehovah, who adheres to Jah).",
+      "candidates": [
+        {
+          "s": "H3099",
+          "def": "Joachaz, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1963,
+      "word": "Joanan (A. V.",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "Jehovah has graciously given; to whom Jah is",
+      "mibMeta": "Joanan (Jehovah has graciously given) symbolizes abundance of whatever is needed to meet every requirement of man. All of God is ever at man's disposal, and for his righteous use: all life, all love, all intelligence, all light, all faith, all power, all substance, all strength, all Truth, all that ",
+      "candidates": []
+    },
+    {
+      "id": 1964,
+      "word": "Joanna",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "Jehovah has graciously given; grace of Jah.",
+      "mibMeta": "The soul quality of intuition, discernment, which perceives the Truth that is expressed in the explanation given the name JOANAN, which see.",
+      "candidates": [
+        {
+          "s": "G2489",
+          "def": "Joanna, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 1965,
+      "word": "Joash",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah has bestowed; given of Jehovah; whom Jah supports;",
+      "mibMeta": "As a king of Judah, Joash signifies the will (king) animated and directed by Jehovah, I AM, indwelling Christ (whom Jehovah has bestowed, fire of Jehovah), and sustained by Spirit in its executive working (whom Jah supports). Joash is the rightful king in consciousness. He is brought to the throne b",
+      "candidates": [
+        {
+          "s": "H3101",
+          "def": "Joash, the name of six Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1966,
+      "word": "Jobab",
+      "etym": "Heb .",
+      "mibDef": "celestial jubilation; shout of joy; fullness of joy; welling shout of",
+      "mibMeta": "The noisy, contentious tumultuousness of the outer personal man while under the dominion of the \"mind of the flesh\" (howling of wild beasts, wail of tribulation). In Jobab, the thirteenth son of Joktan JOELAH and the seventh generation from Noah, through Shem, we find a certain fulfillment of the se",
+      "candidates": [
+        {
+          "s": "H3103",
+          "def": "Jobab, the name of two Israelites and of three foreigners"
+        }
+      ]
+    },
+    {
+      "id": 1967,
+      "word": "Jochebed",
+      "etym": "Heb.",
+      "mibDef": "whose glory is Jehovah; Jah is honor; whom Jehovah multiplies;",
+      "mibMeta": "The religious soul of man exalting, honoring, and glorifying Jehovah, Christ, I AM, by expressing the love (Levi, the love faculty) and Truth of Spirit. When man glorifies God and exalts Him in his thoughts, man in turn is exalted and enriched (Jah makes great).",
+      "candidates": [
+        {
+          "s": "H3115",
+          "def": "Jokebed, the mother of Moses"
+        }
+      ]
+    },
+    {
+      "id": 1968,
+      "word": "Joda (A. V.",
+      "etym": "corruption of Gk., fr. Heb.",
+      "mibDef": "Judah; praise; celebration; lauding;",
+      "mibMeta": "The growing tendency of the spiritually unfolding individual to praise God, to appreciate and hold to that which is good and true.",
+      "candidates": []
+    },
+    {
+      "id": 1969,
+      "word": "Joel",
+      "etym": "Heb .",
+      "mibDef": "Jehovah God; Jah is his God; worshiper of God; he who desires; he who",
+      "mibMeta": "Joel bespeaks the I AM in dominion in the individual (Jah is his God, he who desires, he who wills, he who fulfills every desire ). In this consciousness all things are possible.",
+      "candidates": [
+        {
+          "s": "H3100",
+          "def": "Joel, the name of twelve Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1970,
+      "word": "Joelah",
+      "etym": "Heb .",
+      "mibDef": "whom Jehovah helps up; whom Jehovah raises; he who will stand upon",
+      "mibMeta": "A strong, uplifting, redeeming thought springing from the spiritual ideas of divine love, mercy, compassion, and support (Jeroham), and based on man's innate belief in divine protection (Gedor). This thought becomes a great help in establishing the dominion of love in the religious consciousness of ",
+      "candidates": []
+    },
+    {
+      "id": 1971,
+      "word": "Joezer",
+      "etym": "Heb .",
+      "mibDef": "whose help is Jehovah; Jehovah is help; succoring; helping; infolding;",
+      "mibMeta": "1 AM, Jehovah, the Christ, as our all-sufficient strength and support, an ever present help in every need.",
+      "candidates": []
+    },
+    {
+      "id": 1972,
+      "word": "Jogbehah",
+      "etym": "Heb .",
+      "mibDef": "He shall be exalted; who will be elevated; who dwelleth on the",
+      "mibMeta": "Exalting God in one's life; holding exalted thoughts (He shall be exalted, who will be elevated, who dwelleth on the heights) about life, in the inner or subjective phase of the power faculty (Gad) in individual consciousness. (This city was on the east of the Jordan. East signifies the within, and ",
+      "candidates": []
+    },
+    {
+      "id": 1973,
+      "word": "Jogli",
+      "etym": "Heb .",
+      "mibDef": "carrying away; removing; passing over; uncovering; baring; disclosing;",
+      "mibMeta": "A thought, belonging to the judgment faculty of man (Dan), in transit (passing over) from Egyptian darkness to the wilderness experience— a partial discernment and comprehension of",
+      "candidates": []
+    },
+    {
+      "id": 1974,
+      "word": "Joha",
+      "etym": "Heb.",
+      "mibDef": "Jehovah lives; Jah enlivens; Jehovah perceives; alive; Jah gives life;",
+      "mibMeta": "The awakening individual's becoming conscious that life is spiritual and that life only is God's will for man and His gift to man, through I AM, Jehovah, the Christ. This leads to a putting away of the error belief that God— who is life and in whom there can be no death or error— has any part whatev",
+      "candidates": [
+        {
+          "s": "H3109",
+          "def": "Jocha, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1975,
+      "word": "Johanan",
+      "etym": "Heb.",
+      "mibDef": "Jehovah bestows mercy; Jah is gracious, Jehovah gives graciously;",
+      "mibMeta": "The love, mercy, largeness, broadness, and generosity of Spirit. (See JOHN, which is a contraction of this name.)",
+      "candidates": [
+        {
+          "s": "H3110",
+          "def": "Jochanan, the name of nine Israelites"
+        },
+        {
+          "s": "H3076",
+          "def": "Jehochanan, the name of eight Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1976,
+      "word": "John",
+      "etym": "fr. Heb.",
+      "mibDef": "Jehovah bestows mercifully; Jah is gracious; grace and mercy of the Lord;",
+      "mibMeta": "John the Baptist was the forerunner of Jesus Christ. He signifies a high intellectual perception of Truth, but one not yet quickened of Spirit. John represents that attitude of mind in which we are zealous for the rule of Spirit. This attitude is not spiritual, but a perception of spiritual possibil",
+      "candidates": [
+        {
+          "s": "G2491",
+          "def": "Joannes (i.e., Jochanan), the name of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1977,
+      "word": "John the Baptist",
+      "etym": "",
+      "mibDef": "Represents the natural man, the physical man. His face is turned toward the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2491",
+          "def": "Joannes (i.e., Jochanan), the name of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1978,
+      "word": "Joiada",
+      "etym": "Heb .",
+      "mibDef": "whom Jehovah knows; perception ofJah; knowledge ofJah; whom Jah",
+      "mibMeta": "The inner spiritual knowing. (See JEHOIADA.)",
+      "candidates": [
+        {
+          "s": "H3111",
+          "def": "Jojada, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1979,
+      "word": "Joiakim",
+      "etym": "Heb .",
+      "mibDef": "whom Jehovah has set up; Jehovah establishes; Jehovah rises, i. e.,",
+      "mibMeta": "A ruling thought in man's religious or spiritual consciousness (high priest) that exalts Spirit, that perceives the possibility of establishing God in individual consciousness, and that works toward that end. (See JEHOIAKIM.)",
+      "candidates": [
+        {
+          "s": "H3113",
+          "def": "Jojakim, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1980,
+      "word": "Joiarib",
+      "etym": "Heb ,",
+      "mibDef": "whom Jehovah defends; Jah will contend; for whom Jehovah pleads;",
+      "mibMeta": "Like Jehoiarib, an inner realization of God, through Christ, Jehovah, I AM, as our protection and defense; also an idea of spiritual increase (Jehovah will increase, Jah will multiply).",
+      "candidates": []
+    },
+    {
+      "id": 1981,
+      "word": "Jokdeam",
+      "etym": "Heb.",
+      "mibDef": "anger of the people; inflammation of the people; vehement burning",
+      "mibMeta": "Wickedness in high places, and its result. The hill country of Judah refers to the consciousness of life lifted to a high, exalted place through praise and prayer. In this high realm of consciousness, however, the seeds of strife and selfishness have not been wholly eliminated; and in Jokdeam we fin",
+      "candidates": []
+    },
+    {
+      "id": 1982,
+      "word": "Jokim",
+      "etym": "Heb.",
+      "mibDef": "Jehovah sets up; Jah establishes; Jehovah rises; Jah constitutes; Jehovah",
+      "mibMeta": "Jokim is one of those of whom it is said, \"And the records are ancient. These were the potters, and the inhabitants of Netaim and Gederah: there they dwelt with the king for his work\" (I Chron. 4:22,23). In the margin, and in the Authorized Version, \"those that dwelt among plantations and hedges\" is",
+      "candidates": []
+    },
+    {
+      "id": 1983,
+      "word": "Jokmeam",
+      "etym": "Heb .",
+      "mibDef": "gathering of the people;",
+      "mibMeta": "A phase of the will (Ephraim) given over to religious thoughts and tendencies (Levites), thus indicating that the standing of the people, or the standard of the thoughts that comprise the city of Jokmeam in individual consciousness, is to be raised to a higher plane ( the people will be raised up). ",
+      "candidates": [
+        {
+          "s": "H3361",
+          "def": "Jokmeam, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1984,
+      "word": "Jokneam",
+      "etym": "Heb.",
+      "mibDef": "let the people possess; possession of the people; foundation of the",
+      "mibMeta": "Carmel means fruitful place and signifies abundance. It is a place in consciousness where we realize the fullness of our possibilities under the divine law. (See CARMEL.) Jokneam, a city in Carmel, typifies a group of established thoughts (foundation of the people ) in the Carmel consciousness that ",
+      "candidates": [
+        {
+          "s": "H3362",
+          "def": "Jokneam, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1985,
+      "word": "Jokshan",
+      "etym": "Heb .",
+      "mibDef": "fowler; snarer; one who enmeshes; adversary; insidious; harsh;",
+      "mibMeta": "A sly, treacherous, deceitful tendency that often exists in the sense mind of man (snarer, fowler, insidious); also the results that follow the activity of this tendency (offensive, hard), and the difficult situations in which it places the individual who gives way to it. (See ISHBAK.) Joktan, jok'-",
+      "candidates": [
+        {
+          "s": "H3370",
+          "def": "Jokshan, an Arabian patriarch"
+        }
+      ]
+    },
+    {
+      "id": 1986,
+      "word": "Joktheel",
+      "etym": "Heb .",
+      "mibDef": "subdued of God; protection of God; advantage of God; God's",
+      "mibMeta": "Edom, or Esau, typifies the animal, physical, or sense consciousness in man. Sela, the rock or cliff, the capital of Edom, represents sense man's trust in physical strength and power. Amaziah's conquering this city and renaming it Joktheel signifies the transferring of one's faith and trust from out",
+      "candidates": [
+        {
+          "s": "H3371",
+          "def": "Joktheel, the name of a place in Palestine, and of one in Idumaea"
+        }
+      ]
+    },
+    {
+      "id": 1987,
+      "word": "Jonadab",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah impels; Jehovah is spontaneously liberal; Jah will",
+      "mibMeta": "The Rechabites, who were of the Children of Israel, were commanded to live in tents instead of houses (Jer. 35:7). This dwelling in tents symbolizes the progressive spiritual man who never allows his ideas to become crystallized, fixed, or final; who sees to it that they are receptive to new revelat",
+      "candidates": [
+        {
+          "s": "H3122",
+          "def": "Jonadab, the name of an Israelite and of a Rechabite"
+        },
+        {
+          "s": "H3082",
+          "def": "Jehonadab, the name of an Israelite and of an Arab"
+        }
+      ]
+    },
+    {
+      "id": 1988,
+      "word": "Jonah",
+      "etym": "Heb.",
+      "mibDef": "a dove; dovelike; warmth; affection;",
+      "mibMeta": "That prophetic state of mind which, if used without divine love, fixes man in bondage to belief in a law of cause and effect wherein error sowing cannot be redeemed or forgiven. When error effects are revealed to one by the prophetic faculty of mind, which is open to receive the outpicturing of thou",
+      "candidates": [
+        {
+          "s": "H3124",
+          "def": "Jonah, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1989,
+      "word": "Jonam (A. V.",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "Greek form of Johanan: Jehovah bestows mercy;",
+      "mibMeta": "The Spirit of love, mercy, and peace becoming known and established in consciousness, through Jehovah, I AM.",
+      "candidates": []
+    },
+    {
+      "id": 1990,
+      "word": "Jonath elem rehokim (A. V.",
+      "etym": "Heb .",
+      "mibDef": "the",
+      "mibMeta": "Peace (dove) through the inner rhythm and melody of the soul and body attuned to Spirit. That which to the human sometimes seems afar off is brought close in the silence.",
+      "candidates": []
+    },
+    {
+      "id": 1991,
+      "word": "Jonathan",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah gave; Jah has given; gift of Jehovah; Jah-given.",
+      "mibMeta": "The human or soul love of higher, more spiritual things. In I Samuel 20:32-42 Jonathan typifies the soul substance that, in man's unfoldment, tries to unite will and love. He symbolizes that soul quality which, though the offspring of the will (Saul), turns yearningly toward love (David). Jonathan l",
+      "candidates": [
+        {
+          "s": "H3083",
+          "def": "Jehonathan, the name of four Israelites"
+        },
+        {
+          "s": "H3129",
+          "def": "Jonathan, the name of ten Israelites"
+        },
+        {
+          "s": "H5046",
+          "def": "properly, to front, i.e., stand boldly out opposite; by implication (causatively), to manifest; figuratively, to announce (always by word of mouth to one present); specifically, to expose, predict, explain, praise"
+        }
+      ]
+    },
+    {
+      "id": 1992,
+      "word": "Joppa",
+      "etym": "Hob.",
+      "mibDef": "beauty, comeliness; good; excellence.",
+      "mibMeta": "A group of thoughts in consciousness, or a nerve center, not far from the heart center (Jerusalem), in which a very exalted appreciation of beauty is the central or dominant characteristic.",
+      "candidates": [
+        {
+          "s": "G2445",
+          "def": "Joppe (i.e., Japho), a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1993,
+      "word": "Jorah",
+      "etym": "Heb .",
+      "mibDef": "watering; sprinkling; first rains; autumn rain.",
+      "mibMeta": "Jorah (autumn min, first rains, sprinkling) is symbolical of the \"early\" rain, or beginning of the outpouring of Spirit upon all flesh (the entire consciousness), preceding the harvest time of the earth (body, and earthly consciousness). (See Joel 2:28 and Acts 2:17. See also Deuteronomy 11:14; Jere",
+      "candidates": []
+    },
+    {
+      "id": 1994,
+      "word": "Jorai",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah teaches; instructed ofJali; directed by Jehovah; Jah waters;",
+      "mibMeta": "A central thought of the power faculty (Gad) in individual consciousness, receiving spiritual inspiration, or spiritually inspired and guided (whom Jehovah teaches, directed by Jehovah).",
+      "candidates": []
+    },
+    {
+      "id": 1995,
+      "word": "Joram",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah has set on high; Jehovah has exalted; Jehovah is exalted.",
+      "mibMeta": "See JEHORAM. The kings, Jehoram of Judah, and Jehoram or Joram of Israel, in their individual characters and reigns, were not true to that which their name implies. Seeming evil came to them instead of the good that should have been their lot.",
+      "candidates": [
+        {
+          "s": "H3141",
+          "def": "Joram, the name of three Israelites and one Syrian"
+        },
+        {
+          "s": "H3088",
+          "def": "Jehoram, the name of a Syrian and of three Israelites"
+        },
+        {
+          "s": "G2496",
+          "def": "Joram, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1996,
+      "word": "Jordan",
+      "etym": "Heb.",
+      "mibDef": "the descender; the descending one; the south flowing; flowing down",
+      "mibMeta": "There is a stream of thought constantly flowing through the subconsciousness (the south flowing), made up of thoughts good, bad, and indifferent, which is typified in Scripture by the river Jordan. In other words it is the life flow of thought through the organism from head to feet. In man's ignoran",
+      "candidates": [
+        {
+          "s": "H3383",
+          "def": "Jarden, the principal river of Palestine"
+        },
+        {
+          "s": "G2446",
+          "def": "the Jordanes (i.e., Jarden), a river of Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1997,
+      "word": "Jorim",
+      "etym": "",
+      "mibDef": "whom Jehovah has set on high; Jehovah has exalted; Jehovah is",
+      "mibMeta": "See JEHORAM.",
+      "candidates": []
+    },
+    {
+      "id": 1998,
+      "word": "Jorkeam (A. V.",
+      "etym": "Heb.",
+      "mibDef": "the people is spread abroad; scattering of the",
+      "mibMeta": "Jorkeam ( spreading out of the people, the people is spread abroad ) signifies the expanding of the faith-and-praise consciousness in us (Jorkeam was a descendant of Caleb, who signifies spiritual faith and enthusiasm, of the tribe of Judah, which signifies praise). This expansion is brought about b",
+      "candidates": []
+    },
+    {
+      "id": 1999,
+      "word": "Josech (A. V.",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "whom Jehovah will add to; Jehovah shall",
+      "mibMeta": "The significance is the same as that of Joseph: the imagination, the imaging, increasing power of the mind.",
+      "candidates": []
+    }
+  ]
+}

@@ -1,0 +1,1495 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "29 of 37",
+  "_entry_range": "ids 2800–2899",
+  "entries": [
+    {
+      "id": 2800,
+      "word": "Pontius",
+      "etym": "Lat.",
+      "mibDef": "o/or belonging to the sea; mariner; fisherman.",
+      "mibMeta": "See PILATE.",
+      "candidates": [
+        {
+          "s": "G4194",
+          "def": "apparently bridged; Pontius, a Roman"
+        }
+      ]
+    },
+    {
+      "id": 2801,
+      "word": "Pontus",
+      "etym": "Gk.",
+      "mibDef": "deep; sea; wave.",
+      "mibMeta": "Universal mind (deep, sea; see AQUILLA, who was a man of Pontus). poise— A state of consciousness that beholds the world from the harmony of the Christ Mind; a freedom from personal thinking.",
+      "candidates": []
+    },
+    {
+      "id": 2802,
+      "word": "pool",
+      "etym": "",
+      "mibDef": "ly, the realization in consciousness that our life is being constantly purified, healed, and",
+      "mibMeta": "The error belief of the outer sense man that good comes to one by \"luck,\" \"fate,\" and not as a sure result of right and wise thinking and doing, of living in harmony with divine law and using one's faculties and powers in loving, faithful service to God, to one's fellow men, and to one's own highest",
+      "candidates": [
+        {
+          "s": "H1295",
+          "def": "a reservoir (at which camels kneel as a resting-place)"
+        },
+        {
+          "s": "G2861",
+          "def": "a diving-place, i.e., pond for bathing (or swimming)"
+        },
+        {
+          "s": "H98",
+          "def": "a marsh; hence a rush (as growing in swamps); hence a stockade of reeds"
+        }
+      ]
+    },
+    {
+      "id": 2803,
+      "word": "Porcius Festus",
+      "etym": "",
+      "mibDef": "merry pig; swinish festival.",
+      "mibMeta": "Add to the significance of Festus the idea of hoggishness and swinishness, and you will have the significance of Porcius Festus. Potiphar, pot'-;-phSr (Heb. fr. Egypt.) -dedicated to Ra; belonging to the sun. An officer of Pharaoh, king of Egypt, and captain of his guard; the man to whom Joseph was ",
+      "candidates": [
+        {
+          "s": "G4201",
+          "def": "apparently swinish; Porcius, a Roman"
+        }
+      ]
+    },
+    {
+      "id": 2804,
+      "word": "possibilities that man has through his true",
+      "etym": "",
+      "mibDef": "I AM, Jehovah. This thought is learning the",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2805,
+      "word": "Poti-phera (A.V.",
+      "etym": "E (Heb. fr. Egypt .",
+      "mibDef": "belonging to Ra; dedicated to the",
+      "mibMeta": "Potiphera, an Egyptian priest of On (belonging to Ra, dedicated to the sun), indicates a natural religious tendency in the individual that gives the force of its influence to the worship and building up of that in consciousness which the Egyptian city of On signifies. (See ON.) pounds (Luke 19:13-26",
+      "candidates": []
+    },
+    {
+      "id": 2806,
+      "word": "poverty",
+      "etym": "",
+      "mibDef": "When love has begun its silent pulsations at one's center of consciousness, one",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7389",
+          "def": "poverty"
+        },
+        {
+          "s": "G4432",
+          "def": "beggary, i.e., indigence (literally or figuratively)"
+        },
+        {
+          "s": "H2639",
+          "def": "lack; hence, destitution"
+        }
+      ]
+    },
+    {
+      "id": 2807,
+      "word": "Power in the universe",
+      "etym": "",
+      "mibDef": "the Good omnipotent.\" Life is omnipresent, eternal, sure; life cannot be",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1849",
+          "def": "privilege, i.e., (subjectively) force, capacity, competency, freedom, or (objectively) mastery (concretely, magistrate, superhuman, potentate, token of control), delegated influence"
+        },
+        {
+          "s": "G1411",
+          "def": "force (literally or figuratively); specially, miraculous power (usually by implication, a miracle itself)"
+        },
+        {
+          "s": "H3581",
+          "def": "vigor, literally (force, in a good or a bad sense) or figuratively (capacity, means, produce); also (from its hardiness) a large lizard"
+        },
+        {
+          "s": "H3027",
+          "def": "a hand (the open one [indicating power, means, direction, etc.], in distinction from H3709, the closed one); used (as noun, adverb, etc.) in a great variety of applications, both literally and figuratively, both proximate and remote [as follows]"
+        },
+        {
+          "s": "H5797",
+          "def": "strength in various applications (force, security, majesty, praise)"
+        }
+      ]
+    },
+    {
+      "id": 2808,
+      "word": "powers",
+      "etym": "",
+      "mibDef": "Faith, wisdom, love, life, power, strength, imagination, understanding,",
+      "mibMeta": "Communion between man and God. In true prayer we take with us words of Truth, a statement of Truth, or an affirmation, and turn our attention within to the very center of our being, where the Father dwells. We affirm these words of Truth and meditate on them, then get very still and wait in the sile",
+      "candidates": [
+        {
+          "s": "G1411",
+          "def": "force (literally or figuratively); specially, miraculous power (usually by implication, a miracle itself)"
+        },
+        {
+          "s": "G1849",
+          "def": "privilege, i.e., (subjectively) force, capacity, competency, freedom, or (objectively) mastery (concretely, magistrate, superhuman, potentate, token of control), delegated influence"
+        }
+      ]
+    },
+    {
+      "id": 2809,
+      "word": "praise and prayer",
+      "etym": "",
+      "mibDef": "Jehovah, the Christ",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1984",
+          "def": "to be clear (orig. of sound, but usually of color); to shine; hence, to make a show, to boast; and thus to be (clamorously) foolish; to rave; causatively, to celebrate; also to stultify"
+        },
+        {
+          "s": "H3034",
+          "def": "physically, to throw (a stone, an arrow) at or away; especially to revere or worship (with extended hands); intensively, to bemoan (by wringing the hands)"
+        },
+        {
+          "s": "H8416",
+          "def": "laudation; specifically (concretely) a hymn"
+        },
+        {
+          "s": "G1868",
+          "def": "laudation; concretely, a commendable thing"
+        },
+        {
+          "s": "H2167",
+          "def": "properly, to touch the strings or parts of a musical instrument, i.e., play upon it; to make music, accompanied by the voice; hence to celebrate in song and music"
+        }
+      ]
+    },
+    {
+      "id": 2810,
+      "word": "prayer",
+      "etym": "",
+      "mibDef": "heralds the lifting up of the whole organism, the bringing of the ideal man into manifestation;",
+      "mibMeta": "Shem was a son of Noah; he typifies the spiritual in man. Eber, a great-grandson of Shem's, reveals the germination (a shoot) in man's consciousness of this spiritual phase of his being. Beyond signifies that the individual, at the period of his unfoldment that is suggested by Eber, has not yet come",
+      "candidates": [
+        {
+          "s": "H8605",
+          "def": "intercession, supplication; by implication, a hymn"
+        },
+        {
+          "s": "G4335",
+          "def": "prayer (worship); by implication, an oratory (chapel)"
+        },
+        {
+          "s": "G1162",
+          "def": "a petition"
+        },
+        {
+          "s": "H6419",
+          "def": "to judge (officially or mentally); by extension, to intercede, pray"
+        },
+        {
+          "s": "H7881",
+          "def": "reflection; be extension, devotion"
+        }
+      ]
+    },
+    {
+      "id": 2811,
+      "word": "prayer",
+      "etym": "",
+      "mibDef": "\"Enter into thine inner chamber and . . . shut thy door\" (Matt. 6:6). The",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8605",
+          "def": "intercession, supplication; by implication, a hymn"
+        },
+        {
+          "s": "G4335",
+          "def": "prayer (worship); by implication, an oratory (chapel)"
+        },
+        {
+          "s": "G1162",
+          "def": "a petition"
+        },
+        {
+          "s": "H6419",
+          "def": "to judge (officially or mentally); by extension, to intercede, pray"
+        },
+        {
+          "s": "H7881",
+          "def": "reflection; be extension, devotion"
+        }
+      ]
+    },
+    {
+      "id": 2812,
+      "word": "prayer",
+      "etym": "",
+      "mibDef": "The 17th chapter of John is known as the intercessory prayer. In this",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8605",
+          "def": "intercession, supplication; by implication, a hymn"
+        },
+        {
+          "s": "G4335",
+          "def": "prayer (worship); by implication, an oratory (chapel)"
+        },
+        {
+          "s": "G1162",
+          "def": "a petition"
+        },
+        {
+          "s": "H6419",
+          "def": "to judge (officially or mentally); by extension, to intercede, pray"
+        },
+        {
+          "s": "H7881",
+          "def": "reflection; be extension, devotion"
+        }
+      ]
+    },
+    {
+      "id": 2813,
+      "word": "prayer for health",
+      "etym": "",
+      "mibDef": "This prayer is the one most quickly answered, because natural laws that create",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8605",
+          "def": "intercession, supplication; by implication, a hymn"
+        },
+        {
+          "s": "G4335",
+          "def": "prayer (worship); by implication, an oratory (chapel)"
+        },
+        {
+          "s": "G1162",
+          "def": "a petition"
+        },
+        {
+          "s": "H6419",
+          "def": "to judge (officially or mentally); by extension, to intercede, pray"
+        },
+        {
+          "s": "H7881",
+          "def": "reflection; be extension, devotion"
+        }
+      ]
+    },
+    {
+      "id": 2814,
+      "word": "preparation",
+      "etym": "",
+      "mibDef": "(John 19:31). Refers to the observances preliminary to the celebration of the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3904",
+          "def": "readiness"
+        },
+        {
+          "s": "H3559",
+          "def": "properly, to be erect (i.e., stand perpendicular); hence (causatively) to set up, in a great variety of applications, whether literal (establish, fix, prepare, apply), or figurative (appoint, render sure, proper or prosperous)"
+        },
+        {
+          "s": "G2091",
+          "def": "preparation"
+        }
+      ]
+    },
+    {
+      "id": 2815,
+      "word": "presence of God",
+      "etym": "",
+      "mibDef": "The awareness of Spirit within one's own being. It manifests as increased life,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H6440",
+          "def": "the face (as the part that turns); used in a great variety of applications (literally and figuratively); also (with prepositional prefix) as a preposition (before, etc.)"
+        },
+        {
+          "s": "H5869",
+          "def": "an eye (literally or figuratively); by analogy, a fountain (as the eye of the landscape)"
+        },
+        {
+          "s": "H5048",
+          "def": "a front, i.e., part opposite; specifically a counterpart, or mate; usually (adverbial, especially with preposition) over against or before"
+        },
+        {
+          "s": "G1799",
+          "def": "in the face of (literally or figuratively)"
+        },
+        {
+          "s": "G4383",
+          "def": "the front (as being towards view), i.e., the countenance, aspect, appearance, surface; by implication, presence, person"
+        }
+      ]
+    },
+    {
+      "id": 2816,
+      "word": "pride",
+      "etym": "",
+      "mibDef": "A form of personal vanity over spiritual achievement; a proud personal spirit; a",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1347",
+          "def": "the same as H1346"
+        },
+        {
+          "s": "H1346",
+          "def": "arrogance or majesty; by implication, (concretely) ornament"
+        },
+        {
+          "s": "H2087",
+          "def": "arrogance"
+        },
+        {
+          "s": "H1363",
+          "def": "elation, grandeur, arrogance"
+        },
+        {
+          "s": "H1466",
+          "def": "exaltation; (figuratively) arrogance"
+        }
+      ]
+    },
+    {
+      "id": 2817,
+      "word": "priests",
+      "etym": "",
+      "mibDef": "ly, ideas of priestly authority and the religious guidance of the intellect. The \"priests and",
+      "mibMeta": "See LEVITES.",
+      "candidates": [
+        {
+          "s": "H3548",
+          "def": "literally one officiating, a priest; also (by courtesy) an acting priest (although a layman)"
+        },
+        {
+          "s": "G749",
+          "def": "the high-priest (literally, of the Jews; typically, Christ); by extension a chief priest"
+        },
+        {
+          "s": "G2409",
+          "def": "a priest (literally or figuratively)"
+        },
+        {
+          "s": "H3549",
+          "def": "one officiating, a priest; also (by courtesy) an acting priest (although a layman)"
+        },
+        {
+          "s": "H3649",
+          "def": "properly, an ascetic (as if shrunk with self-maceration), i.e., an idolatrous priest (only in plural)"
+        }
+      ]
+    },
+    {
+      "id": 2818,
+      "word": "Principle",
+      "etym": "",
+      "mibDef": "Fundamental Truth. Divine Principle is fundamental Truth in a universal sense, or as",
+      "mibMeta": "The feminine or receptive phase of the healing forces of nature that are always at work rebuilding the body and repairing the ravages of ignorant man. Aquila, husband of Priscilla, is the positive phase of these forces. (See AQUILLA.) Ancient and old, given as the meaning of Priscilla and of Prisca,",
+      "candidates": []
+    },
+    {
+      "id": 2819,
+      "word": "principle of God",
+      "etym": "",
+      "mibDef": "life, substance, intelligence, wisdom, love,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2820,
+      "word": "Prisca",
+      "etym": "Lat.",
+      "mibDef": "ancient; old; of former times.",
+      "mibMeta": "See PRISCILLA. primary law and secondary law— Primary law is the one law of God. Secondary law is the law of diet, of economics, of medicine, and many other secondary things. A true Metaphysicalphysician always looks to the law of God. prince of Peace— Jesus is the Prince of Peace. When asking the F",
+      "candidates": [
+        {
+          "s": "G4251",
+          "def": "feminine of Priscus, ancient; Priska, a Christian woman"
+        }
+      ]
+    },
+    {
+      "id": 2821,
+      "word": "Prochorus",
+      "etym": "Gk.",
+      "mibDef": "before the singers; before the dancers; choir leader; choir",
+      "mibMeta": "An active thought in the higher, spiritual consciousness of man, whose central idea is joy, harmony, and unity (choir leader, leader of the dance).",
+      "candidates": []
+    },
+    {
+      "id": 2822,
+      "word": "progress",
+      "etym": "",
+      "mibDef": "Growth in the conception and expression of spiritual ideas.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2823,
+      "word": "Promised Land",
+      "etym": "",
+      "mibDef": "ly, a realization of divine substance. It is the foundation of the substratum of the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1696",
+          "def": "perhaps properly, to arrange; but used figuratively (of words), to speak; rarely (in a destructive sense) to subdue"
+        },
+        {
+          "s": "G1861",
+          "def": "to announce upon (reflexively), i.e., (by implication) to engage to do something, to assert something respecting oneself"
+        },
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "G3670",
+          "def": "to assent, i.e., covenant, acknowledge"
+        },
+        {
+          "s": "G4279",
+          "def": "to promise of old"
+        }
+      ]
+    },
+    {
+      "id": 2824,
+      "word": "promises",
+      "etym": "",
+      "mibDef": "Free will gives to man the privilege to accept or reject the promises of God. If",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1860",
+          "def": "an announcement (for information, assent or pledge; especially a divine assurance of good)"
+        }
+      ]
+    },
+    {
+      "id": 2825,
+      "word": "promotion of error",
+      "etym": "",
+      "mibDef": "sets into operation a devouring, fiery element that destroys him: he was slain by his",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7311",
+          "def": "to be high actively, to rise or raise (in various applications, literally or figuratively)"
+        }
+      ]
+    },
+    {
+      "id": 2826,
+      "word": "prophet",
+      "etym": "",
+      "mibDef": "One who receives the inspiration of Spirit, understands spiritual law, and imparts it to",
+      "mibMeta": "A teacher, one who receives the inspiration of Spirit, an understanding of spiritual law, and imparts it to others. A prophet, in individual consciousness, is a thought that is in contact with Spirit, that receives revelations direct from the Holy Spirit; it knows and understands divine law and its ",
+      "candidates": [
+        {
+          "s": "H5030",
+          "def": "a prophet or (generally) inspired man"
+        },
+        {
+          "s": "G4396",
+          "def": "a foreteller (\"prophet\"); by analogy, an inspired speaker; by extension, a poet"
+        },
+        {
+          "s": "G5578",
+          "def": "a spurious prophet, i.e., pretended foreteller or religious impostor"
+        },
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "H5029",
+          "def": "a prophet"
+        }
+      ]
+    },
+    {
+      "id": 2827,
+      "word": "prophets",
+      "etym": "",
+      "mibDef": "Deceptive thoughts that have been built up by error; selfish desires. False",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5030",
+          "def": "a prophet or (generally) inspired man"
+        },
+        {
+          "s": "G4396",
+          "def": "a foreteller (\"prophet\"); by analogy, an inspired speaker; by extension, a poet"
+        },
+        {
+          "s": "G5578",
+          "def": "a spurious prophet, i.e., pretended foreteller or religious impostor"
+        },
+        {
+          "s": "H5029",
+          "def": "a prophet"
+        }
+      ]
+    },
+    {
+      "id": 2828,
+      "word": "proselyte",
+      "etym": "",
+      "mibDef": "ly, one who has turned away from the old, set, religious forms and ceremonies, and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4339",
+          "def": "an arriver from a foreign region, i.e., (specially), an acceder (convert) to Judaism (\"proselyte\")"
+        }
+      ]
+    },
+    {
+      "id": 2829,
+      "word": "prosperity",
+      "etym": "",
+      "mibDef": "The consciousness of God as the abundant, everywhere present resource, unfailing,",
+      "mibMeta": "The consciousness that Divine Mind is inexhaustible support and supply. The difference between spiritual prosperity and the material idea of prosperity is that spiritual prosperity is founded on understanding of the inexhaustible, omnipresent substance of Spirit as the source of supply; the material",
+      "candidates": [
+        {
+          "s": "H2896",
+          "def": "good (as an adjective) in the widest sense; used likewise as a noun, both in the masculine and the feminine, the singular and the plural (good, a good or good thing, a good man or woman; the good, goods or good things, good men or women), also as an adverb (well)"
+        },
+        {
+          "s": "H7965",
+          "def": "safe, i.e., (figuratively) well, happy, friendly; also (abstractly) welfare, i.e., health, prosperity, peace"
+        },
+        {
+          "s": "H7962",
+          "def": "security (genuine or false)"
+        },
+        {
+          "s": "H7959",
+          "def": "security"
+        }
+      ]
+    },
+    {
+      "id": 2830,
+      "word": "psyche",
+      "etym": "",
+      "mibDef": "A word prominent in Greek mythology, meaning \"the soul.\" Psyche may be thought of",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2831,
+      "word": "psychology and religion",
+      "etym": "",
+      "mibDef": "Thought control is imperative, and there is urgent need of teachers on",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2832,
+      "word": "Ptolemais",
+      "etym": "Gk.",
+      "mibDef": "warlike; terrifying.",
+      "mibMeta": "An aggregation of thoughts of an opposing, hostile character (warlike, terrifying). (See ACCO.)",
+      "candidates": []
+    },
+    {
+      "id": 2833,
+      "word": "Puah",
+      "etym": "Heb .",
+      "mibDef": "mouth; orifice aperture; puff; breath; blast; utterance, command.",
+      "mibMeta": "Giving one's true thoughts one's zeal, to establishing the activity of Truth throughout the consciousness, that it may be declared aloud and expressed (mouth, orifice, breath, utterance, command ). Thinking Truth zealously and affirming it aloud by word of mouth will cause strong vibrations (a blast",
+      "candidates": []
+    },
+    {
+      "id": 2834,
+      "word": "Puah",
+      "etym": "Heb.",
+      "mibDef": "shining; brightness; giving light; splendor; beauty.",
+      "mibMeta": "The higher or spiritual phase of the soul aiding in bringing to birth, protecting, and actively radiating the light, joy, and beauty of new positive ideas in consciousness (shining, brightness, giving light, splendor, beauty). Puah was a midwife who was commanded by Pharaoh, king of Egypt, to kill a",
+      "candidates": []
+    },
+    {
+      "id": 2835,
+      "word": "Publius",
+      "etym": "hat.",
+      "mibDef": "public; common; of the people; popular.",
+      "mibMeta": "The central ruling idea in the Melita state of mind in the individual consciousness. Melita (flowing with honey, sweetened with honey ) refers to the sweetness, the joy, and the pleasant, agreeable feeling that are sensed so deeply by the individual when in his overcoming he has experienced some gre",
+      "candidates": [
+        {
+          "s": "G4196",
+          "def": "apparently \"popular\"; Poplius (i.e., Publius), a Roman"
+        }
+      ]
+    },
+    {
+      "id": 2836,
+      "word": "Pudens",
+      "etym": "Lat.",
+      "mibDef": "shamefaced; bashful; modest; decent; virtuous.",
+      "mibMeta": "Virtue and humility, the latter possibly carried somewhat to an extreme (modest, bashful, shamefaced, virtuous). True humility, as well as virtue and single-mindedness as to the good, is needed very much in the professing Christian. The true Christian is humble and true, since he knows the nothingne",
+      "candidates": []
+    },
+    {
+      "id": 2837,
+      "word": "Pul",
+      "etym": "Heb. from Skr.",
+      "mibDef": "lofty; highest; lord; king; large; strong; elephant.",
+      "mibMeta": "The exalting of the intellect, guided by the senses, to the highest ruling place in individual consciousness (lofty, highest, lord, king, strong, elephant- Assyria refers to the intellectual in man). The meanings of this word show clearly the great capacity, substance, strength, and power with which",
+      "candidates": [
+        {
+          "s": "H6322",
+          "def": "Pul, the name of an Assyrian king and of an Ethiopian tribe"
+        }
+      ]
+    },
+    {
+      "id": 2838,
+      "word": "Pul",
+      "etym": "Heb. fr. Egypt.",
+      "mibDef": "extremity; border; far country; breathed out; expired.",
+      "mibMeta": "The very extremity, border, or end (far country, breathed out, expired) of carnal consciousness in man. punishment— Man does not receive punishment from an outside force. Man punishes himself by holding false thoughts. He escapes from punishment as soon as he aligns his thought with that of God.",
+      "candidates": [
+        {
+          "s": "H6322",
+          "def": "Pul, the name of an Assyrian king and of an Ethiopian tribe"
+        }
+      ]
+    },
+    {
+      "id": 2839,
+      "word": "Punites",
+      "etym": "fr. Heb .",
+      "mibDef": "the Puni.",
+      "mibMeta": "Thoughts springing from and belonging to that in consciousness which Puah signifies. (See PUAH.)",
+      "candidates": []
+    },
+    {
+      "id": 2840,
+      "word": "Punon",
+      "etym": "Heb.",
+      "mibDef": "darkness; perplexity; distraction; hopelessness.",
+      "mibMeta": "A darkened, confused, agitated, almost hopeless phase of mind (darkness, perplexity, distraction, hopelessness) that sometimes seems to exist in the wilderness, or multitude of wild, uncultivated, and untrained thoughts that the individual becomes conscious of when he begins to awaken to spiritual u",
+      "candidates": []
+    },
+    {
+      "id": 2841,
+      "word": "pure",
+      "etym": "",
+      "mibDef": "and on the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2889",
+          "def": "pure (in a physical, chemical, ceremonial or moral sense)"
+        },
+        {
+          "s": "G2513",
+          "def": "clean (literally or figuratively)"
+        },
+        {
+          "s": "H5462",
+          "def": "to shut up; figuratively, to surrender"
+        },
+        {
+          "s": "H2134",
+          "def": "clear"
+        },
+        {
+          "s": "H1305",
+          "def": "to clarify (i.e., brighten), examine, select"
+        }
+      ]
+    },
+    {
+      "id": 2842,
+      "word": "pure in heart",
+      "etym": "",
+      "mibDef": "The \"pure in heart\" are those who are completely free from all anxiety, resentment,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2889",
+          "def": "pure (in a physical, chemical, ceremonial or moral sense)"
+        },
+        {
+          "s": "G2513",
+          "def": "clean (literally or figuratively)"
+        },
+        {
+          "s": "H5462",
+          "def": "to shut up; figuratively, to surrender"
+        },
+        {
+          "s": "H2134",
+          "def": "clear"
+        },
+        {
+          "s": "H1305",
+          "def": "to clarify (i.e., brighten), examine, select"
+        }
+      ]
+    },
+    {
+      "id": 2843,
+      "word": "pure in mind and body and to serve God wholly and perfectly",
+      "etym": "",
+      "mibDef": "to have the single eye, or an eye single to",
+      "mibMeta": "A wasting away, or dissolution, of the carnal current of thought regarding life (river course suggests the life current in man, or a current of thought about life, and Moab stands for the carnal consciousness), that an understanding of DIDYMUS Truth may take its place. Thus the life current in the o",
+      "candidates": [
+        {
+          "s": "H2889",
+          "def": "pure (in a physical, chemical, ceremonial or moral sense)"
+        },
+        {
+          "s": "G2513",
+          "def": "clean (literally or figuratively)"
+        },
+        {
+          "s": "H5462",
+          "def": "to shut up; figuratively, to surrender"
+        },
+        {
+          "s": "H2134",
+          "def": "clear"
+        },
+        {
+          "s": "H1305",
+          "def": "to clarify (i.e., brighten), examine, select"
+        }
+      ]
+    },
+    {
+      "id": 2844,
+      "word": "purely in the sense mind. (Edom",
+      "etym": "",
+      "mibDef": "red— refers to the outer or physical, sensate organism of man.) The",
+      "mibMeta": "A group of thoughts whose central idea is life and strength (loins) and abundant substance (fatness). Issachar (active zeal) of the Israelites (true, real, and more spiritual thoughts of the consciousness), becoming active in this aggregation of thoughts that Chesulloth signifies, will remove from t",
+      "candidates": [
+        {
+          "s": "H1252",
+          "def": "purify"
+        }
+      ]
+    },
+    {
+      "id": 2845,
+      "word": "purification of blood",
+      "etym": "",
+      "mibDef": "If your lung capacity is not equal to the purification of your blood,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2403",
+          "def": "an offence (sometimes habitual sinfulness), and its penalty, occasion, sacrifice, or expiation; also (concretely) an offender"
+        },
+        {
+          "s": "H2893",
+          "def": "ceremonial purification; moral purity"
+        },
+        {
+          "s": "H8562",
+          "def": "properly, a scouring, i.e., soap or perfumery for the bath; figuratively, a detergent"
+        },
+        {
+          "s": "G2512",
+          "def": "a washing off, i.e., (ceremonially) ablution, (morally) expiation"
+        }
+      ]
+    },
+    {
+      "id": 2846,
+      "word": "Put",
+      "etym": "Heb.",
+      "mibDef": "state of being stifled, suffocation; asphyxiation;",
+      "mibMeta": "The darkened, troublous, sorrowful, and very material dying state of mind and body that results from a lack of spiritual inspiration, of the inbreathing and understanding of Spirit (suffocation, affliction, sorrow, breathing out of the spirit, despised).",
+      "candidates": [
+        {
+          "s": "H5414",
+          "def": "to give, used with greatest latitude of application (put, make, etc.)"
+        },
+        {
+          "s": "H7760",
+          "def": "to put (used in a great variety of applications, literal, figurative, inferentially, and elliptically)"
+        },
+        {
+          "s": "H4191",
+          "def": "to die (literally or figuratively); causatively, to kill"
+        },
+        {
+          "s": "H7971",
+          "def": "to send away, for, or out (in a great variety of applications)"
+        },
+        {
+          "s": "H3847",
+          "def": "properly, wrap around, i.e., (by implication) to put on a garment or clothe (oneself, or another), literally or figuratively"
+        }
+      ]
+    },
+    {
+      "id": 2847,
+      "word": "Puteoli",
+      "etym": "Lat .",
+      "mibDef": "wells; mineral springs; stinking wells; sulphur springs; putrid water.",
+      "mibMeta": "A thought center in consciousness, close to universal Mind, pertaining to one's receiving into consciousness a continuous flow of vitality, of life (wells and springs denote the welling up of life into consciousness). This conscious flow of vitality and energy that Puteoli signifies, however, is adu",
+      "candidates": []
+    },
+    {
+      "id": 2848,
+      "word": "Puthites (A.V.",
+      "etym": "fr. Heb.",
+      "mibDef": "apart; separated; divided; hinged; deceptive;",
+      "mibMeta": "Divided thoughts, thoughts of a deceptive character, that have found a place in the phase of consciousness signified by Kiriath-jearim. (See KIRIATH-JEARIM.) Putiel, pu'-t;-el (Heb.) afflicted of God; stifled of God. Father-in-law of Eleazar who was Aaron's son (Exod. 6:25). The mistaken belief that",
+      "candidates": []
+    },
+    {
+      "id": 2849,
+      "word": "Puvah",
+      "etym": "Heb .",
+      "mibDef": "mouth; orifice; aperture; puff; breath;",
+      "mibMeta": "See PUAH. Pyrrhus, pyr'-rhus (Gk .)-fiery red; firelike; kindled; inflamed. Father of Sopater, the latter a companion of Paul's on one of his missionary journeys (Acts 20:4). A thought of great vitality, of abundant life, but not expressing so harmoniously as is needful if one is to keep in poise an",
+      "candidates": []
+    },
+    {
+      "id": 2850,
+      "word": "quality",
+      "etym": "",
+      "mibDef": "That which is characteristic of one's spiritual nature. High spiritual qualities",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2851,
+      "word": "Quartus",
+      "etym": "Lat .",
+      "mibDef": "fourth.",
+      "mibMeta": "A positive, spiritually enlightened thought that relates to the foursquare ( fourth ) or perfectly rounded consciousness of the individual. \"And the city lieth foursquare, . . . the length and the breadth and the height thereof are equal\" (Rev. 21:16). This thought that Quartus signifies is of the h",
+      "candidates": [
+        {
+          "s": "G2890",
+          "def": "Quartus, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 2852,
+      "word": "quickening",
+      "etym": "",
+      "mibDef": "An inflow of divine vitality into the body, which follows the affirmation of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2227",
+          "def": "to (re-)vitalize (literally or figuratively)"
+        }
+      ]
+    },
+    {
+      "id": 2853,
+      "word": "quietness",
+      "etym": "",
+      "mibDef": "When the mind is stilled, when all the clamor of the external world is silenced, one",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8252",
+          "def": "to repose (usually figurative)"
+        },
+        {
+          "s": "H8253",
+          "def": "tranquillity"
+        },
+        {
+          "s": "H7961",
+          "def": "tranquil; (in a bad sense) careless; abstractly, security"
+        },
+        {
+          "s": "H7962",
+          "def": "security (genuine or false)"
+        },
+        {
+          "s": "G2271",
+          "def": "(as noun) stillness, i.e., desistance from bustle or language"
+        }
+      ]
+    },
+    {
+      "id": 2854,
+      "word": "Quirinius (A.V.",
+      "etym": "Lat .",
+      "mibDef": "civil government; interior rule- spearman; armed",
+      "mibMeta": "A phase of the executive power of the personal will established in the mistaken belief that peace can be obtained and maintained by force (civil government, interior rule, spearman, armed peace, a governor of Syria). This ruling thought, or executive power of the personal will in conjunction with in",
+      "candidates": []
+    },
+    {
+      "id": 2855,
+      "word": "Raama (A.V.",
+      "etym": "Heb .",
+      "mibDef": "moved with agitation; trembling; quaking; troubles;",
+      "mibMeta": "See RAAMAH.",
+      "candidates": []
+    },
+    {
+      "id": 2856,
+      "word": "Raamah",
+      "etym": "Heb.",
+      "mibDef": "moved with agitation; trembling; quaking; troubled; tossed with",
+      "mibMeta": "Ham represents the physical in man. Cush (meaning blackened ) signifies the",
+      "candidates": []
+    },
+    {
+      "id": 2857,
+      "word": "Raamiah",
+      "etym": "Heb .",
+      "mibDef": "agitation of Jehovah; thunder ofJah; Jah moves with agitation;",
+      "mibMeta": "A prominent, influential thought in our higher, religious consciousness (a chief or noble of the Jewish people) that comes out of the Babylonian state of mind (sense confusion) and back to Jerusalem (spiritual consciousness) with Zerubbabel (one who restores the worship of God). This high, religious",
+      "candidates": []
+    },
+    {
+      "id": 2858,
+      "word": "Rab-saris",
+      "etym": "Heb .",
+      "mibDef": "chief eunuch.",
+      "mibMeta": "That which stands highest in rank, next to the will (king), in the phases of man's consciousness represented by Assyria and Babylon (chief eunuch). This idea, however, though of very high rank in the sense, intellectual, reasoning realm (Assyria) and in the realm of sense confusion (Babylon), has no",
+      "candidates": [
+        {
+          "s": "H7249",
+          "def": "Rab-Saris, a Babylonian official"
+        }
+      ]
+    },
+    {
+      "id": 2859,
+      "word": "Rabbah",
+      "etym": "Heb .",
+      "mibDef": "multiplied; numerous; accumulation; growth; increase; abundance;",
+      "mibMeta": "Groups of thoughts whose central idea is greatness through numbers; the idea that anything becomes great by reason of its becoming increased in numbers (numerous, multiplied, accumulation, growth, increase, abundance, great, exalted, a great city, a metropolis).",
+      "candidates": [
+        {
+          "s": "H7237",
+          "def": "Rabbah, the name of two places in Palestine, East and West"
+        }
+      ]
+    },
+    {
+      "id": 2860,
+      "word": "Rabbi",
+      "etym": "Heb.",
+      "mibDef": "my great one; my lord; my master; my teacher; my leader; my chief.",
+      "mibMeta": "A guiding, teaching thought in consciousness, of great prominence and influence, and belonging to the understanding faculty in man. One must be watchful that the thoughts belonging to the understanding faculty always recognize the true spiritual source of all wisdom and do not look to human intellec",
+      "candidates": []
+    },
+    {
+      "id": 2861,
+      "word": "Rabbith",
+      "etym": "fleb.",
+      "mibDef": "great place; great many; multitude; myriad; a metropolis, i. e., at least",
+      "mibMeta": "A thought center belonging to the active zeal faculty in man (a city of Issachar) and pertaining to a great increase of ideas, ideas that tend to enlarge and elevate the consciousness (great place, multitude, myriad, a metropolis). Rabboni, rab-bo'-ni (Gk. fr. Heb.) my lord; my master; my teacher; m",
+      "candidates": []
+    },
+    {
+      "id": 2862,
+      "word": "Rabshakeh",
+      "etym": "Heb .",
+      "mibDef": "chief water bearer; chief cupbearer; head of irrigation;",
+      "mibMeta": "A greatly exalted executive thought activity in the Assyria or intellectual, sense- reasoning realm of consciousness in man (chief water bearer, chief cupbearer, head of irrigation, an officer that the king of Assyria sent up against Hezekiah, king of Judah). In olden times a cupbearer was a royal o",
+      "candidates": [
+        {
+          "s": "H7262",
+          "def": "Rabshakeh, a Babylonian official"
+        }
+      ]
+    },
+    {
+      "id": 2863,
+      "word": "race consciousness",
+      "etym": "",
+      "mibDef": "The human race has formed laws of physical birth and death, laws of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4793",
+          "def": "a run (the trial of speed)"
+        },
+        {
+          "s": "G4712",
+          "def": "a stade or certain measure of distance; by implication, a stadium or race-course"
+        },
+        {
+          "s": "G73",
+          "def": "properly, a place of assembly (as if led), i.e., (by implication) a contest (held there); figuratively, an effort or anxiety"
+        }
+      ]
+    },
+    {
+      "id": 2864,
+      "word": "race errors",
+      "etym": "",
+      "mibDef": "Erroneous race thoughts that bind mankind to sin, disease, poverty, war, calamity,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4793",
+          "def": "a run (the trial of speed)"
+        },
+        {
+          "s": "G4712",
+          "def": "a stade or certain measure of distance; by implication, a stadium or race-course"
+        },
+        {
+          "s": "G73",
+          "def": "properly, a place of assembly (as if led), i.e., (by implication) a contest (held there); figuratively, an effort or anxiety"
+        }
+      ]
+    },
+    {
+      "id": 2865,
+      "word": "race mind",
+      "etym": "",
+      "mibDef": "Totality of beliefs, thoughts, memories, feelings, and experiences of the race. Man",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4793",
+          "def": "a run (the trial of speed)"
+        },
+        {
+          "s": "G4712",
+          "def": "a stade or certain measure of distance; by implication, a stadium or race-course"
+        },
+        {
+          "s": "G73",
+          "def": "properly, a place of assembly (as if led), i.e., (by implication) a contest (held there); figuratively, an effort or anxiety"
+        }
+      ]
+    },
+    {
+      "id": 2866,
+      "word": "Rachel",
+      "etym": "Heb .",
+      "mibDef": "migrating; journeying in droves; ewe;",
+      "mibMeta": "The feminine, receptive, or soul phase of the pure natural life in the organism of man (ewe, lamb). This phase of life that Rachel signifies is as yet in a transitory state (migrating). It is fruitful only on the higher, spiritual plane of ideas. (Rachel was for a time barren; her two sons, Joseph a",
+      "candidates": [
+        {
+          "s": "H7354",
+          "def": "Rachel, a wife of Jacob"
+        },
+        {
+          "s": "G4478",
+          "def": "Rachel, the wife of Jacob"
+        }
+      ]
+    },
+    {
+      "id": 2867,
+      "word": "Raddai",
+      "etym": "Heb.",
+      "mibDef": "treading down; trampling; treading out; walking; expanding;",
+      "mibMeta": "A belief in expansion and dominion (walking, expanding, subduing, ruling), but mixed with the sense idea of rulership, in which a domineering, oppressing tendency exists (treading down, trampling, overlaying, dominating). radiation— An extension of consciousness. Jesus' soul radiation or aura was so",
+      "candidates": [
+        {
+          "s": "H7288",
+          "def": "Raddai, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2868,
+      "word": "radiates or consumes",
+      "etym": "",
+      "mibDef": "all depending on how it is directed. In the Kenites we find thoughts that, though",
+      "mibMeta": "A thought springing from and belonging to that in consciousness which Kenaz represents. (See KENAZ.)",
+      "candidates": []
+    },
+    {
+      "id": 2869,
+      "word": "Rahab",
+      "etym": "Heb .",
+      "mibDef": "large; wide; broad; ample; spacious;",
+      "mibMeta": "Rahab the harlot, Ruth the Moabitess (see The Book of Ruth), and Mary Magdalene all represent the natural love in man, with the fidelity and faithfulness of that love, which, becoming centered on spiritual things, opens the way for man to enter into the Promised Land, the kingdom of heaven, or spiri",
+      "candidates": [
+        {
+          "s": "H7343",
+          "def": "Rachab, a Canaanitess"
+        },
+        {
+          "s": "H7294",
+          "def": "Rahab (i.e., boaster), an epithet of Egypt"
+        },
+        {
+          "s": "G4460",
+          "def": "Raab (i.e., Rachab), a Canaanitess"
+        }
+      ]
+    },
+    {
+      "id": 2870,
+      "word": "Rahab",
+      "etym": "Heb .",
+      "mibDef": "outrageous; violent; tumult; fierce; courageous; proud; vain; insolent; a",
+      "mibMeta": "The meanings of this name (outrageous, violent, tumult, fierce; courageous, proud, vain, insolent, a sea monster, crocodile ) all point to error ideas and activities that exist in the darkened, ignorant, sense consciousness in man. (Do not confuse this Rahab with the preceding one.)",
+      "candidates": [
+        {
+          "s": "H7343",
+          "def": "Rachab, a Canaanitess"
+        },
+        {
+          "s": "H7294",
+          "def": "Rahab (i.e., boaster), an epithet of Egypt"
+        },
+        {
+          "s": "G4460",
+          "def": "Raab (i.e., Rachab), a Canaanitess"
+        }
+      ]
+    },
+    {
+      "id": 2871,
+      "word": "Raham",
+      "etym": "Heb.",
+      "mibDef": "to soften; to soothe; to be fond; to cherish; to love; pity; mercy;",
+      "mibMeta": "The tender, merciful, compassionate, brooding, mother phase of love active in the high, somewhat spiritual thoughts of man ( to soften, to soothe, to cherish, to love, pity, mercy, compassion, tenderness, inwards, belly, bowels, womb, a man of Judah). In the Authorized Version, we read of \"bowels of",
+      "candidates": []
+    },
+    {
+      "id": 2872,
+      "word": "rain",
+      "etym": "",
+      "mibDef": "ly, an outpouring of Spirit that constantly refreshes and enriches man's developing",
+      "mibMeta": "The \"rainbow\" as a \"token of a covenant between me and the earth\" (Gen. 9:13- 15) involves the law of obedience (Noah). The rainbow is formed of many drops of water, each of which acts as a prism receiving and transmitting the sunlight. Each drop represents a human being and the whole the race. The ",
+      "candidates": [
+        {
+          "s": "H4306",
+          "def": "rain"
+        },
+        {
+          "s": "H1653",
+          "def": "a shower"
+        },
+        {
+          "s": "H4305",
+          "def": "to rain"
+        },
+        {
+          "s": "H3138",
+          "def": "sprinkling; hence, a sprinkling (or autumnal showers)"
+        },
+        {
+          "s": "H4175",
+          "def": "an archer; also teacher or teaching; also the early rain"
+        }
+      ]
+    },
+    {
+      "id": 2873,
+      "word": "raising of Lazarus",
+      "etym": "",
+      "mibDef": "The restoration in consciousness of the idea of youth, which is asleep in the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5782",
+          "def": "to wake (literally or figuratively)"
+        },
+        {
+          "s": "G1999",
+          "def": "a conspiracy, i.e., concourse (riotous or friendly)"
+        }
+      ]
+    },
+    {
+      "id": 2874,
+      "word": "Rakem",
+      "etym": "Heb .",
+      "mibDef": "decked with colors; variegated; versicolored; embroidered; curiously",
+      "mibMeta": "A thought belonging to the understanding faculty in individual consciousness (a man of the tribe of Manasseh), and pertaining to the cultivation of that which is beautiful, Godlike, spiritual (decked with colors, marvelously wrought, princely raiment, flower culture, flowers representing spiritual i",
+      "candidates": []
+    },
+    {
+      "id": 2875,
+      "word": "Rakkon",
+      "etym": "Heb.",
+      "mibDef": "beaten out; thinness; overlaid; well-watered; extreme boundary;",
+      "mibMeta": "In I Corinthians 3:6 Paul says, \"I planted, Apollos watered; but God gave the increase.\" Paul signifies the converted will sowing the word of Truth (seed) in all parts of the body; Apollos, who waters the growing Truth in consciousness, signifies understanding. Thus Rakkon, a city of Dan, and meanin",
+      "candidates": []
+    },
+    {
+      "id": 2876,
+      "word": "Ram",
+      "etym": "Heb .",
+      "mibDef": "lifted up; raised; elevated; made high; exalted; extolled; elated.",
+      "mibMeta": "Exalted spiritual understanding in consciousness, exalting God as the source of all true intelligence and wisdom (made high, elevated, lifted up, exalted, extolled, Israelites). Elihu of The Book of Job, who was of the family of Ram, symbolizes the Holy Spirit's entering the consciousness of the ind",
+      "candidates": [
+        {
+          "s": "H352",
+          "def": "properly, strength; hence, anything strong; specifically a ram (from his strength)"
+        },
+        {
+          "s": "H7410",
+          "def": "Ram, the name of an Arabian and of an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2877,
+      "word": "Ramah",
+      "etym": "Heb.",
+      "mibDef": "a high place; height; an elevation; an",
+      "mibMeta": "A very high place in consciousness, or an exalted state of mind (a high place, height, an elevation, a sublimity).",
+      "candidates": [
+        {
+          "s": "H7414",
+          "def": "Ramah, the name of four places in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2878,
+      "word": "Ramath-lehi",
+      "etym": "fr. Heb.",
+      "mibDef": "the height ofLehi; throwing of the jawbone; raising up",
+      "mibMeta": "A lifting up, in consciousness, of the qualities that the jawbone of the ass signifies: determination, endurance, vigorous strength, and so forth. (See LEHI.)",
+      "candidates": []
+    },
+    {
+      "id": 2879,
+      "word": "Ramath-mizpeh",
+      "etym": "Heb.",
+      "mibDef": "height ofMizpeh; height of the watchtower; height",
+      "mibMeta": "Mizpah ( watchtower ) signifies spiritual watching, one's being on guard against the encroachment of error, keeping one's attention fixed steadfastly on the perfect good to which one aspires. \"Take ye heed, watch and pray,\" was the admonition of Jesus. Ramath-mizpeh (height ofMizpeh ) refers to the ",
+      "candidates": []
+    },
+    {
+      "id": 2880,
+      "word": "Ramathaim-zophim",
+      "etym": "Heb.",
+      "mibDef": "watchers of the heights; double",
+      "mibMeta": "Doubly watchful, or doubly receptive to the inflow of high, spiritual understanding (watchers of the heights, double watchtowers, double height of watchers, overcomers of the heights, a place in the hill country of Ephraim). The idea of overcoming, of expressing and demonstrating Truth, is also cont",
+      "candidates": []
+    },
+    {
+      "id": 2881,
+      "word": "Ramathite",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Ramah.",
+      "mibMeta": "A thought belonging to that in consciousness which Ramah signifies. (See RAMAH and SHIMEI.)",
+      "candidates": []
+    },
+    {
+      "id": 2882,
+      "word": "Rameses",
+      "etym": "fr. Egypt.",
+      "mibDef": "son ofRa; son of the sun; emanation of the sun; born of the",
+      "mibMeta": "See RAAMSES.",
+      "candidates": [
+        {
+          "s": "H7486",
+          "def": "Rameses or Raamses, a place in Egypt"
+        }
+      ]
+    },
+    {
+      "id": 2883,
+      "word": "Ramiah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah is high; exalted by Jehovah; Jehovah exalts; Jah raises up",
+      "mibMeta": "A thought activity in the higher religious ideals of man (Israelites) that exalts the Christ in consciousness (Jehovah is high), and is in turn lifted to a high plane of light and Truth (exalted by Jehovah). \"And I, if I be lifted up from the earth, will draw all men unto myself,\" said the Christ in",
+      "candidates": []
+    },
+    {
+      "id": 2884,
+      "word": "Ramoth - gilead",
+      "etym": "Heb.",
+      "mibDef": "heights of Gilead; high mound of witnesses; high",
+      "mibMeta": "Ramoth-gilead (heights of Gilead, high mound of witnesses, high perpetual testimony) signifies a very high place in consciousness, that place, or phase of spiritual consciousness, in u8 wherein Spirit unceasingly discerns and witnesses to the Truth and to our thoughts and acts, that adjustment may b",
+      "candidates": [
+        {
+          "s": "H7216",
+          "def": "Ramoth, the name of two places in Palestine"
+        },
+        {
+          "s": "H7433",
+          "def": "Ramoth-Gilad, a place East of the Jordan"
+        }
+      ]
+    },
+    {
+      "id": 2885,
+      "word": "Raphah (A.V.",
+      "etym": "Heb.",
+      "mibDef": "high; tall; heroic; gigantic; repaired; mended; restored",
+      "mibMeta": "For the significance of the Benjamites named Rapha and Raphah, see REPHAIAH. Raphah, the Philistine giant (high, tall, heroic, gigantic), refers to the apparent power and greatness of the thoughts and forces in us that are opposed to the rule of the Holy Spirit. These errors are the Philistines; we ",
+      "candidates": []
+    },
+    {
+      "id": 2886,
+      "word": "Raphu",
+      "etym": "Heb .",
+      "mibDef": "repaired mended; healed; restored; made whole, wholesome.",
+      "mibMeta": "Faith in a high curative power —a power that works for healing and for good to man ( repaired , mended, heeded, restored, made whole, wholesome, a Benjamite). rats-Represent destructive, undermining, gnawing thoughts.",
+      "candidates": []
+    },
+    {
+      "id": 2887,
+      "word": "raven",
+      "etym": "",
+      "mibDef": "The raven's going forth represents the reaching out of the thought from",
+      "mibMeta": "Natural forces moving with the freedom of birds, or thoughts in objective consciousness. In the Ferrar Fenton translation of the Bible the word \"Arabs\" is used in I Kings 17:4-6, instead of \"ravens.\" The root from which this word is drawn is vocalized \"arab.\" It relates to the natural, outer, or phy",
+      "candidates": [
+        {
+          "s": "H6158",
+          "def": "a raven (from its dusky hue)"
+        }
+      ]
+    },
+    {
+      "id": 2888,
+      "word": "rays",
+      "etym": "",
+      "mibDef": "Spiritual rays superior to the ultraviolet rays that come from the sun. They heal",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2889,
+      "word": "Re: Prefix",
+      "etym": "",
+      "mibDef": "back, again, it forms a compound.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2890,
+      "word": "Reaiah",
+      "etym": "Ueb.",
+      "mibDef": "Jah sees; Jehovah looks upon;",
+      "mibMeta": "Thoughts relating to spiritual sight, to the knowledge of God, through the indwelling Christ, Jehovah, as the source of man's understanding, judgment, protection, and supply (Jcdi sees, Jehovah looks upon, Jah chooses, Jehovah provides, Jah cares for).",
+      "candidates": [
+        {
+          "s": "H7211",
+          "def": "Reajah, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2891,
+      "word": "real",
+      "etym": "",
+      "mibDef": "the thoughts of the outer world become the basis of action",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2892,
+      "word": "reality",
+      "etym": "",
+      "mibDef": "That which is abiding, eternal, and unchangeable, the same \"yesterday and to-day, yea",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2893,
+      "word": "realization",
+      "etym": "",
+      "mibDef": "which is the Christ method, the way taught",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2894,
+      "word": "really founded in something that is very strong",
+      "etym": "",
+      "mibDef": "a rock— and it has its impetus there.",
+      "mibMeta": "A name for God. Spirit and Mind are synonymous; therefore we know God-",
+      "candidates": []
+    },
+    {
+      "id": 2895,
+      "word": "realm",
+      "etym": "",
+      "mibDef": "The higher realm of consciousness built in accordance with the Christ ideal. The",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4438",
+          "def": "a rule; concretely, a dominion"
+        },
+        {
+          "s": "H4437",
+          "def": "dominion (abstractly or concretely)"
+        }
+      ]
+    },
+    {
+      "id": 2896,
+      "word": "reasoning guided by the senses",
+      "etym": "",
+      "mibDef": "every thought, faculty, force,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1260",
+          "def": "to reckon thoroughly, i.e., (genitive case) to deliberate (by reflection or discussion)"
+        },
+        {
+          "s": "G4802",
+          "def": "to investigate jointly, i.e., discuss, controvert, cavil"
+        },
+        {
+          "s": "G1261",
+          "def": "discussion, i.e., (internal) consideration (by implication, purpose), or (external) debate"
+        },
+        {
+          "s": "G4803",
+          "def": "mutual questioning, i.e., discussion"
+        }
+      ]
+    },
+    {
+      "id": 2897,
+      "word": "Reba",
+      "etym": "Heb.",
+      "mibDef": "four; quarter; fourth part; quadrated; quartered; side of a square;",
+      "mibMeta": "A ruling thought in the judging and discerning yet very contentious state of mind in man that the Midianites signify (a king of Midian; see MIDIAN and MIDIANITES). This thought has a fraction of Truth (quarter, fourth part), but expresses this Truth to the building up of sense. Thus it becomes one-s",
+      "candidates": []
+    },
+    {
+      "id": 2898,
+      "word": "Rebekah",
+      "etym": "(deb.",
+      "mibDef": "tying firmly; fastening; binding; noosed cord; captivating; snare;",
+      "mibMeta": "The soul's natural delight in beauty. This essence of the soul is continually going forth and making attachments with the harmonious and beautiful (interpretation of Gen. 24:59). Genesis 24:60: Through the inherent love of the harmonious, thousands are blessed and many hearts of \"hate\" are directed ",
+      "candidates": [
+        {
+          "s": "H7259",
+          "def": "Ribkah, the wife of Isaac"
+        }
+      ]
+    },
+    {
+      "id": 2899,
+      "word": "Recah (A.V.",
+      "etym": "Heb.",
+      "mibDef": "softness; thigh; ham; haunch; side; hinder part; inner",
+      "mibMeta": "A very innermost state of thought that is sacred to the individual. In the meaning of Recah, thigh is considered in opposition to the loin and refers to that which is secret and sacred. When Moses saw the \"back\" of Jehovah, it is to say that he had penetrated into the most sacred recesses of divine ",
+      "candidates": []
+    }
+  ]
+}

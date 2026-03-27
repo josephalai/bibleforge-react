@@ -1,0 +1,1462 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "33 of 37",
+  "_entry_range": "ids 3200–3299",
+  "entries": [
+    {
+      "id": 3200,
+      "word": "Silas",
+      "etym": "Gk. fr. Lat .",
+      "mibDef": "abounding in trees; abundant growth; forestlike; wooded; woody.",
+      "mibMeta": "The rugged state of mind (woody) that goes well with the Paul consciousness (Acts 15:40). In Acts 16:25 Paul and Silas represent the will and the understanding in their work of clearing up the consciousness. The verse, \"But when Silas and Timothy came down from Macedonia, Paul was constrained by the",
+      "candidates": [
+        {
+          "s": "G4609",
+          "def": "Silas, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 3201,
+      "word": "silence",
+      "etym": "",
+      "mibDef": "A state of consciousness entered into for the purpose of putting man in touch with",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1826",
+          "def": "to be dumb; by implication, to be astonished, to stop; also to perish"
+        },
+        {
+          "s": "G4601",
+          "def": "to keep silent (transitively or intransitively)"
+        },
+        {
+          "s": "H2790",
+          "def": "to scratch, i.e., (by implication) to engrave, plough; hence (from the use of tools) to fabricate (of any material); figuratively, to devise (in a bad sense); hence (from the idea of secrecy) to be silent, to let alone; hence (by implication) to be deaf (as an accompaniment of dumbness)"
+        },
+        {
+          "s": "H2013",
+          "def": "to hush"
+        },
+        {
+          "s": "G2271",
+          "def": "(as noun) stillness, i.e., desistance from bustle or language"
+        }
+      ]
+    },
+    {
+      "id": 3202,
+      "word": "Siloam",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "sending forth; one sent; messenger.",
+      "mibMeta": "One sent, sending forth, or putting away. \"Go, wash in the pool of Siloam\" means to deny away the false idea. We are to deny the universal race belief in the reality and power of matter, and to affirm the spirituality of all substance.",
+      "candidates": [
+        {
+          "s": "G4611",
+          "def": "Siloam (i.e., Shiloach), a pool of Jerusalem"
+        }
+      ]
+    },
+    {
+      "id": 3203,
+      "word": "Silvanus",
+      "etym": "Gk. fr. Lat.",
+      "mibDef": "wood dwelling; living in woods; genius of the trees; wood",
+      "mibMeta": "A rugged state of mind (wood dwelling, woody); also perception, understanding, working in conjunction with the will or the word of Truth (Paul), and zeal or the inspired reason united with faith (Timothy). (See SILAS, a form of this name.) silver and gold— Symbolize love and wisdom.",
+      "candidates": [
+        {
+          "s": "G4610",
+          "def": "\"silvan\"; Silvanus, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 3204,
+      "word": "Simeon",
+      "etym": "Heb.",
+      "mibDef": "hearing; hearkening; obeying; obedient; understanding; announced;",
+      "mibMeta": "The bringing forth of hearing. This son of Jacob did not, according to his history, fulfill that which the name implies. (See REUBEN for further light on the import of Jacob's sons.) Simeon means one who listens and obeys. Hearing, in its higher aspect, refers to the state of mind in the devout Chri",
+      "candidates": [
+        {
+          "s": "H8095",
+          "def": "Shimon, one of Jacob's sons, also the tribe descended from him"
+        },
+        {
+          "s": "G4826",
+          "def": "Symeon (i.e., Shimon), the name of five Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3205,
+      "word": "Simon",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "hearing; hearkening; obeying; understanding; announced;",
+      "mibMeta": "Lor the general significance of Simon, see SIMEON. Strength (Andrew) is clearly related to substance (Simon), which in spirit we call faith (Peter; John 1:40, 41). \"Laith is the giving substance to things hoped for\" (Heb. 11:1, with marginal note). What we hope for and mentally see as a possibility ",
+      "candidates": [
+        {
+          "s": "G4613",
+          "def": "Simon (i.e., Shimon), the name of nine Israelites"
+        },
+        {
+          "s": "G4826",
+          "def": "Symeon (i.e., Shimon), the name of five Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3206,
+      "word": "Sin",
+      "etym": "Heb.",
+      "mibDef": "clayey; muddy; marshy; miry; hateful passion; bloody disposition; rage;",
+      "mibMeta": "Evidently very material, combative, destructive states of thought (muddy, marshy, clayey, rage, combat). sin. Missing the mark; falling short of the divine law. The divine law is the law of God, the law of Being; it is the underlying principle of every man's being and of the universe. Sin is a depar",
+      "candidates": [
+        {
+          "s": "H2403",
+          "def": "an offence (sometimes habitual sinfulness), and its penalty, occasion, sacrifice, or expiation; also (concretely) an offender"
+        },
+        {
+          "s": "G266",
+          "def": "a sin (properly abstract)"
+        },
+        {
+          "s": "H2398",
+          "def": "properly, to miss; hence (figuratively and generally) to sin; by inference, to forfeit, lack, expiate, repent, (causatively) lead astray, condemn"
+        },
+        {
+          "s": "H2399",
+          "def": "a crime or its penalty"
+        },
+        {
+          "s": "G264",
+          "def": "properly, to miss the mark (and so not share in the prize), i.e., (figuratively) to err, especially (morally) to sin"
+        }
+      ]
+    },
+    {
+      "id": 3207,
+      "word": "sin",
+      "etym": "",
+      "mibDef": "Missing the mark; that is, falling short of divine perfection. Sin is man's failure to express",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2403",
+          "def": "an offence (sometimes habitual sinfulness), and its penalty, occasion, sacrifice, or expiation; also (concretely) an offender"
+        },
+        {
+          "s": "G266",
+          "def": "a sin (properly abstract)"
+        },
+        {
+          "s": "H2398",
+          "def": "properly, to miss; hence (figuratively and generally) to sin; by inference, to forfeit, lack, expiate, repent, (causatively) lead astray, condemn"
+        },
+        {
+          "s": "H2399",
+          "def": "a crime or its penalty"
+        },
+        {
+          "s": "G264",
+          "def": "properly, to miss the mark (and so not share in the prize), i.e., (figuratively) to err, especially (morally) to sin"
+        }
+      ]
+    },
+    {
+      "id": 3208,
+      "word": "Sinai",
+      "etym": "Heb.",
+      "mibDef": "cliff; deep ravine; precipitous; sharp; jagged; cleft with ravines.",
+      "mibMeta": "The Children of Israel went from Rephidim to Sinai, or Horeb, the mount where God revealed Himself to Moses in the burning bush when the first impulse was given Moses to lead his people out of Egypt, and where God later met and talked to Moses, and gave him the Ten Commandments. This mount symbolize",
+      "candidates": [
+        {
+          "s": "H5514",
+          "def": "Sinai, mountain of Arabia"
+        },
+        {
+          "s": "G4614",
+          "def": "Sina (i.e., Sinai), a mountain in Arabia"
+        }
+      ]
+    },
+    {
+      "id": 3209,
+      "word": "Sinim",
+      "etym": "Heb .",
+      "mibDef": "far East; Chinese; eastern extremity (of the earth); southern country.",
+      "mibMeta": "Thoughts very remote, little known. In Isaiah 49:8-13 the lifting up of the whole consciousness and body of man is taught in symbol. In verse 12 we read, \"Lo, these shall come from far; and, lo, these from the north and from the west; and these from the land of Sinim.\" The inference is that the thou",
+      "candidates": []
+    },
+    {
+      "id": 3210,
+      "word": "Sinite",
+      "etym": "Heb.",
+      "mibDef": "clayey; muddy; miry; hateful passions; bloody dispositions; bloodshed;",
+      "mibMeta": "Thoughts springing from and in character like that which Canaan, the son of Ham, and the Canaanites signify. (See CANAAN and CANAANTTES.) See SIN (a wilderness and a city) for the specific characteristics of these thoughts.",
+      "candidates": []
+    },
+    {
+      "id": 3211,
+      "word": "Sion",
+      "etym": "Heb .",
+      "mibDef": "elevation of power; lifting up of being; lofty virtue; high courage; exaltation",
+      "mibMeta": "A great uplifting of the whole man. (See HERMON.)",
+      "candidates": [
+        {
+          "s": "G4622",
+          "def": "Sion (i.e., Tsijon), a hill of Jerusalem; figuratively, the Church (militant or triumphant)"
+        }
+      ]
+    },
+    {
+      "id": 3212,
+      "word": "Siphmoth",
+      "etym": "Heb.",
+      "mibDef": "fertile; fruitful; fruitful places.",
+      "mibMeta": "A rich consciousness of substance and of increase (fruitful, fruitful places, fertile).",
+      "candidates": []
+    },
+    {
+      "id": 3213,
+      "word": "Sippai",
+      "etym": "",
+      "mibDef": "lipped; sill; threshold; dish; basin; bowl; edge; rim; border; margin.",
+      "mibMeta": "The meaning of this name bespeaks an outer expression, a surface understanding, rather than the inner Truth of Spirit. (See SAPH.)",
+      "candidates": []
+    },
+    {
+      "id": 3214,
+      "word": "Sirah",
+      "etym": "Heb .",
+      "mibDef": "going off; turning aside; departure; retreat; defection; apostasy;",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3215,
+      "word": "Sirion",
+      "etym": "Heb .",
+      "mibDef": "coat of mail; breastplate; corselet; covered with armor, connected;",
+      "mibMeta": "Hermon (lofty, prominent, sacred mountain ) signifies a high, sublime state of mind. The Sidonian thoughts in man would perceive in this high, spiritual consciousness something strongly defensive and impregnable in an outer way. This is denoted by their name for Hermon, which is Sirion and means bre",
+      "candidates": [
+        {
+          "s": "H8303",
+          "def": "Shirjon or Sirjon, a peak of the Lebanon"
+        }
+      ]
+    },
+    {
+      "id": 3216,
+      "word": "Sithri (A. V.",
+      "etym": "Heb.",
+      "mibDef": "Jehovah conceals; hidden by Jah, protection of Jehovah;",
+      "mibMeta": "A thought of divine care and protection (Jehovah conceals, protection of Jehovah). \"Hide me under the shadow of thy wings\" (Psalms 17:8; 91:4).",
+      "candidates": []
+    },
+    {
+      "id": 3217,
+      "word": "Sitnah",
+      "etym": "Heb.",
+      "mibDef": "lie r-in-wait; adversary; enemy; opponent; opposer; persecutor; enmity;",
+      "mibMeta": "Gerar signifies subjective substance and life. In the beginning of man's journey toward Spirit this substance and life are utilized and activated by the sense nature (Philistines). However, the awakening intellectual and spiritual man must draw on this substance and life for sustenance; this is sign",
+      "candidates": []
+    },
+    {
+      "id": 3218,
+      "word": "Sivan",
+      "etym": "Heb.",
+      "mibDef": "opening; key; rejoicing; pleasure month; clothed with verdure; appearing",
+      "mibMeta": "Divisions of time represent steps or degrees of unfoldment in individual consciousness. The third month, or third division of time, as relating to the Jewish sacred year (meaning opening, key, rejoicing, clothed with verdure, appearing externally), refers to an awakening in the consciousness of man,",
+      "candidates": []
+    },
+    {
+      "id": 3219,
+      "word": "six days of creation",
+      "etym": "",
+      "mibDef": "The six great ideal projections from Divine Mind, each more",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8337",
+          "def": "six (as an overplus beyond five or the fingers of the hand); as ordinal, sixth"
+        },
+        {
+          "s": "G1803",
+          "def": "six"
+        },
+        {
+          "s": "H8353",
+          "def": "six"
+        },
+        {
+          "s": "G5516",
+          "def": "666 as a numeral"
+        },
+        {
+          "s": "G1812",
+          "def": "six hundred"
+        }
+      ]
+    },
+    {
+      "id": 3220,
+      "word": "Smyrna",
+      "etym": "",
+      "mibDef": "myrrh; flowing; distilling; sweet; fragrant; aromatic;",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4668",
+          "def": "a Smyrnaean"
+        }
+      ]
+    },
+    {
+      "id": 3221,
+      "word": "So",
+      "etym": "Heb. fr. Egypt.",
+      "mibDef": "chief; prince- rulership; crocodile; Saturn; a measure, i. e., one third",
+      "mibMeta": "A limited idea of judgment, discrimination (a measure, measuring), ruling in the darkened phase of consciousness that Egypt signifies (chief, prince, rulership, a king of Egypt). Soco (in A. V., I Chron. 4:18, Socho; II Chron. 11:7, Shoco; II Chron. 28:18, Shocho), so'-co {Heb.)— interwoven; entwine",
+      "candidates": [
+        {
+          "s": "H3651",
+          "def": "properly, set upright; hence (figuratively as adjective) just; but usually (as adverb or conjunction) rightly or so (in various applications to manner, time and relation; often with other particles)"
+        },
+        {
+          "s": "G3779",
+          "def": "in this way (referring to what precedes or follows)"
+        },
+        {
+          "s": "H1732",
+          "def": "David, the youngest son of Jesse"
+        },
+        {
+          "s": "G5620",
+          "def": "so too, i.e., thus therefore (in various relations of consecution, as follow)"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        }
+      ]
+    },
+    {
+      "id": 3222,
+      "word": "Sodi",
+      "etym": "Heb.",
+      "mibDef": "circular divan; circle; common consultation; familiar converse; intimacy;",
+      "mibMeta": "An influential thought belonging to the order faculty in man (a man of the Israelitish tribe of Zebulun) that is in close fellowship with the spiritual I AM of the consciousness ( intimacy of Jehovah, familiar friends), that is open to divine inspiration (confidant of Jehovah, common consultation, s",
+      "candidates": []
+    },
+    {
+      "id": 3223,
+      "word": "Sodom",
+      "etym": "Heb.",
+      "mibDef": "burning; consuming with fire;",
+      "mibMeta": "Sodom (secret intrigues, hidden wiles) represents a concealed or obscure thought or habit of man. Gomorrah (tyranny, material force) signifies a state of mind that is adverse to the law of Spirit. These wicked \"cities of the Plain\" are located within man, and before he can come into a realization of",
+      "candidates": [
+        {
+          "s": "H5467",
+          "def": "Sedom, a place near the Dead Sea"
+        },
+        {
+          "s": "G4670",
+          "def": "Sodoma (i.e., Sedom), a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 3224,
+      "word": "Sodomites",
+      "etym": "fr. Heb.",
+      "mibDef": "sacred; set apart; consecrated; devotee; a male prostitute; a",
+      "mibMeta": "Demoralizing, sensual thoughts and desires. (See SODOM.) sole of your foot, the (Josh. 1:3). The firm impression of the understanding upon divine substance. This establishes the unity between divine substance and understanding, giving man the concept of his unlimited possibilities.",
+      "candidates": [
+        {
+          "s": "H6945",
+          "def": "a (quasi) sacred person, i.e., (technically) a (male) devotee (by prostitution) to licentious idolatry"
+        }
+      ]
+    },
+    {
+      "id": 3225,
+      "word": "solar plexus",
+      "etym": "",
+      "mibDef": "The vital center of the organism, through which the subconscious mind connects",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3226,
+      "word": "Solomon",
+      "etym": "Heb.",
+      "mibDef": "whole; entire; complete; integral; peace; concord; integrity;",
+      "mibMeta": "The state of mind that is established in consciousness when the soul is unified with wisdom and love (whole, complete, concord, peaceful ). That Solomon stands for more than a great Hebrew king and a wise man is quite evident to those who have searched deeply in religious and mythological history. A",
+      "candidates": [
+        {
+          "s": "H8010",
+          "def": "Shelomah, David's successor"
+        },
+        {
+          "s": "G4672",
+          "def": "Solomon (i.e., Shelomoh), the son of David"
+        }
+      ]
+    },
+    {
+      "id": 3227,
+      "word": "Solomon's Temple",
+      "etym": "",
+      "mibDef": "With its inner and outer courts, it is a symbolical representation of man's body.",
+      "mibMeta": "In the healing of the nobleman's son, the nobleman, representing exalted thoughts, makes more direct contact with Divine Mind, and so seeks to have the healing power brought to bear upon that activity in the subconsciousness (son, at Capernaum) which is apparently dying, in other words, losing sight",
+      "candidates": []
+    },
+    {
+      "id": 3228,
+      "word": "son",
+      "etym": "",
+      "mibDef": "The \"two sons\" of Luke 15:11 are the two departments of the soul, or",
+      "mibMeta": "The \"two sons\" of Luke 15:11 are the two departments of the soul or consciousness. The son who stayed at home is the religious or moral nature; the son who went into the far country is the human phase of the soul, in which are the appetites and passions. Going into a \"far country\" is separating the ",
+      "candidates": [
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "G5207",
+          "def": "a \"son\" (sometimes of animals), used very widely of immediate, remote or figuratively, kinship"
+        },
+        {
+          "s": "H2860",
+          "def": "a relative by marriage (especially through the bride); figuratively, a circumcised child (as a species of religious espousal)"
+        },
+        {
+          "s": "H1247",
+          "def": "a son, grandson, etc"
+        },
+        {
+          "s": "H2859",
+          "def": "to give (a daughter) away in marriage; hence (generally) to contract affinity by marriage"
+        }
+      ]
+    },
+    {
+      "id": 3229,
+      "word": "Son of God",
+      "etym": "",
+      "mibDef": "The fullness of the perfect-man idea in Divine Mind, the Christ. The true spiritual",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "G5207",
+          "def": "a \"son\" (sometimes of animals), used very widely of immediate, remote or figuratively, kinship"
+        },
+        {
+          "s": "H2860",
+          "def": "a relative by marriage (especially through the bride); figuratively, a circumcised child (as a species of religious espousal)"
+        },
+        {
+          "s": "H1247",
+          "def": "a son, grandson, etc"
+        },
+        {
+          "s": "H2859",
+          "def": "to give (a daughter) away in marriage; hence (generally) to contract affinity by marriage"
+        }
+      ]
+    },
+    {
+      "id": 3230,
+      "word": "sonship",
+      "etym": "",
+      "mibDef": "Man, through Christ within, is God's son. Man reveals his sonship to himself and to",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3231,
+      "word": "Sopater",
+      "etym": "Gk .",
+      "mibDef": "the father who saves- saving father; savior of the father; father saved;",
+      "mibMeta": "The spiritually awakened or illumined understanding, that perceives the saving power of Spirit and defends the cause (as by argument, reasoning) of the true Source of all (the father who saves, savior or defender of the father).",
+      "candidates": [
+        {
+          "s": "G4986",
+          "def": "of a safe father; Sopatrus, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 3232,
+      "word": "Sophereth",
+      "etym": "Heb.",
+      "mibDef": "military scribe; tribune; muster master; enumerator- narrator;",
+      "mibMeta": "See HASSOPHERETH. In the significance of this name we find also the idea of an orderly gathering together, a directing and instructing of thoughts stressed (military scribe, muster master, governor, learned ).",
+      "candidates": []
+    },
+    {
+      "id": 3233,
+      "word": "Sorek",
+      "etym": "Heb.",
+      "mibDef": "reddish; fox-colored; purple; vine bearing cerulean grapes; choice vine;",
+      "mibMeta": "A very material aspect of life (reddish, vine). This life is really of the true choice vine, or Christ life; but by the exercise of the phase of the soul that Delilah here signifies (sensuality, sense thought, belief, and desire) the life expression takes on a very material and corrupt appearance. S",
+      "candidates": []
+    },
+    {
+      "id": 3234,
+      "word": "Sosthenes",
+      "etym": "Gk .",
+      "mibDef": "of sound strength; strong savior; secure in strength.",
+      "mibMeta": "A strong, healthful, saving, redeeming thought activity in the higher consciousness of man (of sound strength, sound suggesting health, wholeness, strong savior), or the idea of Christ as the saving, redeeming principle in man and as the unfailing strength of one's life (secure in strength). The Jew",
+      "candidates": [
+        {
+          "s": "G4988",
+          "def": "of safe strength; Sosthenes, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 3235,
+      "word": "Sotai",
+      "etym": "Heb.",
+      "mibDef": "turning aside; turning away; deviating from a true course; fickle;",
+      "mibMeta": "Changeableness and inconstancy of thought; voluntary transgression and turning away from the right and true. soul. The Scriptures give spirit, soul, and body as constituting all of man. Spirit is I",
+      "candidates": []
+    },
+    {
+      "id": 3236,
+      "word": "soul",
+      "etym": "",
+      "mibDef": "proceeds through the medium of the spiritual thoughts (Israelites).",
+      "mibMeta": "Trouble, sorrow. In Isaiah 65: 10 we read of the valley of Achor, in the redeemed earth (spiritualized body), as being \"a place for herds [the animal forces of the organism] to lie down in.\" This means that all the inner activities of man will come into harmony and peace because they will have been ",
+      "candidates": [
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G5590",
+          "def": "breath, i.e., (by implication) spirit, abstractly or concretely (the animal sentient principle only; thus distinguished on the one hand from G4151, which is the rational and immortal soul; and on the other from G2222, which is mere vitality, even of plants: these terms thus exactly correspond respectively to the Hebrew H5315, H7307 and H2416)"
+        },
+        {
+          "s": "H5082",
+          "def": "properly, nobility, i.e., reputation"
+        }
+      ]
+    },
+    {
+      "id": 3237,
+      "word": "soul",
+      "etym": "",
+      "mibDef": "Man's consciousness; the underlying idea back of any expression. In man, the soul is the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G5590",
+          "def": "breath, i.e., (by implication) spirit, abstractly or concretely (the animal sentient principle only; thus distinguished on the one hand from G4151, which is the rational and immortal soul; and on the other from G2222, which is mere vitality, even of plants: these terms thus exactly correspond respectively to the Hebrew H5315, H7307 and H2416)"
+        },
+        {
+          "s": "H5082",
+          "def": "properly, nobility, i.e., reputation"
+        }
+      ]
+    },
+    {
+      "id": 3238,
+      "word": "soul",
+      "etym": "",
+      "mibDef": "That phase of the soul named subconsciousness, which draws its life from",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G5590",
+          "def": "breath, i.e., (by implication) spirit, abstractly or concretely (the animal sentient principle only; thus distinguished on the one hand from G4151, which is the rational and immortal soul; and on the other from G2222, which is mere vitality, even of plants: these terms thus exactly correspond respectively to the Hebrew H5315, H7307 and H2416)"
+        },
+        {
+          "s": "H5082",
+          "def": "properly, nobility, i.e., reputation"
+        }
+      ]
+    },
+    {
+      "id": 3239,
+      "word": "soul",
+      "etym": "",
+      "mibDef": "The soul is fed by thought; the true soul food is the Word of God. The Word",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G5590",
+          "def": "breath, i.e., (by implication) spirit, abstractly or concretely (the animal sentient principle only; thus distinguished on the one hand from G4151, which is the rational and immortal soul; and on the other from G2222, which is mere vitality, even of plants: these terms thus exactly correspond respectively to the Hebrew H5315, H7307 and H2416)"
+        },
+        {
+          "s": "H5082",
+          "def": "properly, nobility, i.e., reputation"
+        }
+      ]
+    },
+    {
+      "id": 3240,
+      "word": "soul development",
+      "etym": "",
+      "mibDef": "The unfoldment of divine ideals in the soul, or consciousness of man, and the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G5590",
+          "def": "breath, i.e., (by implication) spirit, abstractly or concretely (the animal sentient principle only; thus distinguished on the one hand from G4151, which is the rational and immortal soul; and on the other from G2222, which is mere vitality, even of plants: these terms thus exactly correspond respectively to the Hebrew H5315, H7307 and H2416)"
+        },
+        {
+          "s": "H5082",
+          "def": "properly, nobility, i.e., reputation"
+        }
+      ]
+    },
+    {
+      "id": 3241,
+      "word": "soul through an active faith in God",
+      "etym": "",
+      "mibDef": "the omnipotent, ever present good.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G5590",
+          "def": "breath, i.e., (by implication) spirit, abstractly or concretely (the animal sentient principle only; thus distinguished on the one hand from G4151, which is the rational and immortal soul; and on the other from G2222, which is mere vitality, even of plants: these terms thus exactly correspond respectively to the Hebrew H5315, H7307 and H2416)"
+        },
+        {
+          "s": "H5082",
+          "def": "properly, nobility, i.e., reputation"
+        }
+      ]
+    },
+    {
+      "id": 3242,
+      "word": "source and giver of life",
+      "etym": "",
+      "mibDef": "the indwelling Christ —to a multitude of error religious ideas, which exalt death",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3243,
+      "word": "source of life",
+      "etym": "",
+      "mibDef": "every good that he can need or desire",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3244,
+      "word": "sowing",
+      "etym": "",
+      "mibDef": "Every thought is a seed and brings forth after its kind. Every carnal thought, or thought",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2221",
+          "def": "something sown, i.e., a plant"
+        },
+        {
+          "s": "H2233",
+          "def": "seed; figuratively, fruit, plant, sowing-time, posterity"
+        }
+      ]
+    },
+    {
+      "id": 3245,
+      "word": "Spain",
+      "etym": "Lat. fr. Gk .",
+      "mibDef": "Hispania; the Iberian peninsula; rare; precious; abounding with",
+      "mibMeta": "A state of thought relating to the animal phase of life in the individual consciousness (abounding with conies, land of rabbits; conies being small animals, a species of rabbit, that make their homes in the clefts of rocks). This life consciousness, therefore, though seemingly animal and limited in ",
+      "candidates": []
+    },
+    {
+      "id": 3246,
+      "word": "specific work in the consciousness in behalf of the rule of divine love",
+      "etym": "",
+      "mibDef": "David (a separation, a",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3247,
+      "word": "Spirit",
+      "etym": "",
+      "mibDef": "as Mind, the one Mind, or Intelligence, of the universe. (See SOUL.)",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7307",
+          "def": "wind; by resemblance breath, i.e., a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)"
+        },
+        {
+          "s": "G4151",
+          "def": "a current of air, i.e., breath (blast) or a breeze; by analogy or figuratively, a spirit, i.e., (human) the rational soul, (by implication) vital principle, mental disposition, etc., or (superhuman) an angel, demon, or (divine) God, Christ's spirit, the Holy Spirit"
+        },
+        {
+          "s": "H7308",
+          "def": "mind, spirit"
+        },
+        {
+          "s": "H5397",
+          "def": "a puff, i.e., wind, angry or vital breath, divine inspiration, intellect. or (concretely) an animal"
+        },
+        {
+          "s": "H178",
+          "def": "properly, a mumble, i.e., a water-skin (from its hollow sound); hence a necromancer (ventriloquist, as from a jar)"
+        }
+      ]
+    },
+    {
+      "id": 3248,
+      "word": "spiritual application. The expression in consciousness of this kindly",
+      "etym": "",
+      "mibDef": "son",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4152",
+          "def": "non-carnal, i.e., (humanly) ethereal (as opposed to gross), or (daemoniacally) a spirit (concretely), or (divinely) supernatural, regenerate, religious"
+        },
+        {
+          "s": "H7307",
+          "def": "wind; by resemblance breath, i.e., a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)"
+        },
+        {
+          "s": "G4151",
+          "def": "a current of air, i.e., breath (blast) or a breeze; by analogy or figuratively, a spirit, i.e., (human) the rational soul, (by implication) vital principle, mental disposition, etc., or (superhuman) an angel, demon, or (divine) God, Christ's spirit, the Holy Spirit"
+        }
+      ]
+    },
+    {
+      "id": 3249,
+      "word": "spiritual body",
+      "etym": "",
+      "mibDef": "foods that are spiritual in character— avoiding all that",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4152",
+          "def": "non-carnal, i.e., (humanly) ethereal (as opposed to gross), or (daemoniacally) a spirit (concretely), or (divinely) supernatural, regenerate, religious"
+        },
+        {
+          "s": "H7307",
+          "def": "wind; by resemblance breath, i.e., a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)"
+        },
+        {
+          "s": "G4151",
+          "def": "a current of air, i.e., breath (blast) or a breeze; by analogy or figuratively, a spirit, i.e., (human) the rational soul, (by implication) vital principle, mental disposition, etc., or (superhuman) an angel, demon, or (divine) God, Christ's spirit, the Holy Spirit"
+        }
+      ]
+    },
+    {
+      "id": 3250,
+      "word": "spiritual discernment",
+      "etym": "",
+      "mibDef": "Intuitive knowing of that which is true of God, or Spirit.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4152",
+          "def": "non-carnal, i.e., (humanly) ethereal (as opposed to gross), or (daemoniacally) a spirit (concretely), or (divinely) supernatural, regenerate, religious"
+        },
+        {
+          "s": "H7307",
+          "def": "wind; by resemblance breath, i.e., a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)"
+        },
+        {
+          "s": "G4151",
+          "def": "a current of air, i.e., breath (blast) or a breeze; by analogy or figuratively, a spirit, i.e., (human) the rational soul, (by implication) vital principle, mental disposition, etc., or (superhuman) an angel, demon, or (divine) God, Christ's spirit, the Holy Spirit"
+        }
+      ]
+    },
+    {
+      "id": 3251,
+      "word": "spiritual man",
+      "etym": "",
+      "mibDef": "the Amorites—",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4152",
+          "def": "non-carnal, i.e., (humanly) ethereal (as opposed to gross), or (daemoniacally) a spirit (concretely), or (divinely) supernatural, regenerate, religious"
+        },
+        {
+          "s": "H7307",
+          "def": "wind; by resemblance breath, i.e., a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)"
+        },
+        {
+          "s": "G4151",
+          "def": "a current of air, i.e., breath (blast) or a breeze; by analogy or figuratively, a spirit, i.e., (human) the rational soul, (by implication) vital principle, mental disposition, etc., or (superhuman) an angel, demon, or (divine) God, Christ's spirit, the Holy Spirit"
+        }
+      ]
+    },
+    {
+      "id": 3252,
+      "word": "spiritual quickening",
+      "etym": "",
+      "mibDef": "Making active according to spiritual standards, by being linked to the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4152",
+          "def": "non-carnal, i.e., (humanly) ethereal (as opposed to gross), or (daemoniacally) a spirit (concretely), or (divinely) supernatural, regenerate, religious"
+        },
+        {
+          "s": "H7307",
+          "def": "wind; by resemblance breath, i.e., a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)"
+        },
+        {
+          "s": "G4151",
+          "def": "a current of air, i.e., breath (blast) or a breeze; by analogy or figuratively, a spirit, i.e., (human) the rational soul, (by implication) vital principle, mental disposition, etc., or (superhuman) an angel, demon, or (divine) God, Christ's spirit, the Holy Spirit"
+        }
+      ]
+    },
+    {
+      "id": 3253,
+      "word": "spiritual strength to be the presiding",
+      "etym": "",
+      "mibDef": "not a mere",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4152",
+          "def": "non-carnal, i.e., (humanly) ethereal (as opposed to gross), or (daemoniacally) a spirit (concretely), or (divinely) supernatural, regenerate, religious"
+        },
+        {
+          "s": "H7307",
+          "def": "wind; by resemblance breath, i.e., a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)"
+        },
+        {
+          "s": "G4151",
+          "def": "a current of air, i.e., breath (blast) or a breeze; by analogy or figuratively, a spirit, i.e., (human) the rational soul, (by implication) vital principle, mental disposition, etc., or (superhuman) an angel, demon, or (divine) God, Christ's spirit, the Holy Spirit"
+        }
+      ]
+    },
+    {
+      "id": 3254,
+      "word": "spiritual thought grows",
+      "etym": "",
+      "mibDef": "very quietly and slowly at first, but gradually increasing— until it finally carries",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4152",
+          "def": "non-carnal, i.e., (humanly) ethereal (as opposed to gross), or (daemoniacally) a spirit (concretely), or (divinely) supernatural, regenerate, religious"
+        },
+        {
+          "s": "H7307",
+          "def": "wind; by resemblance breath, i.e., a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)"
+        },
+        {
+          "s": "G4151",
+          "def": "a current of air, i.e., breath (blast) or a breeze; by analogy or figuratively, a spirit, i.e., (human) the rational soul, (by implication) vital principle, mental disposition, etc., or (superhuman) an angel, demon, or (divine) God, Christ's spirit, the Holy Spirit"
+        }
+      ]
+    },
+    {
+      "id": 3255,
+      "word": "Stachys",
+      "etym": "Gk.",
+      "mibDef": "standing; an ear of grain; an ear of corn.",
+      "mibMeta": "A positive, illumined, intellectual thought of substance, subject to spiritual direction and use (standing, an ear of grain, a Christian). stand— To hold fearlessly to the truth that Spirit is doing its perfect work and that there is no cause for alarm. Endurance is necessary to a soldier, and every",
+      "candidates": [
+        {
+          "s": "G4720",
+          "def": "Stachys, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 3256,
+      "word": "Stephanas",
+      "etym": "Gk.",
+      "mibDef": "surround; encompass; encircle with a crown; royal diadem;",
+      "mibMeta": "Like Stephen, the highest point of intelligent expression in the body, the head (crowned). The head is the seat of reason, and when he who is strong in this part of the consciousness receives the Christ power he is quickened in all that pertains to that realm. (Achaia pertains to the intellect.)",
+      "candidates": [
+        {
+          "s": "G4734",
+          "def": "Stephanas, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 3257,
+      "word": "Stephen",
+      "etym": "fr. Gk.",
+      "mibDef": "surround; encompass; encircle with a crown; roycd diadem; victor's",
+      "mibMeta": "The word \"Stephen\" means encircle with a crown, crowned, victorOs wreath. Crowns are worn on the head, and the head is the seat of the intellect. Therefore Acts 6:8 means that the intellect has been illumined and has received power to demonstrate in the outer realms of consciousness. Stephen really ",
+      "candidates": [
+        {
+          "s": "G4736",
+          "def": "Stephanus, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 3258,
+      "word": "stiff-necked",
+      "etym": "",
+      "mibDef": "Self-sufficient, obstinate; descriptive of one who has attained a degree of spiritual",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7186",
+          "def": "severe (in various applications)"
+        },
+        {
+          "s": "H6203",
+          "def": "the nape or back of the neck (as declining); hence, the back generally (whether literal or figurative)"
+        },
+        {
+          "s": "G4644",
+          "def": "hardnaped, i.e., (figuratively) obstinate"
+        }
+      ]
+    },
+    {
+      "id": 3259,
+      "word": "stillness",
+      "etym": "",
+      "mibDef": "A mental state of infinite peace, rest, and tranquillity where man's senses are hushed",
+      "mibMeta": "The opposite of the Epicureans. The Stoics believe that indifference to both pleasure and pain is the highest attainment of man. stone, that the builders rejected. In Luke 20:17 it is recorded that Jesus told the scribes and Pharisees that \"The stone which the builders rejected, The same was made th",
+      "candidates": []
+    },
+    {
+      "id": 3260,
+      "word": "stillness and sweetness beyond expression. A great peace is there",
+      "etym": "",
+      "mibDef": "the \"peace of God, which passeth all",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3261,
+      "word": "stomach",
+      "etym": "",
+      "mibDef": "The stomach stands for the meditative faculty of the mind— its ability to receive ideas,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3262,
+      "word": "stone",
+      "etym": "Rev. 2:17",
+      "mibDef": "When we redeem ourselves from bondage to sense, we shall be",
+      "mibMeta": "See RITES. strength— The energy of God. Freedom from weakness; stability of character; power to withstand temptation; capacity to accomplish. Strength is physical, mental, and spiritual. All strength originates in Spirit, the thought and the word spiritually expressed being the manifestation.",
+      "candidates": [
+        {
+          "s": "H68",
+          "def": "a stone"
+        },
+        {
+          "s": "G3037",
+          "def": "a stone (literally or figuratively)"
+        },
+        {
+          "s": "H7275",
+          "def": "to cast together (stones), i.e., to lapidate"
+        },
+        {
+          "s": "H5619",
+          "def": "properly, to be weighty; but used only in the sense of lapidation or its contrary (as if a delapidation)"
+        },
+        {
+          "s": "H69",
+          "def": "a stone"
+        }
+      ]
+    },
+    {
+      "id": 3263,
+      "word": "strength",
+      "etym": "",
+      "mibDef": "God in them is their all-sufficiency in that",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3581",
+          "def": "vigor, literally (force, in a good or a bad sense) or figuratively (capacity, means, produce); also (from its hardiness) a large lizard"
+        },
+        {
+          "s": "H5797",
+          "def": "strength in various applications (force, security, majesty, praise)"
+        },
+        {
+          "s": "H4581",
+          "def": "a fortified place; figuratively, a defense"
+        },
+        {
+          "s": "H1369",
+          "def": "force (literally or figuratively); by implication, valor, victory"
+        },
+        {
+          "s": "H2428",
+          "def": "probably a force, whether of men, means or other resources; an army, wealth, virtue, valor, strength"
+        }
+      ]
+    },
+    {
+      "id": 3264,
+      "word": "stronghold",
+      "etym": "",
+      "mibDef": "the faculty of strength in individual consciousness) from",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3265,
+      "word": "stumbling block",
+      "etym": "",
+      "mibDef": "Stumbling blocks at first may seem to be in the physical environment, but",
+      "mibMeta": "Stumblingblocks at first sight seem to be in the environment, but a closer discernment reveals that they are primarily in the mind. Then we should not put additional weight into the already existing stumblingblocks by filling them with the thought stuff of condemnation. Do not judge others, but stri",
+      "candidates": [
+        {
+          "s": "H5063",
+          "def": "a trip (of the foot); figuratively, an infliction (of disease)"
+        },
+        {
+          "s": "G4625",
+          "def": "a trap-stick (bent sapling), i.e., snare (figuratively, cause of displeasure or sin)"
+        }
+      ]
+    },
+    {
+      "id": 3266,
+      "word": "subconscious",
+      "etym": "",
+      "mibDef": "spirit, soul, and",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3267,
+      "word": "Sucathites (A. V.",
+      "etym": "fr. Heb.",
+      "mibDef": "entwined; intem’oven, hedged in.",
+      "mibMeta": "A phase of the subjective memory of man; it receives the awakened understanding and realization that Jabez signifies, and carries them into activity in the subconscious mind and the body consciousness of the individual (a family of scribes dwelling at Jabez; see JABEZ; also, SCRIBES).",
+      "candidates": []
+    },
+    {
+      "id": 3268,
+      "word": "Succoth",
+      "etym": "Heb.",
+      "mibDef": "interwoven- interlaced; coverts; shelters; protections; hedges;",
+      "mibMeta": "Booths represent temporary abiding places, as compared with permanent houses. Succoth (interwoven, booths, tents ) refers to the seeming temporary, carnal, material organism of man; this is the fruit or manifestation of the belief that the man who is unawakened spiritually holds concerning his physi",
+      "candidates": [
+        {
+          "s": "H5523",
+          "def": "Succoth, the name of a place in Egypt and of three in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 3269,
+      "word": "Succoth -benoth",
+      "etym": "Heb .",
+      "mibDef": "booths of the daughters; booths for the daughters;",
+      "mibMeta": "The apparently physical body of man, in its temporary, corruptible state of manifestation, given over to the carrying out of the lustful, animal desires and emotions of the sense",
+      "candidates": [
+        {
+          "s": "H5523",
+          "def": "Succoth, the name of a place in Egypt and of three in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 3270,
+      "word": "suffered the loss",
+      "etym": "",
+      "mibDef": "A. V., dung— that he might gain Christ).",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3958",
+          "def": "to experience a sensation or impression (usually painful)"
+        },
+        {
+          "s": "H5414",
+          "def": "to give, used with greatest latitude of application (put, make, etc.)"
+        },
+        {
+          "s": "G863",
+          "def": "to send forth, in various applications (as follow)"
+        },
+        {
+          "s": "G1439",
+          "def": "to let be, i.e., permit or leave alone"
+        },
+        {
+          "s": "G2010",
+          "def": "to turn over (transfer), i.e., allow"
+        }
+      ]
+    },
+    {
+      "id": 3271,
+      "word": "suggestion",
+      "etym": "",
+      "mibDef": "A mental process by which one mind influences another mind, or one's subconscious",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3272,
+      "word": "Sukkiim (A. V.",
+      "etym": "Heb .",
+      "mibDef": "dwelling in booths; coverings; shelters,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3273,
+      "word": "summing up of the stubborn",
+      "etym": "",
+      "mibDef": "yet transitory and fleeting— emotions and",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3274,
+      "word": "superconscious mind",
+      "etym": "",
+      "mibDef": "A state of consciousness based on true ideas, on an understanding and",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3275,
+      "word": "Suph (A. V.",
+      "etym": "Heb. fr. Egypt.",
+      "mibDef": "rush; reed; sedge; seaweed; bulrush; sword",
+      "mibMeta": "See the RED SEA for the significance of this name. Seaweed here gives the idea of obstruction of the pure life flow in the organism of man because of material thoughts, weeds, tares.",
+      "candidates": []
+    },
+    {
+      "id": 3276,
+      "word": "Suphah (A. V.",
+      "etym": "fleb .",
+      "mibDef": "sweeping away; coming to an end; whirlwind;",
+      "mibMeta": "A very great commotion that has been set up in the consciousness and the organism of man. This is a result of introducing new ideas of life and Truth into the mind and the body, breaking up old, material, darkened phases of thought and their resultant corruptible body cells (sweeping away, whirlwind",
+      "candidates": []
+    },
+    {
+      "id": 3277,
+      "word": "Sur",
+      "etym": "Heb.",
+      "mibDef": "going of; exit; turning aside; departing; leaving; removing; defecting; removed;",
+      "mibMeta": "Elimination, as it pertains to the consciousness and the organism of man (going o, exit, removing, removed). Susanna, su-san'-nCE (Heb white; shining; brilliant; bright-colored; lily; lily-like; ornamental; beautiful; pure. One of the women who went with Jesus and His disciples and \"ministered unto ",
+      "candidates": []
+    },
+    {
+      "id": 3278,
+      "word": "surface",
+      "etym": "",
+      "mibDef": "\"Lazarus, come forth.\"",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3279,
+      "word": "Susi",
+      "etym": "Heb.",
+      "mibDef": "leaping; bounding; springing; swiftly lying; horseman; swallow (so called",
+      "mibMeta": "A quick, swift, free power thought, working in the understanding faculty in man (horseman, Jah is swift, rejoicing of Jehovah, swallow--so called from its swift and cheerful flight; a man of the Israelitish tribe of Manasseh, Manasseh referring to the faculty of understanding in individual conscious",
+      "candidates": []
+    },
+    {
+      "id": 3280,
+      "word": "swing from one extreme to the other",
+      "etym": "",
+      "mibDef": "from the height of noble thinking and feeling (fame, renown ) to",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3281,
+      "word": "sword",
+      "etym": "",
+      "mibDef": "I AM is the gate through which the thinker comes forth from the invisible to the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2719",
+          "def": "drought; also a cutting instrument (from its destructive effect), as a knife, sword, or other sharp implement"
+        },
+        {
+          "s": "G3162",
+          "def": "a knife, i.e., dirk; figuratively, war, judicial punishment"
+        },
+        {
+          "s": "G4501",
+          "def": "a sabre, i.e., a long and broad cutlass (any weapon of the kind, literally or figuratively)"
+        },
+        {
+          "s": "H1300",
+          "def": "lightning; by analogy, a gleam; concretely, a flashing sword"
+        },
+        {
+          "s": "H7524",
+          "def": "a crushing; specifically, a murder-cry"
+        }
+      ]
+    },
+    {
+      "id": 3282,
+      "word": "Sychar",
+      "etym": "Heb.",
+      "mibDef": "drunken; hilarious; merry; deeply drunk; madness; falsehood; deceit;",
+      "mibMeta": "Sychar ( drunken ) signifies a confused state of mind or a mixed state of consciousness, idolatry. Sychar is located near the parcel of ground that Jacob gave to his son Joseph; this ground symbolizes the forehead, the seat of intellectual perception. Here was Jacob's well- inspiration through the i",
+      "candidates": []
+    },
+    {
+      "id": 3283,
+      "word": "synagogue",
+      "etym": "",
+      "mibDef": "Represents an aggregation of religious ideas based on Truth, thoughts that have not",
+      "mibMeta": "A Jewish synagogue was a little chapel, where any one could hear the law read out of the Hebrew Scriptures; or if he was a Rabbi he could read out of the law himself. There was a constant stream of people going and coming in the synagogue, and it fitly represents the mind of man, or the phase of man",
+      "candidates": [
+        {
+          "s": "G4864",
+          "def": "an assemblage of persons; specially, a Jewish \"synagogue\" (the meeting or the place); by analogy, a Christian church"
+        },
+        {
+          "s": "G752",
+          "def": "director of the synagogue services"
+        }
+      ]
+    },
+    {
+      "id": 3284,
+      "word": "Syntyche",
+      "etym": "Gk.",
+      "mibDef": "to meet; come in contact; accident; fortunate; chance; fate.",
+      "mibMeta": "Euodia signifies aspiration, the soul's aspiring after that which is spiritual and good. Syntyche (fortunate, accident, fate) is a phase of the soul that is in close touch with the Euodia state of thought, which is aspiring after the highest and best but has not yet become fully awakened to the fact",
+      "candidates": []
+    },
+    {
+      "id": 3285,
+      "word": "Syracuse",
+      "etym": "Gk. fr. Phoenician",
+      "mibDef": "Tyre hidden; hidden rock; luxurious living; secret;",
+      "mibMeta": "Tyre (rock, strength, compressed) signifies the realm of sensation in man's consciousness. Tyre and Sidon refer to the region of man that may be termed bodily sensation. Syracuse (Tyre hidden, luxurious living, secret, violent drawing) symbolizes the tendency to hide, to keep secret, the thoughts an",
+      "candidates": []
+    },
+    {
+      "id": 3286,
+      "word": "Syria",
+      "etym": "Gk.",
+      "mibDef": "Aram; Aramaic; highland; high; swelling up; increasing.",
+      "mibMeta": "The intellect, intellectual pride (highland, swelling up, increasing, the same country as Aram; see ARAM). The king of Syria is the ruling power in the egotistic, purely intellectual thought. The Syria thoughts of the intellectual realm that have no understanding of the real (Israel) come down and s",
+      "candidates": [
+        {
+          "s": "H758",
+          "def": "Aram or Syria, and its inhabitants; also the name of the son of Shem, a grandson of Nahor, and of an Israelite"
+        },
+        {
+          "s": "G4947",
+          "def": "Syria (i.e., Tsyria or Tyre), a region of Asia"
+        }
+      ]
+    },
+    {
+      "id": 3287,
+      "word": "Syrians",
+      "etym": "fr. Gk .",
+      "mibDef": "Aram 3 /tans, i. e., those speaking the Aramaic tongue.",
+      "mibMeta": "Thoughts of the intellect that resist or war against spiritual consciousness, or Israel. It is best not to engage in open warfare with resisting thoughts. As a rule it is better to apply the law of nonresistance and by spiritual discernment to avoid open conflict (II Kings 6:8-23). The warring of th",
+      "candidates": [
+        {
+          "s": "H758",
+          "def": "Aram or Syria, and its inhabitants; also the name of the son of Shem, a grandson of Nahor, and of an Israelite"
+        },
+        {
+          "s": "H761",
+          "def": "an Aramite or Aramaean"
+        },
+        {
+          "s": "H726",
+          "def": "an Edomite (as in the margin)"
+        },
+        {
+          "s": "H7421",
+          "def": "a Ramite, i.e., Aramaean"
+        }
+      ]
+    },
+    {
+      "id": 3288,
+      "word": "Syrophoenician (A. V.",
+      "etym": "Gk.",
+      "mibDef": "Syrian Phoenicia; heights of",
+      "mibMeta": "The Syrophoenician woman signifies the intuitive perception of Truth reflected into the intellect from within the soul. Her daughter symbolizes affection, which had an \"unclean spirit.\" This \"demon\" was evidently love centered on the outer things of the \"mind of the flesh\"— mixed thoughts, family se",
+      "candidates": []
+    },
+    {
+      "id": 3289,
+      "word": "Taanach",
+      "etym": "Heb .",
+      "mibDef": "deep; hard to pass; sandy soil;",
+      "mibMeta": "The seemingly deep and strong establishment of error in the life forces (deep, hard to pass, battlement, shut up; a city of the Canaanites, the Canaanites representing the elemental life forces of man, under sense dominion). \"In Taanach by the waters of Megiddo\" Sisera was overthrown and the river K",
+      "candidates": [
+        {
+          "s": "H8590",
+          "def": "Taanak or Tanak, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 3290,
+      "word": "Tabbaoth",
+      "etym": "Heb .",
+      "mibDef": "impressions; indentures; marks; signatures; spots; signets; signet",
+      "mibMeta": "The man named Tabbaoth signifies a thought activity that is still in bondage to the",
+      "candidates": []
+    },
+    {
+      "id": 3291,
+      "word": "Tabbath",
+      "etym": "Heb.",
+      "mibDef": "spreading out; extending; extension; good report; famous; celebrated.",
+      "mibMeta": "The broadening and deepening of peace, joy, and good thoughts in consciousness (extension, good report) and of spiritual excellence and true worth (famous, celebrated) that result from the overcoming of contention and strife. (The Midianites who fled from Gideon and his men signify strife and conten",
+      "candidates": []
+    },
+    {
+      "id": 3292,
+      "word": "Tabeel",
+      "etym": "Heb.",
+      "mibDef": "God is good; goodness of God; good God.",
+      "mibMeta": "Thoughts in the outer consciousness of man taking advantage of the goodness of God, or of the understanding that God is good. When the personal man lays hold of the idea of the goodness of God, or the allness of good, he uses it for building up and gratifying the lesser self, unless he has been thor",
+      "candidates": []
+    },
+    {
+      "id": 3293,
+      "word": "Taberah",
+      "etym": "Heb .",
+      "mibDef": "feeding; consuming; burning; kindling; inflaming; place of feeding;",
+      "mibMeta": "A day of judgment, or a time and place in consciousness wherein the individual meets the results of the error thoughts that he has been sowing, and a purification sets in (burning, place of burning; the \"fire of Jehovah\" is the purifying aspect of the divine presence of light and love, wherein much ",
+      "candidates": []
+    },
+    {
+      "id": 3294,
+      "word": "tabernacle",
+      "etym": "",
+      "mibDef": "Represents the temporal body of man, as the Temple built by Solomon in Jerusalem",
+      "mibMeta": "The temporal body of man. The tabernacle represents the temporal body, as the Temple built by Solomon in Jerusalem represents the regenerated, permanent body. In the wilderness of sense, man worships God in a tent, or a temporary, transitory state of mind, which makes a perishable body. Yet in this ",
+      "candidates": [
+        {
+          "s": "H168",
+          "def": "a tent (as clearly conspicuous from a distance)"
+        },
+        {
+          "s": "H4908",
+          "def": "a residence (including a shepherd's hut, the lair of animals, figuratively, the grave; also the Temple); specifically, the Tabernacle (properly, its wooden walls)"
+        },
+        {
+          "s": "G4633",
+          "def": "a tent or cloth hut (literally or figuratively)"
+        },
+        {
+          "s": "H5521",
+          "def": "a hut or lair"
+        },
+        {
+          "s": "G4636",
+          "def": "a hut or temporary residence, i.e., (figuratively) the human body (as the abode of the spirit)"
+        }
+      ]
+    },
+    {
+      "id": 3295,
+      "word": "Tabitha",
+      "etym": "Gk. fr. Aram .",
+      "mibDef": "beautiful; splendid; glorious; gazelle; antelope; roe.",
+      "mibMeta": "Tabitha and Dorcas both mean gazelle , antelope, doe, roe, which signify a grace, lightness, and symmetry of soul and body that are of Spirit. When faith (Peter), the spiritual quality that realizes the reality of the inner life forces, begins its work in consciousness and joins the saints (consecra",
+      "candidates": []
+    },
+    {
+      "id": 3296,
+      "word": "tables of stone",
+      "etym": "",
+      "mibDef": "Represent the very foundation of our being, on which are engraved the memories",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3871",
+          "def": "probably meaning to glisten; a tablet (as polished), of stone, wood or metal"
+        },
+        {
+          "s": "H7979",
+          "def": "a table (as spread out); by implication, a meal"
+        },
+        {
+          "s": "G4109",
+          "def": "a moulding-board, i.e., flat surface (\"plate\", or tablet, literally or figuratively)"
+        },
+        {
+          "s": "G5132",
+          "def": "a table or stool (as being four-legged), usually for food (figuratively, a meal); also a counter for money (figuratively, a broker's office for loans at interest)"
+        }
+      ]
+    },
+    {
+      "id": 3297,
+      "word": "Tabor",
+      "etym": "Heb",
+      "mibDef": "heaped up; highest part; height; summit; umbilicus; navel, i. e., height of",
+      "mibMeta": "A high place in consciousness, a very exalted group of thoughts, or thought center (heaped up, highest part, height, summit, mountain; a mountain in Palestine, a Levitical city, and a grove of oak trees, oaks denoting great strength and protection). \"Tabor and Hermon rejoice in thy name.\" Mountains ",
+      "candidates": [
+        {
+          "s": "H8396",
+          "def": "Tabor, a mountain in Palestine, also a city adjacent"
+        }
+      ]
+    },
+    {
+      "id": 3298,
+      "word": "Tabrimmon (A. V.",
+      "etym": "Heb.",
+      "mibDef": "Rimmon the good; Rimmon is good;",
+      "mibMeta": "A ruling thought in the sense intellect of man that believes in the power of and works in harmony with that which the Syrian god Rimmon denotes. (See RIMMON.)",
+      "candidates": []
+    },
+    {
+      "id": 3299,
+      "word": "Tadmor",
+      "etym": "Heb .",
+      "mibDef": "Tamar; Palmyra; palms; city of palms.",
+      "mibMeta": "A consciousness of victory (palms, which denote victory). Tahan, ta'-han (Heb bent down; bowed down; inclined; settling down; pitching one's tent; tent place; encampment; graciousness; entreaty; supplication; prayer. a A descendant of Ephraim, perhaps a son (Num. 26:35). b A son of Telah an Ephraimi",
+      "candidates": [
+        {
+          "s": "H8412",
+          "def": "Tadmor, a place near Palestine"
+        }
+      ]
+    }
+  ]
+}

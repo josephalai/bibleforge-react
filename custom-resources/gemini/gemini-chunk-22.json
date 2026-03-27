@@ -1,0 +1,1659 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "22 of 37",
+  "_entry_range": "ids 2100–2199",
+  "entries": [
+    {
+      "id": 2100,
+      "word": "Lahmi",
+      "etym": "Heb.",
+      "mibDef": "Bethlehemite of ox belonging to bread; my bread; my substance.",
+      "mibMeta": "The mistaken belief of the sense mind (Philistines) in individual consciousness that substance, prosperity, man's bountiful supply, can be obtained only by personal ownership, by means of competition, oppression, defense, and by fighting for one's rights (Bethlehemite, of ox belonging to bread, m~ b",
+      "candidates": [
+        {
+          "s": "H3902",
+          "def": "Lachmi, an Israelite; or rather probably a brief form"
+        }
+      ]
+    },
+    {
+      "id": 2101,
+      "word": "Laish",
+      "etym": "Heb.",
+      "mibDef": "kneaded together; crushing; adhering; well-knit; firm; strong; courageous;",
+      "mibMeta": "Courage, fearlessness, and strength (lion, firm, strong, courageous) brought about by a certain unification of thought (kneaded together, adhering, well-knit). Better judgment, however, is needed in the group of thoughts in consciousness that Laish represents, so that it may express constructively i",
+      "candidates": [
+        {
+          "s": "H3919",
+          "def": "Laish, the name of two places in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2102,
+      "word": "Laishah (A. V.",
+      "etym": "Heb.",
+      "mibDef": "same as Laish, used with the emphatic and designative",
+      "mibMeta": "A lion signifies life (being of the cat family), as well as courage, aggressiveness, fearlessness, and strength. Gallim, the place mentioned with Laishah in Isaiah 10:30, also represents thoughts about life. (See GALLIM.) Because of failing to keep the courage, fearlessness, and strength of the Lais",
+      "candidates": []
+    },
+    {
+      "id": 2103,
+      "word": "Lakkum (A. V.",
+      "etym": "",
+      "mibDef": "(Heb.)~ stopping up; barring- barrier for rising against; for",
+      "mibMeta": "Defensive, protective thoughts (stopping up, barring, barrier, defense); also firmness of purpose (for firmness, for establishing). These become & fortification, a defense, a",
+      "candidates": []
+    },
+    {
+      "id": 2104,
+      "word": "lamb",
+      "etym": "",
+      "mibDef": "Represents innocent, guileless forms of life on the animal plane of consciousness.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3532",
+          "def": "a ram (just old enough to butt)"
+        },
+        {
+          "s": "G721",
+          "def": "a lambkin"
+        },
+        {
+          "s": "H7716",
+          "def": "a member of a flock, i.e., a sheep or goat"
+        },
+        {
+          "s": "G286",
+          "def": "a lamb"
+        },
+        {
+          "s": "H3535",
+          "def": "a ewe"
+        }
+      ]
+    },
+    {
+      "id": 2105,
+      "word": "lamb",
+      "etym": "",
+      "mibDef": "Represents the giving up of the animal life propensity in the",
+      "mibMeta": "The pure life and substance of Being. Jesus Christ, by His overcoming, restored to humanity the consciousness of this pure life and substance hence He is called the Lamb of God (John 1:29, 36; Rev. 7:9-17). In Scripture the divine life is termed the Lamb of God. This carries the symbology of its pur",
+      "candidates": [
+        {
+          "s": "H3532",
+          "def": "a ram (just old enough to butt)"
+        },
+        {
+          "s": "G721",
+          "def": "a lambkin"
+        },
+        {
+          "s": "H7716",
+          "def": "a member of a flock, i.e., a sheep or goat"
+        },
+        {
+          "s": "G286",
+          "def": "a lamb"
+        },
+        {
+          "s": "H3535",
+          "def": "a ewe"
+        }
+      ]
+    },
+    {
+      "id": 2106,
+      "word": "Lamech",
+      "etym": "Heb.",
+      "mibDef": "overthrown; leveler; arrester of dissolution; principle of law and",
+      "mibMeta": "The strength of youth; the vital something in us that overcomes thoughts and tendencies that lead to dissolution. The vital life principle constantly inspires us from within to keep on living. This thought of youth was in Lamech, the father of Noah, and it found expression in Noah. (See NOAH.) The t",
+      "candidates": [
+        {
+          "s": "H3929",
+          "def": "Lemek, the name of two antediluvian patriarchs"
+        }
+      ]
+    },
+    {
+      "id": 2107,
+      "word": "Laodicea",
+      "etym": "Gk",
+      "mibDef": "justice of the people; judgment of the people.",
+      "mibMeta": "A phase of the judgment faculty in the individual, expressing in the personal. It is that phase of judgment which bases its understanding, its decisions, on outer seemings and intellectual reasonings. Laodiceans, ICE-od-T- e'-ans (fr. Gk.) People who lived in Laodicea. It was to the church in Laodic",
+      "candidates": []
+    },
+    {
+      "id": 2108,
+      "word": "Lappidoth (A. V.",
+      "etym": "",
+      "mibDef": "light radiations; spreading abroad of lights;",
+      "mibMeta": "Wisdom expressing, radiating (light radiations, lamps, enlighteners ). (See DEBORAH.) \"Thy word is a lamp unto my feet. And light unto my path.\" \"The spirit of man is the lamp of Jehovah, Searching all his innermost parts.\"",
+      "candidates": []
+    },
+    {
+      "id": 2109,
+      "word": "Lasea",
+      "etym": "Gk.",
+      "mibDef": "thick; dense; hard; stony; wise.",
+      "mibMeta": "A group of thoughts signifying the wisdom (wise) of the material state of consciousness that Crete represents, or worldly wisdom. In the light of Spirit, worldly wisdom is very dense and is not at all clear in its attempted reasonings (thick). It is hard also (stony); it lacks the peaceable, gentle,",
+      "candidates": []
+    },
+    {
+      "id": 2110,
+      "word": "Lasha",
+      "etym": "E (Heb .",
+      "mibDef": "puncturing; bursting forth; cleaving; chasm; fountain; for looking upon;",
+      "mibMeta": "The cities that are mentioned in the text with Lasha, as being on the southern border of Canaan, are representative of the subconscious substance and life in man, ruled over and actuated by various phases of the subjective carnal, sensual mind. Lasha signifies the bursting forth of this inner substa",
+      "candidates": []
+    },
+    {
+      "id": 2111,
+      "word": "Lassharon (A. V.",
+      "etym": "Heb.",
+      "mibDef": "unto Sharon; according to Sharon; relating",
+      "mibMeta": "A state of consciousness that is honest (according to Sharon, like the plain), frank, and open, and stands for just what it is. Here its king, or ruling thought, is one of the enemies in the land",
+      "candidates": []
+    },
+    {
+      "id": 2112,
+      "word": "Latin",
+      "etym": "fr. Lat .",
+      "mibDef": "broad place; language of the Latini, inhabitants of ancient Rome.",
+      "mibMeta": "The fact that the title, \"JESUS OF NAZARETH, THE KING OF THE JEWS,",
+      "candidates": []
+    },
+    {
+      "id": 2113,
+      "word": "law",
+      "etym": "",
+      "mibDef": "The faculty of the mind that holds every thought and act strictly to the Truth of Being,",
+      "mibMeta": "The law of God is the orderly working out of the principle of Being, or the divine ideals, into expression and manifestation throughout creation. Only spiritual things are eternal and real. All inharmonies and seeming limitations in the world are the result of man's error beliefs and thoughts, and m",
+      "candidates": [
+        {
+          "s": "H8451",
+          "def": "a precept or statute, especially the Decalogue or Pentateuch"
+        },
+        {
+          "s": "G3551",
+          "def": "law (through the idea of prescriptive usage), genitive case (regulation), specially, (of Moses (including the volume); also of the Gospel), or figuratively (a principle)"
+        },
+        {
+          "s": "H2859",
+          "def": "to give (a daughter) away in marriage; hence (generally) to contract affinity by marriage"
+        },
+        {
+          "s": "H1882",
+          "def": "a royal edict or statute"
+        },
+        {
+          "s": "H2545",
+          "def": "a mother-in-law"
+        }
+      ]
+    },
+    {
+      "id": 2114,
+      "word": "law",
+      "etym": "",
+      "mibDef": "God is the all-providing law. He is the spiritual substance out of which is",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8451",
+          "def": "a precept or statute, especially the Decalogue or Pentateuch"
+        },
+        {
+          "s": "G3551",
+          "def": "law (through the idea of prescriptive usage), genitive case (regulation), specially, (of Moses (including the volume); also of the Gospel), or figuratively (a principle)"
+        },
+        {
+          "s": "H2859",
+          "def": "to give (a daughter) away in marriage; hence (generally) to contract affinity by marriage"
+        },
+        {
+          "s": "H1882",
+          "def": "a royal edict or statute"
+        },
+        {
+          "s": "H2545",
+          "def": "a mother-in-law"
+        }
+      ]
+    },
+    {
+      "id": 2115,
+      "word": "law",
+      "etym": "",
+      "mibDef": "Divine law is the orderly working out of the principles of Being, or the divine",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8451",
+          "def": "a precept or statute, especially the Decalogue or Pentateuch"
+        },
+        {
+          "s": "G3551",
+          "def": "law (through the idea of prescriptive usage), genitive case (regulation), specially, (of Moses (including the volume); also of the Gospel), or figuratively (a principle)"
+        },
+        {
+          "s": "H2859",
+          "def": "to give (a daughter) away in marriage; hence (generally) to contract affinity by marriage"
+        },
+        {
+          "s": "H1882",
+          "def": "a royal edict or statute"
+        },
+        {
+          "s": "H2545",
+          "def": "a mother-in-law"
+        }
+      ]
+    },
+    {
+      "id": 2116,
+      "word": "law",
+      "etym": "",
+      "mibDef": "Upward trend of all things; in the individual the rising of man from sense",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8451",
+          "def": "a precept or statute, especially the Decalogue or Pentateuch"
+        },
+        {
+          "s": "G3551",
+          "def": "law (through the idea of prescriptive usage), genitive case (regulation), specially, (of Moses (including the volume); also of the Gospel), or figuratively (a principle)"
+        },
+        {
+          "s": "H2859",
+          "def": "to give (a daughter) away in marriage; hence (generally) to contract affinity by marriage"
+        },
+        {
+          "s": "H1882",
+          "def": "a royal edict or statute"
+        },
+        {
+          "s": "H2545",
+          "def": "a mother-in-law"
+        }
+      ]
+    },
+    {
+      "id": 2117,
+      "word": "law",
+      "etym": "",
+      "mibDef": "The law that operates in each group; that from which anything springs; the germ",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8451",
+          "def": "a precept or statute, especially the Decalogue or Pentateuch"
+        },
+        {
+          "s": "G3551",
+          "def": "law (through the idea of prescriptive usage), genitive case (regulation), specially, (of Moses (including the volume); also of the Gospel), or figuratively (a principle)"
+        },
+        {
+          "s": "H2859",
+          "def": "to give (a daughter) away in marriage; hence (generally) to contract affinity by marriage"
+        },
+        {
+          "s": "H1882",
+          "def": "a royal edict or statute"
+        },
+        {
+          "s": "H2545",
+          "def": "a mother-in-law"
+        }
+      ]
+    },
+    {
+      "id": 2118,
+      "word": "law",
+      "etym": "",
+      "mibDef": "The law of limitation that man has made for himself.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8451",
+          "def": "a precept or statute, especially the Decalogue or Pentateuch"
+        },
+        {
+          "s": "G3551",
+          "def": "law (through the idea of prescriptive usage), genitive case (regulation), specially, (of Moses (including the volume); also of the Gospel), or figuratively (a principle)"
+        },
+        {
+          "s": "H2859",
+          "def": "to give (a daughter) away in marriage; hence (generally) to contract affinity by marriage"
+        },
+        {
+          "s": "H1882",
+          "def": "a royal edict or statute"
+        },
+        {
+          "s": "H2545",
+          "def": "a mother-in-law"
+        }
+      ]
+    },
+    {
+      "id": 2119,
+      "word": "law",
+      "etym": "",
+      "mibDef": "The law of seed, cultivation, and harvest that natural man is subject to for the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8451",
+          "def": "a precept or statute, especially the Decalogue or Pentateuch"
+        },
+        {
+          "s": "G3551",
+          "def": "law (through the idea of prescriptive usage), genitive case (regulation), specially, (of Moses (including the volume); also of the Gospel), or figuratively (a principle)"
+        },
+        {
+          "s": "H2859",
+          "def": "to give (a daughter) away in marriage; hence (generally) to contract affinity by marriage"
+        },
+        {
+          "s": "H1882",
+          "def": "a royal edict or statute"
+        },
+        {
+          "s": "H2545",
+          "def": "a mother-in-law"
+        }
+      ]
+    },
+    {
+      "id": 2120,
+      "word": "law",
+      "etym": "",
+      "mibDef": "Thinking thoughts that violate the principle of harmony inherent in Being.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8451",
+          "def": "a precept or statute, especially the Decalogue or Pentateuch"
+        },
+        {
+          "s": "G3551",
+          "def": "law (through the idea of prescriptive usage), genitive case (regulation), specially, (of Moses (including the volume); also of the Gospel), or figuratively (a principle)"
+        },
+        {
+          "s": "H2859",
+          "def": "to give (a daughter) away in marriage; hence (generally) to contract affinity by marriage"
+        },
+        {
+          "s": "H1882",
+          "def": "a royal edict or statute"
+        },
+        {
+          "s": "H2545",
+          "def": "a mother-in-law"
+        }
+      ]
+    },
+    {
+      "id": 2121,
+      "word": "law of conservation",
+      "etym": "",
+      "mibDef": "Building up a large reserve consciousness of substance, life, strength, and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8451",
+          "def": "a precept or statute, especially the Decalogue or Pentateuch"
+        },
+        {
+          "s": "G3551",
+          "def": "law (through the idea of prescriptive usage), genitive case (regulation), specially, (of Moses (including the volume); also of the Gospel), or figuratively (a principle)"
+        },
+        {
+          "s": "H2859",
+          "def": "to give (a daughter) away in marriage; hence (generally) to contract affinity by marriage"
+        },
+        {
+          "s": "H1882",
+          "def": "a royal edict or statute"
+        },
+        {
+          "s": "H2545",
+          "def": "a mother-in-law"
+        }
+      ]
+    },
+    {
+      "id": 2122,
+      "word": "law of thought purification",
+      "etym": "",
+      "mibDef": "A rule of mind action whereby man overcomes \"the world, the flesh,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8451",
+          "def": "a precept or statute, especially the Decalogue or Pentateuch"
+        },
+        {
+          "s": "G3551",
+          "def": "law (through the idea of prescriptive usage), genitive case (regulation), specially, (of Moses (including the volume); also of the Gospel), or figuratively (a principle)"
+        },
+        {
+          "s": "H2859",
+          "def": "to give (a daughter) away in marriage; hence (generally) to contract affinity by marriage"
+        },
+        {
+          "s": "H1882",
+          "def": "a royal edict or statute"
+        },
+        {
+          "s": "H2545",
+          "def": "a mother-in-law"
+        }
+      ]
+    },
+    {
+      "id": 2123,
+      "word": "law written in our \"inward parts\"",
+      "etym": "",
+      "mibDef": "A law either in or around the cells, that controls their",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8451",
+          "def": "a precept or statute, especially the Decalogue or Pentateuch"
+        },
+        {
+          "s": "G3551",
+          "def": "law (through the idea of prescriptive usage), genitive case (regulation), specially, (of Moses (including the volume); also of the Gospel), or figuratively (a principle)"
+        },
+        {
+          "s": "H2859",
+          "def": "to give (a daughter) away in marriage; hence (generally) to contract affinity by marriage"
+        },
+        {
+          "s": "H1882",
+          "def": "a royal edict or statute"
+        },
+        {
+          "s": "H2545",
+          "def": "a mother-in-law"
+        }
+      ]
+    },
+    {
+      "id": 2124,
+      "word": "Lazarus",
+      "etym": "Gk. fr. Heb ,",
+      "mibDef": "whom God helps; succor of God; assistance of God; grace of",
+      "mibMeta": "Lazarus ( whom God helps, without succor) refers to the part of the consciousness that is helped by the good, though apparently utterly neglected by the man himself. In the parable (Luke 16:19—1) Jesus describes the states of consciousness of one who passes through the change called death. The rich ",
+      "candidates": [
+        {
+          "s": "G2976",
+          "def": "Lazarus (i.e., Elazar), the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2125,
+      "word": "Leah",
+      "etym": "Heb.",
+      "mibDef": "weary; exhausted; faint; sluggish.",
+      "mibMeta": "The human soul. leaven. The \"leaven\" of the Pharisees and of Herod (Mark 8:15) represents limited thoughts. When we attempt to confine the divine law to the customary avenues of expression, and scoff at anything beyond, we are letting the leaven of the Pharisees work in us. When we allow the finer f",
+      "candidates": [
+        {
+          "s": "H3812",
+          "def": "Leah, a wife of Jacob"
+        }
+      ]
+    },
+    {
+      "id": 2126,
+      "word": "leaven",
+      "etym": "",
+      "mibDef": "The leaven is the Truth. \"The kingdom of heaven is like unto leaven, which a woman",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2219",
+          "def": "ferment (as if boiling up)"
+        },
+        {
+          "s": "H7603",
+          "def": "barm or yeast-cake (as swelling by fermentation)"
+        },
+        {
+          "s": "H4682",
+          "def": "properly, sweetness; concretely, sweet (i.e., not soured or bittered with yeast); specifically, an unfermented cake or loaf, or (elliptically) the festival of Passover (because no leaven was then used)"
+        }
+      ]
+    },
+    {
+      "id": 2127,
+      "word": "Lebana",
+      "etym": "Heb.",
+      "mibDef": "whiteness purity; brilliance; frankincense, i. e., from its whiteness;",
+      "mibMeta": "The purifying and altogether lovely, refining effect that true service and spiritual worship have on the character of the individual who renders them (whiteness, purity, brilliance, frankincense). Even if such service and worship are of the intellect, as is suggested by the moon, a definition of Leb",
+      "candidates": []
+    },
+    {
+      "id": 2128,
+      "word": "Lebanon",
+      "etym": "Heb.",
+      "mibDef": "white; clean; pure; brilliant; snowy.",
+      "mibMeta": "Pure thoughts.",
+      "candidates": [
+        {
+          "s": "H3844",
+          "def": "Lebanon, a mountain range in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2129,
+      "word": "Lebaoth",
+      "etym": "Heb.",
+      "mibDef": "roarings; lowings; lions; lionesses.",
+      "mibMeta": "An inner consciousness of conquering power (lions, roarings, lionesses). (See BETH-LEBAOTH.)",
+      "candidates": []
+    },
+    {
+      "id": 2130,
+      "word": "Lebonah",
+      "etym": "Heb.",
+      "mibDef": "whiteness; purity; brilliance; frankincense; the moon.",
+      "mibMeta": "Like Lebana, Lebonah signifies the refining, beautifying effect of pure thoughts, even though these thoughts may be of the intellect, or partly so (frankincense, whiteness, purity, moon).",
+      "candidates": []
+    },
+    {
+      "id": 2131,
+      "word": "Lecah",
+      "etym": "Heb.",
+      "mibDef": "walking; going; progressing; living; a way; a course; a journey; a",
+      "mibMeta": "The life and unfoldment of man is often likened to a journey. Lecah (walking, going, progressing) denotes the journey of life as it is taken by every individual. The course of each one is determined by his observing, attentive, vigilant thoughts, by that to which he gives his attention (Er, father o",
+      "candidates": []
+    },
+    {
+      "id": 2132,
+      "word": "Lehabim",
+      "etym": "Heb.",
+      "mibDef": "inflamed uprisings; blazing exhalations; fiery illusions; flaming;",
+      "mibMeta": "Ham, grandfather of Lehabim, is one of Noah's three sons; he represents the physical in man. Mizraim, Lehabim's father, meaning Egypt, tribulation, refers to the carnal or earthly consciousness in the individual. Lehabim (fiery illusions, inflamed uprisings, passionate, polished swords ) represents ",
+      "candidates": []
+    },
+    {
+      "id": 2133,
+      "word": "Lehi",
+      "etym": "Heb.",
+      "mibDef": "cheek; jaw; jawbone.",
+      "mibMeta": "Determination, endurance, strength (jawbone). If the same determination, strength of purpose, and enduringness that result in overcoming sense consciousness (the Philistines) are used to affirm new life and Truth through Jehovah, the Christ, they will quicken and restore the whole man.",
+      "candidates": [
+        {
+          "s": "H3896",
+          "def": "Lechi, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2134,
+      "word": "Lemuel",
+      "etym": "Heb.",
+      "mibDef": "/or God; belonging to God; dedicated to God; unto God; Godwarcl.",
+      "mibMeta": "The intelligent principle in man (for God, belonging to God) consecrated to the highest, or spiritual, service and use (unto God, Godwarcl, dedicated to God). It radiates or transmits light (understanding) to the whole consciousness. lepers. The \"ten men that were lepers\" (Luke 17:12-19) typify the ",
+      "candidates": []
+    },
+    {
+      "id": 2135,
+      "word": "Leshem",
+      "etym": "Heb.",
+      "mibDef": "firm; courageous; strong; fortress; precious gem, i. e., opal or amber.",
+      "mibMeta": "Like Laish, a group of steadfast, strong, fearless, and courageous thoughts in consciousness. Coming into the possession of Dan, or becoming allied to and guided by the judgment faculty in the individual, this group of thoughts becomes a veritable fortress, a stronghold for the promotion of that whi",
+      "candidates": []
+    },
+    {
+      "id": 2136,
+      "word": "Letushim",
+      "etym": "Heb .",
+      "mibDef": "hammered; forged; sharpened; sharp; stern; oppressing;",
+      "mibMeta": "Dedan, father of Letushim, means low, physical love, and refers to the lower, seemingly physical and carnal mind in unredeemed man, especially as it relates to selfish loves and desires. Letushim signifies the friction, the sense of being oppressed and hard driven ( hammered , forged, sharpened, ste",
+      "candidates": []
+    },
+    {
+      "id": 2137,
+      "word": "Libnah",
+      "etym": "Heb .",
+      "mibDef": "white; clean; pure; brilliant; clear; transparent.",
+      "mibMeta": "Purity and clearness of thought.",
+      "candidates": [
+        {
+          "s": "H3841",
+          "def": "Libnah, a place in the Desert and one in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2138,
+      "word": "Libni",
+      "etym": "Heb.",
+      "mibDef": "whiteness; purity; distinguished; unto the son mine; for building up.",
+      "mibMeta": "Constructive thoughts (for building up), in the love consciousness (descendants of Levi) of the awakening individual, that are distinguished by their purity, whiteness, by their being unadulterated by personal, limited, carnal, and material ideas.",
+      "candidates": [
+        {
+          "s": "H3845",
+          "def": "Libni, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2139,
+      "word": "Libnites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Libni.",
+      "mibMeta": "Thoughts that spring from that in consciousness which Libni signifies. (See LIBNI.) light.",
+      "candidates": []
+    },
+    {
+      "id": 2140,
+      "word": "Libyans",
+      "etym": "fr. Heb.",
+      "mibDef": "land of the Lubim; dried; parched; thirsty.",
+      "mibMeta": "See PUT and LUBIM.",
+      "candidates": [
+        {
+          "s": "H3864",
+          "def": "a Libyan or inhabitant of interior Africa (only in plural)"
+        }
+      ]
+    },
+    {
+      "id": 2141,
+      "word": "life",
+      "etym": "",
+      "mibDef": "That expression of Being which manifests as animation, activity, vigor. Life and substance",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2416",
+          "def": "alive; hence, raw (flesh); fresh (plant, water, year), strong; also (as noun, especially in the feminine singular and masculine plural) life (or living thing), whether literally or figuratively"
+        },
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G2222",
+          "def": "life (literally or figuratively)"
+        },
+        {
+          "s": "G5590",
+          "def": "breath, i.e., (by implication) spirit, abstractly or concretely (the animal sentient principle only; thus distinguished on the one hand from G4151, which is the rational and immortal soul; and on the other from G2222, which is mere vitality, even of plants: these terms thus exactly correspond respectively to the Hebrew H5315, H7307 and H2416)"
+        },
+        {
+          "s": "H2421",
+          "def": "to live, whether literally or figuratively; causatively, to revive"
+        }
+      ]
+    },
+    {
+      "id": 2142,
+      "word": "life",
+      "etym": "",
+      "mibDef": "Living eternally in the presence of God. Its attainment depends on the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2416",
+          "def": "alive; hence, raw (flesh); fresh (plant, water, year), strong; also (as noun, especially in the feminine singular and masculine plural) life (or living thing), whether literally or figuratively"
+        },
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G2222",
+          "def": "life (literally or figuratively)"
+        },
+        {
+          "s": "G5590",
+          "def": "breath, i.e., (by implication) spirit, abstractly or concretely (the animal sentient principle only; thus distinguished on the one hand from G4151, which is the rational and immortal soul; and on the other from G2222, which is mere vitality, even of plants: these terms thus exactly correspond respectively to the Hebrew H5315, H7307 and H2416)"
+        },
+        {
+          "s": "H2421",
+          "def": "to live, whether literally or figuratively; causatively, to revive"
+        }
+      ]
+    },
+    {
+      "id": 2143,
+      "word": "life",
+      "etym": "",
+      "mibDef": "The higher life is a higher state of mind. We know it when we realize I AM the Son",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2416",
+          "def": "alive; hence, raw (flesh); fresh (plant, water, year), strong; also (as noun, especially in the feminine singular and masculine plural) life (or living thing), whether literally or figuratively"
+        },
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G2222",
+          "def": "life (literally or figuratively)"
+        },
+        {
+          "s": "G5590",
+          "def": "breath, i.e., (by implication) spirit, abstractly or concretely (the animal sentient principle only; thus distinguished on the one hand from G4151, which is the rational and immortal soul; and on the other from G2222, which is mere vitality, even of plants: these terms thus exactly correspond respectively to the Hebrew H5315, H7307 and H2416)"
+        },
+        {
+          "s": "H2421",
+          "def": "to live, whether literally or figuratively; causatively, to revive"
+        }
+      ]
+    },
+    {
+      "id": 2144,
+      "word": "life",
+      "etym": "",
+      "mibDef": "and sometimes the Lord, or Jehovah, the universal law of equilibrium, hardens",
+      "mibMeta": "A ruling religious thought of the Egyptian phase of consciousness in man. (See EGYPT and PHARAOH.) Pharaoh-neco (A.V., Pharaoh-necho), pha'-raoh-ne'-co (Heb. fr. Egypt.) -Pharaoh the smitten; stricken with the sun; Pharaoh the lame. The same person as Neco, a king of Egypt when Josiah was king of Ju",
+      "candidates": [
+        {
+          "s": "H2416",
+          "def": "alive; hence, raw (flesh); fresh (plant, water, year), strong; also (as noun, especially in the feminine singular and masculine plural) life (or living thing), whether literally or figuratively"
+        },
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G2222",
+          "def": "life (literally or figuratively)"
+        },
+        {
+          "s": "G5590",
+          "def": "breath, i.e., (by implication) spirit, abstractly or concretely (the animal sentient principle only; thus distinguished on the one hand from G4151, which is the rational and immortal soul; and on the other from G2222, which is mere vitality, even of plants: these terms thus exactly correspond respectively to the Hebrew H5315, H7307 and H2416)"
+        },
+        {
+          "s": "H2421",
+          "def": "to live, whether literally or figuratively; causatively, to revive"
+        }
+      ]
+    },
+    {
+      "id": 2145,
+      "word": "life universal and true",
+      "etym": "",
+      "mibDef": "but as he was a heathen king, the influence of the carnal mind is brought into",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2416",
+          "def": "alive; hence, raw (flesh); fresh (plant, water, year), strong; also (as noun, especially in the feminine singular and masculine plural) life (or living thing), whether literally or figuratively"
+        },
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "G2222",
+          "def": "life (literally or figuratively)"
+        },
+        {
+          "s": "G5590",
+          "def": "breath, i.e., (by implication) spirit, abstractly or concretely (the animal sentient principle only; thus distinguished on the one hand from G4151, which is the rational and immortal soul; and on the other from G2222, which is mere vitality, even of plants: these terms thus exactly correspond respectively to the Hebrew H5315, H7307 and H2416)"
+        },
+        {
+          "s": "H2421",
+          "def": "to live, whether literally or figuratively; causatively, to revive"
+        }
+      ]
+    },
+    {
+      "id": 2146,
+      "word": "lifted up in consciousness",
+      "etym": "",
+      "mibDef": "Resurrected. One who has discovered the Truth of Being is raised,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5375",
+          "def": "to lift, in a great variety of applications, literal and figurative, absolute and relative"
+        },
+        {
+          "s": "H7311",
+          "def": "to be high actively, to rise or raise (in various applications, literally or figuratively)"
+        },
+        {
+          "s": "G1869",
+          "def": "to raise up (literally or figuratively)"
+        },
+        {
+          "s": "H1361",
+          "def": "to soar, i.e., be lofty; figuratively, to be haughty"
+        },
+        {
+          "s": "G5312",
+          "def": "to elevate (literally or figuratively)"
+        }
+      ]
+    },
+    {
+      "id": 2147,
+      "word": "light",
+      "etym": "",
+      "mibDef": "The illumination of Spirit resident in the center of every man's being.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H216",
+          "def": "illumination or (concrete) luminary (in every sense, including lightning, happiness, etc.)"
+        },
+        {
+          "s": "G5457",
+          "def": "luminousness (in the widest application, natural or artificial, abstract or concrete, literal or figurative)"
+        },
+        {
+          "s": "H215",
+          "def": "to be (causative, make) luminous (literally and metaphorically)"
+        },
+        {
+          "s": "H7043",
+          "def": "to be (causatively, make) light, literally (swift, small, sharp, etc.) or figuratively (easy, trifling, vile, etc.)"
+        },
+        {
+          "s": "H3974",
+          "def": "properly, a luminous body or luminary, i.e., (abstractly) light (as an element); figuratively, brightness, i.e.,cheerfulness; specifically, a chandelier"
+        }
+      ]
+    },
+    {
+      "id": 2148,
+      "word": "light in his consciousness",
+      "etym": "",
+      "mibDef": "Jehovah, Christ, I AM, the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H216",
+          "def": "illumination or (concrete) luminary (in every sense, including lightning, happiness, etc.)"
+        },
+        {
+          "s": "G5457",
+          "def": "luminousness (in the widest application, natural or artificial, abstract or concrete, literal or figurative)"
+        },
+        {
+          "s": "H215",
+          "def": "to be (causative, make) luminous (literally and metaphorically)"
+        },
+        {
+          "s": "H7043",
+          "def": "to be (causatively, make) light, literally (swift, small, sharp, etc.) or figuratively (easy, trifling, vile, etc.)"
+        },
+        {
+          "s": "H3974",
+          "def": "properly, a luminous body or luminary, i.e., (abstractly) light (as an element); figuratively, brightness, i.e.,cheerfulness; specifically, a chandelier"
+        }
+      ]
+    },
+    {
+      "id": 2149,
+      "word": "lightning",
+      "etym": "",
+      "mibDef": "Represents force, light, power. Jesus said, \"Think not that I came to destroy the law or",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2385",
+          "def": "a flash of lightning"
+        },
+        {
+          "s": "G796",
+          "def": "lightning; by analogy, glare"
+        },
+        {
+          "s": "H216",
+          "def": "illumination or (concrete) luminary (in every sense, including lightning, happiness, etc.)"
+        }
+      ]
+    },
+    {
+      "id": 2150,
+      "word": "lights of Egypt; Yeor",
+      "etym": "",
+      "mibDef": "canal, channel, river; Shihor or Sihor— turbid, dark, black. In A.V., Isaiah 19:7,",
+      "mibMeta": "The Nile, which is one of the longest and greatest rivers in the world, signifies the great subconscious flow of life and substance in the organism of man. Until recent years little has been known of the source or sources of the Nile. Even so, man has known but little of the real source of the subst",
+      "candidates": [
+        {
+          "s": "H3974",
+          "def": "properly, a luminous body or luminary, i.e., (abstractly) light (as an element); figuratively, brightness, i.e.,cheerfulness; specifically, a chandelier"
+        },
+        {
+          "s": "H216",
+          "def": "illumination or (concrete) luminary (in every sense, including lightning, happiness, etc.)"
+        },
+        {
+          "s": "G3088",
+          "def": "a portable lamp or other illuminator (literally or figuratively)"
+        },
+        {
+          "s": "G2985",
+          "def": "a \"lamp\" or flambeau"
+        },
+        {
+          "s": "G5458",
+          "def": "an illuminator, i.e., (concretely) a luminary, or (abstractly) brilliancy"
+        }
+      ]
+    },
+    {
+      "id": 2151,
+      "word": "like an eddy in the ocean",
+      "etym": "",
+      "mibDef": "all the elements that are found in the ocean are also found in the eddy, and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3644",
+          "def": "as, thus, so"
+        },
+        {
+          "s": "G3664",
+          "def": "similar (in appearance or character)"
+        },
+        {
+          "s": "H834",
+          "def": "who, which, what, that; also (as an adverb and a conjunction) when, where, how, because, in order that, etc"
+        },
+        {
+          "s": "H1819",
+          "def": "to compare; by implication, to resemble, liken, consider"
+        },
+        {
+          "s": "G5613",
+          "def": "which how, i.e., in that manner (very variously used, as follows)"
+        }
+      ]
+    },
+    {
+      "id": 2152,
+      "word": "likeness",
+      "etym": "",
+      "mibDef": "the spiritual or ideal man. We can work the works of God, Jesus tells us in John 6:29, by",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1823",
+          "def": "resemblance; concretely, model, shape; adverbially, like"
+        },
+        {
+          "s": "H8403",
+          "def": "structure; by implication, a model, resemblance"
+        },
+        {
+          "s": "H8544",
+          "def": "something portioned (i.e., fashioned) out, as a shape, i.e., (indefinitely) phantom, or (specifically) embodiment, or (figuratively) manifestation (of favor)"
+        },
+        {
+          "s": "G3667",
+          "def": "a form; abstractly, resemblance"
+        },
+        {
+          "s": "G3666",
+          "def": "to assimilate, i.e., compare; passively, to become similar"
+        }
+      ]
+    },
+    {
+      "id": 2153,
+      "word": "Likhi",
+      "etym": "Heb .",
+      "mibDef": "taken; laid hold of; passed on; learned; known; a portion- doctrine ofJah.",
+      "mibMeta": "A grasping by the conscious thought, a laying hold, and a taking to oneself for use",
+      "candidates": []
+    },
+    {
+      "id": 2154,
+      "word": "Linus",
+      "etym": "Gk .",
+      "mibDef": "flaxen; linen; clothing; wick of a lamp; net; lionlike.",
+      "mibMeta": "Net suggests a fisherman, and a fisherman suggests a person who seeks to win others to the Christ Truth, or, that in each awakened individual which works with diligence to bring all his thoughts and the whole of his organism into subjection to and harmony with the Christ mind. Jesus,",
+      "candidates": []
+    },
+    {
+      "id": 2155,
+      "word": "lion",
+      "etym": "",
+      "mibDef": "\"And one of the elders saith unto me, Weep not; behold, the Lion that is of the tribe of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H738",
+          "def": "a lion"
+        },
+        {
+          "s": "H3715",
+          "def": "a village (as covered in by walls); also a young lion (perhaps as covered with a mane)"
+        },
+        {
+          "s": "H7826",
+          "def": "a lion (from his characteristic roar)"
+        },
+        {
+          "s": "H3918",
+          "def": "a lion (from his destructive blows)"
+        },
+        {
+          "s": "G3023",
+          "def": "a \"lion\""
+        }
+      ]
+    },
+    {
+      "id": 2156,
+      "word": "lips",
+      "etym": "",
+      "mibDef": "Lips that utter faultfinding words, condemnatory words. The law is, \"The lips of the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8193",
+          "def": "the lip (as a natural boundary); by implication, language; by analogy, a margin (of a vessel, water, cloth, etc.)"
+        },
+        {
+          "s": "G5491",
+          "def": "a lip (as a pouring place); figuratively, a margin (of water)"
+        }
+      ]
+    },
+    {
+      "id": 2157,
+      "word": "Lo-ammi",
+      "etym": "Heb .",
+      "mibDef": "not my people.",
+      "mibMeta": "The belief in and the sense of separation from God that come to every individual who allows his true, highest thoughts (Israelites) to become adulterated with the material, limited beliefs of the outer, personal, intellectual, sense man. loaves and fishes (Matt. 15:32-38). We get the practical lesso",
+      "candidates": []
+    },
+    {
+      "id": 2158,
+      "word": "Lo-debar",
+      "etym": "Heb.",
+      "mibDef": "without order; disorderly; no leader; not governed; rebellious; no",
+      "mibMeta": "The disorderly, undisciplined, barren, substanceless (without pasture), and unillumined (not the word or oracle ) state into which the consciousness of man comes when the personal will (Saul) has been exercised without restraint. (See MEPHIBOSHETH and MACHIR.)",
+      "candidates": []
+    },
+    {
+      "id": 2159,
+      "word": "Lo-ruhamah",
+      "etym": "Heb.",
+      "mibDef": "not soft; hardened; unsoothing; irritating; unloving; not",
+      "mibMeta": "The seemingly forsaken-by-God state of man's outer religious thoughts and activities (the house, or kingdom, of Israel here refers to the outer or conscious mind, while Judah refers to the inner or subjective consciousness) when man has, because of repeatedly breaking the law of God through willful ",
+      "candidates": []
+    },
+    {
+      "id": 2160,
+      "word": "Lod",
+      "etym": "Heb.",
+      "mibDef": "division; conception; emanation; pregnancy; travail; nativity; birth; contest;",
+      "mibMeta": "The breaking up of an old group of thoughts, or thought habit in consciousness, that a renewal of the mind may be accomplished. In other words, the effort that the seemingly human mind expends in bringing forth new and higher ideas, or the strife and contention that attend the breaking up of error t",
+      "candidates": []
+    },
+    {
+      "id": 2161,
+      "word": "logic",
+      "etym": "",
+      "mibDef": "(derived from the word Logos, which see). A rational relation or connection between idea",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2162,
+      "word": "Logos",
+      "etym": "",
+      "mibDef": "The Word of God; the divine archetype idea that contains all ideas: the Christ, the Son of",
+      "mibMeta": "\"As used in John 1:1 it means the Word, symbolically referring to the creative law-giving, revealing activity of God,\" says Fallows. In the Emphatic Diaglott, Logos is left unchanged in the first chapter of John where in other translations of the New Testament the term \"Word\" appears. The texts thus",
+      "candidates": []
+    },
+    {
+      "id": 2163,
+      "word": "Logos",
+      "etym": "",
+      "mibDef": "The law of divine creation produces the order and harmony of perfect",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2164,
+      "word": "Lois",
+      "etym": "Gk .",
+      "mibDef": "loosened; freed; agreeable; pleasing; better.",
+      "mibMeta": "The very free, unbound, pleasing state, and high, superior quality (better), of the soul that is established in faith and Truth. (The \"unfeigned faith\" that Paul recognized in Timothy dwelt first in his grandmother Lois, and in his mother Eunice.) Lord— The activity of the spiritual I AM as the ruli",
+      "candidates": []
+    },
+    {
+      "id": 2165,
+      "word": "look up the significance of BETH",
+      "etym": "",
+      "mibDef": "SHITTAH, ABEL-MEHOLAH, and TABBATH, places that are",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7200",
+          "def": "to see, literally or figuratively (in numerous applications, direct and implied, transitive, intransitive and causative)"
+        },
+        {
+          "s": "H5027",
+          "def": "to scan, i.e., look intently at; by implication, to regard with pleasure, favor or care"
+        },
+        {
+          "s": "H6437",
+          "def": "to turn; by implication, to face, i.e., appear, look, etc"
+        },
+        {
+          "s": "H4758",
+          "def": "a view (the act of seeing); also an appearance (the thing seen), whether (real) a shape (especially if handsome, comeliness; often plural the looks), or (mental) a vision"
+        },
+        {
+          "s": "G4328",
+          "def": "to anticipate (in thought, hope or fear); by implication, to await"
+        }
+      ]
+    },
+    {
+      "id": 2166,
+      "word": "Lord",
+      "etym": "",
+      "mibDef": "A state in which both mind and body are functioning in carnality.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "G2962",
+          "def": "supreme in authority, i.e., (as noun) controller; by implication, Master (as a respectful title)"
+        },
+        {
+          "s": "H136",
+          "def": "the Lord (used as a proper name of God only)"
+        },
+        {
+          "s": "H113",
+          "def": "sovereign, i.e., controller (human or divine)"
+        },
+        {
+          "s": "H3050",
+          "def": "Jah, the sacred name"
+        }
+      ]
+    },
+    {
+      "id": 2167,
+      "word": "Lord",
+      "etym": "",
+      "mibDef": "(see wrath of God)",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "G2962",
+          "def": "supreme in authority, i.e., (as noun) controller; by implication, Master (as a respectful title)"
+        },
+        {
+          "s": "H136",
+          "def": "the Lord (used as a proper name of God only)"
+        },
+        {
+          "s": "H113",
+          "def": "sovereign, i.e., controller (human or divine)"
+        },
+        {
+          "s": "H3050",
+          "def": "Jah, the sacred name"
+        }
+      ]
+    },
+    {
+      "id": 2168,
+      "word": "Lord is One",
+      "etym": "",
+      "mibDef": "Oneness of thought and purpose in the individual, as well as the one Presence",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "G2962",
+          "def": "supreme in authority, i.e., (as noun) controller; by implication, Master (as a respectful title)"
+        },
+        {
+          "s": "H136",
+          "def": "the Lord (used as a proper name of God only)"
+        },
+        {
+          "s": "H113",
+          "def": "sovereign, i.e., controller (human or divine)"
+        },
+        {
+          "s": "H3050",
+          "def": "Jah, the sacred name"
+        }
+      ]
+    },
+    {
+      "id": 2169,
+      "word": "Lord's Supper",
+      "etym": "",
+      "mibDef": "(Matt. 26:26-30). ly, God's covenant with mankind, through His perfect idea,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5633",
+          "def": "an axle; figuratively, a peer"
+        },
+        {
+          "s": "H1167",
+          "def": "a master; hence, a husband, or (figuratively) owner (often used with another noun in modifications of this latter sense)"
+        },
+        {
+          "s": "H7261",
+          "def": "a magnate"
+        },
+        {
+          "s": "H113",
+          "def": "sovereign, i.e., controller (human or divine)"
+        },
+        {
+          "s": "H7991",
+          "def": "a triple, i.e., (as an indefinite, great quantity) a three-fold measure (perhaps a treble ephah)"
+        }
+      ]
+    },
+    {
+      "id": 2170,
+      "word": "Lot",
+      "etym": "Heb.",
+      "mibDef": "covering; veiling; muffling; hidden; concealed; covert; secret; clandestine;",
+      "mibMeta": "The subjective or negative side of faith. Abram represents the expanding of faith in man's consciousness. When Abram went out to seek a new country in response to the call of Spirit, Lot went with him. ly interpreted this means that when faith expands in consciousness, begins to go out into a new co",
+      "candidates": [
+        {
+          "s": "H1486",
+          "def": "properly, a pebble, i.e., a lot (small stones being used for that purpose); figuratively, a portion or destiny (as if determined by lot)"
+        },
+        {
+          "s": "H3876",
+          "def": "Lot, Abraham's nephew"
+        },
+        {
+          "s": "H2256",
+          "def": "a rope (as twisted), especially a measuring line; by implication, a district or inheritance (as measured); or a noose (as of cords); figuratively, a company (as if tied together)"
+        },
+        {
+          "s": "H853",
+          "def": "properly, self (but generally used to point out more definitely the object of a verb or preposition, even or namely)"
+        },
+        {
+          "s": "G2819",
+          "def": "a die (for drawing chances); by implication, a portion (as if so secured); by extension, an acquisition (especially a patrimony, figuratively)"
+        }
+      ]
+    },
+    {
+      "id": 2171,
+      "word": "Lotan",
+      "etym": "Heb.",
+      "mibDef": "covered; wrapped up; hidden; secret; dark.",
+      "mibMeta": "A secret, hidden, ignorant ruling thought activity in the realm in man that the Horites symbolize. (See HORITES.) love— The pure essence of Being that binds together the whole human family. Of all the attributes of God, love is undoubtedly the most beautiful. In Divine Mind, love is the power that j",
+      "candidates": [
+        {
+          "s": "H3877",
+          "def": "Lotan, an Idumaean"
+        }
+      ]
+    },
+    {
+      "id": 2172,
+      "word": "Love",
+      "etym": "",
+      "mibDef": "John— back of heart, cardiac center.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G25",
+          "def": "to love (in a social or moral sense)"
+        },
+        {
+          "s": "H157",
+          "def": "to have affection for (sexually or otherwise)"
+        },
+        {
+          "s": "G26",
+          "def": "love, i.e., affection or benevolence; specially (plural) a love-feast"
+        },
+        {
+          "s": "H160",
+          "def": "love"
+        },
+        {
+          "s": "G5368",
+          "def": "to be a friend to (fond of (an individual or an object)), i.e., have affection for (denoting personal attachment, as a matter of sentiment or feeling; while G0025 is wider, embracing especially the judgment and the deliberate assent of the will as a matter of principle, duty and propriety: the two thus stand related very much as G2309 and G1014, or as G2372 and G3563 respectively; the former being chiefly of the heart and the latter of the head); specially, to kiss (as a mark of tenderness)"
+        }
+      ]
+    },
+    {
+      "id": 2173,
+      "word": "Lubim",
+      "etym": "Heb.",
+      "mibDef": "thirsty; dry; parched.",
+      "mibMeta": "The dry, thirsty, parched, impoverished, feverish state of consciousness, body, and affairs that results from that which Lehabim signifies. (See LEHABIM.) A person must be very watchful that he does not give the substance of his higher, or spiritual, aspirations, thoughts, and desires (Israelites), ",
+      "candidates": [
+        {
+          "s": "H3864",
+          "def": "a Libyan or inhabitant of interior Africa (only in plural)"
+        }
+      ]
+    },
+    {
+      "id": 2174,
+      "word": "Lucius",
+      "etym": "Lat .",
+      "mibDef": "light; light bearer, illuminative; born of light.",
+      "mibMeta": "Lucius (light, illuminative ) pertains to spiritual understanding and its expression in the awakening consciousness of man. The five prophets and teachers at Antioch, one of whom was Lucius of Cyrene, are the interpreters of Spirit to the outer or sense consciousness. (See LUKE.) luck— All things co",
+      "candidates": [
+        {
+          "s": "G3066",
+          "def": "illuminative; Lucius, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 2175,
+      "word": "Lud",
+      "etym": "Heb .",
+      "mibDef": "desire to bring forth- generative power; conception; pregnancy; travail;",
+      "mibMeta": "Shem is the son of Noah, who typifies the spiritual in man. Lud, son of Shem, is the beginning of man's concept of the truth that he is the offspring of God; that he came from Spirit instead of flesh (nativity). Thus a desire to bring forth on a higher plane is aroused within him. Because of his see",
+      "candidates": [
+        {
+          "s": "H3865",
+          "def": "Lud, the name of two nations"
+        }
+      ]
+    },
+    {
+      "id": 2176,
+      "word": "Ludim",
+      "etym": "Heb.",
+      "mibDef": "travails; strivings; physical generation;",
+      "mibMeta": "Man's material beliefs regarding his origination and the continuation of the race; also the expression of these beliefs. Such thoughts belong to the outer, mortal consciousness. (Ludim was a grandson of Ham, and Ham, one of Noah's three sons, signifies the physical in man.) Luhith, lu'-hith (Heb.)- ",
+      "candidates": []
+    },
+    {
+      "id": 2177,
+      "word": "Luke",
+      "etym": "fr. Gk .",
+      "mibDef": "luminous; light-giving; enlightening;",
+      "mibMeta": "Luke means luminous, light-giving. When one ceases to cling to material things, the luminous state of mind becomes abiding. After the worldly ideals (represented by Demas, Titus, Dalmatia, Crescens, in II Timothy 4:10-12) have disappeared, the overcomer finds the one luminous Presence left with him.",
+      "candidates": [
+        {
+          "s": "G3065",
+          "def": "Lucas, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 2178,
+      "word": "lust of the flesh",
+      "etym": "",
+      "mibDef": "Sense consciousness, which causes man to be tempted. So long as he is ruled by",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1939",
+          "def": "a longing (especially for what is forbidden)"
+        },
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "H2530",
+          "def": "to delight in"
+        },
+        {
+          "s": "G1937",
+          "def": "to set the heart upon, i.e., long for (rightfully or otherwise)"
+        },
+        {
+          "s": "G3715",
+          "def": "excitement of the mind, i.e., longing after"
+        }
+      ]
+    },
+    {
+      "id": 2179,
+      "word": "Luz",
+      "etym": "Heb.",
+      "mibDef": "bending; inclining; turning away; departing; perversion; wickedness; a shrub",
+      "mibMeta": "Beth-el means house of God. Luz means separation. In Luz we also find an idea of substance and strength (almond tree, a shrub bearing nuts, bone), but of a more or less material character because of the belief that man and his qualities are something separate from Spirit (bending, turning away, depa",
+      "candidates": [
+        {
+          "s": "H3870",
+          "def": "Luz, the name of two places in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2180,
+      "word": "Lycaonia",
+      "etym": "Gk .",
+      "mibDef": "place of wolves; wolf and; a wolf; she -wolf; greedy; rapacious;",
+      "mibMeta": "We sometimes find within ourselves states of consciousness that have been inherited from the human side of parentage; for example, the belief in inefficiency. This belief symbolizes the man who is \"impotent in his feet, a cripple from his mother's womb, who never had walked.\" The inefficiency is des",
+      "candidates": []
+    },
+    {
+      "id": 2181,
+      "word": "Lydda",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "travail; contention; strife; pregnancy; child birth.",
+      "mibMeta": "Lydda, like Lod, means travail, strife, contention, child birth, and signifies the great effort of the seemingly mortal in man that attends the breaking up of error and bringing to birth of Truth ideals in consciousness. Lydda refers to the center of bodily action of which the liver is the focal poi",
+      "candidates": [
+        {
+          "s": "G3069",
+          "def": "Lydda (i.e., Lod), a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2182,
+      "word": "Lydia",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "travail- contention; strife; conception; pregnancy; childbirth;",
+      "mibMeta": "The travail that the soul undergoes in conceiving and giving birth to spiritual ideals. Spiritual understanding is developed in the feminine realm of the soul. This is pictured in the words, \"And a certain woman named Lydia, a seller of purple, of the city of Thyatira, one that worshipped God, heard",
+      "candidates": []
+    },
+    {
+      "id": 2183,
+      "word": "Lysanias",
+      "etym": "Gk .",
+      "mibDef": "loosening of bonds; ending of sadness; driving away sorrow.",
+      "mibMeta": "The ruling thought in that which Abilene signifies (see ABILENE), at the time of one's first, or intellectual (John the Baptist), understanding of the Christ Truth, when one seeks to cleanse one's thoughts and habits and to make oneself a fit conscious dwelling place for the Christ. Thus Lysanias be",
+      "candidates": [
+        {
+          "s": "G3078",
+          "def": "grief-dispelling; Lysanias, a governor of Abilene"
+        }
+      ]
+    },
+    {
+      "id": 2184,
+      "word": "Lysias",
+      "etym": "Gk .",
+      "mibDef": "loosening; dissolving; relaxing; breaking bonds; freeing; liberating.",
+      "mibMeta": "A phase of the outer, intellectual, sense will (chief captain of the Roman guard in Jerusalem) in a relaxing, letting-go ( liberating , dissolving) attitude. This comes about by the will's contact with the spiritual peace center in consciousness (Jerusalem). The result of this attitude of the outer ",
+      "candidates": [
+        {
+          "s": "G3079",
+          "def": "Lysias, a Roman"
+        }
+      ]
+    },
+    {
+      "id": 2185,
+      "word": "Lystra",
+      "etym": "Gk.",
+      "mibDef": "that liberates that dissolves; that frees.",
+      "mibMeta": "When one has received the spirit of peace and praise, and starts out in spiritual ministry with one's vision fixed on the idea of one Presence and one Power, adverse thoughts and conditions begin to disappear. In Acts 14:8-20 this dissolving influence is mentioned symbolically as Lystra. However, of",
+      "candidates": [
+        {
+          "s": "G3082",
+          "def": "Lystra, a place in Asia Minor"
+        }
+      ]
+    },
+    {
+      "id": 2186,
+      "word": "Maacah (A. V.",
+      "etym": "Heb.",
+      "mibDef": "squeezed; compressed;",
+      "mibMeta": "The women named Maacah symbolize very negative, depressed thoughts that belong to the sense consciousness in man. The men by this name take on more of an aggressively oppressive character. Maacah the father of Achish, king of Gath, a Philistine ruler, is of the outer-sense man. Maacah the father of ",
+      "candidates": [
+        {
+          "s": "H4601",
+          "def": "Maakah (or Maakath), the name of a place in Syria, also of a Mesopotamian, of three Israelites, and of four Israelitesses and one Syrian woman"
+        }
+      ]
+    },
+    {
+      "id": 2187,
+      "word": "Maacathites",
+      "etym": "Heb.",
+      "mibDef": "of or belonging",
+      "mibMeta": "Thoughts (people) of oppression and depression, belonging to the states of consciousness in us represented by the city of Maacah in Naphtali, and the kingdom of Maacah in Syria.",
+      "candidates": []
+    },
+    {
+      "id": 2188,
+      "word": "Maadai",
+      "etym": "Heb.",
+      "mibDef": "/ram adornment of Jehovah; Jah is ornament; ornament of Jehovah;",
+      "mibMeta": "The ornament of Jehovah is man established in and manifesting the Christ righteousness, grace, mercy, Truth. Maadai signifies the Christ righteousness and Truth as coming forth into expression in the individual consciousness from within. As we come into spiritual understanding and express the Christ",
+      "candidates": []
+    },
+    {
+      "id": 2189,
+      "word": "Maarath",
+      "etym": "Heb.",
+      "mibDef": "blind; cavernous; darkness; denuded; naked; bared; opened;",
+      "mibMeta": "A sense of a lack of light, understanding, substance; a sense of emptiness, negativeness, and possibly of sadness or gloom (blind, naked, bared, empty, barren, waste), that one may sometimes feel if one is slow about affirming that which is good and true in order to fill the vacuum that has been mad",
+      "candidates": []
+    },
+    {
+      "id": 2190,
+      "word": "Maasai (A. V.",
+      "etym": "Heb.",
+      "mibDef": "work of Jehovah; Jehovah's creation; fruits of Jah' s",
+      "mibMeta": "Maasai means work of Jehovah. The man was an Israelitish priest. The mission of the true, priestly thoughts in us is to carry out Jehovah's work. This work is to bring the God man in us into perfect expression; it is to finish, to perfect in manifestation, the man whom God made in His",
+      "candidates": []
+    },
+    {
+      "id": 2191,
+      "word": "Maaseiah",
+      "etym": "Heb.",
+      "mibDef": "work of Jehovah; Jehovah's creation; fruits of J ah's labor.",
+      "mibMeta": "See MAASAI.",
+      "candidates": [
+        {
+          "s": "H4641",
+          "def": "Maasejah, the name of sixteen Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2192,
+      "word": "Maath",
+      "etym": "Gk. fr. Heb .",
+      "mibDef": "smooth; naked; polished; sharpened; removed; scraped off;",
+      "mibMeta": "A refining process (smooth, polished, sharpened) in consciousness, by which seeming error, the personal and carnal in the individual, is removed, ( scraped off) and becomes very small, very insignificant.",
+      "candidates": []
+    },
+    {
+      "id": 2193,
+      "word": "Maaz",
+      "etym": "Heb.",
+      "mibDef": "anger; wrath; counselor.",
+      "mibMeta": "The name of Ram, father of Maaz, means made high, elevated; some identify the name with Aram. Aram (high, exalted) is the same as Syria, and refers to the intellect in man. While Ram and Aram are not the same name in the Hebrew, yet the high, elevated character of thought that Ram signifies must hav",
+      "candidates": []
+    },
+    {
+      "id": 2194,
+      "word": "Maaziah",
+      "etym": "Heb.",
+      "mibDef": "strength of Jehovah; fortitude of J ah; Jah is the bulwark;",
+      "mibMeta": "Inherent religious tendencies of ours (priests; see LEVITES) that lay hold of, become unified with, our inner, spiritual strength, stability, endurance, and comforting power (strength of Jehovah, fortitude of J ah, Jah is the bulwark, JehovahOs consolation ), and impart them to our consciousness.",
+      "candidates": []
+    },
+    {
+      "id": 2195,
+      "word": "Macedonia",
+      "etym": "Gk.",
+      "mibDef": "extended; elevation; adoration; burning.",
+      "mibMeta": "When the thoughts of man turn adoringly toward God, spiritual zeal and enthusiasm are awakened and these set the whole consciousness into constructive activity. Fervor, intensity, and vehemence are required in order to carry the great and beautiful message of Truth over seeming hindrances to the dif",
+      "candidates": [
+        {
+          "s": "G3109",
+          "def": "Macedonia, a region of Greece"
+        },
+        {
+          "s": "G3110",
+          "def": "a Macedon (Macedonian), i.e., inhabitant of Macedonia"
+        }
+      ]
+    },
+    {
+      "id": 2196,
+      "word": "Machi",
+      "etym": "Heb.",
+      "mibDef": "smiting; wounding; slaying; afflicting; decreasing; consuming of",
+      "mibMeta": "The natural reaction in man when his power faculty is used as a destructive force (Machi was of the tribe of Gad, and Gad refers to the power faculty in man). Man can never abide consciously in overcoming power, strength, and dominion until he develops true understanding, love, good judgment, and th",
+      "candidates": []
+    },
+    {
+      "id": 2197,
+      "word": "Machir",
+      "etym": "Heb.",
+      "mibDef": "sold; purchased; acquired; gotten; enslaved.",
+      "mibMeta": "Machir (sold, acquired, imparting, receiving) represents the balance that must actively exist in us if we are abidingly to possess true understanding and strength. (Manasseh, father of one Machir, represents understanding; Ammiel, father of the other Machir, symbolizes the strength of spiritual idea",
+      "candidates": [
+        {
+          "s": "H4353",
+          "def": "Makir, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2198,
+      "word": "Machirites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Machir.",
+      "mibMeta": "Thoughts springing from and belonging to that in consciousness which Machir the son of Manasseh represents. (See MACHIR.)",
+      "candidates": []
+    },
+    {
+      "id": 2199,
+      "word": "Machnadebai",
+      "etym": "Heb.",
+      "mibDef": "gift of the noble; what is like the liberal?; what is like the",
+      "mibMeta": "The consciousness beginning to awaken to a perception of the liberality and nobility of Spirit; to the broadmindedness, generosity, bigness, and splendidness of spiritual understanding and Truth. When man first begins to throw off the narrow restrictions and prejudices of the personal, he is liable ",
+      "candidates": []
+    }
+  ]
+}

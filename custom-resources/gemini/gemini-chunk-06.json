@@ -1,0 +1,982 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "6 of 37",
+  "_entry_range": "ids 500–599",
+  "entries": [
+    {
+      "id": 500,
+      "word": "Bedad",
+      "etym": "Heb.",
+      "mibDef": "son of Acladl; separation; alone.",
+      "mibMeta": "The belief in separation, or apartness, from God that exists in the sense man's thought of himself, and especially of his body ( separation , alone; the Edomites were descendants of Esau; they pertain to the physical-the outer body consciousness).",
+      "candidates": []
+    },
+    {
+      "id": 501,
+      "word": "Bedan",
+      "etym": "Heb.",
+      "mibDef": "son of Dan; son of judgment.",
+      "mibMeta": "A certain activity of the judgment faculty, in discrimination and understanding ( son of Dan, son of judgment, according to judgment; a judge of Israel and a man of Manasseh), working to put error out of consciousness and to establish harmony, which is the reward of right doing.",
+      "candidates": []
+    },
+    {
+      "id": 502,
+      "word": "Bedeiah",
+      "etym": "Heb.",
+      "mibDef": "servant of Jehovah; serx’ant ofJah.",
+      "mibMeta": "A thought of service to God ( servant of Jehovah), but not yet set free in the full light of understanding. Until wisdom is completely unified to love in man's consciousness, man is likely to become carried away at times by his feelings, or emotions, or personal affections (a foreign wife), instead ",
+      "candidates": []
+    },
+    {
+      "id": 503,
+      "word": "Beeliada",
+      "etym": "Heb.",
+      "mibDef": "whom the Lord knows; the Lord knows; known of Baal.",
+      "mibMeta": "The idea that Baal (a personal god, or a being with form and shape) knows things and is the source of knowledge. The other form of the name, Eliada, comes nearer suggesting the truth. (See ELIADA.)",
+      "candidates": []
+    },
+    {
+      "id": 504,
+      "word": "Beelzebub",
+      "etym": "Gk. from Heb.",
+      "mibDef": "Baal of the flies; lord of the flies.",
+      "mibMeta": "You are crying \"Beelzebub\" whenever you say \"crank\" of the one who has caught sight of the spiritual mountain tops now glistening in the sun of the new age, just as they called Jesus Beelzebub because He presented and demonstrated Truth ahead of the age in which He lived. (See BAAL-ZEBUB.)",
+      "candidates": [
+        {
+          "s": "G954",
+          "def": "dung-god; Beelzebul, a name of Satan"
+        }
+      ]
+    },
+    {
+      "id": 505,
+      "word": "Beelzebul",
+      "etym": "Gk. from Heb.",
+      "mibDef": "Baal of filth; lord of filth, i. e., idolatry.",
+      "mibMeta": "Impurity and uncleanness. See BEELZEBUB and BAAL-ZEBUB. Beer, be'-er (Heb.)-- well; a dug well; ditch; pit; expounding; declaring; digging out. a A well to which the Israelites journeyed while in the wilderness. The Scriptures (Num. 21:16- 18) speak of it thus: \". . . the well whereof Jehovah said n",
+      "candidates": []
+    },
+    {
+      "id": 506,
+      "word": "Beer-elim",
+      "etym": "Heb.",
+      "mibDef": "well of trees; well of the gods; well of heroes; well of princes.",
+      "mibMeta": "The high esteem in which the deep reservoirs of life and Truth in us should be held; also our union in consciousness with the inexhaustible life of Spirit. This life is symbolized in well of trees, well of the gods, well of , heroes, well of princes; trees represent the nerves, and the nerves are ex",
+      "candidates": []
+    },
+    {
+      "id": 507,
+      "word": "Beer-lahai-roi (A. V.",
+      "etym": "Heb.",
+      "mibDef": "the well",
+      "mibMeta": "The recognition by the individual that his life is divine, is spiritual (the well of the living one who seeth me), and is for the whole man. Even the outer or physical man and the human aspect of the soul are sustained by the life of God, the living one. It was beside this well that the Lord met Hag",
+      "candidates": []
+    },
+    {
+      "id": 508,
+      "word": "Beer-sheba",
+      "etym": "Heb .",
+      "mibDef": "well of the oath; well of the seven; well",
+      "mibMeta": "Abraham represents the first activity of the faith faculty in man's consciousness. Abimelech signifies the will, which, though unregenerate at this phase of man's unfoldment, recognizes faith and its attainments (Abraham and his possessions). Abimelech fears that he and his kingdom will be overrun b",
+      "candidates": []
+    },
+    {
+      "id": 509,
+      "word": "Beera",
+      "etym": "Heb.",
+      "mibDef": "well; fountain; expounder; declarer; explainer.",
+      "mibMeta": "That in us which interprets the truth about life ( expounder ; a well) and makes this truth clear to our consciousness.",
+      "candidates": []
+    },
+    {
+      "id": 510,
+      "word": "Beeri",
+      "etym": "Heb.",
+      "mibDef": "my well; of a fountain, i. e., illustrious; of the principal cause; expounder.",
+      "mibMeta": "Beeri, Hosea's father, symbolizes the magnifying of the great well ox fountain of life and Truth in consciousness (of a fountain, i. e., illustrious, of the principal cause, expounder ), and thus an aid in bringing about an understanding and realization of life and Truth.",
+      "candidates": [
+        {
+          "s": "H882",
+          "def": "Beeri, the name of a Hittite and of an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 511,
+      "word": "Beeroth",
+      "etym": "Heb .",
+      "mibDef": "wells.",
+      "mibMeta": "A congregation of thoughts about life and its increase in spiritual consciousness (wells, a city). Under the Hivites this city, or group of thoughts in consciousness, would be of a material character, but it would be elevated to a higher level in passing into the possession of the Benjamites (active",
+      "candidates": [
+        {
+          "s": "H881",
+          "def": "Beeroth, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 512,
+      "word": "Beerothite",
+      "etym": "from Heb.",
+      "mibDef": "belonging to Beeroth; belonging to the wells; a dweller",
+      "mibMeta": "A thought belonging to the Beeroth phase of consciousness, and of like character to it. (See BEEROTH)",
+      "candidates": []
+    },
+    {
+      "id": 513,
+      "word": "Being",
+      "etym": "",
+      "mibDef": "God; the Mind of the universe composed of archetype ideas: life, love, wisdom,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5607",
+          "def": "being"
+        },
+        {
+          "s": "G5225",
+          "def": "to begin under (quietly), i.e., come into existence (be present or at hand); expletively, to exist (as copula or subordinate to an adjective, participle, adverb or preposition, or as an auxiliary to a principal (verb)"
+        },
+        {
+          "s": "G1096",
+          "def": "to cause to be (\"gen\"-erate), i.e., (reflexively) to become (come into being), used with great latitude (literal, figurative, intensive, etc.)"
+        },
+        {
+          "s": "G3177",
+          "def": "to explain over, i.e., translate"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        }
+      ]
+    },
+    {
+      "id": 514,
+      "word": "Being",
+      "etym": "",
+      "mibDef": "Being is not only impersonal Principle as far as its",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5607",
+          "def": "being"
+        },
+        {
+          "s": "G5225",
+          "def": "to begin under (quietly), i.e., come into existence (be present or at hand); expletively, to exist (as copula or subordinate to an adjective, participle, adverb or preposition, or as an auxiliary to a principal (verb)"
+        },
+        {
+          "s": "G1096",
+          "def": "to cause to be (\"gen\"-erate), i.e., (reflexively) to become (come into being), used with great latitude (literal, figurative, intensive, etc.)"
+        },
+        {
+          "s": "G3177",
+          "def": "to explain over, i.e., translate"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        }
+      ]
+    },
+    {
+      "id": 515,
+      "word": "Being",
+      "etym": "",
+      "mibDef": "Being exists under two phases: invisible and visible, abstract and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5607",
+          "def": "being"
+        },
+        {
+          "s": "G5225",
+          "def": "to begin under (quietly), i.e., come into existence (be present or at hand); expletively, to exist (as copula or subordinate to an adjective, participle, adverb or preposition, or as an auxiliary to a principal (verb)"
+        },
+        {
+          "s": "G1096",
+          "def": "to cause to be (\"gen\"-erate), i.e., (reflexively) to become (come into being), used with great latitude (literal, figurative, intensive, etc.)"
+        },
+        {
+          "s": "G3177",
+          "def": "to explain over, i.e., translate"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        }
+      ]
+    },
+    {
+      "id": 516,
+      "word": "beka (A. V.",
+      "etym": "Heb.",
+      "mibDef": "portion; half; cleft; remnant; half shekel; half measure.",
+      "mibMeta": "A degree of recognition ( portion , half cleft) of the rich and everywhere present substance of Spirit. (Money is a symbol of substance.)",
+      "candidates": []
+    },
+    {
+      "id": 517,
+      "word": "Bel",
+      "etym": "Heb.",
+      "mibDef": "lord.",
+      "mibMeta": "See BAAL and ASHTORETH.",
+      "candidates": [
+        {
+          "s": "H1078",
+          "def": "Bel, the Baal of the Babylonians"
+        }
+      ]
+    },
+    {
+      "id": 518,
+      "word": "Bela (A. V.",
+      "etym": "Heb.",
+      "mibDef": "swallow up; destroy; devour one's substance;",
+      "mibMeta": "Destructive tendencies in consciousness (destroy, utterly consume, destruction). The city of Bela symbolizes a group of destroying, consuming thoughts. Bela, the eldest son of Benjamin, suggests the destroying or letting go of error by denial, an absorption (swallow up) of error by Truth, or of dark",
+      "candidates": [
+        {
+          "s": "H1106",
+          "def": "Bela, the name of an Edomite and of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 519,
+      "word": "Belial",
+      "etym": "Heb .",
+      "mibDef": "worthlessness; badness; lawlessness; wickedness; evil; destruction;",
+      "mibMeta": "Belial refers to the Adversary, or (in our interpretation) to the adverse consciousness in man. belief— An inner acceptance of an idea as true. Belief is closely related to faith. Belief functions both consciously and subconsciously. Many false individual and race beliefs are very active below the c",
+      "candidates": [
+        {
+          "s": "H1100",
+          "def": "without profit, worthlessness; by extension, destruction, wickedness"
+        }
+      ]
+    },
+    {
+      "id": 520,
+      "word": "belief in separateness",
+      "etym": "",
+      "mibDef": "The belief in separateness from God Mind leads to ignorance",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4102",
+          "def": "persuasion, i.e., credence; moral conviction (of religious truth, or the truthfulness of God or a religious teacher), especially reliance upon Christ for salvation; abstractly, constancy in such profession; by extension, the system of religious (Gospel) truth itself"
+        }
+      ]
+    },
+    {
+      "id": 521,
+      "word": "beliefs",
+      "etym": "",
+      "mibDef": "and throughout one's being; also the increased understanding, the conscious fellowship between",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 522,
+      "word": "belongs therefore to the front brain",
+      "etym": "",
+      "mibDef": "see HEBRON) in man used as a snare",
+      "mibMeta": "The empty, barren phases of thought and feeling that arise from the earthly ideas of substance in man, which have been separated from the indwelling vitality (an arid tract; a desert).",
+      "candidates": []
+    },
+    {
+      "id": 523,
+      "word": "belongs to the unreal",
+      "etym": "",
+      "mibDef": "doubt, fear, and carnality— that are ever seeking to utilize one's",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 524,
+      "word": "Belshazzar",
+      "etym": "Heb.",
+      "mibDef": "Bel, protect the king! the Lord’s leader; prince of Bel.",
+      "mibMeta": "Mere sense judgment, or instinct. It is the \"son\" or bringing forth of the attempt to rule the consciousness without appealing to God for right judgment (signified by Nebuchadnezzar, who was the father of Belshazzar). That which Belshazzar signifies is a mere animal; it has no reverence or respect f",
+      "candidates": [
+        {
+          "s": "H1113",
+          "def": "Belshatstsar, a Babylonian king"
+        },
+        {
+          "s": "H1112",
+          "def": "Belshatstsar, a Babylonian king"
+        }
+      ]
+    },
+    {
+      "id": 525,
+      "word": "Belteshazzar",
+      "etym": "Heb.",
+      "mibDef": "Bel's prince; whom Bel protects; whom the Lord protects;",
+      "mibMeta": "Daniel represents spiritual judgment. When this true inner discernment of Spirit is transferred from its native place (Jerusalem, or spiritual consciousness in man) it appears to take on, for the time being, something of the material thought of the sense realm to which it has been removed. At least ",
+      "candidates": [
+        {
+          "s": "H1096",
+          "def": "Belteshatstsar, the Babylonian name of Daniel"
+        }
+      ]
+    },
+    {
+      "id": 526,
+      "word": "Ben",
+      "etym": "Heb.",
+      "mibDef": "son; an emanation; a production; a grandson; a descendant; a pupil; a",
+      "mibMeta": "A positive, masculine thought in consciousness, that springs from whatever quality the name used with it indicates. The Ben of I Chronicles 15:18 represents the idea of sonship, which idea aids greatly in returning the Ark of the Covenant (the original spark of divinity in man's being) to Jerusalem ",
+      "candidates": []
+    },
+    {
+      "id": 527,
+      "word": "Ben-abinadab",
+      "etym": "Heb.",
+      "mibDef": ".von of Abinadab; son of the source of liberality; product",
+      "mibMeta": "The offspring of the very generous nature and high aspirations of the realm of thought that Abinadab signifies. (See ABINADAB.)",
+      "candidates": []
+    },
+    {
+      "id": 528,
+      "word": "Ben-ammi",
+      "etym": "Heb.",
+      "mibDef": ".son of my people; son of my kindred; son of my tribe, i. e., my",
+      "mibMeta": "The offspring of, and a ruling thought in, the darkened phase of consciousness in man that Lot signifies. (Lot means dark-colored, hidden; he represents the part of man's subjective consciousness that is still in darkness.)",
+      "candidates": []
+    },
+    {
+      "id": 529,
+      "word": "Ben-deker (A. V.",
+      "etym": "Heb.",
+      "mibDef": "von ofDeker; son of thrusting through;",
+      "mibMeta": "The force or power of an active belief in omnipresent supply. This belief pierces error thoughts of limitation and the belief that the end of things (Makaz) is at hand. It destroys the sly thoughts of lack in consciousness (Shaalbim, meaning place of foxes). By the power of the true belief that it r",
+      "candidates": []
+    },
+    {
+      "id": 530,
+      "word": "Ben-hadad",
+      "etym": "Heb.",
+      "mibDef": "son ofHadad; worshiper or follower of Hadad or Adad, i. e.,",
+      "mibMeta": "A ruling thought in the phase of intellect that is typified by the Syrians. In this phase of thought there is no understanding of the real and true in consciousness, the Israelites. It therefore works against man's spiritual development. It is destructive and undisciplined, and its dominating power ",
+      "candidates": []
+    },
+    {
+      "id": 531,
+      "word": "Ben-hail",
+      "etym": "Heb.",
+      "mibDef": "son of strength; son of might; son of valor; son of integrity; son of",
+      "mibMeta": "Ben-hail bespeaks the qualities of strength, might, courage, integrity, virtue, wisdom, and substance (.son of strength, son of might, and so forth). The spoken word must contain these qualities, that its truth may be impressed upon and become established in man's thought people.",
+      "candidates": []
+    },
+    {
+      "id": 532,
+      "word": "Ben-hanan",
+      "etym": "Heb.",
+      "mibDef": "son of kindness; very gracious; of one gracious; son of grace.",
+      "mibMeta": "The quality of graciousness and kindliness (son of kindness, very gracious), which is greatly strengthened in consciousness and is given freedom of expression through praise (Judah).",
+      "candidates": []
+    },
+    {
+      "id": 533,
+      "word": "Ben-hesed",
+      "etym": "Heb.",
+      "mibDef": "son of zeal; son of benignity; son of loving kindness; son of",
+      "mibMeta": "The name means virtually the same as Ben-hanan. with perhaps more of a truly",
+      "candidates": []
+    },
+    {
+      "id": 534,
+      "word": "Ben-hur",
+      "etym": "Heb.",
+      "mibDef": "son ofHur; son of whiteness; son of purity; son of nobility; son of",
+      "mibMeta": "A pure, uplifting, freeing idea in consciousness (son of whiteness, son of purity, son of nobility). This idea, working in an exalted, positive attitude of the will (the hill country of Ephraim), is sure to do its part in realizing substance for the sustenance of the Solomon consciousness in the ind",
+      "candidates": []
+    },
+    {
+      "id": 535,
+      "word": "Ben-oni",
+      "etym": "Heb.",
+      "mibDef": "son of my sorrow.",
+      "mibMeta": "Rachel (ewe, lamb ) stands for the pure, lamblike quality of the spiritual soul in its first stages of conscious unfoldment. It is untried and is without true understanding and guiding power. When it brings forth the active quality of faith (Benjamin) through its union with the mentality (Jacob), it",
+      "candidates": []
+    },
+    {
+      "id": 536,
+      "word": "Benaiah",
+      "etym": "Heb.",
+      "mibDef": "son ofJah- whom Jehovah hath built up; produced by Jehovah;",
+      "mibMeta": "Jehoiada, the father of Benaiah, represents the divine law of justice, which brings to retribution all who transgress it. It calls into action the forces that destroy error. Benaiah is one of these forces. He signifies a higher degree of intelligence and understanding than that of the carnal mind or",
+      "candidates": [
+        {
+          "s": "H1141",
+          "def": "Benajah, the name of twelve Israelites"
+        }
+      ]
+    },
+    {
+      "id": 537,
+      "word": "Bene-berak",
+      "etym": "Heb.",
+      "mibDef": "sons ofBerak; sons of lightning.",
+      "mibMeta": "A quick, fiery, active state of consciousness in executing judgment (sons of lightning, a city of Dan, Dan meaning a judge). Unless these thoughts are guided by reason and are",
+      "candidates": []
+    },
+    {
+      "id": 538,
+      "word": "Bene-jaakan (A. V.",
+      "etym": "Heb.",
+      "mibDef": "sons",
+      "mibMeta": "A group of thoughts belonging to the Horite phase of consciousness. Being on the sense plane and blind to the real truth of man's being (Jaakan was a Horite, and the Horites have their seat of action in the physical organism; they are cave-dwellers, and so refer especially to the deep- seated, error",
+      "candidates": []
+    },
+    {
+      "id": 539,
+      "word": "Beninu",
+      "etym": "Heb.",
+      "mibDef": "our son; our production; our emanation; our posterity.",
+      "mibMeta": "The true idea that love (Beninu was descended from Levi, who represents the love faculty in man), when it is acknowledged and is unified consciously with God, brings forth its fruit ( our son) of good continuously, even to the farthest generation, to all future time ( our posterity) .",
+      "candidates": []
+    },
+    {
+      "id": 540,
+      "word": "Benjamin",
+      "etym": "Heb.",
+      "mibDef": "son of the right hand; son of good fortune; son of prosperity; son",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1144",
+          "def": "Binjamin, youngest son of Jacob; also the tribe descended from him, and its territory"
+        },
+        {
+          "s": "G958",
+          "def": "Benjamin, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 541,
+      "word": "Beno",
+      "etym": "Heb.",
+      "mibDef": "his son.",
+      "mibMeta": "An idea of love (a Levite) that is working in man to bring about a realization of his divine sonship (his son). As yet, however, the individual has not made -conscious union with this love idea or claimed his sonship. The inner forces of Spirit are working, though, to bring about the acknowledgment ",
+      "candidates": []
+    },
+    {
+      "id": 542,
+      "word": "Beon",
+      "etym": "Heb.",
+      "mibDef": "habitation; dwelling; refuge.",
+      "mibMeta": "See BAAL-MEON.",
+      "candidates": []
+    },
+    {
+      "id": 543,
+      "word": "Beor (A. V.",
+      "etym": "Heb.",
+      "mibDef": "a torch; a lamp; consuming fire; an eating",
+      "mibMeta": "An intuitive understanding belonging to the outer man of sense (a torch, a lamp). Since this light (understanding) is not established consciously in Spirit nor guided by Spirit, but by material beliefs and desires, it is not a true shepherd to the pure natural life of the organism (a flock), instead",
+      "candidates": [
+        {
+          "s": "H1160",
+          "def": "Beor, the name of the father of an Edomitish king; also of that of Balaam"
+        }
+      ]
+    },
+    {
+      "id": 544,
+      "word": "Bera",
+      "etym": "Heb.",
+      "mibDef": "spontaneous gift; son of thought; son of desire; son of evil, son of",
+      "mibMeta": "The directing thought and desire of the sensual state of consciousness that Sodom signifies. (See SODOM.)",
+      "candidates": [
+        {
+          "s": "H1298",
+          "def": "Bera, a Sodomitish king"
+        }
+      ]
+    },
+    {
+      "id": 545,
+      "word": "Beracah (A. V.",
+      "etym": "Heb.",
+      "mibDef": "a blessing; a benediction; a gift; a present.",
+      "mibMeta": "The true spirit of thanksgiving and blessing in man, which always adheres to the",
+      "candidates": []
+    },
+    {
+      "id": 546,
+      "word": "Beraiah",
+      "etym": "Heb ,",
+      "mibDef": "whom Jehovah created; begotten ofJah; brought forth of Jehovah,",
+      "mibMeta": "A perception of the truth that Jehovah, the Christ, is the true Father, or Maker, or Creator of manifest man. Man came forth from the Christ, the divine ideal man, which ever exists in the mind of God (whom Jehovah created, begotten ofJah, brought forth of Jehovah, Jah is maker). In spite of outer m",
+      "candidates": []
+    },
+    {
+      "id": 547,
+      "word": "Bered",
+      "etym": "Heb.",
+      "mibDef": "strew; scatter; sprinkle; hail; seeding; spotted.",
+      "mibMeta": "The seed is the word. The ideas and the thoughts that are accepted and appropriated by man are seeds that bear fruit in his life. Becher, a form of the name Bered, signifies a first bringing forth of positive, upbuilding thoughts in consciousness. Bered (strew, scatter, seeding) indicates the sowing",
+      "candidates": [
+        {
+          "s": "H1260",
+          "def": "Bered, the name of a place south of Palestine, also of an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 548,
+      "word": "Beri",
+      "etym": "Heb.",
+      "mibDef": "well; fountain; expound; declare; my son; my productions.",
+      "mibMeta": "A conception of the life idea and its constant activity in man (well, fountain). The thought of fruitfulness, of ability to perform, to do, to originate and bring forth, is also involved in the meaning of Beri (my son, my productions ). Beri suggests too that understanding quality in man which inter",
+      "candidates": []
+    },
+    {
+      "id": 549,
+      "word": "Beriah",
+      "etym": "Heb.",
+      "mibDef": "evil; calamity; misfortune; in evil; a son of evil.",
+      "mibMeta": "Gath means wine press, and Beriah suggests the seeming inharmony or evil that accompanies the sifting processes in consciousness that a wine press signifies. The little self, or personal man, who is limited and selfish in his thought and expression, experiences what appears to him to be evil when he",
+      "candidates": [
+        {
+          "s": "H1283",
+          "def": "Beriah, the name of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 550,
+      "word": "Beriites",
+      "etym": "Heb.",
+      "mibDef": "misfortune.",
+      "mibMeta": "The thoughts that belong to the Beriah phase of consciousness. They suggest a belief in evil that causes one to behold the seeming error of an experience instead of the good that is attained in every instance wherein some of the self is crossed out that the spiritual may come into fuller and freer e",
+      "candidates": []
+    },
+    {
+      "id": 551,
+      "word": "Bernice",
+      "etym": "Gk.",
+      "mibDef": "victorious; bringing .victory.",
+      "mibMeta": "Bernice, with Drusilla, the wife of Felix, represents the voluptuous side of the sense life. That is not true victory which is successful only in feeding and building up for a time the outer or sense man in his carnal state.",
+      "candidates": [
+        {
+          "s": "G959",
+          "def": "victorious; Bernice, a member of the Herodian family"
+        }
+      ]
+    },
+    {
+      "id": 552,
+      "word": "Berodach-baladan",
+      "etym": "Heb.",
+      "mibDef": "Merodach his lord; Mars has power; Merodach",
+      "mibMeta": "Merodach, or Berodach, meaning war, death, slaughter, was an idol of the Babylonians that was dedicated to the planet Mars; Mars was the Babylonian god of blood and slaughter, to whom they offered human sacrifices, and whom they worshiped as a star of evil omen. Baladan means having power. Berodach-",
+      "candidates": []
+    },
+    {
+      "id": 553,
+      "word": "Berothai",
+      "etym": "Heb .",
+      "mibDef": "wells;",
+      "mibMeta": "Fallows says concerning the cypress, \"It may have been the Syrian juniper, which grows wild upon Lebanon.\" This \"tree ... is a tall evergreen, the wood of which is heavy, aromatic, and remarkably durable . . . Coffins were made of it in the East, and the mummy-cases of Egypt are found at this day of",
+      "candidates": []
+    },
+    {
+      "id": 554,
+      "word": "Besai",
+      "etym": "Heb.",
+      "mibDef": "treading underfoot; trampling down; domineering oppression; ruthless",
+      "mibMeta": "An overcoming tendency, or power, in man that brings forth thoughts that become active in freeing and restoring the Truth in consciousness ( conqueror ; Besai's \"children\" returned to Jerusalem with Zerubbabel from the captivity in Babylon) . There is a personal element in this overcoming thought or",
+      "candidates": []
+    },
+    {
+      "id": 555,
+      "word": "Besodeiah",
+      "etym": "Heb.",
+      "mibDef": "in the intimacy ofJah; in familiar converse with Jehovah; in",
+      "mibMeta": "A knowledge of man's true being, of his spiritual nature and sonship. This is the Lord's secret, and that in us which perceives it is in close association with Jehovah (in familiar converse with Jehovah, in the intimacy ofJah, in counsel with Jehovah ). This knowledge generates, in the individual wh",
+      "candidates": []
+    },
+    {
+      "id": 556,
+      "word": "Besor",
+      "etym": "Heb.",
+      "mibDef": "cool water; cool brook; cold; good news; joyful news; fairness; beauty;",
+      "mibMeta": "The cooling, cleansing waters of denial of seeming error ( cool water, cool brook). Denials are necessary when one has become very much wrought up, and weakened, by a struggle against seeming dominance of error thoughts and desires. (The Amalekites had stolen away the families and possessions of Dav",
+      "candidates": []
+    },
+    {
+      "id": 557,
+      "word": "Betah",
+      "etym": "Heb.",
+      "mibDef": "trust; confidence; security; fearlessness; tranquillity.",
+      "mibMeta": "Confidence and trust. The brass that was taken from this city by David represents boldness, strength, and substance. When all these qualities are under the dominion of David (who signifies love, and is a type of Christ), they are centered in God. Thus they greatly strengthen one's whole being in lif",
+      "candidates": []
+    },
+    {
+      "id": 558,
+      "word": "Beten",
+      "etym": "Heb .",
+      "mibDef": "belly; womb; the inmost part; a valley; a swelling; a protuberance; a hill.",
+      "mibMeta": "Thoughts of generation, from a very low and carnal standpoint (belly, womb, a valley). A swelling, a protuberance, a hill, give the idea of pride, pride in the carnal thought or belief of generation. (A hill, in the meaning of Beten, does not refer to height, but to enlargement, swelling; and swelli",
+      "candidates": []
+    },
+    {
+      "id": 559,
+      "word": "Beth - azmaveth",
+      "etym": "Heb.",
+      "mibDef": "house of Azmaveth; house of death's strength.",
+      "mibMeta": "See AZMAVETH.",
+      "candidates": []
+    },
+    {
+      "id": 560,
+      "word": "Beth-anath",
+      "etym": "Heb.",
+      "mibDef": "house of Anat; house of answers, i. e., to prayers; house of",
+      "mibMeta": "A thought center in man that, to a degree at least, realizes the response of Spirit to the cry of the soul (see ANATH) for a greater realization of strength (house of answers, i. e., to prayers, house of reply; Naphtali is the Israelitish tribe that represents strength) . Naphtali failed to overcome",
+      "candidates": []
+    },
+    {
+      "id": 561,
+      "word": "Beth-anoth",
+      "etym": "Heb.",
+      "mibDef": "house of Anat; house of answers, i. e., to prayers; house of",
+      "mibMeta": "Beth-anoth has much the same significance as Beth-anath, only it does not pertain to the realization of strength specifically. 'Anat, or Anath, represents Spirit's response to the cry of the soul for deliverance from opposing thoughts. Beth-anoth, in the hill country of Judah, signifies a high state",
+      "candidates": []
+    },
+    {
+      "id": 562,
+      "word": "Beth-arabah",
+      "etym": "Heb .",
+      "mibDef": "house of the desert; house of the barrenness; house of the",
+      "mibMeta": "The \"arabah\" is the desert, or places in the earthly, physical ideas of substance that have been separated from the indwelling vitality. The cities of Beth-arabah represent places of this kind in consciousness, that need to be lifted into fruitfulness by means of faith (Benjamin) and praise (Judah).",
+      "candidates": []
+    },
+    {
+      "id": 563,
+      "word": "Beth-arbel",
+      "etym": "Heb .",
+      "mibDef": "house of God's ambush; house of God’s lying-in-wait; house of",
+      "mibMeta": "The working out of the divine law in a way seemingly adverse to the higher religious thoughts of the consciousness (Israelites), in that the light and joy of their oneness with God is lost to them for a time. (Beth-arbel was destroyed by Shalmaneser, king of Assyria; Shalmaneser signifies a very des",
+      "candidates": []
+    },
+    {
+      "id": 564,
+      "word": "Beth-aven",
+      "etym": "Heb.",
+      "mibDef": "house of vanity; house of iniquity; house of nothingness; house of",
+      "mibMeta": "See AVEN for the significance of Beth-aven, since apparently they are the same place. Beth-aven, in the case of Bethel's being called by this name, refers to the vanity of worshipping gold, money, or the outer, material thought about substance.",
+      "candidates": []
+    },
+    {
+      "id": 565,
+      "word": "Beth-barah",
+      "etym": "Heb.",
+      "mibDef": "house of the crossing over; house of crossings; house of fords.",
+      "mibMeta": "The place in consciousness where, by discernment and denial of seeming error, we can cleanse our thoughts from error sufficiently to enable us to cross safely over (house of the crossing over) the flood of mortal, earthly race thoughts about life, that the river Jordan represents. Gideon, who won th",
+      "candidates": []
+    },
+    {
+      "id": 566,
+      "word": "Beth-biri (A. V.",
+      "etym": "Heb .",
+      "mibDef": "house of my creation; house of my begetting;",
+      "mibMeta": "The truth that man's consciousness and body, established in substance, are the product of his own inner, true I AM (house of my creation, house of my begetting, house of fatness); also the truth that man's consciousness and body constitute the house, or temple, in which his Christ self, Jehovah God,",
+      "candidates": []
+    },
+    {
+      "id": 567,
+      "word": "Beth-car",
+      "etym": "Heb.",
+      "mibDef": "house of exultation; house of leaping about; house of lambs; house of",
+      "mibMeta": "That place where we consciously abide and rejoice abundantly in the overcoming power of Spirit and in a realization of omnipresent substance and life (house of exultation, house of leaping about house of lambs house of lambs pasture). This is a genuine milestone in our spiritual progress; we have co",
+      "candidates": []
+    },
+    {
+      "id": 568,
+      "word": "Beth-dagon",
+      "etym": "Heb .",
+      "mibDef": "house ofDagon; house of the little fish; house of that which is",
+      "mibMeta": "Increase of ideas, but upon a sense plane rather than a spiritual plane. (Dagon was a national god of the Philistines; the meaning of the name is abundant propagation, fish.) There was a temple of Dagon at Beth-dagon before the Israelites took this town from the Philistines; no doubt the town derive",
+      "candidates": []
+    },
+    {
+      "id": 569,
+      "word": "Beth-diblathaim",
+      "etym": "Heb .",
+      "mibDef": "house of Diblathaim; house of the two fig cakes;",
+      "mibMeta": "An assemblage of thoughts of duality that have become established in man's consciousness; they are now ripe for judgment, or adjustment. (So we derive the meaning, house of assembly house of two fig cakes house of pressing together. Two fig cakes and pressing together give the suggestion that two ki",
+      "candidates": []
+    },
+    {
+      "id": 570,
+      "word": "Beth-eden",
+      "etym": "Heb .",
+      "mibDef": "house of pleasantness; house of delight; house of pleasure; house",
+      "mibMeta": "Eden means a pleasant, productive state of consciousness, having all possibilities; it represents the consciousness of the divine in natural man. Beth-eden (house of pleasure) symbolizes the house, or established consciousness, of that which is pleasing and harmonious. But if the central, controllin",
+      "candidates": []
+    },
+    {
+      "id": 571,
+      "word": "Beth-el",
+      "etym": "Heb .",
+      "mibDef": "house of God .",
+      "mibMeta": "Luz means turning away departing. That which seemed separate and apart is brought into unity, and the name is then Beth-el. In the individual, Beth-el refers to a certain center near the heart, which is called the house of God. It seems material, at first sight. Jacob thought that it was material, w",
+      "candidates": []
+    },
+    {
+      "id": 572,
+      "word": "Beth-emek",
+      "etym": "Heb.",
+      "mibDef": "house of the deep; house of the unsearchable; house of the",
+      "mibMeta": "The subconscious realm of mind in man, and the mistaken idea that the depths of the subconsciousness are past finding out (house of the deep; house of the unsearchable); also a depressed state of thought in the subconscious realm of man. This depressed state of mind can be built up and the nature of",
+      "candidates": []
+    },
+    {
+      "id": 573,
+      "word": "Beth-ezel",
+      "etym": "Heb .",
+      "mibDef": "house firmly rooted, i. e., a fixed dwelling; house of the firm seat;",
+      "mibMeta": "A perception of the firm foundation and established place that man has in Being (house firmly rooted, i. e., a fixed dwelling; house of the firm seat). But because the outer sense man (represented by Philistia) is using man's substance and life, his faculties and powers, to further the pleasures of ",
+      "candidates": []
+    },
+    {
+      "id": 574,
+      "word": "Beth-gader",
+      "etym": "Heb.",
+      "mibDef": "house of the wcdl, i. e., a wcdlecl house; an inclosure; a",
+      "mibMeta": "A consciousness of protection, of defense, of unconquerable strength (house of a wall, walled place, signifying a strongly fortified place). This consciousness is very deep-seated, having been established in the subconscious, elemental life forces of the individual from the beginning of his existenc",
+      "candidates": []
+    },
+    {
+      "id": 575,
+      "word": "Beth-gamul",
+      "etym": "Heb .",
+      "mibDef": "house of recompense (good or evil); house of retribution;",
+      "mibMeta": "A state of thought in the carnal consciousness (Moab) in man that has run its course and is now ripe for judgment; the error results must be met, and an adjustment must be made (house of recompense; house of retribution; house of deeds; house of the weaned; camel house; a city of Moab). The central ",
+      "candidates": []
+    },
+    {
+      "id": 576,
+      "word": "Beth-haccherem (A. V.",
+      "etym": "",
+      "mibDef": "house of the vineyard;",
+      "mibMeta": "An exalted consciousness of life and Truth. From this \"high place\" in man, error tendencies and their outcome are recognized. If they have gone so far that a general harvest of error reaping is unavoidable, the true thoughts and faculties (represented in this instance by Benjamin) are warned to flee",
+      "candidates": []
+    },
+    {
+      "id": 577,
+      "word": "Beth-haram (A. V.",
+      "etym": "Heb .",
+      "mibDef": "house or place of the height; house of",
+      "mibMeta": "A lifting up, in consciousness, of the life idea. This process of upliftment is inferred in the definition, house of the height, house of elevation, mountain house. The Amorites have their seat of action in the generative functions and so refer to the life idea brought down to the sense plane. When ",
+      "candidates": []
+    },
+    {
+      "id": 578,
+      "word": "Beth-haran",
+      "etym": "Heb .",
+      "mibDef": "house of might; house of strength; place of overcoming, i. e.,",
+      "mibMeta": "A strong, dominating, conquering phase of thought ( house of might, house of strength, place of overcoming, i. e., getting the upper hand).",
+      "candidates": []
+    },
+    {
+      "id": 579,
+      "word": "Beth-hoglah (A. V.",
+      "etym": "Heb .",
+      "mibDef": "house of partridge; house of",
+      "mibMeta": "Impulsiveness; faith (Benjamin) acting intermittently, on the impulse of the moment, not yet being firmly established in consciousness so as to express consistently at all times (house of partridge, house of magpies, house of locusts). Birds usually signify free, unattached thoughts. In Beth-hoglah,",
+      "candidates": []
+    },
+    {
+      "id": 580,
+      "word": "Beth-horon",
+      "etym": "Heb.",
+      "mibDef": "house of the cave; place of the hollows; house of the caverns;",
+      "mibMeta": "A thought center deep within the consciousness where error is judged and cast out (house of the caverns, place of the holes). It is an avenue of thought by which the higher thoughts of justice and Truth may descend to the more subjective planes of consciousness in order to cleanse them from error. B",
+      "candidates": []
+    },
+    {
+      "id": 581,
+      "word": "Beth-maacah (A. V.",
+      "etym": "Heb.",
+      "mibDef": "house ofMaacah; house of",
+      "mibMeta": "See ABEL-BETH-MAACAH.",
+      "candidates": []
+    },
+    {
+      "id": 582,
+      "word": "Beth-marcaboth",
+      "etym": "Heb.",
+      "mibDef": "house of chariots; place of chariots.",
+      "mibMeta": "A place in consciousness where the body activities meet, and give themselves over to the guiding, directing light of Spirit (house or place of chariots). Chariots represent the body activities, and Simeon, to whom this city of Beth-marcaboth was allotted, means one who listens and obeys.",
+      "candidates": []
+    },
+    {
+      "id": 583,
+      "word": "Beth-meon",
+      "etym": "Heb .",
+      "mibDef": "Beth-baal-meon; house of habitation; place of dwelling.",
+      "mibMeta": "See BAAL-MEON.",
+      "candidates": []
+    },
+    {
+      "id": 584,
+      "word": "Beth-merhak",
+      "etym": "Heb.",
+      "mibDef": "far house; place afar off; house set at a distance; a dwelling",
+      "mibMeta": "A consciousness of separateness from God (far house, house set at a distance, place afar off) which for a season possesses the one in Truth when he has given himself over to the love (David) of external beauty (Absalom) apart from Spirit, and has come to the period of reaction, readjustment, or \"jud",
+      "candidates": []
+    },
+    {
+      "id": 585,
+      "word": "Beth-nimrah",
+      "etym": "Heb.",
+      "mibDef": "house of spots; speckled house; house of leopard (so-called",
+      "mibMeta": "\"Can the Ethiopian change his skin, or the leopard his spots ? then may ye also do good, that are accustomed to do evil\" (Jer. 13:23). Beth-nimrah (house of spots, speckled house, house of leopard; a city that had belonged to the Amorites) signifies a very iniquitous state of thought and activity in",
+      "candidates": []
+    },
+    {
+      "id": 586,
+      "word": "Beth-pazzez",
+      "etym": "Heb .",
+      "mibDef": "house of dispersion; place of complete disintegration; place",
+      "mibMeta": "A belief in the materiality of body substance and life. Such beliefs sooner or later bring about a dispersion, or separation, of the various cells and parts of which the outer formed organism is composed, and the body goes to corruption-is destroyed ( house of dispersion, place of complete disintegr",
+      "candidates": []
+    },
+    {
+      "id": 587,
+      "word": "Beth-pelet (A. V.",
+      "etym": "Heb .",
+      "mibDef": "house of",
+      "mibMeta": "A subconscious (southern) escape, or deliverance, from a seemingly fixed error state of thought; in the presence of praise and thanksgiving (Judah), error flees (house of flight).",
+      "candidates": []
+    },
+    {
+      "id": 588,
+      "word": "Beth-peor",
+      "etym": "Heb.",
+      "mibDef": "house of opening; temple ofPeor, i. e., Baal-peor.",
+      "mibMeta": "See BAAL-PEOR. Beth-peor represents a corresponding state of consciousness (house ofPeor).",
+      "candidates": []
+    },
+    {
+      "id": 589,
+      "word": "Beth-rapha",
+      "etym": "Heb.",
+      "mibDef": "house of repairing; house of healing; place of relaxing; house",
+      "mibMeta": "With the exception of its application to a people of tallness, Beth-rapha in its various forms refers to healing, remission, upbuilding, restoring BETHS AIDA (house of repairing, house of healing, place of relaxing). All fearfulness (place of fear) can be overcome by the exercise of praise and thank",
+      "candidates": []
+    },
+    {
+      "id": 590,
+      "word": "Beth-rehob",
+      "etym": "Heb.",
+      "mibDef": "house of the open space; house of the forum; place of the",
+      "mibMeta": "A state of consciousness, of an intellectual nature, that is too \"broad\" in a material- minded way to accept spiritual Truth (broad house, roomy place, house of the open space, house of the forum, place of the market, house of the street; Syria refers to the intellect that is unillumined spiritually",
+      "candidates": []
+    },
+    {
+      "id": 591,
+      "word": "Beth-shean",
+      "etym": "Heb.",
+      "mibDef": "house of rest; house of tranquillity; dwelling in quiet; house of",
+      "mibMeta": "A restful, peaceful, confident attitude of mind (house of rest, house of tranquillity, dwelling in quiet, house of security) . It is only in the quietness of our periods of conscious waiting on God that we find the inner sense of peace and security and conservation that builds up soul and body in en",
+      "candidates": []
+    },
+    {
+      "id": 592,
+      "word": "Beth-shemesh",
+      "etym": "Heb .",
+      "mibDef": "house of the sun.",
+      "mibMeta": "A sun consciousness (house of the sun). To the unregenerate man (Philistines and Egyptians), also to the unawakened intellect of man, this consists of thoughts pertaining to Baal worship, or a looking wholly to the outer formed universe and to outer methods and ways, or to the psychic, to bring abou",
+      "candidates": []
+    },
+    {
+      "id": 593,
+      "word": "Beth-zur",
+      "etym": "Heb .",
+      "mibDef": "house of rock; house of refuge; house of shelter (especially of God);",
+      "mibMeta": "A firm. Truth foundation in consciousness— an established consciousness of protection, of safety (house of rock, house of refuge, house of shelter, especially of God, place of rocks;",
+      "candidates": []
+    },
+    {
+      "id": 594,
+      "word": "Bethany (A. V.",
+      "etym": "Gk. from Heb.",
+      "mibDef": "house of figs (derived from",
+      "mibMeta": "Bethany means wailing, lamentation, affliction; and signifies the demonstration over these conditions. Whenever we make a mental demonstration we get a certain result in mind and body. In Bethany Jesus raised Lazarus from the dead, and thus overcame the sorrow, lamentation, and affliction of Mary an",
+      "candidates": [
+        {
+          "s": "G963",
+          "def": "date-house; Beth-any, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 595,
+      "word": "Bethesda",
+      "etym": "Heb.",
+      "mibDef": "house of mercy; house of benignity; house of loving-kindness;",
+      "mibMeta": "The point in consciousness where we feel the flow of the cleansing life of Spirit. This \"pool,\" or place in consciousness, is formed by the realization that our life is being constantly purified, healed, and made new by the activity of mind. Physically this is expressed in the purification and upbui",
+      "candidates": []
+    },
+    {
+      "id": 596,
+      "word": "Bethesda",
+      "etym": "",
+      "mibDef": "\"House of mercy; house of healing.\" Represents the realization in",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 597,
+      "word": "Bethlehem",
+      "etym": "Heb.",
+      "mibDef": "house of bread; place of food; house of sustenance; house of",
+      "mibMeta": "Bethlehem means house of bread, symbolizing the abiding place of substance. It indicates the nerve center at the pit of the stomach, through which universal substance joins the refined or spiritualized chemical products of the body substance. Through this center are gradually generated the elements ",
+      "candidates": [
+        {
+          "s": "H1035",
+          "def": "Beth-Lechem, a place in Palestine"
+        },
+        {
+          "s": "G965",
+          "def": "Bethleem (i.e., Beth-lechem), a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 598,
+      "word": "Bethphage",
+      "etym": "Gk. from Heb.",
+      "mibDef": "house of figs; house of unripe figs.",
+      "mibMeta": "A place in consciousness where grace is realized. It is a place of unripe fruit (house of figs, or house of unripe figs) .",
+      "candidates": [
+        {
+          "s": "G967",
+          "def": "fig-house; Beth-phage, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 599,
+      "word": "Bethsaida",
+      "etym": "Gk. from Heb .",
+      "mibDef": "house of fishing; place of hunting; place of nets;",
+      "mibMeta": "A consciousness of increase of ideas, of gathering substance; a state of thought that is continually searching after new ideas, and endeavors to gain knowledge, by every possible means (house of fishing, place of hunting; place of nets; fishing town; hunting town). In Mark 8:22 Bethsaida signifies s",
+      "candidates": [
+        {
+          "s": "G966",
+          "def": "fishing-house; Bethsaida, a place in Palestine"
+        }
+      ]
+    }
+  ]
+}
