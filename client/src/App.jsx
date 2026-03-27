@@ -6,8 +6,11 @@ import BookSelector from './components/BookSelector'
 import SearchResults from './components/SearchResults'
 import ThemeToggle from './components/ThemeToggle'
 import WordDefinition from './components/WordDefinition'
+import AuthModal from './components/AuthModal'
+import { useAuth } from './contexts/AuthContext'
 
 function App() {
+  const { user, loading: authLoading, logout } = useAuth()
   const [books, setBooks] = useState([])
   const [currentBook, setCurrentBook] = useState(1)
   const [currentChapter, setCurrentChapter] = useState(1)
@@ -20,6 +23,7 @@ function App() {
   const [showBookSelector, setShowBookSelector] = useState(false)
   const [selectedWord, setSelectedWord] = useState(null)
   const [wordPosition, setWordPosition] = useState(null)
+  const [showAuthModal, setShowAuthModal] = useState(false)
   const initialLoad = useRef(true)
 
   // Apply theme to body
@@ -136,6 +140,14 @@ function App() {
           >
             {currentBookData ? currentBookData.shortName : '...'} {currentChapter}
           </button>
+          {authLoading ? null : user ? (
+            <div className="user-controls">
+              <span className="user-display-name">{user.displayName || user.email}</span>
+              <button className="sign-out-btn" onClick={logout}>Sign Out</button>
+            </div>
+          ) : (
+            <button className="sign-in-btn" onClick={() => setShowAuthModal(true)}>Sign In</button>
+          )}
           <ThemeToggle theme={theme} onToggle={() => setTheme(t => t === 'light' ? 'dark' : 'light')} />
         </div>
       </header>
@@ -181,6 +193,10 @@ function App() {
           onClose={handleCloseDefinition}
           testament={currentBookData?.testament}
         />
+      )}
+
+      {showAuthModal && (
+        <AuthModal onClose={() => setShowAuthModal(false)} />
       )}
     </div>
   )

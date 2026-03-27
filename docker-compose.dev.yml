@@ -36,6 +36,9 @@ services:
       DB_USER: bibleforge
       DB_PASSWORD: bibleforge
       DB_NAME: bf
+      JWT_SECRET: ${JWT_SECRET:-bibleforge-dev-secret-change-in-production}
+      SMTP_HOST: mailhog
+      SMTP_PORT: 1025
     depends_on:
       db:
         condition: service_healthy
@@ -55,6 +58,12 @@ services:
       VITE_USE_POLLING: "true"
     depends_on:
       - server
+
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - "1025:1025"
+      - "8025:8025"
 
 volumes:
   mysql_data:

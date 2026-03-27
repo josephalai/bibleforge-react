@@ -12,6 +12,9 @@ const { getDefinition } = require("./data/definitions");
 const { getMIBEntry } = require("./data/mib");
 const { getGematria } = require("./data/gematria");
 
+const cookieParser = require("cookie-parser");
+const authRoutes = require("./routes/auth");
+
 const app = express();
 const PORT = parseInt(process.env.PORT, 10) || 3001;
 
@@ -27,6 +30,7 @@ app.use(limiter);
 app.use(cors());
 app.use(compression());
 app.use(express.json());
+app.use(cookieParser());
 
 // Serve static files in production (Docker)
 const staticPath = process.env.STATIC_PATH;
@@ -45,6 +49,9 @@ async function initDataSource() {
     console.log("MySQL unavailable — using embedded JSON data");
   }
 }
+
+// Auth routes
+app.use("/api/auth", authRoutes);
 
 // GET /api/health
 app.get("/api/health", async (_req, res) => {
