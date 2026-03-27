@@ -218,45 +218,114 @@ def parse_header(header: str) -> Optional[Dict]:
 # Block Detection
 # ─────────────────────────────────────────────
 
-def is_entry_header(line: str) -> bool:
+# Language-of-origin markers (incl. OCR variants like {Heb.), (Reb.), (Web.))
+_LANG_RE = re.compile(
+    r'[\(\{]'
+    r'\s*(?:Heb|Aram|Greek|Gk|Lat|Fr|Span|Arab|Egypt|Eg|Pers|Reb|Web|Gv'
+    r'|N\.\s*T\.\s*Gk)'
+    r'(?:\s*\.?\s*(?:fr(?:om)?\.?\s+'
+    r'(?:Heb|Aram|Greek|Gk|Lat|Fr|Span|Arab|Egypt|Eg|Pers)\s*\.?))?'
+    r'\s*[.,;)}\]f\u25a0\u25cf]'
+    r'|in Hebrew',
+    re.IGNORECASE,
+)
+
+# Common English suffixes — if the text right after the dash starts with one,
+# the dash is splitting a word across lines (e.g. "earth— ly speaking").
+_SUFFIX_SET = frozenset([
+    'ly', 'ing', 'ed', 'er', 'est', 'ness', 'tion', 'ment', 'ful', 'less',
+    'ous', 'ive', 'al', 'ary', 'ory', 'ity', 'ence', 'ance', 'dom', 'ship',
+    'ism', 'ist', 'ure', 'ent', 'ant', 'en', 'ize', 'ise', 'ate',
+])
+_SUFFIX_RE = re.compile(r'^([a-z]{1,5})[,;\s]')
+
+# Words that typically begin a sentence, not a headword.
+_SENTENCE_STARTERS = frozenset([
+    'the', 'if', 'in', 'these', 'those', 'this', 'that', 'when', 'where',
+    'while', 'it', 'he', 'she', 'they', 'we', 'you', 'his', 'her', 'its',
+    'our', 'through', 'then', 'thus', 'sending', 'having', 'being',
+])
+
+# Continuation words (prepositions/conjunctions) that indicate body text.
+_CONTINUATION_STARTERS = frozenset([
+    'of', 'and', 'or', 'but', 'for', 'nor', 'yet', 'so', 'from', 'with',
+    'by', 'to', 'into', 'upon', 'after', 'before',
+])
+
+
+def is_entry_header(line: str, prev_line_blank: bool) -> bool:
     """
     True if this line looks like the start of a new dictionary entry.
 
-    Primary rule:
-      '—' in line  AND  ',' in first 100 chars
-      Handles: Word, pron (Lang)— def | A.V. variants | quoted phrases
-
-    Secondary rule (no-comma entries):
-      '—' within first 30 chars  AND  before-dash part looks like a title
-      Handles: God— | Adam— | Bible— | Christ— | Egypt— | Devil— etc.
-      These major concept entries have no pronunciation so no comma.
-
-    Must have content after the dash to exclude broken/continuation lines.
-    Guard against body-text false positives: exclude lines starting with
-    'Metaphysical' (section label inside entries).
+    Strategy
+    --------
+    1. Language marker (Heb., Aram., Greek …) is a strong signal — accept
+       even without a preceding blank line (handles A.V. continuations).
+    2. Everything else requires a blank line before it.
+    3. Reject ``Metaphysical.`` section labels inside entries.
+    4. Reject sentence fragments (>10 words before the dash).
+    5. Reject word-suffix continuations after the dash (e.g. "earth— ly").
+    6. Reject lines whose pre-dash text starts with a sentence word or
+       continuation preposition when the text is >3 words long.
     """
     s = line.strip()
     if not s or '—' not in s:
         return False
 
     dash_pos = s.index('—')
+    after = s[dash_pos + 1:].strip()
 
     # Must have content after the dash
-    if not s[dash_pos + 1:].strip():
+    if not after:
         return False
 
-    # Primary rule: comma in first 100 chars
-    if ',' in s[:100]:
+    before = s[:dash_pos].strip()
+    if not before:
+        return False
+
+    # Guard: "Metaphysical." section labels inside entries
+    if before.lower().startswith('metaphysical'):
+        return False
+
+    # ── Strong signal: language marker ──────────────────────────
+    if _LANG_RE.search(s):
         return True
 
-    # Secondary rule: title-style entry with no pronunciation
-    if dash_pos <= 30:
-        before = s[:dash_pos].strip()
-        if (before
-                and len(before) >= 2
-                and before[0].isupper()
-                and not before.lower().startswith('metaphysical')):
-            return True
+    # ── Everything else requires a preceding blank line ─────────
+    if not prev_line_blank:
+        return False
+
+    words_before = before.split()
+    wc = len(words_before)
+
+    # Reject very long pre-dash text (sentence fragments)
+    if wc > 10:
+        return False
+
+    # Reject word-suffix continuations (e.g. "earth— ly speaking")
+    m = _SUFFIX_RE.match(after)
+    if m and m.group(1) in _SUFFIX_SET:
+        return False
+
+    # For longer pre-dash text without a comma, reject sentence patterns
+    if wc > 3 and ',' not in before:
+        first_word = words_before[0].lower()
+        if first_word in _SENTENCE_STARTERS:
+            return False
+        if first_word in _CONTINUATION_STARTERS:
+            return False
+
+    # Reject lines that start with "of " (continuation of previous entry)
+    if before.lower().startswith('of '):
+        return False
+
+    # Accept: comma in the pre-dash portion (pronunciation / sub-topic pattern)
+    if ',' in before:
+        return True
+
+    # Accept: short headword-style entries
+    if wc <= 6 and dash_pos <= 80:
+        return True
 
     return False
 
@@ -336,8 +405,9 @@ def parse_all(text: str) -> List[Dict]:
     entries = []
     current_block: List[str] = []
 
+    prev_line_blank = True          # treat start-of-file as "preceded by blank"
     for line in lines:
-        if is_entry_header(line):
+        if is_entry_header(line, prev_line_blank):
             if current_block:
                 entry = parse_block(current_block)
                 if entry:
@@ -346,6 +416,7 @@ def parse_all(text: str) -> List[Dict]:
         else:
             if current_block:
                 current_block.append(line)
+        prev_line_blank = (line.strip() == '')
 
     # Don't miss the last block
     if current_block:
@@ -368,16 +439,16 @@ def main():
     print("  METAPHYSICAL BIBLE DICTIONARY — v5 (Definitive)")
     print("=" * 62)
 
-    print("\n[1/3] Extracting text from HTML...")
+    print("\n[1/4] Extracting text from HTML...")
     text = extract_text(HTML_PATH)
     print(f"      ✓ {len(text):,} characters extracted")
 
-    print("\n[2/3] Parsing all entries...")
+    print("\n[2/4] Parsing all entries...")
     entries = parse_all(text)
     entries.sort(key=lambda e: e.get('word', '').lower())
     print(f"      ✓ {len(entries):,} entries parsed")
 
-    print("\n[3/3] Writing JSON...")
+    print("\n[3/4] Writing JSON...")
     with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
         json.dump(entries, f, indent=2, ensure_ascii=False)
     print(f"      ✓ Written to {OUTPUT_PATH}")
@@ -401,6 +472,25 @@ def main():
 
     print(f"\n  Total variant definitions : {total_variants:,}")
     print(f"  Total scripture refs      : {total_refs:,}")
+
+    # ── Validation Warnings ─────────────────────────────────
+    long_word   = [e for e in entries if len(e.get('word', '')) > 50]
+    no_terminal = [e for e in entries
+                   if e.get('metaphysical') and not re.search(r'[.!?"\u201d]\s*$', e['metaphysical'])]
+
+    warn_count = len(long_word) + len(no_terminal)
+    if warn_count:
+        print("\n" + "=" * 62)
+        print(f"  VALIDATION WARNINGS  ({warn_count} total)")
+        print("=" * 62)
+        if long_word:
+            print(f"\n  ⚠ {len(long_word)} entries with word > 50 chars:")
+            for e in long_word[:10]:
+                print(f"    • {e['word'][:80]!r}")
+        if no_terminal:
+            print(f"\n  ⚠ {len(no_terminal)} metaphysical texts lacking terminal punctuation")
+    else:
+        print("\n  ✓ No validation warnings")
 
     # ── Sample: Debir ────────────────────────────────────────
     print("\n" + "=" * 62)
