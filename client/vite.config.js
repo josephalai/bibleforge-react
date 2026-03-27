@@ -6,8 +6,8 @@ export default defineConfig(({ mode }) => {
   // Load root-level .env so port config is shared with Docker Compose
   const env = loadEnv(mode, path.resolve(__dirname, '..'), '')
 
-  const serverPort = parseInt(env.SERVER_PORT) || 3001
-  const vitePort   = parseInt(env.VITE_PORT)   || 5173
+  const appPort  = parseInt(env.APP_PORT)  || 3001
+  const vitePort = parseInt(env.VITE_PORT) || 5173
 
   return {
     plugins: [react()],
@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => {
       port: vitePort,
       proxy: {
         '/api': {
-          target: `http://localhost:${serverPort}`,
+          target: `http://localhost:${appPort}`,
           changeOrigin: true,
         },
       },

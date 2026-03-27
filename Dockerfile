@@ -18,12 +18,9 @@ COPY server/ ./
 # Copy built client files
 COPY --from=client-build /app/client/dist ./public
 
-# Expose the server port
-EXPOSE 3001
-
+# Port is set at runtime via APP_PORT in .env / docker-compose
 # Set environment variables
 ENV NODE_ENV=production
-ENV PORT=3001
 ENV STATIC_PATH=./public
 
 # Start the server
