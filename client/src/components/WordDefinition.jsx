@@ -132,9 +132,9 @@ function WordDefinition({ word, position, onClose, testament }) {
                   <p className="concordance-short-def">{concordance.shortDefinition}</p>
                   {concordance.detailedDefinition && concordance.detailedDefinition.length > 0 && (
                     <div className="concordance-section">
-                      <div className="concordance-section-title">Detailed Definition</div>
+                      <div className="concordance-section-title">Also translated as</div>
                       <p className="concordance-detailed-def">
-                        {concordance.detailedDefinition.join(', ')}
+                        {concordance.detailedDefinition.slice(0, 5).join(', ')}
                       </p>
                     </div>
                   )}
