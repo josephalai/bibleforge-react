@@ -1,0 +1,1194 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "30 of 37",
+  "_entry_range": "ids 2900–2999",
+  "entries": [
+    {
+      "id": 2900,
+      "word": "receptivity",
+      "etym": "",
+      "mibDef": "The attitude of mind that awaits the higher way as a little child awaits the",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2901,
+      "word": "Rechab",
+      "etym": "Heb.",
+      "mibDef": "rider, i. e., of horse, ass, or camel; driver, i. e., of wagon or chariot;",
+      "mibMeta": "The power to control and direct (horseman, rider) the vital thoughts and forces with their resultant body activities (horses relating to the vital forces in man, and wagon, chariot, to the body activities). The central thought in Rechab is that of riding and driving, or the power to control and dire",
+      "candidates": [
+        {
+          "s": "H7394",
+          "def": "Rekab, the name of two Arabs and of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2902,
+      "word": "Rechabites",
+      "etym": "fr. Hcb.",
+      "mibDef": "o/'or belonging to Rechab.",
+      "mibMeta": "That in consciousness which stands for logical reasoning, level-headedness, faithfulness, and good judgment. Jehovah caused Jeremiah to tempt the Rechabites because Jehovah counted the Rechabites (logical reasoning) worthy of a test. Through trial of our spiritual strength our real worth is establis",
+      "candidates": [
+        {
+          "s": "H7397",
+          "def": "Rekah, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2903,
+      "word": "Reelaiah",
+      "etym": "Heb .",
+      "mibDef": "shaken of Jehovah; whom Jehovah makes tremble; brandishing of",
+      "mibMeta": "See RAAMIAH.",
+      "candidates": []
+    },
+    {
+      "id": 2904,
+      "word": "Regem",
+      "etym": "Heb.",
+      "mibDef": "heaping up; piling up; accumulating; heap of stones; cairn; monument;",
+      "mibMeta": "A thought of accumulation of true ideas, cooperation, fellowship, in the Judah or praise consciousness in the individual (heaping up, accumulating, laying on colors, writing, band, associate, friend). Heap of stones, a definition of this name, may refer to the faith steps that have brought this Juda",
+      "candidates": []
+    },
+    {
+      "id": 2905,
+      "word": "Regem - melech",
+      "etym": "Heb.",
+      "mibDef": "friend ofMelech; associate of the king; royal friend;",
+      "mibMeta": "A thought of power that is related to and in association with the will faculty in the individual (friend ofMelech, associate of the king, regal color, i. e., purple, purple representing power and the king representing the will). This thought perceives a higher ruling power for man than the human wil",
+      "candidates": []
+    },
+    {
+      "id": 2906,
+      "word": "regeneration",
+      "etym": "",
+      "mibDef": "A change in which abundant spiritual life, even eternal life, is incorporated into the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3824",
+          "def": "(spiritual) rebirth (the state or the act), i.e., (figuratively) spiritual renovation; specially, Messianic restoration"
+        }
+      ]
+    },
+    {
+      "id": 2907,
+      "word": "Rehabiah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah is wide; Jah is a widener; whom Jehovah enlarges, i. e.,",
+      "mibMeta": "— \"There's a wideness in God's mercy, Like the wideness of the sea; There's a kindness in His justice, Which is more than liberty. \"For the love of God is broader Than the measure of man's mind; And the heart of the Eternal Is most wonderfully kind.\" By contemplating this \"wideness\" and \"broadness\" ",
+      "candidates": [
+        {
+          "s": "H7345",
+          "def": "Rechabjah, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2908,
+      "word": "Rehob",
+      "etym": "Heb.",
+      "mibDef": "width; breadth; largeness; spacious; comprehensive; great",
+      "mibMeta": "Thoughts, and a group of thoughts, in individual consciousness that are broad and open, receptive and comprehensive. The city of Asher, named Rehob, and the man who joined Nehemiah in sealing the covenant, being of Israel, would be thoughts receptive to a higher and broader understanding of God and ",
+      "candidates": [
+        {
+          "s": "H7340",
+          "def": "Rechob, the name of a place in Syria, also of a Syrian and an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2909,
+      "word": "Rehoboam",
+      "etym": "Heb.",
+      "mibDef": "the people are enlarged; comprehending the people; freer of",
+      "mibMeta": "That in man's consciousness which exalts the senses, that which is receptive to and comprehensive of the selfish demands of the sense thoughts and desires only ( comprehending the people, the people are enlarged, he enlarges the people): The reason why Solomon (wisdom) brought forth a son who was co",
+      "candidates": [
+        {
+          "s": "H7346",
+          "def": "Rechabam, an Israelite king"
+        }
+      ]
+    },
+    {
+      "id": 2910,
+      "word": "Rehum",
+      "etym": "Heb.",
+      "mibDef": "soothing; glowing with an inward warmth; compassionate; having pity;",
+      "mibMeta": "Rehum suggests the tender, brooding, mother love of God, which soothes the whole being of man and through which new understanding and realization of Truth are germinated in consciousness and grow and increase to perfect expression and demonstration.",
+      "candidates": [
+        {
+          "s": "H7348",
+          "def": "Rechum, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2911,
+      "word": "Rei",
+      "etym": "",
+      "mibDef": "friendly;",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2912,
+      "word": "reincarnation",
+      "etym": "",
+      "mibDef": "When a soul leaves the body, it rests for a season. Then innate desire for material",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2913,
+      "word": "Rekem",
+      "etym": "Heb.",
+      "mibDef": "decking with colors; variegation; embroidering; shaping after an",
+      "mibMeta": "Rekem, like Rakem, pertains to the cultivation of ideas of Truth, of that which is beautiful, spiritual, Godlike, of that which belongs to the bringing into manifestation of the image-and- likeness-of-God man (decking with colors, embroidering, shaping after an elaborate pattern, floriculture, artis",
+      "candidates": [
+        {
+          "s": "H7552",
+          "def": "Rekem, the name of a place in Palestine, also of a Midianite and an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2914,
+      "word": "Remaliah",
+      "etym": "Heb .",
+      "mibDef": "Jah increases; whom Jehovah hath adorned; whom Jah bedecks;",
+      "mibMeta": "A thought in the higher, more real and true phase of mind in man (an Israelite of note, father of Pekah) that is established in at least a degree of righteousness (whom Jah bedecks, whom Jehovah hath adorned ). \"I will greatly rejoice in Jehovah, my soul shall be joyful in my God; for he hath clothe",
+      "candidates": [
+        {
+          "s": "H7425",
+          "def": "Remaljah, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2915,
+      "word": "Remeth",
+      "etym": "Heb.",
+      "mibDef": "height; high place.",
+      "mibMeta": "See RAMAH and RAMOTH. Remorse — You overcome remorse or regret of any kind by realizing no matter how much you may have erred or failed, you can begin to use the law of mind in the right manner. This is accomplished by thinking on whatsoever things are true, lovely, noble and God-like, and there is ",
+      "candidates": []
+    },
+    {
+      "id": 2916,
+      "word": "Rephael",
+      "etym": "Heb.",
+      "mibDef": "God mends; God restores to a former state; whom God heals; God",
+      "mibMeta": "A natural religious tendency that is a guarding thought to the door of man's inner consciousness (a Levite, a doorkeeper in the Temple). This thought is established in the idea of divine health, wholeness, in God as healer, restorer, perfecter (God restores to a former state, whom God heals, God mak",
+      "candidates": []
+    },
+    {
+      "id": 2917,
+      "word": "Rephah",
+      "etym": "Heb.",
+      "mibDef": "riches; wealth; abundance.",
+      "mibMeta": "The will in man laying hold of the idea of abundant substance (riches, wealth,",
+      "candidates": [
+        {
+          "s": "H7506",
+          "def": "Rephach, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2918,
+      "word": "Rephaiah",
+      "etym": "Heb.",
+      "mibDef": "Jah heeds; whom Jehovah has heeded; Jah restores; Jehovah",
+      "mibMeta": "The various men by this name, belonging to different Israelitish tribes or different",
+      "candidates": [
+        {
+          "s": "H7509",
+          "def": "Rephajah, the name of five Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2919,
+      "word": "Rephaim",
+      "etym": "E-;m (Heb.",
+      "mibDef": "bonds; glooms; terrors; feeirs; fearful ones; giants; strong ones.",
+      "mibMeta": "The seeming strength of binding, fear-producing, opposing thoughts in consciousness, at a certain stage of man's unfoldment into Truth (bonds, terrors, giants, strong ones, enemies in the Promised Land; also a place where the Philistines gathered against Israel).",
+      "candidates": []
+    },
+    {
+      "id": 2920,
+      "word": "Rephidim",
+      "etym": "Heb.",
+      "mibDef": ".stays; supports; cushions; beds; refreshments; places of rest.",
+      "mibMeta": "Peace after victory over temptation (places of rest). We always enter a period of peace and rest after every inner conquest over error— this is Rephidim. Then comes the urge to press on to greater overcomings. The necessity of doing this is sometimes revealed to us in the form of an enemy that arise",
+      "candidates": []
+    },
+    {
+      "id": 2921,
+      "word": "reputed to have great power",
+      "etym": "",
+      "mibDef": "he goes out and kills the animals-but when he gives up to his emotions,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2933",
+          "def": "to be impure in a religious sense"
+        },
+        {
+          "s": "H2804",
+          "def": "to regard"
+        }
+      ]
+    },
+    {
+      "id": 2922,
+      "word": "Resen",
+      "etym": "Heb.",
+      "mibDef": "executive power; reins of government; control from above; restraint;",
+      "mibMeta": "Calah signifies a state of consciousness that is built about the belief that age (as it relates to time) and experience bring balanced judgment and all-round fullness or perfection. (See CALAH.) Nineveh signifies exterior growth, an outer sense of growing vigor, order, unity, harmony, and intellectu",
+      "candidates": [
+        {
+          "s": "H7449",
+          "def": "Resen, a place in Assyrian"
+        }
+      ]
+    },
+    {
+      "id": 2923,
+      "word": "Resheph",
+      "etym": "Heb .",
+      "mibDef": "inflamed; flame; kindled; fire; lightning; fever; burning plague;",
+      "mibMeta": "The definitions of this name point to an unwise expenditure of energy in the fiery executiveness of an active will. (Ephraim refers to the will faculty in man; lightning, flame, fire, bespeak fiery executiveness and activity of the will; inflamed, fever, burning plague, reveal a lack of peace and po",
+      "candidates": []
+    },
+    {
+      "id": 2924,
+      "word": "resists the spiritual",
+      "etym": "",
+      "mibDef": "to it— unknown (agitating, trembling, uttering, reeling, staggering,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2925,
+      "word": "restorative power of nature",
+      "etym": "",
+      "mibDef": "The term given by doctors to the Spirit of health, which is always",
+      "mibMeta": "The raising of man's mind and body from sense to spiritual consciousness. This is accomplished by the quickening power of the Holy Spirit. \"If the Spirit of him that raised up Jesus from the dead dwelleth in you, he that raised up Christ Jesus from the dead shall give life also to your mortal bodies",
+      "candidates": []
+    },
+    {
+      "id": 2926,
+      "word": "restores the sight",
+      "etym": "",
+      "mibDef": "understanding). Until we are able to learn by",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2927,
+      "word": "result is that",
+      "etym": "",
+      "mibDef": "Philistines) against the better judgment",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2928,
+      "word": "resurrection experienced in consciousness",
+      "etym": "",
+      "mibDef": "an inflow of new life, with the corresponding quickening,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G386",
+          "def": "a standing up again, i.e., (literally) a resurrection from death (individual, genitive case or by implication, (its author)), or (figuratively) a (moral) recovery (of spiritual truth)"
+        },
+        {
+          "s": "G1815",
+          "def": "a rising from death"
+        }
+      ]
+    },
+    {
+      "id": 2929,
+      "word": "Reu",
+      "etym": "Heb.",
+      "mibDef": "leading to pasture; feeding a flock; shepherd; friend; companion.",
+      "mibMeta": "The cooperative feeling, the feeling of fellowship (friend, companion), unfolding in individual consciousness to a sense of loving, active responsibility for the welfare of others (leading to pasture, feeding a flock, shepherd ).",
+      "candidates": [
+        {
+          "s": "H7466",
+          "def": "Reu, a postdiluvian patriarch"
+        }
+      ]
+    },
+    {
+      "id": 2930,
+      "word": "Reuben",
+      "etym": "Heb.",
+      "mibDef": "behold a son; vision of the son; behold ye, a son; a son seen.",
+      "mibMeta": "Faith, in its aspect of discernment, sight, in the outer. (See PALLU, son of Reuben.) Reuben, like Simeon, bespeaks understanding. A faculty takes on the tincture and tone of some associate faculty. We must understand the relation of that faculty, since any faculty can take on the character of anoth",
+      "candidates": [
+        {
+          "s": "H7205",
+          "def": "Reuben, a son of Jacob"
+        },
+        {
+          "s": "H7206",
+          "def": "a Reubenite or descendant of Reuben"
+        },
+        {
+          "s": "G4502",
+          "def": "Ruben (i.e., Reuben), an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2931,
+      "word": "Reubenites",
+      "etym": "fr. Heb.",
+      "mibDef": "of ox belonging to Reuben.",
+      "mibMeta": "Thoughts springing from and belonging to that in consciousness which Reuben signifies. (See REUBEN.)",
+      "candidates": [
+        {
+          "s": "H7206",
+          "def": "a Reubenite or descendant of Reuben"
+        }
+      ]
+    },
+    {
+      "id": 2932,
+      "word": "Reuel",
+      "etym": "Heb.",
+      "mibDef": "led of God; shepherded of God; friendship of God; companion of God.",
+      "mibMeta": "A thought of divine guidance and care; also a sense of mutual understanding, comradeship, fellowship, existing between God and man (led of God, shepherded of God, friend ship of God, companion of God). \"Ye are my friends, if ye do the things which I command you. No longer do I call you servants; for",
+      "candidates": [
+        {
+          "s": "H7467",
+          "def": "Reuel, the name of Moses' father-in-law, also of an Edomite and an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2933,
+      "word": "revelation",
+      "etym": "",
+      "mibDef": "An unveiling, a disclosure of Truth, making known that which is hidden. The revelation of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G602",
+          "def": "disclosure"
+        }
+      ]
+    },
+    {
+      "id": 2934,
+      "word": "reverence",
+      "etym": "",
+      "mibDef": "Divine Mind, Spirit, Principle, Truth.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3372",
+          "def": "to fear; morally to revere; causatively to frighten"
+        },
+        {
+          "s": "G1788",
+          "def": "to invert, i.e., (figuratively and reflexively) in a good sense, to respect; or in a bad one, to confound"
+        },
+        {
+          "s": "H7812",
+          "def": "to depress, i.e., prostrate (especially reflexive, in homage to royalty or God)"
+        },
+        {
+          "s": "G5399",
+          "def": "to frighten, i.e., (passively) to be alarmed; by analogy, to be in awe of, i.e., revere"
+        },
+        {
+          "s": "G127",
+          "def": "bashfulness, i.e., (towards men), modesty or (towards God) awe"
+        }
+      ]
+    },
+    {
+      "id": 2935,
+      "word": "revolve in a mental vortex whose dominant tones are good and evil",
+      "etym": "",
+      "mibDef": "duality.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2936,
+      "word": "Rezeph",
+      "etym": "Heb.",
+      "mibDef": "masonry; a pavement; stone mosaics; hearthstone; heated stone, i. e.,",
+      "mibMeta": "A state of thought that has been built up by elaborate reasoning of the intellect, therefore is believed by the outer man to be permanent and sure (masonry, a pavement, stone mosaics, hearthstone ). The ideas of heat and baking suggest zeal and crystallization of thought (heated stone, i. c., for he",
+      "candidates": []
+    },
+    {
+      "id": 2937,
+      "word": "Rezin",
+      "etym": "Heb.",
+      "mibDef": "delight; approbation; good will; favor; grace; will; pleasure; wicked",
+      "mibMeta": "A ruling thought in the phase of the intellectual realm that has no understanding of the real (a king of Syria who fought against Judah). It has a semblance of good (pleasure, delight, good will), which it uses in its reasoning against the inner religious thoughts of the individual that have given t",
+      "candidates": [
+        {
+          "s": "H7526",
+          "def": "Retsin, the name of a Syrian and of an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2938,
+      "word": "Rezon",
+      "etym": "Heb.",
+      "mibDef": "heavy; weighty; august; important; reputed; honored; prince; king.",
+      "mibMeta": "A phase of intellectual thought that aspires to rulership in the consciousness of the individual (weighty, august, important, prince, king; Zobah was a portion of Syria, and Zobah, Syria, Hadadezer, and Damascus refer to phases of the intellect when it is guided by the senses). The text says that Go",
+      "candidates": [
+        {
+          "s": "H7331",
+          "def": "Rezon, a Syrian"
+        }
+      ]
+    },
+    {
+      "id": 2939,
+      "word": "Rhegium",
+      "etym": "Gk.",
+      "mibDef": "rent away; broken off; sundered; fractured; broken; ruptured;",
+      "mibMeta": "A breaking through ( breached ) from one phase of thought to another.",
+      "candidates": []
+    },
+    {
+      "id": 2940,
+      "word": "Rhesa",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "principle; head; chief; first; foremost; elder; former; sum;",
+      "mibMeta": "The will taking the lead, or first place, in consciousness (will, head, chief, first, foremost). Rhesa expresses that which rules or enjoys by virtue of its own inherent movement; hence, the will. Taken in a negative sense this same independent movement will also characterize a venomous principle, e",
+      "candidates": []
+    },
+    {
+      "id": 2941,
+      "word": "Rhoda",
+      "etym": "Gk.",
+      "mibDef": "rose; rosebush.",
+      "mibMeta": "Love, active in the feminine, intuitive, serving, receptive phase of consciousness in the individual (rose; a maid or servant in the home of Mary, the mother of John Mark).",
+      "candidates": []
+    },
+    {
+      "id": 2942,
+      "word": "Rhodes",
+      "etym": "Gk.",
+      "mibDef": "rose; roses; a place of rosebushes.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2943,
+      "word": "Ribai",
+      "etym": "Heb.",
+      "mibDef": "contention; strife; pleading a cause; defending a suit; whom Jehovah",
+      "mibMeta": "A high spiritual aspiration in the active faith faculty in man (a man of Gibeah of Benjamin). This aspiration pertains to an inner perception (faith— Benjamin— being a perceptive quality of mind) of protection, and of overcoming power through Jehovah, I AM (whom Jehovah defends , Jah contends). Ther",
+      "candidates": [
+        {
+          "s": "H7380",
+          "def": "Ribai, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2944,
+      "word": "Riblah",
+      "etym": "Heb.",
+      "mibDef": "very much, i. e., in number or volume; fertility; fruitful; abundance;",
+      "mibMeta": "The belief of the outer man that riches and good, results of true fruitfulness of thought and act, are measured by outer possessions and seeming greatness in the outer; also the belief that strength and power lie in numbers and in outer display (very much, i. e., in number or volume; fertility; frui",
+      "candidates": [
+        {
+          "s": "H7247",
+          "def": "Riblah, a place in Syria"
+        }
+      ]
+    },
+    {
+      "id": 2945,
+      "word": "right side",
+      "etym": "",
+      "mibDef": "The \"right side\" (John 21:6) is always on the side of Truth, the side of power.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3225",
+          "def": "the right hand or side (leg, eye) of a person or other object (as the stronger and more dexterous); locally, the south"
+        },
+        {
+          "s": "G1188",
+          "def": "the right side or (feminine) hand (as that which usually takes)"
+        },
+        {
+          "s": "H3477",
+          "def": "straight (literally or figuratively)"
+        },
+        {
+          "s": "H3233",
+          "def": "right (i.e., at the right hand)"
+        },
+        {
+          "s": "H4941",
+          "def": "properly, a verdict (favorable or unfavorable) pronounced judicially, especially a sentence or formal decree (human or (participant's) divine law, individual or collective), including the act, the place, the suit, the crime, and the penalty; abstractly, justice, including a participant's right or privilege (statutory or customary), or even a style"
+        }
+      ]
+    },
+    {
+      "id": 2946,
+      "word": "Rimmon",
+      "etym": "Heb.",
+      "mibDef": "/«// of substance; marrowy; pomegranate; the exalted; very high.",
+      "mibMeta": "Fruitfulness, or the power to make fruitful (full of substance, marrowy, pomegranate). As a city of Judah it symbolizes the fructifying power of praise. Passing into the possession of the Simeonites, Rimmon would indicate greater obedience and receptivity to Truth. As a border city of Zebulun it ref",
+      "candidates": [
+        {
+          "s": "H7417",
+          "def": "Rimmon, the name of a Syrian deity"
+        }
+      ]
+    },
+    {
+      "id": 2947,
+      "word": "Rimmon-perez (A. V.",
+      "etym": "Heb .",
+      "mibDef": "pomegranates of the breach;",
+      "mibMeta": "A breaking up of the substance idea in consciousness; breaking into its parts, or analyzing, the power to make fruitful ( pomegranates of the breach, breaking up of substance, high cleft). This breaking up takes place so that true ideas of fruitfulness, of increase of substance and life, may find a ",
+      "candidates": []
+    },
+    {
+      "id": 2948,
+      "word": "Rinnah",
+      "etym": "Heb.",
+      "mibDef": "tremulous vibration; strident sound; vibrant voice; song of praise; shout",
+      "mibMeta": "Power expressing through the voice (tremulous vibration, strident sound, vibrant voice, song of praise, shout of joy, roaring torrent). Rinnah may also be said to signify an inner reaching after God. In the consciousness that is not yet poised in understanding, this inner urge and longing may take o",
+      "candidates": []
+    },
+    {
+      "id": 2949,
+      "word": "Riphath",
+      "etym": "Heb.",
+      "mibDef": "centrifuged force; spoken word; rarefaction; slackening; remission;",
+      "mibMeta": "Power expressing actively through the will and the word (centrifugal force, spoken word). This activity, though more mental than spiritual, is refining and healing ( rarefaction , healing). Under a negative influence this same activity or movement becomes lassitude and weakness (slackening).",
+      "candidates": []
+    },
+    {
+      "id": 2950,
+      "word": "Rissah",
+      "etym": "Heb.",
+      "mibDef": "breaking of bonds, disintegration; crushed; ruined; scattered; sprinkled;",
+      "mibMeta": "Upon the apparent ruin that is the result of a breaking up of old crystallized error or limited ideas and thoughts, there comes the refreshing dew of true understanding, of renewed peace, vigor, strength, and joy, from God, who is now being recognized by the individual as the one source of all that ",
+      "candidates": []
+    },
+    {
+      "id": 2951,
+      "word": "Rithmah",
+      "etym": "Heb.",
+      "mibDef": "bound; made fast, wound about; harnessed; Genista; broom; wild",
+      "mibMeta": "A degree of mind cleansing that results in a revivifying and energizing of the nervous system in the individual who has been wandering about in the wilderness of his undisciplined and confused thoughts, while on his way to a clear understanding and demonstrating of Truth (the Promised Land). The \"ju",
+      "candidates": []
+    },
+    {
+      "id": 2952,
+      "word": "Rizia (A. V.",
+      "etym": "Heb .",
+      "mibDef": "delight; pleasure; bliss; satisfaction; desire; love, i. e., to",
+      "mibMeta": "A consciousness of Joy, satisfaction, because of fulfilled desire. The definitions of Rizia make us think of Psalms 37:4: \"Delight thyself also in Jehovah; And he will give thee the desires of thy heart.\"",
+      "candidates": []
+    },
+    {
+      "id": 2953,
+      "word": "Rizpah",
+      "etym": "Heb.",
+      "mibDef": "hot stone (for baking); hearthstone; mosaic; variegated pavement; live",
+      "mibMeta": "The intense desire and very intricate, determined working of the human soul to preserve in consciousness the thoughts and activities resulting from adverse- or personal-will crystallization that Rizpah signifies (hot stone, hearthstone, mosaic, variegated pavement, live coals). Rizpah was a concubin",
+      "candidates": [
+        {
+          "s": "H7532",
+          "def": "Ritspah, an Israelitess"
+        }
+      ]
+    },
+    {
+      "id": 2954,
+      "word": "rod",
+      "etym": "",
+      "mibDef": "ly, the power of the I AM in spiritual consciousness; I AM mastery and dominion.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4294",
+          "def": "a branch (as extending); figuratively, a tribe; also a rod, whether for chastising (figuratively, correction), ruling (a sceptre), throwing (a lance), or walking (a staff; figuratively, a support of life, e.g., bread)"
+        },
+        {
+          "s": "H7626",
+          "def": "a scion, i.e., (literally) a stick (for punishing, writing, fighting, ruling, walking, etc.) or (figuratively) a clan"
+        },
+        {
+          "s": "G4464",
+          "def": "a stick or wand (as a cudgel, a cane or a baton of royalty)"
+        },
+        {
+          "s": "H2415",
+          "def": "a twig"
+        },
+        {
+          "s": "H4731",
+          "def": "a shoot, i.e., stick (with leaves on, or for walking, striking, guiding, divining)"
+        }
+      ]
+    },
+    {
+      "id": 2955,
+      "word": "Rogelim",
+      "etym": "Heb .",
+      "mibDef": "fullers' place; fullers; washers; fulled cloths; footmen; cleansed by",
+      "mibMeta": "An orderly disciplining, cleansing, purifying, and adjusting in the character and consciousness of the individual, that he may be made a more fit abiding place for Spirit (fullers' place, fullers, fulled cloths, footmen, from treading with the feet, and carrying the idea of effort of an organized na",
+      "candidates": []
+    },
+    {
+      "id": 2956,
+      "word": "roll",
+      "etym": "",
+      "mibDef": "The burning of the roll (Jer. 36th chapter) represents a denial by the spiritual",
+      "mibMeta": "Praising and exalting God by music and song, especially in His character as helper of man. This that Romamti-ezer signifies acknowledges and lauds the power and willingness of God, omnipresent Spirit, to heal, to inspire, to uplift, and to restore the individual to spiritual perfection (I have exalt",
+      "candidates": [
+        {
+          "s": "H4039",
+          "def": "a roll"
+        },
+        {
+          "s": "H1556",
+          "def": "to roll (literally or figuratively)"
+        },
+        {
+          "s": "H6428",
+          "def": "to roll (in dust)"
+        },
+        {
+          "s": "G617",
+          "def": "to roll away"
+        }
+      ]
+    },
+    {
+      "id": 2957,
+      "word": "Rome",
+      "etym": "Lat.",
+      "mibDef": "lifted up; exalted; the head; height; strength; might; power.",
+      "mibMeta": "Rome represents the head, in contrast to Jerusalem, which represents the heart. The head is the seat of the dominating personal will, and also of the intellect in man; to the outer man these are the seat of all strength and power. Rome really refers more to the head as the seat of the will than it d",
+      "candidates": [
+        {
+          "s": "G4516",
+          "def": "strength; Roma, the capital of Italy"
+        }
+      ]
+    },
+    {
+      "id": 2958,
+      "word": "room",
+      "etym": "",
+      "mibDef": "The storehouse of ideas. The I AM center is in the crown of the head and dispenses",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8478",
+          "def": "the bottom (as depressed); only adverbially, below (often with prepositional prefix underneath), in lieu of, etc"
+        },
+        {
+          "s": "H4725",
+          "def": "properly, a standing, i.e., a spot; but used widely of a locality (general or specific); also (figuratively) of a condition (of body or mind)"
+        },
+        {
+          "s": "H7337",
+          "def": "to broaden (intransitive or transitive, literal or figurative)"
+        },
+        {
+          "s": "G508",
+          "def": "above the ground, i.e., (properly) the second floor of a building; used for a dome or a balcony on the upper story"
+        },
+        {
+          "s": "G5117",
+          "def": "a spot (general in space, but limited by occupancy; whereas G5561 is a large but participle locality), i.e., location (as a position, home, tract, etc.); figuratively, condition, opportunity; specially, a scabbard"
+        }
+      ]
+    },
+    {
+      "id": 2959,
+      "word": "Rosh",
+      "etym": "Heb .",
+      "mibDef": "principle; head; chief; highest; top; first; foremost; elder; former;",
+      "mibMeta": "Benjamin (son of the right hand, one of Jacob's sons by Rachel) represents an active faith. Rosh (principle, head, chief, first, highest, inclination, will) relates to the will. Since Rosh was a son of Benjamin the significance is that the will, having been given first place in the consciousness of ",
+      "candidates": []
+    },
+    {
+      "id": 2960,
+      "word": "Rufus",
+      "etym": "Lat.",
+      "mibDef": "red; reddish; ruddy.",
+      "mibMeta": "Life activity in body consciousness (red, ruddy).",
+      "candidates": [
+        {
+          "s": "G4504",
+          "def": "red; Rufus, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 2961,
+      "word": "Ruhamah",
+      "etym": "Heb .",
+      "mibDef": "softened; soothed; pitied; finding mercy; inner warmth; inner",
+      "mibMeta": "A consciousness of forgiveness. True forgiveness includes the cleansing away of one's sins, or shortcomings (that hath obtained mercy). True forgiveness is more than just pitying some one and then letting him go on in his old bondage to error and inharmony. True, divine forgiveness releases one from",
+      "candidates": []
+    },
+    {
+      "id": 2962,
+      "word": "Rumah",
+      "etym": "Heb.",
+      "mibDef": "elevation; uplifted head; height; exaltation; sublimity, elation;",
+      "mibMeta": "A group of thoughts in the Israel consciousness of man; they are of a lofty, sublime nature (height, sublimity, exaltation). To the extent that personality enters in, haughtiness and pride result from them.",
+      "candidates": []
+    },
+    {
+      "id": 2963,
+      "word": "Ruth",
+      "etym": "Heb.",
+      "mibDef": "female friend; sympathetic companion; desirable; delightful; friendship;",
+      "mibMeta": "The love of the soul in its natural state, or the love of the natural soul for God and for the things of Spirit. Ruth is a type of the beautiful, the pure, and the loving characteristics of the natural man (sympathetic companion, friendship, female friend, delightful, desirable, beautiful). She was ",
+      "candidates": [
+        {
+          "s": "H7327",
+          "def": "Ruth, a Moabitess"
+        }
+      ]
+    },
+    {
+      "id": 2964,
+      "word": "sabachthani",
+      "etym": "Gk. fr. Chald.",
+      "mibDef": "thou hast forsaken me; thou hast left me; (to what )",
+      "mibMeta": "The cry of the soul at the darkest hour of crucifixion. When the sensual is passing away it seems as though man were giving up all his life, including every good. The sensual looms so large at this hour that for the time being it shuts God from the consciousness of the individual who is going throug",
+      "candidates": []
+    },
+    {
+      "id": 2965,
+      "word": "sabachthani",
+      "etym": "",
+      "mibDef": "In sabachthani we find the root idea of loosening, setting free; letting alone and forsaking",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2966,
+      "word": "Sabaoth",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "armies; hosts.",
+      "mibMeta": "The significance of \"Lord of Sabaoth,\" or \"Jehovah of hosts,\" in individual",
+      "candidates": [
+        {
+          "s": "G4519",
+          "def": "armies; sabaoth (i.e., tsebaoth), a military epithet of God"
+        }
+      ]
+    },
+    {
+      "id": 2967,
+      "word": "Sabbath",
+      "etym": "Heb.",
+      "mibDef": "the seventh, seventh (day); seventh (month); seventh (year); restoration;",
+      "mibMeta": "The Sabbath is the consciousness that we have fulfilled the divine law in both thought and act. The Sabbath of the Lord has nothing to do with any day of the week. God did not make days and weeks, nor has He darkened His clear concepts of Truth by the time element. Time is an invention of the human.",
+      "candidates": [
+        {
+          "s": "H7676",
+          "def": "intermission, i.e (specifically) the Sabbath"
+        },
+        {
+          "s": "G4521",
+          "def": "the Sabbath (i.e., Shabbath), or day of weekly repose from secular avocations (also the observance or institution itself); by extension, a se'nnight, i.e., the interval between two Sabbaths; likewise the plural in all the above applications"
+        },
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "G3956",
+          "def": "all, any, every, the whole"
+        },
+        {
+          "s": "G2596",
+          "def": "(prepositionally) down (in place or time), in varied relations (according to the case (genitive, dative or accusative) with which it is joined)"
+        }
+      ]
+    },
+    {
+      "id": 2968,
+      "word": "Sabtah",
+      "etym": "",
+      "mibDef": "determining motion, a turn; orbit; circuit; course of action; striking;",
+      "mibMeta": "The general cyclical trend of activity of the sensual in man ( orbit, circuit, course of action). Led away by outer seeming, through exercise of personal will man has set up a course of action in sense consciousness that falls short of the divine ideal and is contentious and destructive ( determinin",
+      "candidates": []
+    },
+    {
+      "id": 2969,
+      "word": "Sacar",
+      "etym": "Heb .",
+      "mibDef": "hire; wages; rental; fare; stipend; reward; wage earners; laborers.",
+      "mibMeta": "Sacar (hire, wages, reward, wage earners, laborers, the name of two Israelitish men) clearly points to the thought of spiritual life and service from a standpoint of earning one's salvation, one's good, eternal life, instead of accepting it as a free gift of God through the Son the Christ, the true ",
+      "candidates": [
+        {
+          "s": "H7940",
+          "def": "Sakar, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2970,
+      "word": "Sadoc",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "right; straight; just; righteous; upright; good; justified;",
+      "mibMeta": "The consciousness awakening to and laying hold of the true idea of righteousness and justice. True righteousness and justice measure up to the Christ standard of right, and that standard includes mercy; it involves the right relation of all one's thoughts, faculties, and powers to oneself as well as",
+      "candidates": [
+        {
+          "s": "G4524",
+          "def": "Sadoc (i.e., Tsadok), an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2971,
+      "word": "Salamis",
+      "etym": "Gk.",
+      "mibDef": "possibly, tossing; shaking. More likely, salt; savor; fertility; arable",
+      "mibMeta": "A state of thought that is protective, preservative, uplifting, fertile, harmonious, and wise-or at least is receptive to these qualities (salt, savor, fertility, concord, wisdom).",
+      "candidates": []
+    },
+    {
+      "id": 2972,
+      "word": "Salecah (A. V.",
+      "etym": "Heb .",
+      "mibDef": "moving along; going about; migration;",
+      "mibMeta": "A group of thoughts of a migratory, changeable nature (moving along, going about, migration, wandering, a city). The tendency of this thought activity, however, is toward that which is broader and better (a way, extension); thus it passes into the hands of the Israelitish tribe of Gad, which represe",
+      "candidates": []
+    },
+    {
+      "id": 2973,
+      "word": "Salem",
+      "etym": "Heb.",
+      "mibDef": "whole, sound; complete; perfect; finished; summit; peace; concord;",
+      "mibMeta": "A consciousness of spiritual peace, wholeness, and perfection (whole, summit, peace, complete, perfect; see JERUSALEM).",
+      "candidates": [
+        {
+          "s": "H8004",
+          "def": "Shalem, an early name of Jerusalem"
+        }
+      ]
+    },
+    {
+      "id": 2974,
+      "word": "Salim",
+      "etym": "",
+      "mibDef": "whole; entire; perfect; complete; peace.",
+      "mibMeta": "A thought of peace, also of wholeness and perfection. (See SALEM and ®NON.)",
+      "candidates": []
+    },
+    {
+      "id": 2975,
+      "word": "Sallai",
+      "etym": "Heb.",
+      "mibDef": "worker in reeds; basketmaker; wicker basket; lifting up; suspending;",
+      "mibMeta": "The blending of thoughts that have a capacity for retaining that which the individual wishes to keep in mind; the ability to hold to accepted ideas until they become a part of the consciousness, instead of letting them slip away (basketmaker, one who weaves materials to make a basket, a basket being",
+      "candidates": []
+    },
+    {
+      "id": 2976,
+      "word": "Sallu",
+      "etym": "Heb .",
+      "mibDef": "lifted up; exalted; weighed; compared; judged; valued; accepted; rejected;",
+      "mibMeta": "The exaltation of the faculty of good judgment; the ability to discern and decide between the true and the false or limited in consciousness, that the error may be rejected and the true may be rightly valued and retained.",
+      "candidates": [
+        {
+          "s": "H5543",
+          "def": "Sallu or Sallai, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2977,
+      "word": "Salma",
+      "etym": "Heb.",
+      "mibDef": "covering; garment; mantle; raiment; strength; firmness; peace;",
+      "mibMeta": "See SALMON.",
+      "candidates": [
+        {
+          "s": "H8007",
+          "def": "Salma, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2978,
+      "word": "Salmai (A. V.",
+      "etym": "Heb.",
+      "mibDef": "Jah is recompenser; my recompense; my thanks; my",
+      "mibMeta": "The serving thought in consciousness that rejoices greatly, gives praise and thanksgiving to God, because it perceives that all good comes from or through Jehovah. It is learning that all service should be done as to the Lord and that He is the compensator, not man. (Jah is recompenser, my thanks, m",
+      "candidates": []
+    },
+    {
+      "id": 2979,
+      "word": "Salmon",
+      "etym": "Heb.",
+      "mibDef": "covered; enwrapped; garment; mantle; clothing; raiment; clothed;",
+      "mibMeta": "The idea of peace and perfection's becoming established in individual consciousness and clothing one with harmony, poise, steadfastness, strength, and Truth (clothed, enwrapped, strong, firm, peaceable, perfect; see SALMA).",
+      "candidates": [
+        {
+          "s": "H8012",
+          "def": "Salmon, an Israelite"
+        },
+        {
+          "s": "G4533",
+          "def": "Salmon, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2980,
+      "word": "Salmone",
+      "etym": "Gk.",
+      "mibDef": "agitated by the sea; tossing; billow; commotion; of the sea.",
+      "mibMeta": "A very unrested state of thought (agitated by the sea, tossing, commotion).",
+      "candidates": []
+    },
+    {
+      "id": 2981,
+      "word": "Salome",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "whole, sound; perfect; complete; finished; peaceful; friendly;",
+      "mibMeta": "The soul clothed in the thought of wholeness, soundness, love, peace, and Truth. Salome is said to have been the name of the daughter of Herodias, who danced before Herod and pleased him so much that he offered her anything that she desired, even to the half of his kingdom. At the instigation of her",
+      "candidates": []
+    },
+    {
+      "id": 2982,
+      "word": "salt of the earth",
+      "etym": "",
+      "mibDef": "The thoughts in man that understand, love, and obey Truth as Jesus taught and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4417",
+          "def": "properly, powder, i.e., (specifically) salt (as easily pulverized and dissolved)"
+        },
+        {
+          "s": "G217",
+          "def": "salt; figuratively, prudence"
+        },
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H4416",
+          "def": "salt"
+        },
+        {
+          "s": "H4420",
+          "def": "properly, salted (i.e., land), i.e., a desert"
+        }
+      ]
+    },
+    {
+      "id": 2983,
+      "word": "Salu",
+      "etym": "Heb.",
+      "mibDef": "lifted up; weighed; judged; exalted.",
+      "mibMeta": "A very exalted thought of judgment, discernment, in the higher, truer phase of man's consciousness ( lifted up, exalted, weighed, judged, a man of the Israelitish tribe of Simeon). The fate of Salu's son Zimri shows the inharmonious and disastrous results that ensue when this high ideal attaches its",
+      "candidates": []
+    },
+    {
+      "id": 2984,
+      "word": "Sam. 14:49",
+      "etym": "Heb.",
+      "mibDef": "resemblance; likeness; equality; self-satisfaction; plainness;",
+      "mibMeta": "Virtually the same as ISHVAH, which see. As a son of Saul, Ishvi signifies a sense of equilibrium and poise (evenness, tranquillity, quietness) in man, but more personal and limited in its character than it is spiritual (Saul, father of Ishvi, and first king of Israel, represents the will's function",
+      "candidates": []
+    },
+    {
+      "id": 2985,
+      "word": "Samgar-nebo",
+      "etym": "Heb. fr. Pers .",
+      "mibDef": "graciousness ofNebo; sword of Mercury;",
+      "mibMeta": "Nebo here refers to a Babylonian or Chaldean god. It represents a limited degree of discernment and understanding operative on the purely mental, psychic, or soul plane. Mercury refers to worship of the intellect. Samgar-nebo (graciousness ofNebo, sword of Mercury, gracious interpreter), a prince an",
+      "candidates": []
+    },
+    {
+      "id": 2986,
+      "word": "Samlah",
+      "etym": "Heb.",
+      "mibDef": "garment; raiment; outer garment; mantle; covered; wrapped; clothed.",
+      "mibMeta": "The general ruling characteristics of the outer, seemingly mortal phase of",
+      "candidates": [
+        {
+          "s": "H8072",
+          "def": "Samlah, an Edomite"
+        }
+      ]
+    },
+    {
+      "id": 2987,
+      "word": "Samos",
+      "etym": "Gk.",
+      "mibDef": "height; distinguished; prominent.",
+      "mibMeta": "A high, noble state of thought (height, distinguished; see SAMOTHRACE).",
+      "candidates": []
+    },
+    {
+      "id": 2988,
+      "word": "Samothrace (A. V.",
+      "etym": "Gk.",
+      "mibDef": "Samos of Thrace; height of Thrace.",
+      "mibMeta": "The interpretation is virtually the same as that of Samos, which see. The state of thought that Samos and Samothrace symbolize is intellectual rather than spiritual, since their location is in the Grecian Archipelago and Greece refers to the intellect.",
+      "candidates": []
+    },
+    {
+      "id": 2989,
+      "word": "Samson",
+      "etym": "",
+      "mibDef": "signifies this inner waiting upon the Lord, or resting in the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8123",
+          "def": "Shimshon, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2990,
+      "word": "Samson",
+      "etym": "Heb.",
+      "mibDef": "sunlike; little sun; sunny; distinguished.",
+      "mibMeta": "Physical strength under spiritual discipline, or consciousness of spiritual strength. The root, seat, or cause of this strength is understanding (sunlike, distinguished). Samson, like John the Baptist, was a Nazirite. He was consecrated to God before his birth as one who should \"begin to save Israel",
+      "candidates": [
+        {
+          "s": "H8123",
+          "def": "Shimshon, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2991,
+      "word": "Samuel",
+      "etym": "Heb.",
+      "mibDef": "name of God; sublimity of God; heard of God; instructed of God; God",
+      "mibMeta": "Spiritual discernment; that in man which has conscious contact with God and learns of God (God hath heard, instructed of God). The boy Samuel represents the inner voice, through whose expression we come into a larger realization of ourselves. Samuel also signifies judgment. He judged Israel forty ye",
+      "candidates": [
+        {
+          "s": "H8050",
+          "def": "Shemuel, the name of three Israelites"
+        },
+        {
+          "s": "G4545",
+          "def": "Samuel (i.e., Shemuel), an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2992,
+      "word": "Sanballat",
+      "etym": "Heb. fr. Pers.",
+      "mibDef": "who strengthens the army; lauded by the army; muzzled",
+      "mibMeta": "Enemies in secret (secret enemy, hatred in secret ); error thoughts and fears of which we have not as yet really become conscious, but which are working with seemingly great strength (who strengthens the army) in our subconsciousness and out into our body consciousness and our body. \"Who can discern",
+      "candidates": [
+        {
+          "s": "H5571",
+          "def": "Sanballat, a Persian satrap of Samaria"
+        }
+      ]
+    },
+    {
+      "id": 2993,
+      "word": "Saph",
+      "etym": "Heb.",
+      "mibDef": "threshold; vestibule; dish; basin; doorkeeper; preserver; addition; extension;",
+      "mibMeta": "The seeming power, expansion, greatness, and influence that the intellect possesses when given first place in man's consciousness (threshold, vestibule, dish, doorkeeper, extension, gigantic, a Philistine giant). Saph refers to the rule of the intellect guided by the senses apart from or opposed to ",
+      "candidates": []
+    },
+    {
+      "id": 2994,
+      "word": "Sapphira",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "beautiful; splendid; sapphire; precious stone; writer;",
+      "mibMeta": "See ANANIAS. A sapphire is a stone of a pure, deep, transparent blue, and blue is the color of Truth. Truth is beautiful, but this for which Sapphira stands in the individual must be cleansed from its greed and deception before it can really represent Truth in all its purity and can testify (narrato",
+      "candidates": [
+        {
+          "s": "G4551",
+          "def": "Sapphire, an Israelitess"
+        }
+      ]
+    },
+    {
+      "id": 2995,
+      "word": "Sarai",
+      "etym": "Heb .",
+      "mibDef": "bitter; contentious; dominative; quarrelsome.",
+      "mibMeta": "In Sarai the soul is contending for its rightful place in consciousness; the individual is just recognizing the fact that his affections and emotions (his soul) are in essence divine and must not be united with material conditions, but with Spirit. In Sarah this is more fully realized and expressed.",
+      "candidates": [
+        {
+          "s": "H8297",
+          "def": "Sarai, the wife of Abraham"
+        }
+      ]
+    },
+    {
+      "id": 2996,
+      "word": "Saraph",
+      "etym": "Heb.",
+      "mibDef": "burning; fiery; poisonous; venomous; deadly; burned up; consumed",
+      "mibMeta": "The thought that Saraph signifies belongs to the result of a wrong or unwise use of the life, or vital forces and powers, in the organism of the individual (burning, fiery, poisonous, venomous, burned up). The appetites and lusts of the flesh, when indulged in, poison the system, dull the ability to",
+      "candidates": []
+    },
+    {
+      "id": 2997,
+      "word": "Sargon",
+      "etym": "Heb. fr. Pcrs.",
+      "mibDef": ".v«/z prince; prince of the sun.",
+      "mibMeta": "The exaltation of the will functioning through sense intellect, as though it were the rightful ruling power in the individual (sun prince, a king of Assyria).",
+      "candidates": [
+        {
+          "s": "H5623",
+          "def": "Sargon, an Assyrian king"
+        }
+      ]
+    },
+    {
+      "id": 2998,
+      "word": "Sarid",
+      "etym": "",
+      "mibDef": "a sole survivor; one left; a survivor; a remnant; a refuge.",
+      "mibMeta": "The divine idea of man, the Word of God, that abides forever, even though all outer seemings may fail. Heaven and earth may pass away, yet the true Word, the spiritual idea underlying all existence, remains (a survivor, one left), and retains its protecting, sustaining, working power (a refuge). Thi",
+      "candidates": [
+        {
+          "s": "H8301",
+          "def": "Sarid, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2999,
+      "word": "Sarsechim",
+      "etym": "Heb.",
+      "mibDef": "prince of the eunuchs; chief eunuch.",
+      "mibMeta": "",
+      "candidates": []
+    }
+  ]
+}

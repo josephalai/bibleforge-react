@@ -183,11 +183,9 @@ function WordDefinition({ word, position, onClose, testament }) {
                   {mib.definition && (
                     <p className="mib-definition">{mib.definition}</p>
                   )}
-                  {mib.metaphysical && (
+                  {(mib.metaphysical || mib.context) && (
                     <p className="mib-metaphysical">
-                      {mib.metaphysical.length > 500
-                        ? mib.metaphysical.slice(0, 500).trimEnd() + '…'
-                        : mib.metaphysical}
+                      {mib.metaphysical || mib.context}
                     </p>
                   )}
                   {mib.scriptureRefs && mib.scriptureRefs.length > 0 && (

@@ -1,0 +1,1454 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "16 of 37",
+  "_entry_range": "ids 1500–1599",
+  "entries": [
+    {
+      "id": 1500,
+      "word": "Hazar-susah",
+      "etym": "Heb.",
+      "mibDef": "village of the horse; court of the mare. This name is",
+      "mibMeta": "A phase of the soul, or a group of thoughts in consciousness, whose central, dominating idea is activity, life, vital force, power (village of the horse). These thoughts are allotted to Simeon, are made receptive and obedient to the true light of Spirit (Simeon meaning receptivity, obedience, hearin",
+      "candidates": []
+    },
+    {
+      "id": 1501,
+      "word": "Hazar-susim",
+      "etym": "Heb.",
+      "mibDef": "village of horses; court of cavalry. This name is in the",
+      "mibMeta": "Its significance is the same as that of Hazar-susah, only increased, multiplied. (See HAZAR-SUSAH.) Hazazon-tamar (in A.V., Genesis 14. 7, Hazezon-tamar), haz'-a-zon-ta'-mSr (Heb.) a division of palms; pruning of the palms; felling of palms; victory divided; excellence cut in pieces; a column cut in",
+      "candidates": []
+    },
+    {
+      "id": 1502,
+      "word": "Hazarmaveth",
+      "etym": "Heb.",
+      "mibDef": "village of death; court of death.",
+      "mibMeta": "A central thought or group of thoughts belonging to the sense mind of man, having as its ruling idea a strong belief in death and in that which leads to disintegration, corruption. Its conception of justice (court) is always on the negative, condemnatory, and destructive side.",
+      "candidates": []
+    },
+    {
+      "id": 1503,
+      "word": "Hazer-hatticon (A.V.",
+      "etym": "Heb.",
+      "mibDef": "the middle Hazer; the middle",
+      "mibMeta": "A meaning of middle is equally distant from given extremes. This clearly bespeaks temperance, equilibrium, balance, and poise in character. Hazer-hatticon therefore (the middle village) signifies a consciousness of adjustment, equableness, poise. Hazeroth, ha-ze'-roth (Heb.)-feminine plural of Hazer",
+      "candidates": []
+    },
+    {
+      "id": 1504,
+      "word": "Haziel",
+      "etym": "Heb.",
+      "mibDef": "vision of God; whom God sees; meditation of God; beholding of God.",
+      "mibMeta": "Spiritual seeing, seeing or understanding with the eye (or mind) of Spirit.",
+      "candidates": []
+    },
+    {
+      "id": 1505,
+      "word": "Hazo",
+      "etym": "Heb.",
+      "mibDef": "vision; revelation; prophecy; league; covenant; agreement.",
+      "mibMeta": "The arousing of a higher desire in man (Nahor) through the activity of faith (Abraham) causes the piercing of the darkness of material belief and opens the way for a new and clearer insight into Truth. This new insight is symbolized by Hazo, Nahor's son. This clearing of the understanding in man, at",
+      "candidates": []
+    },
+    {
+      "id": 1506,
+      "word": "Hazor",
+      "etym": "Heb",
+      "mibDef": "village; court; castle; fortification; habitation; encampment; pasture;",
+      "mibMeta": "A fortified state of thought in the subconscious mind of man; that which Jabin signifies is the central or dominating idea. (See JABIN.) When praise and prayer take dominion over this state of thought (the city of Jabin was allotted to Judah) a great change takes place in it; it is raised to a highe",
+      "candidates": [
+        {
+          "s": "H2674",
+          "def": "Chatsor, the name (thus simply) of two places in Palestine and of one in Arabia"
+        }
+      ]
+    },
+    {
+      "id": 1507,
+      "word": "Hazzelelponi (A.V.",
+      "etym": "Heb.",
+      "mibDef": "the shadow looking back upon me;",
+      "mibMeta": "The individual soul turning within to God (the shadow-man— looking back upon",
+      "candidates": []
+    },
+    {
+      "id": 1508,
+      "word": "he is the treasurer of our system",
+      "etym": "",
+      "mibDef": "but he cannot",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1931",
+          "def": "he (she or it); only expressed when emphatic or without a verb; also (intensively) self, or (especially with the article) the same; sometimes (as demonstrative) this or that; occasionally (instead of copula) as or are"
+        },
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H6213",
+          "def": "to do or make, in the broadest sense and widest application"
+        },
+        {
+          "s": "G846",
+          "def": "the reflexive pronoun self, used (alone or in the comparative G1438) of the third person, and (with the proper personal pronoun) of the other persons"
+        }
+      ]
+    },
+    {
+      "id": 1509,
+      "word": "heal",
+      "etym": "",
+      "mibDef": "\"To make hale, sound, or whole\" (Webster). To bring forth the perfect Christ man that",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7495",
+          "def": "properly, to mend (by stitching), i.e., (figuratively) to cure"
+        },
+        {
+          "s": "G2323",
+          "def": "to wait upon menially, i.e., (figuratively) to adore (God), or (specially) to relieve (of disease)"
+        },
+        {
+          "s": "G2390",
+          "def": "to cure (literally or figuratively)"
+        },
+        {
+          "s": "G1295",
+          "def": "to save thoroughly, i.e., (by implication or analogy) to cure, preserve, rescue, etc"
+        }
+      ]
+    },
+    {
+      "id": 1510,
+      "word": "healer",
+      "etym": "",
+      "mibDef": "One who heals the sins of man, and restores him to his original, sinless state. The healer",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1511,
+      "word": "healer",
+      "etym": "",
+      "mibDef": "One who has a great compassion and yearning to help humanity out of its errors",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1512,
+      "word": "healing",
+      "etym": "",
+      "mibDef": "Healing of an individual by a person who is not in the physical presence of the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2323",
+          "def": "to wait upon menially, i.e., (figuratively) to adore (God), or (specially) to relieve (of disease)"
+        },
+        {
+          "s": "H4832",
+          "def": "properly, curative, i.e., literally (concretely) a medicine, or (abstractly) a cure; figuratively (concretely) deliverance, or (abstractly) placidity"
+        },
+        {
+          "s": "H8585",
+          "def": "a channel (into which water is raised for irrigation)"
+        },
+        {
+          "s": "H3545",
+          "def": "properly, a weakening; figuratively, alleviation, i.e., cure"
+        },
+        {
+          "s": "G2392",
+          "def": "curing (the act)"
+        }
+      ]
+    },
+    {
+      "id": 1513,
+      "word": "healing",
+      "etym": "",
+      "mibDef": "Permanent healing is never gained through medication or drug",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2323",
+          "def": "to wait upon menially, i.e., (figuratively) to adore (God), or (specially) to relieve (of disease)"
+        },
+        {
+          "s": "H4832",
+          "def": "properly, curative, i.e., literally (concretely) a medicine, or (abstractly) a cure; figuratively (concretely) deliverance, or (abstractly) placidity"
+        },
+        {
+          "s": "H8585",
+          "def": "a channel (into which water is raised for irrigation)"
+        },
+        {
+          "s": "H3545",
+          "def": "properly, a weakening; figuratively, alleviation, i.e., cure"
+        },
+        {
+          "s": "G2392",
+          "def": "curing (the act)"
+        }
+      ]
+    },
+    {
+      "id": 1514,
+      "word": "healing",
+      "etym": "",
+      "mibDef": "Healing on the mental plane.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2323",
+          "def": "to wait upon menially, i.e., (figuratively) to adore (God), or (specially) to relieve (of disease)"
+        },
+        {
+          "s": "H4832",
+          "def": "properly, curative, i.e., literally (concretely) a medicine, or (abstractly) a cure; figuratively (concretely) deliverance, or (abstractly) placidity"
+        },
+        {
+          "s": "H8585",
+          "def": "a channel (into which water is raised for irrigation)"
+        },
+        {
+          "s": "H3545",
+          "def": "properly, a weakening; figuratively, alleviation, i.e., cure"
+        },
+        {
+          "s": "G2392",
+          "def": "curing (the act)"
+        }
+      ]
+    },
+    {
+      "id": 1515,
+      "word": "healing and will power",
+      "etym": "",
+      "mibDef": "Through the use of the will, it is possible to bring about an appearance",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2323",
+          "def": "to wait upon menially, i.e., (figuratively) to adore (God), or (specially) to relieve (of disease)"
+        },
+        {
+          "s": "H4832",
+          "def": "properly, curative, i.e., literally (concretely) a medicine, or (abstractly) a cure; figuratively (concretely) deliverance, or (abstractly) placidity"
+        },
+        {
+          "s": "H8585",
+          "def": "a channel (into which water is raised for irrigation)"
+        },
+        {
+          "s": "H3545",
+          "def": "properly, a weakening; figuratively, alleviation, i.e., cure"
+        },
+        {
+          "s": "G2392",
+          "def": "curing (the act)"
+        }
+      ]
+    },
+    {
+      "id": 1516,
+      "word": "healing name",
+      "etym": "",
+      "mibDef": "Any declaration man may make, in which the name Jesus Christ is used",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2323",
+          "def": "to wait upon menially, i.e., (figuratively) to adore (God), or (specially) to relieve (of disease)"
+        },
+        {
+          "s": "H4832",
+          "def": "properly, curative, i.e., literally (concretely) a medicine, or (abstractly) a cure; figuratively (concretely) deliverance, or (abstractly) placidity"
+        },
+        {
+          "s": "H8585",
+          "def": "a channel (into which water is raised for irrigation)"
+        },
+        {
+          "s": "H3545",
+          "def": "properly, a weakening; figuratively, alleviation, i.e., cure"
+        },
+        {
+          "s": "G2392",
+          "def": "curing (the act)"
+        }
+      ]
+    },
+    {
+      "id": 1517,
+      "word": "healing virtue",
+      "etym": "",
+      "mibDef": "The restoring power of Being. \"For power came forth from him, and healed them",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2323",
+          "def": "to wait upon menially, i.e., (figuratively) to adore (God), or (specially) to relieve (of disease)"
+        },
+        {
+          "s": "H4832",
+          "def": "properly, curative, i.e., literally (concretely) a medicine, or (abstractly) a cure; figuratively (concretely) deliverance, or (abstractly) placidity"
+        },
+        {
+          "s": "H8585",
+          "def": "a channel (into which water is raised for irrigation)"
+        },
+        {
+          "s": "H3545",
+          "def": "properly, a weakening; figuratively, alleviation, i.e., cure"
+        },
+        {
+          "s": "G2392",
+          "def": "curing (the act)"
+        }
+      ]
+    },
+    {
+      "id": 1518,
+      "word": "health and the word",
+      "etym": "",
+      "mibDef": "Experiences, innumerable times repeated, prove the power of words to",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H724",
+          "def": "wholeness (literally or figuratively)"
+        },
+        {
+          "s": "H3444",
+          "def": "something saved, i.e., (abstractly) deliverance; hence, aid, victory, prosperity"
+        },
+        {
+          "s": "H4832",
+          "def": "properly, curative, i.e., literally (concretely) a medicine, or (abstractly) a cure; figuratively (concretely) deliverance, or (abstractly) placidity"
+        },
+        {
+          "s": "H7500",
+          "def": "a cure"
+        }
+      ]
+    },
+    {
+      "id": 1519,
+      "word": "hearing",
+      "etym": "",
+      "mibDef": "Ability to look deeper than words and catch the inner meaning. \"He that hath ears, let",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G191",
+          "def": "to hear (in various senses)"
+        },
+        {
+          "s": "H8085",
+          "def": "to hear intelligently (often with implication of attention, obedience, etc.; causatively, to tell, etc.)"
+        },
+        {
+          "s": "G189",
+          "def": "hearing (the act, the sense or the thing heard)"
+        },
+        {
+          "s": "H241",
+          "def": "broadness. i.e., (concrete) the ear (from its form in man)"
+        },
+        {
+          "s": "H8088",
+          "def": "something heard, i.e., a sound, rumor, announcement; abstractly, audience"
+        }
+      ]
+    },
+    {
+      "id": 1520,
+      "word": "heart",
+      "etym": "",
+      "mibDef": "The heart is love, the affectional consciousness in man. It is the faculty through which",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3820",
+          "def": "the heart; also used (figuratively) very widely for the feelings, the will and even the intellect; likewise for the center of anything"
+        },
+        {
+          "s": "H3824",
+          "def": "the heart (as the most interior organ)"
+        },
+        {
+          "s": "G2588",
+          "def": "the heart, i.e., (figuratively) the thoughts or feelings (mind); also (by analogy) the middle"
+        },
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "H3825",
+          "def": "the heart (as the most interior organ)"
+        }
+      ]
+    },
+    {
+      "id": 1521,
+      "word": "heart",
+      "etym": "",
+      "mibDef": "The heart of the unregenerate man is both good and evil, but the evil is",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3820",
+          "def": "the heart; also used (figuratively) very widely for the feelings, the will and even the intellect; likewise for the center of anything"
+        },
+        {
+          "s": "H3824",
+          "def": "the heart (as the most interior organ)"
+        },
+        {
+          "s": "G2588",
+          "def": "the heart, i.e., (figuratively) the thoughts or feelings (mind); also (by analogy) the middle"
+        },
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "H3825",
+          "def": "the heart (as the most interior organ)"
+        }
+      ]
+    },
+    {
+      "id": 1522,
+      "word": "heaven",
+      "etym": "",
+      "mibDef": "The consciousness of Truth that has been formulated and established.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8064",
+          "def": "the sky (as aloft; the dual perhaps alluding to the visible arch in which the clouds move, as well as to the higher ether where the celestial bodies revolve)"
+        },
+        {
+          "s": "G3772",
+          "def": "the sky; by extension, heaven (as the abode of God); by implication, happiness, power, eternity; specially, the Gospel (Christianity)"
+        },
+        {
+          "s": "H8065",
+          "def": "the sky (as aloft; the dual perhaps alluding to the visible arch in which the clouds move, as well as to the higher ether where the celestial bodies revolve)"
+        },
+        {
+          "s": "H7834",
+          "def": "a powder (as beaten small); by analogy, a thin vapor; by extension, the firmament"
+        }
+      ]
+    },
+    {
+      "id": 1523,
+      "word": "heaven",
+      "etym": "",
+      "mibDef": "Faith in Spirit and the ultimate dominance of the good in all men will",
+      "mibMeta": "The kingdom of heaven, or of the heavens, is a state of consciousness in which the soul and the body are in harmony with Divine Mind. Teachers of Metaphysicalphysics find that their most difficult work is getting students to recognize that heaven is a condition of mind. Jesus evidently experienced l",
+      "candidates": [
+        {
+          "s": "H8064",
+          "def": "the sky (as aloft; the dual perhaps alluding to the visible arch in which the clouds move, as well as to the higher ether where the celestial bodies revolve)"
+        },
+        {
+          "s": "G3772",
+          "def": "the sky; by extension, heaven (as the abode of God); by implication, happiness, power, eternity; specially, the Gospel (Christianity)"
+        },
+        {
+          "s": "H8065",
+          "def": "the sky (as aloft; the dual perhaps alluding to the visible arch in which the clouds move, as well as to the higher ether where the celestial bodies revolve)"
+        },
+        {
+          "s": "H7834",
+          "def": "a powder (as beaten small); by analogy, a thin vapor; by extension, the firmament"
+        }
+      ]
+    },
+    {
+      "id": 1524,
+      "word": "heaven and earth",
+      "etym": "",
+      "mibDef": "Two states of mind, the ideal and the manifestation. According to Revelation",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8064",
+          "def": "the sky (as aloft; the dual perhaps alluding to the visible arch in which the clouds move, as well as to the higher ether where the celestial bodies revolve)"
+        },
+        {
+          "s": "G3772",
+          "def": "the sky; by extension, heaven (as the abode of God); by implication, happiness, power, eternity; specially, the Gospel (Christianity)"
+        },
+        {
+          "s": "H8065",
+          "def": "the sky (as aloft; the dual perhaps alluding to the visible arch in which the clouds move, as well as to the higher ether where the celestial bodies revolve)"
+        },
+        {
+          "s": "H7834",
+          "def": "a powder (as beaten small); by analogy, a thin vapor; by extension, the firmament"
+        }
+      ]
+    },
+    {
+      "id": 1525,
+      "word": "Heber",
+      "etym": "Heb.",
+      "mibDef": "that which passes further; on the other side; a passing over; a going",
+      "mibMeta": "A passing over from the purely sensate, physical, earthly thought to a higher concept of religious Truth. This is the beginning of a conscious alliance with the mind of Spirit, and it will culminate in man and God's becoming companions, associates, friends, and, in a sense, equals: \"Ye therefore sha",
+      "candidates": [
+        {
+          "s": "H2268",
+          "def": "Cheber, the name of a Kenite and of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1526,
+      "word": "Heberites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Heber or Eber.",
+      "mibMeta": "Thoughts and activities belonging to the Heber consciousness in man. (See HEBER.)",
+      "candidates": []
+    },
+    {
+      "id": 1527,
+      "word": "Hebrew",
+      "etym": "fr. Heb.",
+      "mibDef": "belonging to Eber.",
+      "mibMeta": "See EBER and HEBER for ideas as to the symbology of Hebrew. The Hebrews surely represent the thoughts in man that have come up out of the purely material and passed over to a higher concept of God and of His laws, into a closer and clearer relationship with God. These thoughts are, however, still un",
+      "candidates": [
+        {
+          "s": "H5680",
+          "def": "an Eberite (i.e., Hebrew) or descendant of Eber"
+        },
+        {
+          "s": "G1447",
+          "def": "Hebraistically or in the Jewish (Chaldee) language"
+        },
+        {
+          "s": "G1446",
+          "def": "the Hebraistic (Hebrew) or Jewish (Chaldee) language"
+        },
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "G1445",
+          "def": "a Hebraean (i.e., Hebrew) or Jew"
+        }
+      ]
+    },
+    {
+      "id": 1528,
+      "word": "Hebrewess",
+      "etym": "fr. Heb.",
+      "mibDef": "a Jewess.",
+      "mibMeta": "The soul, or feminine aspect of the thought for which Hebrew stands. (See HEBREW.)",
+      "candidates": []
+    },
+    {
+      "id": 1529,
+      "word": "Hebron",
+      "etym": "Heb.",
+      "mibDef": "united; joined together; conjunction; cemented; welded; bound by a",
+      "mibMeta": "An association of ideas; in other words, concentration. Hebron also means friendship, brotherhood. Spiritual unfoldment always causes one to give to God's children everywhere a kindly feeling that is constant, deep, tender. This is one of the indispensable requirements of every successful spiritual ",
+      "candidates": [
+        {
+          "s": "H2275",
+          "def": "Chebron, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1530,
+      "word": "Hebronites",
+      "etym": "fr. Hcb.",
+      "mibDef": "o/'or belonging to Hebron; the confederated; the allied; the",
+      "mibMeta": "Thoughts belonging to and springing from the Hebron consciousness unified with the love thought (Levi). (See HEBRON,)",
+      "candidates": [
+        {
+          "s": "H2276",
+          "def": "Chebronite (collectively), an inhabitant of Chebron"
+        }
+      ]
+    },
+    {
+      "id": 1531,
+      "word": "Hegai (A.V.",
+      "etym": "Heb. or Pers.",
+      "mibDef": "eunuch; separated; carried away;",
+      "mibMeta": "A thought activity, belonging to the puffed-up personal will (King Ahasuerus), that has been intrusted by the will with the guardianship of the soul emotions and desires (the women of the king's harem). All capacity to increase life and its forms has been eliminated from this thought for which Hegai",
+      "candidates": [
+        {
+          "s": "H1896",
+          "def": "Hege or Hegai, a eunuch of Xerxes"
+        }
+      ]
+    },
+    {
+      "id": 1532,
+      "word": "heifer",
+      "etym": "",
+      "mibDef": "The heifer, she-goat, ram, turtledove, and young pigeon that Abram was instructed to take (Gen.",
+      "mibMeta": "The heifer, she-goat, ram, turtledove, and young pigeon that Abram was instructed to take represent ideas on the sense plane that must be sacrificed. The idea of physical strength must be given up, and its spiritual source must be realized. The human will must be given up, that the divine will may w",
+      "candidates": [
+        {
+          "s": "H5697",
+          "def": "a (female) calf, especially one nearly grown (i.e., a heifer)"
+        },
+        {
+          "s": "H6510",
+          "def": "a heifer"
+        },
+        {
+          "s": "H8316",
+          "def": "cremation"
+        },
+        {
+          "s": "H1241",
+          "def": "a beeve or an animal of the ox family of either gender (as used for plowing); collectively, a herd"
+        },
+        {
+          "s": "G1151",
+          "def": "a heifer (as tame)"
+        }
+      ]
+    },
+    {
+      "id": 1533,
+      "word": "Helah",
+      "etym": "Heb.",
+      "mibDef": "worn away; scaled; rusted; sick; diseased; leprous; stroked; caressed;",
+      "mibMeta": "The kindly, sympathetic, and tender qualities of the human soul (tenderness). But this phase of the soul also suggests corrupting, deteriorating tendencies (rusted, diseased). The soul qualities must be raised to spiritual expression before they will work wholly for man's good.",
+      "candidates": [
+        {
+          "s": "H2458",
+          "def": "Chelah, an Israelitess"
+        }
+      ]
+    },
+    {
+      "id": 1534,
+      "word": "Helam",
+      "etym": "Yieb.",
+      "mibDef": "great strength; might; large army; fortress; great ability; substance;",
+      "mibMeta": "A strongly fortified place in consciousness where there is much substance. It is a unification of the substance and strength ideas. The host of Hadarezer, with Shobach as their captain, came to this place to fight against Israel; they expected to utilize the substance and strength that Helam signifi",
+      "candidates": []
+    },
+    {
+      "id": 1535,
+      "word": "Helbon",
+      "etym": "Heb .",
+      "mibDef": "fat; fertile; fruitful; rich; fatness; the negative aspects of the word are",
+      "mibMeta": "The rich substance of life, with all its possibilities of unfoldment and fruitfulness. Tyre and Damascus, places that are mentioned in conjunction with Helbon, belong in the realm of sensation and material thought, in individual consciousness-therefore the rich life substance that is signified by He",
+      "candidates": []
+    },
+    {
+      "id": 1536,
+      "word": "Heldai",
+      "etym": "Heb.",
+      "mibDef": "smooth; slippery; gliding away; fleeting; transitory existence; this world,",
+      "mibMeta": "The enduring essence of divine courage and strength. (Netophah means distillation, and one meaning of distillation is the essence of anything, obtained by a process of purification. Othniel means lion of God, God is strength, force of God; these words signify divine courage, strength, and conquering",
+      "candidates": [
+        {
+          "s": "H2469",
+          "def": "Cheldai, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1537,
+      "word": "Heleb",
+      "etym": "Heb .",
+      "mibDef": "fat; fertile; fruitful; rich; the finest.",
+      "mibMeta": "Abundant substance (fat, fertile, rich) in essence, or ideal (Netophathite). This rich substance is spiritual. In Heled (see HELED), however, the subtle, worldly belief (slippery, crafty, fleeting ) in the transitoriness of all things is actively expressing itself. This belief will bring about age, ",
+      "candidates": [
+        {
+          "s": "H2460",
+          "def": "Cheleb, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1538,
+      "word": "Heled",
+      "etym": "Heb.",
+      "mibDef": "smooth; slippery; crafty; swift; fleeting; gliding away; transitory",
+      "mibMeta": "See HELEB.",
+      "candidates": [
+        {
+          "s": "H2466",
+          "def": "Cheled, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1539,
+      "word": "Helek",
+      "etym": "Heb.",
+      "mibDef": "a lot; portion; possession; distribution.",
+      "mibMeta": "A conception, by the individual of his share in man's true inheritance (portion, possession). It is through high spiritual aspiration and discernment of Truth (Gilead of Manasseh) that the understanding of the individual is awakened to consciousness of his portion or allotment in the divine perfecti",
+      "candidates": []
+    },
+    {
+      "id": 1540,
+      "word": "Helekites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Helek.",
+      "mibMeta": "Thoughts springing from and belonging to the conception of Truth that Helek symbolizes. (See HELEK.)",
+      "candidates": []
+    },
+    {
+      "id": 1541,
+      "word": "Helem",
+      "etym": "Heb .",
+      "mibDef": "full-grown; puberty; rounded; ripe; robust; strong; manly; dreaming;",
+      "mibMeta": "The same as the Heldai of Zechariah 6:10, the enduring essence of divine courage, strength, and overcoming power of the full-grown and the fully rounded-out man. In the Helem of Zechariah 6, there is no worldly belief to hinder the expression of the divine qualities in true visioning ( dreaming ) an",
+      "candidates": []
+    },
+    {
+      "id": 1542,
+      "word": "Heleph",
+      "etym": "Heb.",
+      "mibDef": "glide along; pass on; perish; disappear; change; exchange; renew;",
+      "mibMeta": "A passing over from the belief that strength (Naphtali) is purely physical to the consciousness of Spirit as the source of one's strength; in other words, the exchange of one's material thought about strength for an understanding of the spirituality, the unfailingness, and the abidingness of strengt",
+      "candidates": []
+    },
+    {
+      "id": 1543,
+      "word": "Heli",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "lifted up; ascent; summit; supreme; highest; most high.",
+      "mibMeta": "A phase of man's consciousness that is always seeking spiritual progress, that is ever looking upward and onward to something higher and better. In its highest sense Heli refers to the Most High.",
+      "candidates": []
+    },
+    {
+      "id": 1544,
+      "word": "Helkai",
+      "etym": "Heb.",
+      "mibDef": "Jehovah is my lot; possessed ofJcih; Jehovah his portion; apportioned;",
+      "mibMeta": "Meraioth means revelations; it also has directly opposing meanings, rebellions and perversions. This shows a divided mind, a consciousness that entertains both Truth and error, God and Devil. Helkai the priest, and head of the house of Meraioth, symbolizes a decision made in favor of Truth— a choosi",
+      "candidates": []
+    },
+    {
+      "id": 1545,
+      "word": "Helkath",
+      "etym": "Heb.",
+      "mibDef": "smoothness; lot; portion; division; possession; territory; field.",
+      "mibMeta": "Conscious possession of substance (field signifying substance). Asher also pertains to the happiness associated with spiritual understanding and substance, but the Asher consciousness as symbolized in the city of Helkath lays hold of only a portion of the omnipresent, universal supply or spiritual s",
+      "candidates": [
+        {
+          "s": "H2520",
+          "def": "Chelkath, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1546,
+      "word": "Helkath-hazzurim",
+      "etym": "Heb .",
+      "mibDef": "smoothness of the rocks; lot or portion of rocks;",
+      "mibMeta": "The substance (field) of man's thoughts and words taking on the sharpness of sharp-edged stones and the hardness of rocks to defeat the intellect, or reason. Abner signifies the light, the intelligence, of the illumined intellect, or reason. Gibeon is a high place in consciousness where man should l",
+      "candidates": []
+    },
+    {
+      "id": 1547,
+      "word": "hell",
+      "etym": "marg. and A.V.",
+      "mibDef": "Gehenna (Gk .)— region of lamentations; place of purifying fires; place",
+      "mibMeta": "See HADES, HINNOM, and GEHENNA One does not have to die in order to go to hell, any more than one has to die to go to heaven. Both are states of mind, and conditions, which people experience as a direct outworking of their thoughts, beliefs, words, and acts. If one's mental processes are out of harm",
+      "candidates": [
+        {
+          "s": "H7585",
+          "def": "hades or the world of the dead (as if a subterranean retreat), including its accessories and inmates"
+        },
+        {
+          "s": "G86",
+          "def": "properly, unseen, i.e., \"Hades\" or the place (state) of departed souls"
+        },
+        {
+          "s": "G1067",
+          "def": "valley of (the son of) Hinnom; ge-henna (or Ge-Hinnom), a valley of Jerusalem, used (figuratively) as a name for the place (or state) of everlasting punishment"
+        }
+      ]
+    },
+    {
+      "id": 1548,
+      "word": "hell",
+      "etym": "",
+      "mibDef": "Symbolized in the Bible as Gehenna, Ge Hinnom, the Valley of Hinnom— a place outside",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7585",
+          "def": "hades or the world of the dead (as if a subterranean retreat), including its accessories and inmates"
+        },
+        {
+          "s": "G86",
+          "def": "properly, unseen, i.e., \"Hades\" or the place (state) of departed souls"
+        },
+        {
+          "s": "G1067",
+          "def": "valley of (the son of) Hinnom; ge-henna (or Ge-Hinnom), a valley of Jerusalem, used (figuratively) as a name for the place (or state) of everlasting punishment"
+        }
+      ]
+    },
+    {
+      "id": 1549,
+      "word": "Helon",
+      "etym": "Heb .",
+      "mibDef": "strong; firm; stable; perseverance.",
+      "mibMeta": "Strength of character, courage, and perseverance established in the consciousness through order. (Zebulun represents the faculty of order. Of the disciples of Jesus Christ, James the son of Alphus stands for order. Order, we are told, is heaven's first law. There can be no peace, harmony, or right r",
+      "candidates": [
+        {
+          "s": "H2497",
+          "def": "Chelon, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1550,
+      "word": "Heman",
+      "etym": "Heb .",
+      "mibDef": "durable; lasting; faithful; trustworthy; sure; true.",
+      "mibMeta": "Thoughts full of faith and trust in God, thoughts that are honest, true, steadfast, accurate. Great wisdom and harmony are the result of these thoughts. In the case of the Heman of I Kings 4:31, however, these thoughts must be of the intellect, rather than of Spirit, since the wisdom of Solomon, spi",
+      "candidates": [
+        {
+          "s": "H1968",
+          "def": "Heman, the name of at least two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1551,
+      "word": "Hen",
+      "etym": "Heb.",
+      "mibDef": "grace; favor; kindness; beauty; elegance; restful.",
+      "mibMeta": "Mercy, kindness (the margin gives, \"for the kindness of the son,\" in place of, \"to Hen the son of Zephaniah\"). Hen therefore pertains to the kindly, charitable, merciful attitude of mind in man, which brings great reward, true peace (restful), and overcoming power (crown). \"With the merciful thou wi",
+      "candidates": [
+        {
+          "s": "G3733",
+          "def": "a bird (as rising in the air), i.e., (specially), a hen (or female domestic fowl)"
+        },
+        {
+          "s": "H2581",
+          "def": "Chen, a figurative name for an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1552,
+      "word": "Hena",
+      "etym": "Heb.",
+      "mibDef": "lowland; low ground; disquieting; troubling.",
+      "mibMeta": "Low, very material thoughts and beliefs regarding substance (lowland, low ground), belonging to the sensual mind. They bring much unrest and trouble (disquieting, troubling) to the individual who harbors and cultivates them; it is well for this state of consciousness to be defeated by the Assyrians,",
+      "candidates": []
+    },
+    {
+      "id": 1553,
+      "word": "Henadad",
+      "etym": "Heb .",
+      "mibDef": "favor of Hadad; Hadad is gracious; grace is quickened, i. e. , made",
+      "mibMeta": "Thoughts expressing a degree of the mercy, power, and divine qualities of Being (grace of the beloved ), thus aiding in lifting the consciousness and the body to a higher and more abiding realization. (The rebuilding of the Temple and of Jerusalem's wall signifies the uplifting, renewing, and spirit",
+      "candidates": [
+        {
+          "s": "H2582",
+          "def": "Chenadad, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1554,
+      "word": "Hepher",
+      "etym": "Heb.",
+      "mibDef": "a digging; a well; an excavation; a pit; a search; an exploration; a",
+      "mibMeta": "Understanding, that which opens (a digging, a well, a search) the consciousness to recognition and realization of the great life forces of the organism. (See MANASSEH, GILEAD, and ASHHUR.)",
+      "candidates": [
+        {
+          "s": "H2660",
+          "def": "Chepher, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1555,
+      "word": "Hepherites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Hepher.",
+      "mibMeta": "Thoughts of understanding and life, springing from that in consciousness for which Hepher stands.",
+      "candidates": []
+    },
+    {
+      "id": 1556,
+      "word": "Hephzi-bah",
+      "etym": "Heb.",
+      "mibDef": "my delight is in her; in loving is in her; m willing mind is in",
+      "mibMeta": "The joy and satisfaction of Jehovah, I AM, in the redeemed, spiritualized soul of man.",
+      "candidates": []
+    },
+    {
+      "id": 1557,
+      "word": "heredity",
+      "etym": "",
+      "mibDef": "The belief that man has his being from man. The law is that like begets like, and",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1558,
+      "word": "Heres",
+      "etym": "Heb.",
+      "mibDef": "radiating orb of heat; the sun; hot; dry; baked; seared; scratched; rough;",
+      "mibMeta": "A lifting up (mountain) of the life forces in individual consciousness. The central sun in us, like the sun in the outer universe, radiates both light and heat; but, until the understanding unfolds sufficiently, life is known only in its phases of heat and force. When these are controlled by the Amo",
+      "candidates": [
+        {
+          "s": "H2776",
+          "def": "Cheres, a mountain in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1559,
+      "word": "Heresh",
+      "etym": "Heb .",
+      "mibDef": "workman; artificer; craftsman; carpenter; worker in stone; magician;",
+      "mibMeta": "Love, active and passive (workman, silent). It is in the stillness, in passive waiting upon God, that strength and understanding are gained for greater activity; thus love becomes a skilled workman ( artificer ) in constructing anew the body temple (carpenter, one who plans and builds houses). The p",
+      "candidates": []
+    },
+    {
+      "id": 1560,
+      "word": "Hereth (A.V.",
+      "etym": "Heb.",
+      "mibDef": "thick wood; thicket; dense forest.",
+      "mibMeta": "A state of mind that cannot be penetrated by error or force. By resorting to praise and prayer (Judah), love (David) builds up a state of spiritual thought to which the will functioning in the selfishness of personality (Saul) cannot possibly gain access. This is Hereth, a thicket, a dense growth of",
+      "candidates": []
+    },
+    {
+      "id": 1561,
+      "word": "Hermas",
+      "etym": "Gk.",
+      "mibDef": "the planet Mercury; swift messenger; guide of the soul; interpreter.",
+      "mibMeta": "The ability of the spiritually awakened intellect in man to comprehend, and especially to explain. Truth. (Paul here represents the word of Truth, while Rome represents the head, the region of the intellect and will.)",
+      "candidates": []
+    },
+    {
+      "id": 1562,
+      "word": "Hermes",
+      "etym": "Gk.",
+      "mibDef": "Mercury; swift messenger of the gods; guide of the soul; interpreter; a",
+      "mibMeta": "Same as Hermas; the ability of the spiritually awakened intellect in man to interpret the Christ Truth. Hermes, the Greek Mercury, was the Mercurius of the Romans, and was believed by them to be the messenger of the gods, adroit of action and ready of speech. He was also supposed to be the attendant",
+      "candidates": []
+    },
+    {
+      "id": 1563,
+      "word": "Hermogenes",
+      "etym": "Gk.",
+      "mibDef": "born of Hermes; Mercury-bom.",
+      "mibMeta": "The outer, verbal expression of one's Christian principles. This outer expression is very likely to be cut off for a time when the inner word of Truth (Paul) is limited in its activities by the dominating force of the unspiritualized will and intellect (is imprisoned in Rome). Firm establishment in ",
+      "candidates": []
+    },
+    {
+      "id": 1564,
+      "word": "Hermon",
+      "etym": "Heb.",
+      "mibDef": "sacred mountain; prominent mountain; high mountain; lofty; high;",
+      "mibMeta": "A high, sublime state of mind (lofty, prominent, sacred mountain).",
+      "candidates": [
+        {
+          "s": "H2768",
+          "def": "Chermon, a mount of Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1565,
+      "word": "Hermons (A.V.",
+      "etym": "fr. Heb.",
+      "mibDef": "the peaks of Hermon.",
+      "mibMeta": "The exaltation of the triune God, the lifting up, in conscious recognition by man,",
+      "candidates": []
+    },
+    {
+      "id": 1566,
+      "word": "Herod",
+      "etym": "fr. Gk .",
+      "mibDef": "sprung from a hero; son of a hero; hero-born; heroic.",
+      "mibMeta": "The ruling will of the physical, the ego in the sense consciousness. This ruling ego is temporal because it does not understand man's true origin or the law of man's being. It is narrow, jealous, destructive. Under its rule man does not fulfill the law of his being, and another ego must supplant the",
+      "candidates": [
+        {
+          "s": "G2264",
+          "def": "heroic; Herod, the name of four Jewish kings"
+        }
+      ]
+    },
+    {
+      "id": 1567,
+      "word": "Herodians",
+      "etym": "fr. Gk.",
+      "mibDef": "Jewish political party.",
+      "mibMeta": "Thoughts that belong to man's old-established religious ideas, but in character are very selfish and material, even as Herod and the Romans were. They bitterly and actively oppose and seek to kill out of consciousness the higher Christ life and its ideals and activities.",
+      "candidates": [
+        {
+          "s": "G2265",
+          "def": "Herodians, i.e., partisans of Herod"
+        }
+      ]
+    },
+    {
+      "id": 1568,
+      "word": "Herodias",
+      "etym": "Gk.",
+      "mibDef": "feminine of Herod.",
+      "mibMeta": "The passions of the human soul, the feminine side of sense thought. It resists the accusations of licentiousness made by John, the purifier, and schemes to have him put entirely out of consciousness. The daughter of this one, who dances before the king, is sex sensation. The king is so pleased with ",
+      "candidates": [
+        {
+          "s": "G2266",
+          "def": "Herodias, a woman of the Heodian family"
+        }
+      ]
+    },
+    {
+      "id": 1569,
+      "word": "Herodion",
+      "etym": "Gk ,",
+      "mibDef": "from Herod.",
+      "mibMeta": "A central ruling thought of the outer or personality that has accepted the Christ Truth. (See HEROD.)",
+      "candidates": [
+        {
+          "s": "G2267",
+          "def": "Herodion, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 1570,
+      "word": "Heshbon",
+      "etym": "Heb .",
+      "mibDef": "power of thinking; reason; understanding; intelligence; purposing;",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2809",
+          "def": "Cheshbon, a place East of the Jordan"
+        }
+      ]
+    },
+    {
+      "id": 1571,
+      "word": "Heshmon",
+      "etym": "Heb .",
+      "mibDef": "fatness; fat soil; fertile; fruitfulness; productive; rich.",
+      "mibMeta": "A group of thoughts of great richness, substance, and increase (fatness, fertile, fruitfulness) in the subconscious mind of the individual, working toward expression in the outer (\"toward the border of Edom in the South,\" the south representing the subconscious mind and Edom referring to the physica",
+      "candidates": []
+    },
+    {
+      "id": 1572,
+      "word": "Heth",
+      "etym": "Heb.",
+      "mibDef": "sundered; broken; weakened; destroyed; filled with fear dismayed; terrified;",
+      "mibMeta": "A very active thought of fear, terror, dread, the result of thinking apart from Spirit (sundered). These errors are among man's greatest enemies; they belong to and dwell in the adverse, carnal consciousness. The Hittites, representing thoughts of opposition and resistance were descendants of Heth. ",
+      "candidates": [
+        {
+          "s": "H2845",
+          "def": "Cheth, an indigenous Canaanite"
+        }
+      ]
+    },
+    {
+      "id": 1573,
+      "word": "Hethlon",
+      "etym": "Heb.",
+      "mibDef": "swathed, bound about; wrapped up; place of concealment; lurking",
+      "mibMeta": "The strong tendency of intellectual man, through his highest sense reasonings, to keep the Truth wrapped up and hidden from view instead of clearing it up so that it can be comprehended in its fullness and reality. (Hethlon was on the north border of the land. North signifies above, in man's conscio",
+      "candidates": []
+    },
+    {
+      "id": 1574,
+      "word": "Hezion",
+      "etym": "Heb.",
+      "mibDef": "vision; transfixed with the eye; sight; revelation.",
+      "mibMeta": "Understanding, but on the sense intellectual plane, instead of true spiritual understanding.",
+      "candidates": []
+    },
+    {
+      "id": 1575,
+      "word": "Hezir",
+      "etym": "Heb .",
+      "mibDef": "returning; going about; intuitive; having small eyes; swine; having small",
+      "mibMeta": "The thoughts that are signified by the men named Hezir may have been swinish (swine) when they belonged to the sense, animal plane, but they have now been elevated to a much higher phase of consciousness. Returning, intuitive, pomegranate, with the history of the men named Hezir, indicate a concepti",
+      "candidates": []
+    },
+    {
+      "id": 1576,
+      "word": "Hezro",
+      "etym": "Heb .",
+      "mibDef": "surrounded; inclosed; walled in;",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2695",
+          "def": "Chetsro, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1577,
+      "word": "Hezron",
+      "etym": "Heb.",
+      "mibDef": "inclosed; shut in; verdant fields; green pasture; court.",
+      "mibMeta": "Single thoughts, and a group of thoughts, that belong to the seeing (Reuben) and the praise (or activity of life) and prayer (Judah) faculties of mind. These thoughts are not yet free in their expression in the consciousness and organism. They are inclosed, shut in, by the subconscious limiting erro",
+      "candidates": [
+        {
+          "s": "H2696",
+          "def": "Chetsron, the name of a place in Palestine; also of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1578,
+      "word": "Hezronites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Hezron.",
+      "mibMeta": "Thoughts springing from that in consciousness which Hezron represents. (See HEZRON.) \"hid with Christ in God\"— The lifting up of the Christ in man in order that his physical and mental nature may be drawn into the universal perfection. Man dies to the old life of sense and lives under a new commandm",
+      "candidates": []
+    },
+    {
+      "id": 1579,
+      "word": "Hiddai",
+      "etym": "Heb.",
+      "mibDef": "mighty; vigorous; valiant; chief; rejoicing; praise; joyous shout.",
+      "mibMeta": "Gaash signifies the inner quaking or commotion, trembling in mind and body, that is likely to take place when one's creative forces and powers have been greatly increased by a new realization of divine life. The \"brooks of Gaash\" are the cleansing waters that clear from consciousness many errors if ",
+      "candidates": [
+        {
+          "s": "H1914",
+          "def": "Hiddai, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1580,
+      "word": "Hiddekel",
+      "etym": "Heb.",
+      "mibDef": "swift propagator; universal generative fluid; quick flowing; rapid",
+      "mibMeta": "Hiddekel means universal generative fluid, rapid stream, rapid spiritual influx. The river Hiddekel symbolizes the spiritual nerve fluid that God is propelling throughout man's whole being continually, as the electro-magnetic center of every physically expressed atom. This wonderful stream of nerve ",
+      "candidates": []
+    },
+    {
+      "id": 1581,
+      "word": "Hiel",
+      "etym": "Heb.",
+      "mibDef": "God lives; God of the living; life of God; God is existence; God of",
+      "mibMeta": "The knowledge that all life, energy, existence, animation, is from and of God. This knowledge or realization brings one into conscious unity with God, or is the result of conscious unity with God (Hiel was a native of Beth-el, and Beth-el signifies a consciousness of God, or conscious unity with God",
+      "candidates": [
+        {
+          "s": "H2419",
+          "def": "Chiel, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1582,
+      "word": "Hierapolis",
+      "etym": "Gk.",
+      "mibDef": "mighty city; sacred city; consecrated city; holy city.",
+      "mibMeta": "The view, held by the natural man in his religious ideals, that life and substance are sacred. This permits true Christ ideals to gain an entrance into this state of consciousness (there was a Christian church established very early at Hierapolis, and Epaphras labored there: the loving message of th",
+      "candidates": []
+    },
+    {
+      "id": 1583,
+      "word": "Higgaion",
+      "etym": "Heb.",
+      "mibDef": "hum; murmur; a low, vibrant sound; chant; enchantment;",
+      "mibMeta": "To think deeply along any specific line of Truth that has just been presented to consciousness; contemplation; meditation; also the bringing of the whole being into harmony with one's deep inner thought (hum, murmur, a low vibrant sound).",
+      "candidates": []
+    },
+    {
+      "id": 1584,
+      "word": "higher understanding",
+      "etym": "",
+      "mibDef": "he is nothing without it. So we find",
+      "mibMeta": "The recognition by the individual that his own thought people (of the people ) make or mar his life. This understanding that one's good or ill does not depend upon chance, upon other persons, or upon any one or anything outside of oneself, brings true happiness because it gives one a working basis f",
+      "candidates": [
+        {
+          "s": "H1364",
+          "def": "elevated (or elated), powerful, arrogant"
+        },
+        {
+          "s": "H1361",
+          "def": "to soar, i.e., be lofty; figuratively, to be haughty"
+        },
+        {
+          "s": "H5945",
+          "def": "an elevation, i.e., (adjectively) lofty (comparatively); as title, the Supreme"
+        },
+        {
+          "s": "H7311",
+          "def": "to be high actively, to rise or raise (in various applications, literally or figuratively)"
+        },
+        {
+          "s": "H6706",
+          "def": "glaring, i.e., exposed to the bright sun"
+        }
+      ]
+    },
+    {
+      "id": 1585,
+      "word": "Hilen",
+      "etym": "Heb.",
+      "mibDef": "strong place; mighty place; good place; place of virtue; a fortress; a",
+      "mibMeta": "A group of thoughts in individual consciousness that is strongly fortified (strong place, fortress) in goodness and Truth (good place, place of virtue) and in praise and prayer (Judah). These thoughts are given over to the Levites (one's natural religious and spiritual tendencies).",
+      "candidates": [
+        {
+          "s": "H2432",
+          "def": "Chilen, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1586,
+      "word": "Hilkiah",
+      "etym": "Heb.",
+      "mibDef": "my portion is Jehovah; Jah is my lot; portion of Jehovah, i.e.,",
+      "mibMeta": "Consecration (my portion is Jehovah, especially set apart).",
+      "candidates": [
+        {
+          "s": "H2518",
+          "def": "Chilhijah, the name of eight Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1587,
+      "word": "Hillel",
+      "etym": "Heb.",
+      "mibDef": "praise; rejoice; celebrate; shout for joy; shine forth.",
+      "mibMeta": "The action of the will (Ephraim) in praising and magnifying God— one's highest concept of Truth. (Pirathon means peak, top, prince, and Abdon represents a phase of the judging, discerning capacity in man, united to the activity of the will in establishing justice in consciousness.)",
+      "candidates": [
+        {
+          "s": "H1985",
+          "def": "Hillel, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1588,
+      "word": "himself by living out of harmony with",
+      "etym": "",
+      "mibDef": "God's",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1438",
+          "def": "(him- her-, it-, them-, my-, thy-, our-, your-)self (selves), etc"
+        },
+        {
+          "s": "G846",
+          "def": "the reflexive pronoun self, used (alone or in the comparative G1438) of the third person, and (with the proper personal pronoun) of the other persons"
+        },
+        {
+          "s": "H7812",
+          "def": "to depress, i.e., prostrate (especially reflexive, in homage to royalty or God)"
+        },
+        {
+          "s": "H1931",
+          "def": "he (she or it); only expressed when emphatic or without a verb; also (intensively) self, or (especially with the article) the same; sometimes (as demonstrative) this or that; occasionally (instead of copula) as or are"
+        },
+        {
+          "s": "H2388",
+          "def": "to fasten upon; hence, to seize, be strong (figuratively, courageous, causatively strengthen, cure, help, repair, fortify), obstinate; to bind, restrain, conquer"
+        }
+      ]
+    },
+    {
+      "id": 1589,
+      "word": "himself on a plane with animals",
+      "etym": "",
+      "mibDef": "the dog and the ass, symbolized by the gods Nibhaz and Tartak, whose",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1438",
+          "def": "(him- her-, it-, them-, my-, thy-, our-, your-)self (selves), etc"
+        },
+        {
+          "s": "G846",
+          "def": "the reflexive pronoun self, used (alone or in the comparative G1438) of the third person, and (with the proper personal pronoun) of the other persons"
+        },
+        {
+          "s": "H7812",
+          "def": "to depress, i.e., prostrate (especially reflexive, in homage to royalty or God)"
+        },
+        {
+          "s": "H1931",
+          "def": "he (she or it); only expressed when emphatic or without a verb; also (intensively) self, or (especially with the article) the same; sometimes (as demonstrative) this or that; occasionally (instead of copula) as or are"
+        },
+        {
+          "s": "H2388",
+          "def": "to fasten upon; hence, to seize, be strong (figuratively, courageous, causatively strengthen, cure, help, repair, fortify), obstinate; to bind, restrain, conquer"
+        }
+      ]
+    },
+    {
+      "id": 1590,
+      "word": "Hinnom",
+      "etym": "Heb.",
+      "mibDef": "sorrow; groaning, i. e. , of the afflicted; wailing; lamentation;",
+      "mibMeta": "The purifying fires of the soul. Our God is a consuming fire, and when judgments, or times of separation of the true from the false, take place in our consciousness, the error is utterly consumed, swallowed up, by the love and perfection and Truth of Spirit. There will be no cessation of these clean",
+      "candidates": [
+        {
+          "s": "H2011",
+          "def": "Hinnom, apparently a Jebusite"
+        }
+      ]
+    },
+    {
+      "id": 1591,
+      "word": "Hirah",
+      "etym": "Heb .",
+      "mibDef": "white; pure; noble; highborn; splendid; distinguished; freedom; liberty.",
+      "mibMeta": "An Adullamite, a native of Adullam, typifies a thought belonging to the Adullam consciousness in man. One meaning of Adullam is justice of the people. This indicates a sense of justice and right, an equilibrium and poise (see ADULLAM) that, awakened in the individual, even if at first in the seeming",
+      "candidates": [
+        {
+          "s": "H2437",
+          "def": "Chirah, an Adullamite"
+        }
+      ]
+    },
+    {
+      "id": 1592,
+      "word": "Hiram",
+      "etym": "Heb.",
+      "mibDef": "whiteness; liberty; freedom; nobility; highborn; splendid.",
+      "mibMeta": "Hiram was a builder; he was not of the Israelites (the religious and spiritual thoughts in man), at least not entirely, though the one Hiram was partly of Israelitish blood. He represents a constructive power in the reasoning faculty of the individual— a constructive power that is firmly established",
+      "candidates": [
+        {
+          "s": "H2438",
+          "def": "Chiram or Chirom, the name of two Tyrians"
+        }
+      ]
+    },
+    {
+      "id": 1593,
+      "word": "His name means empty",
+      "etym": "",
+      "mibDef": "selfish,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G846",
+          "def": "the reflexive pronoun self, used (alone or in the comparative G1438) of the third person, and (with the proper personal pronoun) of the other persons"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H1",
+          "def": "father, in a literal and immediate, or figurative and remote application"
+        },
+        {
+          "s": "H3027",
+          "def": "a hand (the open one [indicating power, means, direction, etc.], in distinction from H3709, the closed one); used (as noun, adverb, etc.) in a great variety of applications, both literally and figuratively, both proximate and remote [as follows]"
+        },
+        {
+          "s": "H251",
+          "def": "a brother (used in the widest sense of literal relationship and metaphorical affinity or resemblance [like H0001])"
+        }
+      ]
+    },
+    {
+      "id": 1594,
+      "word": "his ruling star",
+      "etym": "",
+      "mibDef": "instead of knowing that he holds in his own thoughts the power to",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G846",
+          "def": "the reflexive pronoun self, used (alone or in the comparative G1438) of the third person, and (with the proper personal pronoun) of the other persons"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H1",
+          "def": "father, in a literal and immediate, or figurative and remote application"
+        },
+        {
+          "s": "H3027",
+          "def": "a hand (the open one [indicating power, means, direction, etc.], in distinction from H3709, the closed one); used (as noun, adverb, etc.) in a great variety of applications, both literally and figuratively, both proximate and remote [as follows]"
+        },
+        {
+          "s": "H251",
+          "def": "a brother (used in the widest sense of literal relationship and metaphorical affinity or resemblance [like H0001])"
+        }
+      ]
+    },
+    {
+      "id": 1595,
+      "word": "Hittites",
+      "etym": "fr. Heb.",
+      "mibDef": "broken in pieces; sundered; dismay; terror; dread.",
+      "mibMeta": "Thoughts of opposition and resistance. (See HETH.)",
+      "candidates": []
+    },
+    {
+      "id": 1596,
+      "word": "Hivite",
+      "etym": "fr. Heb.",
+      "mibDef": "animation; physical existence; life born of effort; bestiality;",
+      "mibMeta": "Thoughts belonging to the carnal consciousness in man. The Hivites were descended from Canaan, son of Ham, and refer to the physical and carnal in the individual.",
+      "candidates": [
+        {
+          "s": "H2340",
+          "def": "a Chivvite, one of the indigenous tribes of Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1597,
+      "word": "Hizkiah (A.V.",
+      "etym": "",
+      "mibDef": "Jehovah strengthens; Jah is strong; power of",
+      "mibMeta": "See HEZEKIAH.",
+      "candidates": []
+    },
+    {
+      "id": 1598,
+      "word": "Hobab",
+      "etym": "Heb.",
+      "mibDef": "beloved; cherished; comforted.",
+      "mibMeta": "The love of understanding. (Hobab, meaning beloved; Moses' remark to him, \"Thou shalt be to us instead of eyes\"; also Moses' great desire to have Hobab accompany him and the Israelites on their journey through the wilderness to the Promised Land, all signify this. See Numbers 10:29-32). Understandin",
+      "candidates": [
+        {
+          "s": "H2246",
+          "def": "Chobab, father-in-law of Moses"
+        }
+      ]
+    },
+    {
+      "id": 1599,
+      "word": "Hobah",
+      "etym": "Heb .",
+      "mibDef": "hiding place; lurking place; place of concealment; hidden; concecded;",
+      "mibMeta": "Natural man's belief that he is material. This belief is established deep within the subconscious mind, and is a hiding place or lurking place for the error thoughts and activities that are symbolized by the kings and their followers who took Lot captive and whom Abram pursued. The sense life, with ",
+      "candidates": []
+    }
+  ]
+}

@@ -1,0 +1,1086 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "24 of 37",
+  "_entry_range": "ids 2300–2399",
+  "entries": [
+    {
+      "id": 2300,
+      "word": "Mattithiah",
+      "etym": "Heb.",
+      "mibDef": "gift of Jehovah; gracious gift ofJah.",
+      "mibMeta": "Man's high, true, spiritual thoughts (Israelites) awakening to his divine possibilities of attaining perfection, fullness of abiding life, wholeness, peace, and all good, through I AM, Jehovah.",
+      "candidates": []
+    },
+    {
+      "id": 2301,
+      "word": "Mazzaroth",
+      "etym": "Heb.",
+      "mibDef": "prognostications; forewarnings- constellations, i. e., the twelve",
+      "mibMeta": "For ages man has believed that he is influenced by the stars for good or for ill, according to the planet under which he has been bom, and entirely apart from his own volition. However we are now awaking to the truth of Shakespeare's declaration, \"The fault ... is not in our stars, but in ourselves,",
+      "candidates": [
+        {
+          "s": "H4216",
+          "def": "some noted constellation (only in the plural), perhaps collectively, the zodiac"
+        }
+      ]
+    },
+    {
+      "id": 2302,
+      "word": "me",
+      "etym": "",
+      "mibDef": "God). There is a suggestion of sorrow in the significance of this name, too, and it also suggests the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3427",
+          "def": "to me"
+        },
+        {
+          "s": "G3165",
+          "def": "me"
+        },
+        {
+          "s": "H413",
+          "def": "near, with or among; often in general, to"
+        },
+        {
+          "s": "H853",
+          "def": "properly, self (but generally used to point out more definitely the object of a verb or preposition, even or namely)"
+        },
+        {
+          "s": "G1691",
+          "def": "me"
+        }
+      ]
+    },
+    {
+      "id": 2303,
+      "word": "Me-jarkon",
+      "etym": "Heb.",
+      "mibDef": "waters of greenness; verdant waters; yellowish waters; golden",
+      "mibMeta": "Thoughts of wisdom, of understanding, and of rich substance. (Yellow is the color that represents wisdom; gold also symbolizes substance and wisdom. Green bespeaks verdure, substance. Clear waters, transparent waters, also bespeak a clear, clean keenness of understanding and of vision.)",
+      "candidates": []
+    },
+    {
+      "id": 2304,
+      "word": "meanings given to the name",
+      "etym": "",
+      "mibDef": "altar, burning place of God. The altar as located in the body is the solar",
+      "mibMeta": "An aggregation of thoughts of a lofty character-a high state of consciousness in man (the height). (See RAMAH.)",
+      "candidates": []
+    },
+    {
+      "id": 2305,
+      "word": "means",
+      "etym": "",
+      "mibDef": "that Jehovah upholds, sustains, and protects the true religious nature of man as it is unfolding",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4459",
+          "def": "an interrogative particle of manner; in what way? (sometimes the question is indirect, how?); also as exclamation, how much!"
+        },
+        {
+          "s": "G3381",
+          "def": "lest somehow"
+        },
+        {
+          "s": "H5352",
+          "def": "to be (or make) clean (literally or figuratively); by implication (in an adverse sense) to be bare, i.e., extirpated"
+        },
+        {
+          "s": "G3361",
+          "def": "(adverb) not, (conjunction) lest; also (as an interrogative implying a negative answer (whereas G3756 expects an affirmative one)) whether"
+        },
+        {
+          "s": "G3843",
+          "def": "entirely; specially, at all events, (with negative, following) in no event"
+        }
+      ]
+    },
+    {
+      "id": 2306,
+      "word": "Mearah",
+      "etym": "Heb .",
+      "mibDef": "excavation; pit; cave; cavern; empty eye socket; without sight; blind;",
+      "mibMeta": "A deep-seated, subconscious belief in lack of both understanding and substance (cave, excavation, without sight, blind, making empty).",
+      "candidates": [
+        {
+          "s": "H4632",
+          "def": "Mearah, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2307,
+      "word": "Mebunnai",
+      "etym": "Heb.",
+      "mibDef": "from my son; my posterity; building; structure; edifice;",
+      "mibMeta": "The true thought in individual consciousness that outer man is in reality the building of Jehovah, is from the son of God, the Christ, or Jehovah. Therefore even the outer man is not really carnal, but is spiritual. His true thoughts are Jah's people; that is, they are of the Christ mind. Recognitio",
+      "candidates": [
+        {
+          "s": "H4012",
+          "def": "Mebunnai, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2308,
+      "word": "Meconah (A.V.",
+      "etym": "Heb.",
+      "mibDef": "basis; foundation, a place, i. e., the temple;",
+      "mibMeta": "An established faith in God. This is a firm, steady, secure place in consciousness, an inner assurance on which the individual can stand and rest (foundation, base, or standing place).",
+      "candidates": []
+    },
+    {
+      "id": 2309,
+      "word": "Medad",
+      "etym": "Heb.",
+      "mibDef": "loving, beloved; highly esteemed; pleasant, delightful; divided;",
+      "mibMeta": "The loving thought; that in us which perceives that God is love, and seeks to measure our experiences and conditions from this standpoint. (See ELD AD.)",
+      "candidates": [
+        {
+          "s": "H4312",
+          "def": "Medad, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2310,
+      "word": "Medan",
+      "etym": "Heb.",
+      "mibDef": "contention; striving; judgment; righteousness; greatly enlarged; fully",
+      "mibMeta": "See MIDIAN.",
+      "candidates": []
+    },
+    {
+      "id": 2311,
+      "word": "Medeba",
+      "etym": "Heb.",
+      "mibDef": "waters of quiet; waters of rest; gently flowing waters; waters of",
+      "mibMeta": "A peaceful, restful attitude (gently flowing waters, waters of quiet) that always follows a victory over the carnal mind (Moab) and a fuller awakening to true spiritual understanding by the inner sight or discernment (Reuben) in the individual.",
+      "candidates": [
+        {
+          "s": "H4311",
+          "def": "Medeba, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2312,
+      "word": "Medes",
+      "etym": "fr. Heb.",
+      "mibDef": "sufficiency; abounding; measure; the middle, midst; capacity; middle",
+      "mibMeta": "Thoughts springing from and belonging to that in consciousness which Madai, or Media, represents. (See MADAI and MEDIA.)",
+      "candidates": [
+        {
+          "s": "H4076",
+          "def": "Madai, a country of central Asia"
+        },
+        {
+          "s": "H4074",
+          "def": "Madai, a country of central Asia"
+        }
+      ]
+    },
+    {
+      "id": 2313,
+      "word": "Media",
+      "etym": "fr. Heb.",
+      "mibDef": "sufficiency; abounding; measure; capacity; middle portion; in the",
+      "mibMeta": "The idea of sufficiency enters into the significance of Media and Madai only as the psychical in man is raised to spiritual understanding and realization. (See MADAI.) Megiddo, me-gidO-do (Heb.)-- place of many organisms; place of troops, i. e.,for predatory incursions; crowded place; rendezvous; pl",
+      "candidates": [
+        {
+          "s": "H4074",
+          "def": "Madai, a country of central Asia"
+        }
+      ]
+    },
+    {
+      "id": 2314,
+      "word": "meditation on Truth. In Truth there is but one I AM",
+      "etym": "",
+      "mibDef": "Jehovah, the omnipotent I AM. If you take the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1902",
+          "def": "a murmuring sound, i.e., a musical notation (probably similar to the modern affettuoso to indicate solemnity of movement); by implication, a machination"
+        },
+        {
+          "s": "H1900",
+          "def": "musing"
+        },
+        {
+          "s": "H7879",
+          "def": "a contemplation; by implication, an utterance"
+        },
+        {
+          "s": "H7881",
+          "def": "reflection; be extension, devotion"
+        }
+      ]
+    },
+    {
+      "id": 2315,
+      "word": "meek",
+      "etym": "",
+      "mibDef": "Anyone highly trained to react to all negative stimuli with love instead of with \"an",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H6035",
+          "def": "depressed (figuratively), in mind (gentle) or circumstances (needy, especially saintly)"
+        },
+        {
+          "s": "G4235",
+          "def": "gentle, i.e., humble"
+        },
+        {
+          "s": "G4239",
+          "def": "mild, i.e., (by implication) humble"
+        }
+      ]
+    },
+    {
+      "id": 2316,
+      "word": "Mehetabel",
+      "etym": "Heb.",
+      "mibDef": "to whom God does",
+      "mibMeta": "The symbology of Mehetabel is included with Matred. (See MATRED.) The Mehetabel of Nehemiah 6:10 also symbolizes a belief in the grace and goodness of God toward man. This belief, however, is more of the intellect than of true spiritual understanding; thus it brings forth ideas (such as Shemaiah) th",
+      "candidates": []
+    },
+    {
+      "id": 2317,
+      "word": "Mehir",
+      "etym": "Heb .",
+      "mibDef": "price; value; wage; reward; dowry; rapidity; ability; dexterity.",
+      "mibMeta": "A quick, active, able thought (dexterity, ability) in the Judah or praise consciousness of man, but limited, in its true expression, by a belief in serving for reward and by looking to the seeming price that one must pay for one's growth in Truth. The price is to give up that which pertains to the c",
+      "candidates": []
+    },
+    {
+      "id": 2318,
+      "word": "Meholathite",
+      "etym": "fr. Heb.",
+      "mibDef": "the dancing; the mirthful; the joyful.",
+      "mibMeta": "A thought springing from and belonging to that in consciousness which Abel- meholah signifies. (See ABEL MEHOLAH.)",
+      "candidates": [
+        {
+          "s": "H4259",
+          "def": "a Mecholathite or inhabitant of Abel-Mecholah"
+        }
+      ]
+    },
+    {
+      "id": 2319,
+      "word": "Mehujael",
+      "etym": "Heb.",
+      "mibDef": "manifestation of strength; physical demonstration of power;",
+      "mibMeta": "The belief of the outer man that strength and power are purely physical. This belief leads to error manifestations and demonstrations of power and strength that always lead to trouble of some kind- and the outer, personal man usually attributes to God the afflictions and griefs that are the result o",
+      "candidates": [
+        {
+          "s": "H4232",
+          "def": "Mechujael or Mechijael, an antediluvian patriarch"
+        }
+      ]
+    },
+    {
+      "id": 2320,
+      "word": "Mehuman",
+      "etym": "Heb. fr. Pers .",
+      "mibDef": "faithful; trustworthy; true.",
+      "mibMeta": "A thought belonging to the outer mental realm in individual consciousness that ministers to the puffed up, personal will (Ahasuerus the king). This thought is faithful, loyal, true. (See ABAGTHA.)",
+      "candidates": []
+    },
+    {
+      "id": 2321,
+      "word": "Mehunim)",
+      "etym": "Heb.",
+      "mibDef": "habitations; dwellings; homes; retreats; asylums; refuges; lairs; dens.",
+      "mibMeta": "An abiding place (habitations, dwellings) of substance and life in consciousness. This substance and life have been expressing on the animal plane, but are laid hold of by the higher and more spiritual thoughts and activities of the consciousness (Israelites) and are consecrated to the Lord, and thu",
+      "candidates": []
+    },
+    {
+      "id": 2322,
+      "word": "Melatiah",
+      "etym": "Heb ,",
+      "mibDef": "whom Jehovah delivers; Jah is the way of escape; Jehovah hath",
+      "mibMeta": "A high, aspiring thought in consciousness (Gibeonite), whose chief characteristic",
+      "candidates": [
+        {
+          "s": "H4424",
+          "def": "Melatjah, a Gibeonite"
+        }
+      ]
+    },
+    {
+      "id": 2323,
+      "word": "Melchi",
+      "etym": "Heb.",
+      "mibDef": "my king; my ruler; my counsel; my judge; of ox belonging to the king.",
+      "mibMeta": "A phase of the will ruling in man (my king, my ruler); there is also a suggestion of understanding and good judgment, as well as dominion, in the meaning of this name (my counsel, my judge).",
+      "candidates": []
+    },
+    {
+      "id": 2324,
+      "word": "Melchizedek",
+      "etym": "Heb.",
+      "mibDef": "king of righteousness; righteous rule; upright counselor;",
+      "mibMeta": "The divine will established in man in righteousness, justice, and peace (king of righteousness, king of justice, king of Salem, Salem meaning peace). Melchizedek really refers to the Christ mind or superconsciousness, that which when ruling in man's consciousness establishes and maintains right doin",
+      "candidates": [
+        {
+          "s": "H4442",
+          "def": "Melchisedek (also Melchisedec or Malki-tsedek)"
+        }
+      ]
+    },
+    {
+      "id": 2325,
+      "word": "Melea",
+      "etym": "Gk. fr. Heb .",
+      "mibDef": "fullness; fully supplied; abundance; full measure; multitude.",
+      "mibMeta": "An inner discernment of the all-sufficiency of Spirit (fullness, fully supplied, full measure).",
+      "candidates": []
+    },
+    {
+      "id": 2326,
+      "word": "Melech",
+      "etym": "Heb.",
+      "mibDef": "king; ruler; counselor; judge.",
+      "mibMeta": "A thought that belongs to the will. It rules in the active faith faculty in the individual, and has become discriminative to the extent of being able to counsel and advise the other thoughts of the phase of consciousness to which it belongs. (King pertains to the will, or to a ruling thought; Benjam",
+      "candidates": []
+    },
+    {
+      "id": 2327,
+      "word": "Melita",
+      "etym": "Gk.",
+      "mibDef": "flowing with honey; honeysweet; sweetened with honey; yielding",
+      "mibMeta": "Here Melita refers to the sweetness (honey), joy, and agreeable, pleasant feeling that are sensed deeply by the individual when in his overcoming he has experienced some great deliverance from error and has entered into the peace, content, and satisfaction that follow such an experience in overcomin",
+      "candidates": []
+    },
+    {
+      "id": 2328,
+      "word": "Memphis",
+      "etym": "fr. Egypt.",
+      "mibDef": "Moph or",
+      "mibMeta": "Egypt represents the depths of the body consciousness, subjective mind. We have looked upon Egypt as a darkened, ignorant, and very material phase of our being. Physically Egypt refers to the obscured vitality of the organism. It represents, too, a combination of substance and life in the body consc",
+      "candidates": [
+        {
+          "s": "H4644",
+          "def": "Moph, the capital of Lower Egypt"
+        }
+      ]
+    },
+    {
+      "id": 2329,
+      "word": "Memucan",
+      "etym": "Heb. fr. Pers.",
+      "mibDef": "upright; true; honorable; dignity; authority.",
+      "mibMeta": "Seven is the number of the natural man. Memucan represents one of the seven creative principles that have been developed in the natural man. At its root it is honorable, upright, true, and good.",
+      "candidates": [
+        {
+          "s": "H4462",
+          "def": "Memucan or Momucan, a Persian satrap"
+        }
+      ]
+    },
+    {
+      "id": 2330,
+      "word": "men of Israel",
+      "etym": "",
+      "mibDef": "The religious thoughts and aspirations of man, which give him access to",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "H582",
+          "def": "properly, a mortal (and thus differing from the more dignified H0120); hence, a man in general (singly or collectively)"
+        },
+        {
+          "s": "G444",
+          "def": "man-faced, i.e., a human being"
+        },
+        {
+          "s": "G435",
+          "def": "a man (properly as an individual male)"
+        },
+        {
+          "s": "H1368",
+          "def": "powerful; by implication, warrior, tyrant"
+        }
+      ]
+    },
+    {
+      "id": 2331,
+      "word": "men of valor",
+      "etym": "",
+      "mibDef": "Strong, courageous, conquering thoughts expressed by man, inspired by",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "H582",
+          "def": "properly, a mortal (and thus differing from the more dignified H0120); hence, a man in general (singly or collectively)"
+        },
+        {
+          "s": "G444",
+          "def": "man-faced, i.e., a human being"
+        },
+        {
+          "s": "G435",
+          "def": "a man (properly as an individual male)"
+        },
+        {
+          "s": "H1368",
+          "def": "powerful; by implication, warrior, tyrant"
+        }
+      ]
+    },
+    {
+      "id": 2332,
+      "word": "Menahem",
+      "etym": "Heb .",
+      "mibDef": "comforter; consoler; compassionate; repentant; lamenting;",
+      "mibMeta": "Ambitious desire (the root idea of Menahem is that of breathing forcibly, panting, sighing, either from desire or from contentment because of having received the fulfillment of the desire) seeking rulership in consciousness, seeking to dominate and guide the will; also the mistaken thought that one ",
+      "candidates": [
+        {
+          "s": "H4505",
+          "def": "Menachem, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2333,
+      "word": "mene",
+      "etym": "Chald .",
+      "mibDef": "numbered; counted out; measured; meted; allotted; apportioned;",
+      "mibMeta": "The assurance that the ruling error phase of will and consciousness that Belshazzar and his kingdom represent has been taken account of ( numbered ) by the divine judge, the Spirit of truth, and that its end is at hand.",
+      "candidates": []
+    },
+    {
+      "id": 2334,
+      "word": "Menna (A.V.",
+      "etym": "Gk. fr. Heb .",
+      "mibDef": "numbered; meted; rewarded.",
+      "mibMeta": "That in man's higher consciousness (this name is mentioned in the genealogy of Jesus Christ) which perceives that the constantly growing and increasing good thoughts, tendencies, and desires of the individual are all taken account of ( numbered ) by the Father indwelling, and that the individual rea",
+      "candidates": []
+    },
+    {
+      "id": 2335,
+      "word": "mental atmosphere",
+      "etym": "",
+      "mibDef": "Surrounding or prevailing mental influence. Your mental attitude, thoughts,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2336,
+      "word": "mentality",
+      "etym": "",
+      "mibDef": "The mortal mind with its beliefs and thoughts opposed to the perfect Mind of",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2337,
+      "word": "Menuhoth (A.V.",
+      "etym": "Heb .",
+      "mibDef": "resting; quieting; restoring; bequeathing;",
+      "mibMeta": "See MANAHATHITES and MANAHATH.",
+      "candidates": []
+    },
+    {
+      "id": 2338,
+      "word": "Meonenim",
+      "etym": "Heb.",
+      "mibDef": "beclouded; covered over; covert; overcast; darkened; hidden,",
+      "mibMeta": "That in the consciousness of the individual which attributes great strength and power to divination, to the psychic ability to foretell events, to tell fortunes, and to predict things that are coming to pass (soothsayers, wizards, enchanters ). While education and true spiritual understanding are ge",
+      "candidates": []
+    },
+    {
+      "id": 2339,
+      "word": "Mephaath",
+      "etym": "Heb.",
+      "mibDef": "height; lofty place; hill; shining; brilliant; illuminative;",
+      "mibMeta": "A group of exalted thoughts in consciousness (a city, height) whose central, ruling ideas and radiations are discernment (illuminative, shining, brilliant, a city of Reuben, Reuben referring to discernment or sight). But by the action of carnal thoughts (this city afterward came into the possession ",
+      "candidates": [
+        {
+          "s": "H4158",
+          "def": "Mophaath or Mephaath, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2340,
+      "word": "Merab",
+      "etym": "Heb .",
+      "mibDef": "increase; enlargement; greatness; greatly multiplied; myriad.",
+      "mibMeta": "See ADRIEL.",
+      "candidates": [
+        {
+          "s": "H4764",
+          "def": "Merab, a daughter of Saul"
+        }
+      ]
+    },
+    {
+      "id": 2341,
+      "word": "Meraiah",
+      "etym": "Heb.",
+      "mibDef": "vision ofJah; revelation ofJah; rebellion against Jehovah.",
+      "mibMeta": "A natural religious tendency ruling in the higher thoughts of the consciousness of the awakening individual (a priest, of the \"heads of fathers' houses\"), that is open to the inspiration of the Christ mind (vision of J ah, revelation of J ah). The thought of rebellion against Jehovah, which is sugge",
+      "candidates": []
+    },
+    {
+      "id": 2342,
+      "word": "Meraioth",
+      "etym": "Heb.",
+      "mibDef": "aspects; forms; visions, revelations; inversions; perversions;",
+      "mibMeta": "The love faculty in man needs cleansing and lifting to a higher level, that all hatred, strife, jealousy, and the like may be removed. (Levi, a son of Jacob, symbolizes the love faculty in the natural man; priests refer to our natural, religious ruling tendencies in their varying degrees of understa",
+      "candidates": [
+        {
+          "s": "H4812",
+          "def": "Merajoth, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2343,
+      "word": "Merari",
+      "etym": "Heb.",
+      "mibDef": "galling; bitter; unhappy; disobedient; rebellious.",
+      "mibMeta": "A bitter , rebellious, inharmonious state of thought existing in the love consciousness of the natural man (Levi, father of Merari, was the son of Jacob who represents the love faculty in man). Merari signifies love directed by the ignorance and selfishness of the personal man; this gives a bitter, ",
+      "candidates": [
+        {
+          "s": "H4847",
+          "def": "Merari, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2344,
+      "word": "Merarites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Merari.",
+      "mibMeta": "Thoughts in consciousness springing from and belonging to that which Merari signifies. (See MERARI,)",
+      "candidates": []
+    },
+    {
+      "id": 2345,
+      "word": "Merathaim",
+      "etym": "Heb.",
+      "mibDef": "double bitterness; double rebellion.",
+      "mibMeta": "The increasing resistance, strife, obstinacy ( double rebellion), grief, distress, and all-round inharmony ( double bitterness) that the higher consciousness of man (Israelites) experiences as his bondage to confused, error thoughts (Babylon) grows seemingly deeper and stronger while he allows himse",
+      "candidates": []
+    },
+    {
+      "id": 2346,
+      "word": "merchant",
+      "etym": "",
+      "mibDef": "One who is seeking the \"jewel\" of spiritual good, through exchange of thought,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5503",
+          "def": "to travel round (specifically as a pedlar); intensively, to palpitate"
+        },
+        {
+          "s": "H3667",
+          "def": "Kenaan, a son a Ham; also the country inhabited by him"
+        },
+        {
+          "s": "H7402",
+          "def": "to travel for trading"
+        },
+        {
+          "s": "G1713",
+          "def": "a (wholesale) tradesman"
+        }
+      ]
+    },
+    {
+      "id": 2347,
+      "word": "Mercury (A.V.",
+      "etym": "Lat .",
+      "mibDef": "Latin name for Hermes; swift messenger;",
+      "mibMeta": "Worship of the intellect; the intellect in man attaining knowledge (interpretation, oratory, eloquence) from the outer material world and worshipping at this shrine instead of understanding that omnipresent Spirit is back of the manifest world, even of the stars, which represent remote and little un",
+      "candidates": []
+    },
+    {
+      "id": 2348,
+      "word": "Mered",
+      "etym": "",
+      "mibDef": "falling away; falling away from allegiance; rebellion; disobedient;",
+      "mibMeta": "Mered is closely associated with a high, exalted phase of consciousness in man, as is signified by his father Ezrah and his brothers Jalon, Jether, and Epher; also by the fact that he was an Israelite, of the tribe of Judah. But the definitions of the name that denote falling away from allegiance, r",
+      "candidates": [
+        {
+          "s": "H4778",
+          "def": "Mered, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2349,
+      "word": "Meremoth",
+      "etym": "Heb .",
+      "mibDef": "elevations; heights; elations; exaltations; powers; glories.",
+      "mibMeta": "Exalted spiritual thoughts, thoughts of power and might, in man's higher and truer realm of consciousness (Israelites). These thoughts minister in the house of God (body temple). They do much toward establishing the true MERIBAH worship of God in the consciousness of the individual who gives them pl",
+      "candidates": [
+        {
+          "s": "H4822",
+          "def": "Meremoth, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2350,
+      "word": "Meres",
+      "etym": "Heb. fr. Pers ,",
+      "mibDef": "high; worthy; dignified; honorable; lofty.",
+      "mibMeta": "One of the seven creative principles, or dominant ruling thoughts, that are developed in the natural man; seven is the number of the natural man. This creative principle, or dominant ruling thought, is essentially of a high, lofty, worthy character; at its foundation it is spiritual. However, since ",
+      "candidates": []
+    },
+    {
+      "id": 2351,
+      "word": "Merib-baal",
+      "etym": "Heb.",
+      "mibDef": "contender with Baal; striving with Baal; who resists Baal.",
+      "mibMeta": "See BAAL and MEPHIBOSHETH.",
+      "candidates": []
+    },
+    {
+      "id": 2352,
+      "word": "Meribah",
+      "etym": "Heb .",
+      "mibDef": "pleading; contention; strife; quarrel.",
+      "mibMeta": "The seemingly ever present tendency in the carnal of us to murmur, complain, and doubt God every time we have an opportunity to prove Him true and to overcome some error in ourselves. So long as everything is going along smoothly we are happy and we think that we have abundant faith in God, the good",
+      "candidates": [
+        {
+          "s": "H4809",
+          "def": "Meribah, the name of two places in the Desert"
+        }
+      ]
+    },
+    {
+      "id": 2353,
+      "word": "Merodach",
+      "etym": "Heb.",
+      "mibDef": "Mars, i. e., god of blood and slaughter; war; death; slaughter;",
+      "mibMeta": "The belief that war, fighting, evil, and death are necessary in man's existence, and are inevitable. To the extent that an individual believes any apparent evil or inharmony to be necessary or inevitable, and fears it, to that extent he worships the thought for which Merodach stands; he worships the",
+      "candidates": [
+        {
+          "s": "H4781",
+          "def": "Merodak, a Babylonian idol"
+        }
+      ]
+    },
+    {
+      "id": 2354,
+      "word": "Merom",
+      "etym": "Heb.",
+      "mibDef": "height; altitude; elevation; elation; far above; the highest.",
+      "mibMeta": "The Sea of Galilee signifies a sea of vitality, or of life activity, of nerve energy. The Jordan River also refers to the life current, or life flow of thoughts in the body. Merom, a lake of the Jordan, in Palestine, above the Sea of Galilee, and meaning elevation, height, far above, highest, typifi",
+      "candidates": [
+        {
+          "s": "H4792",
+          "def": "Merom, a lake in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2355,
+      "word": "Meronothite",
+      "etym": "fr. Heb.",
+      "mibDef": "rejoicer; singer; crier; wailer; mourner.",
+      "mibMeta": "The harmony and the joy of mind that are realized by the individual when he learns to exercise good judgment (Jadon) and when he consciously unifies himself with Jehovah, the inner Christ. This idea of union is signified by Jehdeiah. (See JEHDEIAH and JADON.)",
+      "candidates": []
+    },
+    {
+      "id": 2356,
+      "word": "Meroz",
+      "etym": "Heb .",
+      "mibDef": "contracting oneself; shrinking; becoming compact; firmly rooted; firm;",
+      "mibMeta": "A phase of thought that receives Truth to itself but does not give out Truth. Thus, though it tends to make the consciousness stable and firm, it must learn to radiate its good, to assert itself positively in the expression and promulgation of the good, that it may aid actively in the progress of th",
+      "candidates": []
+    },
+    {
+      "id": 2357,
+      "word": "Mesha",
+      "etym": "Heb.",
+      "mibDef": "harvest of spiritual fruits; heaped-up fullness of being; refuge;",
+      "mibMeta": "The freeing (deliverance, freedom) of the inner life forces of the organism from the dominion of carnal thought (Moab), by means of praise and prayer (Judah) and an active faith (Benjamin), thus raising them to higher and more spiritual expression (salvation). Mesha, king of Moab, was a sheepmaster,",
+      "candidates": [
+        {
+          "s": "H4338",
+          "def": "Mesha, a Moabite"
+        },
+        {
+          "s": "H4337",
+          "def": "Mesha, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2358,
+      "word": "Meshech",
+      "etym": "Heb.",
+      "mibDef": "perceptibility; perceptible cause, i.",
+      "mibMeta": "Perception through the senses; judging according to appearances; the work of the mind in its drawing of conclusions and in conceiving ideas.",
+      "candidates": [
+        {
+          "s": "H4902",
+          "def": "Meshek, a son of Japheth, and the people descended from him"
+        }
+      ]
+    },
+    {
+      "id": 2359,
+      "word": "Meshelemiah",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah repays; whom Jehovah makes whole;",
+      "mibMeta": "A natural religious tendency belonging to the love faculty and performing a definite work in the consciousness (a Levite who, with his sons and some other relatives, had charge of the east gate of the Temple in David's reign). This thought perceives the law of health and perfection (whom Jehovah mak",
+      "candidates": [
+        {
+          "s": "H4920",
+          "def": "Meshelemjah, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2360,
+      "word": "Meshezabel (A.V.",
+      "etym": "Heb.",
+      "mibDef": "whom God frees; God is deliverer;",
+      "mibMeta": "That in man's high, true thoughts (Israelites) which perceives and accepts divine deliverance from the confusion of mind signified by Babylon (God is deliverer, delivered by God). Meshillemoth, me-shil-le-moth (Heb.) --retributions; recompenses; restorations; reconciliations; friendships; perfection",
+      "candidates": []
+    },
+    {
+      "id": 2361,
+      "word": "Meshobab",
+      "etym": "Heb .",
+      "mibDef": "turned about; returned; restored; delivered; rewarded;",
+      "mibMeta": "Simeon, meaning hearing, refers to the listening, attentive, obedient attitude of mind in man. Meshobab, a prince of the Simeonites, and meaning returned, restored, delivered, rewarded, signifies a return by the individual to the place of spiritual receptivity and obedience, with the great deliveran",
+      "candidates": []
+    },
+    {
+      "id": 2362,
+      "word": "Meshullam",
+      "etym": "Heb.",
+      "mibDef": "devoted; allied; associated; friend, i. e., of God; peaceful;",
+      "mibMeta": "Thoughts in man's higher consciousness (Israelites) that are in accord with the Christ Spirit, with Truth (devoted). These thoughts are, friends and associates of and are unified (allied) with Divine Mind; therefore that which is peaceable and perfect (peaceful, perfected) is their keynote. Meshulle",
+      "candidates": [
+        {
+          "s": "H4918",
+          "def": "Meshullam, the name of seventeen Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2363,
+      "word": "Messiah (A.V.",
+      "etym": "Heb.",
+      "mibDef": "anointed; consecrated by unction; constituted;",
+      "mibMeta": "Set apart, consecrated, baptized of the Holy Spirit, illuminated, enlightened, endowed with a special mission. (See CHRIST, and JESUS CHRIST, for a fuller comprehension of the Messiah as referring to the Christ— the Savior of the world.)",
+      "candidates": [
+        {
+          "s": "H4899",
+          "def": "anointed; usually a consecrated person (as a king, priest, or saint); specifically, the Messiah"
+        }
+      ]
+    },
+    {
+      "id": 2364,
+      "word": "Metaphysical. A Carmelite signifies abundance",
+      "etym": "",
+      "mibDef": "a rich, opulent thought belonging to the place in",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2365,
+      "word": "Metaphysical. A consciousness of quickening",
+      "etym": "",
+      "mibDef": "a resurrection in consciousness",
+      "mibMeta": "A consciousness of fruitfulness, or abundance-a rich, prosperous consciousness (house of apples, place of fruit trees).",
+      "candidates": []
+    },
+    {
+      "id": 2366,
+      "word": "Metaphysical. A firm trust in God",
+      "etym": "",
+      "mibDef": "the mind stayed on God ( foundation of God, founded of",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2367,
+      "word": "Metaphysical. A great turmoil in consciousness",
+      "etym": "",
+      "mibDef": "it might be",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2368,
+      "word": "Metaphysical. A thought that is established in the realization of Jehovah",
+      "etym": "",
+      "mibDef": "I AM, Christ— as one's",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2369,
+      "word": "Metaphysical. A turning aside",
+      "etym": "",
+      "mibDef": "apostasy.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2370,
+      "word": "Metaphysical. Agag is the Adversary",
+      "etym": "",
+      "mibDef": "the ruling ego of the adverse, carnal consciousness in",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2371,
+      "word": "Metaphysical. An equalization of the thoughts",
+      "etym": "",
+      "mibDef": "a re-",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2372,
+      "word": "Metaphysical. Asshur typifies mental recognition that the entire man",
+      "etym": "",
+      "mibDef": "spirit, soul, and body— is",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2373,
+      "word": "Metaphysical. Babel signifies what the name means",
+      "etym": "",
+      "mibDef": "confusion. When man thinks that in outer,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2374,
+      "word": "Metaphysical. Caleb",
+      "etym": "",
+      "mibDef": "bold, fearless, ferocious to enemies, impetuous-- a man who wholly",
+      "mibMeta": "Ephrathah means fruitfulness, fertility, abundance. The union of Caleb with Ephrathah therefore bespeaks faith's fruition— the abundance of spiritual riches that man realizes in his",
+      "candidates": []
+    },
+    {
+      "id": 2375,
+      "word": "Metaphysical. Cleaving to the Lord",
+      "etym": "",
+      "mibDef": "man in his true, inner, spiritual",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2376,
+      "word": "Metaphysical. Denial",
+      "etym": "",
+      "mibDef": "a letting-go phase of mind (something exhaled, as nothing). The Solomon",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2377,
+      "word": "Metaphysical. Double-mindedness",
+      "etym": "",
+      "mibDef": "trying to serve and love both God and Mammon, or",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2378,
+      "word": "Metaphysical. Duality-a belief in good and evil",
+      "etym": "",
+      "mibDef": "comprising all the thought",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2379,
+      "word": "Metaphysical. Faith",
+      "etym": "",
+      "mibDef": "an active, accomplishing faith— in the consciousness of man. In II",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2380,
+      "word": "Metaphysical. Faith in mind power",
+      "etym": "",
+      "mibDef": "a firm, unwavering place in consciousness.",
+      "mibMeta": "Ideas of multiplication, fecundity. The reason why Jesus so often used fish to illustrate His teaching was that He was a living demonstration of ideas, and all that He did was in the realm of ideas rather than the realm of effects. Fish represent ideas in which there is great possibility of increase",
+      "candidates": []
+    },
+    {
+      "id": 2381,
+      "word": "Metaphysical. Justice and righteousness",
+      "etym": "",
+      "mibDef": "divine order— established, or being established, in the",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2382,
+      "word": "Metaphysical. Lifting up in consciousness and magnifying the I AM",
+      "etym": "",
+      "mibDef": "the",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2383,
+      "word": "Metaphysical. Light is a symbol of intelligence. We cannot affirm too often",
+      "etym": "",
+      "mibDef": "I",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2384,
+      "word": "Metaphysical. Personality",
+      "etym": "",
+      "mibDef": "the outer man of sense taking to",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2385,
+      "word": "Metaphysical. See BAALAH",
+      "etym": "",
+      "mibDef": "BAAL, and KIRIATH- JEARIM .",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2386,
+      "word": "Metaphysical. Sihon",
+      "etym": "",
+      "mibDef": "extreme boldness, a sweeping away, as a warrior sweeps all before him—",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2387,
+      "word": "Metaphysical. Spiritual inspiration",
+      "etym": "",
+      "mibDef": "the inner understanding, or word of Truth-",
+      "mibMeta": "Aram means highlands. Its significance is the same as that of Syria, the nation that was founded by Aram the son of Shem. Both Aram and Syria refer to phases of the mental or intellectual in man. The intellect has its foundation in Spirit (Shem represents the spiritual in man), and any true understa",
+      "candidates": []
+    },
+    {
+      "id": 2388,
+      "word": "Metaphysical. Spiritual power",
+      "etym": "",
+      "mibDef": "the very Christ of God or Divine Mind",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2389,
+      "word": "Metaphysical. Strength",
+      "etym": "",
+      "mibDef": "the result of the many thoughts of strength that have",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2390,
+      "word": "Metaphysical. Strength and grace established in consciousness. (See BEN",
+      "etym": "",
+      "mibDef": "DEKER, the name of",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2391,
+      "word": "Metaphysical. Substance",
+      "etym": "myrrh, \"but thou art rich\"",
+      "mibDef": "the substance center in the body, located at",
+      "mibMeta": "When we sneeze, the life current is animating some nerve center; to sneeze \"seven times\" means the animation of all the life centers in the physical organism.",
+      "candidates": []
+    },
+    {
+      "id": 2392,
+      "word": "Metaphysical. The Adversary",
+      "etym": "",
+      "mibDef": "the ruling ego of the adverse, carnal consciousness in man",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2393,
+      "word": "Metaphysical. The highway to victory",
+      "etym": "",
+      "mibDef": "a putting away of error by denial, and a lifting up of",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2394,
+      "word": "Metaphysical. The loving thought and act",
+      "etym": "",
+      "mibDef": "the Christ or divine",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2395,
+      "word": "Metaphysical. The places mentioned in Acts 21:1-3",
+      "etym": "",
+      "mibDef": "places through which Paul passed on his",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2396,
+      "word": "Metaphysical. The significance is similar to that of KIR and KIR",
+      "etym": "",
+      "mibDef": "HARESETH, which see.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2397,
+      "word": "Metaphysical. The significance is virtually the same as that of RAB",
+      "etym": "",
+      "mibDef": "SARIS, which see. It is",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2398,
+      "word": "Metaphysical. The threefold man",
+      "etym": "",
+      "mibDef": "spirit, soul, and body ( triplication , triplet)— but with the third",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2399,
+      "word": "Metaphysical. The will given over to Baal worship",
+      "etym": "",
+      "mibDef": "the will that grasps things of",
+      "mibMeta": "",
+      "candidates": []
+    }
+  ]
+}

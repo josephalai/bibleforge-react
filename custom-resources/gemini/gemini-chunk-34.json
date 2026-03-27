@@ -1,0 +1,1852 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "34 of 37",
+  "_entry_range": "ids 3300–3399",
+  "entries": [
+    {
+      "id": 3300,
+      "word": "Tahash (A. V.",
+      "etym": "Heb.",
+      "mibDef": "thrusting in; breaking; burrowing; diving; badger;",
+      "mibMeta": "An increase of life activity in the organism. At this phase of individual unfoldment this life activity is more animal than spiritual (commentators agree that the name Tahash refer to the skin of some animal, dyed red; red bespeaks the life activity).",
+      "candidates": []
+    },
+    {
+      "id": 3301,
+      "word": "Tahath",
+      "etym": "Heb.",
+      "mibDef": "sunk down; settled; inclined backward; low; depressed; immersed;",
+      "mibMeta": "A lowly, humble, established, basic state of consciousness in which the higher, and truer, and more spiritual thoughts of the individual may rest when needful, while they are becoming positive enough and strongly enough established in Truth to enter upon the decided overcoming of error that is neces",
+      "candidates": [
+        {
+          "s": "H8480",
+          "def": "Tachath, the name of a place in the Desert, also of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3302,
+      "word": "Tahchemonite (A. V.",
+      "etym": "Heb.",
+      "mibDef": "wise; knowing; intelligent;",
+      "mibMeta": "A very wise, keen, discerning thought belonging to the wisdom center in consciousness (wise, knowing, judicious, sagacious). (See HACHMONITE and HACHMONI for further signification.) Tahpanhes (in A. V., Jer. 2:16, Tahapanes), tSh’-pan-hes (Heb. fr. Egypt.) -principle of bringing forth; principle of ",
+      "candidates": []
+    },
+    {
+      "id": 3303,
+      "word": "Tahrea",
+      "etym": "Heb.",
+      "mibDef": "quick; fleet; flight; adroitness; adroit; crafty; cunning.",
+      "mibMeta": "The quickness of movement in consciousness, and very great skill, perception, and judgment, of spiritual faith (quick, fleet, adroit, cunning, a Benjamite). To the extent that this thought belongs to the outer consciousness and partakes of guile (crafty, cunning), its results will be unsatisfactory ",
+      "candidates": []
+    },
+    {
+      "id": 3304,
+      "word": "Tahtim - hodshi",
+      "etym": "Heb.",
+      "mibDef": "lowlands newly inhabited; nether lands newly",
+      "mibMeta": "A phase of subconscious substance. (Nether lands infers substance that is beneath; and the fact that this land is now unknown indicates a phase of thought substance in man that he knows little or nothing about. Both suggest the subconsciousness, which lies under or back of the outer consciousness an",
+      "candidates": []
+    },
+    {
+      "id": 3305,
+      "word": "talents",
+      "etym": "Matt. 25:14-30",
+      "mibDef": "Symbolize our spiritual gifts of life, love, truth, substance, intelligence,",
+      "mibMeta": "Spiritual gifts-life, love, Truth, substance, intelligence, faith, power, judgment,",
+      "candidates": [
+        {
+          "s": "H3603",
+          "def": "a circle, i.e., (by implication) a circumjacent tract or region, especially the Ghor or valley of the Jordan; also a (round) loaf; also a talent (or large [round] coin)"
+        },
+        {
+          "s": "G5007",
+          "def": "a balance (as supporting weights), i.e., (by implication) a certain weight (and thence a coin or rather sum of money) or \"talent\""
+        },
+        {
+          "s": "H3604",
+          "def": "a talent"
+        }
+      ]
+    },
+    {
+      "id": 3306,
+      "word": "Talitha",
+      "etym": "Gk. fr. Aram .",
+      "mibDef": "fresh; young; new; tender; maiden; damsel. Talitha cumi—",
+      "mibMeta": "Talitha (fresh, young, new, damsel, maiden) refers here to the soul, which is being awakened to a new, higher, and fuller realization of life by the I AM or Christ consciousness in the individual.",
+      "candidates": [
+        {
+          "s": "G5008",
+          "def": "the fresh, i.e., young girl; talitha (O maiden)"
+        }
+      ]
+    },
+    {
+      "id": 3307,
+      "word": "Talmai",
+      "etym": "Heb .",
+      "mibDef": "broken up; scattered; sown; furrowed; brave; bold; spirited.",
+      "mibMeta": "The deeply established thought habits of sense reasoning in individual consciousness; also the seemingly forceful, daring, confident, yet impatient and intolerant manner in which these thought habits and reasonings assert themselves ( furl owed, broken up, sown, bold, spirited, brave). We are told t",
+      "candidates": [
+        {
+          "s": "H8526",
+          "def": "Talmai, the name of a Canaanite and a Syrian"
+        }
+      ]
+    },
+    {
+      "id": 3308,
+      "word": "Talmon",
+      "etym": "Heb .",
+      "mibDef": "oppressor; oppressed; wronged; violent oppression; violated;",
+      "mibMeta": "A thought activity on guard at the gate or door of the consciousness (a porter in the house of God, who kept watch at the gates). This thought activity is of the old-established religious thoughts (one significance of the Jews) and is not open to the real Christ Truth, since it is of a tyrannical an",
+      "candidates": []
+    },
+    {
+      "id": 3309,
+      "word": "Tamar",
+      "etym": "Heb.",
+      "mibDef": "standing forth; ascending; high; lofty;",
+      "mibMeta": "Victory and conquest (palm tree, palm) through uprightness (high, loft, erect, upright); \"And Judah . . . said, She is more righteous than I, for as much as I gave her not to Shelah my son\" (Gen. 38:26). In the cases of the women named Tamar this consciousness of victory, or conquest, and overcoming",
+      "candidates": [
+        {
+          "s": "H8559",
+          "def": "Tamar, the name of three women and a place"
+        }
+      ]
+    },
+    {
+      "id": 3310,
+      "word": "Tammuz",
+      "etym": "Heb .",
+      "mibDef": "summer solstice: fullness: waning; departing.",
+      "mibMeta": "The outer, sense, and intellectual man's worship of the Giver of life, light, and supply. The sense man does not comprehend the true Source of light, understanding, energy, substance, and all growth and unfoldment to fruition and perfection. He perceives only outer channels and activities, and worsh",
+      "candidates": []
+    },
+    {
+      "id": 3311,
+      "word": "Tanhumeth",
+      "etym": "Heb.",
+      "mibDef": "rest; quiet; comfort; consolation.",
+      "mibMeta": "A peaceful, helpful, cheering, TARALAH strengthening thought activity in the higher, more spiritual phase of man's consciousness (rest, quiet, comfort, consolation, an Israelite).",
+      "candidates": [
+        {
+          "s": "H8576",
+          "def": "Tanchumeth, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3312,
+      "word": "Taphath",
+      "etym": "Heb.",
+      "mibDef": "drop; pendant; ornament; eardrop; distillation; dew.",
+      "mibMeta": "A spiritually receptive, attentive, obedient attitude of the soul in man. This is indeed a priceless ornament, or adornment, to the individual (drop, pendant, ornament, eardrop, an ear ornament relating to the blessing of true hearing, which is receptivity, obedience, and attentiveness to Spirit, to",
+      "candidates": [
+        {
+          "s": "H2955",
+          "def": "Taphath, an Israelitess"
+        }
+      ]
+    },
+    {
+      "id": 3313,
+      "word": "Taralah",
+      "etym": "Heb .",
+      "mibDef": "agitating; brandishing; trembling; reeling; uttering; staggering;",
+      "mibMeta": "The desire for a greater realization of the divine presence and power has gone forth from the innermost being of the individual. Taralah signifies a result of the beginnings of the fulfillment of this desire. When the divine presence and power begins its activity in the consciousness and the organis",
+      "candidates": []
+    },
+    {
+      "id": 3314,
+      "word": "Tarea",
+      "etym": "Heb .",
+      "mibDef": "quick; fleet; flight; adroitness, adroit; crafty; cunning.",
+      "mibMeta": "See TAHREA.",
+      "candidates": []
+    },
+    {
+      "id": 3315,
+      "word": "Tarpelites",
+      "etym": "fr. Heb.",
+      "mibDef": "plunderers, ravishers; despoilers.",
+      "mibMeta": "The violent and destructive tendency (ravishers) of the phase of intellectual thought that is represented by the Assyrians. (See ASSYRIA and ASSYRIANS.)",
+      "candidates": []
+    },
+    {
+      "id": 3316,
+      "word": "Tarshish",
+      "etym": "Heb .",
+      "mibDef": "gravitational energy; precipitant force; hard; hardness; severity;",
+      "mibMeta": "The hard, unyielding, argumentative, battering, demolishing tendency that is characteristic of the purely intellectual and reasoning nature in man when unmixed with divine love and the softening influence of spiritual wisdom. (Tarshish means precipitant force, hard, hardness, severity, breaking. Jap",
+      "candidates": [
+        {
+          "s": "H8659",
+          "def": "Tarshish, a place on the Mediterranean, hence, the ephithet of a merchant vessel (as if for or from that port); also the name of a Persian and of an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3317,
+      "word": "Tarsus",
+      "etym": "Gk.",
+      "mibDef": "at broad surface; at of the foot; wing; wing of Pegasus; blade; oar; at",
+      "mibMeta": "A group of thoughts in man's consciousness of an intellectual character and bordering on, becoming blended with, the more deeply inspirational phase of understanding that we recognize as being spiritual. These thoughts, though intellectual, are of an even, peaceful, broad, pleasing nature. (Tarsus m",
+      "candidates": []
+    },
+    {
+      "id": 3318,
+      "word": "Tartak tSr'-tak",
+      "etym": "Heb. fr. Pers ,",
+      "mibDef": "hero of darkness; prince of darkness; deep of darkness.",
+      "mibMeta": "A demoniac thought or condition of ignorance, error, limitation ( hero of darkness, prince of darkness, deep of darkness) to which the carnal beliefs and activities that the Avvites signify in consciousness give their substance and homage (a god of the Avvites; see AVVIM; also NIBHAZ, who was anothe",
+      "candidates": []
+    },
+    {
+      "id": 3319,
+      "word": "Tartan",
+      "etym": "Heb. fr. Pers .",
+      "mibDef": "embodiment of the law; extended preceptor; greatest extension;",
+      "mibMeta": "The executive activity, or seeming power of execution, that belongs to the ruling sense-reasoning phase of the will in man that is signified by Sennacherib, king of Assyria. (Tartan was a commander in chief ox general of this king, and was sent with the Assyrian army against Jerusalem. See SENNACHER",
+      "candidates": [
+        {
+          "s": "H8661",
+          "def": "Tartan, an Assyrian"
+        }
+      ]
+    },
+    {
+      "id": 3320,
+      "word": "Tattenai (A. V.",
+      "etym": "Heb. fr. Pers .",
+      "mibDef": "dispenser of gifts; overseer of gifts; gift;",
+      "mibMeta": "A ruling thought in the sense phase of man's being that, becoming awakened to the understanding that right adjustment, balance, poise, and equilibrium are obtained through Spirit and not in outer ways, acts in conjunction with the true spiritual thoughts in their work of rebuilding and spiritualizin",
+      "candidates": []
+    },
+    {
+      "id": 3321,
+      "word": "teacher",
+      "etym": "",
+      "mibDef": "Jesus appointed but one teacher in His school: the Spirit of truth, the Comforter in every",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1320",
+          "def": "an instructor (genitive case or specially)"
+        },
+        {
+          "s": "H995",
+          "def": "to separate mentally (or distinguish), i.e., (generally) understand"
+        },
+        {
+          "s": "H3384",
+          "def": "properly, to flow as water (i.e., to rain); transitively, to lay or throw (especially an arrow, i.e., to shoot); figuratively, to point out (as if by aiming the finger), to teach"
+        }
+      ]
+    },
+    {
+      "id": 3322,
+      "word": "Tebah",
+      "etym": "Heb.",
+      "mibDef": "slaughter, i. e., of animals or of human beings; killing; slaying; execution;",
+      "mibMeta": "An active thought of or strong belief in self-defense (life guard, bodyguard) that is very destructive (slaughter, i. e., of animals or of persons, killing, slaying, execution, butchering).",
+      "candidates": []
+    },
+    {
+      "id": 3323,
+      "word": "Tebaliah",
+      "etym": "Heb.",
+      "mibDef": "dipping of Jehovah; Jehovah immerses; Jah purifies; cleansing of",
+      "mibMeta": "A thought activity of inner spiritual cleansing and purifying through Christ, Jehovah, or spiritual I AM (Jehovah immerses, Jah purifies, cleansing of Jah)",
+      "candidates": [
+        {
+          "s": "H2882",
+          "def": "Tebaljah, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3324,
+      "word": "Tebeth",
+      "etym": "Heb.",
+      "mibDef": "goodness; returning good; good.",
+      "mibMeta": "A belief in divine, omnipresent goodness, in the allness of good, even when the seemingly cold, blighting, barren experience of winter is being felt in consciousness. Tehaphnehes, te-haph'-ne-hes (Heb. fr. Egypt.)-, principle of bringing forth; principle of beginnings; beginning of the world; source",
+      "candidates": []
+    },
+    {
+      "id": 3325,
+      "word": "Tehinnah",
+      "etym": "Heb.",
+      "mibDef": "inclination; disposed with favor; mercy; compassion;",
+      "mibMeta": "One's praying earnestly but in a supplicating, entreating manner, as though mercy and grace would come from without, instead of having confidence in the inner Source of all overcoming power and positively affirming one's good until it comes into manifestation (prayer, entreaty, supplication, implori",
+      "candidates": [
+        {
+          "s": "H8468",
+          "def": "Techinnah, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3326,
+      "word": "Tekel",
+      "etym": "Chald .",
+      "mibDef": "poised; held suspended; examined; tried; weighed.",
+      "mibMeta": "The inner feeling of inefficiency, defeat, lack of power to meet the problems at hand, and failure to be what one should be, that takes possession of the very soul of an individual in whom sense consciousness, the outer life with its desires for pleasure in sensation, has been allowed to rule until ",
+      "candidates": []
+    },
+    {
+      "id": 3327,
+      "word": "Tekoa",
+      "etym": "Heb.",
+      "mibDef": "striking; driving; pitching a tent; fixing",
+      "mibMeta": "The establishing in the individual of a more firm and abiding idea regarding his body (pitching a tent, fixing (of tents), fastening, securing, confirming). Tekoite, te-ko'-ite (fr. Heb.). A native of Tekoa. Here the reference is to \"Ira the son of Ikk esh the Tekoite\" (II Sam. 23:26). A thought lik",
+      "candidates": [
+        {
+          "s": "H8620",
+          "def": "Tekoa, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 3328,
+      "word": "Tel-abib",
+      "etym": "Heb.",
+      "mibDef": "hill of corn; hill of green ears; hill of verdure; green hill; hill of",
+      "mibMeta": "The river Chebar signifies a current of vital thought force that strengthens the religious thoughts of man (Jews) that have been reaching out for spiritual Truth but have become entangled in psychic forces (Chaldeans) and have fallen into sense confusion (Babylon). Spiritual revelation also comes to",
+      "candidates": []
+    },
+    {
+      "id": 3329,
+      "word": "Tel-melah",
+      "etym": "Heb.",
+      "mibDef": "hill of salt; hill of the covenant; oath hill.",
+      "mibMeta": "A lifting, in consciousness, of the thought of preservation of life and of the sureness, the inviolability, of Truth but a failure to cleanse oneself from the errors of sense (hill of salt, hill of the covenant, oath hill, a city of Babylonia from which there returned to Jerusalem Levites who were u",
+      "candidates": []
+    },
+    {
+      "id": 3330,
+      "word": "Telah",
+      "etym": "Heb.",
+      "mibDef": "breach; rupture; cleft; fracture; break.",
+      "mibMeta": "A breaking-up, separating, putting-away tendency of the will (breach, rupture, cleft). This may pertain to a putting off of error or a breaking up of harmony and peace, according to whether the will is exercised in union with Truth or in personal consciousness. Ephraim refers to the will.",
+      "candidates": [
+        {
+          "s": "H8520",
+          "def": "Telach, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3331,
+      "word": "Telaim",
+      "etym": "Heb.",
+      "mibDef": "young lambs; lambs; infants; youths.",
+      "mibMeta": "A thought center in consciousness that is of the nature of active life, youth, freshness, and newness (young lambs, infants, youths). In other words; fresh, new, alive ideas.",
+      "candidates": []
+    },
+    {
+      "id": 3332,
+      "word": "Telassar",
+      "etym": "Heb.",
+      "mibDef": "hill ofAsshur; Assyrian hill.",
+      "mibMeta": "A lifting, exalting, of the sense reasoning or intellectual plane of thought in individual consciousness (hill ofAsshur, Assyrian hill, Asshur and Assyria typify the mental, reasoning plane in man).",
+      "candidates": []
+    },
+    {
+      "id": 3333,
+      "word": "Telem",
+      "etym": "Heb.",
+      "mibDef": "overshadowing; oppression; wrongdoing.",
+      "mibMeta": "The higher thought and life obscured, overshadowed for the time being, by the seeming reality and power of some carnal belief in error (overshadowing, oppression, wrongdoing). telepathy— Thought transference; exchange of thought between persons without visible means of transmission. This is a limite",
+      "candidates": []
+    },
+    {
+      "id": 3334,
+      "word": "Tema",
+      "etym": "Heb.",
+      "mibDef": "south; southern quarter; on the right side, i. e., when facing east, sunny;",
+      "mibMeta": "Abundant substance and life, firmness, faithfulness, and Truth, stored in the subconsciousness (south, southern quarter, on the right side, i. e., when facing east, sunny, good fortune, prosperity, abundance, good faith, firm, faithful, a person, a people, and aland). \"The inhabitants of the land of",
+      "candidates": [
+        {
+          "s": "H8485",
+          "def": "Tema, a son of Ishmael, and the region settled by him"
+        }
+      ]
+    },
+    {
+      "id": 3335,
+      "word": "Teman",
+      "etym": "Heb .",
+      "mibDef": "south; southern quarter; on the right side, i. e., when facing east; sunny;",
+      "mibMeta": "Teman, like Tema, refers to the realm of the subconsciousness with its inherently rich stores of substance and good. Here this realm is under the influence of the Esau-and-Edom phase of mind in the individual; in other words, under material thought. (See ESAU and EDOM.) Temanites (in A. V., Genesis ",
+      "candidates": []
+    },
+    {
+      "id": 3336,
+      "word": "Temeni",
+      "etym": "Heb .",
+      "mibDef": "right side; south; south quarter; sunny; happy; prosperous; fortunate;",
+      "mibMeta": "A subconscious belief in good, in success, happiness, prosperity, integrity (south, sunny, prosperous, faithful, fortunate, a son of Ashhur, of the tribe of Judah). temperance. Temperance is the control and satisfaction, under the divine law, of the desires of the soul. It is established in consciou",
+      "candidates": []
+    },
+    {
+      "id": 3337,
+      "word": "Temple",
+      "etym": "",
+      "mibDef": "ly, a symbol of the regenerated body of man, which when he attains it he",
+      "mibMeta": "Solomon's Temple is a symbol of the regenerated body of man. which when he attains it, he will never again leave. This enduring temple is built in the understanding of Spirit as the one ] and only cause of all things. In I Corinthians 6:19 and in II Corinthians 6:16 we learn that man's body is the t",
+      "candidates": [
+        {
+          "s": "H1964",
+          "def": "a large public building, such as a palace or temple"
+        },
+        {
+          "s": "G3485",
+          "def": "a fane, shrine, temple"
+        },
+        {
+          "s": "G2411",
+          "def": "a sacred place, i.e., the entire precincts (whereas G3485 denotes the central sanctuary itself) of the Temple (at Jerusalem or elsewhere)"
+        },
+        {
+          "s": "H1965",
+          "def": "a large public building, such as a palace or temple"
+        },
+        {
+          "s": "H1004",
+          "def": "a house (in the greatest variation of applications, especially family, etc.)"
+        }
+      ]
+    },
+    {
+      "id": 3338,
+      "word": "temple of the living God\" because He made it alive. He said",
+      "etym": "",
+      "mibDef": "\"ye who have followed me,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1964",
+          "def": "a large public building, such as a palace or temple"
+        },
+        {
+          "s": "G3485",
+          "def": "a fane, shrine, temple"
+        },
+        {
+          "s": "G2411",
+          "def": "a sacred place, i.e., the entire precincts (whereas G3485 denotes the central sanctuary itself) of the Temple (at Jerusalem or elsewhere)"
+        },
+        {
+          "s": "H1965",
+          "def": "a large public building, such as a palace or temple"
+        },
+        {
+          "s": "H1004",
+          "def": "a house (in the greatest variation of applications, especially family, etc.)"
+        }
+      ]
+    },
+    {
+      "id": 3339,
+      "word": "temptation",
+      "etym": "",
+      "mibDef": "A proving, testing, or trying. The temptations in the wilderness (Matt. 4:1-11)",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3986",
+          "def": "a putting to proof (by experiment (of good), experience (of evil), solicitation, discipline or provocation); by implication, adversity"
+        },
+        {
+          "s": "H4531",
+          "def": "a testing, of men (judicial) or of God (querulous)"
+        }
+      ]
+    },
+    {
+      "id": 3340,
+      "word": "TEneas",
+      "etym": "Gk.",
+      "mibDef": "praise; laudable.",
+      "mibMeta": "Lydda means strife. Peter symbolizes faith in the power of Spirit, which has been quickened in us by the example of Jesus Christ. The mission of this faith is to renew the whole consciousness, of which the body is part. Thought is the oversoul of every bodily function. If there is a part of the cons",
+      "candidates": []
+    },
+    {
+      "id": 3341,
+      "word": "tents",
+      "etym": "",
+      "mibDef": "The flesh bodies of man that he puts on and off again and again, (see tabernacle)",
+      "mibMeta": "The flesh bodies of man that he puts on and off again and again. (See TABERNACLE.)",
+      "candidates": [
+        {
+          "s": "H168",
+          "def": "a tent (as clearly conspicuous from a distance)"
+        },
+        {
+          "s": "H2583",
+          "def": "properly, to incline; by implication, to decline (of the slanting rays of evening); specifically, to pitch a tent; generally to encamp (for abode or siege)"
+        },
+        {
+          "s": "H4264",
+          "def": "an encampment (of travellers or troops); hence, an army, whether literal (of soldiers) or figurative (of dancers, angels, cattle, locusts, stars; or even the sacred courts)"
+        }
+      ]
+    },
+    {
+      "id": 3342,
+      "word": "Terah",
+      "etym": "Heb.",
+      "mibDef": "lagging behind, loitering; delaying;",
+      "mibMeta": "The movement in consciousness that is represented by Terah the father of",
+      "candidates": [
+        {
+          "s": "H8646",
+          "def": "Terach, the father of Abraham; also a place in the Desert"
+        }
+      ]
+    },
+    {
+      "id": 3343,
+      "word": "teraphim",
+      "etym": "Heb.",
+      "mibDef": "givers of prosperity; guardians of comforts; household gods;",
+      "mibMeta": "Thoughts tending to the outer only for supply, protection, and all good (givers of prosperity, guardians of comforts, nourishers, domestic idols); centering one's trust in the many outer channels through which one's good comes to one, instead of knowing God as one's sustenance and power of developme",
+      "candidates": []
+    },
+    {
+      "id": 3344,
+      "word": "Teresh",
+      "etym": "Heb.",
+      "mibDef": "hard; severe; austere; strict; unyielding; stony.",
+      "mibMeta": "A harsh, rigidly methodical thought (hard, austere, strict, severe, unyielding, stony) belonging to the outer sense consciousness of man, that serves the puffed-up personal will (King Ahasuerus) but would put in bonds and destroy the dominance of this will if it did not conform in every particular t",
+      "candidates": []
+    },
+    {
+      "id": 3345,
+      "word": "Tertius",
+      "etym": "Lat .",
+      "mibDef": "third; third part; threefold; three parts; triune.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3346,
+      "word": "Tertullus",
+      "etym": "Lat.",
+      "mibDef": "diminutive ofTertius; little third; minor third.",
+      "mibMeta": "Expression in an outer, sense way, and incited by the outer, established religious ideas of the intellect in man (diminutive ofTertius, little third, minor third, one who came with the elders of the Jews to testify against Paul; see TERTIUS). Tetrarch, te'-trSrch (Gk ruler of the fourth; chief of th",
+      "candidates": [
+        {
+          "s": "G5061",
+          "def": "Tertullus, a Roman"
+        }
+      ]
+    },
+    {
+      "id": 3347,
+      "word": "that he does",
+      "etym": "",
+      "mibDef": "Divine Mind.",
+      "mibMeta": "A place in the apparently higher or religious consciousness of man where material thought still prevails. Absalom represents physical beauty without the corresponding beauty of soul. Amnon symbolizes a mental quality in man in process of education, a quality that, when its education is completed, wi",
+      "candidates": [
+        {
+          "s": "H834",
+          "def": "who, which, what, that; also (as an adverb and a conjunction) when, where, how, because, in order that, etc"
+        },
+        {
+          "s": "H3588",
+          "def": "(by implication) very widely used as a relative conjunction or adverb (as below); often largely modified by other particles annexed"
+        },
+        {
+          "s": "G3754",
+          "def": "demonstrative, that (sometimes redundant); causative, because"
+        },
+        {
+          "s": "G2443",
+          "def": "in order that (denoting the purpose or the result)"
+        },
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        }
+      ]
+    },
+    {
+      "id": 3348,
+      "word": "that is set before him",
+      "etym": "",
+      "mibDef": "eternal life, preservation of the entire man— spirit, soul, and body. The \"sword\" in",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H834",
+          "def": "who, which, what, that; also (as an adverb and a conjunction) when, where, how, because, in order that, etc"
+        },
+        {
+          "s": "H3588",
+          "def": "(by implication) very widely used as a relative conjunction or adverb (as below); often largely modified by other particles annexed"
+        },
+        {
+          "s": "G3754",
+          "def": "demonstrative, that (sometimes redundant); causative, because"
+        },
+        {
+          "s": "G2443",
+          "def": "in order that (denoting the purpose or the result)"
+        },
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        }
+      ]
+    },
+    {
+      "id": 3349,
+      "word": "The \"seed",
+      "etym": "",
+      "mibDef": "not the external thinking personality that has",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H4428",
+          "def": "a king"
+        }
+      ]
+    },
+    {
+      "id": 3350,
+      "word": "the attributes of Being",
+      "etym": "",
+      "mibDef": "life, love, intelligence, wisdom, and the other God qualities.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H4428",
+          "def": "a king"
+        }
+      ]
+    },
+    {
+      "id": 3351,
+      "word": "the brethren",
+      "etym": "",
+      "mibDef": "the true thoughts in consciousness, those that are awakening to the right understanding of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H4428",
+          "def": "a king"
+        }
+      ]
+    },
+    {
+      "id": 3352,
+      "word": "the child of this union",
+      "etym": "",
+      "mibDef": "meaning shearer, one who cuts off or severs something from an object— refers to",
+      "mibMeta": "Thoughts belonging to human- strength consciousness in man. (See GAZA.)",
+      "candidates": [
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H4428",
+          "def": "a king"
+        }
+      ]
+    },
+    {
+      "id": 3353,
+      "word": "the consciousness",
+      "etym": "",
+      "mibDef": "the old error thoughts contend for their place, refuse to go out, and a veritable war is",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H4428",
+          "def": "a king"
+        }
+      ]
+    },
+    {
+      "id": 3354,
+      "word": "the EARTH",
+      "etym": "",
+      "mibDef": "one's true, spiritual I AM— in",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H4428",
+          "def": "a king"
+        }
+      ]
+    },
+    {
+      "id": 3355,
+      "word": "The end of the world prophesied in the Bible will come as a thief in the night",
+      "etym": "",
+      "mibDef": "quietly, silently.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H4428",
+          "def": "a king"
+        }
+      ]
+    },
+    {
+      "id": 3356,
+      "word": "the eternal progress and good of the race",
+      "etym": "",
+      "mibDef": "the Mother-God, the Holy Spirit, the Oversoul, that is always",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H4428",
+          "def": "a king"
+        }
+      ]
+    },
+    {
+      "id": 3357,
+      "word": "The first three steps in bringing forth are purely spiritual",
+      "etym": "",
+      "mibDef": "Father, Son, and Holy Spirit, or, mind,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H4428",
+          "def": "a king"
+        }
+      ]
+    },
+    {
+      "id": 3358,
+      "word": "the fullness of eternal life to His offspring",
+      "etym": "",
+      "mibDef": "mankind. Jehiel refers more to this truth; Jehiah, taking on",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H4428",
+          "def": "a king"
+        }
+      ]
+    },
+    {
+      "id": 3359,
+      "word": "The law of mind action may be described in three steps",
+      "etym": "",
+      "mibDef": "mind, idea, manifestation. First, there",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H4428",
+          "def": "a king"
+        }
+      ]
+    },
+    {
+      "id": 3360,
+      "word": "The one way to Jerusalem",
+      "etym": "",
+      "mibDef": "perfect expression of all the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H4428",
+          "def": "a king"
+        }
+      ]
+    },
+    {
+      "id": 3361,
+      "word": "the overcoming life he receives the commission to destroy",
+      "etym": "",
+      "mibDef": "to cast out— the carnal mind or personal,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H4428",
+          "def": "a king"
+        }
+      ]
+    },
+    {
+      "id": 3362,
+      "word": "the place was called Hormah\"",
+      "etym": "",
+      "mibDef": "utter destruction, extermination (Num. 21:2, 3; see also Josh. 12:14 and",
+      "mibMeta": "An aggregation of ignorant, destructive subconscious thoughts about life, they are",
+      "candidates": [
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H4428",
+          "def": "a king"
+        }
+      ]
+    },
+    {
+      "id": 3363,
+      "word": "the powers of the four elements",
+      "etym": "",
+      "mibDef": "earth, air, fire, and water.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H4428",
+          "def": "a king"
+        }
+      ]
+    },
+    {
+      "id": 3364,
+      "word": "The stomach stands for the meditative faculty of the mind",
+      "etym": "",
+      "mibDef": "its ability to receive ideas, turn them",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H4428",
+          "def": "a king"
+        }
+      ]
+    },
+    {
+      "id": 3365,
+      "word": "the substance of true ideas",
+      "etym": "",
+      "mibDef": "true spiritual bread, the word of Truth. Both Jacob and Moses, in blessing",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H4428",
+          "def": "a king"
+        }
+      ]
+    },
+    {
+      "id": 3366,
+      "word": "the three phases or activities of the Infinite",
+      "etym": "",
+      "mibDef": "Lather, Son, and Holy Spirit, or mind, idea, and expression.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H4428",
+          "def": "a king"
+        }
+      ]
+    },
+    {
+      "id": 3367,
+      "word": "the true",
+      "etym": "",
+      "mibDef": "the full",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H4428",
+          "def": "a king"
+        }
+      ]
+    },
+    {
+      "id": 3368,
+      "word": "the true king",
+      "etym": "",
+      "mibDef": "to be loyal to Truth. This places a heavy burden upon one, and such a state of mind must",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "H4428",
+          "def": "a king"
+        }
+      ]
+    },
+    {
+      "id": 3369,
+      "word": "Thebez",
+      "etym": "Heb.",
+      "mibDef": "shining; brightness; conspicuous; prominent; seen afar.",
+      "mibMeta": "The bright shining of the light of Truth into and through the will faculty in man (brightness, seen afar, a city of Ephraim, Ephraim representing the will faculty in individual consciousness). When the will accepts the Christ light and becomes subject to spiritual I AM, a great change takes place in",
+      "candidates": []
+    },
+    {
+      "id": 3370,
+      "word": "them",
+      "etym": "",
+      "mibDef": "God.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G846",
+          "def": "the reflexive pronoun self, used (alone or in the comparative G1438) of the third person, and (with the proper personal pronoun) of the other persons"
+        },
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "H3027",
+          "def": "a hand (the open one [indicating power, means, direction, etc.], in distinction from H3709, the closed one); used (as noun, adverb, etc.) in a great variety of applications, both literally and figuratively, both proximate and remote [as follows]"
+        },
+        {
+          "s": "H5921",
+          "def": "above, over, upon, or against (yet always in this last relation with a downward aspect) in a great variety of applications"
+        },
+        {
+          "s": "H853",
+          "def": "properly, self (but generally used to point out more definitely the object of a verb or preposition, even or namely)"
+        }
+      ]
+    },
+    {
+      "id": 3371,
+      "word": "Then Abimelech",
+      "etym": "",
+      "mibDef": "is denied rulership in the person whose will",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "G3767",
+          "def": "(adverbially) certainly, or (conjunctionally) accordingly"
+        },
+        {
+          "s": "G5119",
+          "def": "the when, i.e., at the time that (of the past or future, also in consecution)"
+        },
+        {
+          "s": "G1161",
+          "def": "but, and, etc"
+        },
+        {
+          "s": "H227",
+          "def": "at that time or place; also as a conjunction, therefore"
+        }
+      ]
+    },
+    {
+      "id": 3372,
+      "word": "Theophilus",
+      "etym": "Gk.",
+      "mibDef": "lover of Theos; lover of God; loved of God; love of God;",
+      "mibMeta": "Divine love— spiritual unity. therapy— That phase of Metaphysicalphysics which treats of divine healing. We are all interested in the soul and how to save it. Those who follow Jesus go one step farther in soul therapy than the average psychoanalyst; they incorporate Spirit with soul and make it the ",
+      "candidates": []
+    },
+    {
+      "id": 3373,
+      "word": "there are Egyptians",
+      "etym": "",
+      "mibDef": "all classes and kinds of thoughts have room until the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8033",
+          "def": "there (transferring to time) then; often thither, or thence"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        },
+        {
+          "s": "H3808",
+          "def": "not (the simple or abs. negation); by implication, no; often used with other particles"
+        },
+        {
+          "s": "H3426",
+          "def": "there is or are (or any other form of the verb to be, as may suit the connection)"
+        },
+        {
+          "s": "G1563",
+          "def": "there; by extension, thither"
+        }
+      ]
+    },
+    {
+      "id": 3374,
+      "word": "There is nothing but Mind and thought",
+      "etym": "",
+      "mibDef": "Principle and its mode of expression. The things made,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8033",
+          "def": "there (transferring to time) then; often thither, or thence"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        },
+        {
+          "s": "H3808",
+          "def": "not (the simple or abs. negation); by implication, no; often used with other particles"
+        },
+        {
+          "s": "H3426",
+          "def": "there is or are (or any other form of the verb to be, as may suit the connection)"
+        },
+        {
+          "s": "G1563",
+          "def": "there; by extension, thither"
+        }
+      ]
+    },
+    {
+      "id": 3375,
+      "word": "thereby load their minds with all sorts of thoughts",
+      "etym": "",
+      "mibDef": "good, bad, and indifferent. Those who are",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5921",
+          "def": "above, over, upon, or against (yet always in this last relation with a downward aspect) in a great variety of applications"
+        },
+        {
+          "s": "H3045",
+          "def": "to know (properly, to ascertain by seeing); used in a great variety of senses, figuratively, literally, euphemistically and inferentially (including observation, care, recognition; and causatively, instruction, designation, punishment, etc.)"
+        },
+        {
+          "s": "H2896",
+          "def": "good (as an adjective) in the widest sense; used likewise as a noun, both in the masculine and the feminine, the singular and the plural (good, a good or good thing, a good man or woman; the good, goods or good things, good men or women), also as an adverb (well)"
+        },
+        {
+          "s": "H3808",
+          "def": "not (the simple or abs. negation); by implication, no; often used with other particles"
+        },
+        {
+          "s": "H3117",
+          "def": "a day (as the warm hours), whether literal (from sunrise to sunset, or from one sunset to the next), or figurative (a space of time defined by an associated term), (often used adverb)"
+        }
+      ]
+    },
+    {
+      "id": 3376,
+      "word": "These are represented by the Gentile cities",
+      "etym": "",
+      "mibDef": "Amphipolis, Apollonia, and Thessalonica— through which",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H428",
+          "def": "these or those"
+        },
+        {
+          "s": "G5023",
+          "def": "these things"
+        },
+        {
+          "s": "G3778",
+          "def": "the he (she or it), i.e., this or that (often with article repeated)"
+        },
+        {
+          "s": "G5130",
+          "def": "of (from or concerning) these (persons or things)"
+        },
+        {
+          "s": "H2088",
+          "def": "the masculine demonstrative pronoun, this or that"
+        }
+      ]
+    },
+    {
+      "id": 3377,
+      "word": "these enemies",
+      "etym": "",
+      "mibDef": "the Assyrians, Philistines, and others —encamped against Israel in battle, time after time.",
+      "mibMeta": "The apparent ability of error states of consciousness in man to stay with him. From a sense standpoint the thoughts and states of consciousness that comprise the carnal mind are very deep-seated and are strongly fortified. It is only by the positive power of the I AM or Christ dominion that they can",
+      "candidates": [
+        {
+          "s": "H428",
+          "def": "these or those"
+        },
+        {
+          "s": "G5023",
+          "def": "these things"
+        },
+        {
+          "s": "G3778",
+          "def": "the he (she or it), i.e., this or that (often with article repeated)"
+        },
+        {
+          "s": "G5130",
+          "def": "of (from or concerning) these (persons or things)"
+        },
+        {
+          "s": "H2088",
+          "def": "the masculine demonstrative pronoun, this or that"
+        }
+      ]
+    },
+    {
+      "id": 3378,
+      "word": "Thessalonica",
+      "etym": "Gk.",
+      "mibDef": "billowy; tossed by the waves. Its ancient name was",
+      "mibMeta": "Macedonia is representative of the enthusiasm and energy of Spirit that set the whole man aflame. (See MACEDONIA.) Thessalonica (its ancient name, Therm%, meaning hot springs), a city of Macedonia from which Paul was driven by persecution by the Jews there, represents the burning or heated zeal of t",
+      "candidates": [
+        {
+          "s": "G2332",
+          "def": "Thessalonice, a place in Asia Minor"
+        }
+      ]
+    },
+    {
+      "id": 3379,
+      "word": "Theudas",
+      "etym": "Gk .",
+      "mibDef": "God- given; God's gift; gratuitously given of God; God's benefaction.",
+      "mibMeta": "A belief in the goodness of God (God's benefaction), in the truth that life and all good are God's gift to man; but carried to the extent of refusal to recognize that these God-given qualities and their manifestations can be attained consciously by man only on condition that he conform in thought, w",
+      "candidates": []
+    },
+    {
+      "id": 3380,
+      "word": "they were of Israel",
+      "etym": "",
+      "mibDef": "real, true, spiritual thoughts).",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1992",
+          "def": "they (only used when emphatic)"
+        },
+        {
+          "s": "H935",
+          "def": "to go or come (in a wide variety of applications)"
+        },
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "H3808",
+          "def": "not (the simple or abs. negation); by implication, no; often used with other particles"
+        },
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        }
+      ]
+    },
+    {
+      "id": 3381,
+      "word": "things)",
+      "etym": "",
+      "mibDef": "rebuilding the wall of Jerusalem.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3956",
+          "def": "all, any, every, the whole"
+        },
+        {
+          "s": "G5023",
+          "def": "these things"
+        },
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        },
+        {
+          "s": "G3739",
+          "def": "the relatively (sometimes demonstrative) pronoun, who, which, what, that"
+        },
+        {
+          "s": "H1697",
+          "def": "a word; by implication, a matter (as spoken of) or thing; adverbially, a cause"
+        }
+      ]
+    },
+    {
+      "id": 3382,
+      "word": "thinking",
+      "etym": "",
+      "mibDef": "The formulating process of mind. It is a faculty of the ego, the omnipotent I AM of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5869",
+          "def": "an eye (literally or figuratively); by analogy, a fountain (as the eye of the landscape)"
+        }
+      ]
+    },
+    {
+      "id": 3383,
+      "word": "this has significance",
+      "etym": "",
+      "mibDef": "ewe, lamb— refers to the soul phase of the pure natural life in the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2088",
+          "def": "the masculine demonstrative pronoun, this or that"
+        },
+        {
+          "s": "H2063",
+          "def": "this (often used adverb)"
+        },
+        {
+          "s": "G3778",
+          "def": "the he (she or it), i.e., this or that (often with article repeated)"
+        },
+        {
+          "s": "G5124",
+          "def": "that thing"
+        },
+        {
+          "s": "H3117",
+          "def": "a day (as the warm hours), whether literal (from sunrise to sunset, or from one sunset to the next), or figurative (a space of time defined by an associated term), (often used adverb)"
+        }
+      ]
+    },
+    {
+      "id": 3384,
+      "word": "Thomas",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "joined; conjoined; doubled; twain; twin.",
+      "mibMeta": "Thomas is the disciple of Jesus Christ who represents the understanding faculty in man. Understanding and will function, or should function, in unison; each has its center of activity in the front brain, the forehead. Among the disciples of Jesus, Thomas stood for the head, representing reason and i",
+      "candidates": [
+        {
+          "s": "G2381",
+          "def": "the twin; Thomas, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 3385,
+      "word": "thought",
+      "etym": "",
+      "mibDef": "Like attracts like. A thought will take up its abode in our consciousness with",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2803",
+          "def": "properly, to plait or interpenetrate, i.e., (literally) to weave or (generally) to fabricate; figuratively, to plot or contrive (usually in a malicious sense); hence (from the mental effort) to think, regard, value, compute"
+        },
+        {
+          "s": "G3309",
+          "def": "to be anxious about"
+        },
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "H2161",
+          "def": "to plan, usually in a bad sense"
+        },
+        {
+          "s": "G1380",
+          "def": "compare the base of G1166) of the same meaning; to think; by implication, to seem (truthfully or uncertainly)"
+        }
+      ]
+    },
+    {
+      "id": 3386,
+      "word": "thought and purpose",
+      "etym": "",
+      "mibDef": "the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2803",
+          "def": "properly, to plait or interpenetrate, i.e., (literally) to weave or (generally) to fabricate; figuratively, to plot or contrive (usually in a malicious sense); hence (from the mental effort) to think, regard, value, compute"
+        },
+        {
+          "s": "G3309",
+          "def": "to be anxious about"
+        },
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "H2161",
+          "def": "to plan, usually in a bad sense"
+        },
+        {
+          "s": "G1380",
+          "def": "compare the base of G1166) of the same meaning; to think; by implication, to seem (truthfully or uncertainly)"
+        }
+      ]
+    },
+    {
+      "id": 3387,
+      "word": "thought- stuff",
+      "etym": "",
+      "mibDef": "The omnipresent, invisible substance ever ready to take form in accordance with",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2803",
+          "def": "properly, to plait or interpenetrate, i.e., (literally) to weave or (generally) to fabricate; figuratively, to plot or contrive (usually in a malicious sense); hence (from the mental effort) to think, regard, value, compute"
+        },
+        {
+          "s": "G3309",
+          "def": "to be anxious about"
+        },
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "H2161",
+          "def": "to plan, usually in a bad sense"
+        },
+        {
+          "s": "G1380",
+          "def": "compare the base of G1166) of the same meaning; to think; by implication, to seem (truthfully or uncertainly)"
+        }
+      ]
+    },
+    {
+      "id": 3388,
+      "word": "thoughts",
+      "etym": "",
+      "mibDef": "and thus aids in building up and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4284",
+          "def": "a contrivance, i.e., (concretely) a texture, machine, or (abstractly) intention, plan (whether bad, a plot; or good, advice)"
+        },
+        {
+          "s": "H7476",
+          "def": "a grasp. i.e., (figuratively) mental conception"
+        },
+        {
+          "s": "G1261",
+          "def": "discussion, i.e., (internal) consideration (by implication, purpose), or (external) debate"
+        },
+        {
+          "s": "H5587",
+          "def": "divided (in mind), i.e., (abstractly) a sentiment"
+        },
+        {
+          "s": "G1761",
+          "def": "deliberation"
+        }
+      ]
+    },
+    {
+      "id": 3389,
+      "word": "thoughts",
+      "etym": "",
+      "mibDef": "come to fruition, and the harvest time will bring inharmonious experiences of",
+      "mibMeta": "A great sense of upliftment and strength, of Truth and might, that is the result of exalting and magnifying the I AM, Christ, or Jehovah in consciousness (whom Jehovah makes distinguished, the Lord has distinguished, Jah is wonderful, whom Jehovah strengthens).",
+      "candidates": [
+        {
+          "s": "H4284",
+          "def": "a contrivance, i.e., (concretely) a texture, machine, or (abstractly) intention, plan (whether bad, a plot; or good, advice)"
+        },
+        {
+          "s": "H7476",
+          "def": "a grasp. i.e., (figuratively) mental conception"
+        },
+        {
+          "s": "G1261",
+          "def": "discussion, i.e., (internal) consideration (by implication, purpose), or (external) debate"
+        },
+        {
+          "s": "H5587",
+          "def": "divided (in mind), i.e., (abstractly) a sentiment"
+        },
+        {
+          "s": "G1761",
+          "def": "deliberation"
+        }
+      ]
+    },
+    {
+      "id": 3390,
+      "word": "thoughts regarding life)",
+      "etym": "",
+      "mibDef": "a place of returning to sense consciousness and its",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4284",
+          "def": "a contrivance, i.e., (concretely) a texture, machine, or (abstractly) intention, plan (whether bad, a plot; or good, advice)"
+        },
+        {
+          "s": "H7476",
+          "def": "a grasp. i.e., (figuratively) mental conception"
+        },
+        {
+          "s": "G1261",
+          "def": "discussion, i.e., (internal) consideration (by implication, purpose), or (external) debate"
+        },
+        {
+          "s": "H5587",
+          "def": "divided (in mind), i.e., (abstractly) a sentiment"
+        },
+        {
+          "s": "G1761",
+          "def": "deliberation"
+        }
+      ]
+    },
+    {
+      "id": 3391,
+      "word": "Three",
+      "etym": "",
+      "mibDef": "three means conviction, subconscious impregnation, where you no longer have the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7969",
+          "def": "three; occasionally (ordinal) third, or (multiple) thrice"
+        },
+        {
+          "s": "G5140",
+          "def": "\"three\""
+        },
+        {
+          "s": "H8532",
+          "def": "three or third"
+        },
+        {
+          "s": "H8027",
+          "def": "to be (causatively, make) triplicate (by restoration, in portions, strands, days or years)"
+        },
+        {
+          "s": "H7992",
+          "def": "third; feminine a third (part); by extension, a third (day, year or time); specifically, a third-story cell)"
+        }
+      ]
+    },
+    {
+      "id": 3392,
+      "word": "three times",
+      "etym": "",
+      "mibDef": "to \"feed my sheep.\"",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7969",
+          "def": "three; occasionally (ordinal) third, or (multiple) thrice"
+        },
+        {
+          "s": "G5140",
+          "def": "\"three\""
+        },
+        {
+          "s": "H8532",
+          "def": "three or third"
+        },
+        {
+          "s": "H8027",
+          "def": "to be (causatively, make) triplicate (by restoration, in portions, strands, days or years)"
+        },
+        {
+          "s": "H7992",
+          "def": "third; feminine a third (part); by extension, a third (day, year or time); specifically, a third-story cell)"
+        }
+      ]
+    },
+    {
+      "id": 3393,
+      "word": "Thummim",
+      "etym": "Heb .",
+      "mibDef": "whole; entire; complete; perfect; sound; without blemish; whole-",
+      "mibMeta": "See URIM.",
+      "candidates": [
+        {
+          "s": "H8550",
+          "def": "perfections, i.e., (technically) one of the epithets of the objects in the high-priest's breastplate as an emblem of complete Truth"
+        }
+      ]
+    },
+    {
+      "id": 3394,
+      "word": "Thyatira",
+      "etym": "Gk.",
+      "mibDef": "burning incense; rushing headlong; inspired; frantic; aromatic",
+      "mibMeta": "The intense desire of the soul for the higher expressions of life ( burning incense, inspired, perfume). Zeal is the central thought represented by this church; it is also connected with power and faith. The following interpretations are based on Revelation 2:19-29. \"Thy last works are more than the",
+      "candidates": [
+        {
+          "s": "G2363",
+          "def": "Thyatira, a place in Asia Minor"
+        }
+      ]
+    },
+    {
+      "id": 3395,
+      "word": "Tibhath",
+      "etym": "Hob.",
+      "mibDef": "extensive level; security; tranquillity; confidence; safety",
+      "mibMeta": "An enlarging of one's consciousness of equity, of fairness, of justice, or order (extensive level); also peace, confidence, and trust (security, tranquillity, confidence, safety), but especially on the material plane at first. Later this consciousness comes under the direct influence of Spirit, ther",
+      "candidates": []
+    },
+    {
+      "id": 3396,
+      "word": "Tibni",
+      "etym": "Heb .",
+      "mibDef": "structure; model; figure; pattern; likeness; similitude; building of",
+      "mibMeta": "An intelligent, knowing thought in the higher consciousness of man that receives spiritual insight into the truth that the divine-ideal man, the Christ, in each individual, is the divine pattern, model, or likeness; and that man's perfect inner, spiritual organism is the structure or building of Jeh",
+      "candidates": [
+        {
+          "s": "H8402",
+          "def": "Tibni, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3397,
+      "word": "Tidal",
+      "etym": "Heb .",
+      "mibDef": "splendor; renown; veneration; awe; fear.",
+      "mibMeta": "The very large and prominent place (splendor, renown, veneration) that sensuality has in the sense, material, and carnal states of consciousness that belong to the outer, animal man; also the fearfulness that results from sense expression (fear). (See GOIIM and CHEDORLAOMER.)",
+      "candidates": [
+        {
+          "s": "H8413",
+          "def": "Tidal, a Canaanite"
+        }
+      ]
+    },
+    {
+      "id": 3398,
+      "word": "Tiglath - pileser",
+      "etym": "Assyr.",
+      "mibDef": "my confidence is the son ofEshara, i. e., Ninib; lord",
+      "mibMeta": "The significance is virtually the same as that of Pul. (See PUL.)",
+      "candidates": []
+    },
+    {
+      "id": 3399,
+      "word": "Tikvah",
+      "etym": "Heb.",
+      "mibDef": "twisted together; cord; strong; robust; expectation, hoping strongly;",
+      "mibMeta": "Strong desire for higher, truer attainment and development, with the expectation of receiving ( hoping strongly, expectation; Israelites, and fathers of men who were closely associated with and actively engaged in attempts to put away evils from among the Israelitish and Jewish people). These though",
+      "candidates": [
+        {
+          "s": "H8616",
+          "def": "Tikvah, the name of two Israelites"
+        }
+      ]
+    }
+  ]
+}

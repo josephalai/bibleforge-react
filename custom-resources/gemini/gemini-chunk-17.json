@@ -1,0 +1,1252 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "17 of 37",
+  "_entry_range": "ids 1600–1699",
+  "entries": [
+    {
+      "id": 1600,
+      "word": "Hobaiah (A.V.",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah hides; Jah is protection; Jehovah's",
+      "mibMeta": "Gaining spiritual protection for our higher ideals by hiding their true nature from the more established religious intellectual beliefs. Our higher and more spiritual thoughts that really belong to the priesthood cannot, at a certain stage of our unfoldment, always make their spiritual origin (genea",
+      "candidates": []
+    },
+    {
+      "id": 1601,
+      "word": "Hod",
+      "etym": "Heb.",
+      "mibDef": "vigorous; strong; splendor; majesty; glory; an acclamation; confession; a",
+      "mibMeta": "A ruling, conquering thought in the Asher consciousness in man. (See ASHER.) It is the lifting up and exalting (majesty, glory, splendor, praise ) of the joy of true spiritual understanding (see Prov. 3:13-18). Hodaviah (in A.V., I Chronicles 3:24, Hodaiah), hod-a-vi'-ah (Heb.)- praise ye Jehovah; g",
+      "candidates": []
+    },
+    {
+      "id": 1602,
+      "word": "Hodesh",
+      "etym": "Heb.",
+      "mibDef": "polish; make shine; make new; renew; the new -moon; day of the new",
+      "mibMeta": "Shaharaim ( double dawn, double morning) represents the breaking of new light in consciousness, doubly strong. Hodesh (new moon, or month, day of the new moon ) suggests the reflection of this light in the soul while it is being carried into the body consciousness, for its renewal ( make new). (The ",
+      "candidates": [
+        {
+          "s": "H2321",
+          "def": "Chodesh, an Israelitess"
+        }
+      ]
+    },
+    {
+      "id": 1603,
+      "word": "Hodevah",
+      "etym": "Heb .",
+      "mibDef": "praise of Jehovah; Jah is honor; strength of Jehovah; praise the",
+      "mibMeta": "Virtually the same as Hodaviah: thoughts and activities of the love consciousness as expressed by our natural religious tendencies (Levites), giving praise, honor, and glory to Jehovah (the indwelling Christ or I AM), and being blessed and highly esteemed by Jehovah.",
+      "candidates": []
+    },
+    {
+      "id": 1604,
+      "word": "Hodiah",
+      "etym": "Heb.",
+      "mibDef": "my splendor is Jehovah;",
+      "mibMeta": "That in the religious and spiritual nature of man (Israelites) which realizes that",
+      "candidates": [
+        {
+          "s": "H1940",
+          "def": "a Jewess"
+        }
+      ]
+    },
+    {
+      "id": 1605,
+      "word": "Hoglah",
+      "etym": "Heb.",
+      "mibDef": "hopping bird; partridge; quail; magpie.",
+      "mibMeta": "Zelophehad, father of Hoglah, signifies the denial or letting-go-of-error aspect of understanding (Manasseh). This that Zelophehad represents in the individual does not express as positive knowledge; it brings forth fruit in the soul consciousness only. (All Zelophehad's children were daughters, and",
+      "candidates": []
+    },
+    {
+      "id": 1606,
+      "word": "Hoham",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah stirs up; whom Jah impels; whom Jehovah incites;",
+      "mibMeta": "As Adonizedek represents the sensate idea of justice, which in unredeemed man rules in Jerusalem, the heart center, so Hoham signifies a similar error idea ruling in the seat of conscious thought, Hebron, the front brain. If Hoham were an Israelite the significance would be good-",
+      "candidates": [
+        {
+          "s": "H1944",
+          "def": "Hoham, a Canaanitish king"
+        }
+      ]
+    },
+    {
+      "id": 1607,
+      "word": "hold a thought",
+      "etym": "",
+      "mibDef": "To search out and absorb to one's consciousness, through the process of",
+      "mibMeta": "A group of thoughts belonging to the intellect in man. When these thoughts are given over to the direction of the carnal mind (Moab) they are material and unstable, earthly, and they bring the individual to grief; but when they come under the dominion of Judah and the Levites (praise, prayer, love, ",
+      "candidates": [
+        {
+          "s": "H2388",
+          "def": "to fasten upon; hence, to seize, be strong (figuratively, courageous, causatively strengthen, cure, help, repair, fortify), obstinate; to bind, restrain, conquer"
+        },
+        {
+          "s": "H270",
+          "def": "to seize (often with the accessory idea of holding in possession)"
+        },
+        {
+          "s": "G2902",
+          "def": "to use strength, i.e., seize or retain (literally or figuratively)"
+        },
+        {
+          "s": "H2790",
+          "def": "to scratch, i.e., (by implication) to engrave, plough; hence (from the use of tools) to fabricate (of any material); figuratively, to devise (in a bad sense); hence (from the idea of secrecy) to be silent, to let alone; hence (by implication) to be deaf (as an accompaniment of dumbness)"
+        },
+        {
+          "s": "H8610",
+          "def": "to manipulate, i.e., seize; chiefly to capture, wield, specifically, to overlay; figuratively, to use unwarrantably"
+        }
+      ]
+    },
+    {
+      "id": 1608,
+      "word": "hold all persons in Truth",
+      "etym": "",
+      "mibDef": "Never to think evil of anyone, no matter how much error he may seem",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2388",
+          "def": "to fasten upon; hence, to seize, be strong (figuratively, courageous, causatively strengthen, cure, help, repair, fortify), obstinate; to bind, restrain, conquer"
+        },
+        {
+          "s": "H270",
+          "def": "to seize (often with the accessory idea of holding in possession)"
+        },
+        {
+          "s": "G2902",
+          "def": "to use strength, i.e., seize or retain (literally or figuratively)"
+        },
+        {
+          "s": "H2790",
+          "def": "to scratch, i.e., (by implication) to engrave, plough; hence (from the use of tools) to fabricate (of any material); figuratively, to devise (in a bad sense); hence (from the idea of secrecy) to be silent, to let alone; hence (by implication) to be deaf (as an accompaniment of dumbness)"
+        },
+        {
+          "s": "H8610",
+          "def": "to manipulate, i.e., seize; chiefly to capture, wield, specifically, to overlay; figuratively, to use unwarrantably"
+        }
+      ]
+    },
+    {
+      "id": 1609,
+      "word": "holy",
+      "etym": "",
+      "mibDef": "\"Spiritually whole; of unimpaired innocence\" (Webster). Holiness is wholeness in Spirit,",
+      "mibMeta": "Substance in its spiritual wholeness; that is, the idea of substance in Divine Mind. When man approaches this he must remove from his understanding ah limited thoughts of the Absolute - -\"Put off thy shoes from off thy feet.\" (See BURNING BUSH.) Holy Ghost— (see Holy Spirit)",
+      "candidates": [
+        {
+          "s": "H6944",
+          "def": "a sacred place or thing; rarely abstract, sanctity"
+        },
+        {
+          "s": "G40",
+          "def": "sacred (physically, pure, morally blameless or religious, ceremonially, consecrated)"
+        },
+        {
+          "s": "H6918",
+          "def": "sacred (ceremonially or morally); (as noun) God (by eminence), an angel, a saint, a sanctuary"
+        },
+        {
+          "s": "H6922",
+          "def": "sacred (ceremonially or morally); (as noun) God (by eminence), an angel, a saint, a sanctuary"
+        },
+        {
+          "s": "H2623",
+          "def": "properly, kind, i.e., (religiously) pious (a saint)"
+        }
+      ]
+    },
+    {
+      "id": 1610,
+      "word": "holy",
+      "etym": "",
+      "mibDef": "The word of Truth; the statement of wholeness of the whole body; a spiritual",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H6944",
+          "def": "a sacred place or thing; rarely abstract, sanctity"
+        },
+        {
+          "s": "G40",
+          "def": "sacred (physically, pure, morally blameless or religious, ceremonially, consecrated)"
+        },
+        {
+          "s": "H6918",
+          "def": "sacred (ceremonially or morally); (as noun) God (by eminence), an angel, a saint, a sanctuary"
+        },
+        {
+          "s": "H6922",
+          "def": "sacred (ceremonially or morally); (as noun) God (by eminence), an angel, a saint, a sanctuary"
+        },
+        {
+          "s": "H2623",
+          "def": "properly, kind, i.e., (religiously) pious (a saint)"
+        }
+      ]
+    },
+    {
+      "id": 1611,
+      "word": "holy ground",
+      "etym": "",
+      "mibDef": "(see ground, holy)",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H6944",
+          "def": "a sacred place or thing; rarely abstract, sanctity"
+        },
+        {
+          "s": "G40",
+          "def": "sacred (physically, pure, morally blameless or religious, ceremonially, consecrated)"
+        },
+        {
+          "s": "H6918",
+          "def": "sacred (ceremonially or morally); (as noun) God (by eminence), an angel, a saint, a sanctuary"
+        },
+        {
+          "s": "H6922",
+          "def": "sacred (ceremonially or morally); (as noun) God (by eminence), an angel, a saint, a sanctuary"
+        },
+        {
+          "s": "H2623",
+          "def": "properly, kind, i.e., (religiously) pious (a saint)"
+        }
+      ]
+    },
+    {
+      "id": 1612,
+      "word": "Homam",
+      "etym": "Heb .",
+      "mibDef": "destruction; blind; raging; riotous commotion; greatest",
+      "mibMeta": "Seir the Horite signifies the thought that rules in the deep-seated sense tendencies and activities of the physical in man. (See HORITES.) When sense desires, beliefs, and activities are allowed to prevail without restraint (blind, raging), they are very destructive and bring about desolation and ru",
+      "candidates": []
+    },
+    {
+      "id": 1613,
+      "word": "honesty",
+      "etym": "",
+      "mibDef": "The divine law in action, which reveals that man must give an equivalent (equal value) for",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1614,
+      "word": "Hophni",
+      "etym": "Heb .",
+      "mibDef": "pugnacious; strong; hard-fisted; a fighter.",
+      "mibMeta": "Eli means a going up and is typical of the phase of man's consciousness that is always seeking spiritual progress. The two sons of Eli represent the natural product of one's desire to grow spiritually. They represent spiritual strength and power. When these faculties begin to awaken, though they are",
+      "candidates": [
+        {
+          "s": "H2652",
+          "def": "Chophni, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1615,
+      "word": "Hophra",
+      "etym": "Heb. fr. Egypt.",
+      "mibDef": "Pharaoh Hophra; protector ofRa; priest of the sun.",
+      "mibMeta": "The central ruling thought of the Egyptian consciousness in man. (See PHARAOH and EGYPT)",
+      "candidates": []
+    },
+    {
+      "id": 1616,
+      "word": "Hor",
+      "etym": "Heb.",
+      "mibDef": "to he high; to conceive; to think; a height; a mountain; Mount Hor —the",
+      "mibMeta": "A much exalted state of thought in man. It is here that the ruling power of the intellectual consciousness (Aaron the first high priest of Israel), which has become the executive power of the divine law to the highest religious and spiritual thoughts of the individual (Israelites), ceases its activi",
+      "candidates": [
+        {
+          "s": "H2023",
+          "def": "Hor, the name of a peak in Idumaea and of one in Syria"
+        }
+      ]
+    },
+    {
+      "id": 1617,
+      "word": "Hor-haggidgad (A. V.",
+      "etym": "Heb .",
+      "mibDef": "hole of the cleft; hole of the",
+      "mibMeta": "The same as Gudgodah, except that Hor-haggidgad refers more particularly to a work that is going on in the subconsciousness. (Hole, cave, cavern, bespeak the depths of the subconsciousness. The Hor in this name is spelled in Hebrew with a different \"H\" from that of Mount Hor, which causes it to refe",
+      "candidates": []
+    },
+    {
+      "id": 1618,
+      "word": "Horam",
+      "etym": "Heb.",
+      "mibDef": "high; elevated; lofty; exalted; mountaineer.",
+      "mibMeta": "The lifting up and exalting (lofty, elevated, high) in consciousness of the sense beliefs and activities that Gezer symbolizes. (See GEZER.)",
+      "candidates": [
+        {
+          "s": "H2036",
+          "def": "Horam, a Canaanitish king"
+        }
+      ]
+    },
+    {
+      "id": 1619,
+      "word": "Horeb",
+      "etym": "Heb.",
+      "mibDef": "dryness; drought; heat; waste; desolation; desert; barren; solitude.",
+      "mibMeta": "A state of high spiritual realization that we may attain by affirming the power and presence of the one inner, divine sustenance and nourishment. It is a high place in consciousness where we come into conscious union with the divine. (See REPHIDIM, also Exodus 17.) Solitude, as a meaning of Horeb, s",
+      "candidates": [
+        {
+          "s": "H2722",
+          "def": "Choreb, a (generic) name for the Sinaitic mountains"
+        }
+      ]
+    },
+    {
+      "id": 1620,
+      "word": "Horem",
+      "etym": "Heb .",
+      "mibDef": "consecrated; sacred; devoted; set apart; shut off , i. e., removed from",
+      "mibMeta": "Strength (Naphtali) dedicated to God ( consecrated ) or regarded as sacred and devoted to spiritual service and use. This truly becomes a fortress, a stronghold, in consciousness; strength cannot grow less when one realizes one's strength as from God and as divine; it ever grows stronger, surer, and",
+      "candidates": []
+    },
+    {
+      "id": 1621,
+      "word": "Hori",
+      "etym": "Heb.",
+      "mibDef": "cave dweller; imprisoned; black; free; noble; white.",
+      "mibMeta": "Thoughts belonging to the depths of the subconsciousness ( cave dweller). The one is wholly given over to the error beliefs signified by the Horites. The other, who is of the tribe of Simeon (one who listens and obeys), has become, through the dawning light of Spirit, higher and nobler, which tends ",
+      "candidates": [
+        {
+          "s": "H2753",
+          "def": "Chori, the name of two men"
+        }
+      ]
+    },
+    {
+      "id": 1622,
+      "word": "Hormah",
+      "etym": "Heb.",
+      "mibDef": "shut in; devoted; consecrated; dedicated; an asylum- a sanctuary;",
+      "mibMeta": "A seeming paradox in Christian overcoming: the letting go and utter destruction of error beliefs and ideas, and at the same time the devoting or dedicating, consecrating to God, to high and spiritual use, of all the energy, substance, power, faith, intelligence, and strength that have been given to ",
+      "candidates": []
+    },
+    {
+      "id": 1623,
+      "word": "horns",
+      "etym": "",
+      "mibDef": "Adverse conditions. The blowing of the ram's horn represents the denial of adverse",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7161",
+          "def": "a horn (as projecting); by implication, a flask, cornet; by resemblance. an elephant's tooth (i.e., ivory), a corner (of the altar), a peak (of a mountain), a ray (of light); figuratively, power"
+        },
+        {
+          "s": "G2768",
+          "def": "a horn (literally or figuratively)"
+        },
+        {
+          "s": "H3104",
+          "def": "the blast of a horn (from its continuous sound); specifically, the signal of the silver trumpets; hence, the instrument itself and the festival thus introduced"
+        },
+        {
+          "s": "H7162",
+          "def": "a horn (literally or for sound)"
+        },
+        {
+          "s": "H7160",
+          "def": "to shoot out horns; figuratively, rays"
+        }
+      ]
+    },
+    {
+      "id": 1624,
+      "word": "Horonaim",
+      "etym": "Heb.",
+      "mibDef": "double caves; two caves; outbursts of anger; ragings.",
+      "mibMeta": "Subconscious errors that are a part of the carnal mind. Great seeming distress and commotion often arise when these errors are being brought to the surface and denied away. At such a time a forsaken, desolate feeling sometimes takes hold of one, until the light of Truth fills in the seeming vacuum w",
+      "candidates": [
+        {
+          "s": "H2773",
+          "def": "Choronajim, a place in Moab"
+        }
+      ]
+    },
+    {
+      "id": 1625,
+      "word": "Horonite",
+      "etym": "fr. Heb.",
+      "mibDef": "cave; cavern; anger; indignation.",
+      "mibMeta": "A thought belonging to the Horonaim or Beth-horon state of consciousness and the opposing, fighting, resisting attitude that it takes while being dealt with in the overcoming of error. It must be, and finally will be, put entirely out of consciousness. (See Nehemiah 13:28-30; see also BETH- -HORON a",
+      "candidates": []
+    },
+    {
+      "id": 1626,
+      "word": "horses",
+      "etym": "",
+      "mibDef": "(see 6th chapter of Revelation.) The four horses and their riders are, first, \"a white horse,\"",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5483",
+          "def": "a swallow (from its rapid flight)"
+        },
+        {
+          "s": "G2462",
+          "def": "a horse"
+        },
+        {
+          "s": "H5484",
+          "def": "a mare"
+        }
+      ]
+    },
+    {
+      "id": 1627,
+      "word": "Hosah",
+      "etym": "Heb.",
+      "mibDef": "refuge; shelter; protection; trust; hope; confidence.",
+      "mibMeta": "A trusting, hopeful spirit in man that becomes a true haven (refuge) to him at all times, and especially when he is passing through some overcoming experiences in which the error side of things appears to be triumphing over the true. hosannas— Represent the joyful obedience and homage that all the t",
+      "candidates": [
+        {
+          "s": "H2621",
+          "def": "Chosah, an Israelite; also a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1628,
+      "word": "Hosanna",
+      "etym": "Gk. from Heb .",
+      "mibDef": "save now; deliver now; succor now; be propitious now.",
+      "mibMeta": "Worshipful prayer offered by the inner thoughts that are awakening spiritually, prayer for the preservation and safe growth of the Christ Spirit that is being formed and brought to birth in the soul and body of the individual. We desire every blessing and good for this true Christ ideal within us, t",
+      "candidates": [
+        {
+          "s": "G5614",
+          "def": "oh save!; hosanna (i.e., hoshia-na), an exclamation of adoration"
+        }
+      ]
+    },
+    {
+      "id": 1629,
+      "word": "Hosea",
+      "etym": "Heb.",
+      "mibDef": "deliverance; safety; salvation; help.",
+      "mibMeta": "I AM identity. It is by our recognition of our true I AM, or Christ identity, that we reap the benefits of our sonship and realize deliverance and salvation. We receive help from the Divine when we claim this help and affirm our birthright, through I AM.",
+      "candidates": []
+    },
+    {
+      "id": 1630,
+      "word": "Hoshaiah",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah delivers; help ofJah; safety of Jehovah; salvation",
+      "mibMeta": "The inner assurance that one has received one's needed help and salvation through I AM, or Jehovah.",
+      "candidates": []
+    },
+    {
+      "id": 1631,
+      "word": "Hoshama",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah hears; hearken to Jah; understanding of Jehovah;",
+      "mibMeta": "The heeding, obedient attitude of mind in man, which opens the way to divine favor. \"The eyes of Jehovah are toward the righteous,",
+      "candidates": []
+    },
+    {
+      "id": 1632,
+      "word": "Hotham (A. V.",
+      "etym": "Y\\cb.",
+      "mibDef": "seal; a signet ring; closed;",
+      "mibMeta": "The fixed resolution (determined, seed) of the spiritually awakened inner understanding and will of man to become consciously one with Spirit, to serve, obey, and magnify God, the good. In Bible times, among certain nations, when a decree was sealed by the king it became irrevocable, unalterable; it",
+      "candidates": []
+    },
+    {
+      "id": 1633,
+      "word": "Hothir",
+      "etym": "Heb.",
+      "mibDef": "the saved one; preserver; savior; excellence; fullness to overflowing;",
+      "mibMeta": "A realization of abundant supply (abundance, fullness to overflowing) from the inner Spirit of harmony and wisdom. This fills the whole being and surpasses (excellence) anything that can be attained in outer intellectual or material searching. This inner knowledge of wisdom and Truth becomes the pre",
+      "candidates": []
+    },
+    {
+      "id": 1634,
+      "word": "Hukkok",
+      "etym": "Heb.",
+      "mibDef": "cut in; hew; engrave; carx’e; ordain; decree; appoint; a ditch; a",
+      "mibMeta": "The establishing of the idea of unfailing strength (Naphtali) in the mind and heart, engraving it in the very cells and fiber of the whole being. Divine Truth must be thus written (engrave, cut in, a scribe ) in our inward parts, and all our thought and organism must become alive to the abidingness,",
+      "candidates": []
+    },
+    {
+      "id": 1635,
+      "word": "Hukok",
+      "etym": "Web.",
+      "mibDef": "cut in; hew; engrave; orclain; decree; appoint; a scribe; judge; ruler.",
+      "mibMeta": "The same as Hukkok, except that this group of thoughts relates to Asher rather than Naphtali (see HUKKOK), and to the understanding by man that he has his appointed part in the divine inheritance of all good. (See HELKATH.)",
+      "candidates": [
+        {
+          "s": "H2712",
+          "def": "Chukkok or Chukok, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1636,
+      "word": "Hul",
+      "etym": "Heb.",
+      "mibDef": "circle; circling; turning about; whirling; ecstasy; joy; attending; resolving;",
+      "mibMeta": "That in the intellect of man which seeks to conform to both the spiritual and the outer-sense ideas of wisdom and understanding. (A circle refers to the spiritual, to oneness, or unity, that which has no beginning or ending. Pain, trembling, f ear, sorrow, exist in and are products of the \"mind of t",
+      "candidates": []
+    },
+    {
+      "id": 1637,
+      "word": "Huldah",
+      "etym": "Heb.",
+      "mibDef": "smooth; gliding; fleeting; transient life, of this world, i. e., earthly,",
+      "mibMeta": "The intuitive perception of the \"second\" or subjective consciousness. The brain through which this divinity within us functions is between the breasts and is connected with the love nature. This is why it is designated as feminine. Intuitive perception, or intuition, is something over which the oute",
+      "candidates": [
+        {
+          "s": "H2468",
+          "def": "Chuldah, an Israelitess"
+        }
+      ]
+    },
+    {
+      "id": 1638,
+      "word": "humanity",
+      "etym": "",
+      "mibDef": "The garden of God, of which the soil is the omnipresent thought substance.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1639,
+      "word": "Humtah",
+      "etym": "Web.",
+      "mibDef": "bow down; lie upon the ground; crawl upon the ground; grovel;",
+      "mibMeta": "Creeping thoughts (lizard, snail) of a low character, yet strong and fortifying (fortress), and due to be lifted to a higher level (a city in the hill country of Judah) by the ministry of praise and prayer (Judah).",
+      "candidates": []
+    },
+    {
+      "id": 1640,
+      "word": "Hupham",
+      "etym": "Heb.",
+      "mibDef": "coastman; seashore; bank; covered; under cover; veiled; protected;",
+      "mibMeta": "A coastman is one who lives on or near the seashore; in all likelihood he is a fisherman, which symbolizes a gatherer of ideas, fish representing ideas, especially ideas of increase. This seeking out and gathering of true ideas of increase, together with an active faith (Benjamin) in the good only, ",
+      "candidates": []
+    },
+    {
+      "id": 1641,
+      "word": "Huphamites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Hupham.",
+      "mibMeta": "Thoughts belonging to and springing from that which Hupham signifies in consciousness. (See HUPHAM.)",
+      "candidates": []
+    },
+    {
+      "id": 1642,
+      "word": "Huppah",
+      "etym": "Heb.",
+      "mibDef": "covering; protection; veil; canopy; curtain; covert; sanctuary.",
+      "mibMeta": "The spiritual clothing (a covering) and defense, refuge, preservation, protection, that love (David) and true religious ideals (priests) are to the consciousness of man.",
+      "candidates": []
+    },
+    {
+      "id": 1643,
+      "word": "Huppim",
+      "etym": "Heb.",
+      "mibDef": "coastman; seashore; bank; under cover; veiled; protection- secret;",
+      "mibMeta": "Virtually the same as that of Hupham. (See HUPHAM.)",
+      "candidates": [
+        {
+          "s": "H2650",
+          "def": "Chuppim, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1644,
+      "word": "Hur",
+      "etym": "Heb .",
+      "mibDef": "white; pure; brilliant; noble; liberty; freedom; hollowed out; subterranean hole;",
+      "mibMeta": "Affirmative prayer, affirmation of Truth; a strong, cleansing, freeing, ennobling power whose activity in consciousness helps clear away the remaining darkness and obscurity (Egypt). It also aids in keeping the attention fixed on the divine executive power (he helped hold up the hands of Moses while",
+      "candidates": [
+        {
+          "s": "H2354",
+          "def": "Chur, the name of four Israelites and one Midianite"
+        }
+      ]
+    },
+    {
+      "id": 1645,
+      "word": "Hurai",
+      "etym": "Heb.",
+      "mibDef": "linen worker; weaver of fine linen; bleacher of fine linen; whitener;",
+      "mibMeta": "A freeing, ennobling power that works in the spiritual qualities of discrimination, intuition, and love, to bring about an orderly interblending of the true thoughts and ideals in consciousness (weaver of fine linen, linen worker, whitener, purifier, splendid); thus the individual becomes purified a",
+      "candidates": [
+        {
+          "s": "H2360",
+          "def": "Churai, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1646,
+      "word": "Huram",
+      "etym": "Heb.",
+      "mibDef": "noble; free; highborn; pure; brilliant; white-robed.",
+      "mibMeta": "See HIRAM. The Huram who was a Benjamite signifies the activity of faith as a purifying, uplifting, constructive power in man's consciousness, to bring about true liberty and nobility. These building qualities in consciousness that Hiram or Huram represents are noble, free, and highborn; they are of",
+      "candidates": [
+        {
+          "s": "H2361",
+          "def": "Churam, the name of an Israelite and two Syrians"
+        },
+        {
+          "s": "H2438",
+          "def": "Chiram or Chirom, the name of two Tyrians"
+        }
+      ]
+    },
+    {
+      "id": 1647,
+      "word": "Huri",
+      "etym": "",
+      "mibDef": "(Heb .)— linen worker; weaver of fine linen; bleacher of fine linen; whitener;",
+      "mibMeta": "The same word as Hurai. (See HURAI.)",
+      "candidates": []
+    },
+    {
+      "id": 1648,
+      "word": "Hushah",
+      "etym": "Heb .",
+      "mibDef": "haste; speed; vehemence; passion; eagerness; feverishness; lust;",
+      "mibMeta": "The swiftness and vehemence of unrepressed desire. In its expression this desire becomes good or evil according to the thoughts by which it is directed.",
+      "candidates": []
+    },
+    {
+      "id": 1649,
+      "word": "Hushai",
+      "etym": "Heb.",
+      "mibDef": "hasty; quick; rapid; vehement emotion; arduous passion; eager",
+      "mibMeta": "At this time David's love for physical beauty without spiritual understanding, which was illustrated in Absalom, had brought him into trouble, ly interpreted, this would refer to a time when we let our affections for the physical forms of life take up our whole attention to the exclusion of Spirit a",
+      "candidates": [
+        {
+          "s": "H2365",
+          "def": "Chushai, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1650,
+      "word": "Husham",
+      "etym": "Heb.",
+      "mibDef": "hasting; quick; fleeting; vehement; passionate; ardorous.",
+      "mibMeta": "The hurried attitude of mind, relating to physical desire. This belongs to the outer consciousness and tends to confusion and disorder.",
+      "candidates": [
+        {
+          "s": "H2367",
+          "def": "Chusham, an Idumaean"
+        }
+      ]
+    },
+    {
+      "id": 1651,
+      "word": "Hushathite",
+      "etym": "fr. Heb.",
+      "mibDef": "name for the dwellers in Hushah.",
+      "mibMeta": "A thought belonging to and springing from the Hushah thought and attitude of mind. (See HUSHAH.)",
+      "candidates": [
+        {
+          "s": "H2843",
+          "def": "a Chushathite or descendant of Chushah"
+        }
+      ]
+    },
+    {
+      "id": 1652,
+      "word": "Hushim",
+      "etym": "Heb.",
+      "mibDef": "the hastening; hasters; hustlers; people of haste; vehement people;",
+      "mibMeta": "An acceleration of thought activity (hasters, people of haste) in the judgment faculty in man (Dan) and in the active faith faculty (Benjamin). In the former, this accelerating of thought activity takes place in the reasoning or masculine phase of the justice consciousness only (Hushim of Dan was a ",
+      "candidates": [
+        {
+          "s": "H2366",
+          "def": "Chushim, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1653,
+      "word": "Hymenus",
+      "etym": "Gk.",
+      "mibDef": "God of marriage; hymeneal; wedding song; nuptials.",
+      "mibMeta": "A seemingly religious and spiritual thought activity in consciousness that unifies itself with worldly reasonings about spiritual truths, and with the thoughts and desires of the outer man. This is known as the marriage of the church with the world; it leads the individual away from the Christ Truth",
+      "candidates": []
+    },
+    {
+      "id": 1654,
+      "word": "hypocrite",
+      "etym": "",
+      "mibDef": "In classic Greek, the word meant an actor in a theater; so the word came to mean",
+      "mibMeta": "Hypocrite, in classic Greek, means an actor in a theater; so the word came to mean any one who pretended to be one thing while really he was something far different. Appearing to be lovingly thoughtful for others, while thinking only of self and reputation, is to deserve only the reward of a hypocri",
+      "candidates": [
+        {
+          "s": "H2611",
+          "def": "soiled (i.e., with sin), impious"
+        },
+        {
+          "s": "H120",
+          "def": "ruddy i.e., a human being (an individual or the species, mankind, etc.)"
+        }
+      ]
+    },
+    {
+      "id": 1655,
+      "word": "I AM",
+      "etym": "",
+      "mibDef": "Spiritual identity; the real or Christ Mind, of each individual. The I AM Being. God is I",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H589",
+          "def": "I"
+        },
+        {
+          "s": "H5414",
+          "def": "to give, used with greatest latitude of application (put, make, etc.)"
+        },
+        {
+          "s": "G1473",
+          "def": "I, me"
+        },
+        {
+          "s": "H595",
+          "def": "I"
+        },
+        {
+          "s": "H3808",
+          "def": "not (the simple or abs. negation); by implication, no; often used with other particles"
+        }
+      ]
+    },
+    {
+      "id": 1656,
+      "word": "I AM",
+      "etym": "",
+      "mibDef": "Man seeking happiness through sense pleasure. This is sin (missing the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H589",
+          "def": "I"
+        },
+        {
+          "s": "H5414",
+          "def": "to give, used with greatest latitude of application (put, make, etc.)"
+        },
+        {
+          "s": "G1473",
+          "def": "I, me"
+        },
+        {
+          "s": "H595",
+          "def": "I"
+        },
+        {
+          "s": "H3808",
+          "def": "not (the simple or abs. negation); by implication, no; often used with other particles"
+        }
+      ]
+    },
+    {
+      "id": 1657,
+      "word": "I AM identity",
+      "etym": "",
+      "mibDef": "As the will of God, man represents I AM identity. Individual consciousness is",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H589",
+          "def": "I"
+        },
+        {
+          "s": "H5414",
+          "def": "to give, used with greatest latitude of application (put, make, etc.)"
+        },
+        {
+          "s": "G1473",
+          "def": "I, me"
+        },
+        {
+          "s": "H595",
+          "def": "I"
+        },
+        {
+          "s": "H3808",
+          "def": "not (the simple or abs. negation); by implication, no; often used with other particles"
+        }
+      ]
+    },
+    {
+      "id": 1658,
+      "word": "Ibhar",
+      "etym": "Heb .",
+      "mibDef": "whom he chooses; he desires; he approves; He (God) delights; he selects-",
+      "mibMeta": "Desire and the thing desired. The root of this word refers to the object in which the will is centered and wherein it delights— the thing desired as well as the inner subjective force that sets the will in motion.",
+      "candidates": [
+        {
+          "s": "H2984",
+          "def": "Jibchar, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1659,
+      "word": "Ibleam",
+      "etym": "Heb.",
+      "mibDef": "jubilation of the people; victory of the people; he consumes the people;",
+      "mibMeta": "Understanding (Manasseh) established in zeal (Issachar) and joyous substance (Asher) brings about victory over error (victory of the people; \"And Manasseh had in Issachar and in Asher... Ibleam and its towns.\") In a victory there is always the destroying aspect— since the enemies are",
+      "candidates": [
+        {
+          "s": "H2991",
+          "def": "Jibleam, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 1660,
+      "word": "Ibneiah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah will build; Jah will erect; Jehovah will construct; Jah will",
+      "mibMeta": "The understanding or belief that the I AM, Jehovah, the indwelling Christ, established in love (Jeroham, father of Ibneiah, meaning he will cherish, he will love) and an active faith (Ibneiah was a Benjamite), works constructively in man's consciousness and will build up his organism in full express",
+      "candidates": [
+        {
+          "s": "H2997",
+          "def": "Jibnejah, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1661,
+      "word": "Ibnijah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah will build; Jah is builder; Jehovah will reconstruct.",
+      "mibMeta": "Virtually the same as Ibneiah Belief in the constructive activity of I AM, Jehovah, in man's consciousness brings about a fellowship and association with the Divine, a consciousness of God as friend (Reuel, Ibnijah's son, meaning friendship of God, companion of God), that is very strengthening and p",
+      "candidates": []
+    },
+    {
+      "id": 1662,
+      "word": "Ibri",
+      "etym": "Heb.",
+      "mibDef": "a Hebrew; one who passes over; one from the other side; one not of this",
+      "mibMeta": "A passing over from the bitter, unhappy frame of mind and conditions that result from love expressed negatively, to a true comprehension and expression of the love faculty. (Levi signifies love, and Merari, the father of Ibri and son of Levi, signifies the bitterness and sorrow that results when the",
+      "candidates": []
+    },
+    {
+      "id": 1663,
+      "word": "Ibzan",
+      "etym": "Heb.",
+      "mibDef": "white; shining; brilliant; splendid; famous; tin.",
+      "mibMeta": "The excellence (splendid, famous) of true judgment in man, established in substance. It becomes a reflection of light, or, rather, it emits the true light of Spirit, to the whole consciousness. (Ibzan was a judge of Israel, a judge referring to the faculty of judgment and discernment in the individu",
+      "candidates": [
+        {
+          "s": "H78",
+          "def": "Ibtsan, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1664,
+      "word": "Ichabod",
+      "etym": "Heb.",
+      "mibDef": "where is honor?; glory is departed; nonglorious; inglorious;",
+      "mibMeta": "The sense of defeat, of ignominy, that comes over man when he becomes aware of the fact that he has let his awakening faculties, which are in reality spiritual, be influenced by the selfishness of the personal man to the extent that he has seemingly lost out spiritually, for a time at least. The sou",
+      "candidates": []
+    },
+    {
+      "id": 1665,
+      "word": "Iconium",
+      "etym": "Gk .",
+      "mibDef": "image-like; likeness; likely; yielding; retiring; giving away; breast",
+      "mibMeta": "A group of thoughts of an imaging and receptive (tending to negativeness) character, in the emotional nature. (Lycaonia, meaning wolfland, she-wolf represents the emotional nature swayed by the undisciplined, devouring, unredeemed thoughts of the animal man. See LYCAONIA.) In this group of thoughts,",
+      "candidates": []
+    },
+    {
+      "id": 1666,
+      "word": "Idalah",
+      "etym": "Heb.",
+      "mibDef": "the exalted One; He (God) is exalted; memorial.",
+      "mibMeta": "A group of thoughts belonging to the faculty of order (Zebulun relates to order) in",
+      "candidates": []
+    },
+    {
+      "id": 1667,
+      "word": "Idbash",
+      "etym": "Heb.",
+      "mibDef": "brown, i. e., honey-colored; honey; syrup; sweetness; kneadable; soft;",
+      "mibMeta": "A thought of love (honey, sweetness), pliability (kneadable), and substance (fatty, corpulent), more of the physical than of spiritual consciousness.",
+      "candidates": []
+    },
+    {
+      "id": 1668,
+      "word": "Iddo",
+      "etym": "Heb.",
+      "mibDef": "timely; seasonable; opportune; favorable; festal; full-formed; voluptuous;",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5714",
+          "def": "Iddo (or Iddi), the name of five Israelites"
+        },
+        {
+          "s": "H3035",
+          "def": "Jiddo, an Israelite"
+        },
+        {
+          "s": "H3260",
+          "def": "Jedi, an Israelite"
+        },
+        {
+          "s": "H112",
+          "def": "Iddo, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1669,
+      "word": "idea",
+      "etym": "",
+      "mibDef": "Original, primary, or unlimited thought of Being; in God-Mind the eternal Word or Logos.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1670,
+      "word": "idea",
+      "etym": "",
+      "mibDef": "The one complete idea of perfect man in Divine Mind. Jesus is the name that",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1671,
+      "word": "idea",
+      "etym": "",
+      "mibDef": "\"The Lather is greater than I\" (John 14:28, last clause), was the",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1672,
+      "word": "idea",
+      "etym": "",
+      "mibDef": "but the fourth step, the outer manifestation, becomes very physical and material,",
+      "mibMeta": "Thadd%us represents the faculty of elimination in man. In the body the eliminative center is situated in the lower part of the back. It is just as necessary that one should learn to let go of thoughts, conditions, and substances in consciousness, body, and affairs, when they have served their purpos",
+      "candidates": []
+    },
+    {
+      "id": 1673,
+      "word": "ideal",
+      "etym": "",
+      "mibDef": "The Christ man; the divine idea of man.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1674,
+      "word": "idealism",
+      "etym": "",
+      "mibDef": "God's standard of perfection.",
+      "mibMeta": "A material form representing an idea. It is not idolatry to make idols and worship with them, if the heart understands their significance; but if the understanding is without love, mere intellectual perception, then man \"knoweth not yet as he ought to know.\" Those who have the love of God quickened ",
+      "candidates": []
+    },
+    {
+      "id": 1675,
+      "word": "ideas",
+      "etym": "",
+      "mibDef": "As the son is to the father, so is the idea to the mind. Mind is one",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1676,
+      "word": "ideates itself. In the Scripture this ideal is named Jehovah",
+      "etym": "",
+      "mibDef": "He who is",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1677,
+      "word": "ideates itself. In the Scriptures this idea is named Jehovah",
+      "etym": "",
+      "mibDef": "He who is",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1678,
+      "word": "Idumea",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "territory of Edom.",
+      "mibMeta": "See EDOM.",
+      "candidates": []
+    },
+    {
+      "id": 1679,
+      "word": "If you allow yourself to go to sleep spiritually",
+      "etym": "",
+      "mibDef": "that is, if you live in the senses and fail to",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H518",
+          "def": "used very widely as demonstrative, lo!; interrogative, whether?; or conditional, if, although; also Oh that!, when; hence, as a negative, not"
+        },
+        {
+          "s": "G1487",
+          "def": "if, whether, that, etc"
+        },
+        {
+          "s": "G1437",
+          "def": "a conditional particle; in case that, provided, etc.; often used in connection with other particles to denote indefiniteness or uncertainty"
+        },
+        {
+          "s": "H3588",
+          "def": "(by implication) very widely used as a relative conjunction or adverb (as below); often largely modified by other particles annexed"
+        },
+        {
+          "s": "H834",
+          "def": "who, which, what, that; also (as an adverb and a conjunction) when, where, how, because, in order that, etc"
+        }
+      ]
+    },
+    {
+      "id": 1680,
+      "word": "Igal",
+      "etym": "Heb.",
+      "mibDef": "He (God) will redeem; He will ransom;",
+      "mibMeta": "An awakening of man to the thought of his full deliverance from sin and its results, through the power of Spirit (He will redeem, deliverer), but with belief in God as a God of wrath and vengeance. In believing that wrath and vengeance belong to God and are necessary at times, one gives power to evi",
+      "candidates": [
+        {
+          "s": "H3008",
+          "def": "Jigal, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1681,
+      "word": "Igdaliah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah will bind; Jah will make strong; Jehovah will make great;",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1682,
+      "word": "ignorance",
+      "etym": "",
+      "mibDef": "Ignorance (lack of knowledge) that results from association with",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7684",
+          "def": "a mistake or inadvertent transgression"
+        },
+        {
+          "s": "G52",
+          "def": "ignorance (properly, the quality)"
+        },
+        {
+          "s": "G56",
+          "def": "ignorance (properly, the state)"
+        }
+      ]
+    },
+    {
+      "id": 1683,
+      "word": "Iim",
+      "etym": "Heb .",
+      "mibDef": "overthrown, subversions; heaps of ruins; heaps of rubbish.",
+      "mibMeta": "Overthrow and destruction of, and dominion over, some error seeming.",
+      "candidates": []
+    },
+    {
+      "id": 1684,
+      "word": "Ijon",
+      "etym": "Heb.",
+      "mibDef": "ruin; rubbish; heap, i. e., of a ruin.",
+      "mibMeta": "The deterioration (ruin) that results in man's consciousness when the ruling intellectual thought, which works only for the outer things of the sense life (Benhadad, king of Syria), utilizes the strength of mind and body (Naphtali), which should be exercised only in spiritual ways to the uplifting o",
+      "candidates": []
+    },
+    {
+      "id": 1685,
+      "word": "Ilai",
+      "etym": "Heb .",
+      "mibDef": "elevated; exalted; supreme; uppermost; highest; most high.",
+      "mibMeta": "Ahoah, from whom the Ahohites were descended, means friend of J ah, brotherly. The understanding that God is the one Father and that all men are brothers is very uplifting and exalting when accepted by the individual (Ilai). It elevates the consciousness to a higher level, and does much toward bring",
+      "candidates": [
+        {
+          "s": "H5866",
+          "def": "Ilai, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 1686,
+      "word": "ills",
+      "etym": "",
+      "mibDef": "Anger, jealousy, fear, hate, lust often cause ills of the body. These result from our",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1687,
+      "word": "illuminated\" students",
+      "etym": "",
+      "mibDef": "but their work is",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1688,
+      "word": "Illyricum",
+      "etym": "Gk.",
+      "mibDef": "joy; rejoicing; exultation; high.",
+      "mibMeta": "The joy, gladness, and upliftment of thought that takes possession of the whole man, even to his outer consciousness, when the gospel of Christ, the word of Truth, has been taught and declared throughout the entire being, from Jerusalem, the inner spiritual center, to the outermost phases of thought",
+      "candidates": []
+    },
+    {
+      "id": 1689,
+      "word": "image",
+      "etym": "",
+      "mibDef": "(Exod. 20:4). Graven images of God are made by mental pictures. The thought of",
+      "mibMeta": "A perception of the truth that true satisfaction, complete wholeness, and abundance of every good are of and from God. immaculate conception— (Luke 1:26-35). The coming into activity of the Christ in us is the result of an exalted idea sown in the mind. Therefore Mary, the soul, becomes devout and e",
+      "candidates": [
+        {
+          "s": "G1504",
+          "def": "a likeness, i.e., (literally) statue, profile, or (figuratively) representation, resemblance"
+        },
+        {
+          "s": "H6755",
+          "def": "an idolatrous figure"
+        },
+        {
+          "s": "H6459",
+          "def": "an idol"
+        },
+        {
+          "s": "H6754",
+          "def": "a phantom, i.e., (figuratively) illusion, resemblance; hence, a representative figure, especially an idol"
+        },
+        {
+          "s": "H4676",
+          "def": "something stationed, i.e., a column or (memorial stone); by analogy, an idol"
+        }
+      ]
+    },
+    {
+      "id": 1690,
+      "word": "Imagination",
+      "etym": "",
+      "mibDef": "Bartholomew, or Nathanael— between the eyes.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8307",
+          "def": "obstinacy"
+        },
+        {
+          "s": "H3336",
+          "def": "a form; figuratively, conception (i.e., purpose)"
+        },
+        {
+          "s": "G1271",
+          "def": "deep thought, properly, the faculty (mind or its disposition), by implication, its exercise"
+        }
+      ]
+    },
+    {
+      "id": 1691,
+      "word": "immanent",
+      "etym": "",
+      "mibDef": "Indwelling, abiding in, remaining or operating within. God is immanent in all",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1692,
+      "word": "Immanuel",
+      "etym": "Heb.",
+      "mibDef": "God with us; God is with us.",
+      "mibMeta": "The consciousness that God is with us and we are one with Him. The understanding of how the \"Word became flesh\" in Jesus Christ and is now being made flesh in us even as it was in Him. \"We shall be like him; for we shall see him even as he is\" (I John 3:2).",
+      "candidates": []
+    },
+    {
+      "id": 1693,
+      "word": "Immer",
+      "etym": "Heb.",
+      "mibDef": "bearing forth; bringing to the light; projecting; commanding; eloquent;",
+      "mibMeta": "That in our natural religious tendencies (priests) which causes us to delight in talking much about Truth, in making an outward show of our religion, in giving \"lip service\" to God, rather than in really making the saving Truth practical in our everyday living. When this tendency to loquaciousness i",
+      "candidates": [
+        {
+          "s": "H564",
+          "def": "Immer, the name of five Israelites"
+        }
+      ]
+    },
+    {
+      "id": 1694,
+      "word": "Imna",
+      "etym": "Heb.",
+      "mibDef": "He (God) will restrain; He will withhold; He will keep back.",
+      "mibMeta": "The belief, which seems to be firmly fixed in our old established religious thoughts, that our good is withheld from us by God. When a person who is under the old thought experiences lack, instead of knowing that he needs to strengthen himself in the Truth and to change some of his ideas he immediat",
+      "candidates": []
+    },
+    {
+      "id": 1695,
+      "word": "Imnah",
+      "etym": "Heb.",
+      "mibDef": "good fortune; prosperity.",
+      "mibMeta": "A strong belief in and realization of abundant prosperity and every good as being man's true inheritance and the Father's will for him. (Kore, the son of the second Imnah that is mentioned, \"was over the freewill-offerings of God, to distribute the oblations of Jehovah, and the most holy things.\" Th",
+      "candidates": [
+        {
+          "s": "H3232",
+          "def": "Jimnah, the name of two Israelites; also (with the article) of the posterity of one of them"
+        }
+      ]
+    },
+    {
+      "id": 1696,
+      "word": "impulse",
+      "etym": "",
+      "mibDef": "ly, a movement of mind that urges man on to spiritual achievement. That which urges",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1697,
+      "word": "impurity",
+      "etym": "",
+      "mibDef": "The consciousness of personal impurity is taken away through the",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 1698,
+      "word": "Imrah",
+      "etym": "Heb .",
+      "mibDef": "he is perverse; he is refractory; he is stubborn; he is rebellious; he is",
+      "mibMeta": "The Adversary, or personal ambition and selfishness, the determination (perhaps almost unconscious) to exalt self, working in man's higher religious understanding.",
+      "candidates": []
+    },
+    {
+      "id": 1699,
+      "word": "Imri",
+      "etym": "Heb .",
+      "mibDef": "shedding light; projecting thought; eloquent, commanding; discoursing;",
+      "mibMeta": "The projecting of thought outwardly toward expression; the ability to express one's ideas of Truth forcefully and clearly (shedding light, eloquent). This always tends to a degree of talkativeness that, if given way to in the personal, tends to dissipation of one's substance and life force. One who ",
+      "candidates": []
+    }
+  ]
+}

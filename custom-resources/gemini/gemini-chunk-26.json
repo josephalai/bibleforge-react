@@ -1,0 +1,1133 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "26 of 37",
+  "_entry_range": "ids 2500–2599",
+  "entries": [
+    {
+      "id": 2500,
+      "word": "Naaman",
+      "etym": "Heb .",
+      "mibDef": "sociable; agreeable; amiable; sweet; pleasant; graceful; good.",
+      "mibMeta": "The joy and pleasant, agreeable, harmonious, unifying result that ensues in consciousness when one's faith and will act in accord with one's highest Truth ideals. (One Naaman was a Benjamite, and Benjamites signify the faith quality in man actively executive, accomplishing results. Another Naaman wa",
+      "candidates": [
+        {
+          "s": "H5283",
+          "def": "Naaman, the name of an Israelite and of a Damascene"
+        },
+        {
+          "s": "G3497",
+          "def": "Neeman (i.e., Naaman), a Syrian"
+        }
+      ]
+    },
+    {
+      "id": 2501,
+      "word": "Naamathite",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Naamah.",
+      "mibMeta": "A thought belonging to the group of thoughts that the town of Naamah signifies. (See NAAMAH.)",
+      "candidates": [
+        {
+          "s": "H5284",
+          "def": "a Naamathite, or inhabitant of Naamah"
+        }
+      ]
+    },
+    {
+      "id": 2502,
+      "word": "Naamites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Naaman.",
+      "mibMeta": "Thoughts springing from and belonging to that in consciousness which Naaman, grandson of Benjamin, represents. (See NAAMAN.)",
+      "candidates": []
+    },
+    {
+      "id": 2503,
+      "word": "Naarah",
+      "etym": "Heb.",
+      "mibDef": "girl; maid en; young virgin; youth;",
+      "mibMeta": "Ashhur represents the establishing of CE more firm and abiding idea regarding the body of man. (See ASH-HUR.) Naarah, wife of Ashhur (meaning girl, young virgin, posterity, youth, NABAL poured out), refers to the soul's expressing the youthful, renewing thought that, unified with that which Ashhur s",
+      "candidates": [
+        {
+          "s": "H5292",
+          "def": "Naarah, the name of a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2504,
+      "word": "Naarai",
+      "etym": "Heb.",
+      "mibDef": "of the young man; boyish; youthful; bridegroom; my young man- my",
+      "mibMeta": "The youthful thought and ideal that are born anew into consciousness as a result of Truth's shining into the individual mind and creating aspirations for higher things (Ezbai, father of Naarai). (See PAARAI.)",
+      "candidates": [
+        {
+          "s": "H5293",
+          "def": "Naarai, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2505,
+      "word": "Naaran",
+      "etym": "Heb.",
+      "mibDef": "boyish; youthful; juvenile; virgin; puerile; offshoot; descendant;",
+      "mibMeta": "The significance is virtually the same as that of NAARAH and NAARAI, which see. The idea of youthfulness in these names is that of a fully developed youth, of marriageable age.",
+      "candidates": []
+    },
+    {
+      "id": 2506,
+      "word": "Nabal",
+      "etym": "Heb .",
+      "mibDef": "empty; vcdn; stupid; foolish; abandoned; wicked; ungodly; an empty skin;",
+      "mibMeta": "Maon, the home of Nabal, indicates a consciousness of abidingness, stability, or continuity. Carmel, where Nabal's possessions were, means a garden, a fruitful place, and refers to the center of spirituality in man, the garden of God, thoughts of great abundance of all good. Abigail, the wife of Nab",
+      "candidates": [
+        {
+          "s": "H5037",
+          "def": "Nabal, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2507,
+      "word": "Naboth",
+      "etym": "Heb .",
+      "mibDef": "prominence; distinction; height; sprouting; flourishing; germinating;",
+      "mibMeta": "A word of Truth belonging to that in consciousness for which Jezreel stands (see JEZREEL), and pertaining to great increase; one that brings forth ideas of life and substance in abundance (fruit, produce, prophecies, words). This word of Truth has become so highly and widely recognized in consciousn",
+      "candidates": [
+        {
+          "s": "H5022",
+          "def": "Naboth, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2508,
+      "word": "Nadab",
+      "etym": "Heb.",
+      "mibDef": "impulsion; willing; spontaneous; voluntary; liberal; munificent; free gift;",
+      "mibMeta": "Presumptuous ruling thoughts in the religious consciousness of the individual, and pertaining to the will (priest of Israel and king of Israel). They cause the individual to claim all good arrogantly for self, or to use divine law simply for the gratification of one's personal ambitions and desires.",
+      "candidates": [
+        {
+          "s": "H5070",
+          "def": "Nadab, the name of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2509,
+      "word": "Naggai (A.V.",
+      "etym": "Heb .",
+      "mibDef": "giving light; shining; brilliant; illuminating;",
+      "mibMeta": "Light, understanding, active in the individual consciousness.",
+      "candidates": []
+    },
+    {
+      "id": 2510,
+      "word": "Nahalal",
+      "etym": "Heb .",
+      "mibDef": "flowing forth; leading on; leading",
+      "mibMeta": "A group of thoughts in the order faculty in individual consciousness (a city of Zebulun), pertaining to divine sustenance. (Flowing forth and watering place signify a place in consciousness wherein one is refreshed by the waters of life; pasture symbolizes substance; leading on , conducting, bespeak",
+      "candidates": [
+        {
+          "s": "H5096",
+          "def": "Nahalal or Nahalol, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2511,
+      "word": "Nahaliel",
+      "etym": "E-ha'-l;-el (Heb.",
+      "mibDef": "God flows forth; God leads on; God's torrent, pasture of God.",
+      "mibMeta": "Nahaliel (meaning God flows forth, God leads on, pasture of God, and being a camping place of the Children of Israel in the wilderness) signifies an inner realization of vitality, substance, and guidance, of divine protection, and good. This is a source of uplift and encouragement to",
+      "candidates": [
+        {
+          "s": "H5160",
+          "def": "Nachaliel, a place in the Desert"
+        }
+      ]
+    },
+    {
+      "id": 2512,
+      "word": "Nahalol",
+      "etym": "Heb.",
+      "mibDef": "the same name as Nahalal. (See NAHALAL.)",
+      "mibMeta": "The significance is the same as that of NAHALAL, which see. That the Zebulunites failed to drive the Canaanites out of Nahalol suggests a sense rule over the elemental life forces of the organism that has not at this stage of individual unfoldment been fully lifted up.",
+      "candidates": []
+    },
+    {
+      "id": 2513,
+      "word": "Naham",
+      "etym": "Heb .",
+      "mibDef": "panting; sighing; pity; compassion; comfort; consolation; solace;",
+      "mibMeta": "The individual's becoming conscious of the Holy Spirit as comforter ( comfort, consolation, solace) when he has whole-heartedly turned away from his errors in thought and act and has laid hold of Truth (repentance means a turning from error to Truth).",
+      "candidates": []
+    },
+    {
+      "id": 2514,
+      "word": "Nahamani",
+      "etym": "Heb.",
+      "mibDef": "com passionate; comforter; consoler.",
+      "mibMeta": "A comprehension of the Spirit of God as tender, merciful, long-suffering (compassionate), as comforter. (Many are now used to thinking of God and the Holy Spirit in this way, but it is a great step forward, for the individual who has believed in the \"wrath of God,\" to come to a place in his developm",
+      "candidates": []
+    },
+    {
+      "id": 2515,
+      "word": "Naharai",
+      "etym": "Heb .",
+      "mibDef": "snorter; snorer; one who breathes",
+      "mibMeta": "Naharai (snorer, snorter, one who breathes hard through the nose, eagerness, angry one, irascible, passionate) signifies aspiration, a desire for something higher and better, but directed by personal effort (breathing and the nose bespeak aspiration but the effort required to breathe, in this case, ",
+      "candidates": [
+        {
+          "s": "H5171",
+          "def": "Nacharai or Nachrai, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2516,
+      "word": "Nahash",
+      "etym": "Heb .",
+      "mibDef": "hissing; whispering; insidious passion; muttering; witchcraft;",
+      "mibMeta": "Nahash, king of the Ammonites, represents a phase of sense wisdom (serpent, \"Now the serpent was more subtle than any beast of the field which Jehovah God had made\") and discernment (oracle) that exists in the Ammonite consciousness in the individual (see AMMONITES) and rules in this consciousness a",
+      "candidates": [
+        {
+          "s": "H5176",
+          "def": "Nachash, the name of two persons apparently non-Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2517,
+      "word": "Nahath",
+      "etym": "Heb.",
+      "mibDef": "letting down; coming down; descending; reclining; resting; quieting;",
+      "mibMeta": "A ruling thought in the Esau, Edom, or outer consciousness of man the body (a chief of Edom). This NAHBI thought is one of the prevailing beliefs of the outer man at a certain period of his unfoldment; it is restful, lulling, content (resting, quieting) in his seemingly material phase of expression ",
+      "candidates": [
+        {
+          "s": "H5184",
+          "def": "Nachath, the name of an Edomite and of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2518,
+      "word": "Nahbi",
+      "etym": "Heb.",
+      "mibDef": "covered; veiled; hidden; concealed; secret; secreted; protected; Jah is",
+      "mibMeta": "A hidden, secret, innate belief in vigor and strength (a man of Naphtali, Naphtali referring to the strength faculty) and protection ( Jah is protection) as man's birthright. This belief has its foundation in Truth, but at this stage of the unfoldment of the individual too many outer thoughts of fea",
+      "candidates": [
+        {
+          "s": "H5147",
+          "def": "Nachbi, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2519,
+      "word": "Nahor",
+      "etym": "Heb.",
+      "mibDef": "snorting; snoring; angry;",
+      "mibMeta": "Nahor, grandfather of Abraham, signifies a piercing and breaking up (slaying) of the sense consciousness of the individual hitherto unpenetrated by Truth (this activity may be more subconscious than conscious), that a new line of thought action, even that of faith (Abraham), may be brought forth. Mu",
+      "candidates": [
+        {
+          "s": "H5152",
+          "def": "Nachor, the name of the grandfather and a brother of Abraham"
+        }
+      ]
+    },
+    {
+      "id": 2520,
+      "word": "Nain",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "proper; suitable; becoming; decorous; comely; pleasant; beautiful;",
+      "mibMeta": "Man is the proper and suitable dwelling place for and the expresser of life and Truth and substance (dwelling, seat, habitation, comely, pasture; Truth is beautiful, and its ways are indeed pleasant to the consecrated soul). When the individual recognizes the abidingness of Truth, and acts on it by ",
+      "candidates": []
+    },
+    {
+      "id": 2521,
+      "word": "Naioth",
+      "etym": "Heb .",
+      "mibDef": "habitations; dwellings.",
+      "mibMeta": "Ramah means the height. Naioth, meaning habitations, dwellings, a place in Ramah, where Samuel lived and had his school of prophets, would signify the abiding place of the Most High in the man who is awakening to his inmost spiritual being. Samuel represents the inner voice, which lives in this inne",
+      "candidates": [
+        {
+          "s": "H5121",
+          "def": "Navith, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2522,
+      "word": "name",
+      "etym": "",
+      "mibDef": "To describe God is to give Him limitation, hence He could not be given a fairer",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8034",
+          "def": "an appellation, as a mark or memorial of individuality; by implication honor, authority, character"
+        },
+        {
+          "s": "G3686",
+          "def": "a \"name\" (literally or figuratively) (authority, character)"
+        },
+        {
+          "s": "H8036",
+          "def": "an appellation, as a mark or memorial of individuality; by implication honor, authority, character"
+        },
+        {
+          "s": "H559",
+          "def": "to say (used with great latitude)"
+        },
+        {
+          "s": "H1931",
+          "def": "he (she or it); only expressed when emphatic or without a verb; also (intensively) self, or (especially with the article) the same; sometimes (as demonstrative) this or that; occasionally (instead of copula) as or are"
+        }
+      ]
+    },
+    {
+      "id": 2523,
+      "word": "Naomi",
+      "etym": "Heb.",
+      "mibDef": "my sweetness; my pleasantness; delight; my beloved; my delight;",
+      "mibMeta": "The soul, when it has failed to unite itself with God. The soul feels that the \"Almighty hath dealt very bitterly\" with it, when it fails to express itself under the law of Jehovah. Naomi, the soul, goes out from Jehovah charged with spiritual ideas. Man has free will in the exercise of spiritual id",
+      "candidates": [
+        {
+          "s": "H5281",
+          "def": "Noomi, an Israelitess"
+        }
+      ]
+    },
+    {
+      "id": 2524,
+      "word": "Naphtuhim",
+      "etym": "Heb. fr. Egypt.",
+      "mibDef": "they ofPtah; the opened; the hollow; the",
+      "mibMeta": "Empty thoughts, thoughts of lack (the hollow, the empty ones). Bowmen are archers, those who use bows and arrows. Shooting arrows signifies sending forth quick, darting thoughts. Mizraim, from whom the Naphtuhim were descended, represents the sense belief that the seemingly physical man is wholly ma",
+      "candidates": []
+    },
+    {
+      "id": 2525,
+      "word": "Narcissus",
+      "etym": "Gk .",
+      "mibDef": "daffodils; narcotic; illusion; stupefying.",
+      "mibMeta": "Mental inertia, or a thought tendency belonging to the intellect of man, the head (Rome), that tends to inertia of perhaps both mind and body (narcotic, stupefying). The family, or thoughts that lie nearest in relation to this cause of apathy and inaction, have been quickened and awakened by Truth (",
+      "candidates": []
+    },
+    {
+      "id": 2526,
+      "word": "Nathan",
+      "etym": "Heb.",
+      "mibDef": "reaching out the hand; giver; gift; given; give up; yield; grant grace;",
+      "mibMeta": "Spiritual power and understanding in and back of words of Truth. Nathan the prophet and Zadok the priest (I Kings 1:34, 38) are representatives of the spiritual kingdom. Solomon (peace and wisdom) is to be king in our heart, and we mentally anoint him in the name of the Lord. If we declare our word ",
+      "candidates": [
+        {
+          "s": "H5416",
+          "def": "Nathan, the name of five Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2527,
+      "word": "Nathan - melech",
+      "etym": "Heb .",
+      "mibDef": "king's gift; the king is giver; rewarded by the king;",
+      "mibMeta": "Nathan signifies spiritual power and understanding in and back of words of Truth. Melech signifies the will, or a ruling thought pertaining to the will. Nathan-melech, the king's chamberlain, therefore would be this understanding and power of the word, ruled by the will. When the individual wills to",
+      "candidates": [
+        {
+          "s": "H5416",
+          "def": "Nathan, the name of five Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2528,
+      "word": "nature",
+      "etym": "",
+      "mibDef": "The undisciplined nature in man or that phase of his being which has been",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5449",
+          "def": "growth (by germination or expansion), i.e., (by implication) natural production (lineal descent); by extension, a genus or sort; figuratively, native disposition, constitution or usage"
+        }
+      ]
+    },
+    {
+      "id": 2529,
+      "word": "nature",
+      "etym": "",
+      "mibDef": "This is the name given by doctors to the Spirit of health, which is",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5449",
+          "def": "growth (by germination or expansion), i.e., (by implication) natural production (lineal descent); by extension, a genus or sort; figuratively, native disposition, constitution or usage"
+        }
+      ]
+    },
+    {
+      "id": 2530,
+      "word": "Nazarene",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "patronymic for inhabitants of Nazareth.",
+      "mibMeta": "A thought belonging to that in consciousness which Nazareth signifies. (See NAZARETH.) Nazareth, naz'-a-reth (Gk. fr. Heb.) --branch; offshoot; sprout; verdant; shining; splendid; observed, i. e., as a covenant; watched; guarded; defended; presen’ed. Nazareth should not be confused with Nazirite, si",
+      "candidates": []
+    },
+    {
+      "id": 2531,
+      "word": "Nazirite (A.V.",
+      "etym": "fr. Heb .",
+      "mibDef": "separated; consecrated by vow; abstinence; set",
+      "mibMeta": "A Nazirite signifies what the meaning of the word (consecrated by vow, separated) implies: the thoughts consecrated to Truth, to life, holy, sanctified, free from all worldliness and from belief in error, destruction, death. (One of the points relating to a Nazirite that is given more explicit direc",
+      "candidates": []
+    },
+    {
+      "id": 2532,
+      "word": "Neah",
+      "etym": "Heb.",
+      "mibDef": "moving; shaking; trembling; agitating; staggering;",
+      "mibMeta": "A group of thoughts of a wandering, changeable, uncertain, unsettled, fearful tendency (shaking, moving, trembling, agitating, disturbing) coming under the dominion of the faculty of order (a city allotted to Zebulun, Zebulun representing the order faculty in man), that it may be made firm, steady, ",
+      "candidates": []
+    },
+    {
+      "id": 2533,
+      "word": "Neapolis",
+      "etym": "Gk .",
+      "mibDef": "young city; youthful city; new city; restored city",
+      "mibMeta": "The new city, or center of action. To make a straight course to Neapolis means that he who concentrates all his energies on the accomplishment of his purpose will surely achieve.",
+      "candidates": []
+    },
+    {
+      "id": 2534,
+      "word": "Neariah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah shakes out, i. e., disperses; Jah drives out, casts forth; Jah",
+      "mibMeta": "True thoughts in consciousness; thoughts that are bom of God, the offspring of the divine idea of sonship; thoughts that serve Jehovah, the I AM, in the work of freeing the individual from sense errors and in unifying him consciously with spirit ( Jehovah shakes out, i. e., disperses, drives out, ca",
+      "candidates": []
+    },
+    {
+      "id": 2535,
+      "word": "Nebaioth",
+      "etym": "Heb .",
+      "mibDef": "prominences; heights;",
+      "mibMeta": "The outer, sensate, or material consciousness, reflecting the light of the inner, true ideals that are born of Spirit (heights), and realizing the possibility of bringing forth abundant good (cultivation of the soil, fruitfulness, germinations) through the power of the word of understanding (prophet",
+      "candidates": [
+        {
+          "s": "H5032",
+          "def": "Nebajoth, a son of Ismael, and the country settled by him"
+        }
+      ]
+    },
+    {
+      "id": 2536,
+      "word": "Neballat",
+      "etym": "Heb.",
+      "mibDef": "hardness; firmness; veiled prophecy; hidden germination; secret",
+      "mibMeta": "This group of thoughts embraces both good and seemingly error tendencies. There is a firmness and solidity about it that is good, yet tends to hardness; though seemingly hidden, Truth is working in it, giving promise of still better things (veiled prophecy, hidden germination). On the other hand it ",
+      "candidates": []
+    },
+    {
+      "id": 2537,
+      "word": "Nebat",
+      "etym": "Heb.",
+      "mibDef": "look; behold; regard; see; view; perceive, i. e., with the eye.",
+      "mibMeta": "A willing or determining to look into matters, to perceive or understand (look, behold, regard, see, view, perceive, i. e., with the eye; the eye, or seeing, beholding, always relates to understanding). Nebat was of the tribe of Ephraim (the will), and his son Jeroboam became the first king of Israe",
+      "candidates": [
+        {
+          "s": "H5028",
+          "def": "Nebat, the father of Jeroboam I"
+        }
+      ]
+    },
+    {
+      "id": 2538,
+      "word": "Nebo",
+      "etym": "Heb .",
+      "mibDef": "planet Mercury; quick messenger; celestial scribe; interpreter, i. e., of the",
+      "mibMeta": "Divine inspiration, intuition, discernment, foresight, understanding ( celestial scribe, interpreter, i. e., of the divine will, inspired speech, prophecies, height) expressing on the three planes of consciousness in man. The Nebo that was a city in the land of Jazer and Gilead, east of the Jordan, ",
+      "candidates": [
+        {
+          "s": "H5015",
+          "def": "Nebo, the name of a mountain in Moab, and of a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2539,
+      "word": "Nebuchadnezzar",
+      "etym": "Heb. fr. Chald.",
+      "mibDef": "Nebo chief protector; Mercury fire of",
+      "mibMeta": "The word Nebuchadnezzar means Nebo chief protector, or may Nebo protect. Nebo was the Babylonian or Chaldean god of wisdom (Nebo the lord of brightness). Nebuchadnezzar represents in us the human will backing itself up by the human intellect; this brings about human judgment. A king always represent",
+      "candidates": [
+        {
+          "s": "H5019",
+          "def": "Nebukadnetstsar (or Nebukadretsts(-ar, or)), king of Babylon"
+        },
+        {
+          "s": "H5020",
+          "def": "Nebukadnetstsar (or Nebukadretsts(-ar, or)), king of Babylon"
+        }
+      ]
+    },
+    {
+      "id": 2540,
+      "word": "Nebushazban (A.V.",
+      "etym": "Heb. fr. Chald.",
+      "mibDef": "Nebo saves me; favorable",
+      "mibMeta": "A degree of understanding (Neho saves me, favorable speech ) that acts as the executive power of the human will (king of Babylon) in setting free our spiritual faith (whom interpretation sets free), or that in U9 which intuitively discerns the divine law and seeks to have it obeyed (Jeremiah). (See ",
+      "candidates": []
+    },
+    {
+      "id": 2541,
+      "word": "Nebuzaradan",
+      "etym": "Heb. fr. Chald.",
+      "mibDef": "Nebo has given offspring; Nebo sends",
+      "mibMeta": "A thought activity that is the fruit of the purely mental, or soul, discernment and understanding that Nebo, the Babylonian god of learning, represents. (See NEBO.) neck— The seat of the power faculty in man.",
+      "candidates": []
+    },
+    {
+      "id": 2542,
+      "word": "Neco (A.V.",
+      "etym": "Heb. fr. Egypt .",
+      "mibDef": "beaten; smitten; afflicted; smitten in the feet; lame.",
+      "mibMeta": "A ruling thought of the Egyptian, or darkened, little understood phase of consciousness in man; it is greatly lacking in practical understanding (smitten in the feet, lame, the feet referring to the phase of the understanding that comes in touch with outer conditions). necromancy— An activity of man",
+      "candidates": []
+    },
+    {
+      "id": 2543,
+      "word": "Nedabiah",
+      "etym": "Heb.",
+      "mibDef": "whom Jehovah impels; Jehovah gives spontaneously; give",
+      "mibMeta": "The fruit of the will activated by I AM (whom Jehovah impels; Jeconiah, father of Nedabiah, was a onetime king of Judah, and a king always represents a phase of the will or ruling power in individual consciousness). This fruit of the will impelled by I AM is insight into the largeness, broadness, no",
+      "candidates": []
+    },
+    {
+      "id": 2544,
+      "word": "negative",
+      "etym": "",
+      "mibDef": "Denial of error thoughts and beliefs.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2545,
+      "word": "Nehelamite",
+      "etym": "fr. Heb.",
+      "mibDef": "dreamed; dreamer; dreaming; divine communication;",
+      "mibMeta": "The imagination ( dreamed , dreamer; Joseph, the son of Jacob, who represents the faculty of imagination in individual consciousness, was called a dreamer by his brothers, Gen. 37:19) directed by personal ambition and unbalanced by true understanding and good judgment (Shemaiah the Nehelamite was a ",
+      "candidates": []
+    },
+    {
+      "id": 2546,
+      "word": "Nehemiah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah consoles; Jehovah comforts; repentance of Jehovah;",
+      "mibMeta": "In Nehemiah 1 Nehemiah represents one who has been carried away from spiritual peace (Jerusalem) into the confusion of sense (Babylon) and is desirous of again restoring the Holy City. Nehemiah has his representative in all those who have once realized the peace and joy of the spiritual life but hav",
+      "candidates": [
+        {
+          "s": "H5166",
+          "def": "Nechemjah, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2547,
+      "word": "Nehiloth",
+      "etym": "Heb.",
+      "mibDef": "perforated instruments; wind instruments; pipes; flutes; tibiae; the",
+      "mibMeta": "Man as a perfect channel for free, harmonious, rhythmical, tuneful expression (wind instruments, pipes, flutes).",
+      "candidates": []
+    },
+    {
+      "id": 2548,
+      "word": "Nehum",
+      "etym": "Heb .",
+      "mibDef": "consolation; comfort; compassion.",
+      "mibMeta": "The relief from distress, the strengthened hope and cheer, the good ( consolation, comfort) that one experiences when one has been delivered from sense confusion (captivity in Babylon) and its results, and has entered into the peace of knowing one's oneness with God (returned to Jerusalem).",
+      "candidates": []
+    },
+    {
+      "id": 2549,
+      "word": "Nehushta",
+      "etym": "Heb.",
+      "mibDef": "brass; brazen; brazen serpent; bright; basis; foundation;",
+      "mibMeta": "A firmness, unyieldingness, and strength of purpose (brass, brazen), established in the soul. This is a basis, foundation, and support for the working of Jehovah, I AM, in individual consciousness to establish the will in spiritual strength, assurance, faith, and understanding. (See ELNATHAN, father",
+      "candidates": []
+    },
+    {
+      "id": 2550,
+      "word": "Nehushtan",
+      "etym": "Heb.",
+      "mibDef": "brazen; brass; copper; bright; brazen serpent; copper coin;",
+      "mibMeta": "The serpent is a symbol of elemental life. When the serpent elemental is lifted up, or spiritualized, it adds radiance to the whole man. The \"brazen serpent\" that Moses caused to be put up where all could see it, and by looking be healed, represents this elevation of the sense man to a higher consci",
+      "candidates": []
+    },
+    {
+      "id": 2551,
+      "word": "Neiel",
+      "etym": "Heb.",
+      "mibDef": "God's dwelling place; habitation of God; dwelling place of the Most High.",
+      "mibMeta": "A group of thoughts established in Truth, the abiding place of Spirit (God's dwelling place). neighbor. \"Who is my neighbor?\" (Luke 10:29). Every soul that dwells upon the earth is your neighbor, \"my neighbor.\" There is no such thing as distance in Spirit nor in the operation of spiritual laws. Thro",
+      "candidates": []
+    },
+    {
+      "id": 2552,
+      "word": "Nekoda",
+      "etym": "Heb .",
+      "mibDef": "pierced; marked; selected; separated; set apart; distinguished;",
+      "mibMeta": "Thought activities, whose office in the organism is to shepherd the sheep-guide, protect, and feed one's thoughts-to care for the herds, or animal forces (herdsman). These thought activities are, or should be, of a high, devout, spiritual character (selected, set apart, distinguished, famous), but h",
+      "candidates": []
+    },
+    {
+      "id": 2553,
+      "word": "Nemuel",
+      "etym": "Heb.",
+      "mibDef": "God is spreading; sea of God; day of God; God's day; luminous",
+      "mibMeta": "The significance is virtually the same as that of JEMUEL, which see. Nemuel also suggests an increase of light throughout the consciousness ( God is spreading, luminous manifestation of God). Nemuelites, nem'-u-el-ites (fr. Heb.) --of or belonging to Nemuel. The \"family\" or descendants, of Nemuel th",
+      "candidates": []
+    },
+    {
+      "id": 2554,
+      "word": "Nepheg",
+      "etym": "Heb.",
+      "mibDef": "coming forth; sprout; bud; emanation; breathe out; weak; faint; slack;",
+      "mibMeta": "A development in consciousness (coming forth, bud ) of understanding (see IZHAR. father of Nepheg) in relation to the attracting, unifying quality of love that Kohath, father of Izhar and grandfather of Nepheg, represents. (David also represents love.) This development of understanding as it relates",
+      "candidates": []
+    },
+    {
+      "id": 2555,
+      "word": "Nephisim (A.V.",
+      "etym": "Heb.",
+      "mibDef": "expansions; deep inspirations; refreshing",
+      "mibMeta": "A thought in consciousness that tends to expand, enlarge, and bring new inspiration and life into the serving idea. (Expansions, deep inspirations, refreshing breaths, are definitions of Nephisim; his \"children\" were among the returned Nethinim, the Nethinim being servants or virtual slaves in the T",
+      "candidates": []
+    },
+    {
+      "id": 2556,
+      "word": "Nephtoah",
+      "etym": "Heb .",
+      "mibDef": "opening; loosening; unbinding; spring; entrance; insight;",
+      "mibMeta": "Freeing the consciousness from one's obstructing thoughts and beliefs, through prayer, praise, and faith (Judah and Benjamin), so that the understanding may be renewed and the waters of life may spring up and flow in freely (opening, loosening, unbinding, spring, entrance, insight, instruction ).",
+      "candidates": []
+    },
+    {
+      "id": 2557,
+      "word": "Nephushesim (A.V.",
+      "etym": "Heb.",
+      "mibDef": "expansions; inspiring breaths;",
+      "mibMeta": "See NEPHISIM.",
+      "candidates": []
+    },
+    {
+      "id": 2558,
+      "word": "Ner",
+      "etym": "Heb.",
+      "mibDef": "shining; spreading abroad light; a light; a torch; a lamp; fallow ground- newly",
+      "mibMeta": "Ner, l ik e Abner, signifies the illumined reason or intellect. (See ABNER.)",
+      "candidates": [
+        {
+          "s": "H5369",
+          "def": "Ner, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2559,
+      "word": "Nereus",
+      "etym": "Gk.",
+      "mibDef": "by the water; wet; god of water.",
+      "mibMeta": "A rather negative (wet, god of water) phase of thought that is of the head, or intellect (Rome), yet has access to the realm of unformed ideas (by the water) and has accepted the Christ Truth, which imparts true illumination and stability.",
+      "candidates": []
+    },
+    {
+      "id": 2560,
+      "word": "Nergal",
+      "etym": "Heb. fr. Pers .",
+      "mibDef": "planet Mars; great hero; fierce warrior; man-devourer;",
+      "mibMeta": "Outer personal force, defense, oppression, war. Nergal, in its form naregal, is believed to be the same as the Zabian name for the planet Mars. This name of the planet, among both Zabians and Arabians, means ill luck, misfortune; and we understand that Mars, as worshiped by the ancients, is symbolic",
+      "candidates": []
+    },
+    {
+      "id": 2561,
+      "word": "Nergal-sharezer",
+      "etym": "Heb. fr. Pers .",
+      "mibDef": "Nergal prince of fire; Nergcd save the king.",
+      "mibMeta": "The error belief in outer force, in war, in fighting to defend one's rights and to increase one's possessions and power, exalted to an active, ruling place in consciousness. Though entirely of the outer, sense consciousness, and destructive in its character, this force is sometimes used for good, as",
+      "candidates": []
+    },
+    {
+      "id": 2562,
+      "word": "Neri",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "Jehovah spreads light abroad; Jah is a light; lamp of Jehovah.",
+      "mibMeta": "Spiritual understanding quickened in individual consciousness (Jehovah spreads light abroad, Jah is a light, lamp of Jehovah).",
+      "candidates": []
+    },
+    {
+      "id": 2563,
+      "word": "Neriah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah spreads light abroad; Jehovah is a lamp; Jah is light; Jehovah",
+      "mibMeta": "The consciousness of the individual awakening to the truth that all true light or understanding is spiritual and exists in and radiates through the Christ mind in man, Jehovah (Jah is light, Jehovah enlightens, Jehovah spreads light abroad ).",
+      "candidates": [
+        {
+          "s": "H5374",
+          "def": "Nerijah, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2564,
+      "word": "nerve fluid",
+      "etym": "",
+      "mibDef": "A spiritual fluid that God is propelling throughout man's whole being continually, as",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2565,
+      "word": "net",
+      "etym": "",
+      "mibDef": "Man's mind is the net that catches thoughts, which are the basis of external conditions. This",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7568",
+          "def": "a net (as catching animals)"
+        },
+        {
+          "s": "G1350",
+          "def": "a seine (for fishing)"
+        },
+        {
+          "s": "G293",
+          "def": "a (fishing) net (as thrown about the fish)"
+        },
+        {
+          "s": "H4685",
+          "def": "a fastness or (beseiging) tower"
+        }
+      ]
+    },
+    {
+      "id": 2566,
+      "word": "Nethanel (A.V.",
+      "etym": "Heb.",
+      "mibDef": "given of God; God gives; gift of God.",
+      "mibMeta": "Zuar, father of one Nethanel, means made little. Jesse, the father of the second- named Nethanel, represents eternal existence (Jah exists, Jah is, he who is). God gives His grace to those who are small in their own eyes in so far as the lesser self is concerned. \"God . . . giveth grace to the humbl",
+      "candidates": []
+    },
+    {
+      "id": 2567,
+      "word": "Nethaniah",
+      "etym": "Heb.",
+      "mibDef": "given of Jehovah; Jehovah hath given; Jah gives.",
+      "mibMeta": "The individual consciousness awakening to the truth that all blessings, all harmony, all understanding, and all ability to express come from God, through the indwelling Christ, or I AM (given of Jehovah, Jah gives).",
+      "candidates": [
+        {
+          "s": "H5418",
+          "def": "Nethanjah, the name of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2568,
+      "word": "Nethinim (A.V.",
+      "etym": "Heb.",
+      "mibDef": "the given; the devoted; those given; the",
+      "mibMeta": "The belief in servitude to God, instead of sonship. To one who sees himself as a servant of God only, to one who sees in the Lord merely a master, the Christian life is a hard, thorny journey, with hopes that something better will come only after death. Such a person does what he believes to be righ",
+      "candidates": []
+    },
+    {
+      "id": 2569,
+      "word": "Netophah",
+      "etym": "Heb.",
+      "mibDef": "spontaneous dropping; distillation; falling in drops; resinous",
+      "mibMeta": "Thoughts of Truth, from the ideal or Truth's primary essence, emanating from the inner source of one's being, little by little, as one is able to receive them (spontaneous dropping, distillation, speech, discourse, prophecy ). \"For it is precept upon precept, precept upon precept; line upon line, li",
+      "candidates": []
+    },
+    {
+      "id": 2570,
+      "word": "Netophathites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or",
+      "mibMeta": "Thoughts in consciousness pertaining to that which Netophah indicates. (See NETOPHAH.)",
+      "candidates": []
+    },
+    {
+      "id": 2571,
+      "word": "new birth",
+      "etym": "",
+      "mibDef": "The realization by man of his spiritual identity, with the fullness of power and glory",
+      "mibMeta": "Nicodemus (John 3:1-15) was not acquainted with the power of Spirit, and had no understanding of regeneration although he was a \"teacher of Israel \" Israel meaning thoughts pertaining to the religious department of the mind: The new birth is a vague uncertainty to the intellectual Christian, hence t",
+      "candidates": [
+        {
+          "s": "H2319",
+          "def": "new"
+        },
+        {
+          "s": "G2537",
+          "def": "new (especially in freshness; while G3501 is properly so with respect to age"
+        },
+        {
+          "s": "H2320",
+          "def": "the new moon; by implication, a month"
+        },
+        {
+          "s": "H8492",
+          "def": "must or fresh grape-juice (as just squeezed out); by implication (rarely) fermented wine"
+        },
+        {
+          "s": "G3501",
+          "def": "\"new\", i.e., (of persons) youthful, or (of things) fresh; figuratively, regenerate"
+        }
+      ]
+    },
+    {
+      "id": 2572,
+      "word": "new man in Christ has not left us but will return in the same manner in which he went",
+      "etym": "",
+      "mibDef": "that is, in",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2319",
+          "def": "new"
+        },
+        {
+          "s": "G2537",
+          "def": "new (especially in freshness; while G3501 is properly so with respect to age"
+        },
+        {
+          "s": "H2320",
+          "def": "the new moon; by implication, a month"
+        },
+        {
+          "s": "H8492",
+          "def": "must or fresh grape-juice (as just squeezed out); by implication (rarely) fermented wine"
+        },
+        {
+          "s": "G3501",
+          "def": "\"new\", i.e., (of persons) youthful, or (of things) fresh; figuratively, regenerate"
+        }
+      ]
+    },
+    {
+      "id": 2573,
+      "word": "Neziah",
+      "etym": "Heb .",
+      "mibDef": "pre ‘minent, illustrious; splendid; glorious; perfected; completed;",
+      "mibMeta": "The idea of Christian service, lifted to its true, exalted place in consciousness (pre ‘minent, illustrious, perfected, not finite). Neziah was one of the Nethinim, and they were servants in the Temple. (See NETHINIM.) newness of life— Understanding of the spiritual facts of being. new race— The rac",
+      "candidates": []
+    },
+    {
+      "id": 2574,
+      "word": "Nezib",
+      "etym": "Heb.",
+      "mibDef": "set; placed; prefect; overseer; officer; military station; garrison; post;",
+      "mibMeta": "A subconscious group of thoughts (a city in the lowland of Judah), founded in order, dominion, strength, and stability (set, placed, overseer, garrison, pillar, pedestal, base). This firm foundation is realized by means of praise and prayer (Judah); all that is of personal force and of a lifeless an",
+      "candidates": []
+    },
+    {
+      "id": 2575,
+      "word": "Nibhaz",
+      "etym": "Heb .",
+      "mibDef": "barker; striking; pulsating; conspicuous.",
+      "mibMeta": "The prevailing tendency of the primitive, unenlightened thoughts of the sense mind in man to wrangle and dispute with and to accuse and attack upon any and every occasion ( barker , striking) that which is good and true, that which is striving for the attainment of higher ideals. So long as this ten",
+      "candidates": [
+        {
+          "s": "H5026",
+          "def": "Nibchaz, a deity of the Avites"
+        }
+      ]
+    },
+    {
+      "id": 2576,
+      "word": "Nibshan",
+      "etym": "Heb .",
+      "mibDef": "heated; glowing; furnace; arid; dried; soft sand; light, sandy soil;",
+      "mibMeta": "A group of thoughts, fertile, productive, capable of bringing forth much good, belonging to the wilderness or uncultivated and undisciplined phase of man's consciousness. This group of thoughts has come under the jurisdiction of the prayer-and-praise faculty (Judah) for further adjustment and uplift",
+      "candidates": []
+    },
+    {
+      "id": 2577,
+      "word": "Nicodemus",
+      "etym": "Gk. fr. Heb .",
+      "mibDef": "overcoming of the people; victor over the people;",
+      "mibMeta": "The popular idea of religion dominant in the consciousness, hence the esoteric meaning of his name, victorious among the people, victor over the people, victory of the people. He is pictured as a prominent Pharisee, one who believes in the strict letter of the Scripture, yet is open to conviction if",
+      "candidates": [
+        {
+          "s": "G3530",
+          "def": "victorious among his people; Nicodemus, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2578,
+      "word": "Nicolaitans (A.V.",
+      "etym": "Gk .",
+      "mibDef": "followers of Nicolaus or Nicolas. The",
+      "mibMeta": "Mixed thoughts. In Revelation 2:14, 15 the teaching of the Nicolaitans is likened to that of Balaam, by which the Israelites were taught to eat things sacrificed to idols and to commit fornication. To commit fornication typifies the mixing of one's thoughts with error. The \"sword of my mouth,\" Revel",
+      "candidates": []
+    },
+    {
+      "id": 2579,
+      "word": "Nicolaus (A.V.",
+      "etym": "Gk .",
+      "mibDef": "conqueror of the people; victor of the people;",
+      "mibMeta": "We understand Antioch to represent formulated theology. Nicolaus, a proselyte of Antioch, and meaning conqueror of the people, victory of the people, would have some such significance as Nicodemus. (See NICODEMUS.) While this popular and established formal idea of religion that has been dominant in ",
+      "candidates": []
+    },
+    {
+      "id": 2580,
+      "word": "Nicopolis",
+      "etym": "Gk.",
+      "mibDef": "city of victory.",
+      "mibMeta": "A realization of victory for Truth, of triumph and mastery over lesser error thoughts and beliefs (city of victory). This conquering realization comes in the midst of a consuming desire of the soul for God, which desire awakens great enthusiasm and zeal (Macedonia signifies zeal, and Nicopolis was a",
+      "candidates": [
+        {
+          "s": "G3533",
+          "def": "victorious city; Nicopolis, a place in Macedonia"
+        }
+      ]
+    },
+    {
+      "id": 2581,
+      "word": "Niger",
+      "etym": "Lat",
+      "mibDef": "black; dark; purplish; ill-omened; false; wicked.",
+      "mibMeta": "The five prophets and teachers in the church at Antioch, mentioned in Acts 13:1, represent the interpreters of Spirit to the outer consciousness. Symeon, or Simeon, means hearing, and signifies a receptive, attentive attitude of mind. He was called Niger, meaning black, dark, purplish, false. This i",
+      "candidates": []
+    },
+    {
+      "id": 2582,
+      "word": "Nile",
+      "etym": "Gk. fr. Egypt.",
+      "mibDef": "leading; drawing; flowing; possessing; inheriting; a stream; a river;",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2583,
+      "word": "Nimrah",
+      "etym": "Heb.",
+      "mibDef": "variegated; spotted; speckled; a leopard; limpid; pure; crystal; clear;",
+      "mibMeta": "See BETH— NIMRAH.",
+      "candidates": []
+    },
+    {
+      "id": 2584,
+      "word": "Nimrod",
+      "etym": "Heb.",
+      "mibDef": "self-ruling will; arbitrary sway; fallen from allegiance;",
+      "mibMeta": "Nimrod (\"a mighty one in the earth,\" also, \"a mighty hunter before Jehovah,\" and meaning self -ruling will, arbitrary sway, rebellion, despotism, misrule ) pertains to the rule of personal will in the animal forces of the organism; also to a material belief in courage and might. The adverse phase of",
+      "candidates": [
+        {
+          "s": "H5248",
+          "def": "Nimrod, a son of Cush"
+        }
+      ]
+    },
+    {
+      "id": 2585,
+      "word": "Nimshi",
+      "etym": "Heb .",
+      "mibDef": "drawn out; extricated; extracted; chosen; rescued; saved; revealed; Jah",
+      "mibMeta": "The awakening of the individual to the understanding that error rule must be denied away and Truth must be affirmed and restored to its rightful dominion throughout the consciousness (drawn out, extricated, extracted, rescued, saved, Jah reveals). Jehu is the executive power of the I AM, or Jehovah,",
+      "candidates": [
+        {
+          "s": "H5250",
+          "def": "Nimshi, the (grand-)father of Jehu"
+        }
+      ]
+    },
+    {
+      "id": 2586,
+      "word": "Nineveh",
+      "etym": "Heb.",
+      "mibDef": "abode ofNinus; exterior growth;",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5210",
+          "def": "Nineveh, the capital of Assyria"
+        },
+        {
+          "s": "G3536",
+          "def": "a Ninevite, i.e., inhabitant of Nineveh"
+        }
+      ]
+    },
+    {
+      "id": 2587,
+      "word": "Ninevites",
+      "etym": "fr. Heb.",
+      "mibDef": "o/ or belonging to Nineveh.",
+      "mibMeta": "Thoughts springing from and belonging to that in consciousness which Nineveh signifies. (See NINEVEH.)",
+      "candidates": []
+    },
+    {
+      "id": 2588,
+      "word": "Nisan",
+      "etym": "Heb.",
+      "mibDef": "new day; newness; glittering; sparkling; verdant; blooming; month of",
+      "mibMeta": "The springing forth of new ideas into consciousness; also their coming into expression and manifestation (new day, verdant, blooming, month of green ears). The sprouting, budding, growing, and coming to fruition of vegetable life on the earth is always a miracle to us; much more marvelous are the re",
+      "candidates": []
+    },
+    {
+      "id": 2589,
+      "word": "Nisroch",
+      "etym": "Heb. fr. Pers .",
+      "mibDef": "great eagle; roc; eagle; hawk.",
+      "mibMeta": "Exalting the intellect, and attributing power and dominion to it. An eagle is a bird of prey; it is noted for its strength, size, keenness of vision, power of flight, and for its fighting, destructive, conquering propensities, all of which tend to make it a very powerful bird. The conquering king of",
+      "candidates": [
+        {
+          "s": "H5268",
+          "def": "Nisrok, a Babylonian idol"
+        }
+      ]
+    },
+    {
+      "id": 2590,
+      "word": "No",
+      "etym": "Heb. fr. Egypt.",
+      "mibDef": "measure ofAmon; portion or possession of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3808",
+          "def": "not (the simple or abs. negation); by implication, no; often used with other particles"
+        },
+        {
+          "s": "H369",
+          "def": "a nonentity; generally used as a negative particle"
+        },
+        {
+          "s": "G3756",
+          "def": "the absolute negative (compare G3361) adverb; no or not"
+        },
+        {
+          "s": "G3762",
+          "def": "not even one (man, woman or thing), i.e., none, nobody, nothing"
+        },
+        {
+          "s": "G3361",
+          "def": "(adverb) not, (conjunction) lest; also (as an interrogative implying a negative answer (whereas G3756 expects an affirmative one)) whether"
+        }
+      ]
+    },
+    {
+      "id": 2591,
+      "word": "Noadiah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah points out; Jehovah convenes; with whom Jehovah meets;",
+      "mibMeta": "The attracting, unifying power of the Christ love (Jah assembles, Jehovah convenes, with whom Jehovah meets) as expressing in the religious consciousness of man. (The first Noadiah mentioned was of the Levites, and was one of those who were given charge of the silver, gold, and vessels of the house ",
+      "candidates": [
+        {
+          "s": "H5129",
+          "def": "Noadjah, the name of an Israelite, and a false prophetess"
+        }
+      ]
+    },
+    {
+      "id": 2592,
+      "word": "Noah",
+      "etym": "Heb.",
+      "mibDef": "rest; calm; quiet; peace; tranquillity;",
+      "mibMeta": "The Noah of Genesis 6 to 9 was the son of Lamech. Lamech means a strong young man, and signifies the strength of youth, and Noah means rest. Thus it is in the strength of our youth that we idealize the material and attach our spiritual enthusiasm to the things of sense. But the law of reaction sets ",
+      "candidates": [
+        {
+          "s": "H5146",
+          "def": "Noach, the patriarch of the flood"
+        },
+        {
+          "s": "G3575",
+          "def": "Noë, (i.e., Noäch), a patriarch"
+        }
+      ]
+    },
+    {
+      "id": 2593,
+      "word": "Noah Rest",
+      "etym": "",
+      "mibDef": "to live upon the waters fro 40 days; a rest for the body",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5146",
+          "def": "Noach, the patriarch of the flood"
+        },
+        {
+          "s": "G3575",
+          "def": "Noë, (i.e., Noäch), a patriarch"
+        }
+      ]
+    },
+    {
+      "id": 2594,
+      "word": "Nob",
+      "etym": "Heb .",
+      "mibDef": "height; prominence; sublimity; sprouting; germinating; flourishing; discourse;",
+      "mibMeta": "A group of high, spiritual thoughts in man (height, sublimity, a city of the priests) whereby he is consciously inspired by Spirit (prophecy, discourse). The individual who through personal will (Saul) fights against divine love (David) and refuses to recognize his higher spiritual thoughts and idea",
+      "candidates": [
+        {
+          "s": "H5011",
+          "def": "Nob, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2595,
+      "word": "Nobah",
+      "etym": "Heb.",
+      "mibDef": "barking; striking; pulsating; prominent; vehement of voice.",
+      "mibMeta": "Positive affirmations of Truth (vehement of voice). While these affirmations and thoughts of Truth are of a high character (prominent), there is something of personal force, or a fighting attitude of mind, in declaring them, as is signified by barking and striking.",
+      "candidates": [
+        {
+          "s": "H5025",
+          "def": "Nobach, the name of an Israelite, and of a place East of the Jordan"
+        }
+      ]
+    },
+    {
+      "id": 2596,
+      "word": "Nod",
+      "etym": "Heb.",
+      "mibDef": "staggering with fear; agitated with apprehension; raving with fright;",
+      "mibMeta": "After any positive action of the mind there is always an apparent negative reaction. The \"land of Nod,\" as we know it today, is the condition called sleep. Thus Nod, meaning agitated flight, wandering with uncertainty, suggests the seemingly unguided activity of man's subconscious phase of mind duri",
+      "candidates": []
+    },
+    {
+      "id": 2597,
+      "word": "Nodab",
+      "etym": "Heb .",
+      "mibDef": "nobility; willingness; spontaneous; liberal; abundant; free-willed;",
+      "mibMeta": "Thoughts holding a high place in man's outer consciousness because of their professions of greatness, broadness, abundance, liberality, and freedom ( nobility , libeml, willingness, abundant, free-willed). These thoughts, however, are not stable (an Arab tribe, wandering of a father) but are of the ",
+      "candidates": []
+    },
+    {
+      "id": 2598,
+      "word": "Nogah",
+      "etym": "Heb.",
+      "mibDef": "shining; giving light; dawn; morning light; brightness; illuminating;",
+      "mibMeta": "Love ruling in consciousness does away with hate, prejudice, fear, narrow- mindedness, and the like, which darken and obscure the understanding. Thus the understanding becomes brighter and clearer, and shines with a truer, finer, purer light. David, king of Israel and father of Nogah, represents lov",
+      "candidates": []
+    },
+    {
+      "id": 2599,
+      "word": "Nohah",
+      "etym": "Heb.",
+      "mibDef": "gentleness; rest; quiet; calm; peace; equilibrium.",
+      "mibMeta": "A state of mental rest, peace, quietness, poise, and assurance, which is the result of an active faith in God, the good. (Benjamin, father of Nohah, signifies an active, accomplishing faith.) nonresistance— A passive state of mind. The law of nonresistance as taught by Jesus is demonstrated only by ",
+      "candidates": [
+        {
+          "s": "H5119",
+          "def": "Nochah, an Israelite"
+        }
+      ]
+    }
+  ]
+}

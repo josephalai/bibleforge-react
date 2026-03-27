@@ -1,0 +1,1514 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "7 of 37",
+  "_entry_range": "ids 600–699",
+  "entries": [
+    {
+      "id": 600,
+      "word": "Bethuel",
+      "etym": "Heb.",
+      "mibDef": "dweller in God; dweller in God or abode of God; filiation of God.",
+      "mibMeta": "Unity with God; consciously abiding in Him (dweller in God, abode of God) .",
+      "candidates": [
+        {
+          "s": "H1328",
+          "def": "Bethuel, the name of a nephew of Abraham"
+        }
+      ]
+    },
+    {
+      "id": 601,
+      "word": "Bethul",
+      "etym": "Heb.",
+      "mibDef": "dweller in God; house of God.",
+      "mibMeta": "See BETHEL and BETHUEL.",
+      "candidates": []
+    },
+    {
+      "id": 602,
+      "word": "Betonim",
+      "etym": "Heb .",
+      "mibDef": "pistachio nuts (so called on account of their shape); mounds;",
+      "mibMeta": "Spasmodic attempts to lift up the consciousness (pistachio nuts, mounds, humps) guided by impulse, or by one's feelings, apart from real, orderly, consistent Truth thinking (the inmost parts, i. e., where one thinks and feels, bellies, hollows). A sense of order and power is gained from that which G",
+      "candidates": []
+    },
+    {
+      "id": 603,
+      "word": "Beulah",
+      "etym": "Heb.",
+      "mibDef": "married.",
+      "mibMeta": "The rich and happy state of the individual who has entered into conscious union with the Divine; or one in whom the marriage of the Lamb has taken place, the raising of the whole consciousness to a perfect and complete oneness with the central I AM or indwelling Christ. We also speak of the \"marriag",
+      "candidates": []
+    },
+    {
+      "id": 604,
+      "word": "Bezai",
+      "etym": "Heb. from Pers .",
+      "mibDef": "shining; high; victory; conqueror.",
+      "mibMeta": "An assurance of light and power to overcome error and remain true to Spirit (shining, high, victory, conqueror) .",
+      "candidates": []
+    },
+    {
+      "id": 605,
+      "word": "Bezalel (A. V.",
+      "etym": "Heb.",
+      "mibDef": "in the shadow of God; in the likeness of God; in the",
+      "mibMeta": "The inner assurance of the guarding, guiding, protecting presence and power of Spirit; a conception of divine sonship, Godlikeness (in the shadow of God, in the likeness of God, in the shelter of God, in the protection of God). If we have this assurance and conception of being in truth like God, it ",
+      "candidates": []
+    },
+    {
+      "id": 606,
+      "word": "Bezek",
+      "etym": "Heb.",
+      "mibDef": "lightning; glittering brightness; scattered; dispersed.",
+      "mibMeta": "Bezek means lightning. (See ADONIBEZEK for the significance of Bezek, the city of Adonibezek.) The second Bezek, where Saul numbered the Israelites in sending them forth to defeat the Ammonites, symbolizes the fiery executiveness of an active will. Since Saul (the will) was inspired by God at that t",
+      "candidates": [
+        {
+          "s": "H966",
+          "def": "Bezek, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 607,
+      "word": "Bezer",
+      "etym": "Heb",
+      "mibDef": "cut off', inaccessible, restrained; a fortification; strong city; ore; silver ore;",
+      "mibMeta": "Divine protection and strength, wherein no enemy of error can enter, but all error is restrained, cut off (a fortification, strong city, inaccessible). This consciousness of Truth is a city of refuge, a preserving, redeeming quality, in the individual who possesses it. Bible— The sacred and inspired",
+      "candidates": [
+        {
+          "s": "H1221",
+          "def": "Betser, a place in Palestine; also an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 608,
+      "word": "Bible",
+      "etym": "",
+      "mibDef": "The Bible is a recital of what has taken place in the consciousness of",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 609,
+      "word": "Bible",
+      "etym": "",
+      "mibDef": "A spiritual interpretation of the Bible demands that the",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 610,
+      "word": "Bichri",
+      "etym": "Heb .",
+      "mibDef": "youthful', youth; first-born.",
+      "mibMeta": "An idea of life, force, and action that is new and young in consciousness (youthful, youth, first-born), and has as yet no true concept of the value and power of love (David).",
+      "candidates": [
+        {
+          "s": "H1075",
+          "def": "Bikri, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 611,
+      "word": "Bidkar",
+      "etym": "Heb.",
+      "mibDef": "thrusting through; son of stabbing, i. e., a stabber; in pain.",
+      "mibMeta": "A piercing, destructive thought in individual consciousness, a strong belief in retribution (thrusting through, son of stabbing, a stabber), without the saving power of true justice, which includes mercy.",
+      "candidates": [
+        {
+          "s": "H920",
+          "def": "Bidkar, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 612,
+      "word": "Bigtha",
+      "etym": "Heb. from Pers. or Sanskrit",
+      "mibDef": "gift of God; given of fortune; gift of the sun; a",
+      "mibMeta": "A belief in luck, or chance (given of fortune), as a compelling force in man's life that cannot be withstood (gift of God). This belief, if held, would eventually destroy King Ahasuerus, the will. Man needs his will. The natural man even needs his bigoted, personal will until he rises into a",
+      "candidates": []
+    },
+    {
+      "id": 613,
+      "word": "Bildad",
+      "etym": "Heb.",
+      "mibDef": "Bel has loved; lord Adad; son of contention; son of strife.",
+      "mibMeta": "The great desire of the partially awakened intellect to contend and strive (son of contention, son of strife) for that which appears right to it, its judgments and decisions being founded more in outer appearances than in Truth. Bel (lord) is the same as Baal, and refers to the attributing of power ",
+      "candidates": [
+        {
+          "s": "H1085",
+          "def": "Bildad, one of Job's friends"
+        }
+      ]
+    },
+    {
+      "id": 614,
+      "word": "Bileam",
+      "etym": "Heb.",
+      "mibDef": "lord of the people; Bcml of the people; destruction of the people; a",
+      "mibMeta": "Bileam is the same word as Balaam; in Hebrew they are spelled exactly the same. The meaning is identical. The only difference is that Bileam is a city and Balaam is an individual. Thus Bileam signifies a group of thoughts of like character to that which Balaam signifies. (See BALAAM.) The fact that ",
+      "candidates": [
+        {
+          "s": "H1109",
+          "def": "Bilam, a Mesopotamian prophet"
+        }
+      ]
+    },
+    {
+      "id": 615,
+      "word": "Bilgah",
+      "etym": "Heb.",
+      "mibDef": "cheerful; rejoicing; sting forth) of joy; the early dawn; first-born.",
+      "mibMeta": "A springing forth of Truth (light and joy) into consciousness (bursting forth of joy, the early dawn). The Truth, while it has always existed in the face, or light, of God, is ever new. To the soul that receives it, it is the first-born, or first fruits, of renewed life (new, resurrecting thoughts a",
+      "candidates": []
+    },
+    {
+      "id": 616,
+      "word": "Bilhah",
+      "etym": "Heb .",
+      "mibDef": "bashfulness; timidity; tenderness.",
+      "mibMeta": "A soul receptivity, or susceptibility, somewhat given to self-abasement ( tenderness , timidity, bashfulness; a concubine of Jacob's), which, when unified with the I AM (Jacob) of the unfolding mentality in individual consciousness, brings forth judgment and strength (Dan and Naphtali). These qualit",
+      "candidates": [
+        {
+          "s": "H1090",
+          "def": "Bilhah, the name of one of Jacob's concubines"
+        }
+      ]
+    },
+    {
+      "id": 617,
+      "word": "Bilhan",
+      "etym": "Heb.",
+      "mibDef": "bashful; modest; confused; timid; weak; tender.",
+      "mibMeta": "Jediael means knowledge of God, known of God. \"The wisdom that is from above is first pure then peaceable, gentle, easy to be entreated, full of mercy\" (James 3:17); this is the consciousness that is signified by Bilhan, son of Jediael (tender, modest). It is compassionate, tender,",
+      "candidates": []
+    },
+    {
+      "id": 618,
+      "word": "Bilshan",
+      "etym": "Heb.",
+      "mibDef": "son of the tongue, i. e., eloquent; searcher.",
+      "mibMeta": "A thought activity that gives itself to a diligent searching out of Truth (searcher); also the ability to express Truth clearly when it has once been thoroughly investigated and comprehended (eloquent). Zerubbabel is one who restores the worship of God.",
+      "candidates": []
+    },
+    {
+      "id": 619,
+      "word": "Bimhal",
+      "etym": "Heb.",
+      "mibDef": ".von of circumcision, i. e., circumcised; one cut off from impurity.",
+      "mibMeta": "A thought in consciousness that is purified from all that is contained in \"the mind of the flesh\" (Rom. 8:6), and keeps the precepts of the divine law (circumcised). (See CIRCUMCISION.)",
+      "candidates": []
+    },
+    {
+      "id": 620,
+      "word": "Binea",
+      "etym": "Heb .",
+      "mibDef": "gush forth copiously; break forth; a wanderer; a fountain; a gushing",
+      "mibMeta": "Faith in the fountain of spiritual life that springs up from within the very depths of man's being (gush forth copiously, fountain; a Benjamite refers to faith). This faith thought that Binea signifies may seem at first to be a wanderer in man's consciousness; it is not steady and reliable, but is e",
+      "candidates": []
+    },
+    {
+      "id": 621,
+      "word": "Binnui",
+      "etym": "Heb.",
+      "mibDef": "a construction; a building; a rebuilding; the building of posterity;",
+      "mibMeta": "Constructive, renewing, unifying thoughts in consciousness (a construction, a building, a rebuilding, familyship). Two of these men had taken foreign wives before their return to their own land. This shows that the unifying quality or love quality of the thoughts that are symbolized by the men named",
+      "candidates": [
+        {
+          "s": "H1131",
+          "def": "Binnui, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 622,
+      "word": "Birsha",
+      "etym": "Heb.",
+      "mibDef": "son of wickedness; son of impiety; son of godlessness; full of wickedness;",
+      "mibMeta": "Gomorrah means material force, tyranny, oppression; it signifies a state of mind that is adverse to the law of Spirit. This state of mind has to do with the submerged or hidden, subconscious, sensual phase of man's life. Birsha is the ruling thought in this error state of consciousness in the indivi",
+      "candidates": [
+        {
+          "s": "H1306",
+          "def": "Birsha, a king of Gomorrah"
+        }
+      ]
+    },
+    {
+      "id": 623,
+      "word": "birth",
+      "etym": "",
+      "mibDef": "The awakening of man to a consciousness of his unity with the one universal Spirit;",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5309",
+          "def": "something fallen, i.e., an abortion"
+        },
+        {
+          "s": "H4351",
+          "def": "origin (as if a mine)"
+        },
+        {
+          "s": "G1083",
+          "def": "nativity"
+        },
+        {
+          "s": "G5605",
+          "def": "to experience the pains of parturition (literally or figuratively)"
+        }
+      ]
+    },
+    {
+      "id": 624,
+      "word": "birth",
+      "etym": "",
+      "mibDef": "When man is begotten and born of the Word he is no longer \"flesh",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5309",
+          "def": "something fallen, i.e., an abortion"
+        },
+        {
+          "s": "H4351",
+          "def": "origin (as if a mine)"
+        },
+        {
+          "s": "G1083",
+          "def": "nativity"
+        },
+        {
+          "s": "G5605",
+          "def": "to experience the pains of parturition (literally or figuratively)"
+        }
+      ]
+    },
+    {
+      "id": 625,
+      "word": "birth",
+      "etym": "",
+      "mibDef": "Begetting and quickening take place in man's inner consciousness, but the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5309",
+          "def": "something fallen, i.e., an abortion"
+        },
+        {
+          "s": "H4351",
+          "def": "origin (as if a mine)"
+        },
+        {
+          "s": "G1083",
+          "def": "nativity"
+        },
+        {
+          "s": "G5605",
+          "def": "to experience the pains of parturition (literally or figuratively)"
+        }
+      ]
+    },
+    {
+      "id": 626,
+      "word": "Birzaith (A. V.",
+      "etym": "Heb.",
+      "mibDef": "olive wells; holes; wounds. The different meanings",
+      "mibMeta": "The peace and harmony, also the possibilities, of the inner life (a well represents an inward source of life, and olives signify peace, also fruitfulness). This life, in its spiritual quality, is rather obscure to the consciousness of man at first (Birzaith's genealogy is not given clearly), but, as",
+      "candidates": []
+    },
+    {
+      "id": 627,
+      "word": "Bishlam",
+      "etym": "Heb.",
+      "mibDef": "son of peace (?); in peace.",
+      "mibMeta": "A thought of peace in man (in peace, son of peace) that is carried to extremes-a tendency even to side with error in order to keep an outer semblance of peace. This tendency would not allow the individual to undertake any active work of reconstruction in his manner of thinking and in his organism, b",
+      "candidates": []
+    },
+    {
+      "id": 628,
+      "word": "Bithiah",
+      "etym": "Heb.",
+      "mibDef": "daughter of Jehovah; daughter ofJah; worshiper of Jehovah;",
+      "mibMeta": "A phase of the soul consciousness that, though it belongs to the force that rules man in his material state (Pharaoh, king of Egypt) yet has set its love upon the Truth, and worships Jehovah; that is, it gives its substance to building up the real Christ self in the individual (daughter of Jehovah; ",
+      "candidates": [
+        {
+          "s": "H1332",
+          "def": "Bithjah, an Egyptian woman"
+        }
+      ]
+    },
+    {
+      "id": 629,
+      "word": "Bithron",
+      "etym": "Heb.",
+      "mibDef": "cleft or valley; broken or divided place; ravine.",
+      "mibMeta": "Abner was captain of Saul's army; he refers to the intellect in man, somewhat illumined by Spirit. The meaning of Abner is father of enlightenment. Joab was the leader of David's army; he symbolizes the executive power of love. When Saul, the will ruling in personality, is slain, his captain, Abner ",
+      "candidates": []
+    },
+    {
+      "id": 630,
+      "word": "Bithynia",
+      "etym": "Greek",
+      "mibDef": "violent precipitation.",
+      "mibMeta": "Mysia means criminal, and Bithynia means violent precipitation. Under the guidance of the Lord the redeeming power of Spirit is not set into action in these dark states of consciousness until neighboring thought centers that are more or less awakened to Truth have been spiritually strengthened. This",
+      "candidates": []
+    },
+    {
+      "id": 631,
+      "word": "Biziothiah (A. V.",
+      "etym": "Heb .",
+      "mibDef": "contempt of Jah; despises Jehovah; place of",
+      "mibMeta": "An established thought center in the subconsciousness, and very close to the point of working out into the body consciousness (Edom). The meaning (place of Jah's olives) suggests that this thought center should be filled with the consciousness of the Christ peace, and it should be rich with spiritua",
+      "candidates": []
+    },
+    {
+      "id": 632,
+      "word": "Biztha",
+      "etym": "Heb. from Pers ,",
+      "mibDef": "weak person (sexually, incapable of reproduction); eunuch.",
+      "mibMeta": "In consciousness a eunuch represents a thought from which the capacity to increase life and its forms has been eliminated. King Ahasuems represents the will dominated by ambition and puffed up by its conquests. Biztha is a thought, void of vital strength and power, that serves the puffed-up will, an",
+      "candidates": []
+    },
+    {
+      "id": 633,
+      "word": "blasphemy",
+      "etym": "",
+      "mibDef": "Impious or irreverent thoughts toward God, such as sickness, poverty, death. \"But",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G988",
+          "def": "vilification (especially against God)"
+        },
+        {
+          "s": "G3588",
+          "def": "the (sometimes to be supplied, at others omitted, in English idiom)"
+        }
+      ]
+    },
+    {
+      "id": 634,
+      "word": "Blastus",
+      "etym": "Gk.",
+      "mibDef": "shoot; a bud; sprout; that buds.",
+      "mibMeta": "Sense man's belief that the mortal will, or the ruling ego of the sense man (Herod), causes life and its awakening ideas of good to germinate and to come to fruition in consciousness (shoot, sprout, that buds). This belief brings forth no fruit (Blastus was a eunuch) because it is a false one. God (",
+      "candidates": [
+        {
+          "s": "G986",
+          "def": "Blastus, an officer of Herod Agrippa"
+        }
+      ]
+    },
+    {
+      "id": 635,
+      "word": "blessing",
+      "etym": "",
+      "mibDef": "Blessing imparts the quickening spiritual power that produces growth and",
+      "mibMeta": "The blind beggar of John 9 represents one who has no perception of his own capacity, and no confidence in his power to rise superior to conditions in the material realm. The sin of omission is even greater than the sin of commission. There is some hope for the one who is an active sinner, but what c",
+      "candidates": [
+        {
+          "s": "H1293",
+          "def": "benediction; by implication prosperity"
+        },
+        {
+          "s": "G2129",
+          "def": "fine speaking, i.e., elegance of language; commendation (\"eulogy\"), i.e., (reverentially) adoration; religiously, benediction; by implication, consecration; by extension, benefit or largess"
+        },
+        {
+          "s": "H1288",
+          "def": "to kneel; by implication to bless God (as an act of adoration), and (vice-versa) man (as a benefit); also (by euphemism) to curse (God or the king, as treason)"
+        },
+        {
+          "s": "G2127",
+          "def": "to speak well of, i.e., (religiously) to bless (thank or invoke a benediction upon, prosper)"
+        }
+      ]
+    },
+    {
+      "id": 636,
+      "word": "blood cannot inherit the kingdom of God.\" A new man is necessary",
+      "etym": "",
+      "mibDef": "a new man, a new body, a new",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1818",
+          "def": "blood (as that which when shed causes death) of man or an animal; by analogy, the juice of the grape; figuratively (especially in the plural) bloodshed (i.e., drops of blood)"
+        },
+        {
+          "s": "G129",
+          "def": "blood, literally (of men or animals), figuratively (the juice of grapes) or specially (the atoning blood of Christ); by implication, bloodshed, also kindred"
+        },
+        {
+          "s": "H5332",
+          "def": "juice of the grape (as blood red)"
+        },
+        {
+          "s": "G131",
+          "def": "to flow blood, i.e., have a haemorrhage"
+        },
+        {
+          "s": "G130",
+          "def": "an effusion of blood"
+        }
+      ]
+    },
+    {
+      "id": 637,
+      "word": "blood of Christ",
+      "etym": "",
+      "mibDef": "The life contained in God's Word. Therefore, it is spiritual energy that purifies",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1818",
+          "def": "blood (as that which when shed causes death) of man or an animal; by analogy, the juice of the grape; figuratively (especially in the plural) bloodshed (i.e., drops of blood)"
+        },
+        {
+          "s": "G129",
+          "def": "blood, literally (of men or animals), figuratively (the juice of grapes) or specially (the atoning blood of Christ); by implication, bloodshed, also kindred"
+        },
+        {
+          "s": "H5332",
+          "def": "juice of the grape (as blood red)"
+        },
+        {
+          "s": "G131",
+          "def": "to flow blood, i.e., have a haemorrhage"
+        },
+        {
+          "s": "G130",
+          "def": "an effusion of blood"
+        }
+      ]
+    },
+    {
+      "id": 638,
+      "word": "blood of the Lamb",
+      "etym": "",
+      "mibDef": "The innocent, undefiled life, or the primal life of Being, which Jesus made",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1818",
+          "def": "blood (as that which when shed causes death) of man or an animal; by analogy, the juice of the grape; figuratively (especially in the plural) bloodshed (i.e., drops of blood)"
+        },
+        {
+          "s": "G129",
+          "def": "blood, literally (of men or animals), figuratively (the juice of grapes) or specially (the atoning blood of Christ); by implication, bloodshed, also kindred"
+        },
+        {
+          "s": "H5332",
+          "def": "juice of the grape (as blood red)"
+        },
+        {
+          "s": "G131",
+          "def": "to flow blood, i.e., have a haemorrhage"
+        },
+        {
+          "s": "G130",
+          "def": "an effusion of blood"
+        }
+      ]
+    },
+    {
+      "id": 639,
+      "word": "Boanerges",
+      "etym": "N. T. Gk.",
+      "mibDef": "sons of tumult; sons of rage, i. e., soon angry; sons of",
+      "mibMeta": "That which John and James signify belongs to the solar plexus, or central seat of vibratory activity in the organism, the great emotional center, which extends from the pit of the stomach to the region back of the heart. Jesus' coming is likened to \"lightning\" that shines from the east even to the w",
+      "candidates": []
+    },
+    {
+      "id": 640,
+      "word": "boat",
+      "etym": "",
+      "mibDef": "Symbolizes a positive, sustaining state of consciousness that prevents one from sinking",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5679",
+          "def": "a crossing-place"
+        },
+        {
+          "s": "G4142",
+          "def": "a boat"
+        },
+        {
+          "s": "G4627",
+          "def": "a \"skiff\" (as if dug out), or yawl (carried aboard a large vessel for landing)"
+        }
+      ]
+    },
+    {
+      "id": 641,
+      "word": "Boaz (A. V.",
+      "etym": "Heb.",
+      "mibDef": "alacrity; quickness; fleetness; in",
+      "mibMeta": "The cheerful willingness, promptness, and quickness of action, also richness and power of thought, and strength of character (quickness, fleetness, alacrity, strength, lovely), that when established in substance (Bethlehem, house of bread) and allied with the love of the natural man (Ruth) open the ",
+      "candidates": [
+        {
+          "s": "H1162",
+          "def": "Boaz, the ancestor of David; also the name of a pillar in front of the temple"
+        }
+      ]
+    },
+    {
+      "id": 642,
+      "word": "Bocheru",
+      "etym": "Heb .",
+      "mibDef": "the firstborn is he; he is youthful; he is early; he is in season.",
+      "mibMeta": "The tendency to receive new ideas, Truth, in order, in season; the reference here may be to the Christ idea (the first-born is he, he is youthful, he is early, he is in season ).",
+      "candidates": []
+    },
+    {
+      "id": 643,
+      "word": "Bochim",
+      "etym": "Heb.",
+      "mibDef": "weepers; weepings; place of weeping.",
+      "mibMeta": "A deep feeling and expression of sorrow on man's part for his failure to live up to the perfect law of God, but more especially because of his inharmonious reaping. This expression of sorrow does not include the thorough, positive turning away from error to Truth that would keep one from reaping the",
+      "candidates": []
+    },
+    {
+      "id": 644,
+      "word": "body",
+      "etym": "",
+      "mibDef": "The body disintegrates because generation after",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4983",
+          "def": "the body (as a sound whole), used in a very wide application, literally or figuratively"
+        },
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "H5038",
+          "def": "a flabby thing, i.e., a carcase or carrion (human or bestial, often collectively); figuratively, an idol"
+        },
+        {
+          "s": "H1472",
+          "def": "a body, whether alive or dead"
+        },
+        {
+          "s": "H1655",
+          "def": "used in a peculiar sense, the body (probably for the (figuratively) idea of a hard rain)"
+        }
+      ]
+    },
+    {
+      "id": 645,
+      "word": "body",
+      "etym": "",
+      "mibDef": "The body is destroyed, made sick unto death by sin",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4983",
+          "def": "the body (as a sound whole), used in a very wide application, literally or figuratively"
+        },
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "H5038",
+          "def": "a flabby thing, i.e., a carcase or carrion (human or bestial, often collectively); figuratively, an idol"
+        },
+        {
+          "s": "H1472",
+          "def": "a body, whether alive or dead"
+        },
+        {
+          "s": "H1655",
+          "def": "used in a peculiar sense, the body (probably for the (figuratively) idea of a hard rain)"
+        }
+      ]
+    },
+    {
+      "id": 646,
+      "word": "body",
+      "etym": "",
+      "mibDef": "The body receives the benefit of salvation through prayer and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4983",
+          "def": "the body (as a sound whole), used in a very wide application, literally or figuratively"
+        },
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "H5038",
+          "def": "a flabby thing, i.e., a carcase or carrion (human or bestial, often collectively); figuratively, an idol"
+        },
+        {
+          "s": "H1472",
+          "def": "a body, whether alive or dead"
+        },
+        {
+          "s": "H1655",
+          "def": "used in a peculiar sense, the body (probably for the (figuratively) idea of a hard rain)"
+        }
+      ]
+    },
+    {
+      "id": 647,
+      "word": "body",
+      "etym": "",
+      "mibDef": "Man may have a perfect body and a perfect world when he",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4983",
+          "def": "the body (as a sound whole), used in a very wide application, literally or figuratively"
+        },
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "H5038",
+          "def": "a flabby thing, i.e., a carcase or carrion (human or bestial, often collectively); figuratively, an idol"
+        },
+        {
+          "s": "H1472",
+          "def": "a body, whether alive or dead"
+        },
+        {
+          "s": "H1655",
+          "def": "used in a peculiar sense, the body (probably for the (figuratively) idea of a hard rain)"
+        }
+      ]
+    },
+    {
+      "id": 648,
+      "word": "body",
+      "etym": "",
+      "mibDef": "The body is transformed by the renewing of the mind. By affirmation",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4983",
+          "def": "the body (as a sound whole), used in a very wide application, literally or figuratively"
+        },
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "H5038",
+          "def": "a flabby thing, i.e., a carcase or carrion (human or bestial, often collectively); figuratively, an idol"
+        },
+        {
+          "s": "H1472",
+          "def": "a body, whether alive or dead"
+        },
+        {
+          "s": "H1655",
+          "def": "used in a peculiar sense, the body (probably for the (figuratively) idea of a hard rain)"
+        }
+      ]
+    },
+    {
+      "id": 649,
+      "word": "body",
+      "etym": "",
+      "mibDef": "The natural forces of the body are eager to co-operate with man in",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4983",
+          "def": "the body (as a sound whole), used in a very wide application, literally or figuratively"
+        },
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "H5038",
+          "def": "a flabby thing, i.e., a carcase or carrion (human or bestial, often collectively); figuratively, an idol"
+        },
+        {
+          "s": "H1472",
+          "def": "a body, whether alive or dead"
+        },
+        {
+          "s": "H1655",
+          "def": "used in a peculiar sense, the body (probably for the (figuratively) idea of a hard rain)"
+        }
+      ]
+    },
+    {
+      "id": 650,
+      "word": "body",
+      "etym": "",
+      "mibDef": "The body is made and sustained by thought. Its character is like the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4983",
+          "def": "the body (as a sound whole), used in a very wide application, literally or figuratively"
+        },
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "H5038",
+          "def": "a flabby thing, i.e., a carcase or carrion (human or bestial, often collectively); figuratively, an idol"
+        },
+        {
+          "s": "H1472",
+          "def": "a body, whether alive or dead"
+        },
+        {
+          "s": "H1655",
+          "def": "used in a peculiar sense, the body (probably for the (figuratively) idea of a hard rain)"
+        }
+      ]
+    },
+    {
+      "id": 651,
+      "word": "body",
+      "etym": "",
+      "mibDef": "The perfect manifestation of a divine idea. It is composed of spiritual substance",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4983",
+          "def": "the body (as a sound whole), used in a very wide application, literally or figuratively"
+        },
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "H5038",
+          "def": "a flabby thing, i.e., a carcase or carrion (human or bestial, often collectively); figuratively, an idol"
+        },
+        {
+          "s": "H1472",
+          "def": "a body, whether alive or dead"
+        },
+        {
+          "s": "H1655",
+          "def": "used in a peculiar sense, the body (probably for the (figuratively) idea of a hard rain)"
+        }
+      ]
+    },
+    {
+      "id": 652,
+      "word": "body of Christ",
+      "etym": "",
+      "mibDef": "All those who forsake everything pertaining to the personal,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4983",
+          "def": "the body (as a sound whole), used in a very wide application, literally or figuratively"
+        },
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "H5038",
+          "def": "a flabby thing, i.e., a carcase or carrion (human or bestial, often collectively); figuratively, an idol"
+        },
+        {
+          "s": "H1472",
+          "def": "a body, whether alive or dead"
+        },
+        {
+          "s": "H1655",
+          "def": "used in a peculiar sense, the body (probably for the (figuratively) idea of a hard rain)"
+        }
+      ]
+    },
+    {
+      "id": 653,
+      "word": "body of light",
+      "etym": "",
+      "mibDef": "Jesus, dwelling continually in the consciousness of Being, the very substance and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4983",
+          "def": "the body (as a sound whole), used in a very wide application, literally or figuratively"
+        },
+        {
+          "s": "H5315",
+          "def": "properly, a breathing creature, i.e., animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)"
+        },
+        {
+          "s": "H5038",
+          "def": "a flabby thing, i.e., a carcase or carrion (human or bestial, often collectively); figuratively, an idol"
+        },
+        {
+          "s": "H1472",
+          "def": "a body, whether alive or dead"
+        },
+        {
+          "s": "H1655",
+          "def": "used in a peculiar sense, the body (probably for the (figuratively) idea of a hard rain)"
+        }
+      ]
+    },
+    {
+      "id": 654,
+      "word": "Bohan",
+      "etym": "Heb.",
+      "mibDef": "thumb; stumpy.",
+      "mibMeta": "Determination, strength of thought, firmness of purpose (thumb, stumpy; a stone). bondage-Undue attachment to thoughts in personal consciousness, such as race, class, sex, age, or personality. \"Whatsoever thou shalt bind on earth shall be bound in heaven and whatsoever thou shalt loose on earth shal",
+      "candidates": [
+        {
+          "s": "H932",
+          "def": "thumb, Bohan, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 655,
+      "word": "bosom",
+      "etym": "",
+      "mibDef": "The peace and contentment that come to those who trust God.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2436",
+          "def": "the bosom (literally or figuratively)"
+        },
+        {
+          "s": "G2859",
+          "def": "the bosom; by analogy, a bay"
+        }
+      ]
+    },
+    {
+      "id": 656,
+      "word": "boundary line between the transitional and the permanent)",
+      "etym": "",
+      "mibDef": "our",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 657,
+      "word": "bounty",
+      "etym": "",
+      "mibDef": "The generosity of God.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 658,
+      "word": "Bozez",
+      "etym": "Heb.",
+      "mibDef": "shining; glittering; height.",
+      "mibMeta": "\"The formidable tooth, 'I cannot.' (See SENEH, the name of the crag on the other side of the pass.)",
+      "candidates": []
+    },
+    {
+      "id": 659,
+      "word": "Bozkath (A. V.",
+      "etym": "Heb.",
+      "mibDef": "stony; height; craggy.",
+      "mibMeta": "A group of thoughts which, though humble and lowly, is of an exalted nature (height), and firm and strong, though somewhat rugged in character (stony, craggy). Jedidah, mother of",
+      "candidates": []
+    },
+    {
+      "id": 660,
+      "word": "Bozrah",
+      "etym": "Heb.",
+      "mibDef": "restraint; sheepfold; fortification; stronghold.",
+      "mibMeta": "The pure natural life of the organism (sheep, sheepfold ), controlled by the \"mind of the flesh\" or carnal mind (Edom and Moab). Though strongly intrenched in materiality (stronghold, fortification), the dominion of the sense man will be taken away. Then the life thoughts and forces, which are natur",
+      "candidates": [
+        {
+          "s": "H1224",
+          "def": "Botsrah, a place in Edom"
+        }
+      ]
+    },
+    {
+      "id": 661,
+      "word": "bread",
+      "etym": "",
+      "mibDef": "Stirring into action, in consciousness, of the inner substance of Spirit (bread)",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3899",
+          "def": "food (for man or beast), especially bread, or grain (for making it)"
+        },
+        {
+          "s": "G740",
+          "def": "bread (as raised) or a loaf"
+        },
+        {
+          "s": "H4682",
+          "def": "properly, sweetness; concretely, sweet (i.e., not soured or bittered with yeast); specifically, an unfermented cake or loaf, or (elliptically) the festival of Passover (because no leaven was then used)"
+        },
+        {
+          "s": "H2557",
+          "def": "ferment, (figuratively) extortion"
+        },
+        {
+          "s": "G106",
+          "def": "unleavened, i.e., (figuratively) uncorrupted; (in the neutral plural) specially (by implication) the Passover week"
+        }
+      ]
+    },
+    {
+      "id": 662,
+      "word": "bread from heaven",
+      "etym": "",
+      "mibDef": "Descent into man's consciousness of ideas that are manifested as manna,",
+      "mibMeta": "The stirring into action, in consciousness, of the inner substance of Spirit (bread) and the concentrating of mind upon it as the real possession. Then \"they took their food with gladness and singleness of heart.\" All who have attained realization of the inner substance will testify to the gladness ",
+      "candidates": [
+        {
+          "s": "H3899",
+          "def": "food (for man or beast), especially bread, or grain (for making it)"
+        },
+        {
+          "s": "G740",
+          "def": "bread (as raised) or a loaf"
+        },
+        {
+          "s": "H4682",
+          "def": "properly, sweetness; concretely, sweet (i.e., not soured or bittered with yeast); specifically, an unfermented cake or loaf, or (elliptically) the festival of Passover (because no leaven was then used)"
+        },
+        {
+          "s": "H2557",
+          "def": "ferment, (figuratively) extortion"
+        },
+        {
+          "s": "G106",
+          "def": "unleavened, i.e., (figuratively) uncorrupted; (in the neutral plural) specially (by implication) the Passover week"
+        }
+      ]
+    },
+    {
+      "id": 663,
+      "word": "breastplate",
+      "etym": "",
+      "mibDef": "The breastplate of the high priest of Israel had on it twelve precious stones,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2833",
+          "def": "perhaps a pocket (as holding the Urim and Thummim), or rich (as containing gems), used only of the gorget of the highpriest"
+        },
+        {
+          "s": "G2382",
+          "def": "the chest (\"thorax\"), i.e., (by implication) a corslet"
+        }
+      ]
+    },
+    {
+      "id": 664,
+      "word": "breathing",
+      "etym": "",
+      "mibDef": "The symbol of inspiration. Jesus breathed on His apostles and said to them, \"Receive",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1709",
+          "def": "to inhale, i.e., (figuratively) to be animated by (bent upon)"
+        }
+      ]
+    },
+    {
+      "id": 665,
+      "word": "bring about a change of mind. The fundamental idea is not so much sorrow as a change",
+      "etym": "",
+      "mibDef": "a change,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H935",
+          "def": "to go or come (in a wide variety of applications)"
+        },
+        {
+          "s": "H3318",
+          "def": "to go (causatively, bring) out, in a great variety of applications, literally and figuratively, direct and proxim"
+        },
+        {
+          "s": "H7725",
+          "def": "to turn back (hence, away) transitively or intransitively, literally or figuratively (not necessarily with the idea of return to the starting point); generally to retreat; often adverbial, again"
+        },
+        {
+          "s": "H5927",
+          "def": "to ascend, intransitively (be high) or actively (mount); used in a great variety of senses, primary and secondary, literal and figurative"
+        },
+        {
+          "s": "H7126",
+          "def": "to approach (causatively, bring near) for whatever purpose"
+        }
+      ]
+    },
+    {
+      "id": 666,
+      "word": "Bui",
+      "etym": "Heb .",
+      "mibDef": "pouring forth copiously; rain; produce; increase; abundance; changing; change",
+      "mibMeta": "In their inner spiritual meaning, months, days, and years do not refer to divisions of time but to stages or degrees of unfoldment in consciousness and steps in demonstration. Bul refers to abundant increase of good, abundant supply, prosperity, as the result of a generous outpouring of the Holy Spi",
+      "candidates": []
+    },
+    {
+      "id": 667,
+      "word": "builds his own mind",
+      "etym": "",
+      "mibDef": "God furnishes the design. The tabernacle was built",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 668,
+      "word": "Bukki",
+      "etym": "Heb .",
+      "mibDef": "mouth ofJcih; waster; void.",
+      "mibMeta": "A receptive, willing, obedient attitude of mind in man, coupled with love of the Truth and spiritual discernment, by which Jehovah, the indwelling Christ, is enabled to express Himself to man's consciousness (mouth of J ah). If the thought of either void or waster comes into the significance of this",
+      "candidates": [
+        {
+          "s": "H1231",
+          "def": "Bukki, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 669,
+      "word": "Bukkiah",
+      "etym": "Heb.",
+      "mibDef": "proved of Jehovah; mouth ofJah; wasted by Jehovah; wasting;",
+      "mibMeta": "The meaning of dispensation as given in Webster's New International Dictionary includes the thought of \"distribution of good and evil by God to man.\" The seemingly contradictory meanings attributed to the name Bukkiah suggest the same thing. The truth is, however, that God is good and only good can ",
+      "candidates": []
+    },
+    {
+      "id": 670,
+      "word": "Bunah",
+      "etym": "Heb .",
+      "mibDef": "perception; discernment; understanding; knowing; discretion; prudence;",
+      "mibMeta": "A practical wisdom, discernment, sensibleness, and judgment (perception, discernment, prudence, discretion, understanding ). These are always of a building, constructive character. Bunni, bun'-nl (Heb.)~ my understanding; built; building me up. The name of three Levites (Neh. 9:4; 0:15; 11:15). The ",
+      "candidates": []
+    },
+    {
+      "id": 671,
+      "word": "burdens",
+      "etym": "",
+      "mibDef": "Beliefs in ill-health, lack, personal responsibility, prejudice, fear, condemnation, and all",
+      "mibMeta": "The angel of Jehovah, the flame of fire, and the bush, are all within the consciousness of man. The bush is a nerve center through which the universal life energy runs like electricity over a wire, making a light but not consuming. In mental activity there is a vibratory process that uses up nerve t",
+      "candidates": [
+        {
+          "s": "G5413",
+          "def": "an invoice (as part of freight), i.e., (figuratively) a task or service"
+        },
+        {
+          "s": "H5450",
+          "def": "porterage"
+        },
+        {
+          "s": "H4864",
+          "def": "properly, (abstractly) a raising (as of the hands in prayer), or rising (of flame); figuratively, an utterance; concretely, a beacon (as raised); a present (as taken), mess, or tribute; figuratively, a reproach (as a burden)"
+        },
+        {
+          "s": "H4853",
+          "def": "a burden; specifically, tribute, or (abstractly) porterage"
+        },
+        {
+          "s": "H5449",
+          "def": "a porter"
+        }
+      ]
+    },
+    {
+      "id": 672,
+      "word": "burning bush",
+      "etym": "",
+      "mibDef": "When we arrive at a four-sided or balanced state of mind, the light of intuition or",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3345",
+          "def": "to burn"
+        },
+        {
+          "s": "H8316",
+          "def": "cremation"
+        },
+        {
+          "s": "H1197",
+          "def": "to kindle, i.e., consume (by fire or by eating)"
+        },
+        {
+          "s": "G2545",
+          "def": "to set on fire, i.e., kindle or (by implication) consume"
+        },
+        {
+          "s": "H3344",
+          "def": "to burn"
+        }
+      ]
+    },
+    {
+      "id": 673,
+      "word": "Buz",
+      "etym": "Heb .",
+      "mibDef": "despicable; contempt, despised.",
+      "mibMeta": "A scornful, scoffing state of thought; this is despicable in the light of Truth, and it cannot be productive of good.",
+      "candidates": [
+        {
+          "s": "H938",
+          "def": "Buz, the name of a son of Nahor, and of an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 674,
+      "word": "Buzi",
+      "etym": "Heb.",
+      "mibDef": "contemned ofJah; despised; my contempt; to disrespect.",
+      "mibMeta": "Contempt or scorn for that which does not measure up to the divine phase of justice and right (condemned ofJah).",
+      "candidates": []
+    },
+    {
+      "id": 675,
+      "word": "Buzite",
+      "etym": "Heb.",
+      "mibDef": "of Buz or Buzi.",
+      "mibMeta": "See BUZI. C",
+      "candidates": [
+        {
+          "s": "H940",
+          "def": "a Buzite or descendant of Buz"
+        }
+      ]
+    },
+    {
+      "id": 676,
+      "word": "by every word that proceeds out of the mouth of God",
+      "etym": "",
+      "mibDef": "by the inner creative, sustaining, energizing life,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5921",
+          "def": "above, over, upon, or against (yet always in this last relation with a downward aspect) in a great variety of applications"
+        },
+        {
+          "s": "G1223",
+          "def": "through (in very wide applications, local, causal, or occasional)"
+        },
+        {
+          "s": "G1722",
+          "def": "\"in,\" at, (up-)on, by, etc"
+        },
+        {
+          "s": "H3027",
+          "def": "a hand (the open one [indicating power, means, direction, etc.], in distinction from H3709, the closed one); used (as noun, adverb, etc.) in a great variety of applications, both literally and figuratively, both proximate and remote [as follows]"
+        },
+        {
+          "s": "H1870",
+          "def": "a road (as trodden); figuratively, a course of life or mode of action, often adverb"
+        }
+      ]
+    },
+    {
+      "id": 677,
+      "word": "C/Esarca Philippi",
+      "etym": "Gk .",
+      "mibDef": "CrEsarea of Philip.",
+      "mibMeta": "Conquest and dominion; the temporal power of personality with its false claims of reality. The phrase, \"When Jesus came into the parts of C/Esarca Philippi,\" means: when the I AM came into the realms of power. In this positive realm in consciousness ( Ccesarea Philippi ) the personality (which alway",
+      "candidates": []
+    },
+    {
+      "id": 678,
+      "word": "Cabbon",
+      "etym": "Heb.",
+      "mibDef": "encircled; bound about; a circle; a globe; a village; a hamlet; hilly;",
+      "mibMeta": "An aggregation of thoughts of life in the subconsciousness that i9 of a spiritual nature or tendency, or that is bound about ( encircled ) by a higher, truer understanding of life than the CABBON purely sense comprehension; thus it is reclaimed from carnal expression (a circle, a globe, a village, a",
+      "candidates": []
+    },
+    {
+      "id": 679,
+      "word": "Cabul",
+      "etym": "Heb.",
+      "mibDef": "something exhaled, as nothing; vain; sterile; worthless; dry and sandy;",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3521",
+          "def": "Cabul, the name of two places in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 680,
+      "word": "Cain",
+      "etym": "Heb.; more properly Kain",
+      "mibDef": "possession; acquisition; centralization; draws to itself;",
+      "mibMeta": "Cain means possession, acquisition, centralization, that which draws to itself, selfishness. Cain refers directly to that part of the human consciousness which strives to acquire and possess. He was a tiller of the soil, which places him in the earthly domain. In Hindu Metaphysicalphysics he would b",
+      "candidates": [
+        {
+          "s": "H7014",
+          "def": "Cain, the first son of Adam; Kajin, the name of a place in Palestine, and of a Middle Eastern tribe"
+        }
+      ]
+    },
+    {
+      "id": 681,
+      "word": "Cainan",
+      "etym": "Heb.",
+      "mibDef": "possessor; acquisitor; centralizer; one who fixes",
+      "mibMeta": "Cainan, named in the genealogy of Jesus Christ, and meaning possessor, centralizer, one who fixes and establishes his center, symbolizes the establishing of one's outer consciousness and organism in the truth that the whole man, even the body, is in essence spiritual. Thus does one prepare oneself f",
+      "candidates": [
+        {
+          "s": "H7018",
+          "def": "Kenan, an antediluvian"
+        }
+      ]
+    },
+    {
+      "id": 682,
+      "word": "Calah",
+      "etym": "Assyr .",
+      "mibDef": "completed; finished; soundness; firmness; integrity; strength; balanced",
+      "mibMeta": "Calah belongs to the intellectual or mental reasoning plane in man (see ASSHUR and ASSYRIA). It signifies a state of consciousness that is built about the belief that age (as it relates to time) and experience bring bcdanced judgment and fullness, or perfection. Sense wisdom (the serpent in the gard",
+      "candidates": []
+    },
+    {
+      "id": 683,
+      "word": "Calcol",
+      "etym": "Heb .",
+      "mibDef": "supporter; sustainer; sustenance; nourishment; nutriment; nourishing.",
+      "mibMeta": "A line of reasoning that sustains, supports, and adheres to intellectual understanding (supporter, sustainer). There is a certain spiritual illumination and inspiration in this reasoning quality; it is food ( nourishment , nutriment) for man during a phase of his unfoldment toward conscious spiritua",
+      "candidates": []
+    },
+    {
+      "id": 684,
+      "word": "called Jerubbaal",
+      "etym": "",
+      "mibDef": "8:35)",
+      "mibMeta": "Denial. Abraham \"dwelt by the oaks of Mamre.\" Even so, \"the angel of Jehovah\" who came to Gideon \"sat under the oak,\" and Gideon presented food to him there. An oak tree in itself stands for something very strong and protective; but in the Hebrew language it has a deeper significance than this. The ",
+      "candidates": [
+        {
+          "s": "H7121",
+          "def": "to call out to (i.e., properly, address by name, but used in a wide variety of applications)"
+        },
+        {
+          "s": "G2564",
+          "def": "to \"call\" (properly, aloud, but used in a variety of applications, directly or otherwise)"
+        },
+        {
+          "s": "G3004",
+          "def": "properly, to \"lay\" forth, i.e., (figuratively) relate (in words (usually of systematic or set discourse; whereas G2036 and G5346 generally refer to an individual expression or speech respectively; while G4483 is properly to break silence merely, and G2980 means an extended or random harangue)); by implication, to mean"
+        },
+        {
+          "s": "G4341",
+          "def": "to call toward oneself, i.e., summon, invite"
+        },
+        {
+          "s": "G5455",
+          "def": "to emit a sound (animal, human or instrumental); by implication, to address in words or by name, also in imitation"
+        }
+      ]
+    },
+    {
+      "id": 685,
+      "word": "Calneh",
+      "etym": "Heb.",
+      "mibDef": "complete concentration; centralized ambition; a fortress. A literal",
+      "mibMeta": "Selfishness, a centering in self; also confidence in material conditions rather than trust in God. Calneh was destroyed because of evil; even so the state of thought that it represents will be overcome and its seeming power will be taken away from it because it is founded and built up in error, in m",
+      "candidates": []
+    },
+    {
+      "id": 686,
+      "word": "Calno",
+      "etym": "Heb.",
+      "mibDef": "his complete concentration; his centralized ambition; his selfishness; his",
+      "mibMeta": "See CALNEH. Calvary-(see Golgotha) camel. An explanation of John the Baptist's being clothed with \"camel's hair\" (Matt. 3:4) is given as follows: A camel symbolizes power of endurance, strength, and patient perseverance. Hair is symbolical of the power to equalize the inner and outer life forces. He",
+      "candidates": [
+        {
+          "s": "H3641",
+          "def": "Calneh or Calno, a place in the Assyrian empire"
+        }
+      ]
+    },
+    {
+      "id": 687,
+      "word": "camel",
+      "etym": "",
+      "mibDef": "In individual consciousness the camel is a symbol of power, endurance, strength, and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2574",
+          "def": "a \"camel\""
+        },
+        {
+          "s": "H1581",
+          "def": "a camel"
+        }
+      ]
+    },
+    {
+      "id": 688,
+      "word": "can be overcome only by purification of the consciousness within and without",
+      "etym": "",
+      "mibDef": "that is, in thought and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1410",
+          "def": "to be able or possible"
+        },
+        {
+          "s": "H3201",
+          "def": "to be able, literally (can, could) or morally (may, might)"
+        },
+        {
+          "s": "H4672",
+          "def": "properly, to come forth to, i.e., appear or exist; transitively, to attain, i.e., find or acquire; figuratively, to occur, meet or be present"
+        },
+        {
+          "s": "H3045",
+          "def": "to know (properly, to ascertain by seeing); used in a great variety of senses, figuratively, literally, euphemistically and inferentially (including observation, care, recognition; and causatively, instruction, designation, punishment, etc.)"
+        },
+        {
+          "s": "H6213",
+          "def": "to do or make, in the broadest sense and widest application"
+        }
+      ]
+    },
+    {
+      "id": 689,
+      "word": "Cana",
+      "etym": "Gk. from Heb .",
+      "mibDef": "place of reeds; reed; cane; staff; spear; measuring rod; rule;",
+      "mibMeta": "Cana means place of reeds, reed, measuring rod, rule, balance. In the body it is symbolized by the larynx. Cana of Galilee is the power center in consciousness. The larynx originates and measures the volume and character of the sounds of the voice. Galilee (circle, a circuit, rolling energy) furnish",
+      "candidates": [
+        {
+          "s": "G2580",
+          "def": "Cana, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 690,
+      "word": "Canaan",
+      "etym": "Heb.",
+      "mibDef": "realized nothingness; material existence; traffic in materiality; a",
+      "mibMeta": "Canaan means lowland, that is, the body consciousness. The redeemed body is the Promised Land, and when man rediscovers this lost domain all the promises of the Scriptures will be fulfilled. It is not a dream that man is to possess an immortal body; it is a solid fact. In order to redeem the body ma",
+      "candidates": [
+        {
+          "s": "H3667",
+          "def": "Kenaan, a son a Ham; also the country inhabited by him"
+        },
+        {
+          "s": "G5478",
+          "def": "a Chanaanaean (i.e., Kenaanite), or native of gentile Palestine"
+        }
+      ]
+    },
+    {
+      "id": 691,
+      "word": "Canaanite",
+      "etym": "Heb.",
+      "mibDef": "one who exists in and for material things; a merchant; a pirate;",
+      "mibMeta": "The elemental life forces in the subconsciousness. Under sense thought and expression they are all that the meaning of Canaanite implies. The Canaanites are delivered by Jehovah into the hands of the Israelites, and by them are destroyed. \"And the name of the place was called Hormah.\" Hormah is from",
+      "candidates": [
+        {
+          "s": "H3669",
+          "def": "a Kenaanite or inhabitant of Kenaan"
+        }
+      ]
+    },
+    {
+      "id": 692,
+      "word": "Candace",
+      "etym": "(Gk. from Ethiopic",
+      "mibDef": "c/wmz ofserx’ants.",
+      "mibMeta": "Ham refers to the physical in man. Ethiopia is a state of consciousness wherein the darkness of materiality and sense dwells. Candace, queen of the Ethiopians, is the ruling thought of that which Ethiopia signifies. This person's being a queen, and not a king, denotes the fact that the will of one w",
+      "candidates": [
+        {
+          "s": "G2582",
+          "def": "Candacè, an Egyptian queen"
+        }
+      ]
+    },
+    {
+      "id": 693,
+      "word": "Canneh",
+      "etym": "Heb.",
+      "mibDef": "set up; placed; distinguished.",
+      "mibMeta": "Canneh was set up, or built up, in material thought. Its seeming eminence (distinguished) is short-lived because it is not established in Spirit, through trust in God. (See CALNEH.)",
+      "candidates": []
+    },
+    {
+      "id": 694,
+      "word": "capacity",
+      "etym": "",
+      "mibDef": "Transcending intellectual knowledge. Nearly everyone has at some time",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 695,
+      "word": "Capernaum",
+      "etym": "Gk. from Heb.",
+      "mibDef": "village of Nahum; village of consolation; shelter of",
+      "mibMeta": "Nahum means comfort or consolation. Capernaum (village of consolation, shelter of comfort, covering of compassion) refers to an inner conviction of the abiding compassion and restoring power of Being. When one enters this state of consciousness a healing virtue pours out of the soul and transforms a",
+      "candidates": [
+        {
+          "s": "G2584",
+          "def": "Capernaum (i.e., Caphanachum), a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 696,
+      "word": "Caphtor",
+      "etym": "Heb.",
+      "mibDef": "converted; changed; covered and surrounded; covered with a crown;",
+      "mibMeta": "The evolution ( converted , changed ) that is constantly taking place in the hidden depths ( covered and surrounded, a covered cup) of man's seemingly physical being (the Caphtorites, being descendants of Ham, represent the physical in man). A covered cup, covered and surrounded, the cupped hands, a",
+      "candidates": []
+    },
+    {
+      "id": 697,
+      "word": "Caphtorim",
+      "etym": "fdeb.",
+      "mibDef": "converters; converts.",
+      "mibMeta": "Changing, growing, unfolding thoughts that belong to the seemingly physical in man. (See CAPHTOR.) Cappadocia, cap-pa-do'-_i-a (Gk. from Pers.)- : /m<? horses. A province of Asia Minor (Acts 2:9; I Pet. 1: 1) . It was noted for its fine pasture lands and for its horses, cattle, asses, and sheep. A u",
+      "candidates": []
+    },
+    {
+      "id": 698,
+      "word": "Carmel",
+      "etym": "Heb.",
+      "mibDef": "expanse of a generous nature; garden; orchard; park; fruitful place.",
+      "mibMeta": "A place in consciousness where we realize the fullness of our possibilities under the divine law (expanse of a generous nature, garden, fruitful place). It is the garden of God; Jesus called it \"Paradise,\" freedom from sense. Mount Carmel stands for the center of spirituality, which is located in ma",
+      "candidates": [
+        {
+          "s": "H3760",
+          "def": "Karmel, the name of a hill and of a town in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 699,
+      "word": "Carmi",
+      "etym": "Heb.",
+      "mibDef": "vinedresser; generous; fruitful; noble; my vineyard.",
+      "mibMeta": "A very vital, prosperous, and fruitful attitude of mind in individual consciousness (fruitful). This state of thought is actuated by a spirit of gratitude and thanksgiving (Judah) and a clear vision (Reuben) of abundant spiritual life throughout one's being as one's own divine inheritance ( my viney",
+      "candidates": []
+    }
+  ]
+}

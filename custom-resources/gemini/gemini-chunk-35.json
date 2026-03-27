@@ -1,0 +1,1370 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "35 of 37",
+  "_entry_range": "ids 3400–3499",
+  "entries": [
+    {
+      "id": 3400,
+      "word": "Tim%us",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "contaminated; defiled; unclean; impure; polluted; infamous;",
+      "mibMeta": "A phase of consciousness that is contaminated with error ( defiled , polluted, infamous, profaned), which is the result of the race habit of attributing honor and precedence to old- established religious beliefs and customs to the exclusion of present spiritual inspiration (a Jewish man, the father ",
+      "candidates": []
+    },
+    {
+      "id": 3401,
+      "word": "Timna",
+      "etym": "Heb .",
+      "mibDef": "withheld;",
+      "mibMeta": "A restricting, curbing influence ( withheld , restrained, forbidden) that is ever at work even in the soul of man and in his body consciousness. This influence is the result of the power and the perfection of Spirit that are inherent in every desire of man, no matter how materially these desires may",
+      "candidates": [
+        {
+          "s": "H8555",
+          "def": "Timna, the name of two Edomites"
+        }
+      ]
+    },
+    {
+      "id": 3402,
+      "word": "Timnath - serah",
+      "etym": "Heb .",
+      "mibDef": "remaining portion; part; part that runs over; part of",
+      "mibMeta": "See TIMNATH-HERES. Timnite, tim-nite (fr. Heb.). A native of Timnah. Here the reference is to Samson's father-in-law, who lived in Timnah (Judg. 15:6). A thought that springs from and belongs to that in consciousness which Timnah signifies. (See TIMNAH.)",
+      "candidates": [
+        {
+          "s": "H8553",
+          "def": "Timnah, the name of two places in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 3403,
+      "word": "Timon",
+      "etym": "Gk. fr. Heb.",
+      "mibDef": "upright; honorable; sound; whole; valuable; precious.",
+      "mibMeta": "Soundness and uprightness of thought, integrity; also understanding of the great worth of spiritual substance and life, of words of Truth as the sustenance and strength of the true thoughts and activities of one's consciousness (up right, sound, valuable, whole, honorable, precious). Timon was a man",
+      "candidates": []
+    },
+    {
+      "id": 3404,
+      "word": "Timothy",
+      "etym": "Gk .",
+      "mibDef": "worshipping God; honored of God; honoring God; veneration of",
+      "mibMeta": "Inspired reason united with faith; also zeal. The word Timothy means worshipping God, honoring God, honored of God, prized of God. He was \"the son of a Jewess that believed; but his father was a Greek.\" A Greek symbolizes intellectual reasoning. The Jews often called any Gentile by the term \"Greek.\"",
+      "candidates": [
+        {
+          "s": "G5095",
+          "def": "dear to God; Timotheus, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 3405,
+      "word": "Tiphsah",
+      "etym": "Yleb .",
+      "mibDef": "crossing over; passage; ford; crossing; fording place.",
+      "mibMeta": "A consciousness of peace, which protects the true and harmonious passage, or transition, of thoughts to and fro across the network of nerves in the organism of man (ford; the Euphrates River signifies the nervous system in man, and Tiphsah was a city at a very prominent fording place of this river; ",
+      "candidates": [
+        {
+          "s": "H8607",
+          "def": "Tiphsach, a place in Mesopotamia"
+        }
+      ]
+    },
+    {
+      "id": 3406,
+      "word": "Tiras",
+      "etym": "Heb .",
+      "mibDef": "formative faculty; determination of forms; thought; imagination;",
+      "mibMeta": "The formative faculty of man, the imagination, made active in the mind of the individual by the inner longing of the soul (desire), which ever leads to unfoldment Godward. As the seventh son of Japheth, Tiras signifies a certain fullness or completeness of that for which Japheth stands, the mental p",
+      "candidates": []
+    },
+    {
+      "id": 3407,
+      "word": "Tirathites",
+      "etym": "fr. Heb.",
+      "mibDef": "openings; cleavages; gates; doors; courts; porters;",
+      "mibMeta": "Thoughts that stand at the entrance to the inner consciousness (openings, doors, gatekeepers) to receive and transcribe upon the memory, the subconscious mind, all ideas relating to that which Jabez signifies (a family of scribes that lived in Jabez. See SCRIBES and JABEZ.)",
+      "candidates": []
+    },
+    {
+      "id": 3408,
+      "word": "Tirhakah",
+      "etym": "Heb. fr. Ethiop .",
+      "mibDef": "exalted; searcher; inquirer; beholder.",
+      "mibMeta": "A ruling thought over the phase of man's being that has been looked on as purely physical and material (king of Ethiopia). But this ruling thought perceives, and is aspiring to, higher and more spiritual understanding and realization for the body ( exalted, searcher, inquirer, beholder ). Therefore ",
+      "candidates": [
+        {
+          "s": "H8640",
+          "def": "Tirhakah, a king of Kush"
+        }
+      ]
+    },
+    {
+      "id": 3409,
+      "word": "Tirhanah",
+      "etym": "Heb.",
+      "mibDef": "bending; inclination; kindness; favor; condescension.",
+      "mibMeta": "A humble, kindly thought tendency, not stiff or unbending, in the enthusiastic, faith faculty of mind that Caleb signifies (bending, kindness, inclination, favor, condescension; a son of Caleb). Tiria, tir'-i-CE (Heb agitation; trembling; excitement; reverence; worship; piety; awe; fear; dread. Son ",
+      "candidates": []
+    },
+    {
+      "id": 3410,
+      "word": "Tirzah",
+      "etym": "Heb.",
+      "mibDef": "delight; pleasure; pleasantness; pleasing; favorable; loving; kindness;",
+      "mibMeta": "A very delightful aspect of thought and of soul (delight, pleasantness, pleasing, benevolence; the name of an Israelitish woman, and of a Canaanitish city that was taken by the Israelites under Joshua). The foundation of the delightful phase of thought that the city of Tirzah signifies is outside of",
+      "candidates": []
+    },
+    {
+      "id": 3411,
+      "word": "Tishbite",
+      "etym": "fr. Heb.",
+      "mibDef": "carrying off; appropriating; captivating; capturing; leading away;",
+      "mibMeta": "Elijah the prophet signifies the spiritual I AM of man's consciousness. This I AM, when in activity in one's higher thoughts (Israel), is a Tishbite, one that makes captive, brings into subjection to Spirit (appropriating, captivating, leading captive ), and in time brings to the Christ standard, al",
+      "candidates": []
+    },
+    {
+      "id": 3412,
+      "word": "Titus",
+      "etym": "Gk. fr. Lat .",
+      "mibDef": "titled; honorable; renowned; glorious; pretext; pleasant; pleasing.",
+      "mibMeta": "A pleasing, agreeable, and honorable attitude of mind (pleasant, honorable, titled, renowned ) that accompanies the word of Truth in its restoring work throughout the organism and the consciousness of man (Titus was a fellow worker with Paul in the ministry). In Acts 18:7 Paul, the word of Truth, go",
+      "candidates": [
+        {
+          "s": "G5103",
+          "def": "Titus, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 3413,
+      "word": "Titus Justus",
+      "etym": "",
+      "mibDef": "outer worldly thoughts.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5103",
+          "def": "Titus, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 3414,
+      "word": "Tizite",
+      "etym": "fr. Heb.",
+      "mibDef": "coming forth; springing up; germinating; sprouting; going forth;",
+      "mibMeta": "A spreading and enlarging of the idea of the omnipresence and abidingness of divine life and love throughout the consciousness (germinating, scattering, going forth, extending, publishing; see JOHA).",
+      "candidates": []
+    },
+    {
+      "id": 3415,
+      "word": "to a belief in wearing out and dissipation of strength",
+      "etym": "",
+      "mibDef": "the same as ISHPAH, which see.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H413",
+          "def": "near, with or among; often in general, to"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        },
+        {
+          "s": "G1519",
+          "def": "to or into (indicating the point reached or entered), of place, time, or (figuratively) purpose (result, etc.); also in adverbial phrases"
+        },
+        {
+          "s": "H6213",
+          "def": "to do or make, in the broadest sense and widest application"
+        },
+        {
+          "s": "H5921",
+          "def": "above, over, upon, or against (yet always in this last relation with a downward aspect) in a great variety of applications"
+        }
+      ]
+    },
+    {
+      "id": 3416,
+      "word": "to be developed in the superman. The seven princes and seven chamberlains",
+      "etym": "",
+      "mibDef": "that is, the number seven—",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H413",
+          "def": "near, with or among; often in general, to"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        },
+        {
+          "s": "G1519",
+          "def": "to or into (indicating the point reached or entered), of place, time, or (figuratively) purpose (result, etc.); also in adverbial phrases"
+        },
+        {
+          "s": "H6213",
+          "def": "to do or make, in the broadest sense and widest application"
+        },
+        {
+          "s": "H5921",
+          "def": "above, over, upon, or against (yet always in this last relation with a downward aspect) in a great variety of applications"
+        }
+      ]
+    },
+    {
+      "id": 3417,
+      "word": "to induce him to curse Israel",
+      "etym": "",
+      "mibDef": "24:9). b A",
+      "mibMeta": "See BAAL-PEOR.",
+      "candidates": [
+        {
+          "s": "H413",
+          "def": "near, with or among; often in general, to"
+        },
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        },
+        {
+          "s": "G1519",
+          "def": "to or into (indicating the point reached or entered), of place, time, or (figuratively) purpose (result, etc.); also in adverbial phrases"
+        },
+        {
+          "s": "H6213",
+          "def": "to do or make, in the broadest sense and widest application"
+        },
+        {
+          "s": "H5921",
+          "def": "above, over, upon, or against (yet always in this last relation with a downward aspect) in a great variety of applications"
+        }
+      ]
+    },
+    {
+      "id": 3418,
+      "word": "Toah",
+      "etym": "Heb.",
+      "mibDef": "sunk down; immersed; depressed; humble; lowly; underneath ; prostrated;",
+      "mibMeta": "A lowly, humble attitude of thought, to the point of negativeness and dejection ( sunk down, bowed down, depressed, prostrated, downcast). The meek, humble attitude of mind is good. One must abide in the divine qualities of joy, strength, power, and assurance also, however, that one may avoid negati",
+      "candidates": []
+    },
+    {
+      "id": 3419,
+      "word": "Tob",
+      "etym": "Heb ,",
+      "mibDef": "good; whole; in good health; healthy; wholesome; fair; pleasant; beautiful;",
+      "mibMeta": "A consciousness of that which is good, wholesome, honorable, upright, joyous, and true; also a consciousness of abundance. Everything that is good is contained in that which Tob signifies. (See JEPHTHAH.) In the significance of the Tob that is mentioned in II Samuel 10:6, 8, at least, the consciousn",
+      "candidates": []
+    },
+    {
+      "id": 3420,
+      "word": "Tobiah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah is good; Jah is good; goodness of Jehovah.",
+      "mibMeta": "The Ammonites are a wild, uncultivated state of consciousness, which thoughts of sensuality, sin, and ignorance have formed in the outer, worldly phase of man's being. Tobiah is one of the ruling thoughts in the Ammonitish phase of mind. This Tobiah thought is very deceptive, and is sometimes believ",
+      "candidates": [
+        {
+          "s": "H2900",
+          "def": "Tobijah, the name of three Israelites and of one Samaritan"
+        }
+      ]
+    },
+    {
+      "id": 3421,
+      "word": "Tobijah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah is good; goodness of Jehovah; Jah's goodness; pleasing unto",
+      "mibMeta": "Thoughts, belonging to the high and spiritual phase of man, that, having laid hold of the idea of divine goodness, aid in establishing the consciousness of the individual in wisdom and substance (Jehovah is good, goodness of Jah, Jah's goodness).",
+      "candidates": []
+    },
+    {
+      "id": 3422,
+      "word": "Tochen",
+      "etym": "Heb.",
+      "mibDef": "made even; leveled; poised; weighed out; meted; proved; tried; set up;",
+      "mibMeta": "A group of thoughts in the attentive, obedient quality of mind that the Israelitish tribe of Simeon signifies (a city of Simeon), which is of an examining, weighing, discriminating, adjusting, evening character ( made even, leveled, poised, weighed out, proved, tried, adjusted by plumb or level, met",
+      "candidates": []
+    },
+    {
+      "id": 3423,
+      "word": "Togarmah",
+      "etym": "Heb.",
+      "mibDef": "universal centripetal force; centralizing energy; density;",
+      "mibMeta": "Strength and a drawing, centralizing force and energy, but of the outer man rather than of the inner spiritual understanding and therefore carried to the point of very great hardness and selfishness ( centralizing energy, gravitation, density, compactness, bony, hard, strong). The statement, \"They o",
+      "candidates": [
+        {
+          "s": "H8425",
+          "def": "Togarmah, a son of Gomer and his posterity"
+        }
+      ]
+    },
+    {
+      "id": 3424,
+      "word": "Tohu",
+      "etym": "Heb.",
+      "mibDef": "sunk down; immersed; depressed; humble; lowly; underneath; prostrated;",
+      "mibMeta": "See TOAH.",
+      "candidates": []
+    },
+    {
+      "id": 3425,
+      "word": "Toi",
+      "etym": "Heb.",
+      "mibDef": "wandering; straying from a path; error; impiety; idolatry; ungodliness.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8583",
+          "def": "Tou or Toi, a Syrian king"
+        }
+      ]
+    },
+    {
+      "id": 3426,
+      "word": "Tola",
+      "etym": "Heb.",
+      "mibDef": "licking; swallowing; a worm; coccus worm; coccus color; crimson; scarlet;",
+      "mibMeta": "Life activity (crimson, scarlet, very red) on a seemingly low plane but in process of unfoldment to higher and greater expressions (a worm, coccus worm).",
+      "candidates": [
+        {
+          "s": "H8439",
+          "def": "Tola, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3427,
+      "word": "Tolad",
+      "etym": "Heb.",
+      "mibDef": "birth; nativity; generation; propagation; posterity; begetting, as a father;",
+      "mibMeta": "The originating, forming, and bringing into expression of a new state of consciousness (generation, begetting, conceiving, bringing forth, birth, a city of Simeon; see ELTOLAD). Tolaites, to'-la-tes (fr. Heb.). Descendants of Tola, son of Issachar (Num. 26:23). Thoughts springing from that in man wh",
+      "candidates": []
+    },
+    {
+      "id": 3428,
+      "word": "tolerance",
+      "etym": "",
+      "mibDef": "Forbearance; allowing to be done without hindering. Tolerance is passive, and good as",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3429,
+      "word": "tongues",
+      "etym": "",
+      "mibDef": "Symbolizes increased ability to express Truth clearly and freely.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1100",
+          "def": "the tongue; by implication, a language (specially, one naturally unacquired)"
+        },
+        {
+          "s": "H3956",
+          "def": "the tongue (of man or animals), used literally (as the instrument of licking, eating, or speech), and figuratively (speech, an ingot, a fork of flame, a cove of water)"
+        },
+        {
+          "s": "G2084",
+          "def": "other- tongued, i.e., a foreigner"
+        }
+      ]
+    },
+    {
+      "id": 3430,
+      "word": "Tophel",
+      "etym": "Heb.",
+      "mibDef": "sticking; adhering; cement; lime; mortal; whitewash; patching up;",
+      "mibMeta": "Thoughts of an adhesive nature ( sticking , adhering, cement, lime, mortar ). These adhesive thoughts in one's consciousness, if not balanced by a proper releasing attitude of mind, will cause one to hold fast to old thoughts and habits that are no longer of use in the consciousness, and so will lea",
+      "candidates": []
+    },
+    {
+      "id": 3431,
+      "word": "Tormah",
+      "etym": "Heb.",
+      "mibDef": "deception fraud; betrayal.",
+      "mibMeta": "A crafty, treacherous, deceptive state of thought (deception, fraud; \"craftily\" is used in the text, in place of \"in Tormah\").",
+      "candidates": []
+    },
+    {
+      "id": 3432,
+      "word": "Tou",
+      "etym": "Heb .",
+      "mibDef": "wandering; straying from a path; error; impiety; idolatry; ungodliness.",
+      "mibMeta": "See TOI.",
+      "candidates": [
+        {
+          "s": "H8583",
+          "def": "Tou or Toi, a Syrian king"
+        }
+      ]
+    },
+    {
+      "id": 3433,
+      "word": "Trachonitis",
+      "etym": "Gk.",
+      "mibDef": "rough; rocky; precipitous; stony; cruel.",
+      "mibMeta": "A very strong, hard, defensive, resistant state of thought in man, whose central ruling idea is power exercised in selfish, personal reason and will, unmodified by spiritual understanding and love (rocky, rough, stony, cruel; a district ruled by Philip, brother of Herod, of the Romans). (See ARGOB.)",
+      "candidates": []
+    },
+    {
+      "id": 3434,
+      "word": "traits",
+      "etym": "",
+      "mibDef": "Belief in the authority of our forefathers to determine our physical and mental",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3435,
+      "word": "transcendent God",
+      "etym": "",
+      "mibDef": "God above or beyond His universe, apart from it. God is more than His",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3436,
+      "word": "transmutation",
+      "etym": "",
+      "mibDef": "Change in character, from one phase to another. The lifting up of mind and body,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3437,
+      "word": "treatment",
+      "etym": "",
+      "mibDef": "Spiritual realization of God's Truth for oneself or another. Spiritual process, or prayer,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3438,
+      "word": "tree",
+      "etym": "",
+      "mibDef": "An oak tree in itself stands for something very strong and protective; but in Hebrew it",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H6086",
+          "def": "a tree (from its firmness); hence, wood (plural sticks)"
+        },
+        {
+          "s": "G1186",
+          "def": "a tree"
+        },
+        {
+          "s": "G4808",
+          "def": "a fig-tree"
+        },
+        {
+          "s": "H8384",
+          "def": "the fig (tree or fruit)"
+        },
+        {
+          "s": "H363",
+          "def": "a tree"
+        }
+      ]
+    },
+    {
+      "id": 3439,
+      "word": "tree",
+      "etym": "",
+      "mibDef": "Growing both under and above water, represents the restoration of unity between the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H6086",
+          "def": "a tree (from its firmness); hence, wood (plural sticks)"
+        },
+        {
+          "s": "G1186",
+          "def": "a tree"
+        },
+        {
+          "s": "G4808",
+          "def": "a fig-tree"
+        },
+        {
+          "s": "H8384",
+          "def": "the fig (tree or fruit)"
+        },
+        {
+          "s": "H363",
+          "def": "a tree"
+        }
+      ]
+    },
+    {
+      "id": 3440,
+      "word": "trees",
+      "etym": "",
+      "mibDef": "Represent nerves, and nerves are expressions of thoughts of unity. They connect thought",
+      "mibMeta": "\"Trees\" represent nerves, and nerves are expressions of thoughts of unity; they connect thought centers. In Ezekiel 47:7 the trees growing on both sides of the river represent the nerves radiating from the spinal column, and connecting and unifying the whole organism through the nerve fluid. The \"tr",
+      "candidates": [
+        {
+          "s": "H6086",
+          "def": "a tree (from its firmness); hence, wood (plural sticks)"
+        },
+        {
+          "s": "H8561",
+          "def": "(architectural) a palm-like pilaster (i.e., umbellate)"
+        },
+        {
+          "s": "H1265",
+          "def": "a cypress (?) tree; hence, a lance or a musical instrument (as made of that wood)"
+        },
+        {
+          "s": "H730",
+          "def": "a cedar tree (from the tenacity of its roots)"
+        },
+        {
+          "s": "H2132",
+          "def": "an olive (as yielding illuminating oil), the tree, the branch or the berry"
+        }
+      ]
+    },
+    {
+      "id": 3441,
+      "word": "trial at hand. Jesus tells one",
+      "etym": "",
+      "mibDef": "the good, the future— that he shall be with Him in Paradise; but the evil, the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4531",
+          "def": "a testing, of men (judicial) or of God (querulous)"
+        },
+        {
+          "s": "G1382",
+          "def": "test (abstractly or concretely); by implication, trustiness"
+        },
+        {
+          "s": "G3984",
+          "def": "a test, i.e., attempt, experience"
+        },
+        {
+          "s": "G1383",
+          "def": "a testing; by implication, trustworthiness"
+        },
+        {
+          "s": "G4451",
+          "def": "ignition, i.e., (specially), smelting (figuratively, conflagration, calamity as a test)"
+        }
+      ]
+    },
+    {
+      "id": 3442,
+      "word": "trinity",
+      "etym": "",
+      "mibDef": "The religious terms for the trinity are Father, Son, and Holy Spirit. The terms are mind,",
+      "mibMeta": "The divine Trinity is known as Father, Son, and Holy Spirit, ly we understand these to refer to mind, idea, and expression, or thinker, thought, and action.",
+      "candidates": []
+    },
+    {
+      "id": 3443,
+      "word": "Troas",
+      "etym": "Gk .",
+      "mibDef": "bored through; penetrated; perforated.",
+      "mibMeta": "A phase of thought by which Spirit can find its way into consciousness more easily than by other ways (penetrated, bored through). It was while in this city, after having been forbidden by the Holy Spirit to preach in some other places, that Paul received his vision of the man of Macedonia crying to",
+      "candidates": [
+        {
+          "s": "G5174",
+          "def": "the Troad (or plain of Troy), i.e., Troas, a place in Asia Minor"
+        }
+      ]
+    },
+    {
+      "id": 3444,
+      "word": "Trogyllium",
+      "etym": "Gk .",
+      "mibDef": "eating place; place of fruits, nuts, vegetables.",
+      "mibMeta": "An analyzing and assimilating of ideas; a conscious taking on of substance (eating place, place of fruits, nuts, vegetables), by means of the word of Truth, represented here by Paul. (See the significance of the other cities mentioned in Acts 20:14 and 15, wherein Paul stopped while on this missiona",
+      "candidates": []
+    },
+    {
+      "id": 3445,
+      "word": "Trophimus",
+      "etym": "Gk .",
+      "mibDef": "feeding; nourishing; instructing; fostering; educating; a foster",
+      "mibMeta": "A thought or expression of desire (Trophimus was an Ephesian, and Ephesus signifies desire) in individual consciousness. Desire, which often becomes recognized only by the outer, carnal phase of man's consciousness as it seeks expression in sense ways— especially is this the case in those who have n",
+      "candidates": [
+        {
+          "s": "G5161",
+          "def": "nutritive; Trophimus, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 3446,
+      "word": "trouble",
+      "etym": "",
+      "mibDef": "Calamity, difficulty, disaster; the sure result of wrong thinking. All economic, social,",
+      "mibMeta": "The trumpets and cymbals in the hands of the priests and Levites are the thrills and waves of harmonious energy that go to every part of our mind and our body when we rejoice in spirit and our heart is filled with gratitude and we express ourselves in thanksgiving to the Author of our being.",
+      "candidates": [
+        {
+          "s": "H6869",
+          "def": "tightness (i.e., figuratively, trouble)"
+        },
+        {
+          "s": "H6862",
+          "def": "narrow"
+        },
+        {
+          "s": "G2873",
+          "def": "a cut, i.e., (by analogy) toil (as reducing the strength), literally or figuratively; by implication, pains"
+        },
+        {
+          "s": "H5916",
+          "def": "properly, to roil water; figuratively, to disturb or affict"
+        },
+        {
+          "s": "H7451",
+          "def": "bad or (as noun) evil (natural or moral)"
+        }
+      ]
+    },
+    {
+      "id": 3447,
+      "word": "true inner spiritual self",
+      "etym": "",
+      "mibDef": "God, the Father.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G228",
+          "def": "truthful"
+        },
+        {
+          "s": "H571",
+          "def": "stability; (figuratively) certainty, truth, trustworthiness"
+        },
+        {
+          "s": "H3651",
+          "def": "properly, set upright; hence (figuratively as adjective) just; but usually (as adverb or conjunction) rightly or so (in various applications to manner, time and relation; often with other particles)"
+        },
+        {
+          "s": "G227",
+          "def": "true (as not concealing)"
+        },
+        {
+          "s": "H551",
+          "def": "verily"
+        }
+      ]
+    },
+    {
+      "id": 3448,
+      "word": "Truth",
+      "etym": "",
+      "mibDef": "and learns to affirm, meditate on, and realize divine life and substance, spiritual ideas, words of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H571",
+          "def": "stability; (figuratively) certainty, truth, trustworthiness"
+        },
+        {
+          "s": "G225",
+          "def": "truth"
+        },
+        {
+          "s": "H530",
+          "def": "literally firmness; figuratively security; morally fidelity"
+        },
+        {
+          "s": "G230",
+          "def": "truly"
+        },
+        {
+          "s": "H518",
+          "def": "used very widely as demonstrative, lo!; interrogative, whether?; or conditional, if, although; also Oh that!, when; hence, as a negative, not"
+        }
+      ]
+    },
+    {
+      "id": 3449,
+      "word": "Truth",
+      "etym": "",
+      "mibDef": "The Absolute; that which accords with God as divine principle; that which is, has been,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H571",
+          "def": "stability; (figuratively) certainty, truth, trustworthiness"
+        },
+        {
+          "s": "G225",
+          "def": "truth"
+        },
+        {
+          "s": "H530",
+          "def": "literally firmness; figuratively security; morally fidelity"
+        },
+        {
+          "s": "G230",
+          "def": "truly"
+        },
+        {
+          "s": "H518",
+          "def": "used very widely as demonstrative, lo!; interrogative, whether?; or conditional, if, although; also Oh that!, when; hence, as a negative, not"
+        }
+      ]
+    },
+    {
+      "id": 3450,
+      "word": "Truth",
+      "etym": "",
+      "mibDef": "The straight and narrow path along which Spirit directs, and which proves so",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H571",
+          "def": "stability; (figuratively) certainty, truth, trustworthiness"
+        },
+        {
+          "s": "G225",
+          "def": "truth"
+        },
+        {
+          "s": "H530",
+          "def": "literally firmness; figuratively security; morally fidelity"
+        },
+        {
+          "s": "G230",
+          "def": "truly"
+        },
+        {
+          "s": "H518",
+          "def": "used very widely as demonstrative, lo!; interrogative, whether?; or conditional, if, although; also Oh that!, when; hence, as a negative, not"
+        }
+      ]
+    },
+    {
+      "id": 3451,
+      "word": "Truth",
+      "etym": "",
+      "mibDef": "God is a special, personal Father to all His children, and from no other source",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H571",
+          "def": "stability; (figuratively) certainty, truth, trustworthiness"
+        },
+        {
+          "s": "G225",
+          "def": "truth"
+        },
+        {
+          "s": "H530",
+          "def": "literally firmness; figuratively security; morally fidelity"
+        },
+        {
+          "s": "G230",
+          "def": "truly"
+        },
+        {
+          "s": "H518",
+          "def": "used very widely as demonstrative, lo!; interrogative, whether?; or conditional, if, although; also Oh that!, when; hence, as a negative, not"
+        }
+      ]
+    },
+    {
+      "id": 3452,
+      "word": "truth",
+      "etym": "",
+      "mibDef": "God's thought projecting into our mind ideas that will build spiritual",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H571",
+          "def": "stability; (figuratively) certainty, truth, trustworthiness"
+        },
+        {
+          "s": "G225",
+          "def": "truth"
+        },
+        {
+          "s": "H530",
+          "def": "literally firmness; figuratively security; morally fidelity"
+        },
+        {
+          "s": "G230",
+          "def": "truly"
+        },
+        {
+          "s": "H518",
+          "def": "used very widely as demonstrative, lo!; interrogative, whether?; or conditional, if, although; also Oh that!, when; hence, as a negative, not"
+        }
+      ]
+    },
+    {
+      "id": 3453,
+      "word": "Truth and perfection of poise",
+      "etym": "",
+      "mibDef": "the kingdom of heaven.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H571",
+          "def": "stability; (figuratively) certainty, truth, trustworthiness"
+        },
+        {
+          "s": "G225",
+          "def": "truth"
+        },
+        {
+          "s": "H530",
+          "def": "literally firmness; figuratively security; morally fidelity"
+        },
+        {
+          "s": "G230",
+          "def": "truly"
+        },
+        {
+          "s": "H518",
+          "def": "used very widely as demonstrative, lo!; interrogative, whether?; or conditional, if, although; also Oh that!, when; hence, as a negative, not"
+        }
+      ]
+    },
+    {
+      "id": 3454,
+      "word": "Truth. Jogli's son",
+      "etym": "",
+      "mibDef": "the clear light of spiritual understanding,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H571",
+          "def": "stability; (figuratively) certainty, truth, trustworthiness"
+        },
+        {
+          "s": "G225",
+          "def": "truth"
+        },
+        {
+          "s": "H530",
+          "def": "literally firmness; figuratively security; morally fidelity"
+        },
+        {
+          "s": "G230",
+          "def": "truly"
+        },
+        {
+          "s": "H518",
+          "def": "used very widely as demonstrative, lo!; interrogative, whether?; or conditional, if, although; also Oh that!, when; hence, as a negative, not"
+        }
+      ]
+    },
+    {
+      "id": 3455,
+      "word": "Tryph%na (A. V.",
+      "etym": "E (Gk.",
+      "mibDef": "living delicately; luxurious; softness;",
+      "mibMeta": "A very highly refined, rich soul quality, in the spiritually awakening individual, that ministers to the consciousness (a woman at Rome who labored for the Lord). The definitions of Tryph%na, however ( living delicately, luxurious living, softness, effeminacy), bespeak a certain yielding to sense an",
+      "candidates": []
+    },
+    {
+      "id": 3456,
+      "word": "Tryphosa",
+      "etym": "Gk.",
+      "mibDef": "living delicately; luxurious; softness; effeminacy; luxurious living.",
+      "mibMeta": "The significance is the same as that of Tryph%na. (See TRYPH®NA.)",
+      "candidates": []
+    },
+    {
+      "id": 3457,
+      "word": "Tubal",
+      "etym": "Heb.",
+      "mibDef": "diffusibility; diffusive motion; owing forth; welling; owing copiously;",
+      "mibMeta": "Noah's three sons, Shem, Ham, and Japheth, represent the threefold being of man: the spiritual, the physical, and the mental. Japheth signifies the intellect or reason, the mental realm. Tubal, a son of Japheth (meaning diffusibility, flowing forth, welling, flowing copiously, leading, conducting, b",
+      "candidates": []
+    },
+    {
+      "id": 3458,
+      "word": "Tubal-cain",
+      "etym": "Heb.",
+      "mibDef": "diffusion of Cain; diffusion of worldly possessions; central",
+      "mibMeta": "Cain (centralization, acquisition, that which draws to itself) signifies the sense selfishness of an individual centralized in his own physical being. Tubal-cain, a descendant of Cain (meaning diffusion of Cain, diffusion of worldly possessions, owing of centralized might), bespeaks a broadening out",
+      "candidates": []
+    },
+    {
+      "id": 3459,
+      "word": "twelve",
+      "etym": "",
+      "mibDef": "ly, twelve always refers to spiritual fulfillment. \"And Elijah took twelve stones,",
+      "mibMeta": "Twelve always refers to spiritual fulfillment. The twelve stones, in I Kings 18:31, represent the twelve most important nerve centers in the body. A11 material things represent spiritual realities. The I AM (Elijah) in this demonstration must understand and affirm the spiritual reality of ah seeming",
+      "candidates": [
+        {
+          "s": "H8147",
+          "def": "two; also (as ordinal) twofold"
+        },
+        {
+          "s": "G1427",
+          "def": "two and ten, i.e., a dozen"
+        },
+        {
+          "s": "H6240",
+          "def": "ten (only in combination), i.e., -teen; also (ordinal) -teenth"
+        },
+        {
+          "s": "H8648",
+          "def": "two"
+        },
+        {
+          "s": "H7657",
+          "def": "seventy"
+        }
+      ]
+    },
+    {
+      "id": 3460,
+      "word": "Two",
+      "etym": "",
+      "mibDef": "Two represents division, the opposites, such as male and female, night and day.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8147",
+          "def": "two; also (as ordinal) twofold"
+        },
+        {
+          "s": "G1417",
+          "def": "\"two\""
+        },
+        {
+          "s": "H3967",
+          "def": "a hundred; also as a multiplicative and a fraction"
+        },
+        {
+          "s": "H505",
+          "def": "hence (the ox's head being the first letter of the alphabet, and this eventually used as a numeral) a thousand"
+        },
+        {
+          "s": "H3117",
+          "def": "a day (as the warm hours), whether literal (from sunrise to sunset, or from one sunset to the next), or figurative (a space of time defined by an associated term), (often used adverb)"
+        }
+      ]
+    },
+    {
+      "id": 3461,
+      "word": "Tychicus",
+      "etym": "Gk.",
+      "mibDef": "casualty; fortuitous; fortunate; fateful; fate; chance.",
+      "mibMeta": "A belief in fate (fortuitous, fateful, chance, fortunate). Converted to Christian faith, this belief would take on a strong assurance of good as being ever present and demonstrable. One who learns the divine law is not subject to fate. He makes his own destiny by his use of divine law.",
+      "candidates": [
+        {
+          "s": "G5190",
+          "def": "fortuitous, i.e., fortunate; Tychicus, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 3462,
+      "word": "Tyrannus",
+      "etym": "Gk.",
+      "mibDef": "tyrant; sovereign; ruling prince.",
+      "mibMeta": "The absolute ruling power of desire in the individual. Desire knows no restraint by law or custom, it works irresistibly toward expression (tyrant, sovereign, ruling prince, a man of Ephesus). Ephesus signifies desire, which is the central building faculty of the consciousness. After Paul was forced",
+      "candidates": []
+    },
+    {
+      "id": 3463,
+      "word": "Tyre",
+      "etym": "Gk .",
+      "mibDef": "compressed; pressed together; strength;",
+      "mibMeta": "Tyre ( compressed , rock, strength, shelter, cutting, carx’ing) and Sidon (tier in wait, catching offish, hunter, trapper, beast of prey, fishery) refer to the realm of sensation in man's consciousness, with its numberless thoughts and tendencies. This realm must be consciously entered and spiritual",
+      "candidates": [
+        {
+          "s": "H6865",
+          "def": "Tsor, a place in Palestine"
+        },
+        {
+          "s": "G5184",
+          "def": "the city of Tyre"
+        },
+        {
+          "s": "H6876",
+          "def": "a Tsorite or inhabitant of Tsor (i.e., Syrian)"
+        },
+        {
+          "s": "G5183",
+          "def": "a Tyrian, i.e., inhabitant of Tyrus"
+        }
+      ]
+    },
+    {
+      "id": 3464,
+      "word": "Ucal",
+      "etym": "Heb.",
+      "mibDef": "I am strong; I shall be nourished; lam power; lam mighty; I shall prevail.",
+      "mibMeta": "An inner consciousness of strength, power, and might. This consciousness is the result of feeding upon, receiving, affirming, realizing, assimilating, and being nourished by words of Truth (I am strong, / shall be nourished, lam power, lam might, l shall prevail).",
+      "candidates": []
+    },
+    {
+      "id": 3465,
+      "word": "Uel",
+      "etym": "Heb.",
+      "mibDef": "will of God; desire of God; wish of God; desiring of God; God's will.",
+      "mibMeta": "An awakening in man to his true desire, which is for God and is caused by God's seeking greater expression in him. (Uel means will of God, desire of God, wish of God, God's will. At its root every desire of man is God's seeking greater and truer expression in and through him, though by the time thes",
+      "candidates": []
+    },
+    {
+      "id": 3466,
+      "word": "Ulai",
+      "etym": "Heb.",
+      "mibDef": "twisted together; strong; stout; robust; powerful; first; foremost; ram's horn;",
+      "mibMeta": "A current of thought in the individual (a river), of a firm, strong, powerful, pushing, aggressive character more material than spiritual ( twisted together, strong, robust, powerful, foremost, ram's horn, leather bottle ). This current of thought may be one concerning the seemingly physical organis",
+      "candidates": []
+    },
+    {
+      "id": 3467,
+      "word": "Ulam",
+      "etym": "Heb .",
+      "mibDef": "anterior; beforehand; in front; first of all; apposition; opposition;",
+      "mibMeta": "Pioneer thoughts of understanding (a man of Manasseh) and of faith (a man of Benjamin) that go ahead, that enter first into new ideals and states of consciousness (anterior, beforehand, first of all, porch, vestibule).",
+      "candidates": [
+        {
+          "s": "H198",
+          "def": "Ulam, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3468,
+      "word": "Ulla",
+      "etym": "Heb.",
+      "mibDef": "above; lifted up; overhead; bound on; made fast; thrust with the head; yoke;",
+      "mibMeta": "Since the blessed Asher state of mind does not harmonize with the burden-bearing thought, this name, Ulla, with its meaning (bound on, made fast, yoke servitude, bondage, service, burden ) calls to mind the words of Jesus as recorded in Matthew 11:29, 30: \"Take UPHARSIN my yoke upon you, and leam of",
+      "candidates": []
+    },
+    {
+      "id": 3469,
+      "word": "Ummah",
+      "etym": "Heb.",
+      "mibDef": "brought together; conjoined; united; gathering; community; equality;",
+      "mibMeta": "A group of thoughts or a thought center that is of a unifying, gathering, and cooperative character (brought together, united, gathering, community, family, a people, fraternity, a city). understanding— God is supreme knowing. That in man which comprehends is understanding; it knows and comprehends ",
+      "candidates": [
+        {
+          "s": "H5981",
+          "def": "Ummah, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 3470,
+      "word": "unfailing substance of Divine Mind. A great peace is there",
+      "etym": "",
+      "mibDef": "\"the peace of God, which passeth all",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3471,
+      "word": "unison with the ignorant",
+      "etym": "",
+      "mibDef": "Saul. It must be raised to a higher plane of action and must learn",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3472,
+      "word": "unity",
+      "etym": "",
+      "mibDef": "Universal oneness of God, man, and all creation. The only real unity is in Spirit. It is",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1775",
+          "def": "oneness, i.e., (figuratively) unanimity"
+        }
+      ]
+    },
+    {
+      "id": 3473,
+      "word": "universal",
+      "etym": "",
+      "mibDef": "All-encompassing. There is one life force: the creative universal life, even God. This",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3474,
+      "word": "universal Spirit",
+      "etym": "",
+      "mibDef": "Omnipresent, omnipotent, and omniscient God.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3475,
+      "word": "universal urge",
+      "etym": "",
+      "mibDef": "The urge toward perfection. In man this urge is the spiritual seed of the Christ,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3476,
+      "word": "Unni",
+      "etym": "Heb .",
+      "mibDef": "labor; suffering; affliction; oppression; brought low; depressed; humiliated;",
+      "mibMeta": "Unni (labor, affliction, oppression, humbled, impoverished ) refers to the result, in man's consciousness and world, of the very human belief in hard work, labor, instead of expression in joyous, loving service. In other words it would typify the \"bondservant\" type of Christian service instead of th",
+      "candidates": []
+    },
+    {
+      "id": 3477,
+      "word": "Unno",
+      "etym": "Heb.",
+      "mibDef": "same as Unni.",
+      "mibMeta": "See UNNI.",
+      "candidates": []
+    },
+    {
+      "id": 3478,
+      "word": "unreality",
+      "etym": "",
+      "mibDef": "because God is, I AM.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 3479,
+      "word": "upharsin",
+      "etym": "Heb.",
+      "mibDef": "and shall be divided; and they divide; and shall be broken in",
+      "mibMeta": "The significance is virtually the same as that of PERES. See PERES; see also the other words belonging to this handwriting on the wall: MENE and TEKEL",
+      "candidates": []
+    },
+    {
+      "id": 3480,
+      "word": "Uphaz",
+      "etym": "Heb.",
+      "mibDef": "radiating light; pure gold; gold region.",
+      "mibMeta": "Pure substance as it is in the mind of God, and set apart from the adulterated thoughts of the carnal in man (gold region, pure gold). When this substance is appropriated to meet the needs of the outer man it carries the consciousness of riches, or opulence, and it manifests abundantly in apparently",
+      "candidates": []
+    },
+    {
+      "id": 3481,
+      "word": "Ur",
+      "etym": "Heb .",
+      "mibDef": "light; region of light; East; Orient; brightness; brilliance; splendor; fire; flame;",
+      "mibMeta": "Understanding, intelligence, active in man, or the inner spiritual phase of man's being, whence true light shines throughout the consciousness (light, region of light, East, brightness, splendor, fire, blaze); also the shining of that light.",
+      "candidates": [
+        {
+          "s": "H218",
+          "def": "Ur, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3482,
+      "word": "Urbanus",
+      "etym": "Lat .",
+      "mibDef": "of the city; urbane; cultivated; refined; polite.",
+      "mibMeta": "A very highly refined thought activity that has been awakened to and is actively expressing spiritual ideals (of the city, urbane, cultivated, refined, polite, a Christian at Rome who was one of Paul's fellow workers in Christ).",
+      "candidates": []
+    },
+    {
+      "id": 3483,
+      "word": "Uri",
+      "etym": "Heb.",
+      "mibDef": "filled with light; brilliant; shining; illumined; enlightened; inflamed; fiery;",
+      "mibMeta": "Purified understanding (filled with light, fiery, enlightened, light of Jehovah, my light).",
+      "candidates": [
+        {
+          "s": "H221",
+          "def": "Uri, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3484,
+      "word": "Uriah",
+      "etym": "Heb .",
+      "mibDef": "my light is Jehovah; whose light Jah is; Jah is light; the Lord is my light;",
+      "mibMeta": "Spiritual illumination, which is purifying in character (my light is Jehovah, Jah is light, the Lord is my light, flame of Jehovah, fire of Jehovah). The activity of the cleansing, refining process of Spirit is hindered in man when he lets lustful desires enter the love consciousness: David (love) w",
+      "candidates": [
+        {
+          "s": "H223",
+          "def": "Urijah, the name of one Hittite and five Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3485,
+      "word": "Uriel",
+      "etym": "Heb .",
+      "mibDef": "light of God; God is light; fire of God; radiation of God; God is the",
+      "mibMeta": "The truth that God is the radiating principle of light. A recognition of this truth opens the consciousness to spiritual understanding and purification (Uriel means light of God, fire of God, radiation of God; light signifies understanding, and fire denotes a purifying element that exists in true un",
+      "candidates": [
+        {
+          "s": "H222",
+          "def": "Uriel, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3486,
+      "word": "Urijah",
+      "etym": "Heb.",
+      "mibDef": "my light is Jehovah- whose light Jah is; the Lord is my light; Jah is light;",
+      "mibMeta": "Uriel, Uriah, and Urijah have virtually the same meaning. (See URIAH and URIEL.)",
+      "candidates": [
+        {
+          "s": "H223",
+          "def": "Urijah, the name of one Hittite and five Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3487,
+      "word": "Urim",
+      "etym": "Heb .",
+      "mibDef": "radiating principles; lights; illuminations; revelations; shining brilliances;",
+      "mibMeta": "The consciousness of divine guidance in any specific matter, when this guidance is sought in prayer; the inner illuminating experiences that one realizes when one seeks God earnestly and with pure, holy, unselfish intent, in the sacred meeting place between God and man, the holy of holies within the",
+      "candidates": [
+        {
+          "s": "H224",
+          "def": "Urim, the oracular brilliancy of the figures in the high-priest's breastplate"
+        }
+      ]
+    },
+    {
+      "id": 3488,
+      "word": "Uthai",
+      "etym": "Heb.",
+      "mibDef": "to whom Jehovah hastens; whom Jehovah sustains",
+      "mibMeta": "Thoughts of divine helpfulness, of divine aid in all the affairs of one's daily life (whom Jehovah sustains, Jah is help, comfort ofJah, Jehovah succors). The significance of this name is quite clearly revealed in Psalms 46:1 and in Philippians 4:13: \"God is our refuge and strength, a very present h",
+      "candidates": [
+        {
+          "s": "H5793",
+          "def": "Uthai, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3489,
+      "word": "Uz",
+      "etym": "Heb.",
+      "mibDef": "substantiation; growing might; formative power; concentration; purpose; plan;",
+      "mibMeta": "The process of thought by which man arrives at a conclusion (be it Truth or error) and establishes it in consciousness (substantiation, growing might, formative power, concentration, purpose, plan, impression, imagination, fertility, counsel, advising, consulting, making firm, fixing, hardness; the ",
+      "candidates": []
+    },
+    {
+      "id": 3490,
+      "word": "Uzai",
+      "etym": "Heb.",
+      "mibDef": "hasting of Jehovah; Jah is refuge; strong; robust; powerful; mighty.",
+      "mibMeta": "Uzai bespeaks strength, health, power, might, divine protection, and earnest, zealous, spiritual activity toward perfection (hasting of Jehovah, Jah is refuge, strong, robust, powerful, mighty).",
+      "candidates": []
+    },
+    {
+      "id": 3491,
+      "word": "Uzai",
+      "etym": "Heb .",
+      "mibDef": "sympathetic communication; carried rapidly to an object; constant",
+      "mibMeta": "The continual unfoldment that takes place in the progressively inclined individual because of his natural conformity to the divine ideal or divine spark within him, which is ever urging him on to higher light, new understanding, purer thoughts and ways ( sympathetic communication, carried rapidly to",
+      "candidates": []
+    },
+    {
+      "id": 3492,
+      "word": "Uzza",
+      "etym": "Heb .",
+      "mibDef": "strength; might; power; firmness; splendor; majesty; glory.",
+      "mibMeta": "See UZZAH.",
+      "candidates": [
+        {
+          "s": "H5798",
+          "def": "Uzza or Uzzah, the name of five Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3493,
+      "word": "Uzzah",
+      "etym": "Heb.",
+      "mibDef": "strength; might; power; firmness;",
+      "mibMeta": "Strength. In II Samuel 6 Uzzah means human strength. When the oxen (also representing strength) stumbled, the effort from the human side to steady Spirit met with a quick reaction from the divine law. Natural strength may be called into activity to sustain and uphold that which is sublimely exalted;",
+      "candidates": [
+        {
+          "s": "H5798",
+          "def": "Uzza or Uzzah, the name of five Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3494,
+      "word": "Uzzen-sheerah (A. V.",
+      "etym": "Heb .",
+      "mibDef": "point; summit ofSheerah;",
+      "mibMeta": "A high idea of relationship, or the human idea of kinship raised to its highest standard (summit ofSheerah, acuteness of the flesh, ear of the flesh, hearing of blood relative). In Sheerah we find the thought of blood relatives, kindred, of the same flesh. Ear and hearing denote that this belief in ",
+      "candidates": []
+    },
+    {
+      "id": 3495,
+      "word": "Uzzi",
+      "etym": "Heb.",
+      "mibDef": "Jehovah is strength; Jah is strong; Jehovah is my strength; mighty is",
+      "mibMeta": "A realization of strength and power as coming from or through Jehovah, Christ, I AM (Jehovah is m J strength, Jah is strong, mighty is Jehovah, power of J ah).",
+      "candidates": [
+        {
+          "s": "H5813",
+          "def": "Uzzi, the name of six Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3496,
+      "word": "Uzzia",
+      "etym": "",
+      "mibDef": "Jehovah is strength; Jehovah is my strength; Jah is strong; mighty is",
+      "mibMeta": "See UZZI.",
+      "candidates": [
+        {
+          "s": "H5814",
+          "def": "Uzzija, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 3497,
+      "word": "Uzziah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah is strength; Jah is strong; Jehovah is my strength; mighty is",
+      "mibMeta": "Kings represent ruling faculties of mind in the body consciousness. Uzziah means Jehovah is strength. Azariah means whom Jehovah hath helped. These two names are happily associated, for so long as man recognizes that his strength is divine and comes from Jehovah he is marvelously helped by the Lord.",
+      "candidates": [
+        {
+          "s": "H5818",
+          "def": "Uzzijah, the name of five Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3498,
+      "word": "Uzziel",
+      "etym": "Heb.",
+      "mibDef": "God is my strength; strength of God; whom God strengthens; power of",
+      "mibMeta": "Thoughts in the higher, more spiritual consciousness of man (Israelites) that recognize the qualities of strength and power as being not of material, but of divine, origin ( God is my strength, whom God strengthens, power of God, glory of God).",
+      "candidates": [
+        {
+          "s": "H5816",
+          "def": "Uzziel, the name of six Israelites"
+        }
+      ]
+    },
+    {
+      "id": 3499,
+      "word": "Uzzielites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Uzziel.",
+      "mibMeta": "Thoughts springing from and of character like that in consciousness which Uzziel signifies. (See UZZIEL.) V",
+      "candidates": []
+    }
+  ]
+}

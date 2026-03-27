@@ -1,0 +1,1410 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "10 of 37",
+  "_entry_range": "ids 900–999",
+  "entries": [
+    {
+      "id": 900,
+      "word": "demonstration",
+      "etym": "",
+      "mibDef": "That which crowns all others and includes all others— the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G585",
+          "def": "manifestation"
+        }
+      ]
+    },
+    {
+      "id": 901,
+      "word": "denials",
+      "etym": "",
+      "mibDef": "A denial is a relinquishment, and it should not be made with",
+      "mibMeta": "Wounded feelings, self-condemnation (the keen pricking of the conscience) and the acute suffering and distress of mind that one experiences under certain conditions. (See CILICIA and LYSTRA.) desert places. A \"desert place\" (Matt. 14:13 and Mark 6:31, 32) in the consciousness of man is a seeming lac",
+      "candidates": []
+    },
+    {
+      "id": 902,
+      "word": "desire",
+      "etym": "",
+      "mibDef": "Desire that is forced out of consciousness into the subconscious mind without",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8378",
+          "def": "a longing; by implication, a delight (subjectively, satisfaction, objectively, a charm)"
+        },
+        {
+          "s": "G2309",
+          "def": "to determine (as an active option from subjective impulse; whereas G1014 properly denotes rather a passive acquiescence in objective considerations), i.e., choose or prefer (literally or figuratively); by implication, to wish, i.e., be inclined to (sometimes adverbially, gladly); impersonally for the future tense, to be about to; by Hebraism, to delight in"
+        },
+        {
+          "s": "H2654",
+          "def": "properly, to incline to; by implication (literally but rarely) to bend; figuratively, to be pleased with, desire"
+        },
+        {
+          "s": "H2530",
+          "def": "to delight in"
+        },
+        {
+          "s": "H183",
+          "def": "to wish for"
+        }
+      ]
+    },
+    {
+      "id": 903,
+      "word": "desire to excel",
+      "etym": "",
+      "mibDef": "The inspiration of the Holy Spirit, which ever urges us to forsake earthly things",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8378",
+          "def": "a longing; by implication, a delight (subjectively, satisfaction, objectively, a charm)"
+        },
+        {
+          "s": "G2309",
+          "def": "to determine (as an active option from subjective impulse; whereas G1014 properly denotes rather a passive acquiescence in objective considerations), i.e., choose or prefer (literally or figuratively); by implication, to wish, i.e., be inclined to (sometimes adverbially, gladly); impersonally for the future tense, to be about to; by Hebraism, to delight in"
+        },
+        {
+          "s": "H2654",
+          "def": "properly, to incline to; by implication (literally but rarely) to bend; figuratively, to be pleased with, desire"
+        },
+        {
+          "s": "H2530",
+          "def": "to delight in"
+        },
+        {
+          "s": "H183",
+          "def": "to wish for"
+        }
+      ]
+    },
+    {
+      "id": 904,
+      "word": "desires . When under one's error beliefs",
+      "etym": "",
+      "mibDef": "a threshing floor-- a place of",
+      "mibMeta": "A Jebusite signifies a thought belonging to the state of consciousness that is symbolized by Jebus. (See JEBUS.)",
+      "candidates": [
+        {
+          "s": "H4862",
+          "def": "a request"
+        },
+        {
+          "s": "H3970",
+          "def": "a desire"
+        },
+        {
+          "s": "G2307",
+          "def": "a determination (properly, the thing), i.e., (actively) choice (specially, purpose, decree; abstractly, volition) or (passively) inclination"
+        }
+      ]
+    },
+    {
+      "id": 905,
+      "word": "destroyer. Judas was the treasurer of the disciples of Jesus",
+      "etym": "",
+      "mibDef": "he had a devil",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7843",
+          "def": "to decay, i.e., (causatively) ruin (literally or figuratively)"
+        },
+        {
+          "s": "H2717",
+          "def": "to parch (through drought) i.e., (by analogy,) to desolate, destroy, kill"
+        },
+        {
+          "s": "H7703",
+          "def": "properly, to be burly, i.e., (figuratively) powerful (passively, impregnable); by implication, to ravage"
+        }
+      ]
+    },
+    {
+      "id": 906,
+      "word": "Deuel",
+      "etym": "Heb .",
+      "mibDef": "knowledge of God; God knoweth; known of God.",
+      "mibMeta": "Spiritual perception and enlightenment— the inner or spiritual knowing.",
+      "candidates": []
+    },
+    {
+      "id": 907,
+      "word": "Deuteronomy",
+      "etym": "Gk .",
+      "mibDef": "repetition of the law; restatement of the law.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 908,
+      "word": "development is going on in him",
+      "etym": "",
+      "mibDef": "a",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 909,
+      "word": "Devil",
+      "etym": "",
+      "mibDef": "The Devil is overcome by denying his existence and by affirming",
+      "mibMeta": "Same as Satan, which see. The \"devil\" signifies the mass of thoughts that have been built up in consciousness through many generations of earthly experiences and crystallized into what may be termed human personality, or carnal mind. Another name of the \"devil\" is sense consciousness; all the though",
+      "candidates": [
+        {
+          "s": "G1228",
+          "def": "a traducer; specially, Satan (compare H7854)"
+        },
+        {
+          "s": "G1140",
+          "def": "a daemonic being; by extension a deity"
+        },
+        {
+          "s": "G1139",
+          "def": "to be exercised by a daemon"
+        },
+        {
+          "s": "G1142",
+          "def": "a daemon or supernatural spirit (of a bad nature)"
+        }
+      ]
+    },
+    {
+      "id": 910,
+      "word": "Di-zahab (A.V.",
+      "etym": "Heb.",
+      "mibDef": "auriferous; place rich in gold; abundance of gold;",
+      "mibMeta": "A realization of divine wisdom and substance in the wilderness phase of consciousness in man.",
+      "candidates": []
+    },
+    {
+      "id": 911,
+      "word": "Diana",
+      "etym": "Lat.",
+      "mibDef": "same as Greek Artemis; heavenly; divine; luminous; moon goddess; virgin",
+      "mibMeta": "Describing this famous image at Ephesus, which was one of the seven wonders of the world, a writer says that she was an impersonation of the vitality and power of nature, of the reproductive power that keeps up the race of man and animals in an unbroken series of offspring, and of the nourishing pow",
+      "candidates": [
+        {
+          "s": "G735",
+          "def": "prompt; Artemis, the name of a Grecian goddess borrowed by the Asiatics for one of their deities"
+        }
+      ]
+    },
+    {
+      "id": 912,
+      "word": "Diblah (A.V.",
+      "etym": "Heb.",
+      "mibDef": "pressed together; a round mass; squeezed into a cake;",
+      "mibMeta": "Compressed, belittled, confused ideas of substance and Truth (pressed together, squeezed into a cake ) because of a selfish holding to possessions, to the manifest, and an ignoring of the source of all life and of the omnipresent, abundant supply for both the inner and the outer phases of man. There",
+      "candidates": []
+    },
+    {
+      "id": 913,
+      "word": "Diblaim",
+      "etym": "Heb .",
+      "mibDef": "double cakes; twin cakes; two fig cakes; cakes.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 914,
+      "word": "Dibon-gad",
+      "etym": "Heb.",
+      "mibDef": "Dibon of Gad.",
+      "mibMeta": "See DIBON.",
+      "candidates": []
+    },
+    {
+      "id": 915,
+      "word": "Dibri",
+      "etym": "Heb.",
+      "mibDef": "fluent speech; eloquent; orator; discourse with reason.",
+      "mibMeta": "The intellectual ability to express oneself freely and forcibly, with conviction and power (fluent speech, eloquent, orator, discourse with reason ). The ability to express oneself freely and persuasively in thought and word that Dibri signifies is of the intellect. The exercise of that ability brin",
+      "candidates": []
+    },
+    {
+      "id": 916,
+      "word": "Didymus",
+      "etym": "Gk.",
+      "mibDef": "twofold; double; twain; twin.",
+      "mibMeta": "Thomas, or Didymus, both names having the same meaning, was the disciple of Jesus Christ who represents the faculty of reason or intellectual understanding. He does not signify spiritual understanding, else he would have comprehended Jesus' teaching and would not have had to receive the outer assura",
+      "candidates": []
+    },
+    {
+      "id": 917,
+      "word": "digestion",
+      "etym": "",
+      "mibDef": "Absorbing Truth into the consciousness through meditation.",
+      "mibMeta": "Shem was the son of Noah, who typifies the spiritual in man. In the sons of Joktan we find many spiritual qualities suggested. Most of Shem's sons, however, were the heads of Arabian tribes, or are believed to have been. This shows that at the stage of man's development that the sons represent the s",
+      "candidates": []
+    },
+    {
+      "id": 918,
+      "word": "Dilean",
+      "etym": "Heb .",
+      "mibDef": "gourd field; gourd; cucumber; anything that is oblong, tongue-shaped.",
+      "mibMeta": "The gourd that the Lord prepared to shelter Jonah came up in a night and perished in a night (Jonah 4:6, 10). The wild gourds of II Kings 4: 39-41 were poisonous. According to the texts in Jonah and in II Kings, gourds refer to a quality in consciousness that is not established or permanent. They re",
+      "candidates": []
+    },
+    {
+      "id": 919,
+      "word": "Dimnah",
+      "etym": "Heb.",
+      "mibDef": "dung pit; manure; offal; refuse.",
+      "mibMeta": "In Philippians 3:8 Paul tells us that in suffering the loss of all things, he counted them \"but refuse\" that he might win Christ. In the Authorized Version the word \"dung\" is used instead of \"refuse.\" Dimnah therefore (meaning dung pit, manure, offal, refuse, and being a city of Zebulun given over t",
+      "candidates": [
+        {
+          "s": "H1829",
+          "def": "Dimnah, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 920,
+      "word": "Dimon",
+      "etym": "Heb .",
+      "mibDef": "pining; wasting away; consumed; languished; river course, i.e., channel",
+      "mibMeta": "See DIBON. Dimonah, dl-mo'-nah (Heb.)- -pining; wasting away; consumed; languished; river course, i.e., channel eroded by water. A southern city of Judah (Josh. 15: 22); it is thought to he the same place as the Dibon of Nehemiah 11:25. The significance is much the same as that of Dibon; Dimonah ref",
+      "candidates": [
+        {
+          "s": "H1775",
+          "def": "Dimon, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 921,
+      "word": "Dinah",
+      "etym": "Heb .",
+      "mibDef": "judged; justified; acquitted; avenged.",
+      "mibMeta": "The soul side, or feminine quality, of the judgment faculty in man; it might be called intuition, the intuition of the natural man. The thought of vengeance that is suggested in the name always comes to the natural man in his idea of judgment; he is more likely to discern the error side of a proposi",
+      "candidates": [
+        {
+          "s": "H1783",
+          "def": "Dinah, the daughter of Jacob"
+        }
+      ]
+    },
+    {
+      "id": 922,
+      "word": "Dinaites",
+      "etym": "from Heb.",
+      "mibDef": "judgment, a cause.",
+      "mibMeta": "The thoughts, judgments, and impulses of the outer, intellectual carnal consciousness in man that is guided by the senses; they work against the establishing of the whole man in eternal life and peace. Dinhabah, din'-ha-bah (Heb.) robbers' den; place of plundering. The capital city of Bela, the son ",
+      "candidates": []
+    },
+    {
+      "id": 923,
+      "word": "Dionysius",
+      "etym": "Gk.",
+      "mibDef": "a devotee of Dionysus or Bacchus, i.e., the god of wine; one",
+      "mibMeta": "One of the most enlightened of the intellectual thoughts in consciousness that are represented by the Areopagus, or \"court of justice,\" the highest form of good judgment that is known to the intellectual in man. (See AREOPAGUS.) The intellectual thought that Dionysius represents has been quickened a",
+      "candidates": [
+        {
+          "s": "G1354",
+          "def": "reveller; Dionysius, an Athenian"
+        }
+      ]
+    },
+    {
+      "id": 924,
+      "word": "Diotrephes",
+      "etym": "Gk .",
+      "mibDef": "fostered by Zeus; nourished by Jupiter; trained by Zeus.",
+      "mibMeta": "Personal exaltation active in consciousness; the desire of the personal to rule and to have first place. Jesus had to meet and overcome this in His temptation in the wilderness. After Jesus had realized His power through His divine sonship, the Devil (personality) showed Him all the kingdoms of the ",
+      "candidates": []
+    },
+    {
+      "id": 925,
+      "word": "directed against them from the north",
+      "etym": "",
+      "mibDef": "the outer, intellectual man.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H6186",
+          "def": "to set in a row, i.e., arrange, put in order (in a very wide variety of applications)"
+        },
+        {
+          "s": "H3559",
+          "def": "properly, to be erect (i.e., stand perpendicular); hence (causatively) to set up, in a great variety of applications, whether literal (establish, fix, prepare, apply), or figurative (appoint, render sure, proper or prosperous)"
+        },
+        {
+          "s": "H8505",
+          "def": "to balance, i.e., measure out (by weight or dimension); figuratively to arrange, equalize, through the idea of levelling (ment, estimate, test)"
+        }
+      ]
+    },
+    {
+      "id": 926,
+      "word": "discern",
+      "etym": "",
+      "mibDef": "\"To lay hold of with the understanding, especially that which is hidden or obscure; to",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5234",
+          "def": "properly, to scrutinize, i.e., look intently at; hence (with recognition implied), to acknowledge, be acquainted with, care for, respect, revere, or (with suspicion implied), to disregard, ignore, be strange toward, reject, resign, dissimulate (as if ignorant or disowning)"
+        },
+        {
+          "s": "H3045",
+          "def": "to know (properly, to ascertain by seeing); used in a great variety of senses, figuratively, literally, euphemistically and inferentially (including observation, care, recognition; and causatively, instruction, designation, punishment, etc.)"
+        },
+        {
+          "s": "H8085",
+          "def": "to hear intelligently (often with implication of attention, obedience, etc.; causatively, to tell, etc.)"
+        },
+        {
+          "s": "H995",
+          "def": "to separate mentally (or distinguish), i.e., (generally) understand"
+        },
+        {
+          "s": "G1381",
+          "def": "to test (literally or figuratively); by implication, to approve"
+        }
+      ]
+    },
+    {
+      "id": 927,
+      "word": "discernment",
+      "etym": "",
+      "mibDef": "That inner spiritual faculty by which man may receive the revelations of",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 928,
+      "word": "disciple",
+      "etym": "",
+      "mibDef": "\"One who receives instruction from another\" (Webster), (see apostles)",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3101",
+          "def": "a learner, i.e., pupil"
+        },
+        {
+          "s": "G3102",
+          "def": "a female pupil"
+        }
+      ]
+    },
+    {
+      "id": 929,
+      "word": "disciple",
+      "etym": "",
+      "mibDef": "To call a disciple (or apostle) is mentally to recognize that disciple; it is to",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3101",
+          "def": "a learner, i.e., pupil"
+        },
+        {
+          "s": "G3102",
+          "def": "a female pupil"
+        }
+      ]
+    },
+    {
+      "id": 930,
+      "word": "discrimination",
+      "etym": "",
+      "mibDef": "The ability to distinguish qualities or values, enabling one intelligently to choose",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 931,
+      "word": "Dishan",
+      "etym": "Heb .",
+      "mibDef": "gazelle; antelope; leaping walk; fatness; opulence; fertile; ashes, so",
+      "mibMeta": "A very active, rich, or fertile controlling thought belonging to the Horite consciousness in the individual. (See HORITES.)",
+      "candidates": [
+        {
+          "s": "H1789",
+          "def": "Dishan, an Edomite"
+        }
+      ]
+    },
+    {
+      "id": 932,
+      "word": "Dishon",
+      "etym": "Heb.",
+      "mibDef": "gazelle; antelope; leaping walk; fatness; opulence, fertile, ashes, so",
+      "mibMeta": "Dishon is a form of Dishan and signifies virtually the same thing. (See DISHAN.) The richness and seeming fertility of this phase of thought would be on a sensate or physical instead of a spiritual plane. divine- Godlike; godly; of the nature of God. divine ideal— The Christ man; the divine idea of ",
+      "candidates": []
+    },
+    {
+      "id": 933,
+      "word": "dispensation",
+      "etym": "",
+      "mibDef": "The Mosaic dispensation.",
+      "mibMeta": "The disciples of Jesus represent, in mind analysis, the faculties. After one has been illumined by Truth, one desires to express it, to go forth in its ministry. This does not necessarily imply that all secular employment should be abandoned, but it does imply that the mind should make the dissemina",
+      "candidates": [
+        {
+          "s": "G3622",
+          "def": "administration (of a household or estate); specially, a (religious) \"economy\""
+        }
+      ]
+    },
+    {
+      "id": 934,
+      "word": "distinguish between the earthly in his consciousness and make-up",
+      "etym": "",
+      "mibDef": "the spiritual;",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 935,
+      "word": "Divine Mind",
+      "etym": "",
+      "mibDef": "God-Mind; ever-present, all-knowing Mind; the Absolute, the unlimited.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7080",
+          "def": "properly, to distribute, i.e., determine by lot or magical scroll; by implication, to divine"
+        },
+        {
+          "s": "G2304",
+          "def": "godlike (neuter as noun, divinity)"
+        },
+        {
+          "s": "H7081",
+          "def": "a lot; also divination (including its fee), oracle"
+        },
+        {
+          "s": "G2999",
+          "def": "ministration of God, i.e., worship"
+        }
+      ]
+    },
+    {
+      "id": 936,
+      "word": "Divine Mind",
+      "etym": "",
+      "mibDef": "The functioning of the principles of Being; Spirit in action.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7080",
+          "def": "properly, to distribute, i.e., determine by lot or magical scroll; by implication, to divine"
+        },
+        {
+          "s": "G2304",
+          "def": "godlike (neuter as noun, divinity)"
+        },
+        {
+          "s": "H7081",
+          "def": "a lot; also divination (including its fee), oracle"
+        },
+        {
+          "s": "G2999",
+          "def": "ministration of God, i.e., worship"
+        }
+      ]
+    },
+    {
+      "id": 937,
+      "word": "divine motherhood",
+      "etym": "",
+      "mibDef": "The brooding, nourishing element of Divine Mind, in which spiritual ideas",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7080",
+          "def": "properly, to distribute, i.e., determine by lot or magical scroll; by implication, to divine"
+        },
+        {
+          "s": "G2304",
+          "def": "godlike (neuter as noun, divinity)"
+        },
+        {
+          "s": "H7081",
+          "def": "a lot; also divination (including its fee), oracle"
+        },
+        {
+          "s": "G2999",
+          "def": "ministration of God, i.e., worship"
+        }
+      ]
+    },
+    {
+      "id": 938,
+      "word": "divine order",
+      "etym": "",
+      "mibDef": "Order is the first law of the universe. Indeed, there could be no universe unless its",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7080",
+          "def": "properly, to distribute, i.e., determine by lot or magical scroll; by implication, to divine"
+        },
+        {
+          "s": "G2304",
+          "def": "godlike (neuter as noun, divinity)"
+        },
+        {
+          "s": "H7081",
+          "def": "a lot; also divination (including its fee), oracle"
+        },
+        {
+          "s": "G2999",
+          "def": "ministration of God, i.e., worship"
+        }
+      ]
+    },
+    {
+      "id": 939,
+      "word": "divine sonship. (The Nethinim were servants",
+      "etym": "",
+      "mibDef": "many of them were slaves, virtually— who did the menial",
+      "mibMeta": "The acceptance by the body consciousness (of the earth, earthy man) of the truth pertaining to the divine law, or Lord. This acceptance of Truth by the seemingly earthy phase of man's being works with Paul (the activity of the word of Truth) in bringing about the redemption of the body; great gladne",
+      "candidates": [
+        {
+          "s": "H7080",
+          "def": "properly, to distribute, i.e., determine by lot or magical scroll; by implication, to divine"
+        },
+        {
+          "s": "G2304",
+          "def": "godlike (neuter as noun, divinity)"
+        },
+        {
+          "s": "H7081",
+          "def": "a lot; also divination (including its fee), oracle"
+        },
+        {
+          "s": "G2999",
+          "def": "ministration of God, i.e., worship"
+        }
+      ]
+    },
+    {
+      "id": 940,
+      "word": "divinity within us",
+      "etym": "",
+      "mibDef": "The true spiritual man, the Christ that is the real of every man.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 941,
+      "word": "doctrine of Unity",
+      "etym": "",
+      "mibDef": "Unity doctrine is of practical, everyday value to everyone who",
+      "mibMeta": "The thoughts that preside over and regulate the various functions. Jesus, the wisdom of God individualized, gives these doctors a new understanding of the divine law, and all are amazed at the higher revelation.",
+      "candidates": [
+        {
+          "s": "G1322",
+          "def": "instruction (the act or the matter)"
+        },
+        {
+          "s": "G1319",
+          "def": "instruction (the function or the information)"
+        },
+        {
+          "s": "H3948",
+          "def": "properly, something received, i.e., (mentally) instruction (whether on the part of the teacher or hearer); also (in an active and sinister sense) inveiglement"
+        },
+        {
+          "s": "H4148",
+          "def": "properly, chastisement; figuratively, reproof, warning or instruction; also restraint"
+        },
+        {
+          "s": "G3056",
+          "def": "something said (including the thought); by implication, a topic (subject of discourse), also reasoning (the mental faculty) or motive; by extension, a computation; specially, (with the article in John) the Divine Expression (i.e., Christ)"
+        }
+      ]
+    },
+    {
+      "id": 942,
+      "word": "Dodai",
+      "etym": "Heb.",
+      "mibDef": "loving; amatory; beloved ofJah; his beloved.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1737",
+          "def": "Dodai, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 943,
+      "word": "Dodanim",
+      "etym": "Heb.",
+      "mibDef": "covenanters; confederates; the elect; civilized; lovable; beloved;",
+      "mibMeta": "Unifying thoughts (covenanters, confederates) of a very excellent character (the elect, civilized, pleasing) that belong to the intellect in man. Japheth, the second son of Noah, typifies the intellect, or reason. (See JAPHETH.) Javan, the father of Dodanim, also belongs to the intellect. Fallows sa",
+      "candidates": []
+    },
+    {
+      "id": 944,
+      "word": "Dodavahu (A.V.",
+      "etym": "Heb .",
+      "mibDef": "beloved of Jehovah; Jehovah is loving;",
+      "mibMeta": "The love of God in expression in individual consciousness (Jehovah is loving). Those who love God keep His commandments, and they are the beloved of Jehovah. They are blessed accordingly. The same may be said of that loving quality in us which Dodavahu signifies.",
+      "candidates": []
+    },
+    {
+      "id": 945,
+      "word": "Dodo",
+      "etym": "Heb.",
+      "mibDef": "amatory; loving.",
+      "mibMeta": "Dodo signifies much the same loving thought and act and close relationship to love ruling in consciousness (King David) that Dodai signifies. Amatory, one of the definitions of Dodo and Dodai, suggests a thought of love degenerated into sensual desire. This shows that the love quality expressing in ",
+      "candidates": [
+        {
+          "s": "H1734",
+          "def": "Dodo, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 946,
+      "word": "Doeg",
+      "etym": "Heb .",
+      "mibDef": "fearful; anxious; timid.",
+      "mibMeta": "Fearfulness, anxiety, and timidity, in individual consciousness. This is a result of believing in the impossibility of lifting the physical or outer consciousness into spirituality and establishing it in the Truth. This belief when in control of the vital forces in one (Doeg was Saul's chief herdsma",
+      "candidates": [
+        {
+          "s": "H1673",
+          "def": "Doeg, an Edomite"
+        }
+      ]
+    },
+    {
+      "id": 947,
+      "word": "domination",
+      "etym": "",
+      "mibDef": "\"Exercise of power in ruling; often, arbitrary or insolent sway\" (Webster). One",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 948,
+      "word": "dominion",
+      "etym": "",
+      "mibDef": "\"Supreme authority, sovereignty\" (Webster). As a perfect child of God, man is bom",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7287",
+          "def": "to tread down, i.e., subjugate; specifically, to crumble off"
+        },
+        {
+          "s": "H7985",
+          "def": "empire (abstractly or concretely)"
+        },
+        {
+          "s": "H4910",
+          "def": "to rule"
+        },
+        {
+          "s": "G2961",
+          "def": "to rule"
+        },
+        {
+          "s": "G2904",
+          "def": "vigor (\"great\") (literally or figuratively)"
+        }
+      ]
+    },
+    {
+      "id": 949,
+      "word": "dominion",
+      "etym": "",
+      "mibDef": "The power and right of dominion and authority are innate within",
+      "mibMeta": "The way which opens to spiritual illumination, to an understanding of how to lay hold of and to apply spiritual law. The lame man here represents a disabled thought, one that for a long time has been incapable of",
+      "candidates": [
+        {
+          "s": "H7287",
+          "def": "to tread down, i.e., subjugate; specifically, to crumble off"
+        },
+        {
+          "s": "H7985",
+          "def": "empire (abstractly or concretely)"
+        },
+        {
+          "s": "H4910",
+          "def": "to rule"
+        },
+        {
+          "s": "G2961",
+          "def": "to rule"
+        },
+        {
+          "s": "G2904",
+          "def": "vigor (\"great\") (literally or figuratively)"
+        }
+      ]
+    },
+    {
+      "id": 950,
+      "word": "Dophkah",
+      "etym": "Heb.",
+      "mibDef": "thrust; drive; knock; drive hard, i.e., to overdrive a lock or herd;",
+      "mibMeta": "A phase of thought that is of a hard, driving nature ( thrust , knock, dive hard, i.e., to overdrive a flock or herd, cattle driver); the tendency to go beyond one's strength, to overdo, and thus to dissipate one's vitality and inner substance (cattle, flocks, and herds refer to physical strength an",
+      "candidates": []
+    },
+    {
+      "id": 951,
+      "word": "Dor",
+      "etym": "Heb.",
+      "mibDef": "moving around in a circle; dwelling; inhabiting; a circle; an age: a generation.",
+      "mibMeta": "The Canaanites symbolize man's elemental life forces given over to the dominion of sense. Dor, a royal city of the Canaanites that came into the possession of the Israelitish tribe of Manasseh, pertains to the ability of man to abide in life (dwelling, inhabiting). The fact that Manasseh did not dri",
+      "candidates": [
+        {
+          "s": "H1756",
+          "def": "Dor, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 952,
+      "word": "Dorcas",
+      "etym": "Gk .",
+      "mibDef": "gazelle; doe.",
+      "mibMeta": "See TABITHA,",
+      "candidates": [
+        {
+          "s": "G1393",
+          "def": "gazelle; Dorcas, a Christian woman"
+        }
+      ]
+    },
+    {
+      "id": 953,
+      "word": "Dothan",
+      "etym": "Heb.",
+      "mibDef": "two wells; double cisterns; edicts; decrees; laws; customs; double",
+      "mibMeta": "The law of Being, compared to custom (edicts, decrees, laws, customs). Two wells, double cisterns, double feasts, denote the double standard of thought that man holds regarding his life and substance. The customary beliefs lead to limited, warped experiences, while an understanding of the true law o",
+      "candidates": []
+    },
+    {
+      "id": 954,
+      "word": "drink of the cup",
+      "etym": "",
+      "mibDef": "To drink of the cup from which Jesus drank is to rise above all sensuality, to",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8354",
+          "def": "to imbibe (literally or figuratively)"
+        },
+        {
+          "s": "H5262",
+          "def": "a libation; also a cast idol"
+        },
+        {
+          "s": "G4095",
+          "def": "to imbibe (literally or figuratively)"
+        },
+        {
+          "s": "H8248",
+          "def": "to quaff, i.e., (causatively) to irrigate or furnish a potion to"
+        },
+        {
+          "s": "H7941",
+          "def": "an intoxicant, i.e., intensely alcoholic liquor"
+        }
+      ]
+    },
+    {
+      "id": 955,
+      "word": "Drusilla",
+      "etym": "Gk .",
+      "mibDef": "bedewed; watered by dew.",
+      "mibMeta": "The voluptuous side of the sense life. (See BERNICE.) duality— (see double-mindedness)",
+      "candidates": []
+    },
+    {
+      "id": 956,
+      "word": "Dumah. du'-mah",
+      "etym": "Heb.",
+      "mibDef": "mute; dumb; silence; land of silence, i. e . , Sheol; a tomb.",
+      "mibMeta": "The condition that man calls death (mute, dumb, land of silence, i. e. , Sheol, a tomb); also the state of man wherein he is dead through his trespasses and sins (see Eph. 2:1). This latter state leads to the death experience; one must be awakened out of his belief in limitation, sin, disease, inhar",
+      "candidates": []
+    },
+    {
+      "id": 957,
+      "word": "Dura",
+      "etym": "Heb.",
+      "mibDef": "circle; sphere; time; endurance; generation; dwelling; habitation.",
+      "mibMeta": "Nebuchadnezzar signifies the human will backing itself up by the human intellect and human judgment as opposed to spiritual understanding and judgment (Daniel). The golden image signifies money, or gold, an outer manifestation of substance. The plain of Dura, where the king had the golden image set ",
+      "candidates": []
+    },
+    {
+      "id": 958,
+      "word": "dust",
+      "etym": "",
+      "mibDef": "To deny all seeming materiality. \"And whosoever shall not receive you, nor",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H6083",
+          "def": "dust (as powdered or gray); hence, clay, earth, mud"
+        },
+        {
+          "s": "G2868",
+          "def": "pulverulence (as blown about)"
+        },
+        {
+          "s": "H80",
+          "def": "light particles (as volatile)"
+        },
+        {
+          "s": "G5522",
+          "def": "a heap (as poured out), i.e., rubbish; loose dirt"
+        },
+        {
+          "s": "H1854",
+          "def": "to crush (or intransitively) crumble"
+        }
+      ]
+    },
+    {
+      "id": 959,
+      "word": "dying to self",
+      "etym": "",
+      "mibDef": "Signifies man's willingness to die to the little personal self, so that he may be",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G599",
+          "def": "to die off (literally or figuratively)"
+        },
+        {
+          "s": "G3500",
+          "def": "decease; figuratively, impotency"
+        }
+      ]
+    },
+    {
+      "id": 960,
+      "word": "earth",
+      "etym": "",
+      "mibDef": "ly speaking, the earth represents the consciousness of the physical body.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "G1093",
+          "def": "soil; by extension a region, or the solid part or the whole of the terrene globe (including the occupants in each application)"
+        },
+        {
+          "s": "H127",
+          "def": "soil (from its general redness)"
+        },
+        {
+          "s": "H6083",
+          "def": "dust (as powdered or gray); hence, clay, earth, mud"
+        },
+        {
+          "s": "H3007",
+          "def": "dry land"
+        }
+      ]
+    },
+    {
+      "id": 961,
+      "word": "earth. These three represent the trinity in man",
+      "etym": "",
+      "mibDef": "body, soul or mental realm, and spirit —all unified in",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        },
+        {
+          "s": "G1093",
+          "def": "soil; by extension a region, or the solid part or the whole of the terrene globe (including the occupants in each application)"
+        },
+        {
+          "s": "H127",
+          "def": "soil (from its general redness)"
+        },
+        {
+          "s": "H6083",
+          "def": "dust (as powdered or gray); hence, clay, earth, mud"
+        },
+        {
+          "s": "H3007",
+          "def": "dry land"
+        }
+      ]
+    },
+    {
+      "id": 962,
+      "word": "east",
+      "etym": "",
+      "mibDef": "The within. As used in Matt. 2:1, the word in the original is plural; thus, from the regions of",
+      "mibMeta": "In Scriptural symbology east represents the within. As used in Matthew 2:1 the word in the original is plural; the significance therefore is that from the regions of interior wisdom come thoughts of reverence and rich gifts of substance and understanding and every spiritual help for the holy Life, t",
+      "candidates": [
+        {
+          "s": "H6921",
+          "def": "the fore or front part; hence (by orientation) the East (often adverbially, eastward, for brevity the east wind)"
+        },
+        {
+          "s": "H6924",
+          "def": "the front, of place (absolutely, the fore part, relatively the East) or time (antiquity); often used adverbially (before, anciently, eastward)"
+        },
+        {
+          "s": "H4217",
+          "def": "sunrise, i.e., the east"
+        },
+        {
+          "s": "H6931",
+          "def": "(of time) anterior or (of place) oriental"
+        },
+        {
+          "s": "G395",
+          "def": "a rising of light, i.e., dawn (figuratively); by implication, the east (also in plural)"
+        }
+      ]
+    },
+    {
+      "id": 963,
+      "word": "Easter",
+      "etym": "",
+      "mibDef": "The awakening and raising to spiritual consciousness of the I AM in man, which",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3957",
+          "def": "the Passover (the meal, the day, the festival or the special sacrifices connected with it)"
+        }
+      ]
+    },
+    {
+      "id": 964,
+      "word": "eat and drink",
+      "etym": "",
+      "mibDef": "To appropriate; to become conscious of the food that \"abideth unto eternal life,\"",
+      "mibMeta": "The eating of spiritual things is the affirmation of spiritual sustenance. The cake on the coals and the cruse of water at the head of Elijah (I Kings 19:6-8) represent the thoughts, or the words, that these things represent. When in the silence you affirm that you are sustained and nourished by Spi",
+      "candidates": [
+        {
+          "s": "H398",
+          "def": "to eat (literally or figuratively)"
+        },
+        {
+          "s": "G5315",
+          "def": "to eat (literally or figuratively)"
+        },
+        {
+          "s": "G2068",
+          "def": "used only in certain tenses, the rest being supplied by G5315; to eat (usually literal)"
+        },
+        {
+          "s": "H3898",
+          "def": "to feed on; by implication, to battle (as destruction)"
+        },
+        {
+          "s": "H1262",
+          "def": "to select; to feed; to render clear"
+        }
+      ]
+    },
+    {
+      "id": 965,
+      "word": "Ebal",
+      "etym": "Heb.",
+      "mibDef": "stripped of all covering; bare; naked; barren; stone.",
+      "mibMeta": "The activity of the law, in an adverse way, in those who think and act out of harmony with divine principle. It is that in us which takes cognizance of the working out of error that results from ignorance and disobedience. This phase of the activity of the law always seems hard (stone) to the sense ",
+      "candidates": [
+        {
+          "s": "H5858",
+          "def": "Ebal, a mountain of Palestine"
+        }
+      ]
+    },
+    {
+      "id": 966,
+      "word": "Ebed",
+      "etym": "Heb.",
+      "mibDef": "worker, i.e., one who works for another; laborer; servant; slave.",
+      "mibMeta": "Gaal the son of Ebed means abortion, miscarriage, rejection with loathing. His fighting against Abimelech was very much like one error's opposing another. Service is good but it should always be done freely in love to God and man; it should be prompted by the idea of divine sonship, rather than by t",
+      "candidates": [
+        {
+          "s": "H5651",
+          "def": "Ebed, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 967,
+      "word": "Ebed-melech",
+      "etym": "Heb .",
+      "mibDef": "king's laborer; servant of the king; slave of the king.",
+      "mibMeta": "The king's servant, or the king's thought, as it went out to help rescue Jeremiah. The natural forces, represented by this Ethiopian servant, Ebed-melech, will pull the body out again after a time, if given an opportunity. These forces are constantly doing constructive work, and they will repair the",
+      "candidates": []
+    },
+    {
+      "id": 968,
+      "word": "Eben-ezer",
+      "etym": "Heb.",
+      "mibDef": "stone of the help; precious stone of succor; gem of help.",
+      "mibMeta": "Realization and acknowledgment of God's aid in gaining victory over the errors of sense (Philistines). This is the result of mental and spiritual work and becomes an abiding consciousness in the soul, typified in the Scripture as the rock of Christ. (See MIZPAH.) The stone called Eben-ezer refers to",
+      "candidates": []
+    },
+    {
+      "id": 969,
+      "word": "Ebez (A.V.",
+      "etym": "Heb .",
+      "mibDef": "white; pure whiteness; bright; shining; brilliant; conspicuous.",
+      "mibMeta": "A state of consciousness that stands out (is conspicuous) in the individual because of its high, pure, radiant character (white, shining, pure whiteness, brilliant); it takes a prominent place within one and is the means of gathering much Truth because of its close union with Spirit.",
+      "candidates": []
+    },
+    {
+      "id": 970,
+      "word": "Ebiasaph",
+      "etym": "Heb .",
+      "mibDef": "father of gathering; father of increase; father of adding; father",
+      "mibMeta": "The love quality in man actively expressing itself in increase in his consciousness and life, attracting to him (father of gathering, father of increase, father who adds) much spiritual blessing and attainment. (Love is the magnet that draws to one abundance of good. \"God is love.\" Levi, of the sons",
+      "candidates": [
+        {
+          "s": "H43",
+          "def": "Ebjasaph, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 971,
+      "word": "Ecbatana",
+      "etym": "Gk.",
+      "mibDef": "egress; way of escape; fortress; stronghold; place of horses.",
+      "mibMeta": "See ACHMETHA. ecclesia— The church of Jesus Christ: the called-out ones.",
+      "candidates": []
+    },
+    {
+      "id": 972,
+      "word": "Ed",
+      "etym": "Heb .",
+      "mibDef": "duration, i. e . , of time or space; eternal; a witness; testament; an ornament;",
+      "mibMeta": "The established evidence of Spirit within us that Jehovah, our indwelling Christ, is the Lord of our whole being, the ideal which we worship and seek to become like in both mind and body. (An altar in consciousness is a state of thought wherein some definite truth is realized and acknowledged, and w",
+      "candidates": []
+    },
+    {
+      "id": 973,
+      "word": "Eden",
+      "etym": "",
+      "mibDef": "Represents a region of Being in which are provided all primal ideas for the",
+      "mibMeta": "Experience. Experience preaches very effectively; the fruit of experience is the most impressive sermon in life. Experience teaches us that it is impossible to find satisfaction and true lasting joy in sensual, earthly pleasures and in self-seeking. The only way to gain the realities of life that sa",
+      "candidates": [
+        {
+          "s": "H5731",
+          "def": "Eden, the region of Adam's home"
+        },
+        {
+          "s": "H5729",
+          "def": "Eden, a place in Mesopotamia"
+        }
+      ]
+    },
+    {
+      "id": 974,
+      "word": "Eden",
+      "etym": "Heb.",
+      "mibDef": "sensible duration; time; pleasure; delight; pleasantness.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5731",
+          "def": "Eden, the region of Adam's home"
+        },
+        {
+          "s": "H5729",
+          "def": "Eden, a place in Mesopotamia"
+        }
+      ]
+    },
+    {
+      "id": 975,
+      "word": "Eder",
+      "etym": "Heb .",
+      "mibDef": "troop; flock; drove; herd; any movable aggregation that is numbered,",
+      "mibMeta": "A flock may relate to animals or to birds; even people are said sometimes to \"flock together\" when they gather in great numbers. Animals represent the animal forces in man, birds are free, unattached thoughts, and people stand for thoughts, faculties, and tendencies. The Benjamite and the Levite nam",
+      "candidates": []
+    },
+    {
+      "id": 976,
+      "word": "Edom",
+      "etym": "Heb.",
+      "mibDef": "red; reddish; ruddy.",
+      "mibMeta": "The outer man, the body, or the carnal, physical phase of man's consciousness and organism. Edomites, e'-dom- ltes (fr. Heb.). Esau's descendants (Gen. 36:9). They lived in the southern part of Palestine, and later were enemies of the Israelites (Num. 20: 18). They were conquered by David and became",
+      "candidates": [
+        {
+          "s": "H123",
+          "def": "Edom, the elder twin-brother of Jacob; hence the region (Idumaea) occupied by him"
+        }
+      ]
+    },
+    {
+      "id": 977,
+      "word": "Edrei",
+      "etym": "Heb.",
+      "mibDef": "strong; mighty; armed; fortified; sown; seeded. (The idea of the",
+      "mibMeta": "A fixed state of consciousness, or aggregation of nerve cells, established in life and substance (see BASHAN), whose dominant idea is strength and might.",
+      "candidates": []
+    },
+    {
+      "id": 978,
+      "word": "education",
+      "etym": "",
+      "mibDef": "To draw forth from within, through meditation and prayer, the deep truths of",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 979,
+      "word": "Eglah",
+      "etym": "Heb.",
+      "mibDef": "heifer; calf; the embryo; young of any animal.",
+      "mibMeta": "A phase of the soul.",
+      "candidates": [
+        {
+          "s": "H5698",
+          "def": "Eglah, a wife of David"
+        }
+      ]
+    },
+    {
+      "id": 980,
+      "word": "Eglaim",
+      "etym": "Heb.",
+      "mibDef": "two ponds; double wells; two springs.",
+      "mibMeta": "A double-minded belief about the wellspring of life ( double wells, two springs, two ponds). This double-minded belief refers to the seeming \"good\" and \"evil\" that are experienced in human consciousness because of ignorance concerning life and an unwise use of life. This unwise use causes the life a",
+      "candidates": []
+    },
+    {
+      "id": 981,
+      "word": "Eglon",
+      "etym": "Heb.",
+      "mibDef": "young bullock; calflike; round; rolling; a threshing drag; an oxcart; a",
+      "mibMeta": "A ruling thought belonging to the animal phase of consciousness in the natural man, especially pertaining to physical strength. But this thought does not get the individual advancement, in so far as true unfoldment and growth are concerned. Sensate thought goes round and round aimlessly, drifting wi",
+      "candidates": [
+        {
+          "s": "H5700",
+          "def": "Eglon, the name of a place in Palestine and of a Moabitish king"
+        }
+      ]
+    },
+    {
+      "id": 982,
+      "word": "ego",
+      "etym": "",
+      "mibDef": "The I. The ego is man, and by reason of his divinity he makes and remakes as he wills. In",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 983,
+      "word": "ego",
+      "etym": "",
+      "mibDef": "When the ego attaches itself to sense consciousness, it builds the antichrist man,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 984,
+      "word": "ego",
+      "etym": "",
+      "mibDef": "The true self; an individualized center of God consciousness; I AM; conscious",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 985,
+      "word": "Egypt",
+      "etym": "Gk.",
+      "mibDef": "Coptic land; from the Hebrew name Mizraim, which means shut in,",
+      "mibMeta": "The realm of substance and life in the depths of the body consciousness. To the unregenerate soul it is the land of darkness and mystery, yet it is essential to the perpetuation of the body. Egypt signifies the darkness of ignorance, obscurity; it has a special significance in the body consciousness",
+      "candidates": [
+        {
+          "s": "H4714",
+          "def": "Mitsrajim, i.e., Upper and Lower Egypt"
+        },
+        {
+          "s": "G125",
+          "def": "Aegyptus, the land of the Nile"
+        }
+      ]
+    },
+    {
+      "id": 986,
+      "word": "Egypt; Narai Cush",
+      "etym": "",
+      "mibDef": "river of Cush, confluences of Cush, lights of Cush; Narai Mizraim— rivers of Egypt,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H4714",
+          "def": "Mitsrajim, i.e., Upper and Lower Egypt"
+        },
+        {
+          "s": "G125",
+          "def": "Aegyptus, the land of the Nile"
+        }
+      ]
+    },
+    {
+      "id": 987,
+      "word": "Egyptian",
+      "etym": "Gk.",
+      "mibDef": "a Copt; from the Hebrew word Mizraim, which means shut in,",
+      "mibMeta": "Egyptians signify sense thoughts, or thoughts that pertain to the subjective consciousness in its unawakened state. They belong to the Egypt consciousness. (See EGYPT.) Ehi, e'-hi (Heb.) union; united; unity; brother; brotherly; friend; friend of Jehovah. Son of Benjamin. In other places he is calle",
+      "candidates": [
+        {
+          "s": "H4713",
+          "def": "a Mitsrite, or inhabitant of Mitsrajim"
+        },
+        {
+          "s": "H4714",
+          "def": "Mitsrajim, i.e., Upper and Lower Egypt"
+        },
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "G124",
+          "def": "an Egyptian or inhabitant of Aegyptus"
+        }
+      ]
+    },
+    {
+      "id": 988,
+      "word": "Ehud",
+      "etym": "Heb.",
+      "mibDef": "union; united; strong.",
+      "mibMeta": "Faith greatly strengthened by being unified consciously with Spirit, or with spiritual Truth. (Benjamites belong to the faith faculty in man.) 8. Eight. And on the eight day the flesh of his foreskin shall be circumcised (Leviticus 12:3). And they shall be eight boards (Exodus 26:25 .... He reigned ",
+      "candidates": [
+        {
+          "s": "H164",
+          "def": "Ehud, the name of two or three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 989,
+      "word": "Eker",
+      "etym": "Heb .",
+      "mibDef": "plucked up; uprooted; eradicated; rendered barren; useless; transplanted;",
+      "mibMeta": "A thought or tendency that is a foreigner; it is alien in character to the true praise consciousness (Judah) with which it is identified. Ram, father of Eker, means lifted up, made high, extolled, and signifies the exalting of true understanding in consciousness. (See ARAM.) Eker, however, suggests ",
+      "candidates": []
+    },
+    {
+      "id": 990,
+      "word": "Ekron",
+      "etym": "Heb.",
+      "mibDef": "rooting out; extermination; expatriation; migration; naturalization.",
+      "mibMeta": "The belief of the sense consciousness in man (the Philistines) that nothing is or can be abiding and eternal on earth. This aggregation of thoughts, which Ekron represents, judges according to the outer senses and decides that man is purely human and physical, something entirely unlike and apart fro",
+      "candidates": [
+        {
+          "s": "H6138",
+          "def": "Ekron, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 991,
+      "word": "Ekronites",
+      "etym": "Heb.",
+      "mibDef": "of or belonging to Ekron.",
+      "mibMeta": "Thoughts and beliefs belonging to the Ekron consciousness in man. (See EKRON.)",
+      "candidates": [
+        {
+          "s": "H6139",
+          "def": "an Ekronite or inhabitant of Ekron"
+        }
+      ]
+    },
+    {
+      "id": 992,
+      "word": "El-berith (A.V.",
+      "etym": "Heb.",
+      "mibDef": "the mighty league; covenant god; unto the",
+      "mibMeta": "See BAAL-BERITH.",
+      "candidates": []
+    },
+    {
+      "id": 993,
+      "word": "El-bethel",
+      "etym": "Heb.",
+      "mibDef": "unto the house of God; toward Bethel; strength of the house of",
+      "mibMeta": "The revelation from within that the true origin of man is spiritual, that God dwells in man and reveals Himself when man comes to the place in consciousness where he is willing to give up the lower to the higher, the personal to the impersonal, the animal to the divine (builds an altar to Jehovah). ",
+      "candidates": []
+    },
+    {
+      "id": 994,
+      "word": "El-Elohe-Israel",
+      "etym": "Heb.",
+      "mibDef": "unto the God of Israel; Elohe (Elohim) God of Israel;",
+      "mibMeta": "The children of Hamor pertain to the earthly, carnal consciousness in man. The altar symbolizes the giving up of the \"mind of the flesh\" in individual consciousness to the spiritual, that the spiritual may prevail throughout and God alone may be recognized. Thus Israel (the true, spiritual thoughts,",
+      "candidates": []
+    },
+    {
+      "id": 995,
+      "word": "El-paran",
+      "etym": "Heb .",
+      "mibDef": "terebinth ofParan; oak of Paran; strength ofParan; oak of the",
+      "mibMeta": "The seeming strength of the multitude of man's confused and undisciplined subconscious thoughts and energies, which Paran symbolizes, given over to the furtherance of sense expression. (See PARAN and CHEDORLAOMER.)",
+      "candidates": []
+    },
+    {
+      "id": 996,
+      "word": "Elah",
+      "etym": "Heb .",
+      "mibDef": "terebinth; oak; so called from its strength, hardiness, and size.",
+      "mibMeta": "A consciousness of strength and protection (an oak stands for something very strong and protective). When this thought of strength and protection is based on God, sense errors (the Philistines) are overcome and all is well. When it is based on material beliefs, however, as would be the case with Ela",
+      "candidates": [
+        {
+          "s": "H425",
+          "def": "Elah, the name of an Edomite, of four Israelites, and also of a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 997,
+      "word": "Elam",
+      "etym": "Heb.",
+      "mibDef": "hidden; concealed; remote time; eternal; everlasting; fully developed; a",
+      "mibMeta": "Thoughts of the abidingness, resourcefulness, and creative power of Truth, of that",
+      "candidates": [
+        {
+          "s": "H5867",
+          "def": "Elam, a son of Shem and his descendants, with their country"
+        }
+      ]
+    },
+    {
+      "id": 998,
+      "word": "Elamites",
+      "etym": "Heb .",
+      "mibDef": "of or pertaining to Elam.",
+      "mibMeta": "Thoughts, beliefs, and activities belonging to the Elam consciousness in man, and dominated by error views concerning life and Truth. (See ELAM.)",
+      "candidates": []
+    },
+    {
+      "id": 999,
+      "word": "Elasah",
+      "etym": "Heb.",
+      "mibDef": "God is maker; whom God has mad e, God is creator, i. e. , produced",
+      "mibMeta": "The innate belief in the religious nature of man that God is the maker of the universe, in that the universe came forth from and is an expression of God; that God is guiding and directing all things; and that He will bring order out of confusion and peace and good out of seeming chaos and evil. This",
+      "candidates": [
+        {
+          "s": "H501",
+          "def": "Elasah, the name of four Israelites"
+        }
+      ]
+    }
+  ]
+}

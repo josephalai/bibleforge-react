@@ -1,0 +1,1517 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "27 of 37",
+  "_entry_range": "ids 2600–2699",
+  "entries": [
+    {
+      "id": 2600,
+      "word": "Nophah",
+      "etym": "Heb.",
+      "mibDef": "puffing; blowing; blustering; breathing out; expiring; inspiring;",
+      "mibMeta": "The personal mind (Moab), which is often boastful, noisy, showy, explosive, tempestuous, yet is empty of real Truth and power (puffing, blowing, blustering, a windy place). Back of this phase of the carnal mind that Nophah represents is the very breath of life (Nophah comes from the same root as tha",
+      "candidates": []
+    },
+    {
+      "id": 2601,
+      "word": "not in a great judgment after death",
+      "etym": "",
+      "mibDef": "here and now",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3808",
+          "def": "not (the simple or abs. negation); by implication, no; often used with other particles"
+        },
+        {
+          "s": "G3756",
+          "def": "the absolute negative (compare G3361) adverb; no or not"
+        },
+        {
+          "s": "G3361",
+          "def": "(adverb) not, (conjunction) lest; also (as an interrogative implying a negative answer (whereas G3756 expects an affirmative one)) whether"
+        },
+        {
+          "s": "H408",
+          "def": "not (the qualified negation, used as a deprecative); once (Job 24:25) as a noun, nothing"
+        },
+        {
+          "s": "H369",
+          "def": "a nonentity; generally used as a negative particle"
+        }
+      ]
+    },
+    {
+      "id": 2602,
+      "word": "not really receptive to spiritual Truth; it is deaf",
+      "etym": "",
+      "mibDef": "meaning not receptive, not responsive. It works in the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3808",
+          "def": "not (the simple or abs. negation); by implication, no; often used with other particles"
+        },
+        {
+          "s": "G3756",
+          "def": "the absolute negative (compare G3361) adverb; no or not"
+        },
+        {
+          "s": "G3361",
+          "def": "(adverb) not, (conjunction) lest; also (as an interrogative implying a negative answer (whereas G3756 expects an affirmative one)) whether"
+        },
+        {
+          "s": "H408",
+          "def": "not (the qualified negation, used as a deprecative); once (Job 24:25) as a noun, nothing"
+        },
+        {
+          "s": "H369",
+          "def": "a nonentity; generally used as a negative particle"
+        }
+      ]
+    },
+    {
+      "id": 2603,
+      "word": "numbered",
+      "etym": "",
+      "mibDef": "To be numbered is to be especially designated as having place, relation, importance,",
+      "mibMeta": "Nun, father of Joshua (Josh. 1:1) , belongs to the tribe of Ephraim (will). The name Joshua, identical with the name Jesus, signifies \"I am savior.O Joshua is the directive general of the law. The I AM asserts its leadership based upon its understanding of divine law. Nun signifies the great and con",
+      "candidates": [
+        {
+          "s": "H6485",
+          "def": "to visit (with friendly or hostile intent); by analogy, to oversee, muster, charge, care for, miss, deposit, etc"
+        },
+        {
+          "s": "H5608",
+          "def": "properly, to score with a mark as a tally or record, i.e., (by implication) to inscribe, and also to enumerate; intensively, to recount, i.e., celebrate"
+        },
+        {
+          "s": "H4487",
+          "def": "properly, to weigh out; by implication, to allot or constitute officially; also to enumerate or enroll"
+        },
+        {
+          "s": "H4557",
+          "def": "a number, definite (arithmetical) or indefinite (large, innumerable; small, a few); also (abstractly) narration"
+        },
+        {
+          "s": "H4483",
+          "def": "to count, appoint"
+        }
+      ]
+    },
+    {
+      "id": 2604,
+      "word": "Nymphas",
+      "etym": "Gk.",
+      "mibDef": "a betrothed woman; recently espoused; young married woman;",
+      "mibMeta": "Laodicea refers to a phase of the judgment faculty in individual consciousness. Nymphas (young married woman, nymph-given), a Christian of Laodicea, signifies a union of the Laodicea phase of the judgment faculty with the Christ, or, an introduction of the elements of divine love and mercy into one'",
+      "candidates": []
+    },
+    {
+      "id": 2605,
+      "word": "oath",
+      "etym": "",
+      "mibDef": "at the place of realization of life and Truth in the subconsciousness. To",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7621",
+          "def": "properly, something sworn, i.e., an oath"
+        },
+        {
+          "s": "H423",
+          "def": "an imprecation"
+        },
+        {
+          "s": "H7650",
+          "def": "to seven oneself, i.e., swear (as if by repeating a declaration seven times)"
+        },
+        {
+          "s": "G3727",
+          "def": "a limit, i.e., (sacred) restraint (specially, an oath)"
+        },
+        {
+          "s": "G3728",
+          "def": "asseveration on oath"
+        }
+      ]
+    },
+    {
+      "id": 2606,
+      "word": "Obadiah",
+      "etym": "Heb.",
+      "mibDef": "serx’ant of Jehovah; service ofJah; worshiper of Jehovah.",
+      "mibMeta": "The higher thoughts in man that serve and worship God through the I AM, Jehovah, indwelling Christ. They are faithful and true. They are thoughts that are obedient to spiritual ideals, that hear and heed the voice of Spirit.",
+      "candidates": [
+        {
+          "s": "H5662",
+          "def": "Obadjah, the name of thirteen Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2607,
+      "word": "Obal",
+      "etym": "Heb .",
+      "mibDef": "extreme attenuation of matter; uncovered; stripped; bare; naked; barren.",
+      "mibMeta": "The bareness, nakedness, nothingness of all that is not founded in Truth. Those who hold to material beliefs and do not enter into understanding and practice of spiritual Truth must experience age, decay, deterioration of consciousness and body; they enter into a seemingly very barren state of exist",
+      "candidates": []
+    },
+    {
+      "id": 2608,
+      "word": "Obed",
+      "etym": "Heb.",
+      "mibDef": "laboring; working; making; serving; worshipping.",
+      "mibMeta": "An active thought, in the spiritual consciousness of man, that pertains to service and worship. \"God is spirit: and they that worship him must worship in spirit and truth\" (John 4:24; first clause, as given in margin). In other words, God is Mind; and they that worship Him must worship through think",
+      "candidates": [
+        {
+          "s": "H5744",
+          "def": "Obed, the name of five Israelites"
+        },
+        {
+          "s": "G5601",
+          "def": "Obed, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2609,
+      "word": "Obed-edom",
+      "etym": "Heb.",
+      "mibDef": "servant of Edom; servant of Esau.",
+      "mibMeta": "That which believes in serving others, especially that which pertains to looking after the physical comfort of others (servant of Edom or Esau, and pertaining to the outer, earthly, physical phase of man). Because the Ark rested in the house of Obed-edom, great blessings were poured out on all that ",
+      "candidates": []
+    },
+    {
+      "id": 2610,
+      "word": "obedience",
+      "etym": "",
+      "mibDef": "Obedience comes through understanding man's relation to God. When we",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G5218",
+          "def": "attentive hearkening, i.e., (by implication) compliance or submission"
+        }
+      ]
+    },
+    {
+      "id": 2611,
+      "word": "Obil",
+      "etym": "Heb.",
+      "mibDef": "chief of the camels; keeper of camels.",
+      "mibMeta": "The camel, in its native country, is a beast of burden. As pertaining to the individual, hard work, the bearing of burdens, are known only by the physical and seemingly mortal phase of his being. An Ishmaelite is a thought that is the fruit of the thoughts of the natural man at work in the flesh, Ob",
+      "candidates": [
+        {
+          "s": "H179",
+          "def": "Obil, an Ishmaelite"
+        }
+      ]
+    },
+    {
+      "id": 2612,
+      "word": "Oboth",
+      "etym": "Heb .",
+      "mibDef": "waterskins; leather bottles; hollow skins; ventriloquists; divining spirits;",
+      "mibMeta": "A realization by the higher ideals of the individual (Israelites) that the cleansing water of denial, or the power to cleanse the consciousness and the body through denials, lies within his organism. In other words, cleansing comes from within, and not from without (waterskins, leather bottles; the ",
+      "candidates": []
+    },
+    {
+      "id": 2613,
+      "word": "Ochran (A.V.",
+      "etym": "Heb.",
+      "mibDef": "troubled; confused; muddled; disturbed; afflicted.",
+      "mibMeta": "A thought that belongs to the religious thoughts of man but is out of harmony (troubled, disturbed, afflicted ) with Truth; it is not clear (muddled confused).",
+      "candidates": []
+    },
+    {
+      "id": 2614,
+      "word": "Oded",
+      "etym": "Heb .",
+      "mibDef": "turning back; returning; repeating; continuing without interruption;",
+      "mibMeta": "Continuously active, constructive, restoring, renewing, and sustaining thoughts in the higher phase of consciousness in the individual (continuing without interruption, aiding, sustaining, enduring, affirming, erecting, restoring to a former state, a prophet of Israel, and the father of a prophet of",
+      "candidates": [
+        {
+          "s": "H5752",
+          "def": "Oded, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2615,
+      "word": "of Canaan",
+      "etym": "",
+      "mibDef": "I",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3478",
+          "def": "he will rule as God; Jisraël, a symbolical name of Jacob; also (typically) of his posterity"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H4480",
+          "def": "properly, a part of; hence (prepositionally), from or out of in many senses"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        }
+      ]
+    },
+    {
+      "id": 2616,
+      "word": "of creation as told by Moses",
+      "etym": "",
+      "mibDef": "Mind",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3478",
+          "def": "he will rule as God; Jisraël, a symbolical name of Jacob; also (typically) of his posterity"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H4480",
+          "def": "properly, a part of; hence (prepositionally), from or out of in many senses"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        }
+      ]
+    },
+    {
+      "id": 2617,
+      "word": "of Judah",
+      "etym": "",
+      "mibDef": "faith in God, or the expression of spiritual strength.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3478",
+          "def": "he will rule as God; Jisraël, a symbolical name of Jacob; also (typically) of his posterity"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H4480",
+          "def": "properly, a part of; hence (prepositionally), from or out of in many senses"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        }
+      ]
+    },
+    {
+      "id": 2618,
+      "word": "of spiritual dominion and power",
+      "etym": "",
+      "mibDef": "as indicated",
+      "mibMeta": "The significance of Caiaphas is much the same as that of Annas (see ANNAS). He represents a ruling religious thought force that is entirely intellectual. He belongs to the religious world of forms and ceremonies, the \"letter\" of the word, and has no conception of the inner mind of Spirit.",
+      "candidates": [
+        {
+          "s": "H3478",
+          "def": "he will rule as God; Jisraël, a symbolical name of Jacob; also (typically) of his posterity"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H4480",
+          "def": "properly, a part of; hence (prepositionally), from or out of in many senses"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        }
+      ]
+    },
+    {
+      "id": 2619,
+      "word": "of the Father and exercising the power of God",
+      "etym": "",
+      "mibDef": "we shall see what he beheld. He saw the real man, and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3478",
+          "def": "he will rule as God; Jisraël, a symbolical name of Jacob; also (typically) of his posterity"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H4480",
+          "def": "properly, a part of; hence (prepositionally), from or out of in many senses"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        }
+      ]
+    },
+    {
+      "id": 2620,
+      "word": "of the three phases",
+      "etym": "",
+      "mibDef": "Father, Son, and Holy Spirit— mind, idea, expression.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H3478",
+          "def": "he will rule as God; Jisraël, a symbolical name of Jacob; also (typically) of his posterity"
+        },
+        {
+          "s": "H3068",
+          "def": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        },
+        {
+          "s": "H4480",
+          "def": "properly, a part of; hence (prepositionally), from or out of in many senses"
+        },
+        {
+          "s": "H776",
+          "def": "the earth (at large, or partitively a land)"
+        }
+      ]
+    },
+    {
+      "id": 2621,
+      "word": "offerings",
+      "etym": "",
+      "mibDef": "\"Freely ye received, freely give\" (Matt. 10:8) is a law of life, and all must",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5930",
+          "def": "a step or (collectively, stairs, as ascending); usually a holocaust (as going up in smoke)"
+        },
+        {
+          "s": "H5262",
+          "def": "a libation; also a cast idol"
+        },
+        {
+          "s": "H8002",
+          "def": "properly, requital, i.e., a (voluntary) sacrifice in thanks"
+        },
+        {
+          "s": "H801",
+          "def": "properly, a burnt-offering; but occasionally of any sacrifice"
+        },
+        {
+          "s": "H8641",
+          "def": "a present (as offered up), especially in sacrifice or as tribute"
+        }
+      ]
+    },
+    {
+      "id": 2622,
+      "word": "office",
+      "etym": "",
+      "mibDef": "a prince in the house of David— and stand meekly by and let it think unsifted thoughts, your",
+      "mibMeta": "Thought is the process in mind by which substance is acted on by energy, directed by intelligence. Thought is the movement of ideas in mind. Thought control is established by aligning the thoughts with the mind of Christ, bringing every thought into a harmonious relation to eternal, unchangeable pri",
+      "candidates": [
+        {
+          "s": "H3547",
+          "def": "to officiate as a priest; figuratively, to put on regalia"
+        },
+        {
+          "s": "H3550",
+          "def": "priesthood"
+        },
+        {
+          "s": "H6486",
+          "def": "visitation (in many senses, chiefly official)"
+        },
+        {
+          "s": "H530",
+          "def": "literally firmness; figuratively security; morally fidelity"
+        },
+        {
+          "s": "G1247",
+          "def": "to be an attendant, i.e., wait upon (menially or as a host, friend, or (figuratively) teacher); technically, to act as a Christian deacon"
+        }
+      ]
+    },
+    {
+      "id": 2623,
+      "word": "often get the inner word through the still",
+      "etym": "",
+      "mibDef": "you",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G4212",
+          "def": "how many times"
+        },
+        {
+          "s": "G4178",
+          "def": "many times, i.e., frequently"
+        },
+        {
+          "s": "G3740",
+          "def": "how (i.e., with G0302, so) many times as"
+        },
+        {
+          "s": "H8433",
+          "def": "chastisement; figuratively (by words) correction, refutation, proof (even in defense)"
+        },
+        {
+          "s": "H1696",
+          "def": "perhaps properly, to arrange; but used figuratively (of words), to speak; rarely (in a destructive sense) to subdue"
+        }
+      ]
+    },
+    {
+      "id": 2624,
+      "word": "Og",
+      "etym": "Heb.",
+      "mibDef": "long-necked; giant.",
+      "mibMeta": "The seeming immensity of the strength that has been given by the race thought to that in consciousness which the Amorites represent; or, the apparently very great and powerful hold that this Amorite belief has on the outer, personal man ( long-neckecl , the neck being the seat of the power faculty i",
+      "candidates": [
+        {
+          "s": "H5747",
+          "def": "Og, a king of Bashan"
+        }
+      ]
+    },
+    {
+      "id": 2625,
+      "word": "Ohad",
+      "etym": "Heb.",
+      "mibDef": "one; becoming united, unity; union; indivisible; immutable; power;",
+      "mibMeta": "Simeon means one who listens and obeys. He refers to the spiritually receptive, attentive, and obedient attitude in man. Ohad, son of Simeon (meaning one, becoming united, unity, immutable, power, strength, stability, sanctity, purity, sole, only, principle), signifies unity with God, the principle ",
+      "candidates": []
+    },
+    {
+      "id": 2626,
+      "word": "Ohel",
+      "etym": "Heb .",
+      "mibDef": "tent; tabernacle; temple; habitation; dwelling; house; family; tribe; race;",
+      "mibMeta": "A tent, tabernacle, or temple in the Bible refers to the body of man. Family indicates a group of thoughts like and springing from some certain idea. The word \"race\" often pertains to the whole race of mankind on the earth, and not just to certain types and nations of people taken separately; here, ",
+      "candidates": []
+    },
+    {
+      "id": 2627,
+      "word": "Oholah (A.V.",
+      "etym": "Heb.",
+      "mibDef": "she has her own tent; her own tabernacle; her temple;",
+      "mibMeta": "Samaria (watch, watchtower or mountain) refers to the department of the objective consciousness of man that functions through the head. Oholah (meaning she has her own tent, and being a symbolical name given to Samaria because of her adultery in departing from Jehovah) signifies the seemingly corrup",
+      "candidates": []
+    },
+    {
+      "id": 2628,
+      "word": "Oholiab (A.V.",
+      "etym": "Heb.",
+      "mibDef": "his father's tent; tent of the father; my father's",
+      "mibMeta": "An idea in the judgment faculty of the individual (a man of the tribe of Dan) that has been quickened by divine wisdom, and so recognizes that the whole organism of man is of God, belongs to God, and is not material but is divine in its origin (his father's tent, my father's tabernacle, temple of th",
+      "candidates": []
+    },
+    {
+      "id": 2629,
+      "word": "Oholibah (A.V.",
+      "etym": "Heb .",
+      "mibDef": "tent in her; my tabernacle is in her; her",
+      "mibMeta": "A letting in of worldly thoughts by the inner, higher consciousness of the individual, that has known and loved and worshiped God (Jerusalem; my tabernacle is in her, temple in her). Thus error ideas become mixed with the true ones, and so the individual in his inner consciousness departs from the p",
+      "candidates": []
+    },
+    {
+      "id": 2630,
+      "word": "Oholibamah (A.V.",
+      "etym": "Heb ,",
+      "mibDef": "tent of the high place; tent of the",
+      "mibMeta": "Zibeon means wild robber, and the Hivites are thoughts belonging to the carnal consciousness in man. Esau husband of Oholibamah, also pertains to the outer or the body. Oholibamah (granddaughter of Zibeon, a Hivite, and wife of Esau, and meaning tent of the high place, my tabernacle is exalted) sign",
+      "candidates": []
+    },
+    {
+      "id": 2631,
+      "word": "oil",
+      "etym": "",
+      "mibDef": "The thought of love, which is poured over anything, making it holy or a perfect",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8081",
+          "def": "grease, especially liquid (as from the olive, often perfumed); figuratively, richness"
+        },
+        {
+          "s": "G1637",
+          "def": "olive oil"
+        },
+        {
+          "s": "H3323",
+          "def": "oil (as producing light); figuratively, anointing"
+        },
+        {
+          "s": "H6671",
+          "def": "to press out oil"
+        }
+      ]
+    },
+    {
+      "id": 2632,
+      "word": "ointment",
+      "etym": "",
+      "mibDef": "Fragrance of love with which understanding (feet) is often bathed.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G3464",
+          "def": "\"myrrh\", i.e., (by implication) perfumed oil"
+        },
+        {
+          "s": "H8081",
+          "def": "grease, especially liquid (as from the olive, often perfumed); figuratively, richness"
+        },
+        {
+          "s": "H7545",
+          "def": "an aromatic"
+        },
+        {
+          "s": "H4842",
+          "def": "an aromatic unguent; also an unguent-pot"
+        }
+      ]
+    },
+    {
+      "id": 2633,
+      "word": "Olivet",
+      "etym": "fr. Heb .",
+      "mibDef": "Mount of Olives; height yielding illuminating oil; high luminous",
+      "mibMeta": "The exalting of divine wisdom and love in consciousness (Mount of Olives, height yielding illuminating oil, high luminous principle ). A mountain always signifies an exalted state of mind, a high place in consciousness, while olives and olive trees signify the Spirit of love (the Mount of Olives was",
+      "candidates": []
+    },
+    {
+      "id": 2634,
+      "word": "Olympas",
+      "etym": "Gk .",
+      "mibDef": "elysian; celestial; heavenly.",
+      "mibMeta": "A high thought activity of the intellect and will (a man of Rome) that has been illumined by the Holy Spirit and converted to the real Christ understanding. Thus it becomes truly spiritual, heavenly, filled with peace, love, justice, and perfection, as well as being high and sublime.",
+      "candidates": []
+    },
+    {
+      "id": 2635,
+      "word": "Oman",
+      "etym": "Heb.",
+      "mibDef": "strong- active; nimble; tumultuous noise; joyous shout; rejoicing.",
+      "mibMeta": "See ARAUNAH. Then add the thought of the spiritual activity that accompanies the separating of error from good in consciousness (active), and the rejoicing that follows the revealing of the good. This will give you the significance of Oman. Orpah. ™r'-pah (Heb.) —pulled; plucked- mane; forelock; nap",
+      "candidates": []
+    },
+    {
+      "id": 2636,
+      "word": "Omar",
+      "etym": "Heb .",
+      "mibDef": "bringing forth; bearing into the light; top; summit; speaking; saying;",
+      "mibMeta": "The ability of the outer man to receive the higher Truth ideals ( mountaineer ; very elevated, summit) and to express them (bringing forth, eloquent, bearing into the light). (See ELIPHAZ and ESAU, in regard to Omar as referring to the outer man.)",
+      "candidates": []
+    },
+    {
+      "id": 2637,
+      "word": "Omega",
+      "etym": "Gk ,",
+      "mibDef": "the last; the end; the objective; the fulfillment; the consummation;",
+      "mibMeta": "The last, the end, or the fulfillment. Christ, being the Alpha and the Omega, the first and the last, the beginning and the end, signifies the allness of Truth- through Christ, the ideal creation of God, or Divine Mind, all things came into existence in the first place and all things will finally co",
+      "candidates": []
+    },
+    {
+      "id": 2638,
+      "word": "omnipresence",
+      "etym": "",
+      "mibDef": "God is Mind. The one Mind contains all, and all ideas exist in the one Mind. God",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2639,
+      "word": "omniscience",
+      "etym": "",
+      "mibDef": "God as omniscience is all-knowing, all-knowledge.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2640,
+      "word": "Omri",
+      "etym": "Heb .",
+      "mibDef": "pupil of Jehovah; taught of Jah; measure ofJah; my measure; Jah",
+      "mibMeta": "The definitions of the name Omri signify that in man which is open to and receives true spiritual instruction (pupil of Jehovah, taught ofJah); that recognizes substance and supply as coming from Jehovah (Jah apportions, JahOs sheaf). The Omri who became king of Israel and who was the father of Ahab",
+      "candidates": [
+        {
+          "s": "H6018",
+          "def": "Omri, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2641,
+      "word": "On",
+      "etym": "Heb. fr. Egypt.",
+      "mibDef": "Beth-shemesh; Heliopolis; city of the sun; embodiment of light;",
+      "mibMeta": "In its purity, One refers to Spirit and to true spiritual understanding, substance, and power. As it appears in our Bible, however, the outer symbol (the sun) is worshiped and the truth back of the symbol has been lost sight of to a great degree. This worshipping of the outer symbol, or form, and lo",
+      "candidates": [
+        {
+          "s": "H5921",
+          "def": "above, over, upon, or against (yet always in this last relation with a downward aspect) in a great variety of applications"
+        },
+        {
+          "s": "G1909",
+          "def": "properly, meaning superimposition (of time, place, order, etc.), as a relation of distribution (with the genitive case), i.e., over, upon, etc.; of rest (with the dative case) at, on, etc.; of direction (with the accusative case) towards, upon, etc"
+        },
+        {
+          "s": "G1519",
+          "def": "to or into (indicating the point reached or entered), of place, time, or (figuratively) purpose (result, etc.); also in adverbial phrases"
+        },
+        {
+          "s": "H5676",
+          "def": "properly, a region across; but used only adverbially (with or without a preposition) on the opposite side (especially of the Jordan; ususally meaning the east)"
+        },
+        {
+          "s": "G1722",
+          "def": "\"in,\" at, (up-)on, by, etc"
+        }
+      ]
+    },
+    {
+      "id": 2642,
+      "word": "Onam",
+      "etym": "",
+      "mibDef": "able; strong; stout; vigorous; powerful; wealthy; substantial; luminous;",
+      "mibMeta": "Thoughts pertaining to strength and vigor; also to understanding and substance. The Onam who was a Horite signifies a material belief in purely physical strength and power, outer possessions and the carnal thought of understanding. This would lead to inharmony and error experiences instead of to the",
+      "candidates": [
+        {
+          "s": "H208",
+          "def": "Onam, the name of an Edomite and of an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2643,
+      "word": "Onan",
+      "etym": "Heb .",
+      "mibDef": "able-bodied strong; stout; virile; vigorous; substantiated; wealthy;",
+      "mibMeta": "The significance of Onan is virtually the same as that of Onam which see. While this thought is of a higher nature than that of Onam the Horite (Onan was a son of Judah), yet it is not spiritual but is of the intellect. It is influenced too, by lower, carnal soul emotions and tendencies (Onan's moth",
+      "candidates": [
+        {
+          "s": "H209",
+          "def": "Onan, a son of Judah"
+        }
+      ]
+    },
+    {
+      "id": 2644,
+      "word": "One",
+      "etym": "",
+      "mibDef": "Is a symbol of God and is frequently referred to in the Bible. God, or One, is the origin of",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H259",
+          "def": "properly, united, i.e., one; or (as an ordinal) first"
+        },
+        {
+          "s": "G1520",
+          "def": "one"
+        },
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G240",
+          "def": "one another"
+        }
+      ]
+    },
+    {
+      "id": 2645,
+      "word": "one life and one intelligence",
+      "etym": "",
+      "mibDef": "There is one Spirit; one principle of life, love, intelligence, and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H259",
+          "def": "properly, united, i.e., one; or (as an ordinal) first"
+        },
+        {
+          "s": "G1520",
+          "def": "one"
+        },
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G240",
+          "def": "one another"
+        }
+      ]
+    },
+    {
+      "id": 2646,
+      "word": "one presence and one power",
+      "etym": "",
+      "mibDef": "God, Spirit, is the only presence in the universe, and is the only",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H259",
+          "def": "properly, united, i.e., one; or (as an ordinal) first"
+        },
+        {
+          "s": "G1520",
+          "def": "one"
+        },
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G240",
+          "def": "one another"
+        }
+      ]
+    },
+    {
+      "id": 2647,
+      "word": "one Spirit-Mind",
+      "etym": "",
+      "mibDef": "God is the one Spirit-Mind in which all ideas of life, love, substance,",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H259",
+          "def": "properly, united, i.e., one; or (as an ordinal) first"
+        },
+        {
+          "s": "G1520",
+          "def": "one"
+        },
+        {
+          "s": "H376",
+          "def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)"
+        },
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        },
+        {
+          "s": "G240",
+          "def": "one another"
+        }
+      ]
+    },
+    {
+      "id": 2648,
+      "word": "oneness with the Father. By means of the atonement",
+      "etym": "",
+      "mibDef": "reconciliation, or atone-ment— that Jesus Christ",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2649,
+      "word": "Onesimus",
+      "etym": "Gk.",
+      "mibDef": "useful; profitable; helpful.",
+      "mibMeta": "Onesimus was a slave who had escaped from his master and was protected by Paul. His name in the Greek means profitable, useful, helpful. The significance here is that the industry, usefulness, and activity of man are hampered by his slavery to ignorance and error. (See PHILEMON.)",
+      "candidates": [
+        {
+          "s": "G3682",
+          "def": "profitable; Onesimus, a Christian"
+        }
+      ]
+    },
+    {
+      "id": 2650,
+      "word": "Ono",
+      "etym": "Heb.",
+      "mibDef": "ability; strength; virility; vigor; substance; wealth; riches; brilliance.",
+      "mibMeta": "A consciousness of vigor and strength, and of understanding and substance, that is the result of an active faith, and the fruits of this faith at work in the individual (a city of Benjamin, Benjamin symbolizing an active faith; see ELPAAL, EBER, MISHAM, and SHEMED). The plain of Ono, where Sanballat",
+      "candidates": []
+    },
+    {
+      "id": 2651,
+      "word": "Ophel",
+      "etym": "Heb.",
+      "mibDef": "tumulus; protuberance; hill; mound; inflated; presumptuous; proud;",
+      "mibMeta": "A lifting up of man's thought about himself. This may be a true elevating and building of his whole being into a more abiding and spiritual manifestation, or it may refer to a lifting up in pride because of one's seeming spiritual attainments (tumulus, protuberance, inflated, presumptuous, proud, el",
+      "candidates": [
+        {
+          "s": "H6077",
+          "def": "Ophel, a ridge in Jerusalem"
+        }
+      ]
+    },
+    {
+      "id": 2652,
+      "word": "Ophir",
+      "etym": "Heb.",
+      "mibDef": "a final state fulfillment of an elementary principle; purity; nobility; riches;",
+      "mibMeta": "That which remains after the deeper purification by fire has taken place (a final state, fulfillment of an elementary principle -the principle here being fire; see Malachi 3:1-3 and Matthew 3:11, 12). By this purifying action of the Christ Spirit, of the fire baptism, all that is true (pure gold) is",
+      "candidates": [
+        {
+          "s": "H211",
+          "def": "Ophir, the name of a son of Joktan, and of a gold region in the East"
+        }
+      ]
+    },
+    {
+      "id": 2653,
+      "word": "Ophni",
+      "etym": "Heb.",
+      "mibDef": "panting; aspiring; ardently desiring; pining; hunger; thirst; weariness;",
+      "mibMeta": "A group of thoughts in man that really aspires to a higher, spiritual consciousness (aspiring, ardently desiring). It has, however, through error, or Canaanitish rule, exerted great personal effort in seeking to attain the fulfillment of its desire. The result is seeming weariness, lack, and inharmo",
+      "candidates": []
+    },
+    {
+      "id": 2654,
+      "word": "Ophrah",
+      "etym": "Heb.",
+      "mibDef": "female fawn; dusty; ashen; blown by the wind; reduced to an essence;",
+      "mibMeta": "Gideon the Manassite, a judge of Israel whose home was in Ophrah, represents denial of error. Benjamin is the active faith quality in man. Meonothai, parent or founder of the Ophrah of the tribe of Judah, signifies a thought in the praise-and-prayer consciousness of the individual that perceives or ",
+      "candidates": [
+        {
+          "s": "H6084",
+          "def": "Ophrah, the name of an Israelite and of two places in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 2655,
+      "word": "or their impressions",
+      "etym": "",
+      "mibDef": "and it is by means of thinking that we contact both the",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H176",
+          "def": "desire (and so probably in Proverbs 31:4); hence (by way of alternative) or, also if"
+        },
+        {
+          "s": "G2228",
+          "def": "disjunctive, or; comparative, than"
+        },
+        {
+          "s": "H518",
+          "def": "used very widely as demonstrative, lo!; interrogative, whether?; or conditional, if, although; also Oh that!, when; hence, as a negative, not"
+        },
+        {
+          "s": "G1535",
+          "def": "if too"
+        },
+        {
+          "s": "H3605",
+          "def": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)"
+        }
+      ]
+    },
+    {
+      "id": 2656,
+      "word": "Order",
+      "etym": "",
+      "mibDef": "James, son of Alph%us— navel.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H6186",
+          "def": "to set in a row, i.e., arrange, put in order (in a very wide variety of applications)"
+        },
+        {
+          "s": "G5010",
+          "def": "regular arrangement, i.e., (in time) fixed succession (of rank or character), official dignity"
+        },
+        {
+          "s": "H4941",
+          "def": "properly, a verdict (favorable or unfavorable) pronounced judicially, especially a sentence or formal decree (human or (participant's) divine law, individual or collective), including the act, the place, the suit, the crime, and the penalty; abstractly, justice, including a participant's right or privilege (statutory or customary), or even a style"
+        },
+        {
+          "s": "H3027",
+          "def": "a hand (the open one [indicating power, means, direction, etc.], in distinction from H3709, the closed one); used (as noun, adverb, etc.) in a great variety of applications, both literally and figuratively, both proximate and remote [as follows]"
+        },
+        {
+          "s": "H3559",
+          "def": "properly, to be erect (i.e., stand perpendicular); hence (causatively) to set up, in a great variety of applications, whether literal (establish, fix, prepare, apply), or figurative (appoint, render sure, proper or prosperous)"
+        }
+      ]
+    },
+    {
+      "id": 2657,
+      "word": "order",
+      "etym": "",
+      "mibDef": "The divine idea of order is the idea of adjustment, and as this is established in man's",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H6186",
+          "def": "to set in a row, i.e., arrange, put in order (in a very wide variety of applications)"
+        },
+        {
+          "s": "G5010",
+          "def": "regular arrangement, i.e., (in time) fixed succession (of rank or character), official dignity"
+        },
+        {
+          "s": "H4941",
+          "def": "properly, a verdict (favorable or unfavorable) pronounced judicially, especially a sentence or formal decree (human or (participant's) divine law, individual or collective), including the act, the place, the suit, the crime, and the penalty; abstractly, justice, including a participant's right or privilege (statutory or customary), or even a style"
+        },
+        {
+          "s": "H3027",
+          "def": "a hand (the open one [indicating power, means, direction, etc.], in distinction from H3709, the closed one); used (as noun, adverb, etc.) in a great variety of applications, both literally and figuratively, both proximate and remote [as follows]"
+        },
+        {
+          "s": "H3559",
+          "def": "properly, to be erect (i.e., stand perpendicular); hence (causatively) to set up, in a great variety of applications, whether literal (establish, fix, prepare, apply), or figurative (appoint, render sure, proper or prosperous)"
+        }
+      ]
+    },
+    {
+      "id": 2658,
+      "word": "ordinances",
+      "etym": "",
+      "mibDef": "a",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2708",
+          "def": "a statute"
+        },
+        {
+          "s": "H2706",
+          "def": "an enactment; hence, an appointment (of time, space, quantity, labor or usage)"
+        },
+        {
+          "s": "H4941",
+          "def": "properly, a verdict (favorable or unfavorable) pronounced judicially, especially a sentence or formal decree (human or (participant's) divine law, individual or collective), including the act, the place, the suit, the crime, and the penalty; abstractly, justice, including a participant's right or privilege (statutory or customary), or even a style"
+        },
+        {
+          "s": "G1345",
+          "def": "an equitable deed; by implication, a statute or decision"
+        },
+        {
+          "s": "H4687",
+          "def": "a command, whether human or divine (collectively, the Law)"
+        }
+      ]
+    },
+    {
+      "id": 2659,
+      "word": "ordinances of Jehovah",
+      "etym": "",
+      "mibDef": "\"The ordinances of Jehovah are true, and righteous altogether\" (Psalms",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H2708",
+          "def": "a statute"
+        },
+        {
+          "s": "H2706",
+          "def": "an enactment; hence, an appointment (of time, space, quantity, labor or usage)"
+        },
+        {
+          "s": "H4941",
+          "def": "properly, a verdict (favorable or unfavorable) pronounced judicially, especially a sentence or formal decree (human or (participant's) divine law, individual or collective), including the act, the place, the suit, the crime, and the penalty; abstractly, justice, including a participant's right or privilege (statutory or customary), or even a style"
+        },
+        {
+          "s": "G1345",
+          "def": "an equitable deed; by implication, a statute or decision"
+        },
+        {
+          "s": "H4687",
+          "def": "a command, whether human or divine (collectively, the Law)"
+        }
+      ]
+    },
+    {
+      "id": 2660,
+      "word": "Oreb",
+      "etym": "Heb .",
+      "mibDef": "jet blackness; western darkness; rapacious; voracious; ravenous; raven.",
+      "mibMeta": "A greedy, rapacious ruling thought in unredeemed man (raven, meaning rapine, rapacity; and a prince of Midian, Midian meaning strife, contention). If the individual gives this thought a place it robs him of his peace of mind and consciousness of good. It must therefore be overcome by denial of the e",
+      "candidates": [
+        {
+          "s": "H6159",
+          "def": "Oreb, the name of a Midianite and of the cliff near the Jordan"
+        }
+      ]
+    },
+    {
+      "id": 2661,
+      "word": "Oren",
+      "etym": "Heb .",
+      "mibDef": "strength; power; enlightened; pine tree; fir tree; ash tree.",
+      "mibMeta": "A thought of abiding life and strength established in the nervous system of the individual (strength, power; also fir tree and pine tree, both being evergreen trees, and relating therefore to abiding, ever renewing life, while trees represent the nerves in the organism of man). Trees signify a conne",
+      "candidates": []
+    },
+    {
+      "id": 2662,
+      "word": "organic regeneration",
+      "etym": "",
+      "mibDef": "To become conscious of divine substance, affirm your unity with it until",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2663,
+      "word": "origin is God",
+      "etym": "",
+      "mibDef": "Divine Mind (father of pleasantness, father of graciousness, father of delight).",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2664,
+      "word": "Orion",
+      "etym": "Gk .",
+      "mibDef": "blooming; beautiful; strong; a mighty hunter; virtuous; lusty; loin; inward",
+      "mibMeta": "The seeming strength and desirability of the animal forces in man (beautiful, blooming, strong, a mighty hunter ) and the apparent bondage of the individual to these forces (\"Canst thou . . . loose the bands of Orion ?\"). Man has a very dim comprehension that back of even his apparently animal force",
+      "candidates": []
+    },
+    {
+      "id": 2665,
+      "word": "Othni",
+      "etym": "Heb .",
+      "mibDef": "lion of Jehovah; Jehovah is strength; force of Jehovah.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2666,
+      "word": "Othniel",
+      "etym": "Heb .",
+      "mibDef": "lion of God- God is strength; force of God.",
+      "mibMeta": "A consciousness of divine life strength, courage, and conquering power ( God is strength, force of God, lion o/God)",
+      "candidates": [
+        {
+          "s": "H6274",
+          "def": "Othniel, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2667,
+      "word": "our heart",
+      "etym": "",
+      "mibDef": "there is no loss of substance. In thinking there is a vibratory process",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G2257",
+          "def": "of (or from) us"
+        },
+        {
+          "s": "H430",
+          "def": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative"
+        },
+        {
+          "s": "H1",
+          "def": "father, in a literal and immediate, or figurative and remote application"
+        },
+        {
+          "s": "H3027",
+          "def": "a hand (the open one [indicating power, means, direction, etc.], in distinction from H3709, the closed one); used (as noun, adverb, etc.) in a great variety of applications, both literally and figuratively, both proximate and remote [as follows]"
+        },
+        {
+          "s": "H1121",
+          "def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)"
+        }
+      ]
+    },
+    {
+      "id": 2668,
+      "word": "over",
+      "etym": "",
+      "mibDef": "the obstinacy of personal will. From this union of love and wisdom, the feminine and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5921",
+          "def": "above, over, upon, or against (yet always in this last relation with a downward aspect) in a great variety of applications"
+        },
+        {
+          "s": "H5674",
+          "def": "to cross over; used very widely of any transition (literal or figurative; transitive, intransitive, intensive, causative); specifically, to cover (in copulation)"
+        },
+        {
+          "s": "G1909",
+          "def": "properly, meaning superimposition (of time, place, order, etc.), as a relation of distribution (with the genitive case), i.e., over, upon, etc.; of rest (with the dative case) at, on, etc.; of direction (with the accusative case) towards, upon, etc"
+        },
+        {
+          "s": "H5048",
+          "def": "a front, i.e., part opposite; specifically a counterpart, or mate; usually (adverbial, especially with preposition) over against or before"
+        },
+        {
+          "s": "H413",
+          "def": "near, with or among; often in general, to"
+        }
+      ]
+    },
+    {
+      "id": 2669,
+      "word": "over to sense desire; it sinks to the lowest degree of degradation (Migron",
+      "etym": "",
+      "mibDef": "cast down, overthrown) and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5921",
+          "def": "above, over, upon, or against (yet always in this last relation with a downward aspect) in a great variety of applications"
+        },
+        {
+          "s": "H5674",
+          "def": "to cross over; used very widely of any transition (literal or figurative; transitive, intransitive, intensive, causative); specifically, to cover (in copulation)"
+        },
+        {
+          "s": "G1909",
+          "def": "properly, meaning superimposition (of time, place, order, etc.), as a relation of distribution (with the genitive case), i.e., over, upon, etc.; of rest (with the dative case) at, on, etc.; of direction (with the accusative case) towards, upon, etc"
+        },
+        {
+          "s": "H5048",
+          "def": "a front, i.e., part opposite; specifically a counterpart, or mate; usually (adverbial, especially with preposition) over against or before"
+        },
+        {
+          "s": "H413",
+          "def": "near, with or among; often in general, to"
+        }
+      ]
+    },
+    {
+      "id": 2670,
+      "word": "overcoming",
+      "etym": "",
+      "mibDef": "\"Gaining superiority; winning\" (Webster). Through thought mastery, sense man is",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2671,
+      "word": "overcoming",
+      "etym": "",
+      "mibDef": "Dealing with the problems of life in spiritual understanding and",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2672,
+      "word": "oversoul",
+      "etym": "",
+      "mibDef": "The universal Principle, the absolute One, God, Being. The absolute reality. The",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2673,
+      "word": "Ozem",
+      "etym": "Heb .",
+      "mibDef": "growing might; power of growth; strength; might; ower; numerous;",
+      "mibMeta": "1 AM strength, growing or increasing thoughts of I AM power or of the eternal",
+      "candidates": [
+        {
+          "s": "H684",
+          "def": "Otsem, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2674,
+      "word": "Ozni",
+      "etym": "Heb .",
+      "mibDef": "Jah hears; giving ear; hearkening; hearing; weighing; attending;",
+      "mibMeta": "An influential thought, belonging to the power faculty in man (Gad being the son of Jacob, and of the tribe of Israel that symbolizes the faculty of power in the individual), that is of an attentive, obedient, hearing attitude of mind (giving ear, hearkening, hearing). When man considers and lends h",
+      "candidates": []
+    },
+    {
+      "id": 2675,
+      "word": "Oznites",
+      "etym": "fr. Heb .",
+      "mibDef": "ofor belonging to Ozni.",
+      "mibMeta": "Thoughts springing from and belonging to that in consciousness which Ozni signifies. (See OZNI.)",
+      "candidates": []
+    },
+    {
+      "id": 2676,
+      "word": "Paarai",
+      "etym": "Heb .",
+      "mibDef": "opening wide; gaping; yawning; hiatus; cleft; revealing; revelation of",
+      "mibMeta": "One of the higher religious thoughts of man's mind (a warrior of King David's) becoming awakened to divine revelation, inspiration, understanding (opening wide, yawning, revelation of Jah). (See NAARAI.)",
+      "candidates": [
+        {
+          "s": "H6474",
+          "def": "Paarai, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2677,
+      "word": "Paddan (A.V.",
+      "etym": "Heb .",
+      "mibDef": "field; open plain; table-land.",
+      "mibMeta": "A place of substance in the consciousness and the organism of the individual (a field, field relating to ground, substance).",
+      "candidates": []
+    },
+    {
+      "id": 2678,
+      "word": "Paddan-aram (A.V.",
+      "etym": "Heb .",
+      "mibDef": "plain of Aram; a plain of Syria;",
+      "mibMeta": "Substance lifted to a broad, level place ( plain of Aram, plain of Syria) in the intellectual thought of the individual. (Land refers to substance, and Aram symbolizes the intellect. A plain or table-land is a level tract of land. See PADDAN and MESOPOTAMIA.)",
+      "candidates": []
+    },
+    {
+      "id": 2679,
+      "word": "Padon",
+      "etym": "Heb.",
+      "mibDef": "ransom; deliverance; liberation; freedom; escape; redemption;",
+      "mibMeta": "A thought of redemption, freedom, liberation from error; it leads to escape from sense bondage but is not yet free from the idea of serving God by keeping outer commandments and",
+      "candidates": []
+    },
+    {
+      "id": 2680,
+      "word": "paganism",
+      "etym": "",
+      "mibDef": "The religion of pagans, pertaining to idolatrous worship. The worship of money as",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 2681,
+      "word": "Pagiel",
+      "etym": "Heb .",
+      "mibDef": "event of God; peace of God; visitation of God; God meets; covenant of",
+      "mibMeta": "A place in consciousness where God meets with the individual; where the individual enters into conscious unity with the Divine and is assured of his inheritance of good. This meeting place is in the devotional thought, or attitude of true prayer (prayer of God).",
+      "candidates": [
+        {
+          "s": "H6295",
+          "def": "Pagiel, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2682,
+      "word": "Pahath-moab",
+      "etym": "Heb.",
+      "mibDef": "prefect ofMoab; governor ofMoab.",
+      "mibMeta": "While the land of Moab represents the body and the most external conditions of life, there is good in Moab, or a great possibility of good. (See MOAB.) Pahath-moab (meaning prefect ofMoab, governor ofMoab, an Israelite who returned from the Babylonian captivity, and one who joined Nehemiah in sealin",
+      "candidates": []
+    },
+    {
+      "id": 2683,
+      "word": "Pai",
+      "etym": "Heb.",
+      "mibDef": "crying out; screaming; bleating; bellowing; sighing; hissing; blowing;",
+      "mibMeta": "See PAU. pain— An indication that the vital forces of the body are at work to bring about health.",
+      "candidates": []
+    },
+    {
+      "id": 2684,
+      "word": "Palal",
+      "etym": "Heb.",
+      "mibDef": "evening out; judging; coloring; thinking; supposing; interceding; praying;",
+      "mibMeta": "We look upon a thinking person as one who is reasonable, rational, capable of viewing a matter from every angle, or from several angles at least, and can therefore form a fairly just and unbiased opinion. Palal (an Israelite who returned from the Babylonian captivity and helped to rebuild Jerusalem'",
+      "candidates": [
+        {
+          "s": "H6420",
+          "def": "Palal, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 2685,
+      "word": "Pallu",
+      "etym": "",
+      "mibDef": "separated; distinguished; set apart; great;",
+      "mibMeta": "Reuben, the first-born of the sons of Jacob, represents the first bringing forth of sight, discernment, faith. The meaning of the name is \"behold a son!\" The idea is that of seeing. \"And Leah conceived, and bare a son, and she called his name Reuben: for she said, Because Jehovah hath looked upon my",
+      "candidates": []
+    },
+    {
+      "id": 2686,
+      "word": "Palluites",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Pcdlu.",
+      "mibMeta": "Thoughts springing from that in consciousness which Pallu symbolizes. (See PALLU.)",
+      "candidates": []
+    },
+    {
+      "id": 2687,
+      "word": "palm trees",
+      "etym": "",
+      "mibDef": "ly, realizations in the physical of unlimited resource of strength.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8561",
+          "def": "(architectural) a palm-like pilaster (i.e., umbellate)"
+        },
+        {
+          "s": "H8558",
+          "def": "a palm tree"
+        },
+        {
+          "s": "H3709",
+          "def": "the hollow hand or palm (so of the paw of an animal, of the sole, and even of the bowl of a dish or sling, the handle of a bolt, the leaves of a palm-tree); figuratively, power"
+        },
+        {
+          "s": "H8560",
+          "def": "a palm trunk"
+        },
+        {
+          "s": "G5404",
+          "def": "a palm-tree"
+        }
+      ]
+    },
+    {
+      "id": 2688,
+      "word": "Palti",
+      "etym": "Heb.",
+      "mibDef": "Jehovah makes smooth; Jah is the way of",
+      "mibMeta": "A belief in or thoughts of deliverance through faith. (Jah fully delivers is one meaning of Palti. Both these men named Palti were Benjamites; a Benjamite signifies an active faith thought in consciousness. The second- mentioned Palti was from Gallim, and Gallim is thought to have been a town of Ben",
+      "candidates": [
+        {
+          "s": "H6406",
+          "def": "Palti, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2689,
+      "word": "Paltiel",
+      "etym": "Heb.",
+      "mibDef": "God makes smooth; deliverance of",
+      "mibMeta": "Thoughts of divine protection and deliverance through the exercise of active faith and zeal by the individual. (Paltiel means God makes smooth, deliverance of God, God is the way of escape. The first man named Paltiel was of the tribe of Issachar; Issachar signifies active zeal. The second Paltiel w",
+      "candidates": [
+        {
+          "s": "H6409",
+          "def": "Paltiel, the name of two Israelites"
+        }
+      ]
+    },
+    {
+      "id": 2690,
+      "word": "Paltite",
+      "etym": "fr. Heb.",
+      "mibDef": "of or belonging to Palti.",
+      "mibMeta": "\"The Pelonite\" is thought to be the correct rendering. (See PELONITE.)",
+      "candidates": []
+    },
+    {
+      "id": 2691,
+      "word": "Pamach",
+      "etym": "Heb. or Chald .",
+      "mibDef": "swift; agile; nimble; (or) to live delicately; to delight",
+      "mibMeta": "A thought belonging to the order faculty in individual consciousness (Zebulun symbolizes the faculty of order) that is alert and active (swift, agile, nimble). If the other definitions of Parnach are considered, then the reference is to a thought tendency that is very loving and refined but needs to",
+      "candidates": []
+    },
+    {
+      "id": 2692,
+      "word": "Pamphylia",
+      "etym": "Heb.",
+      "mibDef": "heterogeneous peoples; of every race; mixture of nations.",
+      "mibMeta": "A mixed state of thought (mixture of nations, of every race).",
+      "candidates": []
+    },
+    {
+      "id": 2693,
+      "word": "pantheism",
+      "etym": "",
+      "mibDef": "\"The doctrine that the universe, taken or conceived of as a whole, is God; the",
+      "mibMeta": "A very zealous state of mind (heated, boiling), tending to deception and to animality (cozening, fraud, amorous). When the word of Truth (Paul) is declared in this attitude of great fervor and zeal, both good and seemingly error activities are brought to light (they found Sergius Paulus the proconsu",
+      "candidates": []
+    },
+    {
+      "id": 2694,
+      "word": "Parah",
+      "etym": "Heb.",
+      "mibDef": "bearing; bringing forth; increasing; fruitful- voluptuous; being born;",
+      "mibMeta": "A bringing forth of thoughts on the animal plane of the soul consciousness (bearing, increasing, being born, place of heifers, voluptuous).",
+      "candidates": []
+    },
+    {
+      "id": 2695,
+      "word": "Paran",
+      "etym": "Heb.",
+      "mibDef": "region of caverns; places of caves; region of lurking places; place of",
+      "mibMeta": "The multitude of seemingly confused and undisciplined thoughts of the subconscious mind (place of caves region of -caverns); also a place or period of much earnest searching after Truth. This searching occurs when one is becoming sufficiently established in the good, or is",
+      "candidates": []
+    },
+    {
+      "id": 2696,
+      "word": "Parmashta",
+      "etym": "Heb. fr. Skr.",
+      "mibDef": "superior; stronger; strong in fight; a yearling bull.",
+      "mibMeta": "A seemingly strong warring thought, in the adverse consciousness of the individual, which Haman and his father signify.",
+      "candidates": []
+    },
+    {
+      "id": 2697,
+      "word": "Parmenas",
+      "etym": "Gk.",
+      "mibDef": "steadfast; constant; abiding; enduring; permanent; faithful.",
+      "mibMeta": "A faithful, steadfast, abiding thought in the higher, spiritual consciousness of the",
+      "candidates": []
+    },
+    {
+      "id": 2698,
+      "word": "Parshandatha",
+      "etym": "Heb. from Pers .",
+      "mibDef": "given to Persia; interpreter of the law;",
+      "mibMeta": "Persia means cutting, dividing. One of the results of the rule of the Adversary in man (signified by Haman and his father Hammedatha, the Jews' enemy) is a divided mind, a lack of peace, poise, and unity. This phase of mind is typified by Parshandatha, Haman's son.",
+      "candidates": []
+    },
+    {
+      "id": 2699,
+      "word": "parsimony",
+      "etym": "",
+      "mibDef": "In mortal consciousness, the idea of closeness in expenditures; undue thrift. Indicates",
+      "mibMeta": "",
+      "candidates": []
+    }
+  ]
+}

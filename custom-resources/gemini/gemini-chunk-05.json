@@ -1,0 +1,1086 @@
+{
+  "_instructions": "You are helping enrich a Metaphysical Bible Dictionary (MIB) with Strong's concordance numbers.\n\nFor each entry in the \"entries\" array:\n- \"word\" is the biblical word or concept\n- \"etym\" is its original language (Heb. = Hebrew, Gk. = Greek)\n- \"mibDef\" is its literal definition\n- \"mibMeta\" is its metaphysical/spiritual interpretation (may be truncated)\n- \"candidates\" are Strong's numbers suggested by a word-map lookup — these are hints ONLY, not exhaustive\n\nYour task:\n1. Using your knowledge of Hebrew and Greek Strong's concordance, identify ALL Strong's numbers\n   whose meaning semantically matches the spiritual/metaphysical sense of this word.\n2. The candidates list is a starting point — you may confirm some, discard others, and ADD\n   additional Strong's numbers not in the candidates list if they genuinely match.\n3. Use \"etym\" to stay in the right language (Heb. → H numbers, Gk. → G numbers) unless\n   the concept clearly spans both Testaments.\n4. Exclude unrelated homonyms (e.g. H7043 \"light/trivial in weight\" does NOT match\n   \"light\" as divine illumination).\n\nReturn ONLY a valid JSON array — no explanation, no markdown, no code fences:\n[\n  { \"id\": <same id from input>, \"matches\": [\"H216\", \"H215\", \"G5457\"] },\n  { \"id\": <same id from input>, \"matches\": [] },\n  ...\n]\n\nEvery entry in the input must appear in your output. Empty \"matches\" is valid if nothing fits.",
+  "_chunk": "5 of 37",
+  "_entry_range": "ids 400–499",
+  "entries": [
+    {
+      "id": 400,
+      "word": "augury",
+      "etym": "",
+      "mibDef": "The blind following of the commands of some omen or voice, not of Spirit.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 401,
+      "word": "Augustus",
+      "etym": "Lat.",
+      "mibDef": "sacred; kingly; venerable; augmented.",
+      "mibMeta": "The worship of the will ruling in selfishness and directed by human reason (sacred, kingly, venerable; a Roman emperor). When one is in this state of consciousness the intellect is his god, and he believes that his good can be increased ( augmented ) and that his dominion, power, and honor can be ex",
+      "candidates": []
+    },
+    {
+      "id": 402,
+      "word": "aura",
+      "etym": "",
+      "mibDef": "The thought emanation that surrounds every person. As to whether it is an illumined aura,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 403,
+      "word": "aura",
+      "etym": "",
+      "mibDef": "Prayer liberates the energies pent up in the mind and body. Those who pray",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 404,
+      "word": "authority",
+      "etym": "",
+      "mibDef": "Inspired by Spirit within. The Spirit of truth is the one and only authority in",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1849",
+          "def": "privilege, i.e., (subjectively) force, capacity, competency, freedom, or (objectively) mastery (concretely, magistrate, superhuman, potentate, token of control), delegated influence"
+        },
+        {
+          "s": "G2715",
+          "def": "to have (wield) full privilege over"
+        },
+        {
+          "s": "G1850",
+          "def": "to control"
+        },
+        {
+          "s": "G1413",
+          "def": "a ruler or officer"
+        },
+        {
+          "s": "G831",
+          "def": "to act of oneself, i.e., (figuratively) dominate"
+        }
+      ]
+    },
+    {
+      "id": 405,
+      "word": "authority",
+      "etym": "",
+      "mibDef": "Human parental authority is a thought of bondage or slavery in mortal",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1849",
+          "def": "privilege, i.e., (subjectively) force, capacity, competency, freedom, or (objectively) mastery (concretely, magistrate, superhuman, potentate, token of control), delegated influence"
+        },
+        {
+          "s": "G2715",
+          "def": "to have (wield) full privilege over"
+        },
+        {
+          "s": "G1850",
+          "def": "to control"
+        },
+        {
+          "s": "G1413",
+          "def": "a ruler or officer"
+        },
+        {
+          "s": "G831",
+          "def": "to act of oneself, i.e., (figuratively) dominate"
+        }
+      ]
+    },
+    {
+      "id": 406,
+      "word": "avarice",
+      "etym": "",
+      "mibDef": "Establish in consciousness the idea of giving generously and",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 407,
+      "word": "Aven",
+      "etym": "Heb.",
+      "mibDef": "vanity; nothingness; trouble; calamity; evil; debilitated; fruitless.",
+      "mibMeta": "The nothingness and vanity, or vainness, of Baal worship. (See BAAL.) When man thinks that the intellect is the source of true understanding, he believes the outer world of phenomena to be real in itself. He forms his conclusions from appearances, and he builds up the idea that he is ruled over by t",
+      "candidates": [
+        {
+          "s": "H206",
+          "def": "Aven, the contemptuous synonym of three places, one in Coele-Syria, one in Egypt (On), and one in Palestine (Bethel)"
+        }
+      ]
+    },
+    {
+      "id": 408,
+      "word": "Avith",
+      "etym": "Heb .",
+      "mibDef": "ruins; overthrown- overturned - perverted; perverse. A city of Hadad, an",
+      "mibMeta": "The perverted, corruptible, and destructive character (ruins, overthrown, overturned, perverted, perverse) of a line of thought that helps to make up and rule the body consciousness in man before man's natural religious tendencies founded in Spirit, come into any appreciable degree of influence or d",
+      "candidates": []
+    },
+    {
+      "id": 409,
+      "word": "Avva (A. V.",
+      "etym": "Heb.",
+      "mibDef": "ruin; overthrown overturned; perverted; perverse; iniquity.",
+      "mibMeta": "The unrighteousness (iniquity) that works in the consciousness of man when he allows intellectual reasonings based upon sense observation (Assyrians) to direct his will and to rule in his life. They take away his sense of safety (Hoshea, king of Israel). They take away his true thoughts founded in S",
+      "candidates": []
+    },
+    {
+      "id": 410,
+      "word": "Avvim (A. V.",
+      "etym": "Heb ,",
+      "mibDef": "the Avites; ruins; perversions; iniquities.",
+      "mibMeta": "The most primitive, unenlightened ideas of the carnal man regarding his life forces and functions. These ideas cause man to look upon himself as purely physical and to place",
+      "candidates": []
+    },
+    {
+      "id": 411,
+      "word": "awakening",
+      "etym": "",
+      "mibDef": "Becoming conscious of the things of Spirit, or God.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 412,
+      "word": "awakening",
+      "etym": "",
+      "mibDef": "if the Moab or earthly mind in one is in evidence there are",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 413,
+      "word": "awakening by man to his close friendship",
+      "etym": "",
+      "mibDef": "brotherhood,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 414,
+      "word": "Azaliah",
+      "etym": "Heb .",
+      "mibDef": "Jehovah reserves; whom Jah has separated; beside Jehovah; Jah is",
+      "mibMeta": "A thought of consecration and of nearness to that which Jehovah implies ( Jehovah reserves, whom Jah has separated, beside Jehovah, Jah is noble). This thought works very strongly in our consciousness and our organism when loyalty to Truth (Josiah) is dominating our thoughts and we are seeking earne",
+      "candidates": []
+    },
+    {
+      "id": 415,
+      "word": "Azaniah",
+      "etym": "Heb .",
+      "mibDef": "Jehovah hears; whom Jehovah hears; hearing Jah; hearing the",
+      "mibMeta": "A natural religious tendency in man that is receptive and obedient to spiritual Truth and guidance (hearing Jah, hearing, the Lord). This spirit of receptivity and obedience to Jehovah and the divine law is recognized by the true I AM in consciousness, the Christ, or Jehovah (whom Jehovah hears); an",
+      "candidates": []
+    },
+    {
+      "id": 416,
+      "word": "Azarel (A. V.",
+      "etym": "Heb .",
+      "mibDef": "help of God - whom God succors; God",
+      "mibMeta": "The attitude of mind in which the would-be overcomer recognizes and acknowledges God, Spirit, as his strength and his assistance in every kind of need (whom God succors).",
+      "candidates": []
+    },
+    {
+      "id": 417,
+      "word": "Azariah",
+      "etym": "Heb .",
+      "mibDef": "help of Jehovah; whom Jah succors; whom Jehovah hath helped;",
+      "mibMeta": "That in man which realizes Jehovah as a very present and efficient deliverer and help at all times, whatever the need may be ( help of Jehovah, whom Jah succors, whom Jehovah aids). In II Chronicles 26:8-21 Azariah signifies the spiritual quality of strength. (See UZZIAH.) In II Chronicles 31:13 the",
+      "candidates": [
+        {
+          "s": "H5838",
+          "def": "Azarjah, the name of nineteen Israelites"
+        }
+      ]
+    },
+    {
+      "id": 418,
+      "word": "Azaz",
+      "etym": "Heb.",
+      "mibDef": "strong; mighty powerful.",
+      "mibMeta": "A realization and expression of strength and power (strong, mighty, powerful) . Strength and power are of spiritual origin. They can, however, be exercised either constructively or destructively, according to whether the thought held over them by the individual is spiritual or purely material and ph",
+      "candidates": []
+    },
+    {
+      "id": 419,
+      "word": "Azazel",
+      "etym": "Heb.",
+      "mibDef": "removal; scapegoat; a goat for going away.",
+      "mibMeta": "The two goats of Leviticus 16 signify the twofold operation in consciousness that attends the putting away of sin. Sacrificing one goat as a sin offering to Jehovah signifies the process of uplifting and refining the energies that lie back of all action and have been used to do evil. These energies ",
+      "candidates": []
+    },
+    {
+      "id": 420,
+      "word": "Azaziah",
+      "etym": "Heb.",
+      "mibDef": "Jehovah is mighty; Jah is strong; strengthened by Jehovah; strength",
+      "mibMeta": "The strength of the Lord expressed in and through man (strengthened by Jehovah ) as harmony (music) and as a conserver of spiritual substance in the body temple; also as an aid to the salvation (Hoshea) of the whole man.",
+      "candidates": []
+    },
+    {
+      "id": 421,
+      "word": "Azbuk",
+      "etym": "Heb.",
+      "mibDef": "strong devastation; mighty desolation.",
+      "mibMeta": "Strong denial of error (strong devastation, mighty desolation). Error, in thought and deed, must be dissolved by denial, that the consciousness and the organism may be built up in Truth. (Azbuk was the father of Nehemiah, who helped to rebuild the walls of Jerusalem after the return from the Babylon",
+      "candidates": []
+    },
+    {
+      "id": 422,
+      "word": "Azekah",
+      "etym": "Heb.",
+      "mibDef": "dug over; harrowed; tilled; broken up; loosened.",
+      "mibMeta": "A certain degree of cultivation or refinement of thought (dug over, harrowed, tilled ) that has taken place in the individual. This refinement of thought opens the way for a purification in consciousness, which in turn brings about a disruption of amicable relations with the carnal thoughts (Amorite",
+      "candidates": []
+    },
+    {
+      "id": 423,
+      "word": "Azgad",
+      "etym": "Heb.",
+      "mibDef": "Gad is mighty; strong troop; strong, organized body; strong fortune ; the",
+      "mibMeta": "Azgad, with his family, signifies a well-balanced mind in a well-balanced body (strong, organized troop or body). The thought of might, as well as that of sustenance and abundance, is also contained in that which Azgad signifies.",
+      "candidates": []
+    },
+    {
+      "id": 424,
+      "word": "Aziel",
+      "etym": "Heb.",
+      "mibDef": "strength of God; might of God; power of God.",
+      "mibMeta": "A thought of spiritual strength and power. (See JAAZIEL.)",
+      "candidates": []
+    },
+    {
+      "id": 425,
+      "word": "Aziza",
+      "etym": "Heb .",
+      "mibDef": "robust; strong.",
+      "mibMeta": "A belief in physical strength and energy ( robust , strong). This belief in individual consciousness is very likely to link itself with sensuous affections (a foreign wife) if it is not kept consciously centered in Spirit, the origin and sustaining power of all true vigor and strength. Azmaveth, az'",
+      "candidates": []
+    },
+    {
+      "id": 426,
+      "word": "Azmon",
+      "etym": "Heb .",
+      "mibDef": "strong of bone; strong of muscle; robust of body; numerous; strong in",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H6111",
+          "def": "Atsmon, a place near Palestine"
+        }
+      ]
+    },
+    {
+      "id": 427,
+      "word": "Aznoth-tabor",
+      "etym": "Heb.",
+      "mibDef": "peaks of Tabor; ears or peaks of Tabor; summits of",
+      "mibMeta": "A twofold realization (peaks of Tabor, two mountain peaks; a mountain always represents a high plane of consciousness or a state of spiritual exaltation and realization) of strength (Naphtali) through the recognition that all strength is spiritual. When the material thought is removed from the stren",
+      "candidates": []
+    },
+    {
+      "id": 428,
+      "word": "Azor",
+      "etym": "Gk.",
+      "mibDef": "helper.",
+      "mibMeta": "The God-inspired idea that man's true and all-efficient helper in all things pertaining to his life and well-being is Spirit. When man looks without for assistance, he looks away from the true Source of all his strength, understanding, life, love, substance, and good, which Source is within him. The",
+      "candidates": [
+        {
+          "s": "G107",
+          "def": "Azor, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 429,
+      "word": "Azotus",
+      "etym": "Gk.",
+      "mibDef": "fortress; castle.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 430,
+      "word": "Azriel",
+      "etym": "Heb.",
+      "mibDef": "my help is God; God is helper; help of God,",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 431,
+      "word": "Azrikam",
+      "etym": "Heb.",
+      "mibDef": "my help has risen; my help is firmly established; my help rises and",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H5840",
+          "def": "Azrikam, the name of four Israelites"
+        }
+      ]
+    },
+    {
+      "id": 432,
+      "word": "Azubah",
+      "etym": "Heb.",
+      "mibDef": "deserted: forsaken; ruins,",
+      "mibMeta": "The attitude of mind in us that is definite, unwavering, and to the point. Both strong and sharp it does not quibble over sense feelings or appearances; it is keen in its discernment, comes quickly to a well-defined decision, and abides by it.",
+      "candidates": [
+        {
+          "s": "H5806",
+          "def": "Azubah, the name of two Israelitesses"
+        }
+      ]
+    },
+    {
+      "id": 433,
+      "word": "Azzur",
+      "etym": "Heb.",
+      "mibDef": "helper.",
+      "mibMeta": "A certain perception of the truth that our help is spiritual (helper). This should assist in our true service to God and to man, and in our real overcoming in ourselves. This interpretation seems to be true of the first Azzur that we have mentioned. In the two latter instances where Azzur is spoken ",
+      "candidates": []
+    },
+    {
+      "id": 434,
+      "word": "Baal",
+      "etym": "Heb.",
+      "mibDef": "lord; master; possessor; owner; guardian; a husband; Jove; Jupiter; the",
+      "mibMeta": "Baal means lord, and it was the besetting sin of the ancient Hebrews to apply this title to things formed instead of the formless. This tendency is still prevalent, and not merely among the Hebrews. All concepts of God as less than universal mind are Baal. Those who believe in a personal god are Baa",
+      "candidates": [
+        {
+          "s": "H1168",
+          "def": "Baal, a Phoenician deity"
+        }
+      ]
+    },
+    {
+      "id": 435,
+      "word": "Baal worship",
+      "etym": "",
+      "mibDef": "Putting nature before God in earth, air, and water; giving the substance of mind",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1168",
+          "def": "Baal, a Phoenician deity"
+        }
+      ]
+    },
+    {
+      "id": 436,
+      "word": "Baal-berith (A. V.",
+      "etym": "Heb.",
+      "mibDef": "Baal of the covenant-",
+      "mibMeta": "This idol was known as the lord of the covenant, or guardian of the covenant, meaning the power that defends and guards agreements or compacts. Baal-berith symbolizes the belief that is so current in the world today— the belief that mortal man can make outer laws and enter agreements that will insur",
+      "candidates": []
+    },
+    {
+      "id": 437,
+      "word": "Baal-gad",
+      "etym": "Heb.",
+      "mibDef": "Gad is lord; the god of fortune is lord- lord of for tunes; possessor",
+      "mibMeta": "Lebanon means white, and represents pure thoughts. Mount Hermon (lofty, prominent, sacred mountain ) indicates a high, sublime state of mind. Baal-gad (Gad is lord, the god of fortune is lord, lord of fortunes), a city in the valley of Lebanon under Mount Hermon, signifies a realization of substance",
+      "candidates": []
+    },
+    {
+      "id": 438,
+      "word": "Baal-hanan",
+      "etym": "Heb.",
+      "mibDef": "Baal is gracious; possessor of compassion; lord of mercy.",
+      "mibMeta": "Grace, mercy, and kindliness as belonging to and being expressed by the outer man (Baal is gracious, possessor of compassion, lord of mercy). All these God qualities are expressed in measure by the outer physical and mental man, even before their true origin is understood to be spiritual. Until man ",
+      "candidates": []
+    },
+    {
+      "id": 439,
+      "word": "Baal-meon",
+      "etym": "Heb.",
+      "mibDef": "lord of habitations; place of dwellings; possessor of houses;",
+      "mibMeta": "Reuben means behold a son, vision of a son, and signifies understanding. Baal- meon (lord of habitations, possessor of the houses, lord of dwellings), a city of Reuben, represents understanding centered in the outer consciousness, understanding that still looks upon the manifest world and outer poss",
+      "candidates": []
+    },
+    {
+      "id": 440,
+      "word": "Baal-peor",
+      "etym": "Heb .",
+      "mibDef": "lord of the chasm; yawning place; lord of the opening.",
+      "mibMeta": "The exalting of sensuality. Baal-perazim, ba'-al-per'-a-z;m (Heb.) -lord of breaches; place of dispersions; place of sunderings; lord of destructions. A place where David gained a victory over the Philistines. \"And David came to Baal-perazim, and David smote them there; and he said, Jehovah hath bro",
+      "candidates": []
+    },
+    {
+      "id": 441,
+      "word": "Baal-shalishah",
+      "etym": "Heb.",
+      "mibDef": "lord of Shalishah; place of the triad, lord of the three.",
+      "mibMeta": "A thought center in the individual that exalts the outer man as prince or ruler (lord of Shalishah; Baal is that in man which looks upon outer forms and appearances as real and true, while Shalishah means third, triangular, threefold, triad, trinity). Triangular relates to a triangle, a three-sided ",
+      "candidates": []
+    },
+    {
+      "id": 442,
+      "word": "Baal-tamar",
+      "etym": "Heb ,",
+      "mibDef": "lord of the palms; place of palm trees; lord of the columns.",
+      "mibMeta": "Tamar means palm, or palm tree, and Baal is lord as applied to the outer formed world instead of formless Spirit. In olden times palm branches were carried before conquerors in celebration of their triumphs. Palms denote victory and resurrection. The palms in the hands of the multitude (Rev. 7:9) si",
+      "candidates": []
+    },
+    {
+      "id": 443,
+      "word": "Baal-zebub",
+      "etym": "Heb.",
+      "mibDef": "lord of flies; place infested with flies; possessed of flies.",
+      "mibMeta": "Man's belief in a personal devil. Baal-zebub, or Beelzebub, prince of demons, is not an adversary with outer form; evil is not originated by a personal devil, nor are evils thrust upon man from without, as so many people seem to think; Baal-zebub signifies the adverse belief in man that man has buil",
+      "candidates": []
+    },
+    {
+      "id": 444,
+      "word": "Baal-zephon",
+      "etym": "Heb.",
+      "mibDef": "lord ofTyphon; evil spirit of the Egyptians; place sacred",
+      "mibMeta": "Typhon is mythical, and means a monster. It is said that Phoenician sailors of old used to seek to pacify the god of the north wind whenever they began a trip down the Gulf of Suez. Baal-zephon ( lord of Typhon, evil spirit of the Egyptians, lord of the north wind, i. e., winter, a place in Egypt) s",
+      "candidates": []
+    },
+    {
+      "id": 445,
+      "word": "Baalah",
+      "etym": "Heb ,",
+      "mibDef": "lady; mistress; possessor; guardian; sorceress; citizenship; a citizen.",
+      "mibMeta": "An innate consciousness of authority and ownership in man, a consciousness that pertains to the feminine or affectional nature, the soul (mistress, possessor), and is expressed in the psychic and material to the point of idolatry. (See BAAL.)",
+      "candidates": [
+        {
+          "s": "H1173",
+          "def": "Baalah, the name of three places in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 446,
+      "word": "Baalath",
+      "etym": "Heb.",
+      "mibDef": "citizens; subjects; possessions; belonging to Baal; mistresses.",
+      "mibMeta": "Baal means lord, master, possessor, and pertains to the attributing of power and authority to the outer world of phenomena instead of recognizing Spirit as the one true source of all existence and of all prosperity and supply. Baalath represents the belief of the spiritually unawakened soul in man t",
+      "candidates": []
+    },
+    {
+      "id": 447,
+      "word": "Baale-judah",
+      "etym": "Heb.",
+      "mibDef": "lords of Judah; Baale of Judah; a citizen of Judea.",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 448,
+      "word": "Baalis",
+      "etym": "Heb.",
+      "mibDef": "this word has nothing to do with Baal; it is a contracted form of Ben-alis",
+      "mibMeta": "The ruling thought of the error state of consciousness that the Ammonites typify. Baalis refers especially to the exultation and rejoicing that take place in the sense consciousness of man when it seems to be in the ascendancy (in exultation, proudly exulting, insolently joyous); when for the time b",
+      "candidates": [
+        {
+          "s": "H1185",
+          "def": "Baalis, an Ammonitish king"
+        }
+      ]
+    },
+    {
+      "id": 449,
+      "word": "Baana",
+      "etym": "Heb.",
+      "mibDef": "son of affliction; son of wretchedness; son of oppression; son of",
+      "mibMeta": "An enduring attitude of mind —that which causes one to \"let patience have its perfect work,\" even while inharmony and error seem to abound in one's life and affairs ( son of affliction, son of humility, patient; the name of Israelitish men who did constructive work). This attitude of mind is the res",
+      "candidates": [
+        {
+          "s": "H1195",
+          "def": "Banana, the name of four Israelite"
+        }
+      ]
+    },
+    {
+      "id": 450,
+      "word": "Baanah",
+      "etym": "Heb.",
+      "mibDef": "son of affliction; son of grief .",
+      "mibMeta": "From the Bible history of the men named Baanah, we are shown how giving way to seeming affliction and sorrow works out greater evil in one's life, as in the case of the Baanah of II Samuel 4, who with his brother killed Ishbosheth the son of Saul, and was slain himself because of this act. On the ot",
+      "candidates": [
+        {
+          "s": "H1196",
+          "def": "Baanah, the name of four Israelites"
+        },
+        {
+          "s": "H1195",
+          "def": "Banana, the name of four Israelite"
+        }
+      ]
+    },
+    {
+      "id": 451,
+      "word": "Baara",
+      "etym": "Heb.",
+      "mibDef": "brutish; stupid; consumed with fire; burned up.",
+      "mibMeta": "A putting away of coarseness and dullness from the soul consciousness; this takes",
+      "candidates": [
+        {
+          "s": "H1199",
+          "def": "Baara, an Israelitish woman"
+        }
+      ]
+    },
+    {
+      "id": 452,
+      "word": "Baaseiah",
+      "etym": "Heb.",
+      "mibDef": "work of Jehovah; Jehovah's creation; labor of Jah.",
+      "mibMeta": "The knowledge of Jehovah as king (Malchijah, father of Baaseiah) brings forth the work of Jehovah, which Baaseiah represents, love's pressing or blending together thoughts of Truth (Baaseiah was of the Israelitish tribe of Levi, and Levi refers to the love faculty in man), resulting in a Godlike or ",
+      "candidates": []
+    },
+    {
+      "id": 453,
+      "word": "Baasha",
+      "etym": "Heb.",
+      "mibDef": "boldness; offensiveness; bad; vile; loathsome.",
+      "mibMeta": "A phase of the will in man (a king always relates to the will) that is aggressive and daring (boldness; of the tribe of Issachar, referring to active zeal). This phase of the will that Baasha represents seeks greater dominion and authority, but, because of being guided by sense consciousness instead",
+      "candidates": [
+        {
+          "s": "H1201",
+          "def": "Basha, a king of Israel"
+        }
+      ]
+    },
+    {
+      "id": 454,
+      "word": "babe",
+      "etym": "",
+      "mibDef": "ly, a new state of consciousness; innocent and childlike.",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1025",
+          "def": "an infant (properly, unborn) literally or figuratively"
+        },
+        {
+          "s": "H5288",
+          "def": "(concretely) a boy (as active), from the age of infancy to adolescence; by implication, a servant; also (by interch. of sex), a girl (of similar latitude in age)"
+        }
+      ]
+    },
+    {
+      "id": 455,
+      "word": "babe in Christ",
+      "etym": "",
+      "mibDef": "One whose face is turned toward the light, but who has not yet come into a deep",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G1025",
+          "def": "an infant (properly, unborn) literally or figuratively"
+        },
+        {
+          "s": "H5288",
+          "def": "(concretely) a boy (as active), from the age of infancy to adolescence; by implication, a servant; also (by interch. of sex), a girl (of similar latitude in age)"
+        }
+      ]
+    },
+    {
+      "id": 456,
+      "word": "Babel",
+      "etym": "Heb.",
+      "mibDef": "Babylonia; gate of Bel; court of Baal; confusion; chaos; vanity;",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 457,
+      "word": "Babylon",
+      "etym": "Gk.",
+      "mibDef": "from Babel; gate of Bel (Bel was the supreme deity in the Babylonian",
+      "mibMeta": "Confusion or mixture, outer confusion, sense confusion, mental confusion, a chaotic condition. There are times when we find ourselves in the confusion of the sense consciousness, and its thoughts are so strong that they seem to have us in complete subjugation. Such cases symbolize captivity in Babyl",
+      "candidates": [
+        {
+          "s": "H894",
+          "def": "Babel (i.e., Babylon), including Babylonia and the Babylonian empire"
+        },
+        {
+          "s": "G897",
+          "def": "Babylon, the capitol of Chaldaea (literally or figuratively (as a type of tyranny))"
+        },
+        {
+          "s": "H895",
+          "def": "Babel (i.e., Babylon), including Babylonia and the Babylonian empire"
+        }
+      ]
+    },
+    {
+      "id": 458,
+      "word": "back to the Father's house",
+      "etym": "",
+      "mibDef": "to spiritual understanding, realization, and manifestation, in some degree at",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H7725",
+          "def": "to turn back (hence, away) transitively or intransitively, literally or figuratively (not necessarily with the idea of return to the starting point); generally to retreat; often adverbial, again"
+        },
+        {
+          "s": "H268",
+          "def": "the hinder part; hence (adverb) behind, backward; also (as facing north) the West"
+        },
+        {
+          "s": "H2820",
+          "def": "to restrain or (reflexive) refrain; by implication, to refuse, spare, preserve; to observe"
+        },
+        {
+          "s": "H4513",
+          "def": "to debar (negatively or positively) from benefit or injury"
+        },
+        {
+          "s": "H1460",
+          "def": "the back"
+        }
+      ]
+    },
+    {
+      "id": 459,
+      "word": "Bahurim",
+      "etym": "Heb.",
+      "mibDef": "young men's village; choice young men; prime of manhood; young",
+      "mibMeta": "A consciousness of physical strength and power ( choice young men, , young warriors). Such a consciousness is excellent, but if it is not established in love and wisdom the result is strife and a tendency to do unwise things, for which one repents afterward; this is typified in the case of Shimei. O",
+      "candidates": []
+    },
+    {
+      "id": 460,
+      "word": "Bakbakkar",
+      "etym": "Heb.",
+      "mibDef": "diligent searcher; exceedingly pleasing. Due to the doubling of",
+      "mibMeta": "A thought belonging to the natural religious tendencies of man (a Levite), that is, of a character exceedingly investigating, examining, penetrating, seeking ( diligent searcher). This thought activity is founded in love (the Levites were descended from Levi, who represents the love faculty in indiv",
+      "candidates": []
+    },
+    {
+      "id": 461,
+      "word": "Bakbuk",
+      "etym": "Heb.",
+      "mibDef": "empty; poured out; wasted; hollow; a bottle; a flask.",
+      "mibMeta": "Many professing Christians are like this belief that Bakbuk, of the Nethinim, signifies. Their lives are as empty bottles, waste and hollow (empty, poured out, wasted, hollow, a bottle ), because while they have cleansed their minds and their body temples, to some degree at least, they have never la",
+      "candidates": []
+    },
+    {
+      "id": 462,
+      "word": "Bakbukiah",
+      "etym": "Heb.",
+      "mibDef": "pouring out (wasting) from Jehovah; wasted by Jah; emptying,",
+      "mibMeta": "A thought of service to and worship of God. It is one of the thoughts that help to guard the consciousness against error (he was a porter who kept watch at the gates). It is of a destructive character, tearing down and casting out ( emptying , wasting of Jehovah, destruction by Jehovah); it watches ",
+      "candidates": [
+        {
+          "s": "H1229",
+          "def": "Bakbukjah, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 463,
+      "word": "Balaam",
+      "etym": "Heb.",
+      "mibDef": "lord of the people; destruction of the people; a pilgrim; & foreigner; a",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1109",
+          "def": "Bilam, a Mesopotamian prophet"
+        },
+        {
+          "s": "G903",
+          "def": "Balaam, a Mesopotamian (symbolic of a false teacher)"
+        }
+      ]
+    },
+    {
+      "id": 464,
+      "word": "Baladan",
+      "etym": "Bab.",
+      "mibDef": "Baal is his lord; worshiper of Bel; having power.",
+      "mibMeta": "The Chaldeans belong to the psychical realm of consciousness in man. Babylon symbolizes confusion. Baladan (having power ) signifies a certain psychical (Chaldean) power in man's consciousness; it lacks true spiritual judgment (Baal is his, lord; worshiper of Bel), though it reflects some borrowed l",
+      "candidates": []
+    },
+    {
+      "id": 465,
+      "word": "Balah",
+      "etym": "Heb .",
+      "mibDef": "trembling; terrified; withered; worn out; exhausted; decayed; old .",
+      "mibMeta": "A group of thoughts in man that is formed by the belief that evil is real and is powerful, and that life is limited. Fear, weakness, old age, and decay are the result of this error belief ( trembling , terrified, exhausted, withered, old); it must be redeemed by the thoughts that hear and obey the v",
+      "candidates": []
+    },
+    {
+      "id": 466,
+      "word": "balanced by some of the other faculties of the mind",
+      "etym": "",
+      "mibDef": "love, order, and the like— they al e likely to bring",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 467,
+      "word": "Bamah",
+      "etym": "Heb.",
+      "mibDef": "high place; height; stronghold; hill-chapel; tabernacle; place of",
+      "mibMeta": "The mentality, or intellect, of man given over to exaltation (high place, height, stronghold, place of worship) of the world of sense and materiality.",
+      "candidates": [
+        {
+          "s": "H1117",
+          "def": "Bamah, a place in Palestine"
+        }
+      ]
+    },
+    {
+      "id": 468,
+      "word": "Bamoth",
+      "etym": "Heb.",
+      "mibDef": "high places; heights; sepulchral mound; hill chapels.",
+      "mibMeta": "Amon refers to the life current in man, and Bamoth, or Bamoth-baal (the height or sanctuary of Baal) signifies the exaltation of carnality. In other words, Bamoth symbolizes the honor and the veneration (worship) that the carnal mind (Moab) gives to the life forces for use in sensuality. No idol is ",
+      "candidates": [
+        {
+          "s": "H1120",
+          "def": "Bamoth or Bamoth-Baal, a place East of the Jordan"
+        }
+      ]
+    },
+    {
+      "id": 469,
+      "word": "Bamoth-baal",
+      "etym": "Heb.",
+      "mibDef": "heights of Baal; temples of Baal.",
+      "mibMeta": "See BAMOTH.",
+      "candidates": []
+    },
+    {
+      "id": 470,
+      "word": "Bani",
+      "etym": "Heb.",
+      "mibDef": "built; begotten; emanated; a son; posterity.",
+      "mibMeta": "Constructive thoughts in consciousness (built; the name of Israelitish men). These thoughts are of God, of Truth (begotten, emanated, a son), and, because of the spiritual qualities of love, praise, discernment, wisdom, substance, bounty, and strength that enter into them, they build and preserve to",
+      "candidates": [
+        {
+          "s": "H1137",
+          "def": "Bani, the name of five Israelites"
+        }
+      ]
+    },
+    {
+      "id": 471,
+      "word": "baptism",
+      "etym": "",
+      "mibDef": "The great initial outpouring of Spirit that took place more than nineteen",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "G908",
+          "def": "baptism (technically or figuratively)"
+        }
+      ]
+    },
+    {
+      "id": 472,
+      "word": "baptism",
+      "etym": "",
+      "mibDef": "A quickening of the spiritual nature that is reflected in mind and body.",
+      "mibMeta": "The adverse consciousness (rebellion and hatred) to which man gives himself when he allows himself to oppose the Christ. Man gives free rein to this adverse consciousness when he would destroy the Christ, or true spiritual I AM in himself, since it is through Christ alone that an overcoming can be g",
+      "candidates": [
+        {
+          "s": "G908",
+          "def": "baptism (technically or figuratively)"
+        }
+      ]
+    },
+    {
+      "id": 473,
+      "word": "Bar-Jesus",
+      "etym": "Gk.",
+      "mibDef": "son of Jesus; son of Joshua.",
+      "mibMeta": "See ELYMAS.",
+      "candidates": []
+    },
+    {
+      "id": 474,
+      "word": "Bar-Jonah (A. V.",
+      "etym": "Heb.",
+      "mibDef": "son of Jonah; son of Johanan; son of Jonas.",
+      "mibMeta": "The inner sight (faith) acting in consciousness through peace and love. (Peter represents the faith faculty in man; Jonah means a dove, which signifies peace; John stands for love. In John 21:15-17 Jesus said three times to Peter, \"Simon, son of John,\" and John is a form of Johanan. See PETER.) Bark",
+      "candidates": []
+    },
+    {
+      "id": 475,
+      "word": "Barachel",
+      "etym": "Heb .",
+      "mibDef": "God doth bless; blessed of God; prospered of God; peace of God;",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1292",
+          "def": "Barakel, the father of one of Job's friends"
+        }
+      ]
+    },
+    {
+      "id": 476,
+      "word": "Barachiah (A. V.",
+      "etym": "Gk .",
+      "mibDef": "blessed of Jah; prospered of .Jehovah; whom",
+      "mibMeta": "A humbling or prostrating of the outer sense thoughts and activities that the inner Christ, or I AM, may be given first place in consciousness; a consecrated attitude of mind ( blessed of Jah; father of an Israelitish prophet).",
+      "candidates": []
+    },
+    {
+      "id": 477,
+      "word": "Barak",
+      "etym": "Heb .",
+      "mibDef": "lightning flash; lightning; a thunderbolt; a flaming sword; a glittering",
+      "mibMeta": "The fiery executiveness of an active will (lightning; the man who executed Deborah's command to deliver Israel) . In an untrained state it leads men into all sorts of involved conditions. When we meet with apparent failure, it is not owing to the fact that the task is too great but because we do not",
+      "candidates": [
+        {
+          "s": "H1301",
+          "def": "Barak, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 478,
+      "word": "Bariah",
+      "etym": "Heb.",
+      "mibDef": "fugitive.",
+      "mibMeta": "A quality of mind that is bom into consciousness through the activity of divine inspiration (the name of his father, Shemaiah, means Jehovah hears, or harkening unto Jah), but is not established, as yet-it is transient (fugitive).",
+      "candidates": []
+    },
+    {
+      "id": 479,
+      "word": "Barnabas",
+      "etym": "Gk. from Heb.",
+      "mibDef": "son of exhortation; son of divinely inspired speech, (i.",
+      "mibMeta": "In Acts 4:36, 37, and 11:22-30, Joseph represents the imagination brought into expression through association with the word (Paul). The apostles renamed him Barnabas, which they interpret in the text to mean \"Son of exhortation.\" As the imagination is the molder of the flexible substance of mind, so",
+      "candidates": [
+        {
+          "s": "G921",
+          "def": "son of Nabas (i.e., prophecy); Barnabas, an Israelite"
+        }
+      ]
+    },
+    {
+      "id": 480,
+      "word": "Bartholomew",
+      "etym": "Gk. from Heb.",
+      "mibDef": "son ofTolmai; son of the furrowed; son of the",
+      "mibMeta": "The faculty of imagination. He is called Nathanael, in the 1st chapter of John, where Jesus saw him under the fig tree. The inference here is that Jesus discerned Nathanael's presence before the latter came into visibility. Bartim/Eus. bar-tl-m/E'-us (Gk. from Heb.)— son of Tim/Eus; son of pollution",
+      "candidates": []
+    },
+    {
+      "id": 481,
+      "word": "Baruch",
+      "etym": "Heb.",
+      "mibDef": "blessed; prospered (of God); who is blessed.",
+      "mibMeta": "Baruch means one upon whom blessings are poured. In man's consciousness he represents the thought or inner word of Spirit, which is transmitted from the spiritual consciousness, through the nerves, to the outer consciousness.",
+      "candidates": [
+        {
+          "s": "H1263",
+          "def": "Baruk, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 482,
+      "word": "Barzillai",
+      "etym": "Heb.",
+      "mibDef": "iron; man of iron; strong; transfixed; pierced; an iron tool to",
+      "mibMeta": "Physical strength (strong). There is a material aspect to the physical which, if held to and believed in, makes one hard and unyielding in one's strength (man of iron). Such a consciousness of strength becomes a tool that transfixes, pierces, and carries before it everything that in any way contacts",
+      "candidates": [
+        {
+          "s": "H1271",
+          "def": "Barzillai, the name of three Israelites"
+        }
+      ]
+    },
+    {
+      "id": 483,
+      "word": "Basemath (A. V.",
+      "etym": "Heb .",
+      "mibDef": "fragrant; aromatic; spicy; sweet; pleasant.",
+      "mibMeta": "The soul, or feminine, in man, in its fineness of ability to perceive, or to receive intuitively (fragrant, aromatic, pleasant; the sense of smell bespeaks perception, discrimination, intuition), spiritual understanding and guidance. Even the soul in its seemingly material aspect is intuitive, and i",
+      "candidates": []
+    },
+    {
+      "id": 484,
+      "word": "Bashan",
+      "etym": "Heb.",
+      "mibDef": "light, sandy soil; smooth, fertile soil; fruitful.",
+      "mibMeta": "Life and substance, inexhaustible and limitless (smooth, fertile soil, fruitful) when the animal forces (herds) are properly directed and handled by the understanding (half tribe of Manasseh to whom the land of Bashan was assigned). baskets. The twelve baskets of John 6:13 signify a fullness and com",
+      "candidates": [
+        {
+          "s": "H1316",
+          "def": "Bashan (often with the article), a region East of the Jordan"
+        }
+      ]
+    },
+    {
+      "id": 485,
+      "word": "Bath-rabbim",
+      "etym": "Heb.",
+      "mibDef": "daughter of many; daughter of a multitude; daughter of",
+      "mibMeta": "\"Thine eyes as the pools in Heshbon, By the gate of Bath-rabbim.\" Solomon is speaking here to his beloved; the symbolism is of Christ and His bride, or the divine masculine (wisdom) in individual consciousness, in its attitude toward love (the true spiritual feminine). In olden times gates were publ",
+      "candidates": []
+    },
+    {
+      "id": 486,
+      "word": "Bath-sheba",
+      "etym": "Heb.",
+      "mibDef": "daughter of the oath; seventh daughter; daughter of seven;",
+      "mibMeta": "Fulfillment (seventh daughter, daughter of the oath). As David united to Bath- sheba brought forth Solomon, so love in its fulfillment, or completion, establishes peace. (Seven is the number that represents fulfillment and rest. God \"rested on the seventh day from all his work which he had made,\" or",
+      "candidates": []
+    },
+    {
+      "id": 487,
+      "word": "Bath-shua",
+      "etym": "Heb .",
+      "mibDef": "daughter of opulence; daughter of riches; daughter of prosperity;",
+      "mibMeta": "This form of the name Bath-sheba signifies that the fulfilling (accomplishing or carrying out in thought and practice) of love in consciousness is directly related to richly prosperous conditions in mind and affairs. Owing to the softening of the sounds, Bath-shua takes on a more spiritual quality t",
+      "candidates": []
+    },
+    {
+      "id": 488,
+      "word": "Bavvai (A. V.",
+      "etym": "Heb. from Pers.",
+      "mibDef": "desires; wishes; with the desire of God.",
+      "mibMeta": "Desire for the good and the true (wisher wishes; an Israelite). Such desires aid in building soul and body into higher and more spiritual expression and manifestation. Bayith (A. V., Bajith), ba'-y;th (Heb.) -house, dwelling; temple. It is only through association that this word takes on its negativ",
+      "candidates": []
+    },
+    {
+      "id": 489,
+      "word": "Bazlith",
+      "etym": "Heb.",
+      "mibDef": "stripping; peeling; nakedness; asking.",
+      "mibMeta": "Bazlith and his children belong to the letting-go or \"denial\" phase of the mind in its work of rebuilding soul and body in Truth (stripping nakedness asking). The rebuilding of the walls of Jerusalem and of the Temple by the returned Jews after the Babylonian captivity typifies the reconstruction of",
+      "candidates": []
+    },
+    {
+      "id": 490,
+      "word": "be the man",
+      "etym": "",
+      "mibDef": "which makes what we",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H1961",
+          "def": "to exist, i.e., be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+        },
+        {
+          "s": "G2071",
+          "def": "will be"
+        },
+        {
+          "s": "G1096",
+          "def": "to cause to be (\"gen\"-erate), i.e., (reflexively) to become (come into being), used with great latitude (literal, figurative, intensive, etc.)"
+        },
+        {
+          "s": "H2930",
+          "def": "to be foul, especially in a ceremial or moral sense (contaminated)"
+        },
+        {
+          "s": "H4191",
+          "def": "to die (literally or figuratively); causatively, to kill"
+        }
+      ]
+    },
+    {
+      "id": 491,
+      "word": "Be-eshterah (A. V.",
+      "etym": "Heb.",
+      "mibDef": "house of Ashtoreth; house of Ashterah;",
+      "mibMeta": "A state of consciousness in man that houses (shelters and protects) intellectual beliefs in the reality of the outer formed world, and in carnal sensations and pleasures. This city, being allotted to Manasseh (understanding) and given over to Levi (love), signifies that by means of an awakening to a",
+      "candidates": []
+    },
+    {
+      "id": 492,
+      "word": "Bealiah",
+      "etym": "Heb.",
+      "mibDef": "whose l or d is Jehovah; Jehovah is Lord; Jah is Lord; Baal",
+      "mibMeta": "Fallows says that the names of Baal and Jah are both contained in the name Bealiah. This denotes both the inner and the outer, the inner spiritual man Jehovah, or Christ, and the outer formed creation. Each is all right in its place. The outer formed world of phenomena, however, should be understood",
+      "candidates": []
+    },
+    {
+      "id": 493,
+      "word": "Bealoth (A. V.",
+      "etym": "Heb.",
+      "mibDef": "ladies; mistresses; citizens.",
+      "mibMeta": "A state of consciousness belonging to the subconscious realm of mind in the individual (a city of Judah \"in the South\" suggests this), and working toward expression in the body consciousness and the body (toward Edom, Edom representing the physical body and the phase of thought that belongs to it). ",
+      "candidates": []
+    },
+    {
+      "id": 494,
+      "word": "beatitudes",
+      "etym": "",
+      "mibDef": "Jesus in exaltation is blessing spiritual man with the attributes of God and also",
+      "mibMeta": "",
+      "candidates": []
+    },
+    {
+      "id": 495,
+      "word": "beauty",
+      "etym": "",
+      "mibDef": "The loveliness of God beheld in His creations by the eye of man. Spiritual man",
+      "mibMeta": "",
+      "candidates": [
+        {
+          "s": "H8597",
+          "def": "ornament (abstractly or concretely, literally or figuratively)"
+        },
+        {
+          "s": "H3308",
+          "def": "beauty"
+        },
+        {
+          "s": "H1927",
+          "def": "decoration"
+        },
+        {
+          "s": "H6643",
+          "def": "splendor (as conspicuous)"
+        },
+        {
+          "s": "H5278",
+          "def": "agreeableness, i.e., delight, suitableness, splendor or grace"
+        }
+      ]
+    },
+    {
+      "id": 496,
+      "word": "Bebai",
+      "etym": "Heb. from Pers .",
+      "mibDef": "fatherly",
+      "mibMeta": "The fatherly quality that must have its place in every true spiritual thought in us that we would not have devoid of fruitfulness. In other words, that our true impulses and convictions may really bring forth fruit, we must recognize them as being our own children, the offspring of the Spirit of tru",
+      "candidates": []
+    },
+    {
+      "id": 497,
+      "word": "Becher",
+      "etym": "Heb.",
+      "mibDef": "early; first fruits; first-born; birthright; youth; firstling; young camel.",
+      "mibMeta": "Faith's first-born, first fruits, or first bringing forth of positive, upbuilding thoughts. Benjamin stands for the quality of faith in man's consciousness. Bela, Benjamin's eldest son,",
+      "candidates": []
+    },
+    {
+      "id": 498,
+      "word": "Becherites (A. V.",
+      "etym": "Heb.",
+      "mibDef": "belonging to Becher.",
+      "mibMeta": "Thoughts belonging to the Becher consciousness. (See BECHER.)",
+      "candidates": []
+    },
+    {
+      "id": 499,
+      "word": "Becorath (A.V.",
+      "etym": "Heb ■",
+      "mibDef": "first birth; first-born; seniority; primogeniture;",
+      "mibMeta": "A conception of sonship (first birth, first-born, birthright, primogeniture) .",
+      "candidates": []
+    }
+  ]
+}
