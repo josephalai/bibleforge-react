@@ -4,7 +4,10 @@
  */
 
 const path = require('path');
-const mib = require(path.join(__dirname, 'metaphysical-bible-dictionary.json'));
+// Production: file copied into server/data/ by Dockerfile
+// Dev: MIB_PATH env var points to the mounted custom-resources location
+const mibPath = process.env.MIB_PATH || path.join(__dirname, 'metaphysical-bible-dictionary.json');
+const mib = require(mibPath);
 
 function normalize(word) {
   return word.replace(/[^a-z0-9\s-]/gi, '').trim().toLowerCase();

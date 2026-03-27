@@ -22,13 +22,14 @@ services:
     working_dir: /app
     volumes:
       - ./server:/app
-      - ./custom-resources/metaphysical-bible-dictionary.json:/app/data/metaphysical-bible-dictionary.json:ro
+      - ./custom-resources:/app/custom-resources:ro
       - server_modules:/app/node_modules
     command: sh -c "npm install && npm run dev"
     ports:
       - "${APP_PORT:-6101}:${APP_PORT:-6101}"
     environment:
       PORT: ${APP_PORT:-6101}
+      MIB_PATH: /app/custom-resources/metaphysical-bible-dictionary.json
       DB_HOST: db
       DB_PORT: 3306
       DB_USER: bibleforge
