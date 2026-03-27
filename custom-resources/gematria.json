@@ -1,0 +1,399 @@
+{
+  "suares_cipher_of_genesis": {
+    "description": "A comprehensive database of the Qabalistic Code letter-numbers, detailing their symbols, numerical values, structural formulas, and ontological meanings as interpreted by Carlo Suarès.",
+    "structural_levels": {
+      "Archetypes": "Numbers 1 to 9 represent the archetypes or templates.",
+      "Existences": "Numbers 10 to 90 describe the process of the archetypes in their factual, conditioned existence and physical form.",
+      "Cosmic": "Numbers 100 to 900 represent the exalted archetypes in their cosmic manifestation."
+    },
+    "autiot_symbols": [
+      {
+        "symbol": "Aleph",
+        "hebrew_character": "א",
+        "numerical_value": 1,
+        "level": "Archetype",
+        "formula": {
+          "spelled_as": "Aleph-Lammed-Phay",
+          "spelled_array": ["Aleph", "Lammed", "Phay"],
+          "hebrew_array": ["א", "ל", "פ"],
+          "numerical_breakdown": [1, 30, 80]
+        },
+        "meaning": "The unthinkable life-death, abstract principle of all that is and all that is not. It is the creative immanence, spontaneous, always fresh and new; imperishable pulsation of life.",
+        "imagery": "A hammering of the invisible world and the march of time. An intermittent spark or discontinuous pulsation buried in all containers.",
+        "connections": [
+          {"target": "Yod (10)", "relationship": "Yod is the projection of Aleph into temporal continuity; they are partners playing the game of life versus existence."},
+          {"target": "Qof (100)", "relationship": "Qof is Aleph exalted in its principle, cosmically deathless."}
+        ]
+      },
+      {
+        "symbol": "Bayt (Vayt)",
+        "hebrew_character": "ב",
+        "numerical_value": 2,
+        "level": "Archetype",
+        "formula": {
+          "spelled_as": "Bayt-Yod-Tav",
+          "spelled_array": ["Bayt", "Yod", "Tav"],
+          "hebrew_array": ["ב", "י", "ת"],
+          "numerical_breakdown": [2, 10, 400]
+        },
+        "meaning": "The archetype of all 'dwellings' and containers. It is the physical support without which nothing is. It represents the conditioning of life and the life of the conditioning.",
+        "imagery": "The protective shell, the body, or the house that contains our consciousness.",
+        "connections": [
+          {"target": "Kaf (20)", "relationship": "Kaf is the archetype of Bayt-in-existence, ready to receive all that comes."},
+          {"target": "Raysh (200)", "relationship": "Raysh is the cosmic container of all existence."}
+        ]
+      },
+      {
+        "symbol": "Ghimel",
+        "hebrew_character": "ג",
+        "numerical_value": 3,
+        "level": "Archetype",
+        "formula": {
+          "spelled_as": "Ghimel-Mem-Lammed",
+          "spelled_array": ["Ghimel", "Mem", "Lammed"],
+          "hebrew_array": ["ג", "מ", "ל"],
+          "numerical_breakdown": [3, 40, 30]
+        },
+        "meaning": "The organic movement of every Bayt animated by Aleph.",
+        "imagery": "Uncontrolled functional action and the organic motion within containers.",
+        "connections": [
+          {"target": "Lammed (30)", "relationship": "Lammed is the controlled connecting agent of this movement."},
+          {"target": "Sheen (300)", "relationship": "Sheen is the universal, progressive enlargement of this movement into cosmic breath."}
+        ]
+      },
+      {
+        "symbol": "Dallet",
+        "hebrew_character": "ד",
+        "numerical_value": 4,
+        "level": "Archetype",
+        "formula": {
+          "spelled_as": "Dallet-Lammed-Tav",
+          "spelled_array": ["Dallet", "Lammed", "Tav"],
+          "hebrew_array": ["ד", "ל", "ת"],
+          "numerical_breakdown": [4, 30, 400]
+        },
+        "meaning": "The physical existence and response to life. In inorganic structures, it acts as its own resistance to destruction.",
+        "imagery": "The physical resistance of structures that protects the life inside.",
+        "connections": [
+          {"target": "Mem (40)", "relationship": "Mem provides the maternal waters where this resistance finds its origin."},
+          {"target": "Tav (400)", "relationship": "Tav is the ultimate exaltation of this cosmic resistance to life-death."}
+        ]
+      },
+      {
+        "symbol": "Hay",
+        "hebrew_character": "ה",
+        "numerical_value": 5,
+        "level": "Archetype",
+        "formula": {
+          "spelled_as": "Hay",
+          "spelled_array": ["Hay"],
+          "hebrew_array": ["ה"],
+          "numerical_breakdown": [5]
+        },
+        "meaning": "The archetype of universal life. When conferred upon Dallet, it initiates the game of existence.",
+        "imagery": "The breath of universal life uniting with intermittent life-death.",
+        "connections": [
+          {"target": "Noun (50)", "relationship": "Noun is universal life condensed into individual existences."},
+          {"target": "Final Kaf (500)", "relationship": "Final Kaf is universal life exalted cosmically in human beings."}
+        ]
+      },
+      {
+        "symbol": "Waw (Vav)",
+        "hebrew_character": "ו",
+        "numerical_value": 6,
+        "level": "Archetype",
+        "formula": {
+          "spelled_as": "Waw-Waw",
+          "spelled_array": ["Waw", "Waw"],
+          "hebrew_array": ["ו", "ו"],
+          "numerical_breakdown": [6, 6]
+        },
+        "meaning": "The male fertilizing agent that impregnates, acting as the direct result of Hay upon Dallet.",
+        "imagery": "The connecting agent or copulative link maintaining grammatical and cosmic connections.",
+        "connections": [
+          {"target": "Sammekh (60)", "relationship": "Sammekh acts as the female counterpart to Waw's male fertility."},
+          {"target": "Final Mem (600)", "relationship": "Final Mem is the cosmic achievement of this fruitfulness."}
+        ]
+      },
+      {
+        "symbol": "Zayn",
+        "hebrew_character": "ז",
+        "numerical_value": 7,
+        "level": "Archetype",
+        "formula": {
+          "spelled_as": "Zayn-Yod-Noun",
+          "spelled_array": ["Zayn", "Yod", "Noun"],
+          "hebrew_array": ["ז", "י", "נ"],
+          "numerical_breakdown": [7, 10, 50]
+        },
+        "meaning": "The achievement of vital impregnation, opening the field of every possible possibility.",
+        "imagery": "A dynamic opening toward infinite potentials, acting against static existence.",
+        "connections": [
+          {"target": "Ayn (70)", "relationship": "Ayn is the source and vision of these possibilities."},
+          {"target": "Final Noun (700)", "relationship": "Final Noun exalts this into the cosmic principle of indetermination."}
+        ]
+      },
+      {
+        "symbol": "Hhayt",
+        "hebrew_character": "ח",
+        "numerical_value": 8,
+        "level": "Archetype",
+        "formula": {
+          "spelled_as": "Hhayt-Yod-Tav",
+          "spelled_array": ["Hhayt", "Yod", "Tav"],
+          "hebrew_array": ["ח", "י", "ת"],
+          "numerical_breakdown": [8, 10, 400]
+        },
+        "meaning": "The sphere of storage for all undifferentiated energy and unstructured substance.",
+        "imagery": "The most unevolved state of energy, acting as a primordial reservoir.",
+        "connections": [
+          {"target": "Phay (80)", "relationship": "Phay is the existential manifestation of this primordial substance."},
+          {"target": "Final Phay (800)", "relationship": "Final Phay is the cosmic reserve of this unstructured energy."}
+        ]
+      },
+      {
+        "symbol": "Tayt",
+        "hebrew_character": "ט",
+        "numerical_value": 9,
+        "level": "Archetype",
+        "formula": {
+          "spelled_as": "Tayt-Yod-Tav",
+          "spelled_array": ["Tayt", "Yod", "Tav"],
+          "hebrew_array": ["ט", "י", "ת"],
+          "numerical_breakdown": [9, 10, 400]
+        },
+        "meaning": "The archetype of the primeval female energy, which draws life from Hhayt to build structures.",
+        "imagery": "The simplest, most primitive cell constructing organized forms.",
+        "connections": [
+          {"target": "Tsadde (90)", "relationship": "Tsadde is the existential progression of this female structural energy."},
+          {"target": "Final Tsadde (900)", "relationship": "Final Tsadde represents the transfigured, cosmic symbols of womanhood."}
+        ]
+      },
+      {
+        "symbol": "Yod",
+        "hebrew_character": "י",
+        "numerical_value": 10,
+        "level": "Existence",
+        "formula": {
+          "spelled_as": "Yod-Waw-Dallet",
+          "spelled_array": ["Yod", "Waw", "Dallet"],
+          "hebrew_array": ["י", "ו", "ד"],
+          "numerical_breakdown": [10, 6, 4]
+        },
+        "meaning": "Existence which both betrays and satisfies life. It provides continuity in the duration of that which duration destroys.",
+        "imagery": "The hand; the temporal projection of Aleph playing the perpetual game of existence against timelessness.",
+        "connections": [
+          {"target": "Aleph (1)", "relationship": "Yod is Aleph's opposite, capturing it in finite time and space."}
+        ]
+      },
+      {
+        "symbol": "Kaf (Khaf)",
+        "hebrew_character": "כ",
+        "numerical_value": 20,
+        "level": "Existence",
+        "formula": {
+          "spelled_as": "Kaf-Phay",
+          "spelled_array": ["Kaf", "Phay"],
+          "hebrew_array": ["כ", "פ"],
+          "numerical_breakdown": [20, 80]
+        },
+        "meaning": "The archetype of Bayt-in-existence; the capacity to receive all that comes.",
+        "imagery": "The hollow of the hand, prepared to hold or shape physical reality."
+      },
+      {
+        "symbol": "Lammed",
+        "hebrew_character": "ל",
+        "numerical_value": 30,
+        "level": "Existence",
+        "formula": {
+          "spelled_as": "Lammed-Mem-Dallet",
+          "spelled_array": ["Lammed", "Mem", "Dallet"],
+          "hebrew_array": ["ל", "מ", "ד"],
+          "numerical_breakdown": [30, 40, 4]
+        },
+        "meaning": "The controlled connecting agent linking organic movement.",
+        "imagery": "Functional, physiological movement translating energy into structural action."
+      },
+      {
+        "symbol": "Mem",
+        "hebrew_character": "מ",
+        "numerical_value": 40,
+        "level": "Existence",
+        "formula": {
+          "spelled_as": "Mem-Mem",
+          "spelled_array": ["Mem", "Mem"],
+          "hebrew_array": ["מ", "מ"],
+          "numerical_breakdown": [40, 40]
+        },
+        "meaning": "The basic attribute of matter; the maternal waters where all life originates.",
+        "imagery": "A metamorphosis offering resistance to life, giving birth to living beings."
+      },
+      {
+        "symbol": "Noun",
+        "hebrew_character": "נ",
+        "numerical_value": 50,
+        "level": "Existence",
+        "formula": {
+          "spelled_as": "Noun-Waw-Noun",
+          "spelled_array": ["Noun", "Waw", "Noun"],
+          "hebrew_array": ["נ", "ו", "נ"],
+          "numerical_breakdown": [50, 6, 50]
+        },
+        "meaning": "Universal life (Hay) condensed into individual, factual existences.",
+        "imagery": "The seed or individualized spark of life functioning within a specific container."
+      },
+      {
+        "symbol": "Sammekh",
+        "hebrew_character": "ס",
+        "numerical_value": 60,
+        "level": "Existence",
+        "formula": {
+          "spelled_as": "Sammekh-Mem-Khaf",
+          "spelled_array": ["Sammekh", "Mem", "Khaf"],
+          "hebrew_array": ["ס", "מ", "כ"],
+          "numerical_breakdown": [60, 40, 20]
+        },
+        "meaning": "The female agent of fertility in existence.",
+        "imagery": "Fruitfulness enclosed within physical containers."
+      },
+      {
+        "symbol": "Ayn",
+        "hebrew_character": "ע",
+        "numerical_value": 70,
+        "level": "Existence",
+        "formula": {
+          "spelled_as": "Ayn-Yod-Noun",
+          "spelled_array": ["Ayn", "Yod", "Noun"],
+          "hebrew_array": ["ע", "י", "נ"],
+          "numerical_breakdown": [70, 10, 50]
+        },
+        "meaning": "The principle of indetermination and the source of vision.",
+        "imagery": "The eye; an opening that maintains every possible possibility of unfoldment against static bounds."
+      },
+      {
+        "symbol": "Phay (Pay)",
+        "hebrew_character": "פ",
+        "numerical_value": 80,
+        "level": "Existence",
+        "formula": {
+          "spelled_as": "Phay-Hay",
+          "spelled_array": ["Phay", "Hay"],
+          "hebrew_array": ["פ", "ה"],
+          "numerical_breakdown": [80, 5]
+        },
+        "meaning": "The existential sphere of undifferentiated energy and unstructured substance.",
+        "imagery": "The unformulated primal material operating within conditioned reality."
+      },
+      {
+        "symbol": "Tsadde",
+        "hebrew_character": "צ",
+        "numerical_value": 90,
+        "level": "Existence",
+        "formula": {
+          "spelled_as": "Tsadde-Dallet-Yod",
+          "spelled_array": ["Tsadde", "Dallet", "Yod"],
+          "hebrew_array": ["צ", "ד", "י"],
+          "numerical_breakdown": [90, 4, 10]
+        },
+        "meaning": "The progression ascending from primitive cells to complex structures.",
+        "imagery": "The construction of forms and the structural energy of womanhood."
+      },
+      {
+        "symbol": "Qof",
+        "hebrew_character": "ק",
+        "numerical_value": 100,
+        "level": "Cosmic",
+        "formula": {
+          "spelled_as": "Qof-Waw-Phay",
+          "spelled_array": ["Qof", "Waw", "Phay"],
+          "hebrew_array": ["ק", "ו", "פ"],
+          "numerical_breakdown": [100, 6, 80]
+        },
+        "meaning": "Aleph exalted in its principle yet acting through its projection, against itself, thereby becoming cosmically deathless.",
+        "imagery": "The mythical destroyer of illusions; cosmic timelessness blended with existence."
+      },
+      {
+        "symbol": "Raysh",
+        "hebrew_character": "ר",
+        "numerical_value": 200,
+        "level": "Cosmic",
+        "formula": {
+          "spelled_as": "Raysh-Yod-Sheen",
+          "spelled_array": ["Raysh", "Yod", "Sheen"],
+          "hebrew_array": ["ר", "י", "ש"],
+          "numerical_breakdown": [200, 10, 300]
+        },
+        "meaning": "The totality of the Universe, the cosmic dwelling of life retaining manifestation.",
+        "imagery": "Interstellar space, myriads of stars and planets acting as the physical support for Aleph."
+      },
+      {
+        "symbol": "Sheen (Seen)",
+        "hebrew_character": "ש",
+        "numerical_value": 300,
+        "level": "Cosmic",
+        "formula": {
+          "spelled_as": "Sheen-Yod-Noun",
+          "spelled_array": ["Sheen", "Yod", "Noun"],
+          "hebrew_array": ["ש", "י", "נ"],
+          "numerical_breakdown": [300, 10, 50]
+        },
+        "meaning": "The prodigious cosmic motion; the universal movement of everything that exists.",
+        "imagery": "A powerful breath or 'spirit of God' which vivifies, carries away, and acts as a cosmic steam roller against static structures."
+      },
+      {
+        "symbol": "Tav",
+        "hebrew_character": "ת",
+        "numerical_value": 400,
+        "level": "Cosmic",
+        "formula": {
+          "spelled_as": "Tav-Waw",
+          "spelled_array": ["Tav", "Waw"],
+          "hebrew_array": ["ת", "ו"],
+          "numerical_breakdown": [400, 6]
+        },
+        "meaning": "The cosmic resistance to the life-breath which animates it. Without it, life could not come into existence.",
+        "imagery": "The ultimate anvil of the resistant container holding the evolutionary process."
+      },
+      {
+        "symbol": "Final Kaf",
+        "hebrew_character": "ך",
+        "numerical_value": 500,
+        "level": "Cosmic",
+        "formula": null,
+        "meaning": "The cosmic exaltation of individual existence and universal life as they unfold in human beings."
+      },
+      {
+        "symbol": "Final Mem",
+        "hebrew_character": "ם",
+        "numerical_value": 600,
+        "level": "Cosmic",
+        "formula": null,
+        "meaning": "The cosmic achievement of fruitfulness in both the immaterial intelligence and the flesh."
+      },
+      {
+        "symbol": "Final Noun",
+        "hebrew_character": "ן",
+        "numerical_value": 700,
+        "level": "Cosmic",
+        "formula": null,
+        "meaning": "The first and ultimate principle at stake in the universe: the freedom of indetermination where life itself is at stake."
+      },
+      {
+        "symbol": "Final Phay",
+        "hebrew_character": "ף",
+        "numerical_value": 800,
+        "level": "Cosmic",
+        "formula": null,
+        "meaning": "The cosmic scale of primordial substance; the deepest unfathomed reserve of unstructured energy or unconscious darkness."
+      },
+      {
+        "symbol": "Final Tsadde",
+        "hebrew_character": "ץ",
+        "numerical_value": 900,
+        "level": "Cosmic",
+        "formula": null,
+        "meaning": "The transfigured and exalted symbols of womanhood, both social and mythical."
+      }
+    ]
+  }
+}

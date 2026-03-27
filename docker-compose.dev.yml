@@ -30,6 +30,7 @@ services:
     environment:
       PORT: ${APP_PORT:-6101}
       MIB_PATH: /app/custom-resources/metaphysical-bible-dictionary.json
+      GEMATRIA_PATH: /app/custom-resources/gematria.json
       DB_HOST: db
       DB_PORT: 3306
       DB_USER: bibleforge

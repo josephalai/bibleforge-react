@@ -842,3 +842,170 @@ body.theme-dark {
 .mib-none {
   margin-top: 8px;
 }
+
+/* ── Gematria / Qabala section ── */
+.gematria-content {
+  font-size: 0.9rem;
+}
+
+.gematria-section-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+
+.gematria-word-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.gematria-full-word {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent);
+  direction: rtl;
+  letter-spacing: 0.05em;
+}
+
+.gematria-total-value {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.gematria-letters {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.gematria-letter-card {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.gematria-letter-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  background: var(--bg-secondary);
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s;
+}
+
+.gematria-letter-header:hover {
+  background: var(--bg-primary);
+}
+
+.gematria-char {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--accent);
+  width: 24px;
+  text-align: center;
+}
+
+.gematria-symbol {
+  flex: 1;
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.gematria-value {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--accent);
+  min-width: 32px;
+  text-align: right;
+}
+
+.gematria-level {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.gematria-chevron {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  margin-left: 2px;
+}
+
+.gematria-letter-body {
+  padding: 8px 12px 10px;
+  background: var(--bg-primary);
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.gematria-meaning {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--text-primary);
+  line-height: 1.55;
+}
+
+.gematria-imagery {
+  margin: 0;
+  font-size: 0.83rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.gematria-formula {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.gematria-formula-label {
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.gematria-formula-nums {
+  margin-left: 4px;
+  color: var(--accent);
+  opacity: 0.7;
+}
+
+.gematria-connections {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 2px;
+  padding-top: 6px;
+  border-top: 1px solid var(--border);
+}
+
+.gematria-connection {
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.gematria-connection-target {
+  font-weight: 600;
+  color: var(--accent);
+  opacity: 0.8;
+}
+
+.gematria-connection-rel {
+  color: var(--text-muted);
+  line-height: 1.4;
+}

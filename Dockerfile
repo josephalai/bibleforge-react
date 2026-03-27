@@ -15,8 +15,9 @@ COPY server/package.json server/package-lock.json ./
 RUN npm ci --omit=dev --ignore-scripts
 COPY server/ ./
 
-# Copy metaphysical bible dictionary into server/data
+# Copy data files into server/data
 COPY custom-resources/metaphysical-bible-dictionary.json ./data/
+COPY custom-resources/gematria.json ./data/
 
 # Copy built client files
 COPY --from=client-build /app/client/dist ./public

@@ -10,6 +10,7 @@ const bibleData = require("./data/bible");
 const books = require("./data/books");
 const { getDefinition } = require("./data/definitions");
 const { getMIBEntry } = require("./data/mib");
+const { getGematria } = require("./data/gematria");
 
 const app = express();
 const PORT = parseInt(process.env.PORT, 10) || 3001;
@@ -106,6 +107,15 @@ app.get("/api/search", async (req, res) => {
   // Fallback to embedded data
   const results = bibleData.searchVerses(q);
   res.json({ query: q, results });
+});
+
+// GET /api/gematria?word=אוֹר  (Hebrew word, nikud OK — stripped server-side)
+app.get("/api/gematria", (req, res) => {
+  const word = req.query.word;
+  if (!word) return res.status(400).json({ error: "word query param required" });
+  const result = getGematria(word);
+  if (result) return res.json(result);
+  res.status(404).json({ word, letters: [] });
 });
 
 // GET /api/metaphysical/:word?strongs=H216,G5457

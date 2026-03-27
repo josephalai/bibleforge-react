@@ -7,25 +7,72 @@ function loadToggles() {
     const saved = localStorage.getItem(TOGGLE_KEY)
     if (saved) return JSON.parse(saved)
   } catch {}
-  return { concordance: true, metaphysical: true }
+  return { concordance: true, metaphysical: true, gematria: true }
 }
 
 function saveToggles(t) {
   try { localStorage.setItem(TOGGLE_KEY, JSON.stringify(t)) } catch {}
 }
 
+// Expandable letter card for gematria breakdown
+function LetterCard({ letter }) {
+  const [open, setOpen] = useState(false)
+  return (
+    <div className="gematria-letter-card">
+      <button className="gematria-letter-header" onClick={() => setOpen(o => !o)}>
+        <span className="gematria-char">{letter.character}</span>
+        <span className="gematria-symbol">{letter.symbol}</span>
+        <span className="gematria-value">{letter.value}</span>
+        <span className="gematria-level">{letter.level}</span>
+        <span className="gematria-chevron">{open ? '▲' : '▼'}</span>
+      </button>
+      {open && (
+        <div className="gematria-letter-body">
+          {letter.meaning && (
+            <p className="gematria-meaning">{letter.meaning}</p>
+          )}
+          {letter.imagery && (
+            <p className="gematria-imagery"><em>{letter.imagery}</em></p>
+          )}
+          {letter.formula && (
+            <div className="gematria-formula">
+              <span className="gematria-formula-label">Spelled: </span>
+              {letter.formula.hebrew_array.join(' · ')}
+              <span className="gematria-formula-nums">
+                ({letter.formula.numerical_breakdown.join(' + ')} = {letter.formula.numerical_breakdown.reduce((a,b) => a+b, 0)})
+              </span>
+            </div>
+          )}
+          {letter.connections && letter.connections.length > 0 && (
+            <div className="gematria-connections">
+              {letter.connections.map((c, i) => (
+                <div key={i} className="gematria-connection">
+                  <span className="gematria-connection-target">{c.target}</span>
+                  <span className="gematria-connection-rel">{c.relationship}</span>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  )
+}
+
 function WordDefinition({ word, position, onClose, testament }) {
-  const [data, setData]       = useState(null)
-  const [mib, setMib]         = useState(null)
-  const [loading, setLoading] = useState(true)
-  const [toggles, setToggles] = useState(loadToggles)
-  const popupRef              = useRef(null)
+  const [data, setData]         = useState(null)
+  const [mib, setMib]           = useState(null)
+  const [gematria, setGematria] = useState(null)
+  const [loading, setLoading]   = useState(true)
+  const [toggles, setToggles]   = useState(loadToggles)
+  const popupRef                = useRef(null)
 
   useEffect(() => {
     if (!word) return
     setLoading(true)
     setData(null)
     setMib(null)
+    setGematria(null)
 
     const params = testament ? `?testament=${testament}` : ''
 
@@ -33,12 +80,22 @@ function WordDefinition({ word, position, onClose, testament }) {
       .then(res => res.json())
       .then(defResult => {
         setData(defResult)
-        return fetch(`/api/metaphysical/${encodeURIComponent(word)}`)
-          .then(res => res.ok ? res.json() : null)
-          .catch(() => null)
+
+        const hebrewWord = defResult?.concordance?.originalWord
+        const isHebrew   = defResult?.concordance?.language === 'Hebrew'
+
+        return Promise.all([
+          fetch(`/api/metaphysical/${encodeURIComponent(word)}`)
+            .then(res => res.ok ? res.json() : null).catch(() => null),
+          (isHebrew && hebrewWord)
+            ? fetch(`/api/gematria?word=${encodeURIComponent(hebrewWord)}`)
+                .then(res => res.ok ? res.json() : null).catch(() => null)
+            : Promise.resolve(null),
+        ])
       })
-      .then(mibResult => {
+      .then(([mibResult, gemResult]) => {
         if (mibResult?.word) setMib(mibResult)
+        if (gemResult?.letters?.length) setGematria(gemResult)
         setLoading(false)
       })
       .catch(() => setLoading(false))
@@ -68,11 +125,11 @@ function WordDefinition({ word, position, onClose, testament }) {
     })
   }
 
-  // Position the popup near the clicked word
+  // Position popup near clicked word
   const style = {}
   if (position) {
     style.position = 'fixed'
-    style.left = Math.min(position.x, window.innerWidth - 340)
+    style.left = Math.min(position.x, window.innerWidth - 380)
     style.top = position.y + 24
     if (position.y + 300 > window.innerHeight) {
       style.top = Math.max(10, position.y - 320)
@@ -83,6 +140,7 @@ function WordDefinition({ word, position, onClose, testament }) {
 
   const concordance = data?.concordance
   const definition  = data?.definition
+  const anyVisible  = toggles.concordance || toggles.metaphysical || toggles.gematria
 
   return (
     <div className="word-definition-popup" ref={popupRef} style={style}>
@@ -96,20 +154,16 @@ function WordDefinition({ word, position, onClose, testament }) {
       {/* ── Toggle bar ── */}
       <div className="popup-toggles">
         <label className="popup-toggle">
-          <input
-            type="checkbox"
-            checked={toggles.concordance}
-            onChange={() => toggle('concordance')}
-          />
+          <input type="checkbox" checked={toggles.concordance} onChange={() => toggle('concordance')} />
           <span>Concordance</span>
         </label>
         <label className="popup-toggle">
-          <input
-            type="checkbox"
-            checked={toggles.metaphysical}
-            onChange={() => toggle('metaphysical')}
-          />
+          <input type="checkbox" checked={toggles.metaphysical} onChange={() => toggle('metaphysical')} />
           <span>Metaphysical</span>
+        </label>
+        <label className="popup-toggle">
+          <input type="checkbox" checked={toggles.gematria} onChange={() => toggle('gematria')} />
+          <span>Gematria</span>
         </label>
       </div>
 
@@ -119,7 +173,7 @@ function WordDefinition({ word, position, onClose, testament }) {
           <span className="word-definition-loading">Looking up…</span>
         ) : (
           <>
-            {/* Concordance section */}
+            {/* ── Concordance ── */}
             {toggles.concordance && (
               concordance ? (
                 <div className="concordance-content">
@@ -161,32 +215,22 @@ function WordDefinition({ word, position, onClose, testament }) {
               )
             )}
 
-            {/* Divider between sections when both visible */}
+            {/* ── Metaphysical ── */}
             {toggles.concordance && toggles.metaphysical && (concordance || definition) && mib && (
               <div className="popup-section-divider" />
             )}
-
-            {/* Metaphysical section */}
             {toggles.metaphysical && (
               mib ? (
                 <div className="mib-content">
                   <div className="mib-section-label">Metaphysical Interpretation</div>
                   <div className="mib-header">
                     <span className="mib-word">{mib.word}</span>
-                    {mib.pronunciation && (
-                      <span className="mib-pronunciation">{mib.pronunciation}</span>
-                    )}
-                    {mib.etymology && (
-                      <span className="mib-etymology">{mib.etymology}</span>
-                    )}
+                    {mib.pronunciation && <span className="mib-pronunciation">{mib.pronunciation}</span>}
+                    {mib.etymology    && <span className="mib-etymology">{mib.etymology}</span>}
                   </div>
-                  {mib.definition && (
-                    <p className="mib-definition">{mib.definition}</p>
-                  )}
+                  {mib.definition && <p className="mib-definition">{mib.definition}</p>}
                   {(mib.metaphysical || mib.context) && (
-                    <p className="mib-metaphysical">
-                      {mib.metaphysical || mib.context}
-                    </p>
+                    <p className="mib-metaphysical">{mib.metaphysical || mib.context}</p>
                   )}
                   {mib.scriptureRefs && mib.scriptureRefs.length > 0 && (
                     <div className="mib-refs">
@@ -199,8 +243,31 @@ function WordDefinition({ word, position, onClose, testament }) {
               )
             )}
 
-            {/* Both sections hidden */}
-            {!toggles.concordance && !toggles.metaphysical && (
+            {/* ── Gematria / Qabala ── */}
+            {(toggles.metaphysical || toggles.concordance) && toggles.gematria && gematria && (
+              <div className="popup-section-divider" />
+            )}
+            {toggles.gematria && (
+              gematria ? (
+                <div className="gematria-content">
+                  <div className="gematria-section-label">Qabala · Gematria</div>
+                  <div className="gematria-word-row">
+                    <span className="gematria-full-word">{gematria.consonants}</span>
+                    <span className="gematria-total-value">= {gematria.totalValue}</span>
+                  </div>
+                  <div className="gematria-letters">
+                    {gematria.letters.map((letter, i) => (
+                      <LetterCard key={i} letter={letter} />
+                    ))}
+                  </div>
+                </div>
+              ) : concordance?.language === 'Hebrew' ? (
+                <p className="word-definition-none mib-none">No gematria data for this word.</p>
+              ) : null
+            )}
+
+            {/* All hidden */}
+            {!anyVisible && (
               <p className="word-definition-none">All sections hidden — use the toggles above.</p>
             )}
           </>
