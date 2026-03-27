@@ -15,6 +15,7 @@ const { getGematria } = require("./data/gematria");
 const cookieParser = require("cookie-parser");
 const authRoutes = require("./routes/auth");
 const versesRoutes = require("./routes/verses");
+const { concordanceRouter, rootsRouter, hebrewOriginRouter } = require("./routes/concordance");
 
 const app = express();
 const PORT = parseInt(process.env.PORT, 10) || 3001;
@@ -56,6 +57,11 @@ app.use("/api/auth", authRoutes);
 
 // Stars & Notes routes
 app.use("/api", versesRoutes);
+
+// Concordance, Roots, Hebrew-origin routes
+app.use("/api/concordance", concordanceRouter);
+app.use("/api/roots", rootsRouter);
+app.use("/api/hebrew-origin", hebrewOriginRouter);
 
 // GET /api/health
 app.get("/api/health", async (_req, res) => {

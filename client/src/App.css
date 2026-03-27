@@ -1695,3 +1695,268 @@ body.theme-dark {
     max-width: 100vw;
   }
 }
+
+/* ── Concordance Verse Search Results (Feature 6) ── */
+.concordance-action-btn {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  margin-top: 8px;
+  background: var(--accent-light);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  text-align: left;
+}
+
+.concordance-action-btn:hover:not(:disabled) {
+  background: var(--accent);
+  color: #fff;
+}
+
+.concordance-action-btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.concordance-verse-results {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.concordance-verse-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 100%;
+  padding: 8px 10px;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  background: none;
+  color: var(--text-primary);
+  text-align: left;
+  cursor: pointer;
+  font-size: 0.82rem;
+  transition: background 0.15s;
+}
+
+.concordance-verse-item:last-child {
+  border-bottom: none;
+}
+
+.concordance-verse-item:hover {
+  background: var(--accent-light);
+}
+
+.concordance-verse-ref {
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 0.78rem;
+}
+
+.concordance-verse-text {
+  color: var(--text-secondary);
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ── Hebrew Origin (Feature 8B) ── */
+.hebrew-origin-row {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.hebrew-origin-word {
+  font-family: 'SBL Hebrew', 'Ezra SIL', serif;
+  font-size: 1.3rem;
+  direction: rtl;
+  color: var(--accent);
+}
+
+.hebrew-origin-pron {
+  font-style: italic;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.hebrew-origin-strongs {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.hebrew-origin-meaning {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin: 4px 0 6px;
+}
+
+.hebrew-origin-gematria {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+
+.hebrew-origin-gematria-label {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.hebrew-origin-letter {
+  font-family: 'SBL Hebrew', 'Ezra SIL', serif;
+  font-size: 0.95rem;
+  cursor: help;
+}
+
+.hebrew-origin-total {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+/* ── Word DNA / Shoresh (Feature 8A) ── */
+.word-dna-results {
+  margin-top: 8px;
+  padding: 10px;
+  background: var(--bg-secondary);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+.word-dna-root {
+  margin-bottom: 10px;
+}
+
+.word-dna-root-label {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--text-primary);
+}
+
+.word-dna-root-word {
+  font-family: 'SBL Hebrew', 'Ezra SIL', serif;
+  font-size: 1.2rem;
+  direction: rtl;
+  color: var(--accent);
+  margin-left: 6px;
+}
+
+.word-dna-root-num {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.word-dna-root-meaning {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin: 2px 0 0;
+}
+
+.word-dna-letters {
+  margin-bottom: 10px;
+}
+
+.word-dna-letters-label {
+  font-weight: 700;
+  font-size: 0.82rem;
+  margin-bottom: 6px;
+  color: var(--text-primary);
+}
+
+.word-dna-letter {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 3px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.82rem;
+}
+
+.word-dna-letter:last-child {
+  border-bottom: none;
+}
+
+.word-dna-char {
+  font-family: 'SBL Hebrew', 'Ezra SIL', serif;
+  font-size: 1.1rem;
+  min-width: 20px;
+  text-align: center;
+  color: var(--accent);
+}
+
+.word-dna-sym {
+  font-weight: 600;
+  min-width: 90px;
+  color: var(--text-primary);
+}
+
+.word-dna-lmean {
+  color: var(--text-secondary);
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.word-dna-total {
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  color: var(--accent);
+}
+
+.word-dna-derived {
+  margin-top: 8px;
+}
+
+.word-dna-derived-label {
+  font-weight: 700;
+  font-size: 0.82rem;
+  margin-bottom: 4px;
+  color: var(--text-primary);
+}
+
+.word-dna-derived-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.word-dna-derived-list li {
+  padding: 3px 0;
+  font-size: 0.82rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.word-dna-derived-list li:last-child {
+  border-bottom: none;
+}
+
+.word-dna-dw-word {
+  font-family: 'SBL Hebrew', 'Ezra SIL', serif;
+  font-size: 0.95rem;
+  color: var(--accent);
+}
+
+.word-dna-dw-num {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.word-dna-dw-def {
+  color: var(--text-secondary);
+}

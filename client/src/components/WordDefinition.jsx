@@ -59,7 +59,26 @@ function LetterCard({ letter }) {
   )
 }
 
-function WordDefinition({ word, position, onClose, testament }) {
+// Verse list for concordance/metaphysical search results
+function VerseResultsList({ verses, onNavigate }) {
+  if (!verses || !verses.length) return <p className="word-definition-none">No verses found.</p>
+  return (
+    <div className="concordance-verse-results">
+      {verses.map((v, i) => (
+        <button
+          key={i}
+          className="concordance-verse-item"
+          onClick={() => onNavigate && onNavigate(v.book, v.chapter, v.verse)}
+        >
+          <span className="concordance-verse-ref">{v.bookName} {v.chapter}:{v.verse}</span>
+          <span className="concordance-verse-text">{v.text}</span>
+        </button>
+      ))}
+    </div>
+  )
+}
+
+function WordDefinition({ word, position, onClose, testament, onNavigate }) {
   const [data, setData]         = useState(null)
   const [mib, setMib]           = useState(null)
   const [gematria, setGematria] = useState(null)
@@ -68,9 +87,28 @@ function WordDefinition({ word, position, onClose, testament }) {
   const [expanded, setExpanded] = useState(false)
   const popupRef                = useRef(null)
 
+  // Concordance verse search state
+  const [concordanceVerses, setConcordanceVerses] = useState(null)
+  const [concordanceLoading, setConcordanceLoading] = useState(false)
+
+  // Metaphysical verse search state
+  const [metaVerses, setMetaVerses] = useState(null)
+  const [metaLoading, setMetaLoading] = useState(false)
+
+  // Word DNA / root state
+  const [rootData, setRootData] = useState(null)
+  const [rootLoading, setRootLoading] = useState(false)
+
+  // Greek→Hebrew origin state
+  const [hebrewOrigin, setHebrewOrigin] = useState(null)
+
   // Reset to compact whenever a new word is selected
   useEffect(() => {
     setExpanded(false)
+    setConcordanceVerses(null)
+    setMetaVerses(null)
+    setRootData(null)
+    setHebrewOrigin(null)
   }, [word])
 
   useEffect(() => {
@@ -89,6 +127,16 @@ function WordDefinition({ word, position, onClose, testament }) {
 
         const hebrewWord = defResult?.concordance?.originalWord
         const isHebrew   = defResult?.concordance?.language === 'Hebrew'
+        const isGreek    = defResult?.concordance?.language === 'Greek'
+        const strongsNum = defResult?.concordance?.strongsNumber
+
+        // If Greek word, check for Hebrew origin
+        if (isGreek && strongsNum) {
+          fetch(`/api/hebrew-origin/${encodeURIComponent(strongsNum)}`)
+            .then(r => r.ok ? r.json() : null)
+            .then(ho => { if (ho?.hebrewOrigin) setHebrewOrigin(ho.hebrewOrigin) })
+            .catch(() => {})
+        }
 
         return Promise.all([
           fetch(`/api/metaphysical/${encodeURIComponent(word)}`)
@@ -129,6 +177,47 @@ function WordDefinition({ word, position, onClose, testament }) {
       saveToggles(next)
       return next
     })
+  }
+
+  // Fetch concordance verses for the current Strong's number
+  function handleFindConcordanceVerses() {
+    const sn = data?.concordance?.strongsNumber
+    if (!sn || concordanceLoading) return
+    setConcordanceLoading(true)
+    fetch(`/api/concordance/strongs/${encodeURIComponent(sn)}`)
+      .then(r => r.ok ? r.json() : null)
+      .then(result => {
+        setConcordanceVerses(result?.verses || [])
+        setConcordanceLoading(false)
+      })
+      .catch(() => setConcordanceLoading(false))
+  }
+
+  // Fetch metaphysical verses
+  function handleFindMetaVerses() {
+    if (!word || metaLoading) return
+    setMetaLoading(true)
+    fetch(`/api/concordance/metaphysical/${encodeURIComponent(word)}`)
+      .then(r => r.ok ? r.json() : null)
+      .then(result => {
+        setMetaVerses(result?.verses || [])
+        setMetaLoading(false)
+      })
+      .catch(() => setMetaLoading(false))
+  }
+
+  // Fetch root/shoresh data
+  function handleFindRoots() {
+    const sn = data?.concordance?.strongsNumber
+    if (!sn || rootLoading) return
+    setRootLoading(true)
+    fetch(`/api/roots/${encodeURIComponent(sn)}`)
+      .then(r => r.ok ? r.json() : null)
+      .then(result => {
+        setRootData(result)
+        setRootLoading(false)
+      })
+      .catch(() => setRootLoading(false))
   }
 
   if (!word) return null
@@ -285,6 +374,98 @@ function WordDefinition({ word, position, onClose, testament }) {
                         </div>
                       </div>
                     )}
+
+                    {/* ── Hebrew Origin (Greek→Hebrew, Feature 8B) ── */}
+                    {hebrewOrigin && (
+                      <div className="concordance-section">
+                        <div className="concordance-section-title">Hebrew Origin</div>
+                        <div className="hebrew-origin-row">
+                          <span className="hebrew-origin-word">{hebrewOrigin.word}</span>
+                          {hebrewOrigin.pronunciation && (
+                            <span className="hebrew-origin-pron">({hebrewOrigin.pronunciation})</span>
+                          )}
+                          <span className="hebrew-origin-strongs">— {hebrewOrigin.strongsNumber}</span>
+                        </div>
+                        <p className="hebrew-origin-meaning">{hebrewOrigin.meaning}</p>
+                        {hebrewOrigin.gematria && (
+                          <div className="hebrew-origin-gematria">
+                            <span className="hebrew-origin-gematria-label">Gematria: </span>
+                            {hebrewOrigin.gematria.letters.map((l, i) => (
+                              <span key={i} className="hebrew-origin-letter" title={l.meaning}>
+                                {l.character}({l.value})
+                              </span>
+                            ))}
+                            <span className="hebrew-origin-total"> = {hebrewOrigin.gematria.totalValue}</span>
+                          </div>
+                        )}
+                      </div>
+                    )}
+
+                    {/* ── Word DNA / Shoresh (Feature 8A) ── */}
+                    {concordance.language === 'Hebrew' && (
+                      <div className="concordance-section">
+                        <button
+                          className="concordance-action-btn"
+                          onClick={handleFindRoots}
+                          disabled={rootLoading}
+                        >
+                          {rootLoading ? 'Loading…' : rootData ? 'Word DNA ▲' : '🔬 Word DNA / Root'}
+                        </button>
+                        {rootData && (
+                          <div className="word-dna-results">
+                            {rootData.root && (
+                              <div className="word-dna-root">
+                                <span className="word-dna-root-label">Shoresh (Root): </span>
+                                <span className="word-dna-root-word">{rootData.root.word}</span>
+                                <span className="word-dna-root-num"> {rootData.root.number}</span>
+                                <p className="word-dna-root-meaning">{rootData.root.meaning}</p>
+                              </div>
+                            )}
+                            {rootData.wordDNA && rootData.wordDNA.letters && (
+                              <div className="word-dna-letters">
+                                <div className="word-dna-letters-label">Letter Breakdown (Suarès):</div>
+                                {rootData.wordDNA.letters.map((l, i) => (
+                                  <div key={i} className="word-dna-letter">
+                                    <span className="word-dna-char">{l.character}</span>
+                                    <span className="word-dna-sym">{l.symbol} ({l.value})</span>
+                                    <span className="word-dna-lmean">{l.meaning}</span>
+                                  </div>
+                                ))}
+                                <div className="word-dna-total">Total = {rootData.wordDNA.totalValue}</div>
+                              </div>
+                            )}
+                            {rootData.derivedWords && rootData.derivedWords.length > 0 && (
+                              <div className="word-dna-derived">
+                                <div className="word-dna-derived-label">Related Words from Same Root:</div>
+                                <ul className="word-dna-derived-list">
+                                  {rootData.derivedWords.slice(0, 15).map((dw, i) => (
+                                    <li key={i}>
+                                      <span className="word-dna-dw-word">{dw.word}</span>
+                                      <span className="word-dna-dw-num"> {dw.strongsNumber}</span>
+                                      <span className="word-dna-dw-def"> — {dw.shortDefinition}</span>
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            )}
+                          </div>
+                        )}
+                      </div>
+                    )}
+
+                    {/* ── Find all verses button (Feature 6) ── */}
+                    <div className="concordance-section">
+                      <button
+                        className="concordance-action-btn"
+                        onClick={handleFindConcordanceVerses}
+                        disabled={concordanceLoading}
+                      >
+                        {concordanceLoading ? 'Searching…' : concordanceVerses ? 'Verses ▲' : '📖 Find all verses with this word'}
+                      </button>
+                      {concordanceVerses && (
+                        <VerseResultsList verses={concordanceVerses} onNavigate={onNavigate} />
+                      )}
+                    </div>
                   </div>
                 ) : definition ? (
                   <p className="word-definition-text">{definition}</p>
@@ -315,6 +496,19 @@ function WordDefinition({ word, position, onClose, testament }) {
                         {mib.scriptureRefs.slice(0, 4).map(r => r.ref).join('  ·  ')}
                       </div>
                     )}
+                    {/* ── Find verses with same meaning (Feature 6) ── */}
+                    <div className="concordance-section">
+                      <button
+                        className="concordance-action-btn"
+                        onClick={handleFindMetaVerses}
+                        disabled={metaLoading}
+                      >
+                        {metaLoading ? 'Searching…' : metaVerses ? 'Verses ▲' : '📖 Find verses with same meaning'}
+                      </button>
+                      {metaVerses && (
+                        <VerseResultsList verses={metaVerses} onNavigate={onNavigate} />
+                      )}
+                    </div>
                   </div>
                 ) : (
                   <p className="word-definition-none mib-none">No metaphysical entry found.</p>
