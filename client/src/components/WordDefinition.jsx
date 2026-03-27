@@ -33,10 +33,7 @@ function WordDefinition({ word, position, onClose, testament }) {
       .then(res => res.json())
       .then(defResult => {
         setData(defResult)
-        const strongs = defResult?.concordance?.strongsNumber
-          ? `?strongs=${encodeURIComponent(defResult.concordance.strongsNumber)}`
-          : ''
-        return fetch(`/api/metaphysical/${encodeURIComponent(word)}${strongs}`)
+        return fetch(`/api/metaphysical/${encodeURIComponent(word)}`)
           .then(res => res.ok ? res.json() : null)
           .catch(() => null)
       })
