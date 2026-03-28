@@ -3,10 +3,16 @@
  * Loaded once at startup.
  */
 
+const fs = require('fs');
 const path = require('path');
 
-const gematriaPath = process.env.GEMATRIA_PATH ||
-  path.join(__dirname, 'gematria.json');
+const gemCandidates = [
+  process.env.GEMATRIA_PATH,
+  path.join(__dirname, 'gematria.json'),
+  path.join(__dirname, '..', '..', 'custom-resources', 'gematria.json'),
+].filter(Boolean);
+const gematriaPath = gemCandidates.find(p => { try { return fs.existsSync(p); } catch { return false; } })
+  || path.join(__dirname, 'gematria.json');
 
 const raw      = require(gematriaPath);
 const symbols  = raw.suares_cipher_of_genesis.autiot_symbols;
