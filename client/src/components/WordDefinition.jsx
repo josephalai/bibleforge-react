@@ -60,11 +60,16 @@ function LetterCard({ letter }) {
 }
 
 // Verse list for concordance/metaphysical search results
+const VERSE_DISPLAY_CAP = 20
+
 function VerseResultsList({ verses, onNavigate }) {
+  const [showAll, setShowAll] = useState(false)
   if (!verses || !verses.length) return <p className="word-definition-none">No verses found.</p>
+  const capped = !showAll && verses.length > VERSE_DISPLAY_CAP
+  const displayed = capped ? verses.slice(0, VERSE_DISPLAY_CAP) : verses
   return (
     <div className="concordance-verse-results">
-      {verses.map((v, i) => (
+      {displayed.map((v, i) => (
         <button
           key={i}
           className="concordance-verse-item"
@@ -74,6 +79,16 @@ function VerseResultsList({ verses, onNavigate }) {
           <span className="concordance-verse-text">{v.text}</span>
         </button>
       ))}
+      {capped && (
+        <button className="concordance-action-btn" onClick={() => setShowAll(true)}>
+          Show all {verses.length} results
+        </button>
+      )}
+      {showAll && verses.length > VERSE_DISPLAY_CAP && (
+        <button className="concordance-action-btn" onClick={() => setShowAll(false)}>
+          Show less ▲
+        </button>
+      )}
     </div>
   )
 }
@@ -181,6 +196,7 @@ function WordDefinition({ word, position, onClose, testament, onNavigate }) {
 
   // Fetch concordance verses for the current Strong's number
   function handleFindConcordanceVerses() {
+    if (concordanceVerses) { setConcordanceVerses(null); return }
     const sn = data?.concordance?.strongsNumber
     if (!sn || concordanceLoading) return
     setConcordanceLoading(true)
@@ -195,6 +211,7 @@ function WordDefinition({ word, position, onClose, testament, onNavigate }) {
 
   // Fetch metaphysical verses
   function handleFindMetaVerses() {
+    if (metaVerses) { setMetaVerses(null); return }
     if (!word || metaLoading) return
     setMetaLoading(true)
     fetch(`/api/concordance/metaphysical/${encodeURIComponent(word)}`)
@@ -208,6 +225,7 @@ function WordDefinition({ word, position, onClose, testament, onNavigate }) {
 
   // Fetch root/shoresh data
   function handleFindRoots() {
+    if (rootData) { setRootData(null); return }
     const sn = data?.concordance?.strongsNumber
     if (!sn || rootLoading) return
     setRootLoading(true)
