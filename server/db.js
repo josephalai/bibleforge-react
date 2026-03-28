@@ -66,4 +66,8 @@ async function searchVerses(query) {
   }
 }
 
-module.exports = { isConnected, getVerses, searchVerses };
+function getPool() {
+  return pool;
+}
+
+module.exports = { isConnected, getVerses, searchVerses, getPool };

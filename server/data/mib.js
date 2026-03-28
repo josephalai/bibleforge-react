@@ -3,11 +3,18 @@
  * Loaded once at startup — 3,668 entries, ~4MB.
  */
 
+const fs = require('fs');
 const path = require('path');
 // Production: file copied into server/data/ by Dockerfile
 // Dev: MIB_PATH env var points to the mounted custom-resources location
-const mibPath = process.env.MIB_PATH || path.join(__dirname, 'metaphysical-bible-dictionary.json');
-const mib = require(mibPath);
+// Local dev fallback: try custom-resources/ relative to project root
+const candidates = [
+  process.env.MIB_PATH,
+  path.join(__dirname, 'metaphysical-bible-dictionary.json'),
+  path.join(__dirname, '..', '..', 'custom-resources', 'metaphysical-bible-dictionary.json'),
+].filter(Boolean);
+const mibPath = candidates.find(p => { try { return fs.existsSync(p); } catch { return false; } });
+const mib = mibPath ? require(mibPath) : [];
 
 function normalize(word) {
   return word.replace(/[^a-z0-9\s-]/gi, '').trim().toLowerCase();

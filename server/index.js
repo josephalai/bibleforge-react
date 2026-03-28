@@ -12,6 +12,15 @@ const { getDefinition } = require("./data/definitions");
 const { getMIBEntry } = require("./data/mib");
 const { getGematria } = require("./data/gematria");
 
+const cookieParser = require("cookie-parser");
+const authRoutes = require("./routes/auth");
+const versesRoutes = require("./routes/verses");
+const { concordanceRouter, rootsRouter, hebrewOriginRouter } = require("./routes/concordance");
+const gematriaRoutes = require("./routes/gematria");
+const qabalisticRoutes = require("./routes/qabalistic");
+const compareRoutes = require("./routes/compare");
+const teachingsRoutes = require("./routes/teachings");
+
 const app = express();
 const PORT = parseInt(process.env.PORT, 10) || 3001;
 
@@ -27,6 +36,7 @@ app.use(limiter);
 app.use(cors());
 app.use(compression());
 app.use(express.json());
+app.use(cookieParser());
 
 // Serve static files in production (Docker)
 const staticPath = process.env.STATIC_PATH;
@@ -45,6 +55,21 @@ async function initDataSource() {
     console.log("MySQL unavailable — using embedded JSON data");
   }
 }
+
+// Auth routes
+app.use("/api/auth", authRoutes);
+
+// Stars & Notes routes
+app.use("/api", versesRoutes);
+
+// Concordance, Roots, Hebrew-origin routes
+app.use("/api/concordance", concordanceRouter);
+app.use("/api/roots", rootsRouter);
+app.use("/api/hebrew-origin", hebrewOriginRouter);
+app.use("/api/gematria", gematriaRoutes);
+app.use("/api/qabalistic-meaning", qabalisticRoutes);
+app.use("/api/compare", compareRoutes);
+app.use("/api/teachings", teachingsRoutes);
 
 // GET /api/health
 app.get("/api/health", async (_req, res) => {
