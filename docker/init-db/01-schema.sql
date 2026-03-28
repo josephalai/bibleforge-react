@@ -56,3 +56,27 @@ CREATE TABLE IF NOT EXISTS `verse_notes` (
   KEY `idx_user_book` (`user_id`, `book`),
   FOREIGN KEY (`user_id`) REFERENCES `users`(`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS `teachings` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `user_id` INT NOT NULL,
+  `title` VARCHAR(255) NOT NULL,
+  `description` TEXT,
+  `content_json` LONGTEXT,
+  `is_ai_generated` BOOLEAN DEFAULT FALSE,
+  `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  KEY `idx_teachings_user` (`user_id`),
+  FOREIGN KEY (`user_id`) REFERENCES `users`(`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS `teaching_verses` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `teaching_id` INT NOT NULL,
+  `book` TINYINT NOT NULL,
+  `chapter` SMALLINT NOT NULL,
+  `verse` SMALLINT NOT NULL,
+  `order_index` INT DEFAULT 0,
+  `notes` TEXT,
+  FOREIGN KEY (`teaching_id`) REFERENCES `teachings`(`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

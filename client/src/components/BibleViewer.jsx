@@ -1,8 +1,34 @@
 import NoteEditor from './NoteEditor'
-import { useState } from 'react'
+import GematriaBadge from './GematriaBadge'
+import TeachingEditor from './TeachingEditor'
+import { useState, useEffect } from 'react'
 
-function BibleViewer({ verses, bookName, chapter, totalChapters, loading, error, onChapterChange, onWordClick, stars, notes, onToggleStar, onEditNote, onShowAuthModal, user }) {
+function BibleViewer({ verses, bookName, chapter, totalChapters, loading, error, onChapterChange, onWordClick, stars, notes, onToggleStar, onEditNote, onShowAuthModal, user, currentBook, onAddCompare, onShowQabalistic, getAuthHeaders }) {
   const [editingVerse, setEditingVerse] = useState(null)
+  const [gematriaValues, setGematriaValues] = useState({})
+  const [teachingVerse, setTeachingVerse] = useState(null)
+
+  const isOT = currentBook && currentBook >= 1 && currentBook <= 39
+
+  // Fetch chapter gematria values for OT books
+  useEffect(() => {
+    if (!isOT || !currentBook || !chapter) {
+      setGematriaValues({})
+      return
+    }
+    fetch(`/api/gematria/chapter/${currentBook}/${chapter}`)
+      .then(res => res.ok ? res.json() : null)
+      .then(data => {
+        if (data && data.verses) {
+          const map = {}
+          data.verses.forEach(v => { map[v.verse] = v.value })
+          setGematriaValues(map)
+        } else {
+          setGematriaValues({})
+        }
+      })
+      .catch(() => setGematriaValues({}))
+  }, [currentBook, chapter, isOT])
 
   if (loading) {
     return (
@@ -118,6 +144,14 @@ function BibleViewer({ verses, bookName, chapter, totalChapters, loading, error,
           <span className="verse" key={v.id ?? `${v.chapter}-${v.verse}`}>
             <span className="verse-actions">
               <sup className="verse-number">{v.verse}</sup>
+              {isOT && gematriaValues[v.verse] && (
+                <GematriaBadge
+                  bookId={currentBook}
+                  chapter={chapter}
+                  verse={v.verse}
+                  value={gematriaValues[v.verse]}
+                />
+              )}
               <button
                 className={`verse-star-btn ${isStarred(v.verse) ? 'starred' : ''}`}
                 onClick={e => handleStarClick(e, v.verse)}
@@ -134,8 +168,45 @@ function BibleViewer({ verses, bookName, chapter, totalChapters, loading, error,
               >
                 {hasNote(v.verse) ? '📝' : '📄'}
               </button>
+              {onAddCompare && (
+                <button
+                  className="verse-action-btn verse-compare-btn"
+                  onClick={e => { e.stopPropagation(); onAddCompare(currentBook, chapter, v.verse) }}
+                  aria-label="Add to compare"
+                  title="Add to compare"
+                >⚖</button>
+              )}
+              {isOT && onShowQabalistic && (
+                <button
+                  className="verse-action-btn verse-qabalistic-btn"
+                  onClick={e => { e.stopPropagation(); onShowQabalistic(currentBook, chapter, v.verse) }}
+                  aria-label="Qabalistic meaning"
+                  title="✡ Qabalistic Meaning"
+                >✡</button>
+              )}
+              {user && getAuthHeaders && (
+                <button
+                  className="verse-action-btn verse-teaching-btn"
+                  onClick={e => { e.stopPropagation(); setTeachingVerse(teachingVerse === v.verse ? null : v.verse) }}
+                  aria-label="Add to teaching"
+                  title="Add to teaching"
+                >📚</button>
+              )}
             </span>
             <span className="verse-text">{renderVerseText(v.text)} </span>
+            {teachingVerse === v.verse && user && getAuthHeaders && (
+              <span className="verse-note-editor-wrapper">
+                <TeachingEditor
+                  book={currentBook}
+                  chapter={chapter}
+                  verse={v.verse}
+                  bookName={bookName}
+                  user={user}
+                  getAuthHeaders={getAuthHeaders}
+                  onClose={() => setTeachingVerse(null)}
+                />
+              </span>
+            )}
             {editingVerse === v.verse && (
               <span className="verse-note-editor-wrapper">
                 <NoteEditor

@@ -8,6 +8,10 @@ import ThemeToggle from './components/ThemeToggle'
 import WordDefinition from './components/WordDefinition'
 import AuthModal from './components/AuthModal'
 import NotebookPanel from './components/NotebookPanel'
+import QabalisticPanel from './components/QabalisticPanel'
+import CompareTray from './components/CompareTray'
+import CompareView from './components/CompareView'
+import TeachingsList from './components/TeachingsList'
 import { useAuth } from './contexts/AuthContext'
 
 function App() {
@@ -29,6 +33,10 @@ function App() {
   const [notes, setNotes] = useState([])
   const [showNotebook, setShowNotebook] = useState(false)
   const initialLoad = useRef(true)
+  const [qabalisticVerse, setQabalisticVerse] = useState(null) // {book, chapter, verse}
+  const [compareVerses, setCompareVerses] = useState([])
+  const [showCompare, setShowCompare] = useState(false)
+  const [showTeachings, setShowTeachings] = useState(false)
 
   // Apply theme to body
   useEffect(() => {
@@ -203,6 +211,23 @@ function App() {
 
   const currentBookData = books.find(b => b.id === currentBook)
 
+  const handleAddCompare = useCallback((bookId, chapter, verse) => {
+    setCompareVerses(prev => {
+      const exists = prev.some(v => v.book === bookId && v.chapter === chapter && v.verse === verse)
+      if (exists) return prev
+      if (prev.length >= 10) return prev
+      return [...prev, { book: bookId, chapter, verse }]
+    })
+  }, [])
+
+  const handleRemoveCompare = useCallback((index) => {
+    setCompareVerses(prev => prev.filter((_, i) => i !== index))
+  }, [])
+
+  const handleShowQabalistic = useCallback((bookId, chapter, verse) => {
+    setQabalisticVerse({ book: bookId, chapter, verse })
+  }, [])
+
   const handleChapterChange = useCallback((delta) => {
     const book = books.find(b => b.id === currentBook)
     if (!book) return
@@ -240,6 +265,14 @@ function App() {
               >
                 📓
               </button>
+              <button
+                className="notebook-toggle-btn"
+                onClick={() => setShowTeachings(v => !v)}
+                aria-label="Toggle teachings"
+                title="Teachings"
+              >
+                📚
+              </button>
               <span className="user-display-name">{user.displayName || user.email}</span>
               <button className="sign-out-btn" onClick={logout}>Sign Out</button>
             </div>
@@ -276,6 +309,10 @@ function App() {
             onEditNote={handleEditNote}
             onShowAuthModal={() => setShowAuthModal(true)}
             user={user}
+            currentBook={currentBook}
+            onAddCompare={handleAddCompare}
+            onShowQabalistic={handleShowQabalistic}
+            getAuthHeaders={getAuthHeaders}
           />
         )}
       </main>
@@ -311,6 +348,42 @@ function App() {
           user={user}
           onClose={() => setShowNotebook(false)}
           onNavigate={handleNavigate}
+        />
+      )}
+
+      {qabalisticVerse && (
+        <QabalisticPanel
+          book={qabalisticVerse.book}
+          chapter={qabalisticVerse.chapter}
+          verse={qabalisticVerse.verse}
+          bookName={books.find(b => b.id === qabalisticVerse.book)?.name || ''}
+          onClose={() => setQabalisticVerse(null)}
+        />
+      )}
+
+      <CompareTray
+        compareVerses={compareVerses}
+        books={books}
+        onRemove={handleRemoveCompare}
+        onClear={() => setCompareVerses([])}
+        onCompare={() => setShowCompare(true)}
+      />
+
+      {showCompare && compareVerses.length >= 2 && (
+        <CompareView
+          compareVerses={compareVerses}
+          books={books}
+          onClose={() => setShowCompare(false)}
+        />
+      )}
+
+      {showTeachings && user && (
+        <TeachingsList
+          user={user}
+          books={books}
+          onClose={() => setShowTeachings(false)}
+          onNavigate={handleNavigate}
+          getAuthHeaders={getAuthHeaders}
         />
       )}
     </div>

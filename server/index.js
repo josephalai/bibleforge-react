@@ -17,6 +17,9 @@ const authRoutes = require("./routes/auth");
 const versesRoutes = require("./routes/verses");
 const { concordanceRouter, rootsRouter, hebrewOriginRouter } = require("./routes/concordance");
 const gematriaRoutes = require("./routes/gematria");
+const qabalisticRoutes = require("./routes/qabalistic");
+const compareRoutes = require("./routes/compare");
+const teachingsRoutes = require("./routes/teachings");
 
 const app = express();
 const PORT = parseInt(process.env.PORT, 10) || 3001;
@@ -64,6 +67,9 @@ app.use("/api/concordance", concordanceRouter);
 app.use("/api/roots", rootsRouter);
 app.use("/api/hebrew-origin", hebrewOriginRouter);
 app.use("/api/gematria", gematriaRoutes);
+app.use("/api/qabalistic-meaning", qabalisticRoutes);
+app.use("/api/compare", compareRoutes);
+app.use("/api/teachings", teachingsRoutes);
 
 // GET /api/health
 app.get("/api/health", async (_req, res) => {
