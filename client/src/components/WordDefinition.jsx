@@ -59,36 +59,72 @@ function LetterCard({ letter }) {
   )
 }
 
-// Verse list for concordance/metaphysical search results
-const VERSE_DISPLAY_CAP = 20
+// Verse list for concordance/metaphysical search results — grouped by book
+const VERSES_PER_BOOK = 20
+
+function BookGroup({ bookName, verses, onNavigate }) {
+  const [expanded, setExpanded] = useState(false)
+  const [showAll, setShowAll] = useState(false)
+  const capped = !showAll && verses.length > VERSES_PER_BOOK
+  const displayed = capped ? verses.slice(0, VERSES_PER_BOOK) : verses
+  return (
+    <div className="verse-book-group">
+      <button className="verse-book-header" onClick={() => setExpanded(e => !e)}>
+        <span className="verse-book-name">{bookName}</span>
+        <span className="verse-book-count">{verses.length} verse{verses.length !== 1 ? 's' : ''}</span>
+        <span className="verse-book-chevron">{expanded ? '▲' : '▼'}</span>
+      </button>
+      {expanded && (
+        <div className="verse-book-body">
+          {displayed.map((v, i) => (
+            <button
+              key={i}
+              className="concordance-verse-item"
+              onClick={() => onNavigate && onNavigate(v.book, v.chapter, v.verse)}
+            >
+              <span className="concordance-verse-ref">{v.chapter}:{v.verse}</span>
+              <span className="concordance-verse-text">{v.text}</span>
+            </button>
+          ))}
+          {capped && (
+            <button className="concordance-action-btn" onClick={() => setShowAll(true)}>
+              Show all {verses.length} in {bookName}
+            </button>
+          )}
+          {showAll && verses.length > VERSES_PER_BOOK && (
+            <button className="concordance-action-btn" onClick={() => setShowAll(false)}>
+              Show less ▲
+            </button>
+          )}
+        </div>
+      )}
+    </div>
+  )
+}
 
 function VerseResultsList({ verses, onNavigate }) {
-  const [showAll, setShowAll] = useState(false)
   if (!verses || !verses.length) return <p className="word-definition-none">No verses found.</p>
-  const capped = !showAll && verses.length > VERSE_DISPLAY_CAP
-  const displayed = capped ? verses.slice(0, VERSE_DISPLAY_CAP) : verses
+
+  // Group verses by book, preserving canonical order
+  const bookGroups = []
+  const bookMap = new Map()
+  for (const v of verses) {
+    if (!bookMap.has(v.bookName)) {
+      const group = { bookName: v.bookName, verses: [] }
+      bookMap.set(v.bookName, group)
+      bookGroups.push(group)
+    }
+    bookMap.get(v.bookName).verses.push(v)
+  }
+
   return (
     <div className="concordance-verse-results">
-      {displayed.map((v, i) => (
-        <button
-          key={i}
-          className="concordance-verse-item"
-          onClick={() => onNavigate && onNavigate(v.book, v.chapter, v.verse)}
-        >
-          <span className="concordance-verse-ref">{v.bookName} {v.chapter}:{v.verse}</span>
-          <span className="concordance-verse-text">{v.text}</span>
-        </button>
+      <div className="verse-results-summary">
+        {verses.length} verse{verses.length !== 1 ? 's' : ''} across {bookGroups.length} book{bookGroups.length !== 1 ? 's' : ''}
+      </div>
+      {bookGroups.map(g => (
+        <BookGroup key={g.bookName} bookName={g.bookName} verses={g.verses} onNavigate={onNavigate} />
       ))}
-      {capped && (
-        <button className="concordance-action-btn" onClick={() => setShowAll(true)}>
-          Show all {verses.length} results
-        </button>
-      )}
-      {showAll && verses.length > VERSE_DISPLAY_CAP && (
-        <button className="concordance-action-btn" onClick={() => setShowAll(false)}>
-          Show less ▲
-        </button>
-      )}
     </div>
   )
 }

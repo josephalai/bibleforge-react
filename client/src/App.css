@@ -1724,11 +1724,66 @@ body.theme-dark {
 }
 
 .concordance-verse-results {
-  max-height: 300px;
+  max-height: 400px;
   overflow-y: auto;
   margin-top: 8px;
   border: 1px solid var(--border);
   border-radius: var(--radius);
+}
+
+.verse-results-summary {
+  padding: 6px 10px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--accent-light);
+  border-bottom: 1px solid var(--border);
+}
+
+.verse-book-group {
+  border-bottom: 1px solid var(--border);
+}
+
+.verse-book-group:last-child {
+  border-bottom: none;
+}
+
+.verse-book-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  padding: 7px 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 0.82rem;
+  text-align: left;
+  transition: background 0.15s;
+}
+
+.verse-book-header:hover {
+  background: var(--accent-light);
+}
+
+.verse-book-name {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.verse-book-count {
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+}
+
+.verse-book-chevron {
+  margin-left: auto;
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+}
+
+.verse-book-body {
+  border-top: 1px solid var(--border);
 }
 
 .concordance-verse-item {

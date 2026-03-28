@@ -15,8 +15,6 @@ const concordanceRouter = express.Router();
 const rootsRouter = express.Router();
 const hebrewOriginRouter = express.Router();
 
-const MAX_RESULTS = 100;
-
 // ── Helpers ────────────────────────────────────────────────────────────────
 
 /**
@@ -38,7 +36,7 @@ for (const key of Object.keys(strongsToWords)) {
 
 /**
  * Search bible verses for any of the given words (word-boundary match).
- * Returns up to MAX_RESULTS verse objects with book name.
+ * Returns all matching verse objects grouped by canonical book order.
  */
 function findVersesWithWords(words) {
   if (!words || !words.length) return [];
@@ -49,13 +47,12 @@ function findVersesWithWords(words) {
   });
 
   const results = [];
-  for (let bookIdx = 1; bookIdx <= 66 && results.length < MAX_RESULTS; bookIdx++) {
+  for (let bookIdx = 1; bookIdx <= 66; bookIdx++) {
     const bookInfo = books[bookIdx];
     if (!bookInfo) continue;
-    for (let ch = 1; ch <= bookInfo.chapters && results.length < MAX_RESULTS; ch++) {
+    for (let ch = 1; ch <= bookInfo.chapters; ch++) {
       const verses = bible.getVerses(bookIdx, ch);
       for (const v of verses) {
-        if (results.length >= MAX_RESULTS) break;
         if (v.text && patterns.some(p => p.test(v.text))) {
           results.push({
             book: bookInfo.id,
@@ -108,6 +105,7 @@ concordanceRouter.get('/strongs/:strongsNumber', (req, res) => {
     originalWord: entry.base_word,
     shortDefinition: entry.data?.def?.short || '',
     words,
+    totalCount: verses.length,
     verses,
   });
 });
@@ -125,6 +123,7 @@ concordanceRouter.get('/metaphysical/:word', (req, res) => {
     word,
     mibEntry: mibEntry || null,
     relatedWords: [],
+    totalCount: verses.length,
     verses,
   });
 });
